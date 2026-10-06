@@ -1,0 +1,53 @@
+{
+  "artifact": "artifacts/p6-network-profile",
+  "sourceSha256": "b80560e6fcddb0ba973287babfe178312819b5e19de0e94b421a4c5356f46568",
+  "profile": {
+    "downloadMbps": 50,
+    "responseDelayMs": 40
+  },
+  "runs": [
+    {
+      "origin": "http://127.0.0.1:5226",
+      "usableMs": 2962.5,
+      "startupBudgetPassed": true,
+      "completedResponses": 232,
+      "encodedBodyBytes": 15215287,
+      "encodedBodyBudgetPassed": true,
+      "serverBodySpanMs": 6410.007200000002,
+      "averageEncodedBodyMbps": 18.989416423744416,
+      "nativeWasmDownloads": 2,
+      "externalResourceUrls": [],
+      "browserEvidence": "p6-startup-50mbps-1-browser.json",
+      "serverEvidence": "p6-startup-50mbps-1-server.jsonl"
+    },
+    {
+      "origin": "http://127.0.0.1:5227",
+      "usableMs": 3133.2999999523163,
+      "startupBudgetPassed": true,
+      "completedResponses": 232,
+      "encodedBodyBytes": 15215287,
+      "encodedBodyBudgetPassed": true,
+      "serverBodySpanMs": 6351.4542,
+      "averageEncodedBodyMbps": 19.164476695746306,
+      "nativeWasmDownloads": 2,
+      "externalResourceUrls": [],
+      "browserEvidence": "p6-startup-50mbps-2-browser.json",
+      "serverEvidence": "p6-startup-50mbps-2-server.jsonl"
+    },
+    {
+      "origin": "http://127.0.0.1:5228",
+      "usableMs": 3024.600000023842,
+      "startupBudgetPassed": true,
+      "completedResponses": 232,
+      "encodedBodyBytes": 15215287,
+      "encodedBodyBudgetPassed": true,
+      "serverBodySpanMs": 6364.7202,
+      "averageEncodedBodyMbps": 19.12453213575673,
+      "nativeWasmDownloads": 2,
+      "externalResourceUrls": [],
+      "browserEvidence": "p6-startup-50mbps-3-browser.json",
+      "serverEvidence": "p6-startup-50mbps-3-server.jsonl"
+    }
+  ],
+  "scope": "Fresh origin, visible desktop Chromium; local shared encoded-body pacing, not a physical provider or public-host certification. Includes successful startup and worker-cache body downloads through capture close; excludes HTTP headers, refused favicon error, DNS/TLS/upload/packet loss. Browser page resource entries exclude worker requests; server logs include those body responses."
+}

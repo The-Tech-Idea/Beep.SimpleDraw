@@ -1,0 +1,20 @@
+✔ CSS coordinates and queued down/move/up preserve pointer order (11.6772ms)
+✔ secondary pointers do not steal the primary gesture (3.3408ms)
+✔ lost capture and window blur cancel once (1.2522ms)
+✔ detach removes browser and global listeners (0.5114ms)
+✔ wheel direction and modifiers are passed without DPR multiplication (1.5707ms)
+✔ trackpad horizontal scrolling and Command zoom reach the same host contract (0.6787ms)
+✔ line and page wheel units normalize to CSS pixels on both axes (0.7905ms)
+✔ coalesced pen samples preserve order in bounded interop batches (1.6059ms)
+✔ double click reaches the host without changing pointer capture (0.9408ms)
+✔ two touches cancel the preview and promote to anchored pinch; remaining finger never draws (1.6015ms)
+✔ pen metadata is clamped and incidental palm touch cannot change an active pen stroke (1.251ms)
+✔ orientation and observed CSS size cancel previews once and remove observer on detach (0.9814ms)
+ℹ tests 12
+ℹ suites 0
+ℹ pass 12
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 194.3257

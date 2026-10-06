@@ -1,0 +1,106 @@
+  Beep.Skia.Model -> C:\Users\f_ald\source\repos\The-Tech-Idea\Beep.Skia\Beep.Skia.Model\bin\Release\net10.0\Beep.Skia.Model.dll
+  Beep.Skia -> C:\Users\f_ald\source\repos\The-Tech-Idea\Beep.Skia\Beep.Skia\bin\Release\net10.0\Beep.Skia.dll
+  Beep.Skia.FlowChart -> C:\Users\f_ald\source\repos\The-Tech-Idea\Beep.Skia\Beep.Skia.FlowChart\bin\Release\net10.0\Beep.Skia.FlowChart.dll
+  Beep.SimpleDraw.Core -> C:\Users\f_ald\source\repos\The-Tech-Idea\Beep.SimpleDraw\src\Beep.SimpleDraw.Core\bin\Release\net10.0\Beep.SimpleDraw.Core.dll
+  Beep.SimpleDraw.Tests -> C:\Users\f_ald\source\repos\The-Tech-Idea\Beep.SimpleDraw\tests\Beep.SimpleDraw.Tests\bin\Release\net10.0\Beep.SimpleDraw.Tests.dll
+Test run for C:\Users\f_ald\source\repos\The-Tech-Idea\Beep.SimpleDraw\tests\Beep.SimpleDraw.Tests\bin\Release\net10.0\Beep.SimpleDraw.Tests.dll (.NETCoreApp,Version=v10.0)
+A total of 1 test files matched the specified pattern.
+[xUnit.net 00:00:00.74]     Beep.SimpleDraw.Tests.TextMaskTrialTests.AlphaOnlyGlyphImagesMustMatchOriginalPathPixels(zoom: 0.875, stroke: "#80334155") [FAIL]
+[xUnit.net 00:00:00.78]     Beep.SimpleDraw.Tests.TextMaskTrialTests.AlphaOnlyGlyphImagesMustMatchOriginalPathPixels(zoom: 0.409999996, stroke: "#e06b56") [FAIL]
+[xUnit.net 00:00:00.96]     Beep.SimpleDraw.Tests.TextMaskTrialTests.AlphaOnlyGlyphImagesMustMatchOriginalPathPixels(zoom: 1.75, stroke: "#e06b56") [FAIL]
+[xUnit.net 00:00:01.02]     Beep.SimpleDraw.Tests.TextMaskTrialTests.AlphaOnlyGlyphImagesMustMatchOriginalPathPixels(zoom: 0.409999996, stroke: "#80334155") [FAIL]
+[xUnit.net 00:00:01.23]     Beep.SimpleDraw.Tests.TextMaskTrialTests.AlphaOnlyGlyphImagesMustMatchOriginalPathPixels(zoom: 1.75, stroke: "#80334155") [FAIL]
+[xUnit.net 00:00:01.34]     Beep.SimpleDraw.Tests.TextMaskTrialTests.AlphaOnlyGlyphImagesMustMatchOriginalPathPixels(zoom: 0.875, stroke: "#e06b56") [FAIL]
+  Failed Beep.SimpleDraw.Tests.TextMaskTrialTests.AlphaOnlyGlyphImagesMustMatchOriginalPathPixels(zoom: 0.875, stroke: "#80334155") [301 ms]
+  Error Message:
+   Assert.Equal() Failure: Collections differ
+                          ↓ (pos 94242)
+Expected: [···, 224, 217, 208, 255, 213, ···]
+Actual:   [···, 224, 217, 209, 255, 213, ···]
+                          ↑ (pos 94242)
+  Stack Trace:
+     at Beep.SimpleDraw.Tests.TextMaskTrialTests.AlphaOnlyGlyphImagesMustMatchOriginalPathPixels(Single zoom, String stroke) in C:\Users\f_ald\source\repos\The-Tech-Idea\Beep.SimpleDraw\tests\Beep.SimpleDraw.Tests\TextMaskTrialTests.cs:line 40
+   at System.Reflection.MethodBaseInvoker.InterpretedInvoke_Method(Object obj, IntPtr* args)
+   at System.Reflection.MethodBaseInvoker.InvokeDirectByRefWithFewArgs(Object obj, Span`1 copyOfArgs, BindingFlags invokeAttr)
+  Standard Output Messages:
+ Changed channels=1412; max difference=2; zoom=0.875; stroke=#80334155
+
+
+  Failed Beep.SimpleDraw.Tests.TextMaskTrialTests.AlphaOnlyGlyphImagesMustMatchOriginalPathPixels(zoom: 0.409999996, stroke: "#e06b56") [50 ms]
+  Error Message:
+   Assert.Equal() Failure: Collections differ
+                          ↓ (pos 52094)
+Expected: [···, 213, 210, 218, 255, 231, ···]
+Actual:   [···, 213, 210, 217, 255, 231, ···]
+                          ↑ (pos 52094)
+  Stack Trace:
+     at Beep.SimpleDraw.Tests.TextMaskTrialTests.AlphaOnlyGlyphImagesMustMatchOriginalPathPixels(Single zoom, String stroke) in C:\Users\f_ald\source\repos\The-Tech-Idea\Beep.SimpleDraw\tests\Beep.SimpleDraw.Tests\TextMaskTrialTests.cs:line 40
+   at InvokeStub_TextMaskTrialTests.AlphaOnlyGlyphImagesMustMatchOriginalPathPixels(Object, Span`1)
+   at System.Reflection.MethodBaseInvoker.InvokeWithFewArgs(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+  Standard Output Messages:
+ Changed channels=383; max difference=2; zoom=0.41; stroke=#e06b56
+
+
+  Failed Beep.SimpleDraw.Tests.TextMaskTrialTests.AlphaOnlyGlyphImagesMustMatchOriginalPathPixels(zoom: 1.75, stroke: "#e06b56") [175 ms]
+  Error Message:
+   Assert.Equal() Failure: Collections differ
+                          ↓ (pos 174438)
+Expected: [···, 219, 215, 218, 255, 222, ···]
+Actual:   [···, 219, 215, 217, 255, 222, ···]
+                          ↑ (pos 174438)
+  Stack Trace:
+     at Beep.SimpleDraw.Tests.TextMaskTrialTests.AlphaOnlyGlyphImagesMustMatchOriginalPathPixels(Single zoom, String stroke) in C:\Users\f_ald\source\repos\The-Tech-Idea\Beep.SimpleDraw\tests\Beep.SimpleDraw.Tests\TextMaskTrialTests.cs:line 40
+   at InvokeStub_TextMaskTrialTests.AlphaOnlyGlyphImagesMustMatchOriginalPathPixels(Object, Span`1)
+   at System.Reflection.MethodBaseInvoker.InvokeWithFewArgs(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+  Standard Output Messages:
+ Changed channels=2052; max difference=2; zoom=1.75; stroke=#e06b56
+
+
+  Failed Beep.SimpleDraw.Tests.TextMaskTrialTests.AlphaOnlyGlyphImagesMustMatchOriginalPathPixels(zoom: 0.409999996, stroke: "#80334155") [60 ms]
+  Error Message:
+   Assert.Equal() Failure: Collections differ
+                          ↓ (pos 52089)
+Expected: [···, 255, 226, 219, 212, 255, ···]
+Actual:   [···, 255, 226, 220, 213, 255, ···]
+                          ↑ (pos 52089)
+  Stack Trace:
+     at Beep.SimpleDraw.Tests.TextMaskTrialTests.AlphaOnlyGlyphImagesMustMatchOriginalPathPixels(Single zoom, String stroke) in C:\Users\f_ald\source\repos\The-Tech-Idea\Beep.SimpleDraw\tests\Beep.SimpleDraw.Tests\TextMaskTrialTests.cs:line 40
+   at InvokeStub_TextMaskTrialTests.AlphaOnlyGlyphImagesMustMatchOriginalPathPixels(Object, Span`1)
+   at System.Reflection.MethodBaseInvoker.InvokeWithFewArgs(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+  Standard Output Messages:
+ Changed channels=619; max difference=2; zoom=0.41; stroke=#80334155
+
+
+  Failed Beep.SimpleDraw.Tests.TextMaskTrialTests.AlphaOnlyGlyphImagesMustMatchOriginalPathPixels(zoom: 1.75, stroke: "#80334155") [208 ms]
+  Error Message:
+   Assert.Equal() Failure: Collections differ
+                          ↓ (pos 174436)
+Expected: [···, 217, 255, 224, 217, 209, ···]
+Actual:   [···, 217, 255, 225, 218, 209, ···]
+                          ↑ (pos 174436)
+  Stack Trace:
+     at Beep.SimpleDraw.Tests.TextMaskTrialTests.AlphaOnlyGlyphImagesMustMatchOriginalPathPixels(Single zoom, String stroke) in C:\Users\f_ald\source\repos\The-Tech-Idea\Beep.SimpleDraw\tests\Beep.SimpleDraw.Tests\TextMaskTrialTests.cs:line 40
+   at InvokeStub_TextMaskTrialTests.AlphaOnlyGlyphImagesMustMatchOriginalPathPixels(Object, Span`1)
+   at System.Reflection.MethodBaseInvoker.InvokeWithFewArgs(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+  Standard Output Messages:
+ Changed channels=2970; max difference=2; zoom=1.75; stroke=#80334155
+
+
+  Failed Beep.SimpleDraw.Tests.TextMaskTrialTests.AlphaOnlyGlyphImagesMustMatchOriginalPathPixels(zoom: 0.875, stroke: "#e06b56") [107 ms]
+  Error Message:
+   Assert.Equal() Failure: Collections differ
+                          ↓ (pos 94241)
+Expected: [···, 255, 217, 213, 217, 255, ···]
+Actual:   [···, 255, 217, 214, 217, 255, ···]
+                          ↑ (pos 94241)
+  Stack Trace:
+     at Beep.SimpleDraw.Tests.TextMaskTrialTests.AlphaOnlyGlyphImagesMustMatchOriginalPathPixels(Single zoom, String stroke) in C:\Users\f_ald\source\repos\The-Tech-Idea\Beep.SimpleDraw\tests\Beep.SimpleDraw.Tests\TextMaskTrialTests.cs:line 40
+   at InvokeStub_TextMaskTrialTests.AlphaOnlyGlyphImagesMustMatchOriginalPathPixels(Object, Span`1)
+   at System.Reflection.MethodBaseInvoker.InvokeWithFewArgs(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+  Standard Output Messages:
+ Changed channels=1001; max difference=2; zoom=0.875; stroke=#e06b56
+
+
+Results File: C:\Users\f_ald\source\repos\The-Tech-Idea\Beep.SimpleDraw\artifacts\p6-text-mask-trial\tests\mask-trial.trx
+
+Failed!  - Failed:     6, Passed:     0, Skipped:     0, Total:     6, Duration: 895 ms - Beep.SimpleDraw.Tests.dll (net10.0)

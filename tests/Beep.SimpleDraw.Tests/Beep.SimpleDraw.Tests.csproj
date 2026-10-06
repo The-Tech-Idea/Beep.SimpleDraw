@@ -1,0 +1,29 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup><TargetFramework>net10.0</TargetFramework><IsPackable>false</IsPackable><IsTestProject>true</IsTestProject></PropertyGroup>
+  <ItemGroup>
+    <Compile Include="../../../Beep.Skia/Beep.Skia.Tests/FlowchartSimulatorTests.cs" Link="SiblingRegression/FlowchartSimulatorTests.cs" />
+    <Compile Include="../../../Beep.Skia/Beep.Skia.Tests/FlowchartCodeGeneratorTests.cs" Link="SiblingRegression/FlowchartCodeGeneratorTests.cs" />
+    <Content Include="../../docs/evidence/p1-browser-roundtrip.simpledraw.json" Link="Fixtures/v1.json" CopyToOutputDirectory="PreserveNewest" />
+    <Content Include="../../docs/evidence/p2-browser-roundtrip.simpledraw.json" Link="Fixtures/v2.json" CopyToOutputDirectory="PreserveNewest" />
+    <Content Include="../../docs/evidence/p2-full-browser-roundtrip.simpledraw.json" Link="Fixtures/v3.json" CopyToOutputDirectory="PreserveNewest" />
+    <Content Include="../../docs/evidence/p2-final-browser-roundtrip.simpledraw.json" Link="Fixtures/v4.json" CopyToOutputDirectory="PreserveNewest" />
+    <Content Include="../../docs/evidence/p3-browser-export.png" Link="Fixtures/browser.png" CopyToOutputDirectory="PreserveNewest" />
+    <Content Include="../../docs/evidence/p3-browser-export.svg" Link="Fixtures/browser.svg" CopyToOutputDirectory="PreserveNewest" />
+    <Content Include="../../docs/evidence/p4-keyboard-roundtrip.simpledraw.json" Link="Fixtures/keyboard.json" CopyToOutputDirectory="PreserveNewest" />
+    <Content Include="../../docs/evidence/p5-browser-library.json" Link="Fixtures/library.json" CopyToOutputDirectory="PreserveNewest" />
+    <Content Include="../../docs/evidence/p5-browser-insertion.simpledraw.json" Link="Fixtures/insertion.json" CopyToOutputDirectory="PreserveNewest" />
+    <Content Include="../../docs/evidence/p5-family-browser-library.json" Link="Fixtures/family-library.json" CopyToOutputDirectory="PreserveNewest" />
+    <Content Include="../../docs/evidence/p5-family-browser-board.simpledraw.json" Link="Fixtures/family-board.json" CopyToOutputDirectory="PreserveNewest" />
+    <Content Include="../../docs/evidence/p5-family-browser-export.svg" Link="Fixtures/family.svg" CopyToOutputDirectory="PreserveNewest" />
+    <Content Include="../../docs/evidence/p5-family-browser-export.png" Link="Fixtures/family.png" CopyToOutputDirectory="PreserveNewest" />
+    <Content Include="../../docs/evidence/p5-connected-browser-board.simpledraw.json" Link="Fixtures/connected-board.json" CopyToOutputDirectory="PreserveNewest" />
+    <Content Include="../../docs/evidence/p5-connected-browser-library.json" Link="Fixtures/connected-library.json" CopyToOutputDirectory="PreserveNewest" />
+    <Content Include="../../docs/evidence/p5-connected-browser-export.svg" Link="Fixtures/connected.svg" CopyToOutputDirectory="PreserveNewest" />
+    <Content Include="../../docs/evidence/p5-connected-browser-export.png" Link="Fixtures/connected.png" CopyToOutputDirectory="PreserveNewest" />
+    <PackageReference Include="Microsoft.NET.Test.Sdk" Version="17.9.0" />
+    <PackageReference Include="xunit" Version="2.5.3" />
+    <PackageReference Include="xunit.runner.visualstudio" Version="2.5.3" />
+    <ProjectReference Include="../../src/Beep.SimpleDraw.Core/Beep.SimpleDraw.Core.csproj" />
+    <ProjectReference Include="../../../Beep.Skia/Beep.Skia.FlowChart/Beep.Skia.FlowChart.csproj" AdditionalProperties="GeneratePackageOnBuild=false;SkipMinVer=true;BeepSkiaLocalBuildCopies=false" />
+  </ItemGroup>
+</Project>

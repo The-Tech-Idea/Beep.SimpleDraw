@@ -1,0 +1,2503 @@
+[
+  {
+    "family": "FlowChart",
+    "project": "Beep.Skia.FlowChart",
+    "name": "AnnotationNode",
+    "base": "FlowchartControl",
+    "abstract": false,
+    "type": "Beep.Skia.Flowchart.AnnotationNode",
+    "file": "Beep.Skia.FlowChart\\AnnotationNode.cs",
+    "palette": true
+  },
+  {
+    "family": "FlowChart",
+    "project": "Beep.Skia.FlowChart",
+    "name": "CardNode",
+    "base": "FlowchartControl",
+    "abstract": false,
+    "type": "Beep.Skia.Flowchart.CardNode",
+    "file": "Beep.Skia.FlowChart\\CardNode.cs",
+    "palette": true
+  },
+  {
+    "family": "FlowChart",
+    "project": "Beep.Skia.FlowChart",
+    "name": "CollateNode",
+    "base": "FlowchartControl",
+    "abstract": false,
+    "type": "Beep.Skia.Flowchart.CollateNode",
+    "file": "Beep.Skia.FlowChart\\CollateNode.cs",
+    "palette": true
+  },
+  {
+    "family": "FlowChart",
+    "project": "Beep.Skia.FlowChart",
+    "name": "CommentNode",
+    "base": "FlowchartControl",
+    "abstract": false,
+    "type": "Beep.Skia.Flowchart.CommentNode",
+    "file": "Beep.Skia.FlowChart\\CommentNode.cs",
+    "palette": true
+  },
+  {
+    "family": "FlowChart",
+    "project": "Beep.Skia.FlowChart",
+    "name": "ConnectorNode",
+    "base": "FlowchartControl",
+    "abstract": false,
+    "type": "Beep.Skia.Flowchart.ConnectorNode",
+    "file": "Beep.Skia.FlowChart\\ConnectorNode.cs",
+    "palette": true
+  },
+  {
+    "family": "FlowChart",
+    "project": "Beep.Skia.FlowChart",
+    "name": "DataNode",
+    "base": "FlowchartControl",
+    "abstract": false,
+    "type": "Beep.Skia.Flowchart.DataNode",
+    "file": "Beep.Skia.FlowChart\\DataNode.cs",
+    "palette": true
+  },
+  {
+    "family": "FlowChart",
+    "project": "Beep.Skia.FlowChart",
+    "name": "DecisionNode",
+    "base": "FlowchartControl",
+    "abstract": false,
+    "type": "Beep.Skia.Flowchart.DecisionNode",
+    "file": "Beep.Skia.FlowChart\\DecisionNode.cs",
+    "palette": true
+  },
+  {
+    "family": "FlowChart",
+    "project": "Beep.Skia.FlowChart",
+    "name": "DelayNode",
+    "base": "FlowchartControl",
+    "abstract": false,
+    "type": "Beep.Skia.Flowchart.DelayNode",
+    "file": "Beep.Skia.FlowChart\\DelayNode.cs",
+    "palette": true
+  },
+  {
+    "family": "FlowChart",
+    "project": "Beep.Skia.FlowChart",
+    "name": "DirectAccessNode",
+    "base": "FlowchartControl",
+    "abstract": false,
+    "type": "Beep.Skia.Flowchart.DirectAccessNode",
+    "file": "Beep.Skia.FlowChart\\DirectAccessNode.cs",
+    "palette": true
+  },
+  {
+    "family": "FlowChart",
+    "project": "Beep.Skia.FlowChart",
+    "name": "DisplayNode",
+    "base": "FlowchartControl",
+    "abstract": false,
+    "type": "Beep.Skia.Flowchart.DisplayNode",
+    "file": "Beep.Skia.FlowChart\\DisplayNode.cs",
+    "palette": true
+  },
+  {
+    "family": "FlowChart",
+    "project": "Beep.Skia.FlowChart",
+    "name": "DocumentNode",
+    "base": "FlowchartControl",
+    "abstract": false,
+    "type": "Beep.Skia.Flowchart.DocumentNode",
+    "file": "Beep.Skia.FlowChart\\DocumentNode.cs",
+    "palette": true
+  },
+  {
+    "family": "FlowChart",
+    "project": "Beep.Skia.FlowChart",
+    "name": "DoWhileLoopNode",
+    "base": "FlowchartControl",
+    "abstract": false,
+    "type": "Beep.Skia.Flowchart.DoWhileLoopNode",
+    "file": "Beep.Skia.FlowChart\\DoWhileLoopNode.cs",
+    "palette": true
+  },
+  {
+    "family": "FlowChart",
+    "project": "Beep.Skia.FlowChart",
+    "name": "ExtractNode",
+    "base": "FlowchartControl",
+    "abstract": false,
+    "type": "Beep.Skia.Flowchart.ExtractNode",
+    "file": "Beep.Skia.FlowChart\\ExtractNode.cs",
+    "palette": true
+  },
+  {
+    "family": "FlowChart",
+    "project": "Beep.Skia.FlowChart",
+    "name": "ForkNode",
+    "base": "FlowchartControl",
+    "abstract": false,
+    "type": "Beep.Skia.Flowchart.ForkNode",
+    "file": "Beep.Skia.FlowChart\\ForkNode.cs",
+    "palette": true
+  },
+  {
+    "family": "FlowChart",
+    "project": "Beep.Skia.FlowChart",
+    "name": "ForLoopNode",
+    "base": "FlowchartControl",
+    "abstract": false,
+    "type": "Beep.Skia.Flowchart.ForLoopNode",
+    "file": "Beep.Skia.FlowChart\\ForLoopNode.cs",
+    "palette": true
+  },
+  {
+    "family": "FlowChart",
+    "project": "Beep.Skia.FlowChart",
+    "name": "InputOutputNode",
+    "base": "FlowchartControl",
+    "abstract": false,
+    "type": "Beep.Skia.Flowchart.InputOutputNode",
+    "file": "Beep.Skia.FlowChart\\InputOutputNode.cs",
+    "palette": true
+  },
+  {
+    "family": "FlowChart",
+    "project": "Beep.Skia.FlowChart",
+    "name": "InternalStorageNode",
+    "base": "FlowchartControl",
+    "abstract": false,
+    "type": "Beep.Skia.Flowchart.InternalStorageNode",
+    "file": "Beep.Skia.FlowChart\\InternalStorageNode.cs",
+    "palette": true
+  },
+  {
+    "family": "FlowChart",
+    "project": "Beep.Skia.FlowChart",
+    "name": "JoinNode",
+    "base": "FlowchartControl",
+    "abstract": false,
+    "type": "Beep.Skia.Flowchart.JoinNode",
+    "file": "Beep.Skia.FlowChart\\JoinNode.cs",
+    "palette": true
+  },
+  {
+    "family": "FlowChart",
+    "project": "Beep.Skia.FlowChart",
+    "name": "LoopLimitNode",
+    "base": "FlowchartControl",
+    "abstract": false,
+    "type": "Beep.Skia.Flowchart.LoopLimitNode",
+    "file": "Beep.Skia.FlowChart\\LoopLimitNode.cs",
+    "palette": true
+  },
+  {
+    "family": "FlowChart",
+    "project": "Beep.Skia.FlowChart",
+    "name": "ManualInputNode",
+    "base": "FlowchartControl",
+    "abstract": false,
+    "type": "Beep.Skia.Flowchart.ManualInputNode",
+    "file": "Beep.Skia.FlowChart\\ManualInputNode.cs",
+    "palette": true
+  },
+  {
+    "family": "FlowChart",
+    "project": "Beep.Skia.FlowChart",
+    "name": "ManualOperationNode",
+    "base": "FlowchartControl",
+    "abstract": false,
+    "type": "Beep.Skia.Flowchart.ManualOperationNode",
+    "file": "Beep.Skia.FlowChart\\ManualOperationNode.cs",
+    "palette": true
+  },
+  {
+    "family": "FlowChart",
+    "project": "Beep.Skia.FlowChart",
+    "name": "MergeNode",
+    "base": "FlowchartControl",
+    "abstract": false,
+    "type": "Beep.Skia.Flowchart.MergeNode",
+    "file": "Beep.Skia.FlowChart\\MergeNode.cs",
+    "palette": true
+  },
+  {
+    "family": "FlowChart",
+    "project": "Beep.Skia.FlowChart",
+    "name": "MultiDocumentNode",
+    "base": "FlowchartControl",
+    "abstract": false,
+    "type": "Beep.Skia.Flowchart.MultiDocumentNode",
+    "file": "Beep.Skia.FlowChart\\MultiDocumentNode.cs",
+    "palette": true
+  },
+  {
+    "family": "FlowChart",
+    "project": "Beep.Skia.FlowChart",
+    "name": "OffPageReferenceNode",
+    "base": "FlowchartControl",
+    "abstract": false,
+    "type": "Beep.Skia.Flowchart.OffPageReferenceNode",
+    "file": "Beep.Skia.FlowChart\\OffPageReferenceNode.cs",
+    "palette": true
+  },
+  {
+    "family": "FlowChart",
+    "project": "Beep.Skia.FlowChart",
+    "name": "OrNode",
+    "base": "FlowchartControl",
+    "abstract": false,
+    "type": "Beep.Skia.Flowchart.OrNode",
+    "file": "Beep.Skia.FlowChart\\OrNode.cs",
+    "palette": true
+  },
+  {
+    "family": "FlowChart",
+    "project": "Beep.Skia.FlowChart",
+    "name": "PredefinedProcessNode",
+    "base": "FlowchartControl",
+    "abstract": false,
+    "type": "Beep.Skia.Flowchart.PredefinedProcessNode",
+    "file": "Beep.Skia.FlowChart\\PredefinedProcessNode.cs",
+    "palette": true
+  },
+  {
+    "family": "FlowChart",
+    "project": "Beep.Skia.FlowChart",
+    "name": "PreparationNode",
+    "base": "FlowchartControl",
+    "abstract": false,
+    "type": "Beep.Skia.Flowchart.PreparationNode",
+    "file": "Beep.Skia.FlowChart\\PreparationNode.cs",
+    "palette": true
+  },
+  {
+    "family": "FlowChart",
+    "project": "Beep.Skia.FlowChart",
+    "name": "ProcessNode",
+    "base": "FlowchartControl",
+    "abstract": false,
+    "type": "Beep.Skia.Flowchart.ProcessNode",
+    "file": "Beep.Skia.FlowChart\\ProcessNode.cs",
+    "palette": true
+  },
+  {
+    "family": "FlowChart",
+    "project": "Beep.Skia.FlowChart",
+    "name": "SequentialAccessNode",
+    "base": "FlowchartControl",
+    "abstract": false,
+    "type": "Beep.Skia.Flowchart.SequentialAccessNode",
+    "file": "Beep.Skia.FlowChart\\SequentialAccessNode.cs",
+    "palette": true
+  },
+  {
+    "family": "FlowChart",
+    "project": "Beep.Skia.FlowChart",
+    "name": "SortNode",
+    "base": "FlowchartControl",
+    "abstract": false,
+    "type": "Beep.Skia.Flowchart.SortNode",
+    "file": "Beep.Skia.FlowChart\\SortNode.cs",
+    "palette": true
+  },
+  {
+    "family": "FlowChart",
+    "project": "Beep.Skia.FlowChart",
+    "name": "StartEndNode",
+    "base": "FlowchartControl",
+    "abstract": false,
+    "type": "Beep.Skia.Flowchart.StartEndNode",
+    "file": "Beep.Skia.FlowChart\\StartEndNode.cs",
+    "palette": true
+  },
+  {
+    "family": "FlowChart",
+    "project": "Beep.Skia.FlowChart",
+    "name": "StoredDataNode",
+    "base": "FlowchartControl",
+    "abstract": false,
+    "type": "Beep.Skia.Flowchart.StoredDataNode",
+    "file": "Beep.Skia.FlowChart\\StoredDataNode.cs",
+    "palette": true
+  },
+  {
+    "family": "FlowChart",
+    "project": "Beep.Skia.FlowChart",
+    "name": "SubProcessNode",
+    "base": "FlowchartControl",
+    "abstract": false,
+    "type": "Beep.Skia.Flowchart.SubProcessNode",
+    "file": "Beep.Skia.FlowChart\\SubProcessNode.cs",
+    "palette": true
+  },
+  {
+    "family": "FlowChart",
+    "project": "Beep.Skia.FlowChart",
+    "name": "SummingJunctionNode",
+    "base": "FlowchartControl",
+    "abstract": false,
+    "type": "Beep.Skia.Flowchart.SummingJunctionNode",
+    "file": "Beep.Skia.FlowChart\\SummingJunctionNode.cs",
+    "palette": true
+  },
+  {
+    "family": "FlowChart",
+    "project": "Beep.Skia.FlowChart",
+    "name": "TapeNode",
+    "base": "FlowchartControl",
+    "abstract": false,
+    "type": "Beep.Skia.Flowchart.TapeNode",
+    "file": "Beep.Skia.FlowChart\\TapeNode.cs",
+    "palette": true
+  },
+  {
+    "family": "FlowChart",
+    "project": "Beep.Skia.FlowChart",
+    "name": "WhileLoopNode",
+    "base": "FlowchartControl",
+    "abstract": false,
+    "type": "Beep.Skia.Flowchart.WhileLoopNode",
+    "file": "Beep.Skia.FlowChart\\WhileLoopNode.cs",
+    "palette": true
+  },
+  {
+    "family": "UML",
+    "project": "Beep.Skia.UML",
+    "name": "UMLActionNode",
+    "base": "UMLControl",
+    "abstract": false,
+    "type": "Beep.Skia.UML.UMLActionNode",
+    "file": "Beep.Skia.UML\\UMLActionNode.cs",
+    "palette": true
+  },
+  {
+    "family": "UML",
+    "project": "Beep.Skia.UML",
+    "name": "UMLActivationBar",
+    "base": "UMLControl",
+    "abstract": false,
+    "type": "Beep.Skia.UML.UMLActivationBar",
+    "file": "Beep.Skia.UML\\UMLActivationBar.cs",
+    "palette": true
+  },
+  {
+    "family": "UML",
+    "project": "Beep.Skia.UML",
+    "name": "UMLActivityNode",
+    "base": "UMLControl",
+    "abstract": false,
+    "type": "Beep.Skia.UML.UMLActivityNode",
+    "file": "Beep.Skia.UML\\UMLActivityNode.cs",
+    "palette": true
+  },
+  {
+    "family": "UML",
+    "project": "Beep.Skia.UML",
+    "name": "UMLActor",
+    "base": "UMLControl",
+    "abstract": false,
+    "type": "Beep.Skia.UML.UMLActor",
+    "file": "Beep.Skia.UML\\UMLActor.cs",
+    "palette": true
+  },
+  {
+    "family": "UML",
+    "project": "Beep.Skia.UML",
+    "name": "UMLArtifactNode",
+    "base": "UMLControl",
+    "abstract": false,
+    "type": "Beep.Skia.UML.UMLArtifactNode",
+    "file": "Beep.Skia.UML\\UMLArtifactNode.cs",
+    "palette": true
+  },
+  {
+    "family": "UML",
+    "project": "Beep.Skia.UML",
+    "name": "UMLClass",
+    "base": "UMLControl",
+    "abstract": false,
+    "type": "Beep.Skia.UML.UMLClass",
+    "file": "Beep.Skia.UML\\UMLClass.cs",
+    "palette": true
+  },
+  {
+    "family": "UML",
+    "project": "Beep.Skia.UML",
+    "name": "UMLCombinedFragment",
+    "base": "UMLControl",
+    "abstract": false,
+    "type": "Beep.Skia.UML.UMLCombinedFragment",
+    "file": "Beep.Skia.UML\\UMLCombinedFragment.cs",
+    "palette": true
+  },
+  {
+    "family": "UML",
+    "project": "Beep.Skia.UML",
+    "name": "UMLComponentNode",
+    "base": "UMLControl",
+    "abstract": false,
+    "type": "Beep.Skia.UML.UMLComponentNode",
+    "file": "Beep.Skia.UML\\UMLComponentNode.cs",
+    "palette": true
+  },
+  {
+    "family": "UML",
+    "project": "Beep.Skia.UML",
+    "name": "UMLConditionNode",
+    "base": "UMLControl",
+    "abstract": false,
+    "type": "Beep.Skia.UML.UMLConditionNode",
+    "file": "Beep.Skia.UML\\UMLConditionNode.cs",
+    "palette": true
+  },
+  {
+    "family": "UML",
+    "project": "Beep.Skia.UML",
+    "name": "UMLDataSourceNode",
+    "base": "UMLControl",
+    "abstract": false,
+    "type": "Beep.Skia.UML.UMLDataSourceNode",
+    "file": "Beep.Skia.UML\\UMLDataSourceNode.cs",
+    "palette": true
+  },
+  {
+    "family": "UML",
+    "project": "Beep.Skia.UML",
+    "name": "UMLDeploymentNode",
+    "base": "UMLControl",
+    "abstract": false,
+    "type": "Beep.Skia.UML.UMLDeploymentNode",
+    "file": "Beep.Skia.UML\\UMLDeploymentNode.cs",
+    "palette": true
+  },
+  {
+    "family": "UML",
+    "project": "Beep.Skia.UML",
+    "name": "UMLInterface",
+    "base": "UMLControl",
+    "abstract": false,
+    "type": "Beep.Skia.UML.UMLInterface",
+    "file": "Beep.Skia.UML\\UMLInterface.cs",
+    "palette": true
+  },
+  {
+    "family": "UML",
+    "project": "Beep.Skia.UML",
+    "name": "UMLLifeline",
+    "base": "UMLControl",
+    "abstract": false,
+    "type": "Beep.Skia.UML.UMLLifeline",
+    "file": "Beep.Skia.UML\\UMLLifeline.cs",
+    "palette": true
+  },
+  {
+    "family": "UML",
+    "project": "Beep.Skia.UML",
+    "name": "UMLOutputNode",
+    "base": "UMLControl",
+    "abstract": false,
+    "type": "Beep.Skia.UML.UMLOutputNode",
+    "file": "Beep.Skia.UML\\UMLOutputNode.cs",
+    "palette": true
+  },
+  {
+    "family": "UML",
+    "project": "Beep.Skia.UML",
+    "name": "UMLPackageNode",
+    "base": "UMLControl",
+    "abstract": false,
+    "type": "Beep.Skia.UML.UMLPackageNode",
+    "file": "Beep.Skia.UML\\UMLPackageNode.cs",
+    "palette": true
+  },
+  {
+    "family": "UML",
+    "project": "Beep.Skia.UML",
+    "name": "UMLSystemBoundary",
+    "base": "UMLControl",
+    "abstract": false,
+    "type": "Beep.Skia.UML.UMLSystemBoundary",
+    "file": "Beep.Skia.UML\\UMLSystemBoundary.cs",
+    "palette": true
+  },
+  {
+    "family": "UML",
+    "project": "Beep.Skia.UML",
+    "name": "UMLTransformNode",
+    "base": "UMLControl",
+    "abstract": false,
+    "type": "Beep.Skia.UML.UMLTransformNode",
+    "file": "Beep.Skia.UML\\UMLTransformNode.cs",
+    "palette": true
+  },
+  {
+    "family": "UML",
+    "project": "Beep.Skia.UML",
+    "name": "UMLTriggerNode",
+    "base": "UMLControl",
+    "abstract": false,
+    "type": "Beep.Skia.UML.UMLTriggerNode",
+    "file": "Beep.Skia.UML\\UMLTriggerNode.cs",
+    "palette": true
+  },
+  {
+    "family": "UML",
+    "project": "Beep.Skia.UML",
+    "name": "UMLUseCaseNode",
+    "base": "UMLControl",
+    "abstract": false,
+    "type": "Beep.Skia.UML.UMLUseCaseNode",
+    "file": "Beep.Skia.UML\\UMLUseCaseNode.cs",
+    "palette": true
+  },
+  {
+    "family": "ERD",
+    "project": "Beep.Skia.ERD",
+    "name": "ERDAttribute",
+    "base": "ERDControl",
+    "abstract": false,
+    "type": "Beep.Skia.ERD.ERDAttribute",
+    "file": "Beep.Skia.ERD\\ERDAttribute.cs",
+    "palette": true
+  },
+  {
+    "family": "ERD",
+    "project": "Beep.Skia.ERD",
+    "name": "ERDEntity",
+    "base": "ERDControl",
+    "abstract": false,
+    "type": "Beep.Skia.ERD.ERDEntity",
+    "file": "Beep.Skia.ERD\\ERDEntity.cs",
+    "palette": true
+  },
+  {
+    "family": "ERD",
+    "project": "Beep.Skia.ERD",
+    "name": "ERDRelationship",
+    "base": "ERDControl",
+    "abstract": false,
+    "type": "Beep.Skia.ERD.ERDRelationship",
+    "file": "Beep.Skia.ERD\\ERDRelationship.cs",
+    "palette": true
+  },
+  {
+    "family": "MindMap",
+    "project": "Beep.Skia.MindMap",
+    "name": "CentralNode",
+    "base": "MindMapControl",
+    "abstract": false,
+    "type": "Beep.Skia.MindMap.CentralNode",
+    "file": "Beep.Skia.MindMap\\CentralNode.cs",
+    "palette": true
+  },
+  {
+    "family": "MindMap",
+    "project": "Beep.Skia.MindMap",
+    "name": "NoteNode",
+    "base": "MindMapControl",
+    "abstract": false,
+    "type": "Beep.Skia.MindMap.NoteNode",
+    "file": "Beep.Skia.MindMap\\NoteNode.cs",
+    "palette": true
+  },
+  {
+    "family": "MindMap",
+    "project": "Beep.Skia.MindMap",
+    "name": "SubTopicNode",
+    "base": "MindMapControl",
+    "abstract": false,
+    "type": "Beep.Skia.MindMap.SubTopicNode",
+    "file": "Beep.Skia.MindMap\\SubTopicNode.cs",
+    "palette": true
+  },
+  {
+    "family": "MindMap",
+    "project": "Beep.Skia.MindMap",
+    "name": "TopicNode",
+    "base": "MindMapControl",
+    "abstract": false,
+    "type": "Beep.Skia.MindMap.TopicNode",
+    "file": "Beep.Skia.MindMap\\TopicNode.cs",
+    "palette": true
+  },
+  {
+    "family": "Network",
+    "project": "Beep.Skia.Network",
+    "name": "CentralityMeasure",
+    "base": "NetworkControl",
+    "abstract": false,
+    "type": "Beep.Skia.Network.CentralityMeasure",
+    "file": "Beep.Skia.Network\\CentralityMeasure.cs",
+    "palette": true
+  },
+  {
+    "family": "Network",
+    "project": "Beep.Skia.Network",
+    "name": "CommunityDetector",
+    "base": "NetworkControl",
+    "abstract": false,
+    "type": "Beep.Skia.Network.CommunityDetector",
+    "file": "Beep.Skia.Network\\CommunityDetector.cs",
+    "palette": true
+  },
+  {
+    "family": "Network",
+    "project": "Beep.Skia.Network",
+    "name": "ExportPanel",
+    "base": "NetworkControl",
+    "abstract": false,
+    "type": "Beep.Skia.Network.ExportPanel",
+    "file": "Beep.Skia.Network\\ExportPanel.cs",
+    "palette": true
+  },
+  {
+    "family": "Network",
+    "project": "Beep.Skia.Network",
+    "name": "FilterPanel",
+    "base": "NetworkControl",
+    "abstract": false,
+    "type": "Beep.Skia.Network.FilterPanel",
+    "file": "Beep.Skia.Network\\FilterPanel.cs",
+    "palette": true
+  },
+  {
+    "family": "Network",
+    "project": "Beep.Skia.Network",
+    "name": "GraphNavigator",
+    "base": "NetworkControl",
+    "abstract": false,
+    "type": "Beep.Skia.Network.GraphNavigator",
+    "file": "Beep.Skia.Network\\GraphNavigator.cs",
+    "palette": true
+  },
+  {
+    "family": "Network",
+    "project": "Beep.Skia.Network",
+    "name": "LayoutSelector",
+    "base": "NetworkControl",
+    "abstract": false,
+    "type": "Beep.Skia.Network.LayoutSelector",
+    "file": "Beep.Skia.Network\\LayoutSelector.cs",
+    "palette": true
+  },
+  {
+    "family": "Network",
+    "project": "Beep.Skia.Network",
+    "name": "NetworkAnalyzer",
+    "base": "NetworkControl",
+    "abstract": false,
+    "type": "Beep.Skia.Network.NetworkAnalyzer",
+    "file": "Beep.Skia.Network\\NetworkAnalyzer.cs",
+    "palette": true
+  },
+  {
+    "family": "Network",
+    "project": "Beep.Skia.Network",
+    "name": "NetworkGraph",
+    "base": "MaterialControl",
+    "abstract": false,
+    "type": "Beep.Skia.Network.NetworkGraph",
+    "file": "Beep.Skia.Network\\NetworkGraph.cs",
+    "palette": true
+  },
+  {
+    "family": "Network",
+    "project": "Beep.Skia.Network",
+    "name": "NetworkLink",
+    "base": "MaterialControl",
+    "abstract": false,
+    "type": "Beep.Skia.Network.NetworkLink",
+    "file": "Beep.Skia.Network\\NetworkLink.cs",
+    "palette": false,
+    "role": "Network edge; use the existing connector panel rather than insert a zero-size standalone component."
+  },
+  {
+    "family": "Network",
+    "project": "Beep.Skia.Network",
+    "name": "NetworkNode",
+    "base": "MaterialControl",
+    "abstract": false,
+    "type": "Beep.Skia.Network.NetworkNode",
+    "file": "Beep.Skia.Network\\NetworkNode.cs",
+    "palette": true
+  },
+  {
+    "family": "Network",
+    "project": "Beep.Skia.Network",
+    "name": "NodeCluster",
+    "base": "NetworkControl",
+    "abstract": false,
+    "type": "Beep.Skia.Network.NodeCluster",
+    "file": "Beep.Skia.Network\\NodeCluster.cs",
+    "palette": true
+  },
+  {
+    "family": "Network",
+    "project": "Beep.Skia.Network",
+    "name": "PathFinder",
+    "base": "NetworkControl",
+    "abstract": false,
+    "type": "Beep.Skia.Network.PathFinder",
+    "file": "Beep.Skia.Network\\PathFinder.cs",
+    "palette": true
+  },
+  {
+    "family": "Business",
+    "project": "Beep.Skia.Business",
+    "name": "ActionNode",
+    "base": "BusinessControl",
+    "abstract": false,
+    "type": "Beep.Skia.Business.ActionNode",
+    "file": "Beep.Skia.Business\\ActionNode.cs",
+    "palette": true
+  },
+  {
+    "family": "Business",
+    "project": "Beep.Skia.Business",
+    "name": "Annotation",
+    "base": "BusinessControl",
+    "abstract": false,
+    "type": "Beep.Skia.Business.Annotation",
+    "file": "Beep.Skia.Business\\Annotation.cs",
+    "palette": true
+  },
+  {
+    "family": "Business",
+    "project": "Beep.Skia.Business",
+    "name": "BpmnLaneNode",
+    "base": "BusinessControl",
+    "abstract": false,
+    "type": "Beep.Skia.Business.BpmnLaneNode",
+    "file": "Beep.Skia.Business\\BpmnLaneNode.cs",
+    "palette": true
+  },
+  {
+    "family": "Business",
+    "project": "Beep.Skia.Business",
+    "name": "BpmnPoolNode",
+    "base": "BusinessControl",
+    "abstract": false,
+    "type": "Beep.Skia.Business.BpmnPoolNode",
+    "file": "Beep.Skia.Business\\BpmnPoolNode.cs",
+    "palette": true
+  },
+  {
+    "family": "Business",
+    "project": "Beep.Skia.Business",
+    "name": "BusinessSystem",
+    "base": "BusinessControl",
+    "abstract": false,
+    "type": "Beep.Skia.Business.BusinessSystem",
+    "file": "Beep.Skia.Business\\BusinessSystem.cs",
+    "palette": true
+  },
+  {
+    "family": "Business",
+    "project": "Beep.Skia.Business",
+    "name": "BusinessTask",
+    "base": "BusinessControl",
+    "abstract": false,
+    "type": "Beep.Skia.Business.BusinessTask",
+    "file": "Beep.Skia.Business\\BusinessTask.cs",
+    "palette": true
+  },
+  {
+    "family": "Business",
+    "project": "Beep.Skia.Business",
+    "name": "ConditionBuilder",
+    "base": "BusinessControl",
+    "abstract": false,
+    "type": "Beep.Skia.Business.ConditionBuilder",
+    "file": "Beep.Skia.Business\\ConditionBuilder.cs",
+    "palette": true
+  },
+  {
+    "family": "Business",
+    "project": "Beep.Skia.Business",
+    "name": "Database",
+    "base": "BusinessControl",
+    "abstract": false,
+    "type": "Beep.Skia.Business.Database",
+    "file": "Beep.Skia.Business\\Database.cs",
+    "palette": true
+  },
+  {
+    "family": "Business",
+    "project": "Beep.Skia.Business",
+    "name": "DataObject",
+    "base": "BusinessControl",
+    "abstract": false,
+    "type": "Beep.Skia.Business.DataObject",
+    "file": "Beep.Skia.Business\\DataObject.cs",
+    "palette": true
+  },
+  {
+    "family": "Business",
+    "project": "Beep.Skia.Business",
+    "name": "DataStore",
+    "base": "BusinessControl",
+    "abstract": false,
+    "type": "Beep.Skia.Business.DataStore",
+    "file": "Beep.Skia.Business\\DataStore.cs",
+    "palette": true
+  },
+  {
+    "family": "Business",
+    "project": "Beep.Skia.Business",
+    "name": "Decision",
+    "base": "BusinessControl",
+    "abstract": false,
+    "type": "Beep.Skia.Business.Decision",
+    "file": "Beep.Skia.Business\\Decision.cs",
+    "palette": true
+  },
+  {
+    "family": "Business",
+    "project": "Beep.Skia.Business",
+    "name": "Department",
+    "base": "BusinessControl",
+    "abstract": false,
+    "type": "Beep.Skia.Business.Department",
+    "file": "Beep.Skia.Business\\Department.cs",
+    "palette": true
+  },
+  {
+    "family": "Business",
+    "project": "Beep.Skia.Business",
+    "name": "Document",
+    "base": "BusinessControl",
+    "abstract": false,
+    "type": "Beep.Skia.Business.Document",
+    "file": "Beep.Skia.Business\\Document.cs",
+    "palette": true
+  },
+  {
+    "family": "Business",
+    "project": "Beep.Skia.Business",
+    "name": "EndEvent",
+    "base": "BusinessControl",
+    "abstract": false,
+    "type": "Beep.Skia.Business.EndEvent",
+    "file": "Beep.Skia.Business\\EndEvent.cs",
+    "palette": true
+  },
+  {
+    "family": "Business",
+    "project": "Beep.Skia.Business",
+    "name": "EventNode",
+    "base": "BusinessControl",
+    "abstract": false,
+    "type": "Beep.Skia.Business.EventNode",
+    "file": "Beep.Skia.Business\\EventNode.cs",
+    "palette": true
+  },
+  {
+    "family": "Business",
+    "project": "Beep.Skia.Business",
+    "name": "ExternalData",
+    "base": "BusinessControl",
+    "abstract": false,
+    "type": "Beep.Skia.Business.ExternalData",
+    "file": "Beep.Skia.Business\\ExternalData.cs",
+    "palette": true
+  },
+  {
+    "family": "Business",
+    "project": "Beep.Skia.Business",
+    "name": "Gateway",
+    "base": "BusinessControl",
+    "abstract": false,
+    "type": "Beep.Skia.Business.Gateway",
+    "file": "Beep.Skia.Business\\Gateway.cs",
+    "palette": true
+  },
+  {
+    "family": "Business",
+    "project": "Beep.Skia.Business",
+    "name": "Group",
+    "base": "BusinessControl",
+    "abstract": false,
+    "type": "Beep.Skia.Business.Group",
+    "file": "Beep.Skia.Business\\Group.cs",
+    "palette": true
+  },
+  {
+    "family": "Business",
+    "project": "Beep.Skia.Business",
+    "name": "IntermediateEventNode",
+    "base": "BusinessControl",
+    "abstract": false,
+    "type": "Beep.Skia.Business.IntermediateEventNode",
+    "file": "Beep.Skia.Business\\IntermediateEventNode.cs",
+    "palette": true
+  },
+  {
+    "family": "Business",
+    "project": "Beep.Skia.Business",
+    "name": "Person",
+    "base": "BusinessControl",
+    "abstract": false,
+    "type": "Beep.Skia.Business.Person",
+    "file": "Beep.Skia.Business\\Person.cs",
+    "palette": true
+  },
+  {
+    "family": "Business",
+    "project": "Beep.Skia.Business",
+    "name": "Role",
+    "base": "BusinessControl",
+    "abstract": false,
+    "type": "Beep.Skia.Business.Role",
+    "file": "Beep.Skia.Business\\Role.cs",
+    "palette": true
+  },
+  {
+    "family": "Business",
+    "project": "Beep.Skia.Business",
+    "name": "RuleEngine",
+    "base": "BusinessControl",
+    "abstract": false,
+    "type": "Beep.Skia.Business.RuleEngine",
+    "file": "Beep.Skia.Business\\RuleEngine.cs",
+    "palette": true
+  },
+  {
+    "family": "Business",
+    "project": "Beep.Skia.Business",
+    "name": "RuleFlow",
+    "base": "BusinessControl",
+    "abstract": false,
+    "type": "Beep.Skia.Business.RuleFlow",
+    "file": "Beep.Skia.Business\\RuleFlow.cs",
+    "palette": true
+  },
+  {
+    "family": "Business",
+    "project": "Beep.Skia.Business",
+    "name": "StartEvent",
+    "base": "BusinessControl",
+    "abstract": false,
+    "type": "Beep.Skia.Business.StartEvent",
+    "file": "Beep.Skia.Business\\StartEvent.cs",
+    "palette": true
+  },
+  {
+    "family": "Business",
+    "project": "Beep.Skia.Business",
+    "name": "SubProcess",
+    "base": "BusinessControl",
+    "abstract": false,
+    "type": "Beep.Skia.Business.SubProcess",
+    "file": "Beep.Skia.Business\\SubProcess.cs",
+    "palette": true
+  },
+  {
+    "family": "Business",
+    "project": "Beep.Skia.Business",
+    "name": "TaskNode",
+    "base": "BusinessControl",
+    "abstract": false,
+    "type": "Beep.Skia.Business.TaskNode",
+    "file": "Beep.Skia.Business\\TaskNode.cs",
+    "palette": true
+  },
+  {
+    "family": "Cloud",
+    "project": "Beep.Skia.Cloud",
+    "name": "AwsEc2Node",
+    "base": "CloudBrandNode",
+    "abstract": false,
+    "type": "Beep.Skia.Cloud.AwsEc2Node",
+    "file": "Beep.Skia.Cloud\\CloudBrandNodes.cs",
+    "palette": true
+  },
+  {
+    "family": "Cloud",
+    "project": "Beep.Skia.Cloud",
+    "name": "AwsS3Node",
+    "base": "CloudBrandNode",
+    "abstract": false,
+    "type": "Beep.Skia.Cloud.AwsS3Node",
+    "file": "Beep.Skia.Cloud\\CloudBrandNodes.cs",
+    "palette": true
+  },
+  {
+    "family": "Cloud",
+    "project": "Beep.Skia.Cloud",
+    "name": "AwsLambdaNode",
+    "base": "CloudBrandNode",
+    "abstract": false,
+    "type": "Beep.Skia.Cloud.AwsLambdaNode",
+    "file": "Beep.Skia.Cloud\\CloudBrandNodes.cs",
+    "palette": true
+  },
+  {
+    "family": "Cloud",
+    "project": "Beep.Skia.Cloud",
+    "name": "AwsRdsNode",
+    "base": "CloudBrandNode",
+    "abstract": false,
+    "type": "Beep.Skia.Cloud.AwsRdsNode",
+    "file": "Beep.Skia.Cloud\\CloudBrandNodes.cs",
+    "palette": true
+  },
+  {
+    "family": "Cloud",
+    "project": "Beep.Skia.Cloud",
+    "name": "AzureVmNode",
+    "base": "CloudBrandNode",
+    "abstract": false,
+    "type": "Beep.Skia.Cloud.AzureVmNode",
+    "file": "Beep.Skia.Cloud\\CloudBrandNodes.cs",
+    "palette": true
+  },
+  {
+    "family": "Cloud",
+    "project": "Beep.Skia.Cloud",
+    "name": "AzureBlobStorageNode",
+    "base": "CloudBrandNode",
+    "abstract": false,
+    "type": "Beep.Skia.Cloud.AzureBlobStorageNode",
+    "file": "Beep.Skia.Cloud\\CloudBrandNodes.cs",
+    "palette": true
+  },
+  {
+    "family": "Cloud",
+    "project": "Beep.Skia.Cloud",
+    "name": "AzureFunctionsNode",
+    "base": "CloudBrandNode",
+    "abstract": false,
+    "type": "Beep.Skia.Cloud.AzureFunctionsNode",
+    "file": "Beep.Skia.Cloud\\CloudBrandNodes.cs",
+    "palette": true
+  },
+  {
+    "family": "Cloud",
+    "project": "Beep.Skia.Cloud",
+    "name": "AzureSqlNode",
+    "base": "CloudBrandNode",
+    "abstract": false,
+    "type": "Beep.Skia.Cloud.AzureSqlNode",
+    "file": "Beep.Skia.Cloud\\CloudBrandNodes.cs",
+    "palette": true
+  },
+  {
+    "family": "Cloud",
+    "project": "Beep.Skia.Cloud",
+    "name": "GcpComputeNode",
+    "base": "CloudBrandNode",
+    "abstract": false,
+    "type": "Beep.Skia.Cloud.GcpComputeNode",
+    "file": "Beep.Skia.Cloud\\CloudBrandNodes.cs",
+    "palette": true
+  },
+  {
+    "family": "Cloud",
+    "project": "Beep.Skia.Cloud",
+    "name": "GcpStorageNode",
+    "base": "CloudBrandNode",
+    "abstract": false,
+    "type": "Beep.Skia.Cloud.GcpStorageNode",
+    "file": "Beep.Skia.Cloud\\CloudBrandNodes.cs",
+    "palette": true
+  },
+  {
+    "family": "Cloud",
+    "project": "Beep.Skia.Cloud",
+    "name": "GcpFunctionsNode",
+    "base": "CloudBrandNode",
+    "abstract": false,
+    "type": "Beep.Skia.Cloud.GcpFunctionsNode",
+    "file": "Beep.Skia.Cloud\\CloudBrandNodes.cs",
+    "palette": true
+  },
+  {
+    "family": "Cloud",
+    "project": "Beep.Skia.Cloud",
+    "name": "GcpSqlNode",
+    "base": "CloudBrandNode",
+    "abstract": false,
+    "type": "Beep.Skia.Cloud.GcpSqlNode",
+    "file": "Beep.Skia.Cloud\\CloudBrandNodes.cs",
+    "palette": true
+  },
+  {
+    "family": "Cloud",
+    "project": "Beep.Skia.Cloud",
+    "name": "CloudComputeNode",
+    "base": "CloudControl",
+    "abstract": false,
+    "type": "Beep.Skia.Cloud.CloudComputeNode",
+    "file": "Beep.Skia.Cloud\\CloudComputeNode.cs",
+    "palette": true
+  },
+  {
+    "family": "Cloud",
+    "project": "Beep.Skia.Cloud",
+    "name": "CloudDatabaseNode",
+    "base": "CloudControl",
+    "abstract": false,
+    "type": "Beep.Skia.Cloud.CloudDatabaseNode",
+    "file": "Beep.Skia.Cloud\\CloudDatabaseNode.cs",
+    "palette": true
+  },
+  {
+    "family": "Cloud",
+    "project": "Beep.Skia.Cloud",
+    "name": "CloudFunctionNode",
+    "base": "CloudControl",
+    "abstract": false,
+    "type": "Beep.Skia.Cloud.CloudFunctionNode",
+    "file": "Beep.Skia.Cloud\\CloudFunctionNode.cs",
+    "palette": true
+  },
+  {
+    "family": "Cloud",
+    "project": "Beep.Skia.Cloud",
+    "name": "VirtualMachineNode",
+    "base": "CloudControl",
+    "abstract": false,
+    "type": "Beep.Skia.Cloud.VirtualMachineNode",
+    "file": "Beep.Skia.Cloud\\CloudProviderNodes.cs",
+    "palette": true
+  },
+  {
+    "family": "Cloud",
+    "project": "Beep.Skia.Cloud",
+    "name": "ObjectStorageNode",
+    "base": "CloudControl",
+    "abstract": false,
+    "type": "Beep.Skia.Cloud.ObjectStorageNode",
+    "file": "Beep.Skia.Cloud\\CloudProviderNodes.cs",
+    "palette": true
+  },
+  {
+    "family": "Cloud",
+    "project": "Beep.Skia.Cloud",
+    "name": "ServerlessFunctionNode",
+    "base": "CloudControl",
+    "abstract": false,
+    "type": "Beep.Skia.Cloud.ServerlessFunctionNode",
+    "file": "Beep.Skia.Cloud\\CloudProviderNodes.cs",
+    "palette": true
+  },
+  {
+    "family": "Cloud",
+    "project": "Beep.Skia.Cloud",
+    "name": "ManagedDatabaseNode",
+    "base": "CloudControl",
+    "abstract": false,
+    "type": "Beep.Skia.Cloud.ManagedDatabaseNode",
+    "file": "Beep.Skia.Cloud\\CloudProviderNodes.cs",
+    "palette": true
+  },
+  {
+    "family": "Cloud",
+    "project": "Beep.Skia.Cloud",
+    "name": "ApiGatewayNode",
+    "base": "CloudControl",
+    "abstract": false,
+    "type": "Beep.Skia.Cloud.ApiGatewayNode",
+    "file": "Beep.Skia.Cloud\\CloudProviderNodes.cs",
+    "palette": true
+  },
+  {
+    "family": "Cloud",
+    "project": "Beep.Skia.Cloud",
+    "name": "VirtualNetworkNode",
+    "base": "CloudControl",
+    "abstract": false,
+    "type": "Beep.Skia.Cloud.VirtualNetworkNode",
+    "file": "Beep.Skia.Cloud\\CloudProviderNodes.cs",
+    "palette": true
+  },
+  {
+    "family": "Cloud",
+    "project": "Beep.Skia.Cloud",
+    "name": "CloudStorageNode",
+    "base": "CloudControl",
+    "abstract": false,
+    "type": "Beep.Skia.Cloud.CloudStorageNode",
+    "file": "Beep.Skia.Cloud\\CloudStorageNode.cs",
+    "palette": true
+  },
+  {
+    "family": "DFD",
+    "project": "Beep.Skia.DFD",
+    "name": "DFDDataStore",
+    "base": "DFDControl",
+    "abstract": false,
+    "type": "Beep.Skia.DFD.DFDDataStore",
+    "file": "Beep.Skia.DFD\\DFDDataStore.cs",
+    "palette": true
+  },
+  {
+    "family": "DFD",
+    "project": "Beep.Skia.DFD",
+    "name": "DFDDataStoreCylinder",
+    "base": "DFDControl",
+    "abstract": false,
+    "type": "Beep.Skia.DFD.DFDDataStoreCylinder",
+    "file": "Beep.Skia.DFD\\DFDDataStoreCylinder.cs",
+    "palette": true
+  },
+  {
+    "family": "DFD",
+    "project": "Beep.Skia.DFD",
+    "name": "DFDDataStoreOpenEnded",
+    "base": "DFDControl",
+    "abstract": false,
+    "type": "Beep.Skia.DFD.DFDDataStoreOpenEnded",
+    "file": "Beep.Skia.DFD\\DFDDataStoreOpenEnded.cs",
+    "palette": true
+  },
+  {
+    "family": "DFD",
+    "project": "Beep.Skia.DFD",
+    "name": "DFDDataStoreParallel",
+    "base": "DFDControl",
+    "abstract": false,
+    "type": "Beep.Skia.DFD.DFDDataStoreParallel",
+    "file": "Beep.Skia.DFD\\DFDDataStoreParallel.cs",
+    "palette": true
+  },
+  {
+    "family": "DFD",
+    "project": "Beep.Skia.DFD",
+    "name": "DFDDataStoreShared",
+    "base": "DFDControl",
+    "abstract": false,
+    "type": "Beep.Skia.DFD.DFDDataStoreShared",
+    "file": "Beep.Skia.DFD\\DFDDataStoreShared.cs",
+    "palette": true
+  },
+  {
+    "family": "DFD",
+    "project": "Beep.Skia.DFD",
+    "name": "DFDExternalEntity",
+    "base": "DFDControl",
+    "abstract": false,
+    "type": "Beep.Skia.DFD.DFDExternalEntity",
+    "file": "Beep.Skia.DFD\\DFDExternalEntity.cs",
+    "palette": true
+  },
+  {
+    "family": "DFD",
+    "project": "Beep.Skia.DFD",
+    "name": "DFDExternalEntityGaneSarson",
+    "base": "DFDControl",
+    "abstract": false,
+    "type": "Beep.Skia.DFD.DFDExternalEntityGaneSarson",
+    "file": "Beep.Skia.DFD\\DFDExternalEntityGaneSarson.cs",
+    "palette": true
+  },
+  {
+    "family": "DFD",
+    "project": "Beep.Skia.DFD",
+    "name": "DFDNote",
+    "base": "DFDControl",
+    "abstract": false,
+    "type": "Beep.Skia.DFD.DFDNote",
+    "file": "Beep.Skia.DFD\\DFDNote.cs",
+    "palette": true
+  },
+  {
+    "family": "DFD",
+    "project": "Beep.Skia.DFD",
+    "name": "DFDProcess",
+    "base": "DFDControl",
+    "abstract": false,
+    "type": "Beep.Skia.DFD.DFDProcess",
+    "file": "Beep.Skia.DFD\\DFDProcess.cs",
+    "palette": true
+  },
+  {
+    "family": "DFD",
+    "project": "Beep.Skia.DFD",
+    "name": "DFDProcessCircle",
+    "base": "DFDControl",
+    "abstract": false,
+    "type": "Beep.Skia.DFD.DFDProcessCircle",
+    "file": "Beep.Skia.DFD\\DFDProcessCircle.cs",
+    "palette": true
+  },
+  {
+    "family": "DFD",
+    "project": "Beep.Skia.DFD",
+    "name": "DFDProcessGaneSarson",
+    "base": "DFDControl",
+    "abstract": false,
+    "type": "Beep.Skia.DFD.DFDProcessGaneSarson",
+    "file": "Beep.Skia.DFD\\DFDProcessGaneSarson.cs",
+    "palette": true
+  },
+  {
+    "family": "DFD",
+    "project": "Beep.Skia.DFD",
+    "name": "DFDProcessGroupBoundary",
+    "base": "DFDControl",
+    "abstract": false,
+    "type": "Beep.Skia.DFD.DFDProcessGroupBoundary",
+    "file": "Beep.Skia.DFD\\DFDProcessGroupBoundary.cs",
+    "palette": true
+  },
+  {
+    "family": "DFD",
+    "project": "Beep.Skia.DFD",
+    "name": "DFDProcessMultiIO",
+    "base": "DFDControl",
+    "abstract": false,
+    "type": "Beep.Skia.DFD.DFDProcessMultiIO",
+    "file": "Beep.Skia.DFD\\DFDProcessMultiIO.cs",
+    "palette": true
+  },
+  {
+    "family": "DFD",
+    "project": "Beep.Skia.DFD",
+    "name": "DFDProcessNumbered",
+    "base": "DFDControl",
+    "abstract": false,
+    "type": "Beep.Skia.DFD.DFDProcessNumbered",
+    "file": "Beep.Skia.DFD\\DFDProcessNumbered.cs",
+    "palette": true
+  },
+  {
+    "family": "DFD",
+    "project": "Beep.Skia.DFD",
+    "name": "DFDProcessOval",
+    "base": "DFDControl",
+    "abstract": false,
+    "type": "Beep.Skia.DFD.DFDProcessOval",
+    "file": "Beep.Skia.DFD\\DFDProcessOval.cs",
+    "palette": true
+  },
+  {
+    "family": "DFD",
+    "project": "Beep.Skia.DFD",
+    "name": "DFDSubsystemContainer",
+    "base": "DFDControl",
+    "abstract": false,
+    "type": "Beep.Skia.DFD.DFDSubsystemContainer",
+    "file": "Beep.Skia.DFD\\DFDSubsystemContainer.cs",
+    "palette": true
+  },
+  {
+    "family": "DFD",
+    "project": "Beep.Skia.DFD",
+    "name": "DFDTrustBoundary",
+    "base": "DFDControl",
+    "abstract": false,
+    "type": "Beep.Skia.DFD.DFDTrustBoundary",
+    "file": "Beep.Skia.DFD\\DFDTrustBoundary.cs",
+    "palette": true
+  },
+  {
+    "family": "ECAD",
+    "project": "Beep.Skia.ECAD",
+    "name": "ECADBatteryNode",
+    "base": "ECADControl",
+    "abstract": false,
+    "type": "Beep.Skia.ECAD.ECADBatteryNode",
+    "file": "Beep.Skia.ECAD\\ECADBatteryNode.cs",
+    "palette": true
+  },
+  {
+    "family": "ECAD",
+    "project": "Beep.Skia.ECAD",
+    "name": "ECADCapacitorNode",
+    "base": "ECADControl",
+    "abstract": false,
+    "type": "Beep.Skia.ECAD.ECADCapacitorNode",
+    "file": "Beep.Skia.ECAD\\ECADCapacitorNode.cs",
+    "palette": true
+  },
+  {
+    "family": "ECAD",
+    "project": "Beep.Skia.ECAD",
+    "name": "ECADDiodeNode",
+    "base": "ECADControl",
+    "abstract": false,
+    "type": "Beep.Skia.ECAD.ECADDiodeNode",
+    "file": "Beep.Skia.ECAD\\ECADDiodeNode.cs",
+    "palette": true
+  },
+  {
+    "family": "ECAD",
+    "project": "Beep.Skia.ECAD",
+    "name": "ECADFuseNode",
+    "base": "ECADControl",
+    "abstract": false,
+    "type": "Beep.Skia.ECAD.ECADFuseNode",
+    "file": "Beep.Skia.ECAD\\ECADFuseNode.cs",
+    "palette": true
+  },
+  {
+    "family": "ECAD",
+    "project": "Beep.Skia.ECAD",
+    "name": "ECADGroundNode",
+    "base": "ECADControl",
+    "abstract": false,
+    "type": "Beep.Skia.ECAD.ECADGroundNode",
+    "file": "Beep.Skia.ECAD\\ECADGroundNode.cs",
+    "palette": true
+  },
+  {
+    "family": "ECAD",
+    "project": "Beep.Skia.ECAD",
+    "name": "ECADICNode",
+    "base": "ECADControl",
+    "abstract": false,
+    "type": "Beep.Skia.ECAD.ECADICNode",
+    "file": "Beep.Skia.ECAD\\ECADICNode.cs",
+    "palette": true
+  },
+  {
+    "family": "ECAD",
+    "project": "Beep.Skia.ECAD",
+    "name": "ECADInductorNode",
+    "base": "ECADControl",
+    "abstract": false,
+    "type": "Beep.Skia.ECAD.ECADInductorNode",
+    "file": "Beep.Skia.ECAD\\ECADInductorNode.cs",
+    "palette": true
+  },
+  {
+    "family": "ECAD",
+    "project": "Beep.Skia.ECAD",
+    "name": "ECADLogicGateNode",
+    "base": "ECADControl",
+    "abstract": false,
+    "type": "Beep.Skia.ECAD.ECADLogicGateNode",
+    "file": "Beep.Skia.ECAD\\ECADLogicGateNode.cs",
+    "palette": true
+  },
+  {
+    "family": "ECAD",
+    "project": "Beep.Skia.ECAD",
+    "name": "ECADMemoryNode",
+    "base": "ECADControl",
+    "abstract": false,
+    "type": "Beep.Skia.ECAD.ECADMemoryNode",
+    "file": "Beep.Skia.ECAD\\ECADMemoryNode.cs",
+    "palette": true
+  },
+  {
+    "family": "ECAD",
+    "project": "Beep.Skia.ECAD",
+    "name": "ECADMicrocontrollerNode",
+    "base": "ECADControl",
+    "abstract": false,
+    "type": "Beep.Skia.ECAD.ECADMicrocontrollerNode",
+    "file": "Beep.Skia.ECAD\\ECADMicrocontrollerNode.cs",
+    "palette": true
+  },
+  {
+    "family": "ECAD",
+    "project": "Beep.Skia.ECAD",
+    "name": "ECADOpAmpNode",
+    "base": "ECADControl",
+    "abstract": false,
+    "type": "Beep.Skia.ECAD.ECADOpAmpNode",
+    "file": "Beep.Skia.ECAD\\ECADOpAmpNode.cs",
+    "palette": true
+  },
+  {
+    "family": "ECAD",
+    "project": "Beep.Skia.ECAD",
+    "name": "ECADPowerSupplyNode",
+    "base": "ECADControl",
+    "abstract": false,
+    "type": "Beep.Skia.ECAD.ECADPowerSupplyNode",
+    "file": "Beep.Skia.ECAD\\ECADPowerSupplyNode.cs",
+    "palette": true
+  },
+  {
+    "family": "ECAD",
+    "project": "Beep.Skia.ECAD",
+    "name": "ECADResistorNode",
+    "base": "ECADControl",
+    "abstract": false,
+    "type": "Beep.Skia.ECAD.ECADResistorNode",
+    "file": "Beep.Skia.ECAD\\ECADResistorNode.cs",
+    "palette": true
+  },
+  {
+    "family": "ECAD",
+    "project": "Beep.Skia.ECAD",
+    "name": "ECADTraceNode",
+    "base": "ECADControl",
+    "abstract": false,
+    "type": "Beep.Skia.ECAD.ECADTraceNode",
+    "file": "Beep.Skia.ECAD\\ECADTraceNode.cs",
+    "palette": true
+  },
+  {
+    "family": "ECAD",
+    "project": "Beep.Skia.ECAD",
+    "name": "ECADTransformerNode",
+    "base": "ECADControl",
+    "abstract": false,
+    "type": "Beep.Skia.ECAD.ECADTransformerNode",
+    "file": "Beep.Skia.ECAD\\ECADTransformerNode.cs",
+    "palette": true
+  },
+  {
+    "family": "ECAD",
+    "project": "Beep.Skia.ECAD",
+    "name": "ECADTransistorNode",
+    "base": "ECADControl",
+    "abstract": false,
+    "type": "Beep.Skia.ECAD.ECADTransistorNode",
+    "file": "Beep.Skia.ECAD\\ECADTransistorNode.cs",
+    "palette": true
+  },
+  {
+    "family": "ECAD",
+    "project": "Beep.Skia.ECAD",
+    "name": "ECADVoltageRegulatorNode",
+    "base": "ECADControl",
+    "abstract": false,
+    "type": "Beep.Skia.ECAD.ECADVoltageRegulatorNode",
+    "file": "Beep.Skia.ECAD\\ECADVoltageRegulatorNode.cs",
+    "palette": true
+  },
+  {
+    "family": "ETL",
+    "project": "Beep.Skia.ETL",
+    "name": "ETLAggregate",
+    "base": "ETLControl",
+    "abstract": false,
+    "type": "Beep.Skia.ETL.ETLAggregate",
+    "file": "Beep.Skia.ETL\\ETLAggregate.cs",
+    "palette": true
+  },
+  {
+    "family": "ETL",
+    "project": "Beep.Skia.ETL",
+    "name": "ETLCdcNode",
+    "base": "ETLControl",
+    "abstract": false,
+    "type": "Beep.Skia.ETL.ETLCdcNode",
+    "file": "Beep.Skia.ETL\\ETLCdcNode.cs",
+    "palette": true
+  },
+  {
+    "family": "ETL",
+    "project": "Beep.Skia.ETL",
+    "name": "ETLConditionalSplit",
+    "base": "ETLControl",
+    "abstract": false,
+    "type": "Beep.Skia.ETL.ETLConditionalSplit",
+    "file": "Beep.Skia.ETL\\ETLConditionalSplit.cs",
+    "palette": true
+  },
+  {
+    "family": "ETL",
+    "project": "Beep.Skia.ETL",
+    "name": "ETLDerivedColumn",
+    "base": "ETLControl",
+    "abstract": false,
+    "type": "Beep.Skia.ETL.ETLDerivedColumn",
+    "file": "Beep.Skia.ETL\\ETLDerivedColumn.cs",
+    "palette": true
+  },
+  {
+    "family": "ETL",
+    "project": "Beep.Skia.ETL",
+    "name": "ETLDestination",
+    "base": "ETLControl",
+    "abstract": false,
+    "type": "Beep.Skia.ETL.ETLDestination",
+    "file": "Beep.Skia.ETL\\ETLDestination.cs",
+    "palette": true
+  },
+  {
+    "family": "ETL",
+    "project": "Beep.Skia.ETL",
+    "name": "ETLFilter",
+    "base": "ETLControl",
+    "abstract": false,
+    "type": "Beep.Skia.ETL.ETLFilter",
+    "file": "Beep.Skia.ETL\\ETLFilter.cs",
+    "palette": true
+  },
+  {
+    "family": "ETL",
+    "project": "Beep.Skia.ETL",
+    "name": "ETLFuzzyLookupNode",
+    "base": "ETLControl",
+    "abstract": false,
+    "type": "Beep.Skia.ETL.ETLFuzzyLookupNode",
+    "file": "Beep.Skia.ETL\\ETLFuzzyLookupNode.cs",
+    "palette": true
+  },
+  {
+    "family": "ETL",
+    "project": "Beep.Skia.ETL",
+    "name": "ETLJoin",
+    "base": "ETLControl",
+    "abstract": false,
+    "type": "Beep.Skia.ETL.ETLJoin",
+    "file": "Beep.Skia.ETL\\ETLJoin.cs",
+    "palette": true
+  },
+  {
+    "family": "ETL",
+    "project": "Beep.Skia.ETL",
+    "name": "ETLLookup",
+    "base": "ETLControl",
+    "abstract": false,
+    "type": "Beep.Skia.ETL.ETLLookup",
+    "file": "Beep.Skia.ETL\\ETLLookup.cs",
+    "palette": true
+  },
+  {
+    "family": "ETL",
+    "project": "Beep.Skia.ETL",
+    "name": "ETLMerge",
+    "base": "ETLControl",
+    "abstract": false,
+    "type": "Beep.Skia.ETL.ETLMerge",
+    "file": "Beep.Skia.ETL\\ETLMerge.cs",
+    "palette": true
+  },
+  {
+    "family": "ETL",
+    "project": "Beep.Skia.ETL",
+    "name": "ETLMulticast",
+    "base": "ETLControl",
+    "abstract": false,
+    "type": "Beep.Skia.ETL.ETLMulticast",
+    "file": "Beep.Skia.ETL\\ETLMulticast.cs",
+    "palette": true
+  },
+  {
+    "family": "ETL",
+    "project": "Beep.Skia.ETL",
+    "name": "ETLPivot",
+    "base": "ETLControl",
+    "abstract": false,
+    "type": "Beep.Skia.ETL.ETLPivot",
+    "file": "Beep.Skia.ETL\\ETLPivot.cs",
+    "palette": true
+  },
+  {
+    "family": "ETL",
+    "project": "Beep.Skia.ETL",
+    "name": "ETLRowCount",
+    "base": "ETLControl",
+    "abstract": false,
+    "type": "Beep.Skia.ETL.ETLRowCount",
+    "file": "Beep.Skia.ETL\\ETLRowCount.cs",
+    "palette": true
+  },
+  {
+    "family": "ETL",
+    "project": "Beep.Skia.ETL",
+    "name": "ETLScd",
+    "base": "ETLControl",
+    "abstract": false,
+    "type": "Beep.Skia.ETL.ETLScd",
+    "file": "Beep.Skia.ETL\\ETLScd.cs",
+    "palette": true
+  },
+  {
+    "family": "ETL",
+    "project": "Beep.Skia.ETL",
+    "name": "ETLScript",
+    "base": "ETLControl",
+    "abstract": false,
+    "type": "Beep.Skia.ETL.ETLScript",
+    "file": "Beep.Skia.ETL\\ETLScript.cs",
+    "palette": true
+  },
+  {
+    "family": "ETL",
+    "project": "Beep.Skia.ETL",
+    "name": "ETLSort",
+    "base": "ETLControl",
+    "abstract": false,
+    "type": "Beep.Skia.ETL.ETLSort",
+    "file": "Beep.Skia.ETL\\ETLSort.cs",
+    "palette": true
+  },
+  {
+    "family": "ETL",
+    "project": "Beep.Skia.ETL",
+    "name": "ETLSource",
+    "base": "ETLControl",
+    "abstract": false,
+    "type": "Beep.Skia.ETL.ETLSource",
+    "file": "Beep.Skia.ETL\\ETLSource.cs",
+    "palette": true
+  },
+  {
+    "family": "ETL",
+    "project": "Beep.Skia.ETL",
+    "name": "ETLSurrogateKeyNode",
+    "base": "ETLControl",
+    "abstract": false,
+    "type": "Beep.Skia.ETL.ETLSurrogateKeyNode",
+    "file": "Beep.Skia.ETL\\ETLSurrogateKeyNode.cs",
+    "palette": true
+  },
+  {
+    "family": "ETL",
+    "project": "Beep.Skia.ETL",
+    "name": "ETLTarget",
+    "base": "ETLControl",
+    "abstract": false,
+    "type": "Beep.Skia.ETL.ETLTarget",
+    "file": "Beep.Skia.ETL\\ETLTarget.cs",
+    "palette": true
+  },
+  {
+    "family": "ETL",
+    "project": "Beep.Skia.ETL",
+    "name": "ETLTransform",
+    "base": "ETLControl",
+    "abstract": false,
+    "type": "Beep.Skia.ETL.ETLTransform",
+    "file": "Beep.Skia.ETL\\ETLTransform.cs",
+    "palette": true
+  },
+  {
+    "family": "ETL",
+    "project": "Beep.Skia.ETL",
+    "name": "ETLUnpivot",
+    "base": "ETLControl",
+    "abstract": false,
+    "type": "Beep.Skia.ETL.ETLUnpivot",
+    "file": "Beep.Skia.ETL\\ETLUnpivot.cs",
+    "palette": true
+  },
+  {
+    "family": "ML",
+    "project": "Beep.Skia.ML",
+    "name": "MLBatchPredictionNode",
+    "base": "MLControl",
+    "abstract": false,
+    "type": "Beep.Skia.ML.MLBatchPredictionNode",
+    "file": "Beep.Skia.ML\\MLBatchPredictionNode.cs",
+    "palette": true
+  },
+  {
+    "family": "ML",
+    "project": "Beep.Skia.ML",
+    "name": "MLCNNNode",
+    "base": "MLControl",
+    "abstract": false,
+    "type": "Beep.Skia.ML.MLCNNNode",
+    "file": "Beep.Skia.ML\\MLCNNNode.cs",
+    "palette": true
+  },
+  {
+    "family": "ML",
+    "project": "Beep.Skia.ML",
+    "name": "MLCrossValidationNode",
+    "base": "MLControl",
+    "abstract": false,
+    "type": "Beep.Skia.ML.MLCrossValidationNode",
+    "file": "Beep.Skia.ML\\MLCrossValidationNode.cs",
+    "palette": true
+  },
+  {
+    "family": "ML",
+    "project": "Beep.Skia.ML",
+    "name": "MLDataAugmentationNode",
+    "base": "MLControl",
+    "abstract": false,
+    "type": "Beep.Skia.ML.MLDataAugmentationNode",
+    "file": "Beep.Skia.ML\\MLDataAugmentationNode.cs",
+    "palette": true
+  },
+  {
+    "family": "ML",
+    "project": "Beep.Skia.ML",
+    "name": "MLDataSourceNode",
+    "base": "MLControl",
+    "abstract": false,
+    "type": "Beep.Skia.ML.MLDataSourceNode",
+    "file": "Beep.Skia.ML\\MLDataSourceNode.cs",
+    "palette": true
+  },
+  {
+    "family": "ML",
+    "project": "Beep.Skia.ML",
+    "name": "MLDataSplitterNode",
+    "base": "MLControl",
+    "abstract": false,
+    "type": "Beep.Skia.ML.MLDataSplitterNode",
+    "file": "Beep.Skia.ML\\MLDataSplitterNode.cs",
+    "palette": true
+  },
+  {
+    "family": "ML",
+    "project": "Beep.Skia.ML",
+    "name": "MLEvaluateNode",
+    "base": "MLControl",
+    "abstract": false,
+    "type": "Beep.Skia.ML.MLEvaluateNode",
+    "file": "Beep.Skia.ML\\MLEvaluateNode.cs",
+    "palette": true
+  },
+  {
+    "family": "ML",
+    "project": "Beep.Skia.ML",
+    "name": "MLFeatureEngineeringNode",
+    "base": "MLControl",
+    "abstract": false,
+    "type": "Beep.Skia.ML.MLFeatureEngineeringNode",
+    "file": "Beep.Skia.ML\\MLFeatureEngineeringNode.cs",
+    "palette": true
+  },
+  {
+    "family": "ML",
+    "project": "Beep.Skia.ML",
+    "name": "MLHyperparameterTuningNode",
+    "base": "MLControl",
+    "abstract": false,
+    "type": "Beep.Skia.ML.MLHyperparameterTuningNode",
+    "file": "Beep.Skia.ML\\MLHyperparameterTuningNode.cs",
+    "palette": true
+  },
+  {
+    "family": "ML",
+    "project": "Beep.Skia.ML",
+    "name": "MLInferenceNode",
+    "base": "MLControl",
+    "abstract": false,
+    "type": "Beep.Skia.ML.MLInferenceNode",
+    "file": "Beep.Skia.ML\\MLInferenceNode.cs",
+    "palette": true
+  },
+  {
+    "family": "ML",
+    "project": "Beep.Skia.ML",
+    "name": "MLModelExportNode",
+    "base": "MLControl",
+    "abstract": false,
+    "type": "Beep.Skia.ML.MLModelExportNode",
+    "file": "Beep.Skia.ML\\MLModelExportNode.cs",
+    "palette": true
+  },
+  {
+    "family": "ML",
+    "project": "Beep.Skia.ML",
+    "name": "MLModelLoadNode",
+    "base": "MLControl",
+    "abstract": false,
+    "type": "Beep.Skia.ML.MLModelLoadNode",
+    "file": "Beep.Skia.ML\\MLModelLoadNode.cs",
+    "palette": true
+  },
+  {
+    "family": "ML",
+    "project": "Beep.Skia.ML",
+    "name": "MLModelNode",
+    "base": "MLControl",
+    "abstract": false,
+    "type": "Beep.Skia.ML.MLModelNode",
+    "file": "Beep.Skia.ML\\MLModelNode.cs",
+    "palette": true
+  },
+  {
+    "family": "ML",
+    "project": "Beep.Skia.ML",
+    "name": "MLNeuralNetworkNode",
+    "base": "MLControl",
+    "abstract": false,
+    "type": "Beep.Skia.ML.MLNeuralNetworkNode",
+    "file": "Beep.Skia.ML\\MLNeuralNetworkNode.cs",
+    "palette": true
+  },
+  {
+    "family": "ML",
+    "project": "Beep.Skia.ML",
+    "name": "MLPreprocessNode",
+    "base": "MLControl",
+    "abstract": false,
+    "type": "Beep.Skia.ML.MLPreprocessNode",
+    "file": "Beep.Skia.ML\\MLPreprocessNode.cs",
+    "palette": true
+  },
+  {
+    "family": "ML",
+    "project": "Beep.Skia.ML",
+    "name": "MLRNNNode",
+    "base": "MLControl",
+    "abstract": false,
+    "type": "Beep.Skia.ML.MLRNNNode",
+    "file": "Beep.Skia.ML\\MLRNNNode.cs",
+    "palette": true
+  },
+  {
+    "family": "ML",
+    "project": "Beep.Skia.ML",
+    "name": "MLTrainerNode",
+    "base": "MLControl",
+    "abstract": false,
+    "type": "Beep.Skia.ML.MLTrainerNode",
+    "file": "Beep.Skia.ML\\MLTrainerNode.cs",
+    "palette": true
+  },
+  {
+    "family": "ML",
+    "project": "Beep.Skia.ML",
+    "name": "MLTransformerNode",
+    "base": "MLControl",
+    "abstract": false,
+    "type": "Beep.Skia.ML.MLTransformerNode",
+    "file": "Beep.Skia.ML\\MLTransformerNode.cs",
+    "palette": true
+  },
+  {
+    "family": "PM",
+    "project": "Beep.Skia.PM",
+    "name": "BudgetNode",
+    "base": "PMControl",
+    "abstract": false,
+    "type": "Beep.Skia.PM.BudgetNode",
+    "file": "Beep.Skia.PM\\BudgetNode.cs",
+    "palette": true
+  },
+  {
+    "family": "PM",
+    "project": "Beep.Skia.PM",
+    "name": "CriticalPathNode",
+    "base": "PMControl",
+    "abstract": false,
+    "type": "Beep.Skia.PM.CriticalPathNode",
+    "file": "Beep.Skia.PM\\CriticalPathNode.cs",
+    "palette": true
+  },
+  {
+    "family": "PM",
+    "project": "Beep.Skia.PM",
+    "name": "DeliverableNode",
+    "base": "PMControl",
+    "abstract": false,
+    "type": "Beep.Skia.PM.DeliverableNode",
+    "file": "Beep.Skia.PM\\DeliverableNode.cs",
+    "palette": true
+  },
+  {
+    "family": "PM",
+    "project": "Beep.Skia.PM",
+    "name": "DependencyNode",
+    "base": "PMControl",
+    "abstract": false,
+    "type": "Beep.Skia.PM.DependencyNode",
+    "file": "Beep.Skia.PM\\DependencyNode.cs",
+    "palette": true
+  },
+  {
+    "family": "PM",
+    "project": "Beep.Skia.PM",
+    "name": "GanttBarNode",
+    "base": "PMControl",
+    "abstract": false,
+    "type": "Beep.Skia.PM.GanttBarNode",
+    "file": "Beep.Skia.PM\\GanttBarNode.cs",
+    "palette": true
+  },
+  {
+    "family": "PM",
+    "project": "Beep.Skia.PM",
+    "name": "GanttTimelineNode",
+    "base": "PMControl",
+    "abstract": false,
+    "type": "Beep.Skia.PM.GanttTimelineNode",
+    "file": "Beep.Skia.PM\\GanttTimelineNode.cs",
+    "palette": true
+  },
+  {
+    "family": "PM",
+    "project": "Beep.Skia.PM",
+    "name": "IssueNode",
+    "base": "PMControl",
+    "abstract": false,
+    "type": "Beep.Skia.PM.IssueNode",
+    "file": "Beep.Skia.PM\\IssueNode.cs",
+    "palette": true
+  },
+  {
+    "family": "PM",
+    "project": "Beep.Skia.PM",
+    "name": "MilestoneNode",
+    "base": "PMControl",
+    "abstract": false,
+    "type": "Beep.Skia.PM.MilestoneNode",
+    "file": "Beep.Skia.PM\\MilestoneNode.cs",
+    "palette": true
+  },
+  {
+    "family": "PM",
+    "project": "Beep.Skia.PM",
+    "name": "PhaseNode",
+    "base": "PMControl",
+    "abstract": false,
+    "type": "Beep.Skia.PM.PhaseNode",
+    "file": "Beep.Skia.PM\\PhaseNode.cs",
+    "palette": true
+  },
+  {
+    "family": "PM",
+    "project": "Beep.Skia.PM",
+    "name": "ResourceNode",
+    "base": "PMControl",
+    "abstract": false,
+    "type": "Beep.Skia.PM.ResourceNode",
+    "file": "Beep.Skia.PM\\ResourceNode.cs",
+    "palette": true
+  },
+  {
+    "family": "PM",
+    "project": "Beep.Skia.PM",
+    "name": "RiskNode",
+    "base": "PMControl",
+    "abstract": false,
+    "type": "Beep.Skia.PM.RiskNode",
+    "file": "Beep.Skia.PM\\RiskNode.cs",
+    "palette": true
+  },
+  {
+    "family": "PM",
+    "project": "Beep.Skia.PM",
+    "name": "SummaryNode",
+    "base": "PMControl",
+    "abstract": false,
+    "type": "Beep.Skia.PM.SummaryNode",
+    "file": "Beep.Skia.PM\\SummaryNode.cs",
+    "palette": true
+  },
+  {
+    "family": "PM",
+    "project": "Beep.Skia.PM",
+    "name": "TaskNode",
+    "base": "PMControl",
+    "abstract": false,
+    "type": "Beep.Skia.PM.TaskNode",
+    "file": "Beep.Skia.PM\\TaskNode.cs",
+    "palette": true
+  },
+  {
+    "family": "Security",
+    "project": "Beep.Skia.Security",
+    "name": "AssetNode",
+    "base": "SecurityControl",
+    "abstract": false,
+    "type": "Beep.Skia.Security.AssetNode",
+    "file": "Beep.Skia.Security\\AssetNode.cs",
+    "palette": true
+  },
+  {
+    "family": "Security",
+    "project": "Beep.Skia.Security",
+    "name": "ControlNode",
+    "base": "SecurityControl",
+    "abstract": false,
+    "type": "Beep.Skia.Security.ControlNode",
+    "file": "Beep.Skia.Security\\ControlNode.cs",
+    "palette": true
+  },
+  {
+    "family": "Security",
+    "project": "Beep.Skia.Security",
+    "name": "FindingNode",
+    "base": "SecurityControl",
+    "abstract": false,
+    "type": "Beep.Skia.Security.FindingNode",
+    "file": "Beep.Skia.Security\\FindingNode.cs",
+    "palette": true
+  },
+  {
+    "family": "Security",
+    "project": "Beep.Skia.Security",
+    "name": "IncidentNode",
+    "base": "SecurityControl",
+    "abstract": false,
+    "type": "Beep.Skia.Security.IncidentNode",
+    "file": "Beep.Skia.Security\\IncidentNode.cs",
+    "palette": true
+  },
+  {
+    "family": "Security",
+    "project": "Beep.Skia.Security",
+    "name": "MitigationLink",
+    "base": "SecurityControl",
+    "abstract": false,
+    "type": "Beep.Skia.Security.MitigationLink",
+    "file": "Beep.Skia.Security\\MitigationLink.cs",
+    "palette": true
+  },
+  {
+    "family": "Security",
+    "project": "Beep.Skia.Security",
+    "name": "PolicyNode",
+    "base": "SecurityControl",
+    "abstract": false,
+    "type": "Beep.Skia.Security.PolicyNode",
+    "file": "Beep.Skia.Security\\PolicyNode.cs",
+    "palette": true
+  },
+  {
+    "family": "Security",
+    "project": "Beep.Skia.Security",
+    "name": "RiskAssessmentNode",
+    "base": "SecurityControl",
+    "abstract": false,
+    "type": "Beep.Skia.Security.RiskAssessmentNode",
+    "file": "Beep.Skia.Security\\RiskAssessmentNode.cs",
+    "palette": true
+  },
+  {
+    "family": "Security",
+    "project": "Beep.Skia.Security",
+    "name": "ThreatNode",
+    "base": "SecurityControl",
+    "abstract": false,
+    "type": "Beep.Skia.Security.ThreatNode",
+    "file": "Beep.Skia.Security\\ThreatNode.cs",
+    "palette": true
+  },
+  {
+    "family": "Security",
+    "project": "Beep.Skia.Security",
+    "name": "VulnerabilityNode",
+    "base": "SecurityControl",
+    "abstract": false,
+    "type": "Beep.Skia.Security.VulnerabilityNode",
+    "file": "Beep.Skia.Security\\VulnerabilityNode.cs",
+    "palette": true
+  },
+  {
+    "family": "StateMachine",
+    "project": "Beep.Skia.StateMachine",
+    "name": "ChoiceNode",
+    "base": "StateMachineControl",
+    "abstract": false,
+    "type": "Beep.Skia.StateMachine.ChoiceNode",
+    "file": "Beep.Skia.StateMachine\\ChoiceNode.cs",
+    "palette": true
+  },
+  {
+    "family": "StateMachine",
+    "project": "Beep.Skia.StateMachine",
+    "name": "CompositeStateNode",
+    "base": "StateMachineControl",
+    "abstract": false,
+    "type": "Beep.Skia.StateMachine.CompositeStateNode",
+    "file": "Beep.Skia.StateMachine\\CompositeStateNode.cs",
+    "palette": true
+  },
+  {
+    "family": "StateMachine",
+    "project": "Beep.Skia.StateMachine",
+    "name": "FinalStateNode",
+    "base": "StateMachineControl",
+    "abstract": false,
+    "type": "Beep.Skia.StateMachine.FinalStateNode",
+    "file": "Beep.Skia.StateMachine\\FinalStateNode.cs",
+    "palette": true
+  },
+  {
+    "family": "StateMachine",
+    "project": "Beep.Skia.StateMachine",
+    "name": "ForkNode",
+    "base": "StateMachineControl",
+    "abstract": false,
+    "type": "Beep.Skia.StateMachine.ForkNode",
+    "file": "Beep.Skia.StateMachine\\ForkNode.cs",
+    "palette": true
+  },
+  {
+    "family": "StateMachine",
+    "project": "Beep.Skia.StateMachine",
+    "name": "HistoryNode",
+    "base": "StateMachineControl",
+    "abstract": false,
+    "type": "Beep.Skia.StateMachine.HistoryNode",
+    "file": "Beep.Skia.StateMachine\\HistoryNode.cs",
+    "palette": true
+  },
+  {
+    "family": "StateMachine",
+    "project": "Beep.Skia.StateMachine",
+    "name": "InitialStateNode",
+    "base": "StateMachineControl",
+    "abstract": false,
+    "type": "Beep.Skia.StateMachine.InitialStateNode",
+    "file": "Beep.Skia.StateMachine\\InitialStateNode.cs",
+    "palette": true
+  },
+  {
+    "family": "StateMachine",
+    "project": "Beep.Skia.StateMachine",
+    "name": "JoinNode",
+    "base": "StateMachineControl",
+    "abstract": false,
+    "type": "Beep.Skia.StateMachine.JoinNode",
+    "file": "Beep.Skia.StateMachine\\JoinNode.cs",
+    "palette": true
+  },
+  {
+    "family": "StateMachine",
+    "project": "Beep.Skia.StateMachine",
+    "name": "StateNode",
+    "base": "StateMachineControl",
+    "abstract": false,
+    "type": "Beep.Skia.StateMachine.StateNode",
+    "file": "Beep.Skia.StateMachine\\StateNode.cs",
+    "palette": true
+  },
+  {
+    "family": "Quantitative",
+    "project": "Beep.Ski.Quantitative",
+    "name": "DataSourceNode",
+    "base": "QuantControl",
+    "abstract": false,
+    "type": "Beep.Ski.Quantitative.DataSourceNode",
+    "file": "Beep.Ski.Quantitative\\DataNodes.cs",
+    "palette": true
+  },
+  {
+    "family": "Quantitative",
+    "project": "Beep.Ski.Quantitative",
+    "name": "TransformNode",
+    "base": "QuantControl",
+    "abstract": false,
+    "type": "Beep.Ski.Quantitative.TransformNode",
+    "file": "Beep.Ski.Quantitative\\DataNodes.cs",
+    "palette": true
+  },
+  {
+    "family": "Quantitative",
+    "project": "Beep.Ski.Quantitative",
+    "name": "FilterNode",
+    "base": "QuantControl",
+    "abstract": false,
+    "type": "Beep.Ski.Quantitative.FilterNode",
+    "file": "Beep.Ski.Quantitative\\DataNodes.cs",
+    "palette": true
+  },
+  {
+    "family": "Quantitative",
+    "project": "Beep.Ski.Quantitative",
+    "name": "AggregateNode",
+    "base": "QuantControl",
+    "abstract": false,
+    "type": "Beep.Ski.Quantitative.AggregateNode",
+    "file": "Beep.Ski.Quantitative\\DataNodes.cs",
+    "palette": true
+  },
+  {
+    "family": "Quantitative",
+    "project": "Beep.Ski.Quantitative",
+    "name": "ChartNode",
+    "base": "QuantControl",
+    "abstract": false,
+    "type": "Beep.Ski.Quantitative.ChartNode",
+    "file": "Beep.Ski.Quantitative\\DataNodes.cs",
+    "palette": true
+  },
+  {
+    "family": "Quantitative",
+    "project": "Beep.Ski.Quantitative",
+    "name": "ExportNode",
+    "base": "QuantControl",
+    "abstract": false,
+    "type": "Beep.Ski.Quantitative.ExportNode",
+    "file": "Beep.Ski.Quantitative\\DataNodes.cs",
+    "palette": true
+  },
+  {
+    "family": "Quantitative",
+    "project": "Beep.Ski.Quantitative",
+    "name": "IndicatorNode",
+    "base": "QuantControl",
+    "abstract": false,
+    "type": "Beep.Ski.Quantitative.IndicatorNode",
+    "file": "Beep.Ski.Quantitative\\IndicatorNode.cs",
+    "palette": true
+  },
+  {
+    "family": "Quantitative",
+    "project": "Beep.Ski.Quantitative",
+    "name": "MACDNode",
+    "base": "QuantControl",
+    "abstract": false,
+    "type": "Beep.Ski.Quantitative.MACDNode",
+    "file": "Beep.Ski.Quantitative\\IndicatorNodes.cs",
+    "palette": true
+  },
+  {
+    "family": "Quantitative",
+    "project": "Beep.Ski.Quantitative",
+    "name": "BollingerBandsNode",
+    "base": "QuantControl",
+    "abstract": false,
+    "type": "Beep.Ski.Quantitative.BollingerBandsNode",
+    "file": "Beep.Ski.Quantitative\\IndicatorNodes.cs",
+    "palette": true
+  },
+  {
+    "family": "Quantitative",
+    "project": "Beep.Ski.Quantitative",
+    "name": "RSINode",
+    "base": "QuantControl",
+    "abstract": false,
+    "type": "Beep.Ski.Quantitative.RSINode",
+    "file": "Beep.Ski.Quantitative\\IndicatorNodes.cs",
+    "palette": true
+  },
+  {
+    "family": "Quantitative",
+    "project": "Beep.Ski.Quantitative",
+    "name": "StochasticNode",
+    "base": "QuantControl",
+    "abstract": false,
+    "type": "Beep.Ski.Quantitative.StochasticNode",
+    "file": "Beep.Ski.Quantitative\\IndicatorNodes.cs",
+    "palette": true
+  },
+  {
+    "family": "Quantitative",
+    "project": "Beep.Ski.Quantitative",
+    "name": "ATRNode",
+    "base": "QuantControl",
+    "abstract": false,
+    "type": "Beep.Ski.Quantitative.ATRNode",
+    "file": "Beep.Ski.Quantitative\\IndicatorNodes.cs",
+    "palette": true
+  },
+  {
+    "family": "Quantitative",
+    "project": "Beep.Ski.Quantitative",
+    "name": "DistributionNode",
+    "base": "QuantControl",
+    "abstract": false,
+    "type": "Beep.Ski.Quantitative.DistributionNode",
+    "file": "Beep.Ski.Quantitative\\StatisticalNodes.cs",
+    "palette": true
+  },
+  {
+    "family": "Quantitative",
+    "project": "Beep.Ski.Quantitative",
+    "name": "CorrelationNode",
+    "base": "QuantControl",
+    "abstract": false,
+    "type": "Beep.Ski.Quantitative.CorrelationNode",
+    "file": "Beep.Ski.Quantitative\\StatisticalNodes.cs",
+    "palette": true
+  },
+  {
+    "family": "Quantitative",
+    "project": "Beep.Ski.Quantitative",
+    "name": "RegressionNode",
+    "base": "QuantControl",
+    "abstract": false,
+    "type": "Beep.Ski.Quantitative.RegressionNode",
+    "file": "Beep.Ski.Quantitative\\StatisticalNodes.cs",
+    "palette": true
+  },
+  {
+    "family": "Quantitative",
+    "project": "Beep.Ski.Quantitative",
+    "name": "ForecastNode",
+    "base": "QuantControl",
+    "abstract": false,
+    "type": "Beep.Ski.Quantitative.ForecastNode",
+    "file": "Beep.Ski.Quantitative\\StatisticalNodes.cs",
+    "palette": true
+  },
+  {
+    "family": "Quantitative",
+    "project": "Beep.Ski.Quantitative",
+    "name": "MonteCarloNode",
+    "base": "QuantControl",
+    "abstract": false,
+    "type": "Beep.Ski.Quantitative.MonteCarloNode",
+    "file": "Beep.Ski.Quantitative\\StatisticalNodes.cs",
+    "palette": true
+  },
+  {
+    "family": "Quantitative",
+    "project": "Beep.Ski.Quantitative",
+    "name": "VaRNode",
+    "base": "QuantControl",
+    "abstract": false,
+    "type": "Beep.Ski.Quantitative.VaRNode",
+    "file": "Beep.Ski.Quantitative\\StatisticalNodes.cs",
+    "palette": true
+  },
+  {
+    "family": "Quantitative",
+    "project": "Beep.Ski.Quantitative",
+    "name": "StrategyNode",
+    "base": "QuantControl",
+    "abstract": false,
+    "type": "Beep.Ski.Quantitative.StrategyNode",
+    "file": "Beep.Ski.Quantitative\\StrategyNodes.cs",
+    "palette": true
+  },
+  {
+    "family": "Quantitative",
+    "project": "Beep.Ski.Quantitative",
+    "name": "BacktestNode",
+    "base": "QuantControl",
+    "abstract": false,
+    "type": "Beep.Ski.Quantitative.BacktestNode",
+    "file": "Beep.Ski.Quantitative\\StrategyNodes.cs",
+    "palette": true
+  },
+  {
+    "family": "Quantitative",
+    "project": "Beep.Ski.Quantitative",
+    "name": "PortfolioOptimizerNode",
+    "base": "QuantControl",
+    "abstract": false,
+    "type": "Beep.Ski.Quantitative.PortfolioOptimizerNode",
+    "file": "Beep.Ski.Quantitative\\StrategyNodes.cs",
+    "palette": true
+  },
+  {
+    "family": "Quantitative",
+    "project": "Beep.Ski.Quantitative",
+    "name": "RiskManagerNode",
+    "base": "QuantControl",
+    "abstract": false,
+    "type": "Beep.Ski.Quantitative.RiskManagerNode",
+    "file": "Beep.Ski.Quantitative\\StrategyNodes.cs",
+    "palette": true
+  },
+  {
+    "family": "Quantitative",
+    "project": "Beep.Ski.Quantitative",
+    "name": "PerformanceNode",
+    "base": "QuantControl",
+    "abstract": false,
+    "type": "Beep.Ski.Quantitative.PerformanceNode",
+    "file": "Beep.Ski.Quantitative\\StrategyNodes.cs",
+    "palette": true
+  },
+  {
+    "family": "Quantitative",
+    "project": "Beep.Ski.Quantitative",
+    "name": "TimeSeriesNode",
+    "base": "QuantControl",
+    "abstract": false,
+    "type": "Beep.Ski.Quantitative.TimeSeriesNode",
+    "file": "Beep.Ski.Quantitative\\TimeSeriesNode.cs",
+    "palette": true
+  },
+  {
+    "family": "WellLogs",
+    "project": "Beep.Skia.WellLogs",
+    "name": "WellLogCanvas",
+    "base": "MaterialControl",
+    "abstract": false,
+    "type": "Beep.Skia.WellLogs.WellLogCanvas",
+    "file": "Beep.Skia.WellLogs\\WellLogCanvas.cs",
+    "palette": true
+  }
+]

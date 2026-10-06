@@ -1,0 +1,83 @@
+{
+  "format": "beep.simpledraw",
+  "version": 2,
+  "diagram": {
+    "schemaVersion": 2,
+    "themeName": "Light",
+    "components": [
+      {
+        "type": "Beep.Skia.Components.SketchShape",
+        "x": 390,
+        "y": 164,
+        "width": 180,
+        "height": 110,
+        "name": "Rectangle 1",
+        "propertyBag": {
+          "Kind": "Rectangle",
+          "Stroke": "#334155",
+          "Fill": "#00000000",
+          "StrokeWidth": "2",
+          "PathData": ""
+        },
+        "typedPropertyBag": {},
+        "inPointIds": [],
+        "outPointIds": []
+      },
+      {
+        "type": "Beep.Skia.Components.SketchShape",
+        "x": 640,
+        "y": 174,
+        "width": 310,
+        "height": 110,
+        "name": "Arrow 2",
+        "propertyBag": {
+          "Kind": "Arrow",
+          "Stroke": "#7c3aed",
+          "Fill": "#00000000",
+          "StrokeWidth": "2",
+          "PathData": "1,0;0,1"
+        },
+        "typedPropertyBag": {},
+        "inPointIds": [],
+        "outPointIds": []
+      },
+      {
+        "type": "Beep.Skia.Components.SketchShape",
+        "x": 640,
+        "y": 394,
+        "width": 310,
+        "height": 0.01,
+        "name": "Line 3",
+        "propertyBag": {
+          "Kind": "Line",
+          "Stroke": "#2875bc",
+          "Fill": "#00000000",
+          "StrokeWidth": "2",
+          "PathData": "0,0;1,0"
+        },
+        "typedPropertyBag": {},
+        "inPointIds": [],
+        "outPointIds": []
+      },
+      {
+        "type": "Beep.Skia.Components.SketchShape",
+        "x": 350,
+        "y": 374,
+        "width": 150,
+        "height": 100,
+        "name": "Freehand 4",
+        "propertyBag": {
+          "Kind": "Freehand",
+          "Stroke": "#e06b56",
+          "Fill": "#00000000",
+          "StrokeWidth": "2",
+          "PathData": "0,0;0.12666667,0.13;0.25333333,0.25;0.37333333,0.38;0.5,0.5;0.62666667,0.63;0.75333333,0.75;0.87333333,0.88;1,1"
+        },
+        "typedPropertyBag": {},
+        "inPointIds": [],
+        "outPointIds": []
+      }
+    ],
+    "lines": []
+  }
+}

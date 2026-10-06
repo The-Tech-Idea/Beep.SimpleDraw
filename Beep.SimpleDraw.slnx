@@ -1,0 +1,30 @@
+<Solution>
+  <Folder Name="/Beep.Skia dependencies/">
+    <Project Path="../Beep.Skia/Beep.Skia.Model/Beep.Skia.Model.csproj" />
+    <Project Path="../Beep.Skia/Beep.Skia/Beep.Skia.csproj" />
+    <Project Path="../Beep.Skia/Beep.Skia.FlowChart/Beep.Skia.FlowChart.csproj" />
+    <Project Path="../Beep.Skia/Beep.Skia.Blazor.Controls/Beep.Skia.Blazor.Controls.csproj" />
+    <Project Path="../Beep.Skia/Beep.Skia.UML/Beep.Skia.UML.csproj" />
+    <Project Path="../Beep.Skia/Beep.Skia.ERD/Beep.Skia.ERD.csproj" />
+    <Project Path="../Beep.Skia/Beep.Skia.MindMap/Beep.Skia.MindMap.csproj" />
+    <Project Path="../Beep.Skia/Beep.Skia.Network/Beep.Skia.Network.csproj" />
+    <Project Path="../Beep.Skia/Beep.Skia.Business/Beep.Skia.Business.csproj" />
+    <Project Path="../Beep.Skia/Beep.Skia.Cloud/Beep.Skia.Cloud.csproj" />
+    <Project Path="../Beep.Skia/Beep.Skia.DFD/Beep.Skia.DFD.csproj" />
+    <Project Path="../Beep.Skia/Beep.Skia.ECAD/Beep.Skia.ECAD.csproj" />
+    <Project Path="../Beep.Skia/Beep.Skia.ETL/Beep.Skia.ETL.csproj" />
+    <Project Path="../Beep.Skia/Beep.Skia.ML/Beep.Skia.ML.csproj" />
+    <Project Path="../Beep.Skia/Beep.Skia.PM/Beep.Skia.PM.csproj" />
+    <Project Path="../Beep.Skia/Beep.Skia.Security/Beep.Skia.Security.csproj" />
+    <Project Path="../Beep.Skia/Beep.Skia.StateMachine/Beep.Skia.StateMachine.csproj" />
+    <Project Path="../Beep.Skia/Beep.Ski.Quantitative/Beep.Ski.Quantitative.csproj" />
+    <Project Path="../Beep.Skia/Beep.Skia.WellLogs/Beep.Skia.WellLogs.csproj" />
+  </Folder>
+  <Folder Name="/src/">
+    <Project Path="src/Beep.SimpleDraw.Core/Beep.SimpleDraw.Core.csproj" />
+    <Project Path="src/Beep.SimpleDraw.Web/Beep.SimpleDraw.Web.csproj" />
+  </Folder>
+  <Folder Name="/tests/">
+    <Project Path="tests/Beep.SimpleDraw.Tests/Beep.SimpleDraw.Tests.csproj" />
+  </Folder>
+</Solution>

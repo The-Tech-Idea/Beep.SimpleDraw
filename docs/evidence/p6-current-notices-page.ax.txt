@@ -1,0 +1,553 @@
+Browser tab: 74, Title: "SimpleDraw — software notices", URL: "http://127.0.0.1:5243/draw/licenses/index.html".
+0 AXWebArea SimpleDraw — software notices, URL: 127.0.0.1:5243/draw/licenses/index.html
+	1 container
+		2 heading Software notices, Value: 1
+			3 text Software notices
+		4 text SimpleDraw includes third-party software and the Kalam font. Original license and notice texts are available below. Vendor collections are retained in full and may include notices for additional components.
+		5 link Description: Download all software notices, Value: 127.0.0.1:5243/draw/licenses/THIRD-PARTY-NOTICES.txt
+		6 heading .NET browser runtime, Mono and ICU data, Value: 2
+			7 text .NET browser runtime, Mono and ICU data
+		8 text MIT and retained vendor third-party terms
+		9 content list
+			10 container
+				11 AXListMarker • 
+				12 link Description: Original license or notice text 1, Value: 127.0.0.1:5243/draw/licenses/texts/cfc21f5e8bd655ae997eec916138b707b1d290b83272c02a95c9f821b8c87310.txt
+			13 container
+				14 AXListMarker • 
+				15 link Description: Original license or notice text 2, Value: 127.0.0.1:5243/draw/licenses/texts/66f1d4e44973185519bb4aa8a9718eb22fc7af2cc532e3ae9cfc4c127ee7fc54.txt
+		16 heading Emscripten and linked standard-library notices, Value: 2
+			17 text Emscripten and linked standard-library notices
+		18 text Original MIT/NCSA, LLVM exceptions and musl notices
+		19 content list
+			20 container
+				21 AXListMarker • 
+				22 link Description: Original license or notice text 1, Value: 127.0.0.1:5243/draw/licenses/texts/620a78084fc7ca97c0b5dea9abf891f3ffcadfdbf305276f099c9c4e12fc1d86.txt
+			23 container
+				24 AXListMarker • 
+				25 link Description: Original license or notice text 2, Value: 127.0.0.1:5243/draw/licenses/texts/268e5de9a375069aae6012db728faf9e98232a676045a69a02ece010bf109cf7.txt
+			26 container
+				27 AXListMarker • 
+				28 link Description: Original license or notice text 3, Value: 127.0.0.1:5243/draw/licenses/texts/1a8f1058753f1ba890de984e48f0242a3a5c29a6a8f2ed9fd813f36985387e8d.txt
+			29 container
+				30 AXListMarker • 
+				31 link Description: Original license or notice text 4, Value: 127.0.0.1:5243/draw/licenses/texts/b5efebcaca80879234098e52d1725e6d9eb8fb96a19fce625d39184b705f7b6d.txt
+			32 container
+				33 AXListMarker • 
+				34 link Description: Original license or notice text 5, Value: 127.0.0.1:5243/draw/licenses/texts/539dd7aed86e8a4f12cbdd0e6c50c189c7d74847e4fecc64ce2c6ee3a01da38b.txt
+			35 container
+				36 AXListMarker • 
+				37 link Description: Original license or notice text 6, Value: 127.0.0.1:5243/draw/licenses/texts/e2b35be49f7284a45b7baca8fc7b3ab7440e7902392b2528a457816b5bb2a15c.txt
+			38 container
+				39 AXListMarker • 
+				40 link Description: Original license or notice text 7, Value: 127.0.0.1:5243/draw/licenses/texts/f9bc4423732350eb0b3f7ed7e91d530298476f8fec0c6c427a1c04ade22655af.txt
+		41 heading Microsoft.AspNetCore.App.Internal.Assets 10.0.12, Value: 2
+			42 text Microsoft.AspNetCore.App.Internal.Assets 10.0.12
+		43 text MIT
+		44 text Microsoft
+		45 text © Microsoft Corporation. All rights reserved.
+		46 content list
+			47 container
+				48 AXListMarker • 
+				49 link Description: Original license or notice text 1, Value: 127.0.0.1:5243/draw/licenses/texts/307d014f65d8482314f1400ddeae7a0cbabb96c2207bcc77f6233cc10588e5d9.txt
+			50 container
+				51 AXListMarker • 
+				52 link Description: Original license or notice text 2, Value: 127.0.0.1:5243/draw/licenses/texts/cfc21f5e8bd655ae997eec916138b707b1d290b83272c02a95c9f821b8c87310.txt
+		53 heading Microsoft.AspNetCore.Authorization 10.0.12, Value: 2
+			54 text Microsoft.AspNetCore.Authorization 10.0.12
+		55 text MIT
+		56 text Microsoft
+		57 text © Microsoft Corporation. All rights reserved.
+		58 content list
+			59 container
+				60 AXListMarker • 
+				61 link Description: Original license or notice text 1, Value: 127.0.0.1:5243/draw/licenses/texts/307d014f65d8482314f1400ddeae7a0cbabb96c2207bcc77f6233cc10588e5d9.txt
+			62 container
+				63 AXListMarker • 
+				64 link Description: Original license or notice text 2, Value: 127.0.0.1:5243/draw/licenses/texts/cfc21f5e8bd655ae997eec916138b707b1d290b83272c02a95c9f821b8c87310.txt
+		65 heading Microsoft.AspNetCore.Components.Analyzers 10.0.12, Value: 2
+			66 text Microsoft.AspNetCore.Components.Analyzers 10.0.12
+		67 text MIT
+		68 text Microsoft
+		69 text © Microsoft Corporation. All rights reserved.
+		70 content list
+			71 container
+				72 AXListMarker • 
+				73 link Description: Original license or notice text 1, Value: 127.0.0.1:5243/draw/licenses/texts/ae45a01fa3062e9d9932760cf834dae3ba23dbd75a75a2b919654f9c738d1ed9.txt
+			74 container
+				75 AXListMarker • 
+				76 link Description: Original license or notice text 2, Value: 127.0.0.1:5243/draw/licenses/texts/cfc21f5e8bd655ae997eec916138b707b1d290b83272c02a95c9f821b8c87310.txt
+		77 heading Microsoft.AspNetCore.Components.Forms 10.0.12, Value: 2
+			78 text Microsoft.AspNetCore.Components.Forms 10.0.12
+		79 text MIT
+		80 text Microsoft
+		81 text © Microsoft Corporation. All rights reserved.
+		82 content list
+			83 container
+				84 AXListMarker • 
+				85 link Description: Original license or notice text 1, Value: 127.0.0.1:5243/draw/licenses/texts/ae45a01fa3062e9d9932760cf834dae3ba23dbd75a75a2b919654f9c738d1ed9.txt
+			86 container
+				87 AXListMarker • 
+				88 link Description: Original license or notice text 2, Value: 127.0.0.1:5243/draw/licenses/texts/cfc21f5e8bd655ae997eec916138b707b1d290b83272c02a95c9f821b8c87310.txt
+		89 heading Microsoft.AspNetCore.Components.Web 10.0.12, Value: 2
+			90 text Microsoft.AspNetCore.Components.Web 10.0.12
+		91 text MIT
+		92 text Microsoft
+		93 text © Microsoft Corporation. All rights reserved.
+		94 content list
+			95 container
+				96 AXListMarker • 
+				97 link Description: Original license or notice text 1, Value: 127.0.0.1:5243/draw/licenses/texts/ae45a01fa3062e9d9932760cf834dae3ba23dbd75a75a2b919654f9c738d1ed9.txt
+			98 container
+				99 AXListMarker • 
+				100 link Description: Original license or notice text 2, Value: 127.0.0.1:5243/draw/licenses/texts/cfc21f5e8bd655ae997eec916138b707b1d290b83272c02a95c9f821b8c87310.txt
+		101 heading Microsoft.AspNetCore.Components.WebAssembly 10.0.12, Value: 2
+			102 text Microsoft.AspNetCore.Components.WebAssembly 10.0.12
+		103 text MIT
+		104 text Microsoft
+		105 text © Microsoft Corporation. All rights reserved.
+		106 content list
+			107 container
+				108 AXListMarker • 
+				109 link Description: Original license or notice text 1, Value: 127.0.0.1:5243/draw/licenses/texts/ae45a01fa3062e9d9932760cf834dae3ba23dbd75a75a2b919654f9c738d1ed9.txt
+			110 container
+				111 AXListMarker • 
+				112 link Description: Original license or notice text 2, Value: 127.0.0.1:5243/draw/licenses/texts/cfc21f5e8bd655ae997eec916138b707b1d290b83272c02a95c9f821b8c87310.txt
+		113 heading Microsoft.AspNetCore.Components 10.0.12, Value: 2
+			114 text Microsoft.AspNetCore.Components 10.0.12
+		115 text MIT
+		116 text Microsoft
+		117 text © Microsoft Corporation. All rights reserved.
+		118 content list
+			119 container
+				120 AXListMarker • 
+				121 link Description: Original license or notice text 1, Value: 127.0.0.1:5243/draw/licenses/texts/ae45a01fa3062e9d9932760cf834dae3ba23dbd75a75a2b919654f9c738d1ed9.txt
+			122 container
+				123 AXListMarker • 
+				124 link Description: Original license or notice text 2, Value: 127.0.0.1:5243/draw/licenses/texts/cfc21f5e8bd655ae997eec916138b707b1d290b83272c02a95c9f821b8c87310.txt
+		125 heading Microsoft.AspNetCore.Metadata 10.0.12, Value: 2
+			126 text Microsoft.AspNetCore.Metadata 10.0.12
+		127 text MIT
+		128 text Microsoft
+		129 text © Microsoft Corporation. All rights reserved.
+		130 content list
+			131 container
+				132 AXListMarker • 
+				133 link Description: Original license or notice text 1, Value: 127.0.0.1:5243/draw/licenses/texts/307d014f65d8482314f1400ddeae7a0cbabb96c2207bcc77f6233cc10588e5d9.txt
+			134 container
+				135 AXListMarker • 
+				136 link Description: Original license or notice text 2, Value: 127.0.0.1:5243/draw/licenses/texts/cfc21f5e8bd655ae997eec916138b707b1d290b83272c02a95c9f821b8c87310.txt
+		137 heading Microsoft.Extensions.Configuration.Abstractions 10.0.12, Value: 2
+			138 text Microsoft.Extensions.Configuration.Abstractions 10.0.12
+		139 text MIT
+		140 text Microsoft
+		141 text © Microsoft Corporation. All rights reserved.
+		142 content list
+			143 container
+				144 AXListMarker • 
+				145 link Description: Original license or notice text 1, Value: 127.0.0.1:5243/draw/licenses/texts/6d15e10a101c6bfff2ab4429ed061bf76c456fc4b23ad6b03e0d0f8377148a21.txt
+			146 container
+				147 AXListMarker • 
+				148 link Description: Original license or notice text 2, Value: 127.0.0.1:5243/draw/licenses/texts/cfc21f5e8bd655ae997eec916138b707b1d290b83272c02a95c9f821b8c87310.txt
+		149 heading Microsoft.Extensions.Configuration.Binder 10.0.12, Value: 2
+			150 text Microsoft.Extensions.Configuration.Binder 10.0.12
+		151 text MIT
+		152 text Microsoft
+		153 text © Microsoft Corporation. All rights reserved.
+		154 content list
+			155 container
+				156 AXListMarker • 
+				157 link Description: Original license or notice text 1, Value: 127.0.0.1:5243/draw/licenses/texts/6d15e10a101c6bfff2ab4429ed061bf76c456fc4b23ad6b03e0d0f8377148a21.txt
+			158 container
+				159 AXListMarker • 
+				160 link Description: Original license or notice text 2, Value: 127.0.0.1:5243/draw/licenses/texts/cfc21f5e8bd655ae997eec916138b707b1d290b83272c02a95c9f821b8c87310.txt
+		161 heading Microsoft.Extensions.Configuration.FileExtensions 10.0.12, Value: 2
+			162 text Microsoft.Extensions.Configuration.FileExtensions 10.0.12
+		163 text MIT
+		164 text Microsoft
+		165 text © Microsoft Corporation. All rights reserved.
+		166 content list
+			167 container
+				168 AXListMarker • 
+				169 link Description: Original license or notice text 1, Value: 127.0.0.1:5243/draw/licenses/texts/6d15e10a101c6bfff2ab4429ed061bf76c456fc4b23ad6b03e0d0f8377148a21.txt
+			170 container
+				171 AXListMarker • 
+				172 link Description: Original license or notice text 2, Value: 127.0.0.1:5243/draw/licenses/texts/cfc21f5e8bd655ae997eec916138b707b1d290b83272c02a95c9f821b8c87310.txt
+		173 heading Microsoft.Extensions.Configuration.Json 10.0.12, Value: 2
+			174 text Microsoft.Extensions.Configuration.Json 10.0.12
+		175 text MIT
+		176 text Microsoft
+		177 text © Microsoft Corporation. All rights reserved.
+		178 content list
+			179 container
+				180 AXListMarker • 
+				181 link Description: Original license or notice text 1, Value: 127.0.0.1:5243/draw/licenses/texts/6d15e10a101c6bfff2ab4429ed061bf76c456fc4b23ad6b03e0d0f8377148a21.txt
+			182 container
+				183 AXListMarker • 
+				184 link Description: Original license or notice text 2, Value: 127.0.0.1:5243/draw/licenses/texts/cfc21f5e8bd655ae997eec916138b707b1d290b83272c02a95c9f821b8c87310.txt
+		185 heading Microsoft.Extensions.Configuration 10.0.12, Value: 2
+			186 text Microsoft.Extensions.Configuration 10.0.12
+		187 text MIT
+		188 text Microsoft
+		189 text © Microsoft Corporation. All rights reserved.
+		190 content list
+			191 container
+				192 AXListMarker • 
+				193 link Description: Original license or notice text 1, Value: 127.0.0.1:5243/draw/licenses/texts/6d15e10a101c6bfff2ab4429ed061bf76c456fc4b23ad6b03e0d0f8377148a21.txt
+			194 container
+				195 AXListMarker • 
+				196 link Description: Original license or notice text 2, Value: 127.0.0.1:5243/draw/licenses/texts/cfc21f5e8bd655ae997eec916138b707b1d290b83272c02a95c9f821b8c87310.txt
+		197 heading Microsoft.Extensions.DependencyInjection.Abstractions 10.0.12, Value: 2
+			198 text Microsoft.Extensions.DependencyInjection.Abstractions 10.0.12
+		199 text MIT
+		200 text Microsoft
+		201 text © Microsoft Corporation. All rights reserved.
+		202 content list
+			203 container
+				204 AXListMarker • 
+				205 link Description: Original license or notice text 1, Value: 127.0.0.1:5243/draw/licenses/texts/6d15e10a101c6bfff2ab4429ed061bf76c456fc4b23ad6b03e0d0f8377148a21.txt
+			206 container
+				207 AXListMarker • 
+				208 link Description: Original license or notice text 2, Value: 127.0.0.1:5243/draw/licenses/texts/cfc21f5e8bd655ae997eec916138b707b1d290b83272c02a95c9f821b8c87310.txt
+		209 heading Microsoft.Extensions.DependencyInjection 10.0.12, Value: 2
+			210 text Microsoft.Extensions.DependencyInjection 10.0.12
+		211 text MIT
+		212 text Microsoft
+		213 text © Microsoft Corporation. All rights reserved.
+		214 content list
+			215 container
+				216 AXListMarker • 
+				217 link Description: Original license or notice text 1, Value: 127.0.0.1:5243/draw/licenses/texts/6d15e10a101c6bfff2ab4429ed061bf76c456fc4b23ad6b03e0d0f8377148a21.txt
+			218 container
+				219 AXListMarker • 
+				220 link Description: Original license or notice text 2, Value: …
+		221 heading Microsoft.Extensions.Diagnostics.Abstractions 10.0.12, Value: 2
+			222 text Microsoft.Extensions.Diagnostics.Abstractions 10.0.12
+		223 text MIT
+		224 text Microsoft
+		225 text © Microsoft Corporation. All rights reserved.
+		226 content list
+			227 container
+				228 AXListMarker • 
+				229 link Description: Original license or notice text 1, Value: …
+			230 container
+				231 AXListMarker • 
+				232 link Description: Original license or notice text 2, Value: …
+		233 heading Microsoft.Extensions.Diagnostics 10.0.12, Value: 2
+			234 text Microsoft.Extensions.Diagnostics 10.0.12
+		235 text MIT
+		236 text Microsoft
+		237 text © Microsoft Corporation. All rights reserved.
+		238 content list
+			239 container
+				240 AXListMarker • 
+				241 link Description: Original license or notice text 1, Value: …
+			242 container
+				243 AXListMarker • 
+				244 link Description: Original license or notice text 2, Value: …
+		245 heading Microsoft.Extensions.FileProviders.Abstractions 10.0.12, Value: 2
+			246 text Microsoft.Extensions.FileProviders.Abstractions 10.0.12
+		247 text MIT
+		248 text Microsoft
+		249 text © Microsoft Corporation. All rights reserved.
+		250 content list
+			251 container
+				252 AXListMarker • 
+				253 link Description: Original license or notice text 1, Value: …
+			254 container
+				255 AXListMarker • 
+				256 link Description: Original license or notice text 2, Value: …
+		257 heading Microsoft.Extensions.FileProviders.Physical 10.0.12, Value: 2
+			258 text Microsoft.Extensions.FileProviders.Physical 10.0.12
+		259 text MIT
+		260 text Microsoft
+		261 text © Microsoft Corporation. All rights reserved.
+		262 content list
+			263 container
+				264 AXListMarker • 
+				265 link Description: Original license or notice text 1, Value: …
+			266 container
+				267 AXListMarker • 
+				268 link Description: Original license or notice text 2, Value: …
+		269 heading Microsoft.Extensions.FileSystemGlobbing 10.0.12, Value: 2
+			270 text Microsoft.Extensions.FileSystemGlobbing 10.0.12
+		271 text MIT
+		272 text Microsoft
+		273 text © Microsoft Corporation. All rights reserved.
+		274 content list
+			275 container
+				276 AXListMarker • 
+				277 link Description: Original license or notice text 1, Value: …
+			278 container
+				279 AXListMarker • 
+				280 link Description: Original license or notice text 2, Value: …
+		281 heading Microsoft.Extensions.Logging.Abstractions 10.0.12, Value: 2
+			282 text Microsoft.Extensions.Logging.Abstractions 10.0.12
+		283 text MIT
+		284 text Microsoft
+		285 text © Microsoft Corporation. All rights reserved.
+		286 content list
+			287 container
+				288 AXListMarker • 
+				289 link Description: Original license or notice text 1, Value: …
+			290 container
+				291 AXListMarker • 
+				292 link Description: Original license or notice text 2, Value: …
+		293 heading Microsoft.Extensions.Logging 10.0.12, Value: 2
+			294 text Microsoft.Extensions.Logging 10.0.12
+		295 text MIT
+		296 text Microsoft
+		297 text © Microsoft Corporation. All rights reserved.
+		298 content list
+			299 container
+				300 AXListMarker • 
+				301 link Description: Original license or notice text 1, Value: …
+			302 container
+				303 AXListMarker • 
+				304 link Description: Original license or notice text 2, Value: …
+		305 heading Microsoft.Extensions.Options.ConfigurationExtensions 10.0.12, Value: 2
+			306 text Microsoft.Extensions.Options.ConfigurationExtensions 10.0.12
+		307 text MIT
+		308 text Microsoft
+		309 text © Microsoft Corporation. All rights reserved.
+		310 content list
+			311 container
+				312 AXListMarker • 
+				313 link Description: Original license or notice text 1, Value: …
+			314 container
+				315 AXListMarker • 
+				316 link Description: Original license or notice text 2, Value: …
+		317 heading Microsoft.Extensions.Options 10.0.12, Value: 2
+			318 text Microsoft.Extensions.Options 10.0.12
+		319 text MIT
+		320 text Microsoft
+		321 text © Microsoft Corporation. All rights reserved.
+		322 content list
+			323 container
+				324 AXListMarker • 
+				325 link Description: Original license or notice text 1, Value: …
+			326 container
+				327 AXListMarker • 
+				328 link Description: Original license or notice text 2, Value: …
+		329 heading Microsoft.Extensions.Primitives 10.0.12, Value: 2
+			330 text Microsoft.Extensions.Primitives 10.0.12
+		331 text MIT
+		332 text Microsoft
+		333 text © Microsoft Corporation. All rights reserved.
+		334 content list
+			335 container
+				336 AXListMarker • 
+				337 link Description: Original license or notice text 1, Value: …
+			338 container
+				339 AXListMarker • 
+				340 link Description: Original license or notice text 2, Value: …
+		341 heading Microsoft.Extensions.Validation 10.0.12, Value: 2
+			342 text Microsoft.Extensions.Validation 10.0.12
+		343 text MIT
+		344 text Microsoft
+		345 text © Microsoft Corporation. All rights reserved.
+		346 content list
+			347 container
+				348 AXListMarker • 
+				349 link Description: Original license or notice text 1, Value: …
+			350 container
+				351 AXListMarker • 
+				352 link Description: Original license or notice text 2, Value: …
+		353 heading Microsoft.JSInterop.WebAssembly 10.0.12, Value: 2
+			354 text Microsoft.JSInterop.WebAssembly 10.0.12
+		355 text MIT
+		356 text Microsoft
+		357 text © Microsoft Corporation. All rights reserved.
+		358 content list
+			359 container
+				360 AXListMarker • 
+				361 link Description: Original license or notice text 1, Value: …
+			362 container
+				363 AXListMarker • 
+				364 link Description: Original license or notice text 2, Value: …
+		365 heading Microsoft.JSInterop 10.0.12, Value: 2
+			366 text Microsoft.JSInterop 10.0.12
+		367 text MIT
+		368 text Microsoft
+		369 text © Microsoft Corporation. All rights reserved.
+		370 content list
+			371 container
+				372 AXListMarker • 
+				373 link Description: Original license or notice text 1, Value: …
+			374 container
+				375 AXListMarker • 
+				376 link Description: Original license or notice text 2, Value: …
+		377 heading Microsoft.NET.ILLink.Tasks 10.0.12, Value: 2
+			378 text Microsoft.NET.ILLink.Tasks 10.0.12
+		379 text MIT
+		380 text Microsoft
+		381 text © Microsoft Corporation. All rights reserved.
+		382 content list
+			383 container
+				384 AXListMarker • 
+				385 link Description: Original license or notice text 1, Value: …
+			386 container
+				387 AXListMarker • 
+				388 link Description: Original license or notice text 2, Value: …
+		389 heading Microsoft.NET.Sdk.WebAssembly.Pack 10.0.12, Value: 2
+			390 text Microsoft.NET.Sdk.WebAssembly.Pack 10.0.12
+		391 text MIT
+		392 text Microsoft
+		393 text © Microsoft Corporation. All rights reserved.
+		394 content list
+			395 container
+				396 AXListMarker • 
+				397 link Description: Original license or notice text 1, Value: …
+			398 container
+				399 AXListMarker • 
+				400 link Description: Original license or notice text 2, Value: …
+		401 heading Microsoft.Win32.SystemEvents 10.0.9, Value: 2
+			402 text Microsoft.Win32.SystemEvents 10.0.9
+		403 text MIT
+		404 text Microsoft
+		405 text © Microsoft Corporation. All rights reserved.
+		406 content list
+			407 container
+				408 AXListMarker • 
+				409 link Description: Original license or notice text 1, Value: …
+			410 container
+				411 AXListMarker • 
+				412 link Description: Original license or notice text 2, Value: …
+		413 heading SkiaSharp.Extended 3.0.0, Value: 2
+			414 text SkiaSharp.Extended 3.0.0
+		415 text MIT
+		416 text Microsoft
+		417 text © Microsoft Corporation. All rights reserved.
+		418 content list
+			419 container
+				420 AXListMarker • 
+				421 link Description: Original license or notice text 1, Value: …
+			422 container
+				423 AXListMarker • 
+				424 link Description: Original license or notice text 2, Value: …
+		425 heading SkiaSharp.NativeAssets.macOS 4.150.1, Value: 2
+			426 text SkiaSharp.NativeAssets.macOS 4.150.1
+		427 text MIT
+		428 text Microsoft
+		429 text © Microsoft Corporation. All rights reserved.
+		430 content list
+			431 container
+				432 AXListMarker • 
+				433 link Description: Original license or notice text 1, Value: …
+			434 container
+				435 AXListMarker • 
+				436 link Description: Original license or notice text 2, Value: …
+			437 container
+				438 AXListMarker • 
+				439 link Description: Original license or notice text 3, Value: …
+		440 heading SkiaSharp.NativeAssets.WebAssembly 4.150.1, Value: 2
+			441 text SkiaSharp.NativeAssets.WebAssembly 4.150.1
+		442 text MIT
+		443 text Microsoft
+		444 text © Microsoft Corporation. All rights reserved.
+		445 content list
+			446 container
+				447 AXListMarker • 
+				448 link Description: Original license or notice text 1, Value: …
+			449 container
+				450 AXListMarker • 
+				451 link Description: Original license or notice text 2, Value: …
+			452 container
+				453 AXListMarker • 
+				454 link Description: Original license or notice text 3, Value: …
+		455 heading SkiaSharp.NativeAssets.Win32 4.150.1, Value: 2
+			456 text SkiaSharp.NativeAssets.Win32 4.150.1
+		457 text MIT
+		458 text Microsoft
+		459 text © Microsoft Corporation. All rights reserved.
+		460 content list
+			461 container
+				462 AXListMarker • 
+				463 link Description: Original license or notice text 1, Value: …
+			464 container
+				465 AXListMarker • 
+				466 link Description: Original license or notice text 2, Value: …
+			467 container
+				468 AXListMarker • 
+				469 link Description: Original license or notice text 3, Value: …
+		470 heading SkiaSharp.Svg 1.60.0, Value: 2
+			471 text SkiaSharp.Svg 1.60.0
+		472 text See original license text
+		473 text Xamarin Inc.
+		474 text © Microsoft Corporation. All rights reserved.
+		475 content list
+			476 container
+				477 AXListMarker • 
+				478 link Description: Original license or notice text 1, Value: …
+		479 heading SkiaSharp.Views.Blazor 4.150.1, Value: 2
+			480 text SkiaSharp.Views.Blazor 4.150.1
+		481 text MIT
+		482 text Microsoft
+		483 text © Microsoft Corporation. All rights reserved.
+		484 content list
+			485 container
+				486 AXListMarker • 
+				487 link Description: Original license or notice text 1, Value: …
+			488 container
+				489 AXListMarker • 
+				490 link Description: Original license or notice text 2, Value: …
+		491 heading SkiaSharp 4.150.1, Value: 2
+			492 text SkiaSharp 4.150.1
+		493 text MIT
+		494 text Microsoft
+		495 text © Microsoft Corporation. All rights reserved.
+		496 content list
+			497 container
+				498 AXListMarker • 
+				499 link Description: Original license or notice text 1, Value: …
+			500 container
+				501 AXListMarker • 
+				502 link Description: Original license or notice text 2, Value: …
+		503 heading System.Drawing.Common 10.0.9, Value: 2
+			504 text System.Drawing.Common 10.0.9
+		505 text MIT
+		506 text Microsoft
+		507 text © Microsoft Corporation. All rights reserved.
+		508 content list
+			509 container
+				510 AXListMarker • 
+				511 link Description: Original license or notice text 1, Value: …
+			512 container
+				513 AXListMarker • 
+				514 link Description: Original license or notice text 2, Value: …
+			515 container
+				516 AXListMarker • 
+				517 link Description: Original license or notice text 3, Value: …
+		518 heading TheTechIdea.Beep.DataManagementModels 3.1.1, Value: 2
+			519 text TheTechIdea.Beep.DataManagementModels 3.1.1
+		520 text MIT
+		521 text The Tech Idea
+		522 text 2022
+		523 content list
+			524 container
+				525 AXListMarker • 
+				526 link Description: Original license or notice text 1, Value: …
+		527 heading TheTechIdea.Beep.Vis.Modules 2.0.44, Value: 2
+			528 text TheTechIdea.Beep.Vis.Modules 2.0.44
+		529 text MIT
+		530 text The Tech Idea
+		531 text 2022
+		532 content list
+			533 container
+				534 AXListMarker • 
+				535 link Description: Original license or notice text 1, Value: …
+		536 heading Beep.Skia source and SimpleDraw integration changes, Value: 2
+			537 text Beep.Skia source and SimpleDraw integration changes
+		538 text MIT as supplied in the source repository
+		539 content list
+			540 container
+				541 AXListMarker • 
+				542 link Description: Original license or notice text 1, Value: …
+		543 heading Kalam Regular — Indian Type Foundry, 2014, Value: 2
+			544 text Kalam Regular — Indian Type Foundry, 2014
+		545 text SIL Open Font License 1.1
+		546 content list
+			547 container
+				548 AXListMarker • 
+				549 link Description: Original license or notice text 1, Value: …
+
+The focused UI element is 5 link Description: Download all software notices, URL: 127.0.0.1:5243/draw/licenses/THIRD-PARTY-NOTICES.txt

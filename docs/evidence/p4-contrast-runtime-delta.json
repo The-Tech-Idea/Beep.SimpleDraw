@@ -1,0 +1,54 @@
+{
+  "oldRoot": "artifacts/p6-network-profile/publish/wwwroot",
+  "newRoot": "artifacts/p4-contrast-final/publish/wwwroot",
+  "oldCount": 402,
+  "newCount": 402,
+  "changed": [
+    {
+      "path": "css/app.css",
+      "before": "4d73c252a5cdf1ae5e129971a450cf4c792adb2dda9c62a0a431a14abb6482f1",
+      "after": "19b078b35ce238d951f241d16520bccccd34a56bef87cc0584a5ec48dc9a6652"
+    },
+    {
+      "path": "css/app.css.br",
+      "before": "4bb0c32c68e0bf484c04c2011b7bb0f004823436cb0b976647020786cc4afb3c",
+      "after": "4bb7831c5b798937a733d0b970c309596dfcde70fe9aa77a2db367510edf628d"
+    },
+    {
+      "path": "css/app.css.gz",
+      "before": "381f64f8ca76cd693654acf7b7ac6b5607b8d5b9ef0af413b3df063aeb0ebb14",
+      "after": "cb210e06d657245d9a0f7707418c692b36e3bb5e8c0fe5a8b5c0ce2599203ed7"
+    },
+    {
+      "path": "service-worker-assets.js",
+      "before": "7c41d835176f3d8afc29465c472e90dc4097a72cc9747e590967d866d3adae34",
+      "after": "9c74c98b2c04757f43d8a939819f0cc53c3096ad9262ad6da4a496a59b852881"
+    },
+    {
+      "path": "service-worker-assets.js.br",
+      "before": "84f63031d16419b45996573da0a2e70df4e0774885fe8e36f80ac1392f6d7b82",
+      "after": "458ceb335652e2a4aada8e1a6256554ac444ea241e5d4d578732569d40321318"
+    },
+    {
+      "path": "service-worker-assets.js.gz",
+      "before": "baaef0a0fe54f86e62493cb02e4799312e6974feec88beeb95ea85aaa283a8aa",
+      "after": "09c89ab494b674a50aade4ab3e46584382d5fa48c3036af2808f795dd2650531"
+    },
+    {
+      "path": "service-worker.js",
+      "before": "b57658be2e36804a2f411e004ca59b7eb7aa67cef0c606c821b56d89b1712404",
+      "after": "3fbe1d83f792254fc14a020a6ca67fcb58e8f48cf006149df940b6506b434559"
+    },
+    {
+      "path": "service-worker.js.br",
+      "before": "a178c2df6cb4b50e2cbc3c692ca756a9ff57b8dd0b9f3561844ae0466f99f778",
+      "after": "b6c87a7118479ba534e56e8c3c94f7d653def65111b8a62d387a11e6dc8db1c3"
+    },
+    {
+      "path": "service-worker.js.gz",
+      "before": "4d4b21e5006d01073b52e18bd394824e55fd96568dd30082ca65cf32b409a935",
+      "after": "3c79d2071bd52fc399ab317f1873c78c3389da1f07e927274d48d6c51ca807bc"
+    }
+  ],
+  "removed": []
+}

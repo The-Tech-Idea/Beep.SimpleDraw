@@ -1,0 +1,8 @@
+{
+  "source": "docs/evidence/default-skia-gallery-source.simpledraw.json",
+  "saved": "docs/evidence/default-skia-gallery-after-fix.simpledraw.json",
+  "equal": true,
+  "sourceCount": 249,
+  "savedCount": 249,
+  "differences": []
+}

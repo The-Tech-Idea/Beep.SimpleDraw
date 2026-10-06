@@ -1,0 +1,665 @@
+@page "/"
+@using Beep.SimpleDraw.Core
+@using Beep.SimpleDraw.Core.Documents
+@using Beep.SimpleDraw.Web.Services
+@using Beep.SimpleDraw.Web.Components
+@using Beep.Skia.Components
+@using Beep.Skia.Blazor.Controls
+@using SkiaSharp
+@implements IAsyncDisposable
+@inject IJSRuntime JS
+@inject NavigationManager Navigation
+
+<PageTitle>SimpleDraw — Beep.Skia workspace</PageTitle>
+<div class="workspace" dir="@(_rtl ? "rtl" : "ltr")" lang="@(_rtl ? "ar" : "en")">
+    <a class="skip-link" href="#drawing-workspace" inert="@(ModalActive ? "" : null)">@L("Skip to drawing")</a>
+    <header class="topbar" inert="@(ModalActive ? "" : null)">
+        <a class="brand" href="./" aria-label="SimpleDraw home"><span class="brand-mark">B</span><span>SimpleDraw</span></a>
+        <span class="local-badge"><span></span> @L("On your device")</span>
+        <div class="file-actions">
+            <button class="quiet" @onclick="RequestNew" title="@L("New drawing")">@L("New")</button>
+            <label class="file-button" for="open-file">@L("Open")
+                <InputFile id="open-file" class="hidden-file" OnChange="OpenFile" accept=".json,.simpledraw" aria-label="@L("Open a SimpleDraw file")" />
+            </label>
+            <button class="primary" @onclick="Save" title="@L("Save editable file (Ctrl+S)")">@L("Save drawing") <span aria-hidden="true">↗</span></button>
+            <button class="language-button" aria-label="@L("Change interface language")" @onclick="ToggleLanguage">@(_rtl ? "EN" : "ع")</button>
+        </div>
+    </header>
+
+    <main id="drawing-workspace" tabindex="-1" class="board" aria-label="@L("Drawing workspace")" inert="@(_storagePanel || _confirmReplace ? "" : null)">
+        <h1 class="sr-only">@L("Drawing workspace")</h1>
+        <p id="canvas-instructions" class="sr-only">@L("Canvas keyboard instructions")</p>
+        <div class="canvas-layer"><div class="canvas-input-layer" inert="@(InternalModal ? "" : null)"><SkiaHostComponent @ref="_canvas" Manager="_session.Manager" Height="100%" Background="#ffffff"
+            CssClass="drawing-surface" HandleDefaultInteraction="false" EnableViewportGestures="true" CanvasLabel="@L("Drawing canvas")" CanvasDescription="canvas-instructions" OnPointer="Pointer" PaintOverlay="PaintDraft" OverlayInkBounds="DraftInkBounds"
+            ScenePaintMeasured="@(_profile ? (Action<double>)RecordScenePaint : null)"
+            ScenePhasesMeasured="@(_profile ? (Action<Beep.Skia.SceneRenderProfile>)RecordScenePhases : null)" CaptureRenderCounters="_diagnostics" /></div>
+            @if (!_session.Manager.GetComponents().Any() && _session.Draft is null)
+            {
+                <div class="canvas-guide" aria-hidden="true"><strong>@L("Start drawing")</strong><span>@L("Choose a tool or add a Beep.Skia shape.")</span><span>@L("Scroll to pan · Ctrl/Cmd + scroll to zoom")</span></div>
+            }
+        @if (_session.HasTextEdit)
+        {
+            <div class="text-scrim"></div>
+            <section class="text-editor" role="dialog" aria-modal="true" data-modal-kind="text" tabindex="-1" aria-label="@L("Edit drawing text")" style="@TextEditorPosition">
+                <textarea data-initial-focus aria-label="@L("Drawing text")" maxlength="4096" @bind="_textValue" @bind:event="oninput"
+                    style="@($"font-size:{_textSize.ToString(System.Globalization.CultureInfo.InvariantCulture)}px")" placeholder="@L("Your idea, in words")"></textarea>
+                <div class="text-editor-actions"><select aria-label="@L("Editing text size")" @bind="_textSize">
+                    @foreach (var size in TextSizes(_textSize)) { <option value="@size">@(size.ToString("0.#")) px</option> }
+                </select><button @onclick="CancelText">@L("Cancel")</button><button class="primary" @onclick="CommitText">@L("Done")</button></div>
+                <p>@L("Ctrl+Enter to finish · Escape to cancel")</p>
+                @if (_error) { <p class="text-error" role="alert">@_message</p> }
+            </section>
+        }
+
+        </div>
+        <div class="tool-dock">
+        <nav class="toolstrip" aria-label="@L("Drawing tools")" inert="@(InternalModal ? "" : null)">
+            @foreach (var tool in Tools)
+            {
+                <button aria-label="@L(tool.Label)" aria-pressed="@Aria(_session.Tool == tool.Tool)"
+                    class="@(_session.Tool == tool.Tool ? "tool active" : "tool")"
+                    title="@($"{L(tool.Label)} ({tool.Key})")" @onclick="() => Choose(tool.Tool)">
+                    <svg viewBox="0 0 24 24" aria-hidden="true"><path d="@tool.Path" /></svg><kbd>@tool.Key</kbd>
+                </button>
+            }
+            <span class="tool-divider"></span>
+            <button class="tool" aria-label="@L("Delete selected")" title="@($"{L("Delete selected")} (Delete)")" disabled="@(!_session.Manager.SelectionManager.SelectedComponents.Any())" @onclick="Delete">
+                <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 7h16M9 7V4h6v3M6 7l1 13h10l1-13M10 10v7M14 10v7" /></svg>
+            </button>
+        </nav>
+
+        <button class="style-toggle" aria-expanded="@Aria(_showStyle)" aria-controls="shape-style" inert="@(InternalModal ? "" : null)" @onclick="() => _showStyle = !_showStyle">@L("Style")</button>
+        <aside id="shape-style" class="@(_showStyle ? "style-panel open" : "style-panel")" aria-label="@L("Shape style")" inert="@(InternalModal ? "" : null)">
+            <button class="close-style" aria-label="@L("Close style")" @onclick="() => _showStyle = false">×</button>
+            <div class="panel-heading">@L("Make it yours")<span>@(_session.EditingSelection ? $"{_session.Manager.SelectionManager.SelectedComponents.Count} {L("selected")}" : L("Next shape"))</span></div>
+            <fieldset><legend>@L("Stroke")</legend><div class="swatches">
+                @foreach (var color in StrokeColors)
+                {
+                    <button class="@(DisplayStroke == color.Color ? "swatch chosen" : "swatch")" style="@($"--swatch:{color.Color}")"
+                        aria-label="@($"{L("Stroke")} {L(color.Name)}")" aria-pressed="@Aria(DisplayStroke == color.Color)" @onclick="() => Style(stroke: color.Color)"></button>
+                }
+            </div></fieldset>
+            <fieldset><legend>@L("Fill")</legend><div class="swatches">
+                @foreach (var color in FillColors)
+                {
+                    <button class="@(DisplayFill == color.Color ? "swatch chosen" : "swatch")" style="@($"--swatch:{color.Color}")"
+                        aria-label="@($"{L("Fill")} {L(color.Name)}")" aria-pressed="@Aria(DisplayFill == color.Color)" @onclick="() => Style(fill: color.Color)">
+                        @if (color.Color == "#00000000") { <span class="no-fill" aria-hidden="true">/</span> }
+                    </button>
+                }
+            </div></fieldset>
+            <fieldset><legend>@L("Stroke width")</legend><div class="widths">
+                @foreach (var width in new float[] { 1, 2, 4 })
+                {
+                    <button aria-label="@($"{L("Stroke width")} {width}")" aria-pressed="@Aria(DisplayWidth == width)"
+                        class="@(DisplayWidth == width ? "width-choice selected" : "width-choice")" @onclick="() => Style(width: width)">
+                        <span style="@($"height:{width}px")"></span>
+                    </button>
+                }
+            </div></fieldset>
+            <fieldset disabled="@SelectedComponents.Any(s=>s is not SketchShape)"><legend>@L("Appearance")</legend><div class="appearance-choices">
+                <button aria-pressed="@Aria(DisplayRoughness == 0)" @onclick="() => Style(roughness: 0)">@L("Smooth")</button>
+                <button aria-pressed="@Aria(DisplayRoughness > 0)" @onclick="() => Style(roughness: 1.5f)">@L("Sketch")</button>
+            </div></fieldset>
+            @if (_session.Tool == DrawingTool.Text || SelectedShapes.Any(s => s.Kind == SketchShapeKind.Text) || SelectedComponents.OfType<Beep.Skia.Flowchart.FlowchartControl>().Any())
+            {
+                <fieldset><legend>@L("Text size")</legend><select aria-label="@L("Text size")" value="@DisplayFontSize"
+                    @onchange="e => Style(fontSize: float.Parse(e.Value!.ToString()!, System.Globalization.CultureInfo.InvariantCulture))">
+                    @foreach (var size in TextSizes(DisplayFontSize))
+                    { <option value="@size">@(size.ToString("0.#")) px</option> }
+                </select></fieldset>
+            }
+            @if (_session.EditingSelection)
+            {
+                <fieldset><legend>@L("Selection")</legend><div class="selection-actions">
+                    <button @onclick="() => Command(_session.DuplicateSelection)">@L("Duplicate")</button>
+                    <button disabled="@(SelectedComponents.Count() < 2)" @onclick="() => Command(() => _session.GroupSelection())">@L("Group")</button>
+                    <button disabled="@(!SelectedComponents.Any(s => s.GroupId != Guid.Empty))" @onclick="() => Command(() => _session.GroupSelection(true))">@L("Ungroup")</button>
+                    <button @onclick="() => Command(() => _session.ReorderSelection(true))">@L("Bring to front")</button>
+                    <button @onclick="() => Command(() => _session.ReorderSelection(false))">@L("Send to back")</button>
+                    @if (SelectedComponents.Count() == 1 && SelectedShapes.SingleOrDefault()?.Kind == SketchShapeKind.Text)
+                    { <button @onclick="EditSelectedText">@L("Edit text")</button> }
+                </div></fieldset>
+                @if (SelectedComponents.Count() == 1 && SelectedComponents.Single() is Beep.Skia.Flowchart.FlowchartControl familyNode && Beep.SimpleDraw.Core.Library.FlowchartDefinitions.Supports(familyNode.GetType().FullName))
+                {
+                    <fieldset><legend>@L("Workflow label")</legend>
+                        <input aria-label="@L("Workflow label")" maxlength="128" @bind="_familyLabel" @bind:event="oninput" />
+                        <button @onclick="() => Command(() => _session.SetFamilyLabel(_familyLabel))">@L("Apply label")</button>
+                    </fieldset>
+                }
+                <fieldset class="size-fields"><legend>@L("Selection size")</legend>
+                    <label>@L("Width") <input type="number" min="1" max="200000" step="any" @bind="_selectionWidth" @bind:event="oninput" /></label>
+                    <label>@L("Height") <input type="number" min="1" max="200000" step="any" @bind="_selectionHeight" @bind:event="oninput" /></label>
+                    <button @onclick="ApplySelectionSize">@L("Apply size")</button>
+                </fieldset>
+            }
+            <p class="panel-note">@L(_session.EditingSelection ? "Style changes can be undone. Shift-click to select more." : "Pick a tool, then drag on the canvas.")</p>
+            @if (_session.EditingSelection) { <p class="panel-note">@L("Drag the bottom-right handle to resize; drag a line or arrow endpoint to reshape it.")</p> }
+        </aside>
+        </div>
+
+        <div class="side-panels" inert="@(InternalModal ? "" : null)"><ObjectList Session="_session" Rtl="_rtl" OnSelect="SelectFromList" />
+        <SkiaCatalogPanel Session="_session" OnEdited="LibraryEdited" Rtl="_rtl" />
+        <ConnectorPanel Session="_session" OnEdited="LibraryEdited" Rtl="_rtl" />
+        <LibraryPanel Session="_session" OnEdited="LibraryEdited" Rtl="_rtl" />
+        <details class="export-panel" inert="@(InternalModal ? "" : null)"><summary>@L("Export image")</summary><div>
+            <label>@L("Scale") <select aria-label="@L("Export scale")" @bind="_exportScale"><option value="0.5">0.5×</option><option value="1">1×</option><option value="2">2×</option><option value="4">4×</option></select></label>
+            <label><input type="checkbox" @bind="_exportBackground" /> @L("Paper background")</label>
+            <button @onclick="() => ExportImage(false)">PNG</button><button @onclick="() => ExportImage(true)">SVG</button>
+        </div></details>
+        </div>
+
+        <footer class="workspace-footer">
+        <div class="bottom-left" inert="@(InternalModal ? "" : null)">
+            <div class="control-group" aria-label="@L("History")">
+                <button aria-label="@L("Undo")" title="@($"{L("Undo")} (Ctrl+Z)")" disabled="@(!_session.Manager.CanUndo)" @onclick="Undo">↶</button>
+                <button aria-label="@L("Redo")" title="@($"{L("Redo")} (Ctrl+Shift+Z)")" disabled="@(!_session.Manager.CanRedo)" @onclick="Redo">↷</button>
+            </div>
+            <div class="control-group" aria-label="@L("Viewport")">
+                <button aria-label="@L("Zoom out")" @onclick="() => Zoom(1 / 1.1f)">−</button>
+                <button class="zoom-value" aria-label="@L("Reset viewport")" @onclick="ResetViewport">@($"{_session.Manager.Zoom:P0}")</button>
+                <button aria-label="@L("Zoom in")" @onclick="() => Zoom(1.1f)">+</button>
+                <button aria-label="@L("Fit drawing")" @onclick="() => Command(_session.FitDrawing)">⊡</button>
+            </div>
+        </div>
+        <div class="bottom-right" inert="@(InternalModal ? "" : null)"><button class="help-button" @onclick="() => _showHelp = !_showHelp" aria-label="@L("Keyboard shortcuts")">?</button></div>
+
+        @if (_local.Pending && !_storagePanel && !_fileOnly) { <button class="retry-save" inert="@(InternalModal ? "" : null)" @onclick="FlushAsync">@L("Retry local save")</button> }
+        @if (_updateReady) { <button class="update-button" inert="@(InternalModal ? "" : null)" disabled="@(_local.Pending || _session.HasGesture || _session.HasTextEdit || _confirmReplace)" @onclick="ApplyUpdate">@L("Update app")</button> }
+        <div class="@(_error ? "status error" : "status")" role="status" aria-live="polite"><span class="@(_dirty ? "dirty-dot" : "status-dot")"></span>@L(_message)</div>
+        <div class="sr-only" role="status" aria-live="polite" aria-atomic="true">@_selectionMessage</div>
+        </footer>
+
+        @if (_showHelp)
+        {
+            <div class="text-scrim"></div><section class="help-panel" role="dialog" aria-modal="true" tabindex="-1" data-modal-kind="help" aria-label="@L("Keyboard shortcuts")"><button class="close" @onclick="() => _showHelp = false" aria-label="@L("Close shortcuts")">×</button>
+                <h2>@L("A few handy shortcuts")</h2>
+                <p>@L("Tool shortcut help")</p><p>@L("Selection shortcut help")</p>
+                <p>@L("History shortcut help")</p><p>@L("Navigation shortcut help")</p>
+                <p>@L("Canvas keyboard instructions")</p><p>@L("Touch instructions")</p>
+                <p><a href="licenses/index.html" target="_blank" rel="noopener">@L("Software notices (opens in a new tab)")</a></p>
+            </section>
+        }
+    </main>
+    @if (_confirmReplace)
+    {
+        <div class="modal-backdrop"><section class="confirm-panel" role="alertdialog" aria-modal="true" data-modal-kind="replace" tabindex="-1" aria-labelledby="replace-title">
+            <h2 id="replace-title">@L("Keep your drawing?")</h2><p>@L("Save a file before replacing your current drawing.")</p>
+            <div><button @onclick="CancelReplace">@L("Keep drawing")</button><button @onclick="Save">@L("Save a copy")</button><button class="primary" @onclick="Replace">@L("Replace drawing")</button></div>
+        </section></div>
+    }
+    @if (_storagePanel)
+    {
+        <div class="modal-backdrop"><section class="confirm-panel" role="alertdialog" aria-modal="true" data-modal-kind="storage" tabindex="-1" aria-labelledby="storage-title">
+            <h2 id="storage-title">@L(!_storageReady ? "Opening your local drawing" : _recovery ? "Recover your local drawing" : "Local saving is paused")</h2><p>@_storageError</p>
+            @if (_recovery)
+            { <p>@L("The unreadable bytes are preserved. Download them before starting a new local drawing.")</p><button @onclick="DownloadRecovery">@L("Download recovery bytes")</button><button class="primary" @onclick="NewAfterRecovery">@L("Start new local drawing")</button> }
+            else if (_storageReady) { <button @onclick="Save">@L("Download this tab's copy")</button><button @onclick="RetryStorage">@L("Retry local writer")</button> }
+            @if (_storageReady) { <button @onclick="FileOnly">@L("Edit a file-only copy")</button> }
+            <p>@L("Recovery escape instructions")</p>
+        </section></div>
+    }
+</div>
+
+@if (_diagnostics)
+{
+    <details class="performance-panel" inert="@(ModalActive ? "" : null)"><summary>Local performance diagnostics</summary>
+        <p>Test-only measurements on this board. Select one ungrouped object; this runs 140 undoable keyboard moves (20 warmup, 120 measured). Keep the tab visible. No data is sent.</p>
+        <button disabled="@(_benchmarkRunning || ModalActive)" @onclick="RunBenchmark">Run editing benchmark</button>
+        <button disabled="@(_benchmarkRunning || ModalActive || _local.Pending || _session.HasGesture)" @onclick="RunRenderCheck">Check render scheduling</button>
+        <button disabled="@(_benchmarkRunning || ModalActive || _local.Pending || _session.HasGesture)" @onclick="OpenRendererStress">Open 5000 renderer stress</button>
+        @if (_stressIsolation is not null) { <p role="status">@_stressIsolation</p> }
+        <pre id="performance-report" @ref="_performanceOutput" aria-label="Local performance report"></pre>
+    </details>
+    @if (_stressOpen) { <RendererStress Close="CloseRendererStress" /> }
+}
+@code {
+    private bool _diagnostics, _benchmarkRunning, _profile;
+    private double? _scenePaintMs;
+    private Beep.Skia.SceneRenderProfile? _scenePhases;
+    private bool _requestRepaintDuringPaint;
+    private bool _stressOpen;
+    private string? _stressBaseline, _stressIsolation;
+    private long _stressRevision;
+    private ElementReference _performanceOutput;
+    private IJSInProcessObjectReference? _performance;
+    private readonly DrawingSession _session = new();
+    private SkiaHostComponent? _canvas;
+    private IJSObjectReference? _module;
+    private DotNetObjectReference<Home>? _reference;
+    private BrowserDocumentStore? _store;
+    private readonly AutosaveState _local = new();
+    private CancellationTokenSource? _debounce;
+    private bool _saving, _storageReady, _storagePanel = true, _recovery, _fileOnly, _updateReady;
+    private string? _recoveryRaw, _storageError, _fileOnlySnapshot;
+    private float _exportScale = 1;
+    private bool _exportBackground = true;
+    private bool _dirty, _error, _showHelp, _confirmReplace;
+    private bool _showStyle, _rtl;
+    private void ToggleLanguage() { _rtl = !_rtl; AnnounceSelection(); }
+    private string _selectionMessage = "";
+    private float _selectionWidth, _selectionHeight;
+    private string _familyLabel = "";
+    private string _familyLabelSaved = "";
+    private Guid _familyLabelId;
+    private void ApplySelectionSize() => Command(() => _session.ResizeSelection(_selectionWidth, _selectionHeight));
+    private bool InternalModal => _session.HasTextEdit || _showHelp || _stressOpen;
+    private bool ModalActive => InternalModal || _storagePanel || _confirmReplace;
+    private string L(string value) => _rtl ? UiText.Arabic(value) : UiText.English(value);
+    private void SelectFromList(ObjectList.Selection selection) => Select(selection.Component, selection.Additive);
+    private string? _pendingOpen;
+    private string _textValue = "";
+    private float _textSize = 24;
+    private static string Aria(bool value) => value ? "true" : "false";
+    private static IEnumerable<float> TextSizes(float current) => new float[] { 16, 24, 36, 48, current }.Distinct().Order();
+    private string TextEditorPosition => _session.TextAnchor is { } anchor
+        ? FormattableString.Invariant($"left:clamp(12px,{anchor.X * _session.Manager.Zoom + _session.Manager.PanOffset.X}px,calc(100% - 332px));--text-top:clamp(12px,{anchor.Y * _session.Manager.Zoom + _session.Manager.PanOffset.Y}px,calc(100% - 230px));top:var(--text-top);") : "";
+    private string _message = "Ready when you are · save a file to keep your work";
+    private static readonly (DrawingTool Tool, string Label, string Key, string Path)[] Tools =
+    [
+        (DrawingTool.Select, "Select", "V", "M5 3l14 9-7 1-3 7-4-17z"),
+        (DrawingTool.Hand, "Hand", "H", "M8 12V5a2 2 0 0 1 4 0v6-3a2 2 0 0 1 4 0v3-1a2 2 0 0 1 4 0v5c0 5-3 7-7 7-3 0-5-2-7-5l-3-5a2 2 0 0 1 3-2l2 2"),
+        (DrawingTool.Rectangle, "Rectangle", "R", "M5 4h14a1 1 0 0 1 1 1v14a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1V5a1 1 0 0 1 1-1z"),
+        (DrawingTool.Ellipse, "Ellipse", "O", "M12 3a9 9 0 1 1 0 18 9 9 0 0 1 0-18z"),
+        (DrawingTool.Diamond, "Diamond", "D", "M12 3l9 9-9 9-9-9 9-9z"),
+        (DrawingTool.Line, "Line", "L", "M5 19L19 5"),
+        (DrawingTool.Arrow, "Arrow", "A", "M5 19L19 5M9 5h10v10"),
+        (DrawingTool.Freehand, "Pen", "P", "M4 17c4-15 6-15 6-6s4 10 6 0 4-6 4-2"),
+        (DrawingTool.Text, "Text", "T", "M4 5h16M12 5v15M8 20h8"),
+        (DrawingTool.Eraser, "Eraser", "E", "M3 14l9-10 9 8-8 9H9l-6-7zM8 9l9 8M13 21h9")
+    ];
+    private static readonly (string Color, string Name)[] StrokeColors =
+        [("#334155", "Slate"), ("#7c3aed", "Violet"), ("#e06b56", "Coral"), ("#237d67", "Green"), ("#2875bc", "Blue")];
+    private static readonly (string Color, string Name)[] FillColors =
+        [("#00000000", "None"), ("#ede9fe", "Lavender"), ("#fee5dc", "Peach"), ("#dceee6", "Mint"), ("#e1edf8", "Sky")];
+    private IEnumerable<SketchShape> SelectedShapes => _session.SelectedShapes;
+    private IEnumerable<Beep.Skia.SkiaComponent> SelectedComponents => _session.SelectedComponents;
+    private static string? Color(SkiaSharp.SKColor? color) => color is { } c ? (c.Alpha == 255 ? $"#{c.Red:x2}{c.Green:x2}{c.Blue:x2}" : c.ToString().ToLowerInvariant()) : null;
+    private string? DisplayStroke => _session.EditingSelection ? SelectionColor(false) : _session.Stroke;
+    private string? DisplayFill => _session.EditingSelection ? SelectionColor(true) : _session.Fill;
+    private string? SelectionColor(bool fill)
+    {
+        var values = SelectedComponents.Select(s=>s is SketchShape sketch ? fill ? sketch.Fill : sketch.Stroke
+            : s is Beep.Skia.Flowchart.FlowchartControl flow ? Color(fill ? flow.CustomFillColor : flow.CustomStrokeColor) : CatalogColor(s,fill)).Distinct().Take(2).ToArray();
+        return values.Length == 1 ? values[0] : null;
+    }
+    private static string? CatalogColor(Beep.Skia.SkiaComponent node,bool fill)
+    {
+        var raw = Beep.SimpleDraw.Core.Library.SkiaCatalog.Capture(node).PropertyBag.GetValueOrDefault(Beep.SimpleDraw.Core.Library.SkiaCatalog.VisualKey(node,fill ? "fill" : "stroke") ?? "");
+        return SkiaSharp.SKColor.TryParse(raw,out var color) ? Color(color) : null;
+    }
+    private float? DisplayWidth
+    {
+        get
+        {
+            if (!_session.EditingSelection) return _session.StrokeWidth;
+            var widths = SelectedComponents.Select(s=>s is SketchShape sketch ? sketch.StrokeWidth : s is Beep.Skia.Flowchart.FlowchartControl flow ? flow.NodeStrokeWidth : CatalogWidth(s)).Distinct().Take(2).ToArray();
+            return widths.Length == 1 ? widths[0] : null;
+        }
+    }
+    private static float? CatalogWidth(Beep.Skia.SkiaComponent node) => float.TryParse(Beep.SimpleDraw.Core.Library.SkiaCatalog.Capture(node).PropertyBag.GetValueOrDefault(Beep.SimpleDraw.Core.Library.SkiaCatalog.VisualKey(node,"width") ?? ""), System.Globalization.NumberStyles.Float, System.Globalization.CultureInfo.InvariantCulture,out var width) ? width : null;
+    private float DisplayFontSize => !_session.EditingSelection ? _session.FontSize : SelectedShapes.FirstOrDefault(s=>s.Kind == SketchShapeKind.Text)?.TextFontSize
+        ?? SelectedComponents.OfType<Beep.Skia.Flowchart.FlowchartControl>().FirstOrDefault()?.LabelFontSize ?? _session.FontSize;
+    private float? DisplayRoughness => _session.EditingSelection ? (SelectedShapes.Select(s => s.Roughness).Distinct().Count() == 1 ? SelectedShapes.First().Roughness : null) : _session.Roughness;
+    private void Command(Action action)
+    {
+        try { action(); AnnounceSelection(); _canvas?.Invalidate(); }
+        catch (Exception ex) when (ex is ArgumentException or InvalidOperationException or InvalidDataException) { _error = true; _message = ex.Message; }
+    }
+    private void Style(string? stroke = null, string? fill = null, float? width = null, float? roughness = null, float? fontSize = null) =>
+        Command(() => _session.SetStyle(stroke, fill, width, roughness, fontSize));
+    protected override void OnInitialized()
+    {
+        _session.DocumentChanged += Changed;
+        var query = new Uri(Navigation.Uri).Query.TrimStart('?').Split('&');
+        _diagnostics = query.Contains("diagnostics=1");
+        _profile = _diagnostics && query.Contains("profile=1");
+    }
+    protected override async Task OnAfterRenderAsync(bool firstRender)
+    {
+        if (firstRender)
+        {
+            _module = await JS.InvokeAsync<IJSObjectReference>("import", "./js/app.js");
+            _reference = DotNetObjectReference.Create(this);
+            if (_diagnostics)
+            {
+                _performance = (IJSInProcessObjectReference)await JS.InvokeAsync<IJSObjectReference>("import", "./js/performance.js");
+                _performance.InvokeVoid("attach", _performanceOutput, _reference, _profile);
+            }
+            await _module.InvokeVoidAsync("attachShortcuts", _reference);
+            _store = new(JS);
+            await RestoreLocal(await _store.ConnectAsync(_reference));
+            await _module.InvokeVoidAsync("watchUpdates", _reference);
+            _canvas?.Invalidate();
+            await InvokeAsync(StateHasChanged);
+        }
+        if (_module is not null) await _module.InvokeVoidAsync("syncModal");
+    }
+    private void Changed()
+    {
+        _dirty = true; _error = false; _local.Changed(); AnnounceSelection();
+        _message = _fileOnly ? "File-only copy · download a file to keep your edits" : "Saving on your device…";
+        ScheduleSave();
+    }
+    private void ScheduleSave()
+    {
+        _debounce?.Cancel(); _debounce?.Dispose(); _debounce = new();
+        _ = SaveAfterDelay(_debounce.Token);
+    }
+    private async Task SaveAfterDelay(CancellationToken token)
+    {
+        try { if (_store is not null) await _store.GuardAsync(true); await Task.Delay(500, token); if (!token.IsCancellationRequested) await InvokeAsync(FlushAsync); }
+        catch (OperationCanceledException) { }
+        catch (JSException ex) { _error = true; _message = "Local saving is unavailable: " + ex.Message; await InvokeAsync(StateHasChanged); }
+    }
+    private async Task FlushAsync()
+    {
+        if (_saving || !_storageReady || _storagePanel || _fileOnly || _store is null || !_local.Pending) return;
+        _saving = true;
+        try
+        {
+            while (_local.Pending)
+            {
+                var revision = _local.Revision; var json = SimpleDrawDocument.Serialize(_session.Manager);
+                var result = await _store.SaveAsync(json, revision);
+                if (result.Status != "saved")
+                {
+                    _local.Failed(result.Error ?? "Local save failed."); _error = true; _message = _local.Error!;
+                    if (result.Status is "conflict" or "recovery") { _storageError = result.Error; _storagePanel = true; }
+                    break;
+                }
+                _local.Acknowledge(revision); _error = false; _message = "Saved on this device · download a file for a portable copy";
+            }
+            await _store.GuardAsync(_local.Pending || _session.HasTextEdit);
+        }
+        catch (Exception ex) when (ex is JSException or InvalidDataException)
+        { _local.Failed(ex.Message); _error = true; _message = "Local save failed: " + ex.Message; }
+        finally { _saving = false; await InvokeAsync(StateHasChanged); }
+    }
+    private async Task RestoreLocal(StoreResult result)
+    {
+        _storageReady = true;
+        if (result.Status is "loaded" or "empty")
+        {
+            try
+            {
+                if (result.Document is not null) _session.OpenDocument(result.Document);
+                _local.Restore(result.Revision); _dirty = false; _storagePanel = false; _recovery = false; _error = false;
+                _message = result.Status == "loaded" ? "Restored from this device · your drawing is ready" : "Ready · drawings save on this device";
+                if (_store is not null) await _store.GuardAsync(false);
+                _canvas?.Invalidate(); return;
+            }
+            catch (Exception ex) when (ex is InvalidDataException or ArgumentOutOfRangeException)
+            { result = result with {Status = "recovery", Error = ex.Message}; }
+        }
+        _recovery = result.Status == "recovery"; _recoveryRaw = result.Raw; _storageError = result.Error; _fileOnlySnapshot = result.Document;
+        _storagePanel = true; _error = true; _message = result.Error ?? "Local saving is unavailable.";
+        await Task.CompletedTask;
+    }
+    [JSInvokable] public Task StorageChanged(StoreResult result)
+    { _storagePanel = true; _storageError = result.Error; _error = true; _message = result.Error!; return InvokeAsync(StateHasChanged); }
+    private async Task RetryStorage()
+    {
+        if (_dirty) { _storageError = "Download this tab's edits before reloading the local writer, or keep them as a file-only copy."; return; }
+        if (_store is not null) await RestoreLocal(await _store.RetryAsync());
+    }
+    private async Task DownloadRecovery()
+    { if (_module is not null && _recoveryRaw is not null) await _module.InvokeVoidAsync("download", "SimpleDraw-recovery.txt", _recoveryRaw, "text/plain"); }
+    private async Task NewAfterRecovery()
+    {
+        if (_store is null) return;
+        _session.NewDocument();
+        var result = await _store.SaveAsync(SimpleDrawDocument.Serialize(_session.Manager), _local.Revision, true);
+        if (result.Status == "saved") { _local.Acknowledge(_local.Revision); _storagePanel = _recovery = _error = _dirty = false; _message = "New drawing saved on this device"; await _store.GuardAsync(false); }
+        else { _storageError = result.Error; _message = result.Error!; }
+        _canvas?.Invalidate();
+    }
+    private void FileOnly()
+    {
+        _fileOnly = true; _storagePanel = false; _error = false;
+        if (!_dirty && _fileOnlySnapshot is not null)
+        {
+            try { _session.OpenDocument(_fileOnlySnapshot); _canvas?.Invalidate(); }
+            catch (InvalidDataException) { _message = "Stored bytes could not be opened. File-only editing leaves them untouched."; return; }
+        }
+        _message = "File-only copy · download a file to keep your edits";
+    }
+    private async Task ExportImage(bool svg)
+    {
+        if (_module is null) return;
+        try
+        {
+            if (_session.HasTextEdit) throw new InvalidDataException("Finish or cancel text editing before exporting.");
+            _session.CancelGesture(); _canvas?.Invalidate();
+            var bytes = svg ? DrawingExport.Svg(_session.Manager, _exportScale, _exportBackground) : DrawingExport.Png(_session.Manager, _exportScale, _exportBackground);
+            await _module.InvokeVoidAsync("downloadBytes", svg ? "Drawing.svg" : "Drawing.png", bytes, svg ? "image/svg+xml" : "image/png");
+            _error = false; _message = "Image download started · editable drawing is kept separately";
+        }
+        catch (Exception ex) when (ex is InvalidDataException or JSException) { _error = true; _message = ex.Message; }
+    }
+    [JSInvokable] public Task UpdateReady() { _updateReady = true; return InvokeAsync(StateHasChanged); }
+    [JSInvokable] public Task UpdateBlocked(string reason) { _message = reason; return InvokeAsync(StateHasChanged); }
+    private async Task ApplyUpdate()
+    {
+        if (_module is null || _local.Pending || _session.HasTextEdit || _session.HasGesture || _confirmReplace) return;
+        await _module.InvokeVoidAsync("applyUpdate");
+    }
+    private void Choose(DrawingTool tool) { _session.Tool = tool; _canvas?.Invalidate(); }
+    private Task LibraryEdited() { AnnounceSelection(); _canvas?.Invalidate(); return InvokeAsync(StateHasChanged); }
+    private void Pointer(CanvasPointerEvent args)
+    {
+        if (args.Action == "resize") { _session.ResizeViewport(args.Width, args.Height); _canvas?.Invalidate(); return; }
+        if (_storagePanel || _confirmReplace || _showHelp || _session.HasTextEdit) return;
+        switch (args.Action)
+        {
+            case "down": Command(() => _session.PointerDown(args.Position, args.Button == 1, args.Shift)); if (_session.HasTextEdit) StartTextEditor(); break;
+            case "move":
+                foreach (var sample in args.Samples) _session.PointerMove(sample.Position);
+                _session.PointerMove(args.Position); break;
+            case "up": _session.PointerUp(args.Position); break;
+            case "cancel": _session.CancelGesture(); break;
+            case "wheel": _session.ScrollViewport(args.Position, args.DeltaX, args.Delta, args.Control, args.Shift); break;
+            case "doubleclick": Command(() => _session.BeginText(args.Position, false)); if (_session.HasTextEdit) StartTextEditor(); break;
+            case "pinchstart": _session.BeginViewportGesture(args.Position); break;
+            case "pinchmove": _session.UpdateViewportGesture(args.Position,args.Scale); break;
+            case "pinchend": _session.EndViewportGesture(); break;
+        }
+        if (_session.GestureNotice is not null) { _message = _session.GestureNotice; _error = true; }
+        AnnounceSelection();
+    }
+    private void RecordScenePaint(double milliseconds) => _scenePaintMs = milliseconds;
+    private void RecordScenePhases(Beep.Skia.SceneRenderProfile profile) => _scenePhases = profile;
+    private SKRect? DraftInkBounds() => _session.GetOverlayInkBounds();
+    private void PaintDraft(SKCanvas canvas)
+    {
+        _session.DrawOverlay(canvas);
+        _performance?.InvokeVoid("paint", _storageReady && !ModalActive, _profile ? _scenePaintMs : null, _profile ? _scenePhases : null);
+        if (_requestRepaintDuringPaint)
+        {
+            _requestRepaintDuringPaint = false;
+            _canvas?.Invalidate(); _canvas?.Invalidate(); _canvas?.Invalidate();
+        }
+    }
+    private void Select(Beep.Skia.SkiaComponent shape, bool additive = false)
+    {
+        _session.SelectShape(shape, additive);
+        AnnounceSelection();
+        _canvas?.Invalidate();
+    }
+    private void AnnounceSelection()
+    {
+        if (SelectedComponents.Count() == 1 && SelectedComponents.Single() is Beep.Skia.Flowchart.FlowchartControl node && Beep.SimpleDraw.Core.Library.FlowchartDefinitions.Supports(node.GetType().FullName))
+        {
+            var label = Beep.SimpleDraw.Core.Library.FlowchartDefinitions.Label(node);
+            if (_familyLabelId != node.Id || _familyLabelSaved != label)
+            { _familyLabel = _familyLabelSaved = label; _familyLabelId = node.Id; }
+        }
+        else { _familyLabelId = Guid.Empty; _familyLabel = _familyLabelSaved = ""; }
+        var bounds = _session.SelectionBounds;
+        _selectionWidth = bounds?.Width ?? 0; _selectionHeight = bounds?.Height ?? 0;
+        _selectionMessage = _rtl
+        ? $"{_session.Manager.GetComponents().Count} عناصر، {_session.SelectedComponents.Count()} محددة."
+        : $"{_session.Manager.GetComponents().Count} objects; {_session.SelectedComponents.Count()} selected.";
+    }
+    private void Undo() { _session.Undo(); AnnounceSelection(); _canvas?.Invalidate(); }
+    private void Redo() { _session.Redo(); AnnounceSelection(); _canvas?.Invalidate(); }
+    private void Delete() { _session.DeleteSelected(); AnnounceSelection(); _canvas?.Invalidate(); }
+    private void Zoom(float factor) { _session.ZoomAt(new(_session.ViewportSize.Width / 2, _session.ViewportSize.Height / 2), factor); _canvas?.Invalidate(); }
+    private void ResetViewport() { _session.CancelGesture(); _session.Manager.Zoom = 1; _session.Manager.PanOffset = SKPoint.Empty; _canvas?.Invalidate(); }
+    private void StartTextEditor() { _textValue = _session.TextTarget?.DisplayText ?? ""; _textSize = _session.TextTarget?.TextFontSize ?? _session.FontSize; _error = false; if (_store is not null) _ = _store.GuardAsync(true); }
+    private void EditSelectedText()
+    {
+        var text = SelectedShapes.Single(); Command(() => _session.BeginText(new(text.X * _session.Manager.Zoom + _session.Manager.PanOffset.X + 4, text.Y * _session.Manager.Zoom + _session.Manager.PanOffset.Y + 4), false));
+        if (_session.HasTextEdit) StartTextEditor();
+    }
+    private void CommitText() { Command(() => _session.CommitText(_textValue, _textSize)); if (!_session.HasTextEdit) { _textValue = ""; if (_store is not null) _ = _store.GuardAsync(_local.Pending); } }
+    private void CancelText() { _session.CancelGesture(); _textValue = ""; _error = false; _message = _local.Pending ? "Drawing has unsaved local changes" : "Text edit cancelled · drawing kept"; _canvas?.Invalidate(); if (_store is not null) _ = _store.GuardAsync(_local.Pending); }
+    [JSInvokable] public Task TextShortcut(bool commit) { if (_session.HasTextEdit) { if (commit) CommitText(); else CancelText(); } return InvokeAsync(StateHasChanged); }
+    [JSInvokable] public Task CloseModal(string kind)
+    {
+        if (kind == "text") CancelText(); else if (kind == "help") _showHelp = false;
+        else if (kind == "renderer-stress") CloseRendererStress();
+        else if (kind == "replace") CancelReplace(); else if (kind == "storage" && _storageReady) FileOnly();
+        return InvokeAsync(StateHasChanged);
+    }
+    private void RequestNew() { _pendingOpen = null; if (_dirty) _confirmReplace = true; else Replace(); }
+    private void CancelReplace() { _pendingOpen = null; _confirmReplace = false; }
+    private void Replace()
+    {
+        if (_pendingOpen is null) _session.NewDocument(); else _session.OpenDocument(_pendingOpen);
+        _pendingOpen = null; _confirmReplace = false; _dirty = false; _error = false;
+        _message = _fileOnly ? "File-only drawing · download to keep it" : "Saving on your device…"; _canvas?.Invalidate();
+    }
+    private async Task Save()
+    {
+        if (_module is null) { _error = true; _message = "The editor is starting. Try Save again in a moment."; return; }
+        if (_session.HasTextEdit) { _error = true; _message = "Finish or cancel text editing before downloading. If local saving is paused, choose a file-only copy to finish the text."; _storageError = _message; return; }
+        try
+        {
+            _session.CancelGesture(); _canvas?.Invalidate();
+            var json = SimpleDrawDocument.Serialize(_session.Manager);
+            var revision = _local.Revision;
+            await _module.InvokeVoidAsync("download", "Drawing.simpledraw.json", json);
+            if (revision == _local.Revision) _dirty = false;
+            if (_store is not null) await _store.GuardAsync(_local.Pending && _dirty);
+            _error = false; _message = "File download started · your editable drawing";
+        }
+        catch (Exception ex) when (ex is InvalidDataException or JSException)
+        { _error = true; _message = ex.Message; }
+    }
+    private async Task OpenFile(InputFileChangeEventArgs args)
+    {
+        try
+        {
+            using var stream = args.File.OpenReadStream(SimpleDrawDocument.MaxBytes);
+            using var reader = new StreamReader(stream);
+            var json = await reader.ReadToEndAsync();
+            SimpleDrawDocument.Parse(json);
+            _pendingOpen = json;
+            if (_dirty) _confirmReplace = true; else Replace();
+        }
+        catch (Exception ex) when (ex is InvalidDataException or IOException or JSException)
+        { _error = true; _message = ex.Message; }
+    }
+    [JSInvokable] public async Task Shortcut(string key, bool control, bool shift)
+    {
+        if (ModalActive) return;
+        if (control)
+        {
+            if (key == "z") { if (shift) Redo(); else Undo(); }
+            else if (key == "y") Redo();
+            else if (key == "s") await Save();
+            else if (key == "d") Command(_session.DuplicateSelection);
+            else if (key == "g") Command(() => _session.GroupSelection(shift));
+            else if (key == "a") { _session.Tool = DrawingTool.Select; _session.Manager.SelectAllComponents(); _canvas?.Invalidate(); }
+        }
+        else
+        {
+            var tool = Tools.FirstOrDefault(t => t.Key.Equals(key, StringComparison.OrdinalIgnoreCase));
+            if (!string.IsNullOrEmpty(tool.Key)) { Choose(tool.Tool); if (_module is not null) await _module.InvokeVoidAsync("focusCanvas"); }
+            else if (key is "Delete" or "Backspace") Delete();
+            else if (key == "Escape") { _session.CancelGesture(); _showHelp = false; _canvas?.Invalidate(); }
+            else if (key == "?") _showHelp = true;
+            else if (key == "Enter") { Command(_session.KeyboardEnter); if (_session.HasTextEdit) StartTextEditor(); _canvas?.Invalidate(); }
+            else if (key.StartsWith("Arrow"))
+            {
+                var d = _session.Tool != DrawingTool.Select ? (shift ? 20 : 5) : (shift ? 10 : 1);
+                var delta = key switch { "ArrowLeft" => new SKPoint(-d, 0), "ArrowRight" => new( d, 0), "ArrowUp" => new(0, -d), _ => new(0, d) };
+                if (_session.Tool == DrawingTool.Select) _session.MoveSelected(delta);
+                else if (_session.Tool == DrawingTool.Hand) _session.Manager.PanOffset += delta;
+                else _session.MoveKeyboardCursor(delta);
+                _canvas?.Invalidate();
+            }
+        }
+        AnnounceSelection();
+        await InvokeAsync(StateHasChanged);
+    }
+    private void OpenRendererStress()
+    {
+        if (!_diagnostics || _benchmarkRunning || ModalActive || _local.Pending || _session.HasGesture) return;
+        _stressBaseline = SimpleDrawDocument.Serialize(_session.Manager); _stressRevision = _local.Revision;
+        _stressIsolation = null; _stressOpen = true;
+    }
+    private void CloseRendererStress()
+    {
+        if (!_stressOpen) return;
+        var preserved = _local.Revision == _stressRevision && SimpleDrawDocument.Serialize(_session.Manager) == _stressBaseline;
+        _stressOpen = false; _stressBaseline = null;
+        _stressIsolation = preserved ? "Renderer stress closed: product document and revision unchanged."
+            : "Renderer stress isolation check failed: product document or revision changed.";
+        if (!preserved) { _error = true; _message = _stressIsolation; }
+    }
+    private async Task RunBenchmark()
+    {
+        if (_performance is null || _benchmarkRunning) return;
+        _benchmarkRunning = true;
+        try { await _performance.InvokeVoidAsync("runEdits"); }
+        catch (JSException ex) { _error = true; _message = "Benchmark failed: " + ex.Message; }
+        finally { _benchmarkRunning = false; }
+    }
+    private async Task RunRenderCheck()
+    {
+        if (_performance is null || _benchmarkRunning || ModalActive || _local.Pending || _session.HasGesture) return;
+        _benchmarkRunning = true;
+        try { await _performance.InvokeVoidAsync("runSchedulingCheck"); }
+        catch (JSException ex) { _error = true; _message = "Render scheduling check failed: " + ex.Message; }
+        finally { _benchmarkRunning = _requestRepaintDuringPaint = false; }
+    }
+    [JSInvokable] public void RequestRepaintDuringPaint()
+    {
+        if (!_diagnostics || !_benchmarkRunning || ModalActive || _local.Pending || _session.HasGesture)
+            throw new InvalidOperationException("Render scheduling check requires the ready diagnostic editor.");
+        _requestRepaintDuringPaint = true;
+        _canvas?.Invalidate(); _canvas?.Invalidate(); _canvas?.Invalidate();
+    }
+    [JSInvokable] public object BenchmarkState()
+    {
+        if (!_diagnostics) throw new InvalidOperationException("Local diagnostics are not enabled.");
+        var selected = SelectedComponents.ToArray();
+        return new { objects = _session.Manager.GetComponents().Count, selected = selected.Length,
+            x = selected.Length == 1 ? selected[0].X : 0, y = selected.Length == 1 ? selected[0].Y : 0,
+            undoCount = _session.Manager.HistoryManager.UndoCount,
+            maxHistoryDepth = _session.Manager.HistoryManager.MaxHistoryDepth, revision = _local.Revision,
+            invalidationDispatches = _canvas?.InvalidationDispatchCount, paints = _canvas?.PaintCount };
+    }
+    [JSInvokable] public async Task BenchmarkEdit(bool right)
+    {
+        if (!_diagnostics || !_benchmarkRunning || ModalActive || SelectedComponents.Count() != 1)
+            throw new InvalidOperationException("Benchmark needs an enabled, ready editor and one selected object.");
+        var shape = SelectedComponents.Single(); var before = shape.X;
+        if (!_session.Manager.GetComponents().Contains(shape)) throw new InvalidOperationException("The selected object is not in the active scene.");
+        _session.Tool = DrawingTool.Select;
+        await Shortcut(right ? "ArrowRight" : "ArrowLeft", false, false);
+        if (shape.X != before + (right ? 1 : -1)) throw new InvalidOperationException("The ordinary keyboard edit did not move the selected object.");
+    }
+    public async ValueTask DisposeAsync()
+    {
+        _session.DocumentChanged -= Changed; _session.CancelGesture();
+        _debounce?.Cancel(); _debounce?.Dispose();
+        if (_store is not null) await _store.DisposeAsync();
+        if (_module is not null) { await _module.InvokeVoidAsync("detachShortcuts"); await _module.DisposeAsync(); }
+        if (_performance is not null) { _performance.InvokeVoid("detach"); await _performance.DisposeAsync(); }
+        _reference?.Dispose();
+    }
+}
+

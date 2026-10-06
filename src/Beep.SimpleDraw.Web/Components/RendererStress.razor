@@ -1,0 +1,83 @@
+@using Beep.SimpleDraw.Core.Diagnostics
+@using Beep.Skia.Blazor.Controls
+@using SkiaSharp
+@implements IAsyncDisposable
+@inject IJSRuntime JS
+
+<section class="renderer-stress-dialog" role="dialog" aria-modal="true" aria-label="Renderer stress diagnostics" data-modal-kind="renderer-stress">
+    <h2>Renderer stress diagnostics</h2>
+    <p>Separate 5,000-object scene using the shared Beep.Skia manager and canvas host. This is outside the native document limit; it cannot be saved as a product board. Keep this tab visible. No data is sent.</p>
+    <div class="stress-actions">
+        <button data-initial-focus disabled="@_running" @onclick="() => Run(false)">Run 5000 rectangle stress</button>
+        <button disabled="@_running" @onclick="() => Run(true)">Run 5000 mixed stress</button>
+        <button @onclick="Close">Close renderer stress</button>
+    </div>
+    <p role="status">@_status</p>
+    @if (_scene is not null)
+    {
+        <SkiaHostComponent @key="_scene" @ref="_canvas" Manager="_scene.Manager" Height="440px" Background="#fcfcf9"
+            CssClass="renderer-stress-surface" CanvasLabel="5000 object renderer stress canvas" HandleDefaultInteraction="false"
+            OnPointer="Pointer" PaintOverlay="Paint" />
+    }
+    <pre id="renderer-stress-report" @ref="_output" aria-label="Renderer stress report"></pre>
+</section>
+
+@code {
+    [Parameter] public EventCallback Close { get; set; }
+    private RendererStressScene? _scene;
+    private SkiaHostComponent? _canvas;
+    private IJSInProcessObjectReference? _module;
+    private DotNetObjectReference<RendererStress>? _reference;
+    private ElementReference _output;
+    private bool _running, _disposed;
+    private string _status = "Choose a workload. The drawing and autosave are unchanged.";
+
+    protected override async Task OnAfterRenderAsync(bool firstRender)
+    {
+        if (!firstRender) return;
+        _module = (IJSInProcessObjectReference)await JS.InvokeAsync<IJSObjectReference>("import", "./js/rendererStress.js");
+        _reference = DotNetObjectReference.Create(this);
+        _module.InvokeVoid("attach", _output, _reference);
+    }
+    private async Task Run(bool mixed)
+    {
+        if (_disposed || _running || _module is null) return;
+        _running = true;
+        try
+        {
+            _scene?.Dispose(); _scene = new(mixed); _scene.Fit(1200, 440);
+            _status = "Preparing " + _scene.Case + "…";
+            await InvokeAsync(StateHasChanged);
+            await _module.InvokeVoidAsync("run");
+            _status = "Completed 140 shared history moves; 120 measured paint presentations. See the report.";
+        }
+        catch (Exception ex) when (ex is JSException or InvalidOperationException)
+        { if (!_disposed) _status = "Renderer stress failed: " + ex.Message; }
+        finally { _running = false; if (!_disposed) await InvokeAsync(StateHasChanged); }
+    }
+    private void Pointer(CanvasPointerEvent args)
+    {
+        if (args.Action == "resize" && args.Width > 0 && args.Height > 0) _scene?.Fit(args.Width, args.Height);
+    }
+    private void Paint(SKCanvas canvas) => _module?.InvokeVoid("paint", canvas.DeviceClipBounds.Width, canvas.DeviceClipBounds.Height);
+    [JSInvokable] public object StressState()
+    {
+        if (_disposed || !_running || _scene is null) throw new InvalidOperationException("Renderer stress is not running.");
+        return new { objects = _scene.Manager.GetComponents().Count, selected = _scene.Manager.SelectionManager.SelectedComponents.Count,
+            x = _scene.EditedShape.X, y = _scene.EditedShape.Y, revision = _scene.Edits,
+            undoCount = _scene.Manager.HistoryManager.UndoCount, maxHistoryDepth = _scene.Manager.HistoryManager.MaxHistoryDepth,
+            workload = _scene.Case, zoom = _scene.Manager.Zoom };
+    }
+    [JSInvokable] public void StressEdit(bool right)
+    {
+        if (_disposed || !_running || _scene is null) throw new InvalidOperationException("Renderer stress is not running.");
+        _scene.Edit(right);
+    }
+    public async ValueTask DisposeAsync()
+    {
+        if (_disposed) return;
+        _disposed = true;
+        if (_module is not null) { _module.InvokeVoid("detach"); await _module.DisposeAsync(); }
+        _reference?.Dispose(); _scene?.Dispose();
+    }
+}

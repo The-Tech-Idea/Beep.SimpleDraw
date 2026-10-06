@@ -1,0 +1,14 @@
+  Beep.Skia.Model -> C:\Users\f_ald\source\repos\The-Tech-Idea\Beep.Skia\Beep.Skia.Model\bin\Release\net10.0\Beep.Skia.Model.dll
+  Beep.Skia -> C:\Users\f_ald\source\repos\The-Tech-Idea\Beep.Skia\Beep.Skia\bin\Release\net10.0\Beep.Skia.dll
+  Beep.Skia.FlowChart -> C:\Users\f_ald\source\repos\The-Tech-Idea\Beep.Skia\Beep.Skia.FlowChart\bin\Release\net10.0\Beep.Skia.FlowChart.dll
+  Beep.SimpleDraw.Core -> C:\Users\f_ald\source\repos\The-Tech-Idea\Beep.SimpleDraw\src\Beep.SimpleDraw.Core\bin\Release\net10.0\Beep.SimpleDraw.Core.dll
+  Beep.Skia.Blazor.Controls -> C:\Users\f_ald\source\repos\The-Tech-Idea\Beep.Skia\Beep.Skia.Blazor.Controls\bin\Release\net10.0\Beep.Skia.Blazor.Controls.dll
+  Beep.SimpleDraw.Tests -> C:\Users\f_ald\source\repos\The-Tech-Idea\Beep.SimpleDraw\tests\Beep.SimpleDraw.Tests\bin\Release\net10.0\Beep.SimpleDraw.Tests.dll
+  Beep.SimpleDraw.Web -> C:\Users\f_ald\source\repos\The-Tech-Idea\Beep.SimpleDraw\src\Beep.SimpleDraw.Web\bin\Release\net10.0\Beep.SimpleDraw.Web.dll
+  Beep.SimpleDraw.Web (Blazor output) -> C:\Users\f_ald\source\repos\The-Tech-Idea\Beep.SimpleDraw\src\Beep.SimpleDraw.Web\bin\Release\net10.0\wwwroot
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:07.48

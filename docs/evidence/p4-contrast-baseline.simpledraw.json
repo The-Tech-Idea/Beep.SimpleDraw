@@ -1,0 +1,35 @@
+{
+  "format": "beep.simpledraw",
+  "version": 6,
+  "diagram": {
+    "schemaVersion": 3,
+    "themeName": "Light",
+    "components": [
+      {
+        "id": "aa709d74-9c4a-44ef-862a-5ea76927e80e",
+        "type": "Beep.Skia.Components.SketchShape",
+        "x": 640,
+        "y": 322,
+        "width": 40,
+        "height": 20,
+        "name": "Rectangle 1",
+        "propertyBag": {
+          "Kind": "Rectangle",
+          "Stroke": "#334155",
+          "Fill": "#00000000",
+          "StrokeWidth": "2",
+          "PathData": "",
+          "DisplayText": "",
+          "TextFontSize": "24",
+          "GroupId": "00000000-0000-0000-0000-000000000000",
+          "Roughness": "0",
+          "SketchSeed": "1193872593"
+        },
+        "typedPropertyBag": {},
+        "inPointIds": [],
+        "outPointIds": []
+      }
+    ],
+    "lines": []
+  }
+}

@@ -1,0 +1,251 @@
+{
+  "date": "2026-10-06",
+  "source": {
+    "baseCommit": "19bb026ba403ff91bd1a2ce324000ddce07cd26d",
+    "sourceFiles": 210,
+    "sourceSha256": "4f280f9375360e373833f1a97ccb98cf5159f484b767444dba20610c200d7993",
+    "packages": [
+      {
+        "id": "TheTechIdea.Beep.DataManagementModels",
+        "version": "3.1.1",
+        "sha256": "5a9ac5f7fbf9581d99a7ce871ddb36ff62f6b0b79fe6ec110dce4d75aa52f46f",
+        "repository": "https://github.com/The-Tech-Idea/BeepDM",
+        "commit": "f305eaf64037392fa4b907aa69f64f5d641c69d4"
+      },
+      {
+        "id": "TheTechIdea.Beep.Vis.Modules",
+        "version": "2.0.44",
+        "sha256": "0e2c8c5809846dca31b6fa3c07f6487165337e3e21a002d0e60124731c13e718",
+        "repository": "https://github.com/The-Tech-Idea/BeepEnterprize.winform",
+        "commit": "9b62321ff640ebcc8bb6cca1f83e675a29a92215"
+      }
+    ]
+  },
+  "release": {
+    "total": 289,
+    "executed": 289,
+    "passed": 289,
+    "failed": 0,
+    "error": 0,
+    "timeout": 0,
+    "aborted": 0,
+    "inconclusive": 0,
+    "passedButRunAborted": 0,
+    "notRunnable": 0,
+    "notExecuted": 0,
+    "disconnected": 0,
+    "warning": 0,
+    "completed": 0,
+    "inProgress": 0,
+    "pending": 0
+  },
+  "coverage": {
+    "cases": 48,
+    "exactFrames": 528,
+    "zooms": [
+      0.41,
+      0.875,
+      1.75
+    ],
+    "deviceTransforms": [
+      1.25,
+      2
+    ],
+    "cssSizes": [
+      "320x360",
+      "640x480"
+    ]
+  },
+  "timings": [
+    {
+      "medianMs": 29.5,
+      "p95Ms": 30.5,
+      "maxMs": 40,
+      "budgetPassed": true
+    },
+    {
+      "medianMs": 29.300000071525574,
+      "p95Ms": 30.200000047683716,
+      "maxMs": 30.5,
+      "budgetPassed": true
+    }
+  ],
+  "scheduling": [
+    {
+      "initial": {
+        "objects": 1000,
+        "selected": 1,
+        "x": 30,
+        "y": 30,
+        "undoCount": 100,
+        "maxHistoryDepth": 100,
+        "revision": 288,
+        "invalidationDispatches": 286,
+        "paints": 286
+      },
+      "final": {
+        "objects": 1000,
+        "selected": 1,
+        "x": 30,
+        "y": 30,
+        "undoCount": 100,
+        "maxHistoryDepth": 100,
+        "revision": 288,
+        "invalidationDispatches": 288,
+        "paints": 288
+      },
+      "presentationMs": 37.60000002384186,
+      "passed": true,
+      "scope": "Three initial invalidations and three during painting; exactly two host dispatches and completed paints. Host dispatches exclude vendor resize/DPI requests."
+    }
+  ],
+  "unchangedSiblingInputs": {
+    "sibling": {
+      "total": 504,
+      "executed": 504,
+      "passed": 504,
+      "failed": 0,
+      "error": 0,
+      "timeout": 0,
+      "aborted": 0,
+      "inconclusive": 0,
+      "passedButRunAborted": 0,
+      "notRunnable": 0,
+      "notExecuted": 0,
+      "disconnected": 0,
+      "warning": 0,
+      "completed": 0,
+      "inProgress": 0,
+      "pending": 0
+    },
+    "evidence": "p6-frame-cache-sibling.trx",
+    "net8": "p6-frame-cache-net8-host.log",
+    "freshRun": false
+  },
+  "native": {
+    "sevenBytes": 5105,
+    "sevenSha256": "02743b965d9c18a3f15fdc59031c6b1af5d71434faf8b1bfb936d73f493a5ebd",
+    "mixedBytes": 714792,
+    "mixedSha256": "6f23948d6a7a4d386962f1c44a5781b24da4d1a1be790d93423e7190f7a59343",
+    "exactDownloads": true
+  },
+  "responsive": {
+    "layout": {
+      "canvas": [
+        {
+          "cssHeight": 656,
+          "cssWidth": 320,
+          "height": 656,
+          "width": 320
+        }
+      ],
+      "documentWidth": 320,
+      "tools": [
+        {
+          "height": 44,
+          "name": "Select",
+          "width": 44
+        },
+        {
+          "height": 44,
+          "name": "Hand",
+          "width": 44
+        },
+        {
+          "height": 44,
+          "name": "Rectangle",
+          "width": 44
+        },
+        {
+          "height": 44,
+          "name": "Ellipse",
+          "width": 44
+        },
+        {
+          "height": 44,
+          "name": "Diamond",
+          "width": 44
+        },
+        {
+          "height": 44,
+          "name": "Line",
+          "width": 44
+        },
+        {
+          "height": 44,
+          "name": "Arrow",
+          "width": 44
+        },
+        {
+          "height": 44,
+          "name": "Pen",
+          "width": 44
+        },
+        {
+          "height": 44,
+          "name": "Text",
+          "width": 44
+        },
+        {
+          "height": 44,
+          "name": "Eraser",
+          "width": 44
+        },
+        {
+          "height": 44,
+          "name": "Delete selected",
+          "width": 44
+        }
+      ],
+      "viewport": {
+        "height": 720,
+        "pixelRatio": 1,
+        "width": 320
+      }
+    },
+    "help": {
+      "clientHeight": 258,
+      "documentWidth": 640,
+      "height": 260,
+      "scrollHeight": 500,
+      "viewport": [
+        640,
+        360
+      ],
+      "width": 370
+    },
+    "pointer": {
+      "cssDelta": [
+        10,
+        5
+      ],
+      "zoom": 0.41846153846153844,
+      "actualDelta": [
+        23.89706000000001,
+        11.948519999999974
+      ],
+      "expectedDelta": [
+        23.897058823529413,
+        11.948529411764707
+      ],
+      "tolerance": 0.0001,
+      "otherFieldsExact": true
+    }
+  },
+  "offline": {
+    "stopped": {
+      "port": 5243,
+      "activeListeners": 0,
+      "checkedAt": "2026-10-06T02:06:17.8088873+03:00"
+    }
+  },
+  "assets": {
+    "offlineVersion": "00ef50ab8e91f107",
+    "totals": {
+      "identity": 29935561,
+      "br": 8152076,
+      "gzip": 10770530
+    }
+  },
+  "decision": "Production session overlays are covered by exact native frames and repeated browser release gates. Native device transforms do not certify physical browser DPI/zoom. External device, screen-reader, intended host/provider/cold-process/CI/install and independent acceptance remain open."
+}

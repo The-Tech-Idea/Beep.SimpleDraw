@@ -1,0 +1,19 @@
+{
+  "canvases": [
+    {
+      "cssHeight": 644,
+      "cssWidth": 1280,
+      "height": 644,
+      "width": 1280
+    }
+  ],
+  "diagnosticPanel": false,
+  "status": [
+    "",
+    "Opening local library…",
+    "Restored from this device · your drawing is ready",
+    "7 objects; 0 selected."
+  ],
+  "url": "http://127.0.0.1:5224/draw/",
+  "logs": []
+}

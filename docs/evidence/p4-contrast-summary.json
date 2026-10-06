@@ -1,0 +1,73 @@
+{
+  "date": "2026-10-05",
+  "runtime": "artifacts/p4-contrast-final/publish/wwwroot",
+  "offlineVersion": "b8c46ebd9ba44fe5",
+  "environment": {
+    "focusedLabel": "Drawing canvas",
+    "origin": "http://127.0.0.1:5233",
+    "panelBackground": "rgb(255, 255, 255)",
+    "paperBackground": "rgb(252, 252, 249)",
+    "viewport": {
+      "height": 720,
+      "width": 1280
+    }
+  },
+  "checks": [
+    {
+      "name": "Width input boundary",
+      "before": 2.5640413904962034,
+      "after": 4.758842787868666,
+      "threshold": 3,
+      "adjacent": "rgb(255, 255, 255)"
+    },
+    {
+      "name": "Height input boundary",
+      "before": 2.5640413904962034,
+      "after": 4.758842787868666,
+      "threshold": 3,
+      "adjacent": "rgb(255, 255, 255)"
+    },
+    {
+      "name": "Selected width boundary against control",
+      "before": 1.1947663153256485,
+      "after": 6.100865131538558,
+      "threshold": 3,
+      "adjacent": "rgb(240, 235, 255)"
+    },
+    {
+      "name": "Selected width boundary against panel",
+      "before": 1.3913906670131013,
+      "after": 7.104892978519159,
+      "threshold": 3,
+      "adjacent": "rgb(255, 255, 255)"
+    },
+    {
+      "name": "Keyboard canvas focus",
+      "before": 2.647699533952027,
+      "after": 6.912438833932489,
+      "threshold": 3,
+      "adjacent": "rgb(252, 252, 249)"
+    },
+    {
+      "name": "Object count text",
+      "before": 3.484001409717493,
+      "after": 7.577663953533317,
+      "threshold": 4.5,
+      "adjacent": "rgb(255, 255, 255)"
+    },
+    {
+      "name": "Text size select boundary",
+      "before": 1.2530065998235984,
+      "after": 4.758842787868666,
+      "threshold": 3,
+      "adjacent": "rgb(255, 255, 255)"
+    }
+  ],
+  "documentBytesIdentical": true,
+  "narrowTools44px": true,
+  "narrowHorizontalOverflow": false,
+  "serverStoppedRestoresSevenAndCorrectedCss": true,
+  "runtimeDelta": "Only CSS and generated worker metadata plus their encodings changed; all native/managed/other runtime bytes identical.",
+  "browserWarningsAndErrors": 0,
+  "scope": "Targeted active-control contrast and desktop keyboard/history/file/offline smoke; not axe, full WCAG certification, physical DPI/zoom or screen-reader acceptance."
+}

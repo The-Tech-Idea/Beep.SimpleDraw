@@ -1,0 +1,25 @@
+{
+  "viewport": [
+    320,
+    720
+  ],
+  "canvasCss": [
+    320,
+    656
+  ],
+  "devicePixelRatio": 1,
+  "fitZoom": 0.41846153846153844,
+  "cssDrag": [
+    10,
+    5
+  ],
+  "expectedWorldDelta": [
+    23.897058823529413,
+    11.948529411764707
+  ],
+  "actualWorldDelta": [
+    23.89706000000001,
+    11.948519999999974
+  ],
+  "otherDocumentFieldsExact": true
+}

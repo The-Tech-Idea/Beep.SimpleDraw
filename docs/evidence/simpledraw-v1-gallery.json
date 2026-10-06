@@ -1,0 +1,10 @@
+{
+  "offline": true,
+  "renderAndNativeExportExact": true,
+  "candidate": "artifacts/simpledraw-v1-final",
+  "components": 249,
+  "bytes": 247645,
+  "sha256": "2c07678a8cbab37df3ed584d7997cf496a36d90dcee6211b93e6e43b3421d719",
+  "families": 16,
+  "warningsAndErrors": 0
+}

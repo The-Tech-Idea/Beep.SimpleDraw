@@ -1,0 +1,69 @@
+  Determining projects to restore...
+  Restored C:\Users\f_ald\source\repos\The-Tech-Idea\Beep.Skia\Beep.Skia.UML\Beep.Skia.UML.csproj (in 448 ms).
+  Restored C:\Users\f_ald\source\repos\The-Tech-Idea\Beep.Skia\Beep.Skia.Model\Beep.Skia.Model.csproj (in 446 ms).
+  Restored C:\Users\f_ald\source\repos\The-Tech-Idea\Beep.Skia\Beep.Skia.ECAD\Beep.Skia.ECAD.csproj (in 448 ms).
+  Restored C:\Users\f_ald\source\repos\The-Tech-Idea\Beep.Skia\Beep.Skia.FlowChart\Beep.Skia.FlowChart.csproj (in 449 ms).
+  Restored C:\Users\f_ald\source\repos\The-Tech-Idea\Beep.Skia\Beep.Skia.Business\Beep.Skia.Business.csproj (in 449 ms).
+  Restored C:\Users\f_ald\source\repos\The-Tech-Idea\Beep.Skia\Beep.Skia.ETL\Beep.Skia.ETL.csproj (in 449 ms).
+  Restored C:\Users\f_ald\source\repos\The-Tech-Idea\Beep.Skia\Beep.Skia.Network\Beep.Skia.Network.csproj (in 448 ms).
+  Restored C:\Users\f_ald\source\repos\The-Tech-Idea\Beep.Skia\Beep.Skia.DFD\Beep.Skia.DFD.csproj (in 449 ms).
+  Restored C:\Users\f_ald\source\repos\The-Tech-Idea\Beep.Skia\Beep.Skia.ML\Beep.Skia.ML.csproj (in 448 ms).
+  Restored C:\Users\f_ald\source\repos\The-Tech-Idea\Beep.Skia\Beep.Skia\Beep.Skia.csproj (in 447 ms).
+  Restored C:\Users\f_ald\source\repos\The-Tech-Idea\Beep.Skia\Beep.Ski.Quantitative\Beep.Ski.Quantitative.csproj (in 449 ms).
+  Restored C:\Users\f_ald\source\repos\The-Tech-Idea\Beep.Skia\Beep.Skia.WellLogs\Beep.Skia.WellLogs.csproj (in 449 ms).
+  Restored C:\Users\f_ald\source\repos\The-Tech-Idea\Beep.Skia\Beep.Skia.Cloud\Beep.Skia.Cloud.csproj (in 449 ms).
+  Restored C:\Users\f_ald\source\repos\The-Tech-Idea\Beep.Skia\Beep.Skia.ERD\Beep.Skia.ERD.csproj (in 449 ms).
+  Restored C:\Users\f_ald\source\repos\The-Tech-Idea\Beep.SimpleDraw\src\Beep.SimpleDraw.Mcp\Beep.SimpleDraw.Mcp.csproj (in 453 ms).
+  Restored C:\Users\f_ald\source\repos\The-Tech-Idea\Beep.SimpleDraw\tests\Beep.SimpleDraw.Mcp.Tests\Beep.SimpleDraw.Mcp.Tests.csproj (in 453 ms).
+  Restored C:\Users\f_ald\source\repos\The-Tech-Idea\Beep.Skia\Beep.Skia.PM\Beep.Skia.PM.csproj (in 13 ms).
+  Restored C:\Users\f_ald\source\repos\The-Tech-Idea\Beep.Skia\Beep.Skia.Security\Beep.Skia.Security.csproj (in 13 ms).
+  Restored C:\Users\f_ald\source\repos\The-Tech-Idea\Beep.Skia\Beep.Skia.StateMachine\Beep.Skia.StateMachine.csproj (in 13 ms).
+  Restored C:\Users\f_ald\source\repos\The-Tech-Idea\Beep.Skia\Beep.Skia.MindMap\Beep.Skia.MindMap.csproj (in 13 ms).
+  Restored C:\Users\f_ald\source\repos\The-Tech-Idea\Beep.SimpleDraw\src\Beep.SimpleDraw.Core\Beep.SimpleDraw.Core.csproj (in 25 ms).
+  Beep.Skia.Model -> C:\Users\f_ald\source\repos\The-Tech-Idea\Beep.Skia\Beep.Skia.Model\bin\Release\net10.0\Beep.Skia.Model.dll
+  Beep.Skia -> C:\Users\f_ald\source\repos\The-Tech-Idea\Beep.Skia\Beep.Skia\bin\Release\net10.0\Beep.Skia.dll
+  Beep.Ski.Quantitative -> C:\Users\f_ald\source\repos\The-Tech-Idea\Beep.Skia\Beep.Ski.Quantitative\bin\Release\net10.0\Beep.Ski.Quantitative.dll
+  Beep.Skia.StateMachine -> C:\Users\f_ald\source\repos\The-Tech-Idea\Beep.Skia\Beep.Skia.StateMachine\bin\Release\net10.0\Beep.Skia.StateMachine.dll
+  Beep.Skia.Security -> C:\Users\f_ald\source\repos\The-Tech-Idea\Beep.Skia\Beep.Skia.Security\bin\Release\net10.0\Beep.Skia.Security.dll
+  Beep.Skia.Network -> C:\Users\f_ald\source\repos\The-Tech-Idea\Beep.Skia\Beep.Skia.Network\bin\Release\net10.0\Beep.Skia.Network.dll
+  Beep.Skia.PM -> C:\Users\f_ald\source\repos\The-Tech-Idea\Beep.Skia\Beep.Skia.PM\bin\Release\net10.0\Beep.Skia.PM.dll
+  Beep.Skia.WellLogs -> C:\Users\f_ald\source\repos\The-Tech-Idea\Beep.Skia\Beep.Skia.WellLogs\bin\Release\net10.0\Beep.Skia.WellLogs.dll
+  Beep.Skia.Business -> C:\Users\f_ald\source\repos\The-Tech-Idea\Beep.Skia\Beep.Skia.Business\bin\Release\net10.0\Beep.Skia.Business.dll
+  Beep.Skia.ECAD -> C:\Users\f_ald\source\repos\The-Tech-Idea\Beep.Skia\Beep.Skia.ECAD\bin\Release\net10.0\Beep.Skia.ECAD.dll
+  Beep.Skia.Cloud -> C:\Users\f_ald\source\repos\The-Tech-Idea\Beep.Skia\Beep.Skia.Cloud\bin\Release\net10.0\Beep.Skia.Cloud.dll
+  Beep.Skia.ERD -> C:\Users\f_ald\source\repos\The-Tech-Idea\Beep.Skia\Beep.Skia.ERD\bin\Release\net10.0\Beep.Skia.ERD.dll
+  Beep.Skia.UML -> C:\Users\f_ald\source\repos\The-Tech-Idea\Beep.Skia\Beep.Skia.UML\bin\Release\net10.0\Beep.Skia.UML.dll
+  Beep.Skia.DFD -> C:\Users\f_ald\source\repos\The-Tech-Idea\Beep.Skia\Beep.Skia.DFD\bin\Release\net10.0\Beep.Skia.DFD.dll
+  Beep.Skia.ETL -> C:\Users\f_ald\source\repos\The-Tech-Idea\Beep.Skia\Beep.Skia.ETL\bin\Release\net10.0\Beep.Skia.ETL.dll
+  Beep.Skia.FlowChart -> C:\Users\f_ald\source\repos\The-Tech-Idea\Beep.Skia\Beep.Skia.FlowChart\bin\Release\net10.0\Beep.Skia.FlowChart.dll
+  Beep.Skia.ML -> C:\Users\f_ald\source\repos\The-Tech-Idea\Beep.Skia\Beep.Skia.ML\bin\Release\net10.0\Beep.Skia.ML.dll
+  Beep.Skia.MindMap -> C:\Users\f_ald\source\repos\The-Tech-Idea\Beep.Skia\Beep.Skia.MindMap\bin\Release\net10.0\Beep.Skia.MindMap.dll
+  Beep.SimpleDraw.Core -> C:\Users\f_ald\source\repos\The-Tech-Idea\Beep.SimpleDraw\src\Beep.SimpleDraw.Core\bin\Release\net10.0\Beep.SimpleDraw.Core.dll
+  Beep.SimpleDraw.Mcp -> C:\Users\f_ald\source\repos\The-Tech-Idea\Beep.SimpleDraw\src\Beep.SimpleDraw.Mcp\bin\Release\net10.0\Beep.SimpleDraw.Mcp.dll
+  Beep.SimpleDraw.Mcp.Tests -> C:\Users\f_ald\source\repos\The-Tech-Idea\Beep.SimpleDraw\tests\Beep.SimpleDraw.Mcp.Tests\bin\Release\net10.0\Beep.SimpleDraw.Mcp.Tests.dll
+Test run for C:\Users\f_ald\source\repos\The-Tech-Idea\Beep.SimpleDraw\tests\Beep.SimpleDraw.Mcp.Tests\bin\Release\net10.0\Beep.SimpleDraw.Mcp.Tests.dll (.NETCoreApp,Version=v10.0)
+A total of 1 test files matched the specified pattern.
+
+Passed!  - Failed:     0, Passed:   255, Skipped:     0, Total:   255, Duration: 3 s - Beep.SimpleDraw.Mcp.Tests.dll (net10.0)
+  Beep.Skia.Model -> C:\Users\f_ald\source\repos\The-Tech-Idea\Beep.Skia\Beep.Skia.Model\bin\Release\net10.0\Beep.Skia.Model.dll
+  Beep.Skia -> C:\Users\f_ald\source\repos\The-Tech-Idea\Beep.Skia\Beep.Skia\bin\Release\net10.0\Beep.Skia.dll
+  Beep.Skia.Network -> C:\Users\f_ald\source\repos\The-Tech-Idea\Beep.Skia\Beep.Skia.Network\bin\Release\net10.0\Beep.Skia.Network.dll
+  Beep.Skia.UML -> C:\Users\f_ald\source\repos\The-Tech-Idea\Beep.Skia\Beep.Skia.UML\bin\Release\net10.0\Beep.Skia.UML.dll
+  Beep.Skia.Business -> C:\Users\f_ald\source\repos\The-Tech-Idea\Beep.Skia\Beep.Skia.Business\bin\Release\net10.0\Beep.Skia.Business.dll
+  Beep.Skia.StateMachine -> C:\Users\f_ald\source\repos\The-Tech-Idea\Beep.Skia\Beep.Skia.StateMachine\bin\Release\net10.0\Beep.Skia.StateMachine.dll
+  Beep.Skia.Security -> C:\Users\f_ald\source\repos\The-Tech-Idea\Beep.Skia\Beep.Skia.Security\bin\Release\net10.0\Beep.Skia.Security.dll
+  Beep.Skia.Cloud -> C:\Users\f_ald\source\repos\The-Tech-Idea\Beep.Skia\Beep.Skia.Cloud\bin\Release\net10.0\Beep.Skia.Cloud.dll
+  Beep.Skia.PM -> C:\Users\f_ald\source\repos\The-Tech-Idea\Beep.Skia\Beep.Skia.PM\bin\Release\net10.0\Beep.Skia.PM.dll
+  Beep.Skia.DFD -> C:\Users\f_ald\source\repos\The-Tech-Idea\Beep.Skia\Beep.Skia.DFD\bin\Release\net10.0\Beep.Skia.DFD.dll
+  Beep.Skia.WellLogs -> C:\Users\f_ald\source\repos\The-Tech-Idea\Beep.Skia\Beep.Skia.WellLogs\bin\Release\net10.0\Beep.Skia.WellLogs.dll
+  Beep.Skia.ECAD -> C:\Users\f_ald\source\repos\The-Tech-Idea\Beep.Skia\Beep.Skia.ECAD\bin\Release\net10.0\Beep.Skia.ECAD.dll
+  Beep.Skia.MindMap -> C:\Users\f_ald\source\repos\The-Tech-Idea\Beep.Skia\Beep.Skia.MindMap\bin\Release\net10.0\Beep.Skia.MindMap.dll
+  Beep.Skia.ETL -> C:\Users\f_ald\source\repos\The-Tech-Idea\Beep.Skia\Beep.Skia.ETL\bin\Release\net10.0\Beep.Skia.ETL.dll
+  Beep.Ski.Quantitative -> C:\Users\f_ald\source\repos\The-Tech-Idea\Beep.Skia\Beep.Ski.Quantitative\bin\Release\net10.0\Beep.Ski.Quantitative.dll
+  Beep.Skia.ML -> C:\Users\f_ald\source\repos\The-Tech-Idea\Beep.Skia\Beep.Skia.ML\bin\Release\net10.0\Beep.Skia.ML.dll
+  Beep.Skia.FlowChart -> C:\Users\f_ald\source\repos\The-Tech-Idea\Beep.Skia\Beep.Skia.FlowChart\bin\Release\net10.0\Beep.Skia.FlowChart.dll
+  Beep.Skia.ERD -> C:\Users\f_ald\source\repos\The-Tech-Idea\Beep.Skia\Beep.Skia.ERD\bin\Release\net10.0\Beep.Skia.ERD.dll
+  Beep.SimpleDraw.Core -> C:\Users\f_ald\source\repos\The-Tech-Idea\Beep.SimpleDraw\src\Beep.SimpleDraw.Core\bin\Release\net10.0\Beep.SimpleDraw.Core.dll
+  Beep.SimpleDraw.Mcp -> C:\Users\f_ald\source\repos\The-Tech-Idea\Beep.SimpleDraw\src\Beep.SimpleDraw.Mcp\bin\Release\net10.0\Beep.SimpleDraw.Mcp.dll
+  Beep.SimpleDraw.Mcp -> C:\Users\f_ald\source\repos\The-Tech-Idea\Beep.SimpleDraw\artifacts\mcp-local-v1\
+Published MCP server: C:\Users\f_ald\source\repos\The-Tech-Idea\Beep.SimpleDraw\artifacts\mcp-local-v1

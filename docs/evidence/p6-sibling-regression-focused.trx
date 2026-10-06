@@ -1,0 +1,64 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TestRun id="8ded25c4-2953-4a5a-8a6d-fef85aca893e" name="f_ald@DEVSTATION 2026-10-05 23:12:06" runUser="DEVSTATION\f_ald" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <Times creation="2026-10-05T23:12:06.2390951+03:00" queuing="2026-10-05T23:12:06.2390957+03:00" start="2026-10-05T23:12:03.8202521+03:00" finish="2026-10-05T23:12:09.9934386+03:00" />
+  <TestSettings name="default" id="51a257f7-8034-4003-828f-0173f1025621">
+    <Deployment runDeploymentRoot="f_ald_DEVSTATION_2026-10-05_23_12_06" />
+  </TestSettings>
+  <Results>
+    <UnitTestResult executionId="d01c773d-4e89-483f-b433-4dddeb8a5f28" testId="fc6f3228-469c-fce7-f1c1-17ee41893c8f" testName="Beep.Skia.Tests.MindMapLayoutTests.Arrange_ParksUnconnectedNodesBelow" computerName="DEVSTATION" duration="00:00:00.0022717" startTime="2026-10-05T23:12:05.4528796+03:00" endTime="2026-10-05T23:12:05.4528797+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="d01c773d-4e89-483f-b433-4dddeb8a5f28" />
+    <UnitTestResult executionId="87e17eae-e909-4fbb-8bba-1464b3d99a51" testId="0f46ad32-ceb9-f498-9d97-c9bb9d42c918" testName="Beep.Skia.Tests.MindMapLayoutTests.Arrange_PlacesSubTopicsRelativeToParent" computerName="DEVSTATION" duration="00:00:00.0039527" startTime="2026-10-05T23:12:05.4521631+03:00" endTime="2026-10-05T23:12:05.4521632+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="87e17eae-e909-4fbb-8bba-1464b3d99a51" />
+    <UnitTestResult executionId="1df5ff6b-46c2-484a-b5bd-ae75d53bea8f" testId="a480ba12-2457-e5ce-7f15-ef8ce24c0cf9" testName="Beep.Skia.Tests.MindMapLayoutTests.Arrange_IsDeterministic" computerName="DEVSTATION" duration="00:00:00.1444487" startTime="2026-10-05T23:12:05.4458312+03:00" endTime="2026-10-05T23:12:05.4458975+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="1df5ff6b-46c2-484a-b5bd-ae75d53bea8f" />
+    <UnitTestResult executionId="60e01a8e-7f62-41ec-86bc-fe779f616648" testId="b468abb8-abf1-4ac2-eacf-994f6a5af5be" testName="Beep.Skia.Tests.MindMapLayoutTests.Arrange_PlacesTopicsAroundCentralAtLevelSpacing" computerName="DEVSTATION" duration="00:00:00.0011313" startTime="2026-10-05T23:12:05.4529254+03:00" endTime="2026-10-05T23:12:05.4529255+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="60e01a8e-7f62-41ec-86bc-fe779f616648" />
+    <UnitTestResult executionId="5413d7ac-243d-476d-ada1-7757aac193e0" testId="d3cfb26a-3d14-09d7-aab3-86adc2fc6375" testName="Beep.Skia.Tests.RenderPerformanceTests.RenderLargeDiagram_ReportsFrameCostAndAllocations" computerName="DEVSTATION" duration="00:00:04.4051798" startTime="2026-10-05T23:12:09.8632090+03:00" endTime="2026-10-05T23:12:09.8632097+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="5413d7ac-243d-476d-ada1-7757aac193e0">
+      <Output>
+        <StdOut>nodes=200 frames=60&#xD;
+nodes only (200 nodes, 0 lines): 5.20 ms/frame, 17.27 KB/frame&#xD;
+nodes+lines (200 nodes, 199 lines): 8.26 ms/frame, 17.31 KB/frame</StdOut>
+      </Output>
+    </UnitTestResult>
+  </Results>
+  <TestDefinitions>
+    <UnitTest name="Beep.Skia.Tests.RenderPerformanceTests.RenderLargeDiagram_ReportsFrameCostAndAllocations" storage="c:\users\f_ald\source\repos\the-tech-idea\beep.skia\beep.skia.tests\bin\release\net10.0-windows10.0.19041.0\beep.skia.tests.dll" id="d3cfb26a-3d14-09d7-aab3-86adc2fc6375">
+      <Execution id="5413d7ac-243d-476d-ada1-7757aac193e0" />
+      <TestMethod codeBase="C:\Users\f_ald\source\repos\The-Tech-Idea\Beep.Skia\Beep.Skia.Tests\bin\Release\net10.0-windows10.0.19041.0\Beep.Skia.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="Beep.Skia.Tests.RenderPerformanceTests" name="RenderLargeDiagram_ReportsFrameCostAndAllocations" />
+    </UnitTest>
+    <UnitTest name="Beep.Skia.Tests.MindMapLayoutTests.Arrange_ParksUnconnectedNodesBelow" storage="c:\users\f_ald\source\repos\the-tech-idea\beep.skia\beep.skia.tests\bin\release\net10.0-windows10.0.19041.0\beep.skia.tests.dll" id="fc6f3228-469c-fce7-f1c1-17ee41893c8f">
+      <Execution id="d01c773d-4e89-483f-b433-4dddeb8a5f28" />
+      <TestMethod codeBase="C:\Users\f_ald\source\repos\The-Tech-Idea\Beep.Skia\Beep.Skia.Tests\bin\Release\net10.0-windows10.0.19041.0\Beep.Skia.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="Beep.Skia.Tests.MindMapLayoutTests" name="Arrange_ParksUnconnectedNodesBelow" />
+    </UnitTest>
+    <UnitTest name="Beep.Skia.Tests.MindMapLayoutTests.Arrange_PlacesTopicsAroundCentralAtLevelSpacing" storage="c:\users\f_ald\source\repos\the-tech-idea\beep.skia\beep.skia.tests\bin\release\net10.0-windows10.0.19041.0\beep.skia.tests.dll" id="b468abb8-abf1-4ac2-eacf-994f6a5af5be">
+      <Execution id="60e01a8e-7f62-41ec-86bc-fe779f616648" />
+      <TestMethod codeBase="C:\Users\f_ald\source\repos\The-Tech-Idea\Beep.Skia\Beep.Skia.Tests\bin\Release\net10.0-windows10.0.19041.0\Beep.Skia.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="Beep.Skia.Tests.MindMapLayoutTests" name="Arrange_PlacesTopicsAroundCentralAtLevelSpacing" />
+    </UnitTest>
+    <UnitTest name="Beep.Skia.Tests.MindMapLayoutTests.Arrange_PlacesSubTopicsRelativeToParent" storage="c:\users\f_ald\source\repos\the-tech-idea\beep.skia\beep.skia.tests\bin\release\net10.0-windows10.0.19041.0\beep.skia.tests.dll" id="0f46ad32-ceb9-f498-9d97-c9bb9d42c918">
+      <Execution id="87e17eae-e909-4fbb-8bba-1464b3d99a51" />
+      <TestMethod codeBase="C:\Users\f_ald\source\repos\The-Tech-Idea\Beep.Skia\Beep.Skia.Tests\bin\Release\net10.0-windows10.0.19041.0\Beep.Skia.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="Beep.Skia.Tests.MindMapLayoutTests" name="Arrange_PlacesSubTopicsRelativeToParent" />
+    </UnitTest>
+    <UnitTest name="Beep.Skia.Tests.MindMapLayoutTests.Arrange_IsDeterministic" storage="c:\users\f_ald\source\repos\the-tech-idea\beep.skia\beep.skia.tests\bin\release\net10.0-windows10.0.19041.0\beep.skia.tests.dll" id="a480ba12-2457-e5ce-7f15-ef8ce24c0cf9">
+      <Execution id="1df5ff6b-46c2-484a-b5bd-ae75d53bea8f" />
+      <TestMethod codeBase="C:\Users\f_ald\source\repos\The-Tech-Idea\Beep.Skia\Beep.Skia.Tests\bin\Release\net10.0-windows10.0.19041.0\Beep.Skia.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="Beep.Skia.Tests.MindMapLayoutTests" name="Arrange_IsDeterministic" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestEntries>
+    <TestEntry testId="fc6f3228-469c-fce7-f1c1-17ee41893c8f" executionId="d01c773d-4e89-483f-b433-4dddeb8a5f28" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="0f46ad32-ceb9-f498-9d97-c9bb9d42c918" executionId="87e17eae-e909-4fbb-8bba-1464b3d99a51" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="a480ba12-2457-e5ce-7f15-ef8ce24c0cf9" executionId="1df5ff6b-46c2-484a-b5bd-ae75d53bea8f" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="b468abb8-abf1-4ac2-eacf-994f6a5af5be" executionId="60e01a8e-7f62-41ec-86bc-fe779f616648" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="d3cfb26a-3d14-09d7-aab3-86adc2fc6375" executionId="5413d7ac-243d-476d-ada1-7757aac193e0" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <ResultSummary outcome="Completed">
+    <Counters total="5" executed="5" passed="5" failed="0" error="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+    <Output>
+      <StdOut>[xUnit.net 00:00:00.00] xUnit.net VSTest Adapter v2.5.3.1+6b60a9e56a (64-bit .NET 10.0.12)&#xD;
+[xUnit.net 00:00:00.21]   Discovering: Beep.Skia.Tests&#xD;
+[xUnit.net 00:00:00.43]   Discovered:  Beep.Skia.Tests&#xD;
+[xUnit.net 00:00:00.45]   Starting:    Beep.Skia.Tests&#xD;
+[xUnit.net 00:00:05.14]   Finished:    Beep.Skia.Tests&#xD;
+</StdOut>
+    </Output>
+  </ResultSummary>
+</TestRun>

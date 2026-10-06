@@ -1,0 +1,72 @@
+{
+  "candidate": "artifacts/default-skia-catalog-usability-final",
+  "offlineVersion": "8a1be1c214dcce2c",
+  "tests": {
+    "csharp": 542,
+    "javascript": 77
+  },
+  "narrowAudit": {
+    "width": 320,
+    "languages": [
+      "English",
+      "Arabic"
+    ],
+    "familiesPerLanguage": 16,
+    "shapeTargetsPerLanguage": 249,
+    "horizontalOverflow": false,
+    "minHeight": 44
+  },
+  "inspector": {
+    "draftAfterLanguage": "Account draft",
+    "appliedInspector": "Account",
+    "undoneInspector": "ClassName",
+    "redoneInspector": "Account"
+  },
+  "keyboard": {
+    "tabFocus": "Apply property button",
+    "enterAppliedValue": "Account keyboard",
+    "undoRestoredValue": "Account"
+  },
+  "performance": {
+    "objects": 1000,
+    "warmup": 20,
+    "measured": 120,
+    "edits": 140,
+    "medianMs": 25.100000023841858,
+    "p95Ms": 33.199999928474426,
+    "budgetMs": 50,
+    "passed": true,
+    "viewport": [
+      1280,
+      720
+    ],
+    "profile": false
+  },
+  "packaging": {
+    "offlineAssets": 151,
+    "zipEntries": 453,
+    "runtimePayloads": 117,
+    "sourceInputs": 498,
+    "totals": {
+      "identity": 30912160,
+      "br": 8456847,
+      "gzip": 11137472
+    },
+    "zipSha256": "62f505aedd6befd9a63c5f4ecabf6623020b47fe8532d1b3fc1d7b18da141dbc"
+  },
+  "limitations": [
+    "Embedded Chromium and CSS viewport checks only; not physical touch, real zoom or screen-reader certification.",
+    "Technical family/type/property identifiers remain English; core diagnostic error text may remain its original language.",
+    "Current performance case is mixed sketch/text with the palette open, not a board containing all catalog components.",
+    "Independent editorial, device, public-host/CI and release acceptance remain separate."
+  ],
+  "mainPreviewUpdate": {
+    "url": "http://127.0.0.1:5243/draw/",
+    "objectsBefore": 10,
+    "objectsAfter": 10,
+    "restoredStatus": true,
+    "catalogColumns": "134px",
+    "flowchartShapes": 36,
+    "scope": "Actual visible count/status and single-column DOM layout; native ten-object byte equivalence not captured."
+  }
+}

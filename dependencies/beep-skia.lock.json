@@ -1,0 +1,2552 @@
+{
+  "version": 1,
+  "repository": "https://github.com/The-Tech-Idea/Beep.Skia.git",
+  "baseCommit": "19bb026ba403ff91bd1a2ce324000ddce07cd26d",
+  "patchSha256": "2549d4b9a419f6d4b7f675448c46c86826bf295fcf6f1d6a3dc63a7b635ee73e",
+  "sourceRoots": [
+    "Beep.Skia",
+    "Beep.Skia.Model",
+    "Beep.Skia.FlowChart",
+    "Beep.Skia.Blazor.Controls",
+    "Beep.Skia.UML",
+    "Beep.Skia.ERD",
+    "Beep.Skia.MindMap",
+    "Beep.Skia.Network",
+    "Beep.Skia.Business",
+    "Beep.Skia.Cloud",
+    "Beep.Skia.DFD",
+    "Beep.Skia.ECAD",
+    "Beep.Skia.ETL",
+    "Beep.Skia.ML",
+    "Beep.Skia.PM",
+    "Beep.Skia.Security",
+    "Beep.Skia.StateMachine",
+    "Beep.Ski.Quantitative",
+    "Beep.Skia.WellLogs"
+  ],
+  "fixedFiles": [
+    "Directory.Build.props",
+    "README.md",
+    "LICENSE.txt",
+    "Beep.Skia.Tests/FlowchartSimulatorTests.cs",
+    "Beep.Skia.Tests/FlowchartCodeGeneratorTests.cs"
+  ],
+  "addedFiles": [
+    "Beep.Ski.Quantitative/packages.net10.lock.json",
+    "Beep.Skia.Blazor.Controls/packages.net10.lock.json",
+    "Beep.Skia.Blazor.Controls/wwwroot/skiaHost.js",
+    "Beep.Skia.Business/packages.net10.lock.json",
+    "Beep.Skia.Cloud/packages.net10.lock.json",
+    "Beep.Skia.DFD/packages.net10.lock.json",
+    "Beep.Skia.ECAD/packages.net10.lock.json",
+    "Beep.Skia.ERD/packages.net10.lock.json",
+    "Beep.Skia.ETL/packages.net10.lock.json",
+    "Beep.Skia.FlowChart/packages.net10.lock.json",
+    "Beep.Skia.ML/packages.net10.lock.json",
+    "Beep.Skia.MindMap/packages.net10.lock.json",
+    "Beep.Skia.Model/packages.net10.lock.json",
+    "Beep.Skia.Network/packages.net10.lock.json",
+    "Beep.Skia.PM/packages.net10.lock.json",
+    "Beep.Skia.Security/packages.net10.lock.json",
+    "Beep.Skia.StateMachine/packages.net10.lock.json",
+    "Beep.Skia.UML/packages.net10.lock.json",
+    "Beep.Skia.WellLogs/packages.net10.lock.json",
+    "Beep.Skia/ComponentOrderAction.cs",
+    "Beep.Skia/Components/SketchShape.cs",
+    "Beep.Skia/SceneFrameCache.cs",
+    "Beep.Skia/SketchEditAction.cs",
+    "Beep.Skia/packages.net10.lock.json"
+  ],
+  "files": [
+    {
+      "path": "Beep.Ski.Quantitative/Beep.Ski.Quantitative.csproj",
+      "mode": "text-lf",
+      "sha256": "6ae71d160c02986426ae47bdccaf7e874cbcfe0bdfa6bd67c636bc70c24a09cd"
+    },
+    {
+      "path": "Beep.Ski.Quantitative/ChartSeries.cs",
+      "mode": "text-lf",
+      "sha256": "a25a574a38dd37853f7c977984b60b8ed2bc96dd500be14e33e0ff67d3cb3d67"
+    },
+    {
+      "path": "Beep.Ski.Quantitative/DataNodes.cs",
+      "mode": "text-lf",
+      "sha256": "7b5a0c3514f2ef17c5b47e035e5854d03daee4e4d9ec74e323bb1da99194d8c0"
+    },
+    {
+      "path": "Beep.Ski.Quantitative/IMPLEMENTATION_SUMMARY.md",
+      "mode": "text-lf",
+      "sha256": "ee2075809e7ef49222c8088081dc807955aacb73ebc7ff3084aee3471f139ccc"
+    },
+    {
+      "path": "Beep.Ski.Quantitative/IndicatorNode.cs",
+      "mode": "text-lf",
+      "sha256": "dc37c99a445dabeaf575613110e0f5e7c8088e50e09655eb586520ab3b96ef2a"
+    },
+    {
+      "path": "Beep.Ski.Quantitative/IndicatorNodes.cs",
+      "mode": "text-lf",
+      "sha256": "9ea9e36df6256fa9ca7a945cb741d7cff41b0113ae8bff02057709ad38c4b43c"
+    },
+    {
+      "path": "Beep.Ski.Quantitative/NODES_REFERENCE.md",
+      "mode": "text-lf",
+      "sha256": "429c004a6ea0d290a7ea83fbc254988ee3ba4bec990ebf81d870f3506609035a"
+    },
+    {
+      "path": "Beep.Ski.Quantitative/QuantControl.cs",
+      "mode": "text-lf",
+      "sha256": "757d99f3fdbe6212d31c1ce4173785a4613bc748da754adbc6c9f9a047d44487"
+    },
+    {
+      "path": "Beep.Ski.Quantitative/README.md",
+      "mode": "text-lf",
+      "sha256": "85bd254a930d5915c21f35f6d6ed1abaff48a2e0caf4f10ad7853d64854ab92b"
+    },
+    {
+      "path": "Beep.Ski.Quantitative/StatisticalNodes.cs",
+      "mode": "text-lf",
+      "sha256": "e30a9ac0bd3a71da8357323a179550e58a69dd5ba5f6c803d51494d68b27f874"
+    },
+    {
+      "path": "Beep.Ski.Quantitative/StrategyNodes.cs",
+      "mode": "text-lf",
+      "sha256": "533714340fe9a094a55cf1e5e80a8fbb96e8fbd5e4bb7dba1a2fa927550f8446"
+    },
+    {
+      "path": "Beep.Ski.Quantitative/TimeSeriesNode.cs",
+      "mode": "text-lf",
+      "sha256": "3dab818e9ee96d3b36a689a3e7b90dd8122de7f26bc20cfc3238e1f794f50373"
+    },
+    {
+      "path": "Beep.Ski.Quantitative/WORKFLOW_EXAMPLES.md",
+      "mode": "text-lf",
+      "sha256": "25b0950548812c1c8a083636e78150085cf18ea6e81910083d0cc156936269c2"
+    },
+    {
+      "path": "Beep.Ski.Quantitative/packages.net10.lock.json",
+      "mode": "text-lf",
+      "sha256": "2326ee956c0fb0c106ff0e57445362b4aa9958c5343bdc30b1eea88e3954102d"
+    },
+    {
+      "path": "Beep.Ski.Quantitative/plan.md",
+      "mode": "text-lf",
+      "sha256": "4854e00d831f9e0f7cac12a86dbdf5982ef7f4ac8d958285a3f4989533847b71"
+    },
+    {
+      "path": "Beep.Skia.Blazor.Controls/Beep.Skia.Blazor.Controls.csproj",
+      "mode": "text-lf",
+      "sha256": "0b58e2834588c17e984b5a591ceaf8b06c7191727a5a5ad1eaa70a3f9d5c724c"
+    },
+    {
+      "path": "Beep.Skia.Blazor.Controls/README.md",
+      "mode": "text-lf",
+      "sha256": "239c3be678c62b7f981f27ab61b77011cfe0ea25b309ac833244174222c50f2c"
+    },
+    {
+      "path": "Beep.Skia.Blazor.Controls/SkiaHostComponent.cs",
+      "mode": "text-lf",
+      "sha256": "32821a96fa1849059632496552ecbb4e2275461813aafb6c031726a05ff0d04a"
+    },
+    {
+      "path": "Beep.Skia.Blazor.Controls/packages.net10.lock.json",
+      "mode": "text-lf",
+      "sha256": "09c317ed8a4114c13807bec9acac5402d439b0781ebeded5d0610f081f1b5869"
+    },
+    {
+      "path": "Beep.Skia.Blazor.Controls/wwwroot/skiaHost.js",
+      "mode": "text-lf",
+      "sha256": "354cb464dcdaee8134af98c6e7260c3a06049a63e0d8fe706c76487d46864f7b"
+    },
+    {
+      "path": "Beep.Skia.Business/ActionNode.cs",
+      "mode": "text-lf",
+      "sha256": "be2c7129454629b2032b27d5644d6918fc197da0bb83f52390c6aef369ca3cac"
+    },
+    {
+      "path": "Beep.Skia.Business/AdvancedProcessEnums.cs",
+      "mode": "text-lf",
+      "sha256": "f2260971f226920977fb778ea5bdff7b63a4f04051921fd4aedbb7c21448ebb9"
+    },
+    {
+      "path": "Beep.Skia.Business/Annotation.cs",
+      "mode": "text-lf",
+      "sha256": "64f15a0585befe0d16d1247a9192f09f9a9ec346c21a954c7760f8ec040c2050"
+    },
+    {
+      "path": "Beep.Skia.Business/Beep.Skia.Business.csproj",
+      "mode": "text-lf",
+      "sha256": "906a6c3a4577b5ee1ba45dcaaaf713a40fbd9a95d89051817cea80a97abdaeb9"
+    },
+    {
+      "path": "Beep.Skia.Business/BpmnExporter.cs",
+      "mode": "text-lf",
+      "sha256": "ba61aae81f151aeb7eedddaaa93b1168f6d5d4beb54fa7c43544914c643fb8de"
+    },
+    {
+      "path": "Beep.Skia.Business/BpmnImporter.cs",
+      "mode": "text-lf",
+      "sha256": "1a5b41cc13e84cc299bcc9399345971063206e19ca878e5ae4d35a7bc45d029a"
+    },
+    {
+      "path": "Beep.Skia.Business/BpmnLaneNode.cs",
+      "mode": "text-lf",
+      "sha256": "acd9f5d2861a80211f0ad3465b57e84a7e0f432615ea6bcaa85aacf35887fd4e"
+    },
+    {
+      "path": "Beep.Skia.Business/BpmnMessageFlow.cs",
+      "mode": "text-lf",
+      "sha256": "b522268dc24fcebd58aaf97f45ab118a57de6e80bf78dde930096181abbf4595"
+    },
+    {
+      "path": "Beep.Skia.Business/BpmnPoolNode.cs",
+      "mode": "text-lf",
+      "sha256": "135354d8ab926bfa9d75de8a3bc9a78ad20289cdddeee8e3c137387cab32d34a"
+    },
+    {
+      "path": "Beep.Skia.Business/BusinessControl.cs",
+      "mode": "text-lf",
+      "sha256": "d474cbae91566a7118d797b81d0b603d9e2f09c7c5f0759ec8bc25234bec68fc"
+    },
+    {
+      "path": "Beep.Skia.Business/BusinessRuleEnums.cs",
+      "mode": "text-lf",
+      "sha256": "fba00ca87788d5d2d7c0999a97308863c6ceb8fc21b555756d8c9048321d8f2b"
+    },
+    {
+      "path": "Beep.Skia.Business/BusinessSystem.cs",
+      "mode": "text-lf",
+      "sha256": "d117fede2dcadabb6ebf00b84e90fcae6138cde5185d1a2247852af8c251abdf"
+    },
+    {
+      "path": "Beep.Skia.Business/BusinessTask.cs",
+      "mode": "text-lf",
+      "sha256": "d3d06bc4e956e036c7ce276fd450aa09df05e7623ac7601592fef86fac8df2c5"
+    },
+    {
+      "path": "Beep.Skia.Business/ConditionBuilder.cs",
+      "mode": "text-lf",
+      "sha256": "b87665410edb8d7155c6c0710880e071c61dc7eb1af296026e139265205cccc0"
+    },
+    {
+      "path": "Beep.Skia.Business/DataObject.cs",
+      "mode": "text-lf",
+      "sha256": "0d5ab578515496e2101cefc92bef411dc59a6c2662a1ec5d63546f9f9e7dd84a"
+    },
+    {
+      "path": "Beep.Skia.Business/DataStore.cs",
+      "mode": "text-lf",
+      "sha256": "1e88ead9f39550b051db75a5ccf8592a32f4ecf021816021be2ebbed01078db0"
+    },
+    {
+      "path": "Beep.Skia.Business/Database.cs",
+      "mode": "text-lf",
+      "sha256": "ed500e92bad445bb5a37fb5384a7e1ad130ab2afb98932c3d09ed919228d5220"
+    },
+    {
+      "path": "Beep.Skia.Business/Decision.cs",
+      "mode": "text-lf",
+      "sha256": "914fc7590b7a96e3f2527820800c26372605d52cc42d381cae96216f09cd1dd9"
+    },
+    {
+      "path": "Beep.Skia.Business/Department.cs",
+      "mode": "text-lf",
+      "sha256": "0a5b96c7063d9525b6c06fed9b21ecb57a23c30f10f3051a3d6adbecde16ed40"
+    },
+    {
+      "path": "Beep.Skia.Business/Document.cs",
+      "mode": "text-lf",
+      "sha256": "f2506185ab8b401464ee5ea3803bebf56429c6f94991cd309d6a102a26cdc5fd"
+    },
+    {
+      "path": "Beep.Skia.Business/EndEvent.cs",
+      "mode": "text-lf",
+      "sha256": "f740e3cdb43d8c6dfb0cff0f3756f56c620cde0f6f0295ea8dde3741c9392e1c"
+    },
+    {
+      "path": "Beep.Skia.Business/EventNode.cs",
+      "mode": "text-lf",
+      "sha256": "0d20dcc5a59fa14afc3668e585f6423ae79d1125a88bb8a11829430aa6f788b6"
+    },
+    {
+      "path": "Beep.Skia.Business/ExternalData.cs",
+      "mode": "text-lf",
+      "sha256": "312110089dc5f89e8da8e8248e57e3a89f2f6671220f2ecb4575eaf5ecf93b9a"
+    },
+    {
+      "path": "Beep.Skia.Business/Gateway.cs",
+      "mode": "text-lf",
+      "sha256": "3ad115850697851b24f910f067ced3de64ec20857823af7906974d4e2f3ddbd6"
+    },
+    {
+      "path": "Beep.Skia.Business/Group.cs",
+      "mode": "text-lf",
+      "sha256": "f0a68ff5df33de4c59e3193fd1e507a0a2ed7c828b335c9af793826a1f03c5cd"
+    },
+    {
+      "path": "Beep.Skia.Business/IntermediateEventNode.cs",
+      "mode": "text-lf",
+      "sha256": "026ac934c9739dff0decdf8cd05b884852e56bf50ed472bf884270a59185d365"
+    },
+    {
+      "path": "Beep.Skia.Business/Person.cs",
+      "mode": "text-lf",
+      "sha256": "0d8e093e9b1495e53970fef9eeda0b870b24bbad99e349757b465aa872f35e32"
+    },
+    {
+      "path": "Beep.Skia.Business/README.md",
+      "mode": "text-lf",
+      "sha256": "2e88255a03ed72520b8c8469a9ae46ab343fd03c86a439677f4759ceacf835f6"
+    },
+    {
+      "path": "Beep.Skia.Business/Role.cs",
+      "mode": "text-lf",
+      "sha256": "ebe68e79b808f9c2477683dfb12e974286b93ce18475b81628d428f0266c6d87"
+    },
+    {
+      "path": "Beep.Skia.Business/RuleEngine.cs",
+      "mode": "text-lf",
+      "sha256": "6aaf266c807d0c2096d1e29ddf4bbd2e3586e8b2f2a610e925a22ad85d9f6a2c"
+    },
+    {
+      "path": "Beep.Skia.Business/RuleFlow.cs",
+      "mode": "text-lf",
+      "sha256": "570db638e47b8f33940e64e3246e86a12191124791148554a0f760a8c3b2a52c"
+    },
+    {
+      "path": "Beep.Skia.Business/StartEvent.cs",
+      "mode": "text-lf",
+      "sha256": "a095027170cee04021ab80c9ab3e745b66be93d8322da9bf0e32dd0a6945c85a"
+    },
+    {
+      "path": "Beep.Skia.Business/SubProcess.cs",
+      "mode": "text-lf",
+      "sha256": "cc704ac129e3c9ec790fe43f7ef46b91921c89d260304ff3e2eb38b181803683"
+    },
+    {
+      "path": "Beep.Skia.Business/TaskNode.cs",
+      "mode": "text-lf",
+      "sha256": "536eccbc925f7e7eaa384fadffc3b7a9ce3b515832a240b81435fdd225e6707f"
+    },
+    {
+      "path": "Beep.Skia.Business/WorkflowEnums.cs",
+      "mode": "text-lf",
+      "sha256": "5f21e93e151d5311c5efc1ee02a9b38e31a0190ad616eaeafe3e01484cba54d9"
+    },
+    {
+      "path": "Beep.Skia.Business/packages.net10.lock.json",
+      "mode": "text-lf",
+      "sha256": "2326ee956c0fb0c106ff0e57445362b4aa9958c5343bdc30b1eea88e3954102d"
+    },
+    {
+      "path": "Beep.Skia.Business/plan.md",
+      "mode": "text-lf",
+      "sha256": "97a6e0196d01a48969975c424b4175d228cd30ae3bb1998c2941ab1e088a5679"
+    },
+    {
+      "path": "Beep.Skia.Cloud/Beep.Skia.Cloud.csproj",
+      "mode": "text-lf",
+      "sha256": "31a6bbeee6846206813c33c9bf12aa9d10d41d851442d367e5dabd95508572f3"
+    },
+    {
+      "path": "Beep.Skia.Cloud/CloudBrandNodes.cs",
+      "mode": "text-lf",
+      "sha256": "45ae892ffdb10547837b34f5163164a32c86ccf0064dc1e76d236c5cb3bb0b4d"
+    },
+    {
+      "path": "Beep.Skia.Cloud/CloudComputeNode.cs",
+      "mode": "text-lf",
+      "sha256": "f6e33f0a227048128fe7e0871e55857b2a11cfc4170ba793502910c147b57bbf"
+    },
+    {
+      "path": "Beep.Skia.Cloud/CloudControl.cs",
+      "mode": "text-lf",
+      "sha256": "001123eb7e318b86b274237217e6543e859958c440fe810b359d3277b2d1325a"
+    },
+    {
+      "path": "Beep.Skia.Cloud/CloudDatabaseNode.cs",
+      "mode": "text-lf",
+      "sha256": "22d43179554ac075326fc258f8c94e359a4ea51b68913403429f955c0ba69f27"
+    },
+    {
+      "path": "Beep.Skia.Cloud/CloudFunctionNode.cs",
+      "mode": "text-lf",
+      "sha256": "e563ced1d8bbffd926b0a2b3609d955cb0afdb7900c4becc03b6f9800508c7cc"
+    },
+    {
+      "path": "Beep.Skia.Cloud/CloudProviderNodes.cs",
+      "mode": "text-lf",
+      "sha256": "1ed10bb491c8c2d662b9c4f74b79662b07711d681a514b2c54d19cf404f2c1cd"
+    },
+    {
+      "path": "Beep.Skia.Cloud/CloudStorageNode.cs",
+      "mode": "text-lf",
+      "sha256": "2a38426a8de46ccbdbb176e337f02545cbfdf570f3ca96dfa2d5c70f72122105"
+    },
+    {
+      "path": "Beep.Skia.Cloud/README.md",
+      "mode": "text-lf",
+      "sha256": "d838a3d1c61bdb737fd9b333d2aa4be35dd1a9e20973c075b382ead15149413f"
+    },
+    {
+      "path": "Beep.Skia.Cloud/packages.net10.lock.json",
+      "mode": "text-lf",
+      "sha256": "0e5abfe77dc199d3530bd3ad7549aebd3f05ac309754a7a0be67492132c9b780"
+    },
+    {
+      "path": "Beep.Skia.DFD/Beep.Skia.DFD.csproj",
+      "mode": "text-lf",
+      "sha256": "9f8de7569472bfeb4c741703ec39f8c66fe615d5a2399e46aeb266494bce6501"
+    },
+    {
+      "path": "Beep.Skia.DFD/DFDBalancingValidator.cs",
+      "mode": "text-lf",
+      "sha256": "a06c4613015ad2faef0a0f9c3ea18c0bcbd29435c4e96a8713824856090e0301"
+    },
+    {
+      "path": "Beep.Skia.DFD/DFDControl.cs",
+      "mode": "text-lf",
+      "sha256": "27ce1127f98c32ceb3a06c1e23155b0eff4ec7198070a9f20adfc714b852e9dd"
+    },
+    {
+      "path": "Beep.Skia.DFD/DFDDataStore.cs",
+      "mode": "text-lf",
+      "sha256": "94cc0726d3f0d6a79ac8de9f9a6c3d409e612d261168859ac3b970451f5f311b"
+    },
+    {
+      "path": "Beep.Skia.DFD/DFDDataStoreCylinder.cs",
+      "mode": "text-lf",
+      "sha256": "32b9eae49fe121cdfdd3a227ae9e9a9de3fdc13be9f5526fc9272e837b62d445"
+    },
+    {
+      "path": "Beep.Skia.DFD/DFDDataStoreOpenEnded.cs",
+      "mode": "text-lf",
+      "sha256": "3dd5c07f6a4cb71879878eda721bf4ea680aac5c20b9748e919c2ae89bbc8882"
+    },
+    {
+      "path": "Beep.Skia.DFD/DFDDataStoreParallel.cs",
+      "mode": "text-lf",
+      "sha256": "c286736e8b4c9f82b6544f076e417904a1f8fb35198616ccdc1cac25eb5c0c84"
+    },
+    {
+      "path": "Beep.Skia.DFD/DFDDataStoreShared.cs",
+      "mode": "text-lf",
+      "sha256": "accece4dea7a88c938c2e808d9f500f7d814d47815e01e7da721d9900a9484d3"
+    },
+    {
+      "path": "Beep.Skia.DFD/DFDExternalEntity.cs",
+      "mode": "text-lf",
+      "sha256": "3cd01477d4d5ed25ba98fea810c548e3f66e17d39a962fa6cc066a8b5120b3e9"
+    },
+    {
+      "path": "Beep.Skia.DFD/DFDExternalEntityGaneSarson.cs",
+      "mode": "text-lf",
+      "sha256": "2a2c42b52ea816b463b80d4a9194fc6a9f4e222039f85b4272d8a283e7981b8f"
+    },
+    {
+      "path": "Beep.Skia.DFD/DFDLevelNavigator.cs",
+      "mode": "text-lf",
+      "sha256": "c3980476b90571c612be59b68bfff20f159e962f6fae9eb47d1d89ea7a3eeed7"
+    },
+    {
+      "path": "Beep.Skia.DFD/DFDNote.cs",
+      "mode": "text-lf",
+      "sha256": "8e1cb75284ce447bc58577368b1d3c8029146377f3b685531040da78fcec9727"
+    },
+    {
+      "path": "Beep.Skia.DFD/DFDProcess.cs",
+      "mode": "text-lf",
+      "sha256": "af9dc54286587aa504c164a0dd26b7e231a00a481c097cac7849b900ee06375b"
+    },
+    {
+      "path": "Beep.Skia.DFD/DFDProcessCircle.cs",
+      "mode": "text-lf",
+      "sha256": "8f9793efb1933beeff66fa3be86896f194149bfcdebe5dd262f399b1da5e1c2c"
+    },
+    {
+      "path": "Beep.Skia.DFD/DFDProcessGaneSarson.cs",
+      "mode": "text-lf",
+      "sha256": "0ec466ae25294f2de02f3bf59dee678e090e50b387f140612063efb0dc210783"
+    },
+    {
+      "path": "Beep.Skia.DFD/DFDProcessGroupBoundary.cs",
+      "mode": "text-lf",
+      "sha256": "e2ac19096dbab35e906abda5c1758e71da2a80ef4de3dbdce8fb05ecb7d5bf9c"
+    },
+    {
+      "path": "Beep.Skia.DFD/DFDProcessMultiIO.cs",
+      "mode": "text-lf",
+      "sha256": "efc2a1453e9de763615c7a1ebc458ccbb627c36653ed8f67b82cb5c70ea6cae5"
+    },
+    {
+      "path": "Beep.Skia.DFD/DFDProcessNumbered.cs",
+      "mode": "text-lf",
+      "sha256": "e1d0c681fe893b0b40d0bc778411243b068948ca2850ceec715fd5c76aa79c69"
+    },
+    {
+      "path": "Beep.Skia.DFD/DFDProcessOval.cs",
+      "mode": "text-lf",
+      "sha256": "e4f8914c684186c68383be798bca9708d1468605846d404e969c4ce638fe52bf"
+    },
+    {
+      "path": "Beep.Skia.DFD/DFDSubsystemContainer.cs",
+      "mode": "text-lf",
+      "sha256": "af3bce04480ba0785c4500cd7346b503e18b3933f27761cbc667ffa4b06babff"
+    },
+    {
+      "path": "Beep.Skia.DFD/DFDTrustBoundary.cs",
+      "mode": "text-lf",
+      "sha256": "1e99e0a66b6d6d95924b3ea1421d49084190924d72c4759dd7f0ac53fe90750e"
+    },
+    {
+      "path": "Beep.Skia.DFD/README.md",
+      "mode": "text-lf",
+      "sha256": "4730856490dda4624129c28c2b6061ad3767a705ee75a99c9c18665b2c9f744f"
+    },
+    {
+      "path": "Beep.Skia.DFD/packages.net10.lock.json",
+      "mode": "text-lf",
+      "sha256": "0e5abfe77dc199d3530bd3ad7549aebd3f05ac309754a7a0be67492132c9b780"
+    },
+    {
+      "path": "Beep.Skia.ECAD/Beep.Skia.ECAD.csproj",
+      "mode": "text-lf",
+      "sha256": "345045c2de7cf3046f1a2ef3bfe41c38d7f66c14141f9dae6b3e2935bb19b269"
+    },
+    {
+      "path": "Beep.Skia.ECAD/ECADBatteryNode.cs",
+      "mode": "text-lf",
+      "sha256": "ef76d122ad4b17f6fc33bef426439be993f379714593b43bb7bbc2bda8b1c0d1"
+    },
+    {
+      "path": "Beep.Skia.ECAD/ECADCapacitorNode.cs",
+      "mode": "text-lf",
+      "sha256": "e920d9cf291582d61d206286106235e603684cb463239b44bce3ec304b089225"
+    },
+    {
+      "path": "Beep.Skia.ECAD/ECADControl.cs",
+      "mode": "text-lf",
+      "sha256": "5bff0257c5f49da260216cbf33fdc25cd856a2a12dc91349f4588a5d1f1d0364"
+    },
+    {
+      "path": "Beep.Skia.ECAD/ECADDiodeNode.cs",
+      "mode": "text-lf",
+      "sha256": "e26955fda2b7c9b4bffa9989dfebf3b1e036135122b4734e5250ac550f3aaac4"
+    },
+    {
+      "path": "Beep.Skia.ECAD/ECADFuseNode.cs",
+      "mode": "text-lf",
+      "sha256": "4b6d299ce1eb159fc808a0e4462149793e56b47a1debc37bc71816b8c7aed4ea"
+    },
+    {
+      "path": "Beep.Skia.ECAD/ECADGroundNode.cs",
+      "mode": "text-lf",
+      "sha256": "553940b535c15e47795059cadf9c949f34887d6a78d5f27cd6dbe8caf8c1dfbb"
+    },
+    {
+      "path": "Beep.Skia.ECAD/ECADICNode.cs",
+      "mode": "text-lf",
+      "sha256": "6ed8a981a6e84631322e6f1b9ff08a59d85195d68bfa6d540820a91a8aea7f9a"
+    },
+    {
+      "path": "Beep.Skia.ECAD/ECADInductorNode.cs",
+      "mode": "text-lf",
+      "sha256": "96f63ec1c273e9a7428f9b014037c45975ee3f6f0c644d5fb71c32020317c96f"
+    },
+    {
+      "path": "Beep.Skia.ECAD/ECADLogicGateNode.cs",
+      "mode": "text-lf",
+      "sha256": "7ef109c79cefc6a4d38bcdcb319b882c85d57281d289f4b3cf5d610561e3f350"
+    },
+    {
+      "path": "Beep.Skia.ECAD/ECADMemoryNode.cs",
+      "mode": "text-lf",
+      "sha256": "aead42b47b2c9768bed5fa4cfd867e47627b5f94b4ac9036b57253da150b9bf2"
+    },
+    {
+      "path": "Beep.Skia.ECAD/ECADMicrocontrollerNode.cs",
+      "mode": "text-lf",
+      "sha256": "23191be451ebe14f459e847da376f614f62eab02d6c8229e8dec6e08f9354bad"
+    },
+    {
+      "path": "Beep.Skia.ECAD/ECADOpAmpNode.cs",
+      "mode": "text-lf",
+      "sha256": "ccf8516a919a7a33b54bb0a6ce5afaf385e9a76474f50b244e77f01e3318d9f9"
+    },
+    {
+      "path": "Beep.Skia.ECAD/ECADPowerSupplyNode.cs",
+      "mode": "text-lf",
+      "sha256": "dc11d61fe30c1fc2865bc60b0f45849337e683441b8266c49499bf2df3f9d319"
+    },
+    {
+      "path": "Beep.Skia.ECAD/ECADResistorNode.cs",
+      "mode": "text-lf",
+      "sha256": "346b52749843e0d8a5a5f17dc1dc26580a8245492abca22d3b2d17fdb5667642"
+    },
+    {
+      "path": "Beep.Skia.ECAD/ECADTraceNode.cs",
+      "mode": "text-lf",
+      "sha256": "fff235078aeb9149d3c8ec3826e7cdb84db7cb9d5a0770e88225ff7d4cbf19d1"
+    },
+    {
+      "path": "Beep.Skia.ECAD/ECADTransformerNode.cs",
+      "mode": "text-lf",
+      "sha256": "a5be551b502cee31abfe59759b743c6db0937255258ba7a1cdb1ae146751abbf"
+    },
+    {
+      "path": "Beep.Skia.ECAD/ECADTransistorNode.cs",
+      "mode": "text-lf",
+      "sha256": "b3d7c091efc6a867384c4bf3523a17ee6c7156149f6954a9cf1b483a1e2ef7b1"
+    },
+    {
+      "path": "Beep.Skia.ECAD/ECADVoltageRegulatorNode.cs",
+      "mode": "text-lf",
+      "sha256": "16286fd2dca03778e5d0f7712ecedd1ac2f70d93d52ad10b01a028b6eafb8eb2"
+    },
+    {
+      "path": "Beep.Skia.ECAD/ElectricalPinModel.cs",
+      "mode": "text-lf",
+      "sha256": "cb4278497dd8cd56a15d0a879ed7d628272b59e48dc5b96452a99896202234b4"
+    },
+    {
+      "path": "Beep.Skia.ECAD/ElectricalRulesChecker.cs",
+      "mode": "text-lf",
+      "sha256": "968ce5f1871208aecb9174d06befa6f6ad1035b8eae21291023829bff6de25df"
+    },
+    {
+      "path": "Beep.Skia.ECAD/README.md",
+      "mode": "text-lf",
+      "sha256": "e5de0ef3a48e34353f50c82a45c48089ddc9337efb0b688de29619fc1badd574"
+    },
+    {
+      "path": "Beep.Skia.ECAD/packages.net10.lock.json",
+      "mode": "text-lf",
+      "sha256": "0e5abfe77dc199d3530bd3ad7549aebd3f05ac309754a7a0be67492132c9b780"
+    },
+    {
+      "path": "Beep.Skia.ERD/Beep.Skia.ERD.csproj",
+      "mode": "text-lf",
+      "sha256": "a16576929901f1091196d23b1aa5806dee3cee0bf6cd568b2b52f424754cc7c9"
+    },
+    {
+      "path": "Beep.Skia.ERD/DDLExporter.cs",
+      "mode": "text-lf",
+      "sha256": "6c90ebb07c3f824ec271d207a67ce05c65f21a419066d438c84d6b11f3739a80"
+    },
+    {
+      "path": "Beep.Skia.ERD/DDLImporter.cs",
+      "mode": "text-lf",
+      "sha256": "06f0e487816221aa10d1d03591bf1ef7879314d1e7bbad6567f738fe29ff48ef"
+    },
+    {
+      "path": "Beep.Skia.ERD/ERDAttribute.cs",
+      "mode": "text-lf",
+      "sha256": "dd2a3f7fbbacf9f73d5e67a79c5c5ae4ed6d397e3300212daf6f804b27d431e7"
+    },
+    {
+      "path": "Beep.Skia.ERD/ERDControl.cs",
+      "mode": "text-lf",
+      "sha256": "eaa78b4a9f5a0bae6b596c46d3757d91b5f9eb24c9d1068bcc728201af06ccb8"
+    },
+    {
+      "path": "Beep.Skia.ERD/ERDEntity.cs",
+      "mode": "text-lf",
+      "sha256": "260f52a24570d00aa467c1f458983d804173aab3da6b61f88b97c6702be23298"
+    },
+    {
+      "path": "Beep.Skia.ERD/ERDRelationship.cs",
+      "mode": "text-lf",
+      "sha256": "ccf59ec253796bade9fdad464e53cb35dffc27b7289cc01be04bf41fdb183878"
+    },
+    {
+      "path": "Beep.Skia.ERD/MigrationScriptGenerator.cs",
+      "mode": "text-lf",
+      "sha256": "4b738de4ddb4c82f9183519ebe2db6394ed34a3ddc7643b0e6102a896a96f791"
+    },
+    {
+      "path": "Beep.Skia.ERD/README.md",
+      "mode": "text-lf",
+      "sha256": "af5cd6cc74d25d0e223ad8c27dc319dc6847f7bd97ea1225b48de833534c8809"
+    },
+    {
+      "path": "Beep.Skia.ERD/SchemaComparison.cs",
+      "mode": "text-lf",
+      "sha256": "0d56e2650f0c39614d8f255b22beccb2c37ad1230f4435e376e44cb56a00978a"
+    },
+    {
+      "path": "Beep.Skia.ERD/packages.net10.lock.json",
+      "mode": "text-lf",
+      "sha256": "3e8f4e1d99f0d4fd220126b747949822fa056cc782f6a605e07f8a5d6668e6fd"
+    },
+    {
+      "path": "Beep.Skia.ETL/Beep.Skia.ETL.csproj",
+      "mode": "text-lf",
+      "sha256": "c6ebf53761ffb2e8d1b055c500ebbc974ebfb7f57a5f95bfdb8d56e2fef7c6d6"
+    },
+    {
+      "path": "Beep.Skia.ETL/DataPreviewFormatter.cs",
+      "mode": "text-lf",
+      "sha256": "1f784218dbf6ed20f2944f9e9063d483e01691ae3bc9f6a5a07f0b0c085cca31"
+    },
+    {
+      "path": "Beep.Skia.ETL/DataProfiler.cs",
+      "mode": "text-lf",
+      "sha256": "f6fde7c6e52067385ca0da82767d01d5a8c8f8a9c02cbaa79eb81c76010683d7"
+    },
+    {
+      "path": "Beep.Skia.ETL/ETLAggregate.cs",
+      "mode": "text-lf",
+      "sha256": "23ef8cb1e9a04779b01a678708db9c18408740e24ad6d86546dbe2c8be704eb5"
+    },
+    {
+      "path": "Beep.Skia.ETL/ETLCdcNode.cs",
+      "mode": "text-lf",
+      "sha256": "f5846134b546bba61476c7b1ac84a63df15815c839d15fd9287ad0247fea56ae"
+    },
+    {
+      "path": "Beep.Skia.ETL/ETLConditionalSplit.cs",
+      "mode": "text-lf",
+      "sha256": "404acec7d7ab9acb6eb19695ba448b5429f4667caead4b91400fb9b85d1d3903"
+    },
+    {
+      "path": "Beep.Skia.ETL/ETLControl.cs",
+      "mode": "text-lf",
+      "sha256": "7fd40f89c9bb7951cef7bfc74b76635f9ed1ecc91bbf199fc76e5e6da2c4902e"
+    },
+    {
+      "path": "Beep.Skia.ETL/ETLDerivedColumn.cs",
+      "mode": "text-lf",
+      "sha256": "6fe72f1a1d0850b84ca1542ffb7a9a0028112e60813676dc7a2779fde90c2c2a"
+    },
+    {
+      "path": "Beep.Skia.ETL/ETLDestination.cs",
+      "mode": "text-lf",
+      "sha256": "9a17bc02df7811c4b23fd7c111698ee8f955a1d40d35e046a592e823fd6bfd97"
+    },
+    {
+      "path": "Beep.Skia.ETL/ETLFilter.cs",
+      "mode": "text-lf",
+      "sha256": "30304fe831e775651cf70bca0e382ff9da2072a49248ea274ad8d52a59ca685b"
+    },
+    {
+      "path": "Beep.Skia.ETL/ETLFuzzyLookupNode.cs",
+      "mode": "text-lf",
+      "sha256": "4278cc7a66b6c91a67b01228e2575a376fd4f542b9e2ba392ff3f227c4c8746e"
+    },
+    {
+      "path": "Beep.Skia.ETL/ETLJoin.cs",
+      "mode": "text-lf",
+      "sha256": "f5659cff19a2e73b7d72a80312c7d6583028afad2eca74453fb7f617594e923e"
+    },
+    {
+      "path": "Beep.Skia.ETL/ETLLookup.cs",
+      "mode": "text-lf",
+      "sha256": "ee52533cf209deafc260145c30f9c44371bf8f32968aa649178a1af455fe44a1"
+    },
+    {
+      "path": "Beep.Skia.ETL/ETLMerge.cs",
+      "mode": "text-lf",
+      "sha256": "38d10b611d0c89954ef3f99322184d505019e5de202614d62eeb1d310ad8fb5c"
+    },
+    {
+      "path": "Beep.Skia.ETL/ETLMulticast.cs",
+      "mode": "text-lf",
+      "sha256": "0d622421e6e1f5b68f2b7d17b759cd4367a3af4e22b3416a15b4905197525269"
+    },
+    {
+      "path": "Beep.Skia.ETL/ETLPivot.cs",
+      "mode": "text-lf",
+      "sha256": "40acca4bb0a5375b3d211289d402a69fea5db6b52acf736396eecad89b0a7305"
+    },
+    {
+      "path": "Beep.Skia.ETL/ETLRowCount.cs",
+      "mode": "text-lf",
+      "sha256": "63b5f119429a235030be0ba675b146f8f7169dc26996a74363e294198accff1a"
+    },
+    {
+      "path": "Beep.Skia.ETL/ETLScd.cs",
+      "mode": "text-lf",
+      "sha256": "690d96d7b539882e475e9f29277f754ef6ae4ebc744d992f291931b8f236de17"
+    },
+    {
+      "path": "Beep.Skia.ETL/ETLScript.cs",
+      "mode": "text-lf",
+      "sha256": "fc230cba7195a64f84dfeb673ce1c4203ca54408f9ae4c4ada0a8f97d97111ed"
+    },
+    {
+      "path": "Beep.Skia.ETL/ETLSort.cs",
+      "mode": "text-lf",
+      "sha256": "5af7618cfd846bf0466c127fcd3ffdf0e14e8cb002ac3c2bfe3fdb66d06ffd9d"
+    },
+    {
+      "path": "Beep.Skia.ETL/ETLSource.cs",
+      "mode": "text-lf",
+      "sha256": "0c1291cc2bfe331cefa9a23530051371211df560eb361e088c3f5bc82b5c5404"
+    },
+    {
+      "path": "Beep.Skia.ETL/ETLSurrogateKeyNode.cs",
+      "mode": "text-lf",
+      "sha256": "4fbeac43c656a71d58f9b981aa7808294c8d8043ff1b61e7218571520c128139"
+    },
+    {
+      "path": "Beep.Skia.ETL/ETLTarget.cs",
+      "mode": "text-lf",
+      "sha256": "98f141e63e6a21048da9120a2e970d5518ee9d1e3dd44442b5dc939dcc7b2f59"
+    },
+    {
+      "path": "Beep.Skia.ETL/ETLTransform.cs",
+      "mode": "text-lf",
+      "sha256": "81e669cb51452735a8e8e9fbf58c008a58c6f7d3c212641eb07ec40dca080c6f"
+    },
+    {
+      "path": "Beep.Skia.ETL/ETLUnpivot.cs",
+      "mode": "text-lf",
+      "sha256": "ce319f35187059c1c1582398dc54d5f8901e9f79c01257ef80445cb8fcf88cc3"
+    },
+    {
+      "path": "Beep.Skia.ETL/ExpressionEngine.cs",
+      "mode": "text-lf",
+      "sha256": "d2ccc227ad8b46d173108f80b69145d98a0d7b377f19ce5cef71d6e7223d6408"
+    },
+    {
+      "path": "Beep.Skia.ETL/PipelineMetrics.cs",
+      "mode": "text-lf",
+      "sha256": "c998b22b1ba03c0d00248cc4ea4d37e53ddf0c5a8be7e0dbcd8d5d44ecae8be1"
+    },
+    {
+      "path": "Beep.Skia.ETL/README.md",
+      "mode": "text-lf",
+      "sha256": "69545083338de5da77e00503861d500ae395c378b98f28dc270a70cf7524a3d3"
+    },
+    {
+      "path": "Beep.Skia.ETL/StructuredDataFlattener.cs",
+      "mode": "text-lf",
+      "sha256": "ce3f3d4c3975aaf543f7cf086bc788d7fd155aff595594cf317168f827dc65af"
+    },
+    {
+      "path": "Beep.Skia.ETL/packages.net10.lock.json",
+      "mode": "text-lf",
+      "sha256": "2326ee956c0fb0c106ff0e57445362b4aa9958c5343bdc30b1eea88e3954102d"
+    },
+    {
+      "path": "Beep.Skia.ETL/plan.md",
+      "mode": "text-lf",
+      "sha256": "b535db979c88aa1144e0bbb5bfdd8c7d5ff8d004201fea6f7e6ff8ff51bb7c54"
+    },
+    {
+      "path": "Beep.Skia.FlowChart/AnnotationNode.cs",
+      "mode": "text-lf",
+      "sha256": "f5286a9c476e7992db5bd1600e0d9f41c2ff64f3013daae8deab60fc49e36ad0"
+    },
+    {
+      "path": "Beep.Skia.FlowChart/Beep.Skia.FlowChart.csproj",
+      "mode": "text-lf",
+      "sha256": "41454e14b74195d51f12db6c5d70ed83f0df28dd7d4a6e97c3115365076dcac7"
+    },
+    {
+      "path": "Beep.Skia.FlowChart/CardNode.cs",
+      "mode": "text-lf",
+      "sha256": "a9f1c584215a2b739cc7a42069bc04151b43e2ce2ebf3240cec7e28558ab86f0"
+    },
+    {
+      "path": "Beep.Skia.FlowChart/CollateNode.cs",
+      "mode": "text-lf",
+      "sha256": "a90241266276f46a05cbcdf8c11a856479cfea19849fef3faa7ec5e39c1229b9"
+    },
+    {
+      "path": "Beep.Skia.FlowChart/CommentNode.cs",
+      "mode": "text-lf",
+      "sha256": "9e8de3d269d87f856f414c6706ba64fac8559e8e9ca71534f922902189f55ae9"
+    },
+    {
+      "path": "Beep.Skia.FlowChart/ConnectorNode.cs",
+      "mode": "text-lf",
+      "sha256": "ed8d275d8eb26e6a91c2b58a6b75261d03de1b2e1a7259e75fa70ab87fdf4cee"
+    },
+    {
+      "path": "Beep.Skia.FlowChart/DataNode.cs",
+      "mode": "text-lf",
+      "sha256": "c159ee6a7d9787109eaf1ee56f5ac614a5a939c30108b3ed93e8302018aa098f"
+    },
+    {
+      "path": "Beep.Skia.FlowChart/DecisionNode.cs",
+      "mode": "text-lf",
+      "sha256": "3451e92141323d0154ecd57216186de8188ca0c34a1c834af77ddf91ccbdfab2"
+    },
+    {
+      "path": "Beep.Skia.FlowChart/DelayNode.cs",
+      "mode": "text-lf",
+      "sha256": "190062dfc169ab876381d1f60d191605c0bd70c771c2e28e3f0f37b4e5243e58"
+    },
+    {
+      "path": "Beep.Skia.FlowChart/DirectAccessNode.cs",
+      "mode": "text-lf",
+      "sha256": "e1d62736ca3cde091d3e5ef60da8b95929f14bf7a9c096738a31623ca4662f31"
+    },
+    {
+      "path": "Beep.Skia.FlowChart/DisplayNode.cs",
+      "mode": "text-lf",
+      "sha256": "77ecf534d0647614256b6e73e2266e54ec88b6137bd2f61d029335ff40834cda"
+    },
+    {
+      "path": "Beep.Skia.FlowChart/DoWhileLoopNode.cs",
+      "mode": "text-lf",
+      "sha256": "fe40110403073e80edc84d3e0a6f088785328c56fea68cffba28fabfdadccce8"
+    },
+    {
+      "path": "Beep.Skia.FlowChart/DocumentNode.cs",
+      "mode": "text-lf",
+      "sha256": "46ab9c7def581d7ab9a65b8b26ed4b8371323106b47e697c76fd6de2af9c0bfd"
+    },
+    {
+      "path": "Beep.Skia.FlowChart/ExtractNode.cs",
+      "mode": "text-lf",
+      "sha256": "150e4092e91cb30b95921b4eec87c0a09fe359ecc304982148f750ce7b7461f8"
+    },
+    {
+      "path": "Beep.Skia.FlowChart/FlowchartCodeGenerator.cs",
+      "mode": "text-lf",
+      "sha256": "7aedc8e4c1aaa3bdfef0bd905567ae3b13b8d7cced65ca6c4df1acea8aa3aa64"
+    },
+    {
+      "path": "Beep.Skia.FlowChart/FlowchartControl.cs",
+      "mode": "text-lf",
+      "sha256": "f08748f0a9f30df0ca380124e2baa41d3a4ad8cf0875c808484d5d71dd5bcb75"
+    },
+    {
+      "path": "Beep.Skia.FlowChart/FlowchartSimulator.cs",
+      "mode": "text-lf",
+      "sha256": "e5d330122f015cfb02a392765586b033562e374f6caa9316f3fe60d0dc5cb0ac"
+    },
+    {
+      "path": "Beep.Skia.FlowChart/ForLoopNode.cs",
+      "mode": "text-lf",
+      "sha256": "1e70291550349cfabe7baf1fe5b0a0933bc66ec90fe309b36ab646bc836b9659"
+    },
+    {
+      "path": "Beep.Skia.FlowChart/ForkNode.cs",
+      "mode": "text-lf",
+      "sha256": "391711d8e28ebeaeda0066910a8e67155db56155e62623860fe43862c559b7cf"
+    },
+    {
+      "path": "Beep.Skia.FlowChart/InputOutputNode.cs",
+      "mode": "text-lf",
+      "sha256": "a26f5d9f770cda7c754f3b4c1a9798a579b99b37798efac7f8c8bc24fbf65c11"
+    },
+    {
+      "path": "Beep.Skia.FlowChart/InternalStorageNode.cs",
+      "mode": "text-lf",
+      "sha256": "df0b4d89803c74c5d27bf8c0f3230649f93f840c3eb63ee16efac7b5ecebbbc0"
+    },
+    {
+      "path": "Beep.Skia.FlowChart/JoinNode.cs",
+      "mode": "text-lf",
+      "sha256": "a2c2a707fcdf3e9f3198b8b480c395f99a380b425d4f759b47472e7f1f41f4a6"
+    },
+    {
+      "path": "Beep.Skia.FlowChart/LoopLimitNode.cs",
+      "mode": "text-lf",
+      "sha256": "cfd5e2b902e4ca09e0924cdec136db5cdc698f40a53f2981ef3c12ed46bdfaa1"
+    },
+    {
+      "path": "Beep.Skia.FlowChart/ManualInputNode.cs",
+      "mode": "text-lf",
+      "sha256": "c15ab8761801a2482b6e9b152c591a33b5adcedb3789402b9d00141466fcf9a3"
+    },
+    {
+      "path": "Beep.Skia.FlowChart/ManualOperationNode.cs",
+      "mode": "text-lf",
+      "sha256": "e8e8a6fe1474e46de0f2e7d31e86870379108d552bd8d22bbfd6dedbf17bdef5"
+    },
+    {
+      "path": "Beep.Skia.FlowChart/MergeNode.cs",
+      "mode": "text-lf",
+      "sha256": "3f4809fb4cb1b31d27a60d95406d00b618926cec7a4af2365e86982872ba76f9"
+    },
+    {
+      "path": "Beep.Skia.FlowChart/MultiDocumentNode.cs",
+      "mode": "text-lf",
+      "sha256": "b38f05e17c51f47ccb913e67944ce5e45cfb7bf947f0e3736e86323257585836"
+    },
+    {
+      "path": "Beep.Skia.FlowChart/OffPageReferenceNode.cs",
+      "mode": "text-lf",
+      "sha256": "a7a3a03277afdb359cdc45b60da6906d93ebaf4da5b879d3b301fdf56a9f8e3f"
+    },
+    {
+      "path": "Beep.Skia.FlowChart/OrNode.cs",
+      "mode": "text-lf",
+      "sha256": "1d06567d82e689f7b2868c4ce62169e738c42fcd67305043ab1368ab841cf6bd"
+    },
+    {
+      "path": "Beep.Skia.FlowChart/PredefinedProcessNode.cs",
+      "mode": "text-lf",
+      "sha256": "2817da310b008006ca335f6fba5955fbe93efef3b00747429f932cfb6593e272"
+    },
+    {
+      "path": "Beep.Skia.FlowChart/PreparationNode.cs",
+      "mode": "text-lf",
+      "sha256": "f48e2516c599c22cf7d913e88a3e57e75cff369dd76c06c5f4f4f5011efbf8e1"
+    },
+    {
+      "path": "Beep.Skia.FlowChart/ProcessNode.cs",
+      "mode": "text-lf",
+      "sha256": "a6a8e7e264ad59fa61101e7894189c56300b67159cf2a80636e8e4db11a9d86a"
+    },
+    {
+      "path": "Beep.Skia.FlowChart/README.md",
+      "mode": "text-lf",
+      "sha256": "1c4d9b89fe1673be2d7b0a79e2d44064591dfa8a770cde8649445dd1d6398f2e"
+    },
+    {
+      "path": "Beep.Skia.FlowChart/SequentialAccessNode.cs",
+      "mode": "text-lf",
+      "sha256": "2d76d8bfd9d35082239c603cdf704f37ae10e27cac3053974cba54506bcd6a42"
+    },
+    {
+      "path": "Beep.Skia.FlowChart/SortNode.cs",
+      "mode": "text-lf",
+      "sha256": "66070c8e80a4ab3e7a9db6f237862607c6a051ec21b4095c75a0f7ae4e01bd6b"
+    },
+    {
+      "path": "Beep.Skia.FlowChart/StartEndNode.cs",
+      "mode": "text-lf",
+      "sha256": "8e9deccf952897833f86d66861a0e569989386c89cec01c5da49e66f82d69e43"
+    },
+    {
+      "path": "Beep.Skia.FlowChart/StoredDataNode.cs",
+      "mode": "text-lf",
+      "sha256": "ac47176b9efcdafcc8abbf015e83227e90945110f5b477aea5e862d1b7efa2d3"
+    },
+    {
+      "path": "Beep.Skia.FlowChart/SubProcessNode.cs",
+      "mode": "text-lf",
+      "sha256": "8cfb55a4880f9f1beb7dfddf95096cf3160cf528a816b5927c4432baa2a571a0"
+    },
+    {
+      "path": "Beep.Skia.FlowChart/SummingJunctionNode.cs",
+      "mode": "text-lf",
+      "sha256": "28ed51c35904e65b27c4434f6bce0cfe996c6012a91883e316e5f7e9bd63082e"
+    },
+    {
+      "path": "Beep.Skia.FlowChart/TapeNode.cs",
+      "mode": "text-lf",
+      "sha256": "26f35d6e3d438086f0ff9379c1488674d147028e58613f93dc38a04f6f391e27"
+    },
+    {
+      "path": "Beep.Skia.FlowChart/WhileLoopNode.cs",
+      "mode": "text-lf",
+      "sha256": "c6997c241208740352b2aa6a21fc6615723d6be4413ad39a08ac135780f00d3a"
+    },
+    {
+      "path": "Beep.Skia.FlowChart/packages.net10.lock.json",
+      "mode": "text-lf",
+      "sha256": "3e8f4e1d99f0d4fd220126b747949822fa056cc782f6a605e07f8a5d6668e6fd"
+    },
+    {
+      "path": "Beep.Skia.ML/Beep.Skia.ML.csproj",
+      "mode": "text-lf",
+      "sha256": "186fb53f9d5b2ce13c5ac5bdb4593d77846e14a667b0ed54426ae13eaf44fb06"
+    },
+    {
+      "path": "Beep.Skia.ML/MLBatchPredictionNode.cs",
+      "mode": "text-lf",
+      "sha256": "3705f715d08bfb07de48dbd92ba71e8450f3d38967f7c0b8af7857aa262cabae"
+    },
+    {
+      "path": "Beep.Skia.ML/MLCNNNode.cs",
+      "mode": "text-lf",
+      "sha256": "d45f8ed991353dcfdea1d5d08e84e7c858e00b56edf688fa5aee3eb3668c2478"
+    },
+    {
+      "path": "Beep.Skia.ML/MLControl.cs",
+      "mode": "text-lf",
+      "sha256": "706d6e484ca1bee962c29cdff1e1f1a718d8c7d5e4ddb7179f5a49000fb1f581"
+    },
+    {
+      "path": "Beep.Skia.ML/MLCrossValidationNode.cs",
+      "mode": "text-lf",
+      "sha256": "ab078791f53979539046ccf31c18a3481160a6354eda7228b8fbefd741e95d44"
+    },
+    {
+      "path": "Beep.Skia.ML/MLDataAugmentationNode.cs",
+      "mode": "text-lf",
+      "sha256": "a8a649ec81ee3149a4312e36288e6be3bfbd5db67ebb43e5edd687777d91d6ed"
+    },
+    {
+      "path": "Beep.Skia.ML/MLDataSourceNode.cs",
+      "mode": "text-lf",
+      "sha256": "930d242ec32e276d9b819109ba277dd76788e56815016ed80deec9d3ed8c01f7"
+    },
+    {
+      "path": "Beep.Skia.ML/MLDataSplitterNode.cs",
+      "mode": "text-lf",
+      "sha256": "f884e315c4fff4feee31d6fb7bb89b71a08e017bd69a73d61eaef5fe6937d64c"
+    },
+    {
+      "path": "Beep.Skia.ML/MLEvaluateNode.cs",
+      "mode": "text-lf",
+      "sha256": "05e343273bafde1a39ced589e630fcac3ec06bf0c9aae111778bcb4920e9b0ac"
+    },
+    {
+      "path": "Beep.Skia.ML/MLFeatureEngineeringNode.cs",
+      "mode": "text-lf",
+      "sha256": "365b5e14a1a9c0c9dedf2c3917f4025a475f866e0bb8b25f3179200f3fd919d4"
+    },
+    {
+      "path": "Beep.Skia.ML/MLHyperparameterTuningNode.cs",
+      "mode": "text-lf",
+      "sha256": "03069b41c66f36adc9e759940315a3c2650ad03f53b28d105c9c26450252ac2c"
+    },
+    {
+      "path": "Beep.Skia.ML/MLInferenceNode.cs",
+      "mode": "text-lf",
+      "sha256": "85edee6fa7806ffaabc1d5065a59dd9a018de7bd36e7fc039b1f598337546364"
+    },
+    {
+      "path": "Beep.Skia.ML/MLModelExportNode.cs",
+      "mode": "text-lf",
+      "sha256": "6389761c596d29f7f898b864bc3bf915fdef91a2fc842196f32d0de7496936b2"
+    },
+    {
+      "path": "Beep.Skia.ML/MLModelLoadNode.cs",
+      "mode": "text-lf",
+      "sha256": "f8ed5fbe7d6f43a325d6cd93b0bb678f20caed2cc1aa174ca863e2b549b078e4"
+    },
+    {
+      "path": "Beep.Skia.ML/MLModelNode.cs",
+      "mode": "text-lf",
+      "sha256": "f072faf549f960137354d596322fb55ca3b94c401655fd09f4b258390c44554d"
+    },
+    {
+      "path": "Beep.Skia.ML/MLNeuralNetworkNode.cs",
+      "mode": "text-lf",
+      "sha256": "d4430bdbd797397a96b35f1ec1a1951112c9d72465f4174dd47073a7a8b5b402"
+    },
+    {
+      "path": "Beep.Skia.ML/MLPipelineExporter.cs",
+      "mode": "text-lf",
+      "sha256": "e126d5d1f5390edb97ef7cceb520939c4a65b672323bca4f73ef9dff4b590a7f"
+    },
+    {
+      "path": "Beep.Skia.ML/MLPreprocessNode.cs",
+      "mode": "text-lf",
+      "sha256": "e95d887d6bb127a66d6dd4d9d411a0ded715af8985bf58eb2dab270864354806"
+    },
+    {
+      "path": "Beep.Skia.ML/MLRNNNode.cs",
+      "mode": "text-lf",
+      "sha256": "049b8998391d7dcd8c76a23d37e9032904548ce911d2f799ade8d379d4c80646"
+    },
+    {
+      "path": "Beep.Skia.ML/MLTrainerNode.cs",
+      "mode": "text-lf",
+      "sha256": "842ac0861a247fe8a49ab2d76cf51f26f4a9b011e692135c0c8ff46a5ae071f4"
+    },
+    {
+      "path": "Beep.Skia.ML/MLTransformerNode.cs",
+      "mode": "text-lf",
+      "sha256": "bedf824d5f4fab015578d30432223d155e9a8ffd57ec1ee5f84c20ce0e1b933f"
+    },
+    {
+      "path": "Beep.Skia.ML/README.md",
+      "mode": "text-lf",
+      "sha256": "d9ea0c4f92fe86550593d84de6db74cf654a0a1f6bd7bb01a6107cba0595fd85"
+    },
+    {
+      "path": "Beep.Skia.ML/packages.net10.lock.json",
+      "mode": "text-lf",
+      "sha256": "0e5abfe77dc199d3530bd3ad7549aebd3f05ac309754a7a0be67492132c9b780"
+    },
+    {
+      "path": "Beep.Skia.MindMap/Beep.Skia.MindMap.csproj",
+      "mode": "text-lf",
+      "sha256": "7d2899ae47d15e46e7d4dd84a71120482c72931cc72e2619dfbfaee3eec7eb5e"
+    },
+    {
+      "path": "Beep.Skia.MindMap/CentralNode.cs",
+      "mode": "text-lf",
+      "sha256": "502539e14ca5bc111eeae9f4d23c14b953c13f15a7233ac614f81d60fe34a899"
+    },
+    {
+      "path": "Beep.Skia.MindMap/MindMapControl.cs",
+      "mode": "text-lf",
+      "sha256": "718ba38c433e054861cddf57de551d6b11062c86b5beb57ed6754189663fe0e2"
+    },
+    {
+      "path": "Beep.Skia.MindMap/MindMapLayout.cs",
+      "mode": "text-lf",
+      "sha256": "e072293c85def68eef334abb8e093c41051be416dd96fd38e736ca9455dca1ac"
+    },
+    {
+      "path": "Beep.Skia.MindMap/MindMapRichText.cs",
+      "mode": "text-lf",
+      "sha256": "50cfeff3cf3516f7cfd6e22ab9a6e37618b2b5f3b6ce51a365d25d063cd5b3a5"
+    },
+    {
+      "path": "Beep.Skia.MindMap/MindMapVisibility.cs",
+      "mode": "text-lf",
+      "sha256": "9589abe4505d582f91d0e5d1074d19dbd3d200dcbd7422f7e7bbf0a36e29f8db"
+    },
+    {
+      "path": "Beep.Skia.MindMap/NoteNode.cs",
+      "mode": "text-lf",
+      "sha256": "a840d29999013cb200e34ae98381b03cf79bc0729313b8cce6f898aaafea7715"
+    },
+    {
+      "path": "Beep.Skia.MindMap/README.md",
+      "mode": "text-lf",
+      "sha256": "816e1aa596190f1849bcddefa960d4e4cd5de2fc1be9389fd174013aa290d4fb"
+    },
+    {
+      "path": "Beep.Skia.MindMap/SubTopicNode.cs",
+      "mode": "text-lf",
+      "sha256": "586e00ba2ed374a4f5018b33436bceffc7a38219466509455a9beb13e4a8c936"
+    },
+    {
+      "path": "Beep.Skia.MindMap/TopicNode.cs",
+      "mode": "text-lf",
+      "sha256": "c6e4029ab7a15555214cbf8728273eea4c538422d416491e29b3e8abcf78d6f9"
+    },
+    {
+      "path": "Beep.Skia.MindMap/packages.net10.lock.json",
+      "mode": "text-lf",
+      "sha256": "3e8f4e1d99f0d4fd220126b747949822fa056cc782f6a605e07f8a5d6668e6fd"
+    },
+    {
+      "path": "Beep.Skia.Model/Args.cs",
+      "mode": "text-lf",
+      "sha256": "2aaa247a422e784a98488d89534a23c9964b4cc2b3348111098e9168f3af67c4"
+    },
+    {
+      "path": "Beep.Skia.Model/AutomationDataModels.cs",
+      "mode": "text-lf",
+      "sha256": "4fed81377da14e927ff45d993b5fb2c6f0ecacc8ff4492b7eb03199fdd86c86a"
+    },
+    {
+      "path": "Beep.Skia.Model/AutomationEventArgs.cs",
+      "mode": "text-lf",
+      "sha256": "c5b2f28826c07c22711305b08edb91a8651117f2ae6ac4d5dd8193417b5382fc"
+    },
+    {
+      "path": "Beep.Skia.Model/Beep.Skia.Model.csproj",
+      "mode": "text-lf",
+      "sha256": "d58806b198a1feea503e0f89ae21a9a6f91955a998bb56a64cc1c69265c58039"
+    },
+    {
+      "path": "Beep.Skia.Model/ColumnDefinition.cs",
+      "mode": "text-lf",
+      "sha256": "398b0e13f935ecb582faf8ac0cd2ff7330925b1988c31cf705bcd754df0efed9"
+    },
+    {
+      "path": "Beep.Skia.Model/DataQualityRule.cs",
+      "mode": "text-lf",
+      "sha256": "828c1d882fce3cbf0defacd0d4d0fda5ee55608354d071b6512601b3e2e9028e"
+    },
+    {
+      "path": "Beep.Skia.Model/Enums.cs",
+      "mode": "text-lf",
+      "sha256": "26ea5dc6d99cc38d2d8683ff8f4f4909c70798a2f133e6e1c9a1d1640701a53f"
+    },
+    {
+      "path": "Beep.Skia.Model/ForeignKeyDefinition.cs",
+      "mode": "text-lf",
+      "sha256": "4197ed3b9eda8daadd8ed33bed8a7c35472948c7a8452878fa89e31dd85c933e"
+    },
+    {
+      "path": "Beep.Skia.Model/IAutomationNode.cs",
+      "mode": "text-lf",
+      "sha256": "1539dae6752427d68e5cd2dcab4d1785a7c62899c4d381156b646d1b8c7dd4c2"
+    },
+    {
+      "path": "Beep.Skia.Model/IConnectionLine.cs",
+      "mode": "text-lf",
+      "sha256": "1cba92b4f43b37cda93cb4747f30bc5c4c7781d3aaf73a3729a8b03c5b436c74"
+    },
+    {
+      "path": "Beep.Skia.Model/IConnectionPoint.cs",
+      "mode": "text-lf",
+      "sha256": "1c957cd5f09eb300178196e7f268b87e86fddfbf68cc723e13ce0058763684bc"
+    },
+    {
+      "path": "Beep.Skia.Model/IWorkflowEngine.cs",
+      "mode": "text-lf",
+      "sha256": "360d943320315efcc37fa9b4371fbb285d222c2da97fb34067ae35718900a3af"
+    },
+    {
+      "path": "Beep.Skia.Model/IndexDefinition.cs",
+      "mode": "text-lf",
+      "sha256": "4f1a3d88d74871aa1df7d1458d968a97ded4dcb54281acd8f1d9344726f0becb"
+    },
+    {
+      "path": "Beep.Skia.Model/ParameterInfo.cs",
+      "mode": "text-lf",
+      "sha256": "10a7cc91865327dac8a7a692d62f26b0c070c7af73a73fa77f7967a47f4dca56"
+    },
+    {
+      "path": "Beep.Skia.Model/PointEventArgs.cs",
+      "mode": "text-lf",
+      "sha256": "2ca7ad196ed2deb489f752f95c7642f2e5546cfc3944a8b532ec4335cd449bd1"
+    },
+    {
+      "path": "Beep.Skia.Model/README.md",
+      "mode": "text-lf",
+      "sha256": "4987157b7b5b7d4b122be1fc6f1a0285b52cba3a58e78ae407be739930eb2837"
+    },
+    {
+      "path": "Beep.Skia.Model/SchemaDiff.cs",
+      "mode": "text-lf",
+      "sha256": "a3c77eb0d6145a819e4c40e06c5882a465644f72a1bd268e2b476cb20fd07800"
+    },
+    {
+      "path": "Beep.Skia.Model/SkiaFramework.cs",
+      "mode": "text-lf",
+      "sha256": "63f310326c318348a9bc1e50dc4c825f0f80c60e53eb6f9d54693e95cbdd74df"
+    },
+    {
+      "path": "Beep.Skia.Model/SkiaMenuItem.cs",
+      "mode": "text-lf",
+      "sha256": "0a54f9c47b1247557d5b81e041299c0fecdadf68b69d81e09245fa6314395c89"
+    },
+    {
+      "path": "Beep.Skia.Model/WorkflowDefinition.cs",
+      "mode": "text-lf",
+      "sha256": "7179898763c8bb93b5a9ddbed8e6f2e3a7c79deffc357e0c13146ee024355810"
+    },
+    {
+      "path": "Beep.Skia.Model/packages.net10.lock.json",
+      "mode": "text-lf",
+      "sha256": "99b6861c1b7666c9fc22821737ee5670f43aca381e607e3bca8d105f74d67eae"
+    },
+    {
+      "path": "Beep.Skia.Network/Beep.Skia.Network.csproj",
+      "mode": "text-lf",
+      "sha256": "2b2247b8b13b24c79ff0beef649c61ed5ba99f85c230104e692c7dcf4d1fee38"
+    },
+    {
+      "path": "Beep.Skia.Network/CentralityMeasure.cs",
+      "mode": "text-lf",
+      "sha256": "3090716f71679957061278912e73a031a60521cbcfabc3cfc548cfe7e1c0ee7d"
+    },
+    {
+      "path": "Beep.Skia.Network/CommunityDetector.cs",
+      "mode": "text-lf",
+      "sha256": "a0c8d8aa2c4c751b607578a19ecfd00781df233347ee4db231ce30fc3ad582fb"
+    },
+    {
+      "path": "Beep.Skia.Network/ExportPanel.cs",
+      "mode": "text-lf",
+      "sha256": "28854bf1d92b89d935e699757bd9d74d4832b68fac201fa671e1e0fb8fc5bea5"
+    },
+    {
+      "path": "Beep.Skia.Network/FilterPanel.cs",
+      "mode": "text-lf",
+      "sha256": "32d3226e45c0d4d0268a5cdfc139c407b9943dc0caa994f749645e982e8ba02d"
+    },
+    {
+      "path": "Beep.Skia.Network/GraphNavigator.cs",
+      "mode": "text-lf",
+      "sha256": "089cb5a1e27605d39597c184b363079c398f745dc16927a29bca7d73fe663e4e"
+    },
+    {
+      "path": "Beep.Skia.Network/LayoutSelector.cs",
+      "mode": "text-lf",
+      "sha256": "6b21c8e0fd46991764199e13cf748b2ff980c96e479a359a9355093cb2b2235a"
+    },
+    {
+      "path": "Beep.Skia.Network/NetworkAlgorithms.cs",
+      "mode": "text-lf",
+      "sha256": "f14431aa640c444fc5a7bbf1ced40988c375fd197c5578333f178b544bf31f22"
+    },
+    {
+      "path": "Beep.Skia.Network/NetworkAnalyzer.cs",
+      "mode": "text-lf",
+      "sha256": "e004dac387a09c8ccecb6a6086d254748310503a995ce0e4808e784e9f2b89bf"
+    },
+    {
+      "path": "Beep.Skia.Network/NetworkControl.cs",
+      "mode": "text-lf",
+      "sha256": "b3846690203bb0cac1a92ac161ecaf074ef4f107dd7ab38d5d28384b1bb503fa"
+    },
+    {
+      "path": "Beep.Skia.Network/NetworkGraph.cs",
+      "mode": "text-lf",
+      "sha256": "89f6545384cc961e15846e25249eaba20545a07d4846597251ccb69d906263a1"
+    },
+    {
+      "path": "Beep.Skia.Network/NetworkLink.cs",
+      "mode": "text-lf",
+      "sha256": "a4f6db8a5c0e9f64cee7b2372e186c52db710d5056982bd7e94453b97c412bae"
+    },
+    {
+      "path": "Beep.Skia.Network/NetworkNode.cs",
+      "mode": "text-lf",
+      "sha256": "1347f9d91c9bf6435a8ca90be94c223271c1ff2ee21418abe0a2784651d84b6b"
+    },
+    {
+      "path": "Beep.Skia.Network/NodeCluster.cs",
+      "mode": "text-lf",
+      "sha256": "2bd12e0e0389ea53b615277f41b845eaa370f803393c956c2fa64e966a479565"
+    },
+    {
+      "path": "Beep.Skia.Network/PathFinder.cs",
+      "mode": "text-lf",
+      "sha256": "e3ab58827e4408e653540c918ab08afa24784c4cdce2c1937a62915b2ccaa558"
+    },
+    {
+      "path": "Beep.Skia.Network/README.howto.md",
+      "mode": "text-lf",
+      "sha256": "523f7744120259aadc6e338df699073785d86fb8dfbb51209e6432978dea0212"
+    },
+    {
+      "path": "Beep.Skia.Network/README.md",
+      "mode": "text-lf",
+      "sha256": "6701fa2e64dde81a09f78969c79de49dcfb4336b73701a3bc2a31b37e3038d67"
+    },
+    {
+      "path": "Beep.Skia.Network/packages.net10.lock.json",
+      "mode": "text-lf",
+      "sha256": "2326ee956c0fb0c106ff0e57445362b4aa9958c5343bdc30b1eea88e3954102d"
+    },
+    {
+      "path": "Beep.Skia.Network/plan.md",
+      "mode": "text-lf",
+      "sha256": "660cbab340c21c4d40e6cabc8bc2405b94340aee0bfda32e8b6f2f0725521748"
+    },
+    {
+      "path": "Beep.Skia.PM/Beep.Skia.PM.csproj",
+      "mode": "text-lf",
+      "sha256": "6994c9080e620eb0e66c6d3a21a7b53895d7f90564b4a557958b9ddaa0dda512"
+    },
+    {
+      "path": "Beep.Skia.PM/BudgetNode.cs",
+      "mode": "text-lf",
+      "sha256": "fdd4bb2fe99f224cc769d29a3137667bfb8d8441331394fa89ba2400e0925b12"
+    },
+    {
+      "path": "Beep.Skia.PM/CriticalPathCalculator.cs",
+      "mode": "text-lf",
+      "sha256": "129ecea074ce0e3a4d7566d2fbc3af56dacee3982c1014f2a4f3004446e3583a"
+    },
+    {
+      "path": "Beep.Skia.PM/CriticalPathNode.cs",
+      "mode": "text-lf",
+      "sha256": "01747ad5652e7681f96e9559e66e506cfbc1ad670c5673307cb6db3487867d47"
+    },
+    {
+      "path": "Beep.Skia.PM/DeliverableNode.cs",
+      "mode": "text-lf",
+      "sha256": "bc77fed9461875aa04595bb7c43bf49cb3d5cbbfd727f5c8020da71b1d3c072c"
+    },
+    {
+      "path": "Beep.Skia.PM/DependencyNode.cs",
+      "mode": "text-lf",
+      "sha256": "ea7432348e72c5cb5d196de03eb58ab48d17d3556e13debaf636f0b12eb86de5"
+    },
+    {
+      "path": "Beep.Skia.PM/GanttBarNode.cs",
+      "mode": "text-lf",
+      "sha256": "19c8b3e7925a66a5b521b5d4f35568b1286da9ec39d97eddc20363ca5caf0cb2"
+    },
+    {
+      "path": "Beep.Skia.PM/GanttTimelineNode.cs",
+      "mode": "text-lf",
+      "sha256": "543f84e960b5f62b34a9d10a0172fbc0bef23bdeb33bdc097c168193578fb77e"
+    },
+    {
+      "path": "Beep.Skia.PM/IssueNode.cs",
+      "mode": "text-lf",
+      "sha256": "665647a85dfd4b9022704dc9f9a47f113717b9882fffdb32df9d388010db6aab"
+    },
+    {
+      "path": "Beep.Skia.PM/MilestoneNode.cs",
+      "mode": "text-lf",
+      "sha256": "f217f8083e15c1f3ef7704e08ec0aaec85f83a165c493d2b0bba5a1592db7c5b"
+    },
+    {
+      "path": "Beep.Skia.PM/PMControl.cs",
+      "mode": "text-lf",
+      "sha256": "c3edbb43e4aba07e807cf8b9121d7ddca25ccdd01871608b8efbc7ff63828c04"
+    },
+    {
+      "path": "Beep.Skia.PM/PhaseNode.cs",
+      "mode": "text-lf",
+      "sha256": "d21ad9b322876f2f737d891226bd0baf54fb5794422c4a9b9af225b8e2c34630"
+    },
+    {
+      "path": "Beep.Skia.PM/README.md",
+      "mode": "text-lf",
+      "sha256": "7f3511735297fc0bcdceb00dad692dee9ec51fb8e0ed008203f076a9bf0e43db"
+    },
+    {
+      "path": "Beep.Skia.PM/ResourceNode.cs",
+      "mode": "text-lf",
+      "sha256": "9224ff3d1b0113b127e14775f296c8bbec450351d7c8ff0ac1f79ec42e2bfcb7"
+    },
+    {
+      "path": "Beep.Skia.PM/RiskNode.cs",
+      "mode": "text-lf",
+      "sha256": "8f4921a8f50852e162e608bdacbae1b2a3e38b4dfb5b744cfe28c758f08f5f46"
+    },
+    {
+      "path": "Beep.Skia.PM/SummaryNode.cs",
+      "mode": "text-lf",
+      "sha256": "6e826f4044f4131f2372cd41ff4f61b6b53335989a9af727df47ad6ddc4d0b2f"
+    },
+    {
+      "path": "Beep.Skia.PM/TaskNode.cs",
+      "mode": "text-lf",
+      "sha256": "5c8f83c561e97d94479f4ffa5ac795ab6cc47d307fef77d03e0981025c001b53"
+    },
+    {
+      "path": "Beep.Skia.PM/packages.net10.lock.json",
+      "mode": "text-lf",
+      "sha256": "0e5abfe77dc199d3530bd3ad7549aebd3f05ac309754a7a0be67492132c9b780"
+    },
+    {
+      "path": "Beep.Skia.Security/AssetNode.cs",
+      "mode": "text-lf",
+      "sha256": "2548165a67f5c18eae400e5e245d00a35a20bd44c41b093b46bbc5e5eb52d3d6"
+    },
+    {
+      "path": "Beep.Skia.Security/Beep.Skia.Security.csproj",
+      "mode": "text-lf",
+      "sha256": "a963d3f8835aebf56401233ae6763c6ca25d69342f4196680cc0821345f1c5a8"
+    },
+    {
+      "path": "Beep.Skia.Security/ControlNode.cs",
+      "mode": "text-lf",
+      "sha256": "a73bfee2fd70ae268bd8f332292799bfa07494c95ad05cd80fe4db872c4c2648"
+    },
+    {
+      "path": "Beep.Skia.Security/DreadCalculator.cs",
+      "mode": "text-lf",
+      "sha256": "8995befa3f793d59a3dcd26fad98c8f854e797ea93e65c02b892fdf8932e3ade"
+    },
+    {
+      "path": "Beep.Skia.Security/FindingNode.cs",
+      "mode": "text-lf",
+      "sha256": "c747c8ce8a1de07afb00201368343332f0515350d7742eb1d758de55bde6dfa5"
+    },
+    {
+      "path": "Beep.Skia.Security/IncidentNode.cs",
+      "mode": "text-lf",
+      "sha256": "05176e5a178c503a0c6ca3c52fc5bde5c406de46a7e8cd4add4f97c2529ed5f9"
+    },
+    {
+      "path": "Beep.Skia.Security/MitigationLink.cs",
+      "mode": "text-lf",
+      "sha256": "27fd0538fe714561a7dcc2cfe9922eaa718a90d841a53ae5222f33d58212369d"
+    },
+    {
+      "path": "Beep.Skia.Security/MitreAttackLibrary.cs",
+      "mode": "text-lf",
+      "sha256": "28d66dd5c6592443dc2d5ad4e4491ef6139326b279c593ab6b18cc419b1d6976"
+    },
+    {
+      "path": "Beep.Skia.Security/PolicyNode.cs",
+      "mode": "text-lf",
+      "sha256": "4f0f4ff8f25c846daf22c0964d61252c37dccd0c8792c32f429002308c75fa35"
+    },
+    {
+      "path": "Beep.Skia.Security/README.md",
+      "mode": "text-lf",
+      "sha256": "18833088e390d2b50cc5ce44306b58c5d6c816b68787360b78090c6fd481e7a8"
+    },
+    {
+      "path": "Beep.Skia.Security/RiskAssessmentNode.cs",
+      "mode": "text-lf",
+      "sha256": "fb4e1710ea5e60073652ce30251ccaf114efdfa34ada450edb9c364dea7a306f"
+    },
+    {
+      "path": "Beep.Skia.Security/SecurityControl.cs",
+      "mode": "text-lf",
+      "sha256": "40f4252594cfb78b60f5e1b5b9d2b2223763263a8adf0c5cb45a22a84e53d080"
+    },
+    {
+      "path": "Beep.Skia.Security/StrideAnalyzer.cs",
+      "mode": "text-lf",
+      "sha256": "8f7fa840f59b81a7daf74ad8433341e5b3f299e1649e423c2f7d01d6992b69f2"
+    },
+    {
+      "path": "Beep.Skia.Security/ThreatNode.cs",
+      "mode": "text-lf",
+      "sha256": "2c2c94c35812a2a280eb2aeb708d6eff75c3aae3f777ec9d93be5201ebe540a9"
+    },
+    {
+      "path": "Beep.Skia.Security/VulnerabilityNode.cs",
+      "mode": "text-lf",
+      "sha256": "4d4d25522a3be31c6b1de6ffedd6c02511920287907d237c8774141902fa9c7f"
+    },
+    {
+      "path": "Beep.Skia.Security/packages.net10.lock.json",
+      "mode": "text-lf",
+      "sha256": "0e5abfe77dc199d3530bd3ad7549aebd3f05ac309754a7a0be67492132c9b780"
+    },
+    {
+      "path": "Beep.Skia.StateMachine/Beep.Skia.StateMachine.csproj",
+      "mode": "text-lf",
+      "sha256": "206cf1f9dd00e354cb9e214107e44602c62f7ba0af0de426b70179fa93e06893"
+    },
+    {
+      "path": "Beep.Skia.StateMachine/ChoiceNode.cs",
+      "mode": "text-lf",
+      "sha256": "e253bb303e4c68150870b8489fa4bf92abb33fd6ad1b328fbe2c32f568afedde"
+    },
+    {
+      "path": "Beep.Skia.StateMachine/CompositeStateNode.cs",
+      "mode": "text-lf",
+      "sha256": "85bef6a51843ad9bb40944c18c8266f542c4a896ff40ce37f5aaadac3369ef69"
+    },
+    {
+      "path": "Beep.Skia.StateMachine/FinalStateNode.cs",
+      "mode": "text-lf",
+      "sha256": "3c69d83530b0d8946bbd9d5e75c4a242c64c03040391425df0bfdb588102a2b9"
+    },
+    {
+      "path": "Beep.Skia.StateMachine/ForkNode.cs",
+      "mode": "text-lf",
+      "sha256": "ada4e6425d3f07fd8f909bd78ea041448fe83f49dcd0da7a5e1d9ca747f31640"
+    },
+    {
+      "path": "Beep.Skia.StateMachine/HistoryNode.cs",
+      "mode": "text-lf",
+      "sha256": "09b5f13c63c78641f2f7a95663238da5883a5f4ae51978f0b67671e4b00c7eff"
+    },
+    {
+      "path": "Beep.Skia.StateMachine/InitialStateNode.cs",
+      "mode": "text-lf",
+      "sha256": "946fc67aacf0f0b48c1c1cf38a84d1835cb60bbd725997e9a329ea7930d6e3c6"
+    },
+    {
+      "path": "Beep.Skia.StateMachine/JoinNode.cs",
+      "mode": "text-lf",
+      "sha256": "3fbdda069b9ab88aa0f93a2e85e8b7309bcf7239327bb956f1d2f479e33cbe60"
+    },
+    {
+      "path": "Beep.Skia.StateMachine/README.md",
+      "mode": "text-lf",
+      "sha256": "0a476f977150d62264218aed884b6bb273b72c994001750107922e714101f495"
+    },
+    {
+      "path": "Beep.Skia.StateMachine/StateMachineControl.cs",
+      "mode": "text-lf",
+      "sha256": "fb570b0f4eeb369c632e39c82328408da6d191f9df14f0df5b002b8c631ddfbf"
+    },
+    {
+      "path": "Beep.Skia.StateMachine/StateMachineValidator.cs",
+      "mode": "text-lf",
+      "sha256": "b9a1e963b516a40f10d8b3b7576ec8df1363abd75cc302dd625746be8bed0c87"
+    },
+    {
+      "path": "Beep.Skia.StateMachine/StateNode.cs",
+      "mode": "text-lf",
+      "sha256": "15cf28e6ce89d29d442d18e12b57b9c2983d890fbc7818582def7c44993d8e32"
+    },
+    {
+      "path": "Beep.Skia.StateMachine/packages.net10.lock.json",
+      "mode": "text-lf",
+      "sha256": "3e8f4e1d99f0d4fd220126b747949822fa056cc782f6a605e07f8a5d6668e6fd"
+    },
+    {
+      "path": "Beep.Skia.Tests/FlowchartCodeGeneratorTests.cs",
+      "mode": "text-lf",
+      "sha256": "b4e467f4113a3476016bdd244cd1dc18d3344f42d3f18b6c8517c0f0b5fb9351"
+    },
+    {
+      "path": "Beep.Skia.Tests/FlowchartSimulatorTests.cs",
+      "mode": "text-lf",
+      "sha256": "66d5d9f31d65298d9a4c9c039f81bb79d7926823215bf94f6125effbe3ccd49e"
+    },
+    {
+      "path": "Beep.Skia.UML/Beep.Skia.UML.csproj",
+      "mode": "text-lf",
+      "sha256": "7c2aed786320905044cbe41a886e2a035eb075abc16aa7ff465e67afccb74125"
+    },
+    {
+      "path": "Beep.Skia.UML/README.md",
+      "mode": "text-lf",
+      "sha256": "0c2ba658a19630656083dbd229acaef91ec904175765e6c29fab508a7a675f9a"
+    },
+    {
+      "path": "Beep.Skia.UML/UMLActionNode.cs",
+      "mode": "text-lf",
+      "sha256": "fb7163deab8fe8bfeeac3dd1dc5a89c317dafa9832ffd920834c6c673ea8b378"
+    },
+    {
+      "path": "Beep.Skia.UML/UMLActivationBar.cs",
+      "mode": "text-lf",
+      "sha256": "f4286635510d3fd497c3b0c525f552cffa623d2aeee6e35be1fcdac660d83997"
+    },
+    {
+      "path": "Beep.Skia.UML/UMLActivityNode.cs",
+      "mode": "text-lf",
+      "sha256": "623db3a8ebcaa7922993bedafe36a1c363309ea763e222ec7ce2c1fa852252fe"
+    },
+    {
+      "path": "Beep.Skia.UML/UMLActor.cs",
+      "mode": "text-lf",
+      "sha256": "87ab7b8d0c73fa899f67ccbac1447b3a77bdf1d314229cef1bf5bd40570d1399"
+    },
+    {
+      "path": "Beep.Skia.UML/UMLArtifactNode.cs",
+      "mode": "text-lf",
+      "sha256": "4b4abdf8c5bbb14798e62dd262fe7252479d3a9b452a0eb2bf54d561bd2e9418"
+    },
+    {
+      "path": "Beep.Skia.UML/UMLAssociation.cs",
+      "mode": "text-lf",
+      "sha256": "4f4d9ee4d4ecc939ecd33b22d74224cb3cca56e3101fa42f89d3896fcab6d1fd"
+    },
+    {
+      "path": "Beep.Skia.UML/UMLClass.cs",
+      "mode": "text-lf",
+      "sha256": "bf5b2d2f200d5ef256de1ad9b90d076ec877f18148ce9c586a6b7430c00759ef"
+    },
+    {
+      "path": "Beep.Skia.UML/UMLCombinedFragment.cs",
+      "mode": "text-lf",
+      "sha256": "db249b34406019925f5b45fa3254494ef0e1b5456800d148555b42c28de646d2"
+    },
+    {
+      "path": "Beep.Skia.UML/UMLComponentNode.cs",
+      "mode": "text-lf",
+      "sha256": "91cac0b80be31b27ec13848318aed9859763785dbef3d9553ffb415d95f68ac2"
+    },
+    {
+      "path": "Beep.Skia.UML/UMLConditionNode.cs",
+      "mode": "text-lf",
+      "sha256": "4c3e357ac3e047a237748dd9ec4536eff874cb020d4f48859ae4d582a7ae8f3a"
+    },
+    {
+      "path": "Beep.Skia.UML/UMLControl.cs",
+      "mode": "text-lf",
+      "sha256": "5ce2ef5665ec2d298dfb42f45eb13c2eb2f3a229559fa188bd54b1bb5b5b92ae"
+    },
+    {
+      "path": "Beep.Skia.UML/UMLDataSourceNode.cs",
+      "mode": "text-lf",
+      "sha256": "6564ffa412f5c4e08c7ebc710fca33b491bd4751a51907557ff1367d5d584828"
+    },
+    {
+      "path": "Beep.Skia.UML/UMLDeploymentNode.cs",
+      "mode": "text-lf",
+      "sha256": "5ca04954b3a4bf996a83f069bfb346c0061cd8f70697e318f723f8950fb93d41"
+    },
+    {
+      "path": "Beep.Skia.UML/UMLInheritance.cs",
+      "mode": "text-lf",
+      "sha256": "985856b535a1352ea3cb4fade148e8bf0275c0ce21a54885a126bc1926d0853d"
+    },
+    {
+      "path": "Beep.Skia.UML/UMLInterface.cs",
+      "mode": "text-lf",
+      "sha256": "d770d9d59b950ad7a28770f7c2a45b08b01dddfe78c80e496192208caa205051"
+    },
+    {
+      "path": "Beep.Skia.UML/UMLLifeline.cs",
+      "mode": "text-lf",
+      "sha256": "e7ca52ec3bfd38802c959f61fd328eb47719597971598c62e6f44e963612e052"
+    },
+    {
+      "path": "Beep.Skia.UML/UMLMessage.cs",
+      "mode": "text-lf",
+      "sha256": "f7bda718b349b500d489dab2fae4242bd59fe8e8fd727dff74d431ddba0155a1"
+    },
+    {
+      "path": "Beep.Skia.UML/UMLOutputNode.cs",
+      "mode": "text-lf",
+      "sha256": "55ae365e695fbc79ca63bdd8df0a34a4240c4d8c6ce71092955367075e5e6056"
+    },
+    {
+      "path": "Beep.Skia.UML/UMLPackageNode.cs",
+      "mode": "text-lf",
+      "sha256": "42edbd7df202a9a32320c62c1e35ff0b369d68d89ab67b57a84952962fff67d2"
+    },
+    {
+      "path": "Beep.Skia.UML/UMLSystemBoundary.cs",
+      "mode": "text-lf",
+      "sha256": "c391e581e3f8b347c76b2ef1ac078ebc068ddd8adf68b1a9055092bdb4a52e2d"
+    },
+    {
+      "path": "Beep.Skia.UML/UMLTransformNode.cs",
+      "mode": "text-lf",
+      "sha256": "ef2a4eee96aa31ab66da4248a987e1fa1907a65109072989dd9da036cee4acfa"
+    },
+    {
+      "path": "Beep.Skia.UML/UMLTriggerNode.cs",
+      "mode": "text-lf",
+      "sha256": "7313fba1005d8e9d5cf04ac65f0f1cd8c5684fb362a4c65d5330a709b6b4a54d"
+    },
+    {
+      "path": "Beep.Skia.UML/UMLUseCaseNode.cs",
+      "mode": "text-lf",
+      "sha256": "866b55f6379f146af989226e95a79482f163631d529fe2e067fed7f077ead1dc"
+    },
+    {
+      "path": "Beep.Skia.UML/XmiExporter.cs",
+      "mode": "text-lf",
+      "sha256": "c0147cc8775fa141ddbf8e4ebc734394cd0ebdcead202f5d57c2df7032830e38"
+    },
+    {
+      "path": "Beep.Skia.UML/packages.net10.lock.json",
+      "mode": "text-lf",
+      "sha256": "2326ee956c0fb0c106ff0e57445362b4aa9958c5343bdc30b1eea88e3954102d"
+    },
+    {
+      "path": "Beep.Skia.UML/plan.md",
+      "mode": "text-lf",
+      "sha256": "47378c032f37d280b2673772999b8d9c4e3ea6d17c923343b9d0f40ca1c4b320"
+    },
+    {
+      "path": "Beep.Skia.WellLogs/Beep.Skia.WellLogs.csproj",
+      "mode": "text-lf",
+      "sha256": "21693d7686ad701dfa9ed7008d3aa066a72b467b61e1de539db0315dffc61a5b"
+    },
+    {
+      "path": "Beep.Skia.WellLogs/LasFileParser.cs",
+      "mode": "text-lf",
+      "sha256": "8165132ded581cb0a2408d33c849fe12870c7266d4b288b0049954feb566fa42"
+    },
+    {
+      "path": "Beep.Skia.WellLogs/README.md",
+      "mode": "text-lf",
+      "sha256": "5ebf6de2aaaf575bffaf20db95fa142a1034b391bfb93cc9479198aa2a164f84"
+    },
+    {
+      "path": "Beep.Skia.WellLogs/WellLogBrushLibrary.cs",
+      "mode": "text-lf",
+      "sha256": "101a48f64a762c2264a3e261bf88dbd080b581210a6e3c20aa769294643c8a19"
+    },
+    {
+      "path": "Beep.Skia.WellLogs/WellLogCanvas.cs",
+      "mode": "text-lf",
+      "sha256": "1ded4d198d2946caf811bb6102bf0362a51f91172033616af03c7830e3d333bd"
+    },
+    {
+      "path": "Beep.Skia.WellLogs/WellLogLayoutEngine.cs",
+      "mode": "text-lf",
+      "sha256": "6256c8b687665c72a0f795aacaeb40f971cd728322a5f57703a49e49b35b3e7f"
+    },
+    {
+      "path": "Beep.Skia.WellLogs/WellLogModels.cs",
+      "mode": "text-lf",
+      "sha256": "ab27f76912da5eb86223e65064f5153cae226d37bbb3ecbe648a4ee225f2bdbe"
+    },
+    {
+      "path": "Beep.Skia.WellLogs/WellLogRenderer.cs",
+      "mode": "text-lf",
+      "sha256": "60bdba9f6021bb4227eccdefb0479537f240e1bd48461671aa0b835a472e8d0f"
+    },
+    {
+      "path": "Beep.Skia.WellLogs/WellLogTemplates.cs",
+      "mode": "text-lf",
+      "sha256": "ec5b0b0f5ef20fe1f48650a23a65a08db00b3e89067d1c61ad6944044fcfc251"
+    },
+    {
+      "path": "Beep.Skia.WellLogs/packages.net10.lock.json",
+      "mode": "text-lf",
+      "sha256": "2326ee956c0fb0c106ff0e57445362b4aa9958c5343bdc30b1eea88e3954102d"
+    },
+    {
+      "path": "Beep.Skia/Assist/DiagramAssistModels.cs",
+      "mode": "text-lf",
+      "sha256": "f51203de063e34270176021e4717302006ac4496877d5160f760c7ee6b353bae"
+    },
+    {
+      "path": "Beep.Skia/Assist/FlowchartDslParser.cs",
+      "mode": "text-lf",
+      "sha256": "213b39088fcaf9b8497f4b6a318dcef73f78bc392e8ea58ca0f176027e6b8bd6"
+    },
+    {
+      "path": "Beep.Skia/Assist/MindMapDslParser.cs",
+      "mode": "text-lf",
+      "sha256": "0de7fea1cf5d633a9b5e10861920b634fe3596f03f409a0f7f496068ae63d253"
+    },
+    {
+      "path": "Beep.Skia/Assist/RuleBasedDiagramAssistant.cs",
+      "mode": "text-lf",
+      "sha256": "03bfcdf211a3a4ea86f736b1005287beff6e11ef9b31348b5a8651e369cd0988"
+    },
+    {
+      "path": "Beep.Skia/Automation/ConnectionManager.cs",
+      "mode": "text-lf",
+      "sha256": "bf4b200bc410573179b3b40acdd27f57de9e7a52825453fe997ed9a9ef32418b"
+    },
+    {
+      "path": "Beep.Skia/Automation/CredentialVault.cs",
+      "mode": "text-lf",
+      "sha256": "5baff9d84700667485b5894cac65028f3f5dcbaf53604d5af34e12c1b0c53eaa"
+    },
+    {
+      "path": "Beep.Skia/Automation/IAutomationDataSourceProvider.cs",
+      "mode": "text-lf",
+      "sha256": "83b75aadb7b3ebda80658dcf86d2444cffe3f2570cea325bf8fc188da742d131"
+    },
+    {
+      "path": "Beep.Skia/Automation/WorkflowExecutionApi.cs",
+      "mode": "text-lf",
+      "sha256": "b8dcd98e1b3ca5cc0be41290a11cae274613170fedabf35d419e62ea45a9edfd"
+    },
+    {
+      "path": "Beep.Skia/Automation/WorkflowExecutionService.cs",
+      "mode": "text-lf",
+      "sha256": "cafb8f121006b51d7d772520aedde4f397bb2b17e257bcb1924d28972e69799c"
+    },
+    {
+      "path": "Beep.Skia/Automation/WorkflowRequestRouter.cs",
+      "mode": "text-lf",
+      "sha256": "5439de14744be20d310f664914e9faea22f731d76a42e389b693a3550a0ed173"
+    },
+    {
+      "path": "Beep.Skia/Beep.Skia.csproj",
+      "mode": "text-lf",
+      "sha256": "fb61fde02d7a64d3fa4fbd2494c9564edef626054cc21079cd012d2168d3a224"
+    },
+    {
+      "path": "Beep.Skia/BuiltinIcons.cs",
+      "mode": "text-lf",
+      "sha256": "c2ed4328aa2a733b51b15b2754d40def6553f8e4629d85ffc4fd6553d20acf04"
+    },
+    {
+      "path": "Beep.Skia/Collaboration/CollaborationModels.cs",
+      "mode": "text-lf",
+      "sha256": "92a05fac9bbae86ba8ddd7f626b5d3c4be1778e3b4ba436829242679a5d81c77"
+    },
+    {
+      "path": "Beep.Skia/Collaboration/CollaborationSerializer.cs",
+      "mode": "text-lf",
+      "sha256": "d46aec2cb582ff3a741d1b3e3b3e4af13379444cefacf084c663e3c8da125b7b"
+    },
+    {
+      "path": "Beep.Skia/Collaboration/CollaborationService.cs",
+      "mode": "text-lf",
+      "sha256": "bcfa3163eabf77e67a99e107b1b3dab24d533dc23968babd317f523fb08bfef8"
+    },
+    {
+      "path": "Beep.Skia/Collaboration/CommentPinLayer.cs",
+      "mode": "text-lf",
+      "sha256": "f3c75a6b87865b8612a38d386bd74265c37e22f3af3f8dabfd6693645ee77d98"
+    },
+    {
+      "path": "Beep.Skia/ComponentDropEventArgs.cs",
+      "mode": "text-lf",
+      "sha256": "14d336196b12d26f1fe1ec76a11c562d1061fa2a43572aca087292d044399d66"
+    },
+    {
+      "path": "Beep.Skia/ComponentManager.cs",
+      "mode": "text-lf",
+      "sha256": "0e4ec195ab4564cf06e7fed7fd5153991d3b93dee6c38e80f07726b323486257"
+    },
+    {
+      "path": "Beep.Skia/ComponentOrderAction.cs",
+      "mode": "text-lf",
+      "sha256": "9bbe7b1d12974579ec0e34ea8be2143690eb154f3525aaa3ab0c40c63cc1c56b"
+    },
+    {
+      "path": "Beep.Skia/Components/AutomationNode.cs",
+      "mode": "text-lf",
+      "sha256": "97ff27fa9cb79144b73c80eeabdad8f7cc77ce6cf48c5c165e97fc8e6f8e89e4"
+    },
+    {
+      "path": "Beep.Skia/Components/Button.cs",
+      "mode": "text-lf",
+      "sha256": "f003861c2c3ce263c3de913ada9f1f7a5e439b9b3f3962aec3629a2e22e56abd"
+    },
+    {
+      "path": "Beep.Skia/Components/ButtonGroup.cs",
+      "mode": "text-lf",
+      "sha256": "37fb53ad9b316c2ecf5029836392403eba6496aae5e365f0f9bb8e0a3e1a2b6c"
+    },
+    {
+      "path": "Beep.Skia/Components/Card.cs",
+      "mode": "text-lf",
+      "sha256": "308d0ba354c43e3e68431f485891a585ab778033d48eee01fc3035f8ce03e84a"
+    },
+    {
+      "path": "Beep.Skia/Components/CascadingMenu.cs",
+      "mode": "text-lf",
+      "sha256": "d07ff851bd26b215e5991823ec69bc389fa442ab21345c96cdc3043d8a407e7d"
+    },
+    {
+      "path": "Beep.Skia/Components/CheckBoxGroup.cs",
+      "mode": "text-lf",
+      "sha256": "a731d6ee54145d570d05246337c742c1908c20a8ff00f01589334e272a4fb5d5"
+    },
+    {
+      "path": "Beep.Skia/Components/Checkbox.cs",
+      "mode": "text-lf",
+      "sha256": "93ffd25ab1eaf58676eb36eb460a03a5e7f86eebea5ece89aa1e65aee100ec83"
+    },
+    {
+      "path": "Beep.Skia/Components/ColorPicker.cs",
+      "mode": "text-lf",
+      "sha256": "01d3f43968c222cb22303bceedc50d7a986a7444e6211e9246b076d34a383297"
+    },
+    {
+      "path": "Beep.Skia/Components/ComboBoxItem.cs",
+      "mode": "text-lf",
+      "sha256": "3ed1c364df09ad3931059c6aa53a8820ec063ff69576a32e69e5e89deeb38bd8"
+    },
+    {
+      "path": "Beep.Skia/Components/ComponentPalette.cs",
+      "mode": "text-lf",
+      "sha256": "2c548bc65622566b82058721acd1fa810f88762323c456bdaff1148ae8e8eda3"
+    },
+    {
+      "path": "Beep.Skia/Components/ComponentPropertyEditor.cs",
+      "mode": "text-lf",
+      "sha256": "ee0553cfae9d58ae25a72c410aa30939210ae11fc53d53cd8b5400136183d6fb"
+    },
+    {
+      "path": "Beep.Skia/Components/ConditionalNode.cs",
+      "mode": "text-lf",
+      "sha256": "3456ab283a2c3a9a190971f1a4dd2688933c5625ef456446cad4818a76ed7a08"
+    },
+    {
+      "path": "Beep.Skia/Components/ContextMenu.cs",
+      "mode": "text-lf",
+      "sha256": "7a5c6adc8151862be329cac985850e94e938ba69dc97af14b05e762ccfc54d25"
+    },
+    {
+      "path": "Beep.Skia/Components/DataGrid.cs",
+      "mode": "text-lf",
+      "sha256": "b011e3f7524abf7202bea6c5f994632bef6ce49b6622136f9b12016811724556"
+    },
+    {
+      "path": "Beep.Skia/Components/DataGridColumn.cs",
+      "mode": "text-lf",
+      "sha256": "45f88a6217526f5c24ba1bab88b52a95fea7d7e189dfc81cd87cddebdd8b4ac7"
+    },
+    {
+      "path": "Beep.Skia/Components/DataInputNode.cs",
+      "mode": "text-lf",
+      "sha256": "d8ea6b7c7302d1fac43f36d8bad6f3e9afb551d87f1444a58ed86b8a3d6e5a13"
+    },
+    {
+      "path": "Beep.Skia/Components/DataSourceAutomationNode.cs",
+      "mode": "text-lf",
+      "sha256": "4105ca31aa9474c0a546fad2273829660c9713c035708133b764d4f9603287b4"
+    },
+    {
+      "path": "Beep.Skia/Components/DataTransformNode.cs",
+      "mode": "text-lf",
+      "sha256": "526fa7693e1af656b99998a14320b6e46950ff760e57ed566ae6d3ba8144adfc"
+    },
+    {
+      "path": "Beep.Skia/Components/DatePicker.cs",
+      "mode": "text-lf",
+      "sha256": "7adac3270dd5e139a419139e2eab4ff7157b8ca0fb549cad22d3fe22e9291e46"
+    },
+    {
+      "path": "Beep.Skia/Components/Dropdown.cs",
+      "mode": "text-lf",
+      "sha256": "6c47f4f5780b4afbf86b57219b0dc2124eb199bd4aede28bd5d01f3b85e7fdd0"
+    },
+    {
+      "path": "Beep.Skia/Components/FabMenu.cs",
+      "mode": "text-lf",
+      "sha256": "b30adc028a3a5793c46c5fe8cae2e4566906a7741a3abec1f39e6256810360d2"
+    },
+    {
+      "path": "Beep.Skia/Components/FloatingActionButton.cs",
+      "mode": "text-lf",
+      "sha256": "04adbc359c7aec30a5f361c6a9fac45bd9215522ad8f99dde18700e477b24474"
+    },
+    {
+      "path": "Beep.Skia/Components/HttpRequestNode.cs",
+      "mode": "text-lf",
+      "sha256": "01cd0f3b72ac7820be792d34c608ba3aaf455e6993cec5aa06a81b1b1cdd34e4"
+    },
+    {
+      "path": "Beep.Skia/Components/Label.cs",
+      "mode": "text-lf",
+      "sha256": "3b513bf641cc9291f203a87cfc261bc00489e6965cf667a664f4bbc789ca467c"
+    },
+    {
+      "path": "Beep.Skia/Components/List.cs",
+      "mode": "text-lf",
+      "sha256": "6f9f1f6ab41b2438e73b69c0e8ea9d088c7fbd3a7af5e85225acd33bf1b1c91e"
+    },
+    {
+      "path": "Beep.Skia/Components/ListBoxItem.cs",
+      "mode": "text-lf",
+      "sha256": "60ebca5f3cbd1a28518be176b8bd63aed9b4b56c91ff46dc9133662d56329b8f"
+    },
+    {
+      "path": "Beep.Skia/Components/ListItem.cs",
+      "mode": "text-lf",
+      "sha256": "4fbffd52f697f8275ddd2187854cb270d556639e3169651319805a9e7bf33c6c"
+    },
+    {
+      "path": "Beep.Skia/Components/ManualTriggerNode.cs",
+      "mode": "text-lf",
+      "sha256": "75c429dcf08687786a68d5a1910ed5e7a3f55f10bd195268ca2c8c2368434d7d"
+    },
+    {
+      "path": "Beep.Skia/Components/MaterialControl.cs",
+      "mode": "text-lf",
+      "sha256": "c62f912cd34393475b623f138b149660b82e5fc3286fd46e7e09d06fe3b5904e"
+    },
+    {
+      "path": "Beep.Skia/Components/MaterialDesignColors.cs",
+      "mode": "text-lf",
+      "sha256": "f7156c02cf37d0ce03208ad4c427dee5f2fa9938e67dbc8687fbaced10706833"
+    },
+    {
+      "path": "Beep.Skia/Components/Menu.cs",
+      "mode": "text-lf",
+      "sha256": "e3cef6324dcf943e2644b189337ead47f740193aaf067304fdd79814501f4e39"
+    },
+    {
+      "path": "Beep.Skia/Components/MenuBar.cs",
+      "mode": "text-lf",
+      "sha256": "8cbd813cf2220e7c71dbfd06b8895c7363f810ee713d6e05b12c9954c080afbf"
+    },
+    {
+      "path": "Beep.Skia/Components/MenuButton.cs",
+      "mode": "text-lf",
+      "sha256": "27e2ea2810796408888957e861897f600007a33cb56366511dc50c03f450e734"
+    },
+    {
+      "path": "Beep.Skia/Components/MenuItem.cs",
+      "mode": "text-lf",
+      "sha256": "f3c51095434a8d9e3b1b3fc8b0a70bccd865993311e535e69f2223c79a6b9339"
+    },
+    {
+      "path": "Beep.Skia/Components/MinimapControl.cs",
+      "mode": "text-lf",
+      "sha256": "6ce0102ecb0e5f4b153447b2d00afac56247565b29ddee1e6c31464ab561d822"
+    },
+    {
+      "path": "Beep.Skia/Components/NavigationBar.cs",
+      "mode": "text-lf",
+      "sha256": "9d2e176cfa79fd430cca81cd5a7a205c132a137415fea077ec8ded32e8b1cb82"
+    },
+    {
+      "path": "Beep.Skia/Components/NavigationDrawer.cs",
+      "mode": "text-lf",
+      "sha256": "768f097fc9408e359a46176904a08fd6ae53f446171c9f04a811c00ace8c9653"
+    },
+    {
+      "path": "Beep.Skia/Components/NavigationItem.cs",
+      "mode": "text-lf",
+      "sha256": "962d0f3209f098d2242f2be30953bc06c396b325d326746ce1ada52e33891911"
+    },
+    {
+      "path": "Beep.Skia/Components/NodePropertyEditor.cs",
+      "mode": "text-lf",
+      "sha256": "f1112311593444f1686c68f6c4c5f2f005a6ce1175665f46b13a8dd0fa202052"
+    },
+    {
+      "path": "Beep.Skia/Components/Notification.cs",
+      "mode": "text-lf",
+      "sha256": "4a61626ccf465d35c0d16f2986b9c184050fa7a51d3795c914d92d5b5472a33c"
+    },
+    {
+      "path": "Beep.Skia/Components/Palette.cs",
+      "mode": "text-lf",
+      "sha256": "0073469352f36051cca2826d8c382a9a15aff4d9b631a61e3030347443aea2b2"
+    },
+    {
+      "path": "Beep.Skia/Components/Panel.cs",
+      "mode": "text-lf",
+      "sha256": "68bd02f8ecc135a9d83ced20553226ed4e72125e69951dd8ffcebee29ccf8f94"
+    },
+    {
+      "path": "Beep.Skia/Components/ProgressBar.cs",
+      "mode": "text-lf",
+      "sha256": "6643b46bb3ea8736a796bb4e614b289467310767e1410f37e65ffbda6c0275e4"
+    },
+    {
+      "path": "Beep.Skia/Components/RadioGroup.cs",
+      "mode": "text-lf",
+      "sha256": "75487f23d40f36f538a92ec052f41005cbfdb1d1b1f34de660f4f3c79724468e"
+    },
+    {
+      "path": "Beep.Skia/Components/Search.cs",
+      "mode": "text-lf",
+      "sha256": "a1c8504e72d0a79f90826e9477326205ba1557d45bde221fb8c9c3d0f9e6fd72"
+    },
+    {
+      "path": "Beep.Skia/Components/SegmentedButtons.cs",
+      "mode": "text-lf",
+      "sha256": "8779bc717b4dde717a0b70a3d3e77f58149b742c7c4a7be954ccbfa19a8414fe"
+    },
+    {
+      "path": "Beep.Skia/Components/SketchShape.cs",
+      "mode": "text-lf",
+      "sha256": "6d52e4b18666a4993c2e9e70f7d3babe09a49d7644ec61347ca14ca5b6213393"
+    },
+    {
+      "path": "Beep.Skia/Components/Slider.cs",
+      "mode": "text-lf",
+      "sha256": "8cc6e500ae195b5bbdb2407a2a19b895762eddfbd092c7942d26ff5d06df99a5"
+    },
+    {
+      "path": "Beep.Skia/Components/Spinner.cs",
+      "mode": "text-lf",
+      "sha256": "51d34f3062e3644ebc7955039f2157b68390a72d6afe11490b2cd108158f0f58"
+    },
+    {
+      "path": "Beep.Skia/Components/SplitButton.cs",
+      "mode": "text-lf",
+      "sha256": "63c696c6f149b7e53258b17d350e84db388c1e10ae487451c5185d3d3d715ccf"
+    },
+    {
+      "path": "Beep.Skia/Components/StatusBar.cs",
+      "mode": "text-lf",
+      "sha256": "372d7e85c87708fa43033f37edc771f7b3eecf063620d5c4318ff47b8df19c53"
+    },
+    {
+      "path": "Beep.Skia/Components/StatusBarItem.cs",
+      "mode": "text-lf",
+      "sha256": "b44587f5ca616ff7779e59335161e61661162b2fedd06f2eef77d247a19b79f0"
+    },
+    {
+      "path": "Beep.Skia/Components/SvgImage.cs",
+      "mode": "text-lf",
+      "sha256": "f33cb124ac8962c74d04f99ad82d76287094e3d54e709a121aba9f03e1cd64c4"
+    },
+    {
+      "path": "Beep.Skia/Components/SwimlaneContainer.cs",
+      "mode": "text-lf",
+      "sha256": "8f870cb301bdca073c7229664f9d3a89b3640f1f3d06f637b0de6ae9130e4d25"
+    },
+    {
+      "path": "Beep.Skia/Components/Switch.cs",
+      "mode": "text-lf",
+      "sha256": "703004a705139ef7f6d6f1dca2f6d9844f2fa762c5705a98fe512ccaf9140555"
+    },
+    {
+      "path": "Beep.Skia/Components/Tabs.cs",
+      "mode": "text-lf",
+      "sha256": "ea0ef3e93491b7f3012c99f4c875d7ff8967a8ab8cb975525e17c86ae46fdd05"
+    },
+    {
+      "path": "Beep.Skia/Components/TextArea.cs",
+      "mode": "text-lf",
+      "sha256": "a2db11ffb351d37ac7f13d5f39aad504af65366dc425122e39162b8cfa0d3dc7"
+    },
+    {
+      "path": "Beep.Skia/Components/TextBox.cs",
+      "mode": "text-lf",
+      "sha256": "22a26cb5efd94c42e5483af81a3af8cc679d41c60ce4fa577ae997791f49aea7"
+    },
+    {
+      "path": "Beep.Skia/Components/TimePicker.cs",
+      "mode": "text-lf",
+      "sha256": "a3be9a17be42111018ac03e1427bc557aa5152b84a0604c593126a2f1d69e5d8"
+    },
+    {
+      "path": "Beep.Skia/Components/TimerTriggerNode.cs",
+      "mode": "text-lf",
+      "sha256": "442614edec55a6397b67f9a8f9eb277f3c982eb69527c1e1faecf0d8ded92a00"
+    },
+    {
+      "path": "Beep.Skia/Components/ToggleButton.cs",
+      "mode": "text-lf",
+      "sha256": "1f9b72b985f339bddaaa100e4dc3b9cd793fbb7aed293ba25eb1335563b2cd85"
+    },
+    {
+      "path": "Beep.Skia/Components/ToolBar.cs",
+      "mode": "text-lf",
+      "sha256": "505b1b44f404cd7c326e87f1b432113ad1474497ed4fc68c2cd885b158a6d029"
+    },
+    {
+      "path": "Beep.Skia/Components/ToolBarItem.cs",
+      "mode": "text-lf",
+      "sha256": "97dcee72b910651deed4115342159471022178143b7073506faf0d3d627f252a"
+    },
+    {
+      "path": "Beep.Skia/Components/WorkflowCanvas.cs",
+      "mode": "text-lf",
+      "sha256": "6c5b67824a88d6aec049350017d51bc6280a4daa850e7f23ccd168ed5700eb4a"
+    },
+    {
+      "path": "Beep.Skia/ConnectionLine.cs",
+      "mode": "text-lf",
+      "sha256": "41f299f6a1f1406ccac1d8e771e19413ef1adc6980d067d71e8da4d9344836f8"
+    },
+    {
+      "path": "Beep.Skia/ConnectionPoint.cs",
+      "mode": "text-lf",
+      "sha256": "f0934d2e20c6ec82876a04b92dba0ddb9e2ece3c72f7034026ff20b99ecb72c7"
+    },
+    {
+      "path": "Beep.Skia/DiagramTemplates.cs",
+      "mode": "text-lf",
+      "sha256": "9a8c8d62a28c8ac184f350fc4b692b799f7e89274b763add661359f1bddd4b72"
+    },
+    {
+      "path": "Beep.Skia/DiagramValidator.cs",
+      "mode": "text-lf",
+      "sha256": "0f8f5d5fa74ffa5cd6a2c90bde6e6e9b1157d143f93931d26b2533607acb9881"
+    },
+    {
+      "path": "Beep.Skia/DrawingActions.cs",
+      "mode": "text-lf",
+      "sha256": "e5ff1eda932c7fcebc376de6ab0fc804ec745dfdee992fd3d817779c484d12d9"
+    },
+    {
+      "path": "Beep.Skia/DrawingContext.cs",
+      "mode": "text-lf",
+      "sha256": "080661ee708be71d37e5e53aad4dc67115351757311d721fac19bdc9dcfa3ced"
+    },
+    {
+      "path": "Beep.Skia/DrawingManager.Components.cs",
+      "mode": "text-lf",
+      "sha256": "8b09cc3247378d34bb0b7907bec4dccbb1b465cfd49323e8c7e97061abbd8143"
+    },
+    {
+      "path": "Beep.Skia/DrawingManager.Connections.cs",
+      "mode": "text-lf",
+      "sha256": "3203533f0345c59075c9c3e2c54950078e5dfae5fc258e2b544575714b33853c"
+    },
+    {
+      "path": "Beep.Skia/DrawingManager.Core.cs",
+      "mode": "text-lf",
+      "sha256": "9d4108175d988c5cb0abc7659f32444c72ba1fa14365f26e22afc370862b10e5"
+    },
+    {
+      "path": "Beep.Skia/DrawingManager.Interaction.cs",
+      "mode": "text-lf",
+      "sha256": "00298a5237d6991fa4a73b83bed0b12959b4432d1f3913e9bd08a188c73810d4"
+    },
+    {
+      "path": "Beep.Skia/DrawingManager.Rendering.cs",
+      "mode": "text-lf",
+      "sha256": "abd864f8a7fb4c58c6e0acf8e3fee695b8d95bf6c1bfd1298078c253583e0983"
+    },
+    {
+      "path": "Beep.Skia/DrawingManager.cs",
+      "mode": "text-lf",
+      "sha256": "caeda12fb513e3adab3980d62072de47db26b0180db134477adf25f9614db69d"
+    },
+    {
+      "path": "Beep.Skia/Enums.cs",
+      "mode": "text-lf",
+      "sha256": "e84f6f4c02c29ea6d7b9e0cc4a72ebb3d375e9a3c30d16d753e3fddd4f7374de"
+    },
+    {
+      "path": "Beep.Skia/Events/ComponentDropEventArgs.cs",
+      "mode": "text-lf",
+      "sha256": "e4fa9d08bea6a8833e2430362ac180269d2b84e99a29ea5d9f1013b0ec99e360"
+    },
+    {
+      "path": "Beep.Skia/Events/DiagramEventArgs.cs",
+      "mode": "text-lf",
+      "sha256": "408a80b7fcf390ef61807aadd395e4397d1b8f6c3176b4b5d862768e537284f1"
+    },
+    {
+      "path": "Beep.Skia/Extensions/ISkiaExtension.cs",
+      "mode": "text-lf",
+      "sha256": "c404c570d6a01325fcb5a644e5d2e109718c7d6adb2b5d2a53033000af538626"
+    },
+    {
+      "path": "Beep.Skia/Extensions/Marketplace/ExtensionPackage.cs",
+      "mode": "text-lf",
+      "sha256": "6f2bb4de0888ffea023167d46f312e4d0082ac8a6aeb9c11fb3abd327e9ddcf7"
+    },
+    {
+      "path": "Beep.Skia/Extensions/Marketplace/ExtensionPackageManager.cs",
+      "mode": "text-lf",
+      "sha256": "ef20627a1a8f968ee8306b250b1da1de84db9cbcf62ae09bf69df3aeb83ff5c4"
+    },
+    {
+      "path": "Beep.Skia/Extensions/Marketplace/LocalExtensionRegistry.cs",
+      "mode": "text-lf",
+      "sha256": "88d4f1ec91ff288425cd8f9cc74a6b06eba449e9c678a452e9e9558a37395625"
+    },
+    {
+      "path": "Beep.Skia/Extensions/Marketplace/SemanticVersion.cs",
+      "mode": "text-lf",
+      "sha256": "b735673cee0198d856cc1c230febffc940aaeb1828df3487d0b97f445d4c31cf"
+    },
+    {
+      "path": "Beep.Skia/Extensions/SkiaExtensionHost.cs",
+      "mode": "text-lf",
+      "sha256": "08d321ff6c6f1f532be4cdfb181e2f647b96ec445432278061869635ce8cef66"
+    },
+    {
+      "path": "Beep.Skia/Helpers/TableDrawerHelper.cs",
+      "mode": "text-lf",
+      "sha256": "5b748891992d3b51af926b00f060d9ac171dce8b95566f5d8df44dc09d19cc66"
+    },
+    {
+      "path": "Beep.Skia/HistoryManager.cs",
+      "mode": "text-lf",
+      "sha256": "cef9ffab2024b59a7abc9157a5acfe48541db30f189ce8d21c6530e48b00a410"
+    },
+    {
+      "path": "Beep.Skia/InteractionEventArgs.cs",
+      "mode": "text-lf",
+      "sha256": "2adf526526f155628cca2de921fe4ab2138fa655b0ad346b6f80e0df858a2cf0"
+    },
+    {
+      "path": "Beep.Skia/InteractionHelper.cs",
+      "mode": "text-lf",
+      "sha256": "c12cecebf3a156fc1f7da7967ce5391259778e7f5a705e32828c0dbd0ad07462"
+    },
+    {
+      "path": "Beep.Skia/Layout/AutoLayoutEngines.cs",
+      "mode": "text-lf",
+      "sha256": "88ad115d75d7c0a280222b655af81ab24bf23e2f24fa8d907cfc368aa418c9ad"
+    },
+    {
+      "path": "Beep.Skia/Layout/FlowLayout.cs",
+      "mode": "text-lf",
+      "sha256": "f3b6e17cdbd1b86a409484ecb32481ec1ba9358305ef609a0d80c64ed3c8433f"
+    },
+    {
+      "path": "Beep.Skia/Layout/GridLayout.cs",
+      "mode": "text-lf",
+      "sha256": "8c7cd6d887659d364d29ae5f1804509330c91e09e30b542b5e28612d8c4bf67e"
+    },
+    {
+      "path": "Beep.Skia/Layout/ILayoutManager.cs",
+      "mode": "text-lf",
+      "sha256": "23e44e767d85fecde888e6f0ad70c8285994f341c79d647af36cfb0e8f206b21"
+    },
+    {
+      "path": "Beep.Skia/Layout/StackLayout.cs",
+      "mode": "text-lf",
+      "sha256": "2206d3918de4a3bfba6f5caa7a09b956c9023d24c15b4b9c87f69e227ca19be6"
+    },
+    {
+      "path": "Beep.Skia/README.md",
+      "mode": "text-lf",
+      "sha256": "9ef61d164f0ef813a3365821462c321f6514bfb6634f199d775c9b67c3282a57"
+    },
+    {
+      "path": "Beep.Skia/RenderingHelper.cs",
+      "mode": "text-lf",
+      "sha256": "b0d98efcb00118db8c83882f187c0d11a3ff0ade1bee4118c67f76eebbaa14ee"
+    },
+    {
+      "path": "Beep.Skia/SKKeyModifiers.cs",
+      "mode": "text-lf",
+      "sha256": "23446860cec441d3d0b44ba21620518acc362d4c106615994846eaf66d512ae9"
+    },
+    {
+      "path": "Beep.Skia/SceneFrameCache.cs",
+      "mode": "text-lf",
+      "sha256": "9242a0034790dd62d1fb5d4259b95c610d7f5249ea5fec3c5cb0ed37c5192350"
+    },
+    {
+      "path": "Beep.Skia/SelectionManager.cs",
+      "mode": "text-lf",
+      "sha256": "15eea43b133bcb4c16ad9c9ba721f129eaf3553797903fb2c16d2c39463811ba"
+    },
+    {
+      "path": "Beep.Skia/Serialization/DiagramSerialization.cs",
+      "mode": "text-lf",
+      "sha256": "2d0b8eeaa75443e64018852fc938b7f1a6e3fb8175a61e31e6195437316fec4f"
+    },
+    {
+      "path": "Beep.Skia/SketchEditAction.cs",
+      "mode": "text-lf",
+      "sha256": "f84403bfe218b2c3d8bb44722b2b927a92375fb3899d020dd7e8183f8d966796"
+    },
+    {
+      "path": "Beep.Skia/SkiaComponent.cs",
+      "mode": "text-lf",
+      "sha256": "2fe2dd4f30c05a2fe52e4642fb15083866ca37028b793a9f902e69dc897439f6"
+    },
+    {
+      "path": "Beep.Skia/SkiaComponentDescriptor.cs",
+      "mode": "text-lf",
+      "sha256": "3e2ea828a42468ec77af91d15eb0523da17b8f88d002c41919b69033154a73a8"
+    },
+    {
+      "path": "Beep.Skia/SkiaComponentRegistry.cs",
+      "mode": "text-lf",
+      "sha256": "60fddf4cbfe3173e27d6dfede88f1179004676449b2d498b8c5e15cd386c2f24"
+    },
+    {
+      "path": "Beep.Skia/SkiaTheme.cs",
+      "mode": "text-lf",
+      "sha256": "9015fa1598f8603c60a0f17cca22a9b76850ffcdabab31cb988a9eed9a156fe9"
+    },
+    {
+      "path": "Beep.Skia/SkiaUtil.cs",
+      "mode": "text-lf",
+      "sha256": "790518b7f1901db13013e5c5398b72f84f64b43bb81574628343dc17633f48d9"
+    },
+    {
+      "path": "Beep.Skia/TableDrawer.Drawing.cs",
+      "mode": "text-lf",
+      "sha256": "5ecf7dce66f032ae28ffaa4a774bc97400dc091a5daba9e170e19c9dba64abcc"
+    },
+    {
+      "path": "Beep.Skia/TableDrawer.Interaction.cs",
+      "mode": "text-lf",
+      "sha256": "61c6f4afc1acb68e41a886e81b9cbcd70ce62355679fc482981f760091df8ca2"
+    },
+    {
+      "path": "Beep.Skia/TableDrawer.cs",
+      "mode": "text-lf",
+      "sha256": "9e5f39d8444da691fd9415a4e03e35bc4005e9d51c7a4e948063360d19e59272"
+    },
+    {
+      "path": "Beep.Skia/ThemeManager.cs",
+      "mode": "text-lf",
+      "sha256": "1a136e9ca2e2545074cc0b203646c481e63d5735aea83f15e1b8613d6d179fdf"
+    },
+    {
+      "path": "Beep.Skia/Triggers/EventTrigger.cs",
+      "mode": "text-lf",
+      "sha256": "a046fbbbf16b8f7366903981103a7e88f476aef09dfa9514e7196fb458602faa"
+    },
+    {
+      "path": "Beep.Skia/Triggers/FileWatchTrigger.cs",
+      "mode": "text-lf",
+      "sha256": "b4df521d3cc14b69d9aaa49ce1e25aeb83246b76fe1a9d2f35f5d3ac680f9a0f"
+    },
+    {
+      "path": "Beep.Skia/Triggers/ManualTrigger.cs",
+      "mode": "text-lf",
+      "sha256": "6bf8af511c639bdd82786c30d9f2df2f3293a866cac6bec3d0fe58a1576a42a0"
+    },
+    {
+      "path": "Beep.Skia/Triggers/ScheduleTrigger.cs",
+      "mode": "text-lf",
+      "sha256": "ae7cc729e71c45ec1d42db25d24c536f5cb350ba73318ddca5fa84ca67ee4871"
+    },
+    {
+      "path": "Beep.Skia/Triggers/TriggerBase.cs",
+      "mode": "text-lf",
+      "sha256": "fc75af27f9856ffb3e53aa187f23af1b9ed8191b05f2034e95c6e2787699cde2"
+    },
+    {
+      "path": "Beep.Skia/TypefaceCache.cs",
+      "mode": "text-lf",
+      "sha256": "db78d61232264aac61a2a9ad8dfa9b29ed95c20007a97acea598509f20c632e6"
+    },
+    {
+      "path": "Beep.Skia/WorkflowEngine.cs",
+      "mode": "text-lf",
+      "sha256": "9a2d7bde55d6cd1f340ad91e8098dd0448bbd096e4f92dbee80702ffd77da5dd"
+    },
+    {
+      "path": "Beep.Skia/packages.net10.lock.json",
+      "mode": "text-lf",
+      "sha256": "f6f488715cd352b9859d46edf6d38bfdda1157d5e76401be3e1285bddefebe5f"
+    },
+    {
+      "path": "Directory.Build.props",
+      "mode": "text-lf",
+      "sha256": "7eefeb0997c0abf24467f2e948ca0842b4b7bba94a01d39694cead9cff729e2c"
+    },
+    {
+      "path": "LICENSE.txt",
+      "mode": "text-lf",
+      "sha256": "002c2696d92b5c8cf956c11072baa58eaf9f6ade995c031ea635c6a1ee342ad1"
+    },
+    {
+      "path": "README.md",
+      "mode": "text-lf",
+      "sha256": "da047afa07012391f5eb8e235bf3fb99bb28b7bce6ad92863b864234c127166a"
+    }
+  ]
+}

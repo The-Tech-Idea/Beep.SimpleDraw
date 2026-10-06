@@ -1,0 +1,66 @@
+Browser tab: 72, Title: "SimpleDraw — a little room for big ideas", URL: "http://127.0.0.1:5243/draw/".
+0 AXWebArea SimpleDraw — a little room for big ideas, URL: 127.0.0.1:5243/draw/
+	1 container app
+		2 link Description: Skip to drawing, Value: 127.0.0.1:5243/draw/#drawing-workspace
+		3 container
+			4 link Description: SimpleDraw home, Value: 127.0.0.1:5243/draw/
+			5 button New, Help: New drawing
+			6 text Open
+			7 button Description: Open a SimpleDraw file, ID: open-file
+			8 button Save drawing, Help: Save editable file (Ctrl+S)
+			9 button Change interface language
+		10 container Description: Drawing workspace, ID: drawing-workspace
+			11 heading Drawing workspace, Value: 1
+				12 text Drawing workspace
+			13 text Choose a tool shortcut to focus the canvas. Enter starts a shape, arrows move its cursor, Enter finishes it. Shift increases the step. T then Enter opens text editing. Select objects in the Objects list, then V and arrows to move, or Delete to remove them. The Style panel also offers numeric resizing.
+			14 container Drawing canvas
+			15 container Drawing tools
+				16 checkbox Description: Select, Help: Select (V), Value: 0
+					17 text V
+				18 checkbox Description: Hand, Help: Hand (H), Value: 0
+					19 text H
+				20 checkbox Description: Rectangle, Help: Rectangle (R), Value: 1
+					21 text R
+				22 checkbox Description: Ellipse, Help: Ellipse (O), Value: 0
+					23 text O
+				24 checkbox Description: Diamond, Help: Diamond (D), Value: 0
+					25 text D
+				26 checkbox Description: Line, Help: Line (L), Value: 0
+					27 text L
+				28 checkbox Description: Arrow, Help: Arrow (A), Value: 0
+					29 text A
+				30 checkbox Description: Pen, Help: Pen (P), Value: 0
+					31 text P
+				32 checkbox Description: Text, Help: Text (T), Value: 0
+					33 text T
+				34 checkbox Description: Eraser, Help: Eraser (E), Value: 0
+					35 text E
+				36 button Description: Delete selected, Help: Delete selected (Delete)
+			37 button (collapsed) Style, Secondary Actions: Expand
+			38 container
+				39 button (collapsed) Objects 7, Secondary Actions: Expand
+					40 text Objects
+					41 text 7
+				42 button (collapsed) Workflow templates, Secondary Actions: Expand
+					43 text Workflow templates
+				44 button (collapsed) Connectors 0, Secondary Actions: Expand
+					45 text Connectors
+					46 text 0
+				47 button (collapsed) Description: Library, Secondary Actions: Expand
+					48 text Library
+			49 container
+				50 container History
+					51 button (disabled) Description: Undo, Help: Undo (Ctrl+Z)
+					52 button Description: Redo, Help: Redo (Ctrl+Shift+Z)
+				53 container Viewport
+					54 button Zoom out
+					55 button Reset viewport
+					56 button Zoom in
+					57 button Fit drawing
+			58 button Keyboard shortcuts
+			59 button (collapsed) Export image, Secondary Actions: Expand
+				60 text Export image
+			61 text Saved on this device · download a file for a portable copy
+			62 text 7 objects; 1 selected.
+
+The focused UI element is 58 button Keyboard shortcuts

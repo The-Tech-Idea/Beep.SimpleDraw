@@ -1,0 +1,117 @@
+Browser tab: 72, Title: "SimpleDraw — a little room for big ideas", URL: "http://127.0.0.1:5243/draw/".
+0 AXWebArea SimpleDraw — a little room for big ideas, URL: 127.0.0.1:5243/draw/
+	1 container app
+		2 link Description: Skip to drawing, Value: 127.0.0.1:5243/draw/#drawing-workspace
+		3 container
+			4 link Description: SimpleDraw home, Value: 127.0.0.1:5243/draw/
+			6 button New, Help: New drawing
+			7 text Open
+			8 button Description: Open a SimpleDraw file, ID: open-file
+			9 button Save drawing, Help: Save editable file (Ctrl+S)
+			10 button Change interface language
+		11 container Description: Drawing workspace, ID: drawing-workspace
+			12 heading Drawing workspace, Value: 1
+				13 text Drawing workspace
+			14 text Choose a tool shortcut to focus the canvas. Enter starts a shape, arrows move its cursor, Enter finishes it. Shift increases the step. T then Enter opens text editing. Select objects in the Objects list, then V and arrows to move, or Delete to remove them. The Style panel also offers numeric resizing.
+			15 container Drawing canvas
+			16 container Drawing tools
+				17 checkbox Description: Select, Help: Select (V), Value: 1
+					18 text V
+				19 checkbox Description: Hand, Help: Hand (H), Value: 0
+					20 text H
+				21 checkbox Description: Rectangle, Help: Rectangle (R), Value: 0
+					22 text R
+				23 checkbox Description: Ellipse, Help: Ellipse (O), Value: 0
+					24 text O
+				25 checkbox Description: Diamond, Help: Diamond (D), Value: 0
+					26 text D
+				27 checkbox Description: Line, Help: Line (L), Value: 0
+					28 text L
+				29 checkbox Description: Arrow, Help: Arrow (A), Value: 0
+					30 text A
+				31 checkbox Description: Pen, Help: Pen (P), Value: 0
+					32 text P
+				33 checkbox Description: Text, Help: Text (T), Value: 0
+					34 text T
+				35 checkbox Description: Eraser, Help: Eraser (E), Value: 0
+					36 text E
+				37 button Description: Delete selected, Help: Delete selected (Delete)
+			98 button (expanded) Style, Secondary Actions: Collapse
+			99 container Description: Shape style, ID: shape-style
+				100 button Close style
+				101 text Make it yours 1 selected
+				102 container Stroke
+					103 text Stroke
+					104 checkbox Description: Stroke Slate, Value: 0
+					105 checkbox Description: Stroke Violet, Value: 0
+					106 checkbox Description: Stroke Coral, Value: 0
+					107 checkbox Description: Stroke Green, Value: 1
+					108 checkbox Description: Stroke Blue, Value: 0
+				109 container Fill
+					110 text Fill
+					111 checkbox Description: Fill None, Value: 0
+					112 checkbox Description: Fill Lavender, Value: 0
+					113 checkbox Description: Fill Peach, Value: 0
+					114 checkbox Description: Fill Mint, Value: 1
+					115 checkbox Description: Fill Sky, Value: 0
+				116 container Stroke width
+					117 text Stroke width
+					118 checkbox Description: Stroke width 1, Value: 0
+					119 checkbox Description: Stroke width 2, Value: 1
+					120 checkbox Description: Stroke width 4, Value: 0
+				121 container Appearance
+					122 text Appearance
+					123 checkbox Smooth, Value: 0
+					124 checkbox Sketch, Value: 1
+				125 container Selection
+					126 text Selection
+					127 button Duplicate
+					128 button (disabled) Group
+					129 button (disabled) Ungroup
+					130 button Bring to front
+					131 button Send to back
+				132 container Selection size
+					133 text Selection size
+					134 container
+						135 text Width
+						136 stepper (settable, integer) Width, Value: 200
+					137 container
+						138 text Height
+						139 stepper (settable, integer) Height, Value: 90
+					140 button Apply size
+			64 container
+				65 button (expanded) Objects 7, Secondary Actions: Collapse
+					66 text Objects
+					67 text 7
+				90 container Drawing objects
+					91 checkbox Description: Text 1, Text, grouped, Value: 0
+					92 checkbox Description: Rectangle 2, Rectangle, grouped, Value: 0
+					93 checkbox Description: Ellipse 3, Ellipse, Value: 1
+					94 checkbox Description: Diamond 4, Diamond, Value: 0
+					95 checkbox Description: Line 5, Line, Value: 0
+					96 checkbox Description: Arrow 6, Arrow, Value: 0
+					97 checkbox Description: Freehand 7, Freehand, Value: 0
+				68 button (collapsed) Workflow templates, Secondary Actions: Expand
+					69 text Workflow templates
+				70 button (collapsed) Connectors 0, Secondary Actions: Expand
+					71 text Connectors
+					72 text 0
+				73 button (collapsed) Description: Library, Secondary Actions: Expand
+					74 text Library
+			75 container
+				76 container History
+					77 button (disabled) Description: Undo, Help: Undo (Ctrl+Z)
+					78 button Description: Redo, Help: Redo (Ctrl+Shift+Z)
+				79 container Viewport
+					80 button Zoom out
+					81 button Reset viewport
+					82 button Zoom in
+					83 button Fit drawing
+			84 button Keyboard shortcuts
+			85 button (collapsed) Export image, Secondary Actions: Expand
+				86 text Export image
+			141 button Retry local save
+			87 text Saving on your device…
+			89 text 7 objects; 1 selected.
+
+The focused UI element is 0 AXWebArea SimpleDraw — a little room for big ideas, URL: 127.0.0.1:5243/draw/

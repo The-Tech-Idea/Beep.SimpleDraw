@@ -1,0 +1,1010 @@
+{
+  "version": 1,
+  "groups": [
+    {
+      "id": "sdk:mono/10.0.12",
+      "title": ".NET browser runtime, Mono and ICU data",
+      "license": "MIT and retained vendor third-party terms",
+      "files": [
+        "texts/cfc21f5e8bd655ae997eec916138b707b1d290b83272c02a95c9f821b8c87310.txt",
+        "texts/66f1d4e44973185519bb4aa8a9718eb22fc7af2cc532e3ae9cfc4c127ee7fc54.txt"
+      ]
+    },
+    {
+      "id": "sdk:emscripten/3.1.56",
+      "title": "Emscripten and linked standard-library notices",
+      "license": "Original MIT/NCSA, LLVM exceptions and musl notices",
+      "files": [
+        "texts/620a78084fc7ca97c0b5dea9abf891f3ffcadfdbf305276f099c9c4e12fc1d86.txt",
+        "texts/268e5de9a375069aae6012db728faf9e98232a676045a69a02ece010bf109cf7.txt",
+        "texts/1a8f1058753f1ba890de984e48f0242a3a5c29a6a8f2ed9fd813f36985387e8d.txt",
+        "texts/b5efebcaca80879234098e52d1725e6d9eb8fb96a19fce625d39184b705f7b6d.txt",
+        "texts/539dd7aed86e8a4f12cbdd0e6c50c189c7d74847e4fecc64ce2c6ee3a01da38b.txt",
+        "texts/e2b35be49f7284a45b7baca8fc7b3ab7440e7902392b2528a457816b5bb2a15c.txt",
+        "texts/f9bc4423732350eb0b3f7ed7e91d530298476f8fec0c6c427a1c04ade22655af.txt"
+      ]
+    },
+    {
+      "id": "package:microsoft.aspnetcore.app.internal.assets/10.0.12",
+      "title": "Microsoft.AspNetCore.App.Internal.Assets 10.0.12",
+      "license": "MIT",
+      "authors": "Microsoft",
+      "copyright": "© Microsoft Corporation. All rights reserved.",
+      "archiveSha256": "cfe347a1d979d34cc80ad6f478ab2878a9294293e3d69b7c7bebeb2d94f4fa9e",
+      "files": [
+        "texts/307d014f65d8482314f1400ddeae7a0cbabb96c2207bcc77f6233cc10588e5d9.txt",
+        "texts/cfc21f5e8bd655ae997eec916138b707b1d290b83272c02a95c9f821b8c87310.txt"
+      ]
+    },
+    {
+      "id": "package:microsoft.aspnetcore.authorization/10.0.12",
+      "title": "Microsoft.AspNetCore.Authorization 10.0.12",
+      "license": "MIT",
+      "authors": "Microsoft",
+      "copyright": "© Microsoft Corporation. All rights reserved.",
+      "archiveSha256": "471f03175cb2085f57f74b97197074b9b256dd526f2aefe983ad0b506944a745",
+      "files": [
+        "texts/307d014f65d8482314f1400ddeae7a0cbabb96c2207bcc77f6233cc10588e5d9.txt",
+        "texts/cfc21f5e8bd655ae997eec916138b707b1d290b83272c02a95c9f821b8c87310.txt"
+      ]
+    },
+    {
+      "id": "package:microsoft.aspnetcore.components.analyzers/10.0.12",
+      "title": "Microsoft.AspNetCore.Components.Analyzers 10.0.12",
+      "license": "MIT",
+      "authors": "Microsoft",
+      "copyright": "© Microsoft Corporation. All rights reserved.",
+      "archiveSha256": "6cec282563cdf7130e8421bef173f6534efa90fb361dcf7132d9183ab370e063",
+      "files": [
+        "texts/ae45a01fa3062e9d9932760cf834dae3ba23dbd75a75a2b919654f9c738d1ed9.txt",
+        "texts/cfc21f5e8bd655ae997eec916138b707b1d290b83272c02a95c9f821b8c87310.txt"
+      ]
+    },
+    {
+      "id": "package:microsoft.aspnetcore.components.forms/10.0.12",
+      "title": "Microsoft.AspNetCore.Components.Forms 10.0.12",
+      "license": "MIT",
+      "authors": "Microsoft",
+      "copyright": "© Microsoft Corporation. All rights reserved.",
+      "archiveSha256": "7458e6c1047aec4394184e8f5ae5e624ecf918710ae80ec18f3f9f4683b6a364",
+      "files": [
+        "texts/ae45a01fa3062e9d9932760cf834dae3ba23dbd75a75a2b919654f9c738d1ed9.txt",
+        "texts/cfc21f5e8bd655ae997eec916138b707b1d290b83272c02a95c9f821b8c87310.txt"
+      ]
+    },
+    {
+      "id": "package:microsoft.aspnetcore.components.web/10.0.12",
+      "title": "Microsoft.AspNetCore.Components.Web 10.0.12",
+      "license": "MIT",
+      "authors": "Microsoft",
+      "copyright": "© Microsoft Corporation. All rights reserved.",
+      "archiveSha256": "8e508d678d6a99db13d495ea7190e5e66a76e549b5969f8d7abc8b57cce7e034",
+      "files": [
+        "texts/ae45a01fa3062e9d9932760cf834dae3ba23dbd75a75a2b919654f9c738d1ed9.txt",
+        "texts/cfc21f5e8bd655ae997eec916138b707b1d290b83272c02a95c9f821b8c87310.txt"
+      ]
+    },
+    {
+      "id": "package:microsoft.aspnetcore.components.webassembly/10.0.12",
+      "title": "Microsoft.AspNetCore.Components.WebAssembly 10.0.12",
+      "license": "MIT",
+      "authors": "Microsoft",
+      "copyright": "© Microsoft Corporation. All rights reserved.",
+      "archiveSha256": "2e2be8473b417542414dd8350ad6a6a8dbb6a0c73a8a7629bc5d2ee191d4e726",
+      "files": [
+        "texts/ae45a01fa3062e9d9932760cf834dae3ba23dbd75a75a2b919654f9c738d1ed9.txt",
+        "texts/cfc21f5e8bd655ae997eec916138b707b1d290b83272c02a95c9f821b8c87310.txt"
+      ]
+    },
+    {
+      "id": "package:microsoft.aspnetcore.components/10.0.12",
+      "title": "Microsoft.AspNetCore.Components 10.0.12",
+      "license": "MIT",
+      "authors": "Microsoft",
+      "copyright": "© Microsoft Corporation. All rights reserved.",
+      "archiveSha256": "a961bc8c9283d02a8bf736ce80527237e98d6831b3e05e55f7d2dc52f8f602c9",
+      "files": [
+        "texts/ae45a01fa3062e9d9932760cf834dae3ba23dbd75a75a2b919654f9c738d1ed9.txt",
+        "texts/cfc21f5e8bd655ae997eec916138b707b1d290b83272c02a95c9f821b8c87310.txt"
+      ]
+    },
+    {
+      "id": "package:microsoft.aspnetcore.metadata/10.0.12",
+      "title": "Microsoft.AspNetCore.Metadata 10.0.12",
+      "license": "MIT",
+      "authors": "Microsoft",
+      "copyright": "© Microsoft Corporation. All rights reserved.",
+      "archiveSha256": "b5baeb28582aab6db02b5864c1fb5abb64cf2c242d12304a5719714f11866373",
+      "files": [
+        "texts/307d014f65d8482314f1400ddeae7a0cbabb96c2207bcc77f6233cc10588e5d9.txt",
+        "texts/cfc21f5e8bd655ae997eec916138b707b1d290b83272c02a95c9f821b8c87310.txt"
+      ]
+    },
+    {
+      "id": "package:microsoft.extensions.configuration.abstractions/10.0.12",
+      "title": "Microsoft.Extensions.Configuration.Abstractions 10.0.12",
+      "license": "MIT",
+      "authors": "Microsoft",
+      "copyright": "© Microsoft Corporation. All rights reserved.",
+      "archiveSha256": "f7397df285cb2a34c88a6929710c0b8ed84913382e2ae708f734060bc091ce51",
+      "files": [
+        "texts/6d15e10a101c6bfff2ab4429ed061bf76c456fc4b23ad6b03e0d0f8377148a21.txt",
+        "texts/cfc21f5e8bd655ae997eec916138b707b1d290b83272c02a95c9f821b8c87310.txt"
+      ]
+    },
+    {
+      "id": "package:microsoft.extensions.configuration.binder/10.0.12",
+      "title": "Microsoft.Extensions.Configuration.Binder 10.0.12",
+      "license": "MIT",
+      "authors": "Microsoft",
+      "copyright": "© Microsoft Corporation. All rights reserved.",
+      "archiveSha256": "fe267b1321b7e183183ed3042071bcaf5e3ad244a83e1d27fb055071367eba48",
+      "files": [
+        "texts/6d15e10a101c6bfff2ab4429ed061bf76c456fc4b23ad6b03e0d0f8377148a21.txt",
+        "texts/cfc21f5e8bd655ae997eec916138b707b1d290b83272c02a95c9f821b8c87310.txt"
+      ]
+    },
+    {
+      "id": "package:microsoft.extensions.configuration.fileextensions/10.0.12",
+      "title": "Microsoft.Extensions.Configuration.FileExtensions 10.0.12",
+      "license": "MIT",
+      "authors": "Microsoft",
+      "copyright": "© Microsoft Corporation. All rights reserved.",
+      "archiveSha256": "010898cf57299c9e3b1950db0ca798b553bb753273c846d008d3e0c9f25f3f12",
+      "files": [
+        "texts/6d15e10a101c6bfff2ab4429ed061bf76c456fc4b23ad6b03e0d0f8377148a21.txt",
+        "texts/cfc21f5e8bd655ae997eec916138b707b1d290b83272c02a95c9f821b8c87310.txt"
+      ]
+    },
+    {
+      "id": "package:microsoft.extensions.configuration.json/10.0.12",
+      "title": "Microsoft.Extensions.Configuration.Json 10.0.12",
+      "license": "MIT",
+      "authors": "Microsoft",
+      "copyright": "© Microsoft Corporation. All rights reserved.",
+      "archiveSha256": "4516d4c2cb973baf931e0414bf9d87497d4775bd950eafbd50b730a3c1233f9f",
+      "files": [
+        "texts/6d15e10a101c6bfff2ab4429ed061bf76c456fc4b23ad6b03e0d0f8377148a21.txt",
+        "texts/cfc21f5e8bd655ae997eec916138b707b1d290b83272c02a95c9f821b8c87310.txt"
+      ]
+    },
+    {
+      "id": "package:microsoft.extensions.configuration/10.0.12",
+      "title": "Microsoft.Extensions.Configuration 10.0.12",
+      "license": "MIT",
+      "authors": "Microsoft",
+      "copyright": "© Microsoft Corporation. All rights reserved.",
+      "archiveSha256": "d06de9d376ee3d28b0fec645b396993a3eb7b04fbc1ef7091654a08d9e1e72cb",
+      "files": [
+        "texts/6d15e10a101c6bfff2ab4429ed061bf76c456fc4b23ad6b03e0d0f8377148a21.txt",
+        "texts/cfc21f5e8bd655ae997eec916138b707b1d290b83272c02a95c9f821b8c87310.txt"
+      ]
+    },
+    {
+      "id": "package:microsoft.extensions.dependencyinjection.abstractions/10.0.12",
+      "title": "Microsoft.Extensions.DependencyInjection.Abstractions 10.0.12",
+      "license": "MIT",
+      "authors": "Microsoft",
+      "copyright": "© Microsoft Corporation. All rights reserved.",
+      "archiveSha256": "4664fab0ac4b56b8935333f59ee9e7801c8ab96de7c57cb3b6eb8192a5a61c55",
+      "files": [
+        "texts/6d15e10a101c6bfff2ab4429ed061bf76c456fc4b23ad6b03e0d0f8377148a21.txt",
+        "texts/cfc21f5e8bd655ae997eec916138b707b1d290b83272c02a95c9f821b8c87310.txt"
+      ]
+    },
+    {
+      "id": "package:microsoft.extensions.dependencyinjection/10.0.12",
+      "title": "Microsoft.Extensions.DependencyInjection 10.0.12",
+      "license": "MIT",
+      "authors": "Microsoft",
+      "copyright": "© Microsoft Corporation. All rights reserved.",
+      "archiveSha256": "b979c630191f6c48b548cad866d8224a0ed0e6e7be0aba87f454b57597b63779",
+      "files": [
+        "texts/6d15e10a101c6bfff2ab4429ed061bf76c456fc4b23ad6b03e0d0f8377148a21.txt",
+        "texts/cfc21f5e8bd655ae997eec916138b707b1d290b83272c02a95c9f821b8c87310.txt"
+      ]
+    },
+    {
+      "id": "package:microsoft.extensions.diagnostics.abstractions/10.0.12",
+      "title": "Microsoft.Extensions.Diagnostics.Abstractions 10.0.12",
+      "license": "MIT",
+      "authors": "Microsoft",
+      "copyright": "© Microsoft Corporation. All rights reserved.",
+      "archiveSha256": "5ece1e660e3f707cb2d8bda190329406434b5faab45d5ee6ea8e51c93c744ec0",
+      "files": [
+        "texts/6d15e10a101c6bfff2ab4429ed061bf76c456fc4b23ad6b03e0d0f8377148a21.txt",
+        "texts/cfc21f5e8bd655ae997eec916138b707b1d290b83272c02a95c9f821b8c87310.txt"
+      ]
+    },
+    {
+      "id": "package:microsoft.extensions.diagnostics/10.0.12",
+      "title": "Microsoft.Extensions.Diagnostics 10.0.12",
+      "license": "MIT",
+      "authors": "Microsoft",
+      "copyright": "© Microsoft Corporation. All rights reserved.",
+      "archiveSha256": "6edb9246a77906a0bb91bb63175c4f70cdf7b49328d3ceaae6e6c4c7bacf89ea",
+      "files": [
+        "texts/6d15e10a101c6bfff2ab4429ed061bf76c456fc4b23ad6b03e0d0f8377148a21.txt",
+        "texts/cfc21f5e8bd655ae997eec916138b707b1d290b83272c02a95c9f821b8c87310.txt"
+      ]
+    },
+    {
+      "id": "package:microsoft.extensions.fileproviders.abstractions/10.0.12",
+      "title": "Microsoft.Extensions.FileProviders.Abstractions 10.0.12",
+      "license": "MIT",
+      "authors": "Microsoft",
+      "copyright": "© Microsoft Corporation. All rights reserved.",
+      "archiveSha256": "49dad2381a98e644f68b711106f06c01db62c7fc3b4b1e79799ba770d0d4d9e7",
+      "files": [
+        "texts/6d15e10a101c6bfff2ab4429ed061bf76c456fc4b23ad6b03e0d0f8377148a21.txt",
+        "texts/cfc21f5e8bd655ae997eec916138b707b1d290b83272c02a95c9f821b8c87310.txt"
+      ]
+    },
+    {
+      "id": "package:microsoft.extensions.fileproviders.physical/10.0.12",
+      "title": "Microsoft.Extensions.FileProviders.Physical 10.0.12",
+      "license": "MIT",
+      "authors": "Microsoft",
+      "copyright": "© Microsoft Corporation. All rights reserved.",
+      "archiveSha256": "4a6ffdf4541f6ff2612fb4f8eb201bf795b47336cc9df488ed8cf3499e4e4694",
+      "files": [
+        "texts/6d15e10a101c6bfff2ab4429ed061bf76c456fc4b23ad6b03e0d0f8377148a21.txt",
+        "texts/cfc21f5e8bd655ae997eec916138b707b1d290b83272c02a95c9f821b8c87310.txt"
+      ]
+    },
+    {
+      "id": "package:microsoft.extensions.filesystemglobbing/10.0.12",
+      "title": "Microsoft.Extensions.FileSystemGlobbing 10.0.12",
+      "license": "MIT",
+      "authors": "Microsoft",
+      "copyright": "© Microsoft Corporation. All rights reserved.",
+      "archiveSha256": "8630d8878798bea4530828dafa3a4ec868b528004c95eaf37102b2ab95956d4a",
+      "files": [
+        "texts/6d15e10a101c6bfff2ab4429ed061bf76c456fc4b23ad6b03e0d0f8377148a21.txt",
+        "texts/cfc21f5e8bd655ae997eec916138b707b1d290b83272c02a95c9f821b8c87310.txt"
+      ]
+    },
+    {
+      "id": "package:microsoft.extensions.logging.abstractions/10.0.12",
+      "title": "Microsoft.Extensions.Logging.Abstractions 10.0.12",
+      "license": "MIT",
+      "authors": "Microsoft",
+      "copyright": "© Microsoft Corporation. All rights reserved.",
+      "archiveSha256": "34eaaa60afb61ed3d86e2e2669eae0c690d0e237e8a7066ba5bdb45a386709e7",
+      "files": [
+        "texts/6d15e10a101c6bfff2ab4429ed061bf76c456fc4b23ad6b03e0d0f8377148a21.txt",
+        "texts/cfc21f5e8bd655ae997eec916138b707b1d290b83272c02a95c9f821b8c87310.txt"
+      ]
+    },
+    {
+      "id": "package:microsoft.extensions.logging/10.0.12",
+      "title": "Microsoft.Extensions.Logging 10.0.12",
+      "license": "MIT",
+      "authors": "Microsoft",
+      "copyright": "© Microsoft Corporation. All rights reserved.",
+      "archiveSha256": "539919dc90956d273ac67d24e99ae7d92a893848b6efd368c1d0e61e5bc955a9",
+      "files": [
+        "texts/6d15e10a101c6bfff2ab4429ed061bf76c456fc4b23ad6b03e0d0f8377148a21.txt",
+        "texts/cfc21f5e8bd655ae997eec916138b707b1d290b83272c02a95c9f821b8c87310.txt"
+      ]
+    },
+    {
+      "id": "package:microsoft.extensions.options.configurationextensions/10.0.12",
+      "title": "Microsoft.Extensions.Options.ConfigurationExtensions 10.0.12",
+      "license": "MIT",
+      "authors": "Microsoft",
+      "copyright": "© Microsoft Corporation. All rights reserved.",
+      "archiveSha256": "71cbb9b3b179ee51d5416b3b8602d7109bdfc61ae741c0c3903fe4959e2ed7e1",
+      "files": [
+        "texts/6d15e10a101c6bfff2ab4429ed061bf76c456fc4b23ad6b03e0d0f8377148a21.txt",
+        "texts/cfc21f5e8bd655ae997eec916138b707b1d290b83272c02a95c9f821b8c87310.txt"
+      ]
+    },
+    {
+      "id": "package:microsoft.extensions.options/10.0.12",
+      "title": "Microsoft.Extensions.Options 10.0.12",
+      "license": "MIT",
+      "authors": "Microsoft",
+      "copyright": "© Microsoft Corporation. All rights reserved.",
+      "archiveSha256": "eec90916f11d84ea41e942b59cbf82f1e32726d87e99be7ee2b2424e31570ff7",
+      "files": [
+        "texts/6d15e10a101c6bfff2ab4429ed061bf76c456fc4b23ad6b03e0d0f8377148a21.txt",
+        "texts/cfc21f5e8bd655ae997eec916138b707b1d290b83272c02a95c9f821b8c87310.txt"
+      ]
+    },
+    {
+      "id": "package:microsoft.extensions.primitives/10.0.12",
+      "title": "Microsoft.Extensions.Primitives 10.0.12",
+      "license": "MIT",
+      "authors": "Microsoft",
+      "copyright": "© Microsoft Corporation. All rights reserved.",
+      "archiveSha256": "97ee742afe0cb0634558262f925cc112b5882d09db8d169575e559031da63922",
+      "files": [
+        "texts/6d15e10a101c6bfff2ab4429ed061bf76c456fc4b23ad6b03e0d0f8377148a21.txt",
+        "texts/cfc21f5e8bd655ae997eec916138b707b1d290b83272c02a95c9f821b8c87310.txt"
+      ]
+    },
+    {
+      "id": "package:microsoft.extensions.validation/10.0.12",
+      "title": "Microsoft.Extensions.Validation 10.0.12",
+      "license": "MIT",
+      "authors": "Microsoft",
+      "copyright": "© Microsoft Corporation. All rights reserved.",
+      "archiveSha256": "811dd1772c4b90354b2716e79f6332a4daf66518945f8efbd0ed8c4a73a1afb2",
+      "files": [
+        "texts/307d014f65d8482314f1400ddeae7a0cbabb96c2207bcc77f6233cc10588e5d9.txt",
+        "texts/cfc21f5e8bd655ae997eec916138b707b1d290b83272c02a95c9f821b8c87310.txt"
+      ]
+    },
+    {
+      "id": "package:microsoft.jsinterop.webassembly/10.0.12",
+      "title": "Microsoft.JSInterop.WebAssembly 10.0.12",
+      "license": "MIT",
+      "authors": "Microsoft",
+      "copyright": "© Microsoft Corporation. All rights reserved.",
+      "archiveSha256": "b36319ca6789b1c033c5658b8d87bc18da4af100715b60a5f3b8b3117db5af40",
+      "files": [
+        "texts/ae45a01fa3062e9d9932760cf834dae3ba23dbd75a75a2b919654f9c738d1ed9.txt",
+        "texts/cfc21f5e8bd655ae997eec916138b707b1d290b83272c02a95c9f821b8c87310.txt"
+      ]
+    },
+    {
+      "id": "package:microsoft.jsinterop/10.0.12",
+      "title": "Microsoft.JSInterop 10.0.12",
+      "license": "MIT",
+      "authors": "Microsoft",
+      "copyright": "© Microsoft Corporation. All rights reserved.",
+      "archiveSha256": "588909bb96f2eaf3b270c31892c90c869d4247eb5ad46fe5d290309cee41b366",
+      "files": [
+        "texts/307d014f65d8482314f1400ddeae7a0cbabb96c2207bcc77f6233cc10588e5d9.txt",
+        "texts/cfc21f5e8bd655ae997eec916138b707b1d290b83272c02a95c9f821b8c87310.txt"
+      ]
+    },
+    {
+      "id": "package:microsoft.net.illink.tasks/10.0.12",
+      "title": "Microsoft.NET.ILLink.Tasks 10.0.12",
+      "license": "MIT",
+      "authors": "Microsoft",
+      "copyright": "© Microsoft Corporation. All rights reserved.",
+      "archiveSha256": "37aa984da51fdc01cc7d57a8647893392f3539cdd5a1d32ce4982be5309bc08b",
+      "files": [
+        "texts/6d15e10a101c6bfff2ab4429ed061bf76c456fc4b23ad6b03e0d0f8377148a21.txt",
+        "texts/cfc21f5e8bd655ae997eec916138b707b1d290b83272c02a95c9f821b8c87310.txt"
+      ]
+    },
+    {
+      "id": "package:microsoft.net.sdk.webassembly.pack/10.0.12",
+      "title": "Microsoft.NET.Sdk.WebAssembly.Pack 10.0.12",
+      "license": "MIT",
+      "authors": "Microsoft",
+      "copyright": "© Microsoft Corporation. All rights reserved.",
+      "archiveSha256": "bce36565ee6da85fea0f34f916f951205d91389d1071a34084d17990f2ef8405",
+      "files": [
+        "texts/66f1d4e44973185519bb4aa8a9718eb22fc7af2cc532e3ae9cfc4c127ee7fc54.txt",
+        "texts/cfc21f5e8bd655ae997eec916138b707b1d290b83272c02a95c9f821b8c87310.txt"
+      ]
+    },
+    {
+      "id": "package:microsoft.win32.systemevents/10.0.9",
+      "title": "Microsoft.Win32.SystemEvents 10.0.9",
+      "license": "MIT",
+      "authors": "Microsoft",
+      "copyright": "© Microsoft Corporation. All rights reserved.",
+      "archiveSha256": "d9135d751ae7472a9ae6f8d41b05a7b606f4528ddda22daeb4db0ac8822b475e",
+      "files": [
+        "texts/6d15e10a101c6bfff2ab4429ed061bf76c456fc4b23ad6b03e0d0f8377148a21.txt",
+        "texts/cfc21f5e8bd655ae997eec916138b707b1d290b83272c02a95c9f821b8c87310.txt"
+      ]
+    },
+    {
+      "id": "package:skiasharp.extended/3.0.0",
+      "title": "SkiaSharp.Extended 3.0.0",
+      "license": "MIT",
+      "authors": "Microsoft",
+      "copyright": "© Microsoft Corporation. All rights reserved.",
+      "archiveSha256": "5fe81f3f8320e5547819924492e05480998e5f47179e38917a33653bef8630f7",
+      "files": [
+        "texts/cfc21f5e8bd655ae997eec916138b707b1d290b83272c02a95c9f821b8c87310.txt",
+        "texts/d8ec67d02851b38e9ba6e0249884b90501c9242adf573135a12f81f07dca5e0d.txt"
+      ]
+    },
+    {
+      "id": "package:skiasharp.nativeassets.macos/4.150.1",
+      "title": "SkiaSharp.NativeAssets.macOS 4.150.1",
+      "license": "MIT",
+      "authors": "Microsoft",
+      "copyright": "© Microsoft Corporation. All rights reserved.",
+      "archiveSha256": "3584c9bc739f1c03a32aaab00625528eccb5322336726e8dc57027cdc4b4f6f8",
+      "files": [
+        "texts/21504c46c4c58aa64c1055bd2dcbc5f9a136b4b8c412ed3cc6740e22c5b127f5.txt",
+        "texts/89101e35a8c66fd4d6dffc1763259161d35cb564c169714ec227a768c89f2938.txt",
+        "texts/cfc21f5e8bd655ae997eec916138b707b1d290b83272c02a95c9f821b8c87310.txt"
+      ]
+    },
+    {
+      "id": "package:skiasharp.nativeassets.webassembly/4.150.1",
+      "title": "SkiaSharp.NativeAssets.WebAssembly 4.150.1",
+      "license": "MIT",
+      "authors": "Microsoft",
+      "copyright": "© Microsoft Corporation. All rights reserved.",
+      "archiveSha256": "53a7142cee6689d890c51d1368e9f67480e0b8bad1159e7462991642291c1374",
+      "files": [
+        "texts/21504c46c4c58aa64c1055bd2dcbc5f9a136b4b8c412ed3cc6740e22c5b127f5.txt",
+        "texts/89101e35a8c66fd4d6dffc1763259161d35cb564c169714ec227a768c89f2938.txt",
+        "texts/cfc21f5e8bd655ae997eec916138b707b1d290b83272c02a95c9f821b8c87310.txt"
+      ]
+    },
+    {
+      "id": "package:skiasharp.nativeassets.win32/4.150.1",
+      "title": "SkiaSharp.NativeAssets.Win32 4.150.1",
+      "license": "MIT",
+      "authors": "Microsoft",
+      "copyright": "© Microsoft Corporation. All rights reserved.",
+      "archiveSha256": "1e1706e633bc0824ecc9b4f65cb35eedc866b1cdb52725e9d3ff4dc90d45befa",
+      "files": [
+        "texts/21504c46c4c58aa64c1055bd2dcbc5f9a136b4b8c412ed3cc6740e22c5b127f5.txt",
+        "texts/89101e35a8c66fd4d6dffc1763259161d35cb564c169714ec227a768c89f2938.txt",
+        "texts/cfc21f5e8bd655ae997eec916138b707b1d290b83272c02a95c9f821b8c87310.txt"
+      ]
+    },
+    {
+      "id": "package:skiasharp.svg/1.60.0",
+      "title": "SkiaSharp.Svg 1.60.0",
+      "license": "See original license text",
+      "authors": "Xamarin Inc.",
+      "copyright": "© Microsoft Corporation. All rights reserved.",
+      "archiveSha256": "e0c3140b022613b26f7da4cadbc4b59dacd2c34e62468bf7a1c936329b2b4abe",
+      "files": [
+        "texts/83c7602083b14f599aee3c9537aa5c2d57930ff8fefed74547a943336725d442.txt"
+      ]
+    },
+    {
+      "id": "package:skiasharp.views.blazor/4.150.1",
+      "title": "SkiaSharp.Views.Blazor 4.150.1",
+      "license": "MIT",
+      "authors": "Microsoft",
+      "copyright": "© Microsoft Corporation. All rights reserved.",
+      "archiveSha256": "5cfb06aff0f7d3db4f2990b060d8575f1bd1f53f8424da073088793b6359acda",
+      "files": [
+        "texts/89101e35a8c66fd4d6dffc1763259161d35cb564c169714ec227a768c89f2938.txt",
+        "texts/cfc21f5e8bd655ae997eec916138b707b1d290b83272c02a95c9f821b8c87310.txt"
+      ]
+    },
+    {
+      "id": "package:skiasharp/4.150.1",
+      "title": "SkiaSharp 4.150.1",
+      "license": "MIT",
+      "authors": "Microsoft",
+      "copyright": "© Microsoft Corporation. All rights reserved.",
+      "archiveSha256": "29d6bce5a0c4102cf9d6a0f726a50f39a1b71ed86ba77f01ca7eb325615ad4a0",
+      "files": [
+        "texts/89101e35a8c66fd4d6dffc1763259161d35cb564c169714ec227a768c89f2938.txt",
+        "texts/cfc21f5e8bd655ae997eec916138b707b1d290b83272c02a95c9f821b8c87310.txt"
+      ]
+    },
+    {
+      "id": "package:system.drawing.common/10.0.9",
+      "title": "System.Drawing.Common 10.0.9",
+      "license": "MIT",
+      "authors": "Microsoft",
+      "copyright": "© Microsoft Corporation. All rights reserved.",
+      "archiveSha256": "0002aa454786fde725864d7cc526eaa565a1b8b072f48fa1cd38892dc91c8697",
+      "files": [
+        "texts/2ffe89f325685881e9fb3a64451632abe784db07a193a2633b241ea8d85e7a85.txt",
+        "texts/a89886665765362eb77e0f8e26602c924520041d1711b2eedc136434fe4d01ab.txt",
+        "texts/cfc21f5e8bd655ae997eec916138b707b1d290b83272c02a95c9f821b8c87310.txt"
+      ]
+    },
+    {
+      "id": "package:thetechidea.beep.datamanagementmodels/3.1.1",
+      "title": "TheTechIdea.Beep.DataManagementModels 3.1.1",
+      "license": "MIT",
+      "authors": "The Tech Idea",
+      "copyright": "2022",
+      "archiveSha256": "5a9ac5f7fbf9581d99a7ce871ddb36ff62f6b0b79fe6ec110dce4d75aa52f46f",
+      "files": [
+        "texts/283a1b1ee2e2b5b8ccfac13b67dc3b3c7dfd76bb16689daec3b798692841c661.txt"
+      ]
+    },
+    {
+      "id": "package:thetechidea.beep.vis.modules/2.0.44",
+      "title": "TheTechIdea.Beep.Vis.Modules 2.0.44",
+      "license": "MIT",
+      "authors": "The Tech Idea",
+      "copyright": "2022",
+      "archiveSha256": "0e2c8c5809846dca31b6fa3c07f6487165337e3e21a002d0e60124731c13e718",
+      "files": [
+        "texts/283a1b1ee2e2b5b8ccfac13b67dc3b3c7dfd76bb16689daec3b798692841c661.txt"
+      ]
+    },
+    {
+      "id": "source:beep-skia",
+      "title": "Beep.Skia source and SimpleDraw integration changes",
+      "license": "MIT as supplied in the source repository",
+      "files": [
+        "texts/19200a6a9407e592065a5a504c0eefe58adf102c9ac5aa2151bd6f257faa7a9c.txt"
+      ]
+    },
+    {
+      "id": "font:kalam",
+      "title": "Kalam Regular — Indian Type Foundry, 2014",
+      "license": "SIL Open Font License 1.1",
+      "files": [
+        "texts/f62ef357d3a1c3d27edd35a6e1ba350e8a8d13499797964eeadefbf0b3b15d1f.txt"
+      ]
+    }
+  ],
+  "files": [
+    {
+      "path": "texts/cfc21f5e8bd655ae997eec916138b707b1d290b83272c02a95c9f821b8c87310.txt",
+      "sha256": "cfc21f5e8bd655ae997eec916138b707b1d290b83272c02a95c9f821b8c87310",
+      "bytes": 1116,
+      "origins": [
+        {
+          "kind": "sdk-pack",
+          "pack": "Microsoft.NETCore.App.Runtime.Mono.browser-wasm",
+          "version": "10.0.12",
+          "path": "LICENSE.TXT"
+        }
+      ]
+    },
+    {
+      "path": "texts/66f1d4e44973185519bb4aa8a9718eb22fc7af2cc532e3ae9cfc4c127ee7fc54.txt",
+      "sha256": "66f1d4e44973185519bb4aa8a9718eb22fc7af2cc532e3ae9cfc4c127ee7fc54",
+      "bytes": 76623,
+      "origins": [
+        {
+          "kind": "sdk-pack",
+          "pack": "Microsoft.NETCore.App.Runtime.Mono.browser-wasm",
+          "version": "10.0.12",
+          "path": "THIRD-PARTY-NOTICES.TXT"
+        },
+        {
+          "kind": "package-archive",
+          "package": "microsoft.net.sdk.webassembly.pack/10.0.12",
+          "archiveSha256": "bce36565ee6da85fea0f34f916f951205d91389d1071a34084d17990f2ef8405",
+          "member": "THIRD-PARTY-NOTICES.TXT"
+        }
+      ]
+    },
+    {
+      "path": "texts/620a78084fc7ca97c0b5dea9abf891f3ffcadfdbf305276f099c9c4e12fc1d86.txt",
+      "sha256": "620a78084fc7ca97c0b5dea9abf891f3ffcadfdbf305276f099c9c4e12fc1d86",
+      "bytes": 5093,
+      "origins": [
+        {
+          "kind": "sdk-pack",
+          "pack": "Microsoft.NET.Runtime.Emscripten.3.1.56.Sdk.win-x64",
+          "version": "10.0.12",
+          "path": "tools/emscripten/LICENSE"
+        }
+      ]
+    },
+    {
+      "path": "texts/268e5de9a375069aae6012db728faf9e98232a676045a69a02ece010bf109cf7.txt",
+      "sha256": "268e5de9a375069aae6012db728faf9e98232a676045a69a02ece010bf109cf7",
+      "bytes": 28687,
+      "origins": [
+        {
+          "kind": "sdk-pack",
+          "pack": "Microsoft.NET.Runtime.Emscripten.3.1.56.Sdk.win-x64",
+          "version": "10.0.12",
+          "path": "tools/emscripten/AUTHORS"
+        }
+      ]
+    },
+    {
+      "path": "texts/1a8f1058753f1ba890de984e48f0242a3a5c29a6a8f2ed9fd813f36985387e8d.txt",
+      "sha256": "1a8f1058753f1ba890de984e48f0242a3a5c29a6a8f2ed9fd813f36985387e8d",
+      "bytes": 16708,
+      "origins": [
+        {
+          "kind": "sdk-pack",
+          "pack": "Microsoft.NET.Runtime.Emscripten.3.1.56.Sdk.win-x64",
+          "version": "10.0.12",
+          "path": "tools/emscripten/system/lib/compiler-rt/LICENSE.TXT"
+        }
+      ]
+    },
+    {
+      "path": "texts/b5efebcaca80879234098e52d1725e6d9eb8fb96a19fce625d39184b705f7b6d.txt",
+      "sha256": "b5efebcaca80879234098e52d1725e6d9eb8fb96a19fce625d39184b705f7b6d",
+      "bytes": 16706,
+      "origins": [
+        {
+          "kind": "sdk-pack",
+          "pack": "Microsoft.NET.Runtime.Emscripten.3.1.56.Sdk.win-x64",
+          "version": "10.0.12",
+          "path": "tools/emscripten/system/lib/libunwind/LICENSE.TXT"
+        }
+      ]
+    },
+    {
+      "path": "texts/539dd7aed86e8a4f12cbdd0e6c50c189c7d74847e4fecc64ce2c6ee3a01da38b.txt",
+      "sha256": "539dd7aed86e8a4f12cbdd0e6c50c189c7d74847e4fecc64ce2c6ee3a01da38b",
+      "bytes": 16703,
+      "origins": [
+        {
+          "kind": "sdk-pack",
+          "pack": "Microsoft.NET.Runtime.Emscripten.3.1.56.Sdk.win-x64",
+          "version": "10.0.12",
+          "path": "tools/emscripten/system/lib/libcxx/LICENSE.TXT"
+        }
+      ]
+    },
+    {
+      "path": "texts/e2b35be49f7284a45b7baca8fc7b3ab7440e7902392b2528a457816b5bb2a15c.txt",
+      "sha256": "e2b35be49f7284a45b7baca8fc7b3ab7440e7902392b2528a457816b5bb2a15c",
+      "bytes": 16706,
+      "origins": [
+        {
+          "kind": "sdk-pack",
+          "pack": "Microsoft.NET.Runtime.Emscripten.3.1.56.Sdk.win-x64",
+          "version": "10.0.12",
+          "path": "tools/emscripten/system/lib/libcxxabi/LICENSE.TXT"
+        }
+      ]
+    },
+    {
+      "path": "texts/f9bc4423732350eb0b3f7ed7e91d530298476f8fec0c6c427a1c04ade22655af.txt",
+      "sha256": "f9bc4423732350eb0b3f7ed7e91d530298476f8fec0c6c427a1c04ade22655af",
+      "bytes": 6204,
+      "origins": [
+        {
+          "kind": "sdk-pack",
+          "pack": "Microsoft.NET.Runtime.Emscripten.3.1.56.Sdk.win-x64",
+          "version": "10.0.12",
+          "path": "tools/emscripten/system/lib/libc/musl/COPYRIGHT"
+        }
+      ]
+    },
+    {
+      "path": "texts/283a1b1ee2e2b5b8ccfac13b67dc3b3c7dfd76bb16689daec3b798692841c661.txt",
+      "sha256": "283a1b1ee2e2b5b8ccfac13b67dc3b3c7dfd76bb16689daec3b798692841c661",
+      "bytes": 1070,
+      "origins": [
+        {
+          "kind": "upstream-source",
+          "url": "https://github.com/The-Tech-Idea/BeepDM/blob/f305eaf64037392fa4b907aa69f64f5d641c69d4/LICENSE"
+        }
+      ]
+    },
+    {
+      "path": "texts/83c7602083b14f599aee3c9537aa5c2d57930ff8fefed74547a943336725d442.txt",
+      "sha256": "83c7602083b14f599aee3c9537aa5c2d57930ff8fefed74547a943336725d442",
+      "bytes": 1070,
+      "origins": [
+        {
+          "kind": "upstream-source",
+          "url": "https://github.com/mono/SkiaSharp.Extended/blob/f9c6376f4b0af24c0aebd6d51d9ff5bbfc8b118f/LICENSE"
+        }
+      ]
+    },
+    {
+      "path": "texts/307d014f65d8482314f1400ddeae7a0cbabb96c2207bcc77f6233cc10588e5d9.txt",
+      "sha256": "307d014f65d8482314f1400ddeae7a0cbabb96c2207bcc77f6233cc10588e5d9",
+      "bytes": 56748,
+      "origins": [
+        {
+          "kind": "package-archive",
+          "package": "microsoft.aspnetcore.app.internal.assets/10.0.12",
+          "archiveSha256": "cfe347a1d979d34cc80ad6f478ab2878a9294293e3d69b7c7bebeb2d94f4fa9e",
+          "member": "THIRD-PARTY-NOTICES.TXT"
+        },
+        {
+          "kind": "package-archive",
+          "package": "microsoft.aspnetcore.authorization/10.0.12",
+          "archiveSha256": "471f03175cb2085f57f74b97197074b9b256dd526f2aefe983ad0b506944a745",
+          "member": "THIRD-PARTY-NOTICES.TXT"
+        },
+        {
+          "kind": "package-archive",
+          "package": "microsoft.aspnetcore.metadata/10.0.12",
+          "archiveSha256": "b5baeb28582aab6db02b5864c1fb5abb64cf2c242d12304a5719714f11866373",
+          "member": "THIRD-PARTY-NOTICES.TXT"
+        },
+        {
+          "kind": "package-archive",
+          "package": "microsoft.extensions.validation/10.0.12",
+          "archiveSha256": "811dd1772c4b90354b2716e79f6332a4daf66518945f8efbd0ed8c4a73a1afb2",
+          "member": "THIRD-PARTY-NOTICES.TXT"
+        },
+        {
+          "kind": "package-archive",
+          "package": "microsoft.jsinterop/10.0.12",
+          "archiveSha256": "588909bb96f2eaf3b270c31892c90c869d4247eb5ad46fe5d290309cee41b366",
+          "member": "THIRD-PARTY-NOTICES.TXT"
+        }
+      ]
+    },
+    {
+      "path": "texts/ae45a01fa3062e9d9932760cf834dae3ba23dbd75a75a2b919654f9c738d1ed9.txt",
+      "sha256": "ae45a01fa3062e9d9932760cf834dae3ba23dbd75a75a2b919654f9c738d1ed9",
+      "bytes": 32160,
+      "origins": [
+        {
+          "kind": "package-archive",
+          "package": "microsoft.aspnetcore.components.analyzers/10.0.12",
+          "archiveSha256": "6cec282563cdf7130e8421bef173f6534efa90fb361dcf7132d9183ab370e063",
+          "member": "THIRD-PARTY-NOTICES.txt"
+        },
+        {
+          "kind": "package-archive",
+          "package": "microsoft.aspnetcore.components.forms/10.0.12",
+          "archiveSha256": "7458e6c1047aec4394184e8f5ae5e624ecf918710ae80ec18f3f9f4683b6a364",
+          "member": "THIRD-PARTY-NOTICES.txt"
+        },
+        {
+          "kind": "package-archive",
+          "package": "microsoft.aspnetcore.components.web/10.0.12",
+          "archiveSha256": "8e508d678d6a99db13d495ea7190e5e66a76e549b5969f8d7abc8b57cce7e034",
+          "member": "THIRD-PARTY-NOTICES.txt"
+        },
+        {
+          "kind": "package-archive",
+          "package": "microsoft.aspnetcore.components.webassembly/10.0.12",
+          "archiveSha256": "2e2be8473b417542414dd8350ad6a6a8dbb6a0c73a8a7629bc5d2ee191d4e726",
+          "member": "THIRD-PARTY-NOTICES.txt"
+        },
+        {
+          "kind": "package-archive",
+          "package": "microsoft.aspnetcore.components/10.0.12",
+          "archiveSha256": "a961bc8c9283d02a8bf736ce80527237e98d6831b3e05e55f7d2dc52f8f602c9",
+          "member": "THIRD-PARTY-NOTICES.txt"
+        },
+        {
+          "kind": "package-archive",
+          "package": "microsoft.jsinterop.webassembly/10.0.12",
+          "archiveSha256": "b36319ca6789b1c033c5658b8d87bc18da4af100715b60a5f3b8b3117db5af40",
+          "member": "THIRD-PARTY-NOTICES.txt"
+        }
+      ]
+    },
+    {
+      "path": "texts/6d15e10a101c6bfff2ab4429ed061bf76c456fc4b23ad6b03e0d0f8377148a21.txt",
+      "sha256": "6d15e10a101c6bfff2ab4429ed061bf76c456fc4b23ad6b03e0d0f8377148a21",
+      "bytes": 78041,
+      "origins": [
+        {
+          "kind": "package-archive",
+          "package": "microsoft.extensions.configuration.abstractions/10.0.12",
+          "archiveSha256": "f7397df285cb2a34c88a6929710c0b8ed84913382e2ae708f734060bc091ce51",
+          "member": "THIRD-PARTY-NOTICES.TXT"
+        },
+        {
+          "kind": "package-archive",
+          "package": "microsoft.extensions.configuration.binder/10.0.12",
+          "archiveSha256": "fe267b1321b7e183183ed3042071bcaf5e3ad244a83e1d27fb055071367eba48",
+          "member": "THIRD-PARTY-NOTICES.TXT"
+        },
+        {
+          "kind": "package-archive",
+          "package": "microsoft.extensions.configuration.fileextensions/10.0.12",
+          "archiveSha256": "010898cf57299c9e3b1950db0ca798b553bb753273c846d008d3e0c9f25f3f12",
+          "member": "THIRD-PARTY-NOTICES.TXT"
+        },
+        {
+          "kind": "package-archive",
+          "package": "microsoft.extensions.configuration.json/10.0.12",
+          "archiveSha256": "4516d4c2cb973baf931e0414bf9d87497d4775bd950eafbd50b730a3c1233f9f",
+          "member": "THIRD-PARTY-NOTICES.TXT"
+        },
+        {
+          "kind": "package-archive",
+          "package": "microsoft.extensions.configuration/10.0.12",
+          "archiveSha256": "d06de9d376ee3d28b0fec645b396993a3eb7b04fbc1ef7091654a08d9e1e72cb",
+          "member": "THIRD-PARTY-NOTICES.TXT"
+        },
+        {
+          "kind": "package-archive",
+          "package": "microsoft.extensions.dependencyinjection.abstractions/10.0.12",
+          "archiveSha256": "4664fab0ac4b56b8935333f59ee9e7801c8ab96de7c57cb3b6eb8192a5a61c55",
+          "member": "THIRD-PARTY-NOTICES.TXT"
+        },
+        {
+          "kind": "package-archive",
+          "package": "microsoft.extensions.dependencyinjection/10.0.12",
+          "archiveSha256": "b979c630191f6c48b548cad866d8224a0ed0e6e7be0aba87f454b57597b63779",
+          "member": "THIRD-PARTY-NOTICES.TXT"
+        },
+        {
+          "kind": "package-archive",
+          "package": "microsoft.extensions.diagnostics.abstractions/10.0.12",
+          "archiveSha256": "5ece1e660e3f707cb2d8bda190329406434b5faab45d5ee6ea8e51c93c744ec0",
+          "member": "THIRD-PARTY-NOTICES.TXT"
+        },
+        {
+          "kind": "package-archive",
+          "package": "microsoft.extensions.diagnostics/10.0.12",
+          "archiveSha256": "6edb9246a77906a0bb91bb63175c4f70cdf7b49328d3ceaae6e6c4c7bacf89ea",
+          "member": "THIRD-PARTY-NOTICES.TXT"
+        },
+        {
+          "kind": "package-archive",
+          "package": "microsoft.extensions.fileproviders.abstractions/10.0.12",
+          "archiveSha256": "49dad2381a98e644f68b711106f06c01db62c7fc3b4b1e79799ba770d0d4d9e7",
+          "member": "THIRD-PARTY-NOTICES.TXT"
+        },
+        {
+          "kind": "package-archive",
+          "package": "microsoft.extensions.fileproviders.physical/10.0.12",
+          "archiveSha256": "4a6ffdf4541f6ff2612fb4f8eb201bf795b47336cc9df488ed8cf3499e4e4694",
+          "member": "THIRD-PARTY-NOTICES.TXT"
+        },
+        {
+          "kind": "package-archive",
+          "package": "microsoft.extensions.filesystemglobbing/10.0.12",
+          "archiveSha256": "8630d8878798bea4530828dafa3a4ec868b528004c95eaf37102b2ab95956d4a",
+          "member": "THIRD-PARTY-NOTICES.TXT"
+        },
+        {
+          "kind": "package-archive",
+          "package": "microsoft.extensions.logging.abstractions/10.0.12",
+          "archiveSha256": "34eaaa60afb61ed3d86e2e2669eae0c690d0e237e8a7066ba5bdb45a386709e7",
+          "member": "THIRD-PARTY-NOTICES.TXT"
+        },
+        {
+          "kind": "package-archive",
+          "package": "microsoft.extensions.logging/10.0.12",
+          "archiveSha256": "539919dc90956d273ac67d24e99ae7d92a893848b6efd368c1d0e61e5bc955a9",
+          "member": "THIRD-PARTY-NOTICES.TXT"
+        },
+        {
+          "kind": "package-archive",
+          "package": "microsoft.extensions.options.configurationextensions/10.0.12",
+          "archiveSha256": "71cbb9b3b179ee51d5416b3b8602d7109bdfc61ae741c0c3903fe4959e2ed7e1",
+          "member": "THIRD-PARTY-NOTICES.TXT"
+        },
+        {
+          "kind": "package-archive",
+          "package": "microsoft.extensions.options/10.0.12",
+          "archiveSha256": "eec90916f11d84ea41e942b59cbf82f1e32726d87e99be7ee2b2424e31570ff7",
+          "member": "THIRD-PARTY-NOTICES.TXT"
+        },
+        {
+          "kind": "package-archive",
+          "package": "microsoft.extensions.primitives/10.0.12",
+          "archiveSha256": "97ee742afe0cb0634558262f925cc112b5882d09db8d169575e559031da63922",
+          "member": "THIRD-PARTY-NOTICES.TXT"
+        },
+        {
+          "kind": "package-archive",
+          "package": "microsoft.net.illink.tasks/10.0.12",
+          "archiveSha256": "37aa984da51fdc01cc7d57a8647893392f3539cdd5a1d32ce4982be5309bc08b",
+          "member": "THIRD-PARTY-NOTICES.TXT"
+        },
+        {
+          "kind": "package-archive",
+          "package": "microsoft.win32.systemevents/10.0.9",
+          "archiveSha256": "d9135d751ae7472a9ae6f8d41b05a7b606f4528ddda22daeb4db0ac8822b475e",
+          "member": "THIRD-PARTY-NOTICES.TXT"
+        }
+      ]
+    },
+    {
+      "path": "texts/d8ec67d02851b38e9ba6e0249884b90501c9242adf573135a12f81f07dca5e0d.txt",
+      "sha256": "d8ec67d02851b38e9ba6e0249884b90501c9242adf573135a12f81f07dca5e0d",
+      "bytes": 1144,
+      "origins": [
+        {
+          "kind": "package-archive",
+          "package": "skiasharp.extended/3.0.0",
+          "archiveSha256": "5fe81f3f8320e5547819924492e05480998e5f47179e38917a33653bef8630f7",
+          "member": "LICENSE"
+        }
+      ]
+    },
+    {
+      "path": "texts/89101e35a8c66fd4d6dffc1763259161d35cb564c169714ec227a768c89f2938.txt",
+      "sha256": "89101e35a8c66fd4d6dffc1763259161d35cb564c169714ec227a768c89f2938",
+      "bytes": 1129,
+      "origins": [
+        {
+          "kind": "package-archive",
+          "package": "skiasharp.nativeassets.macos/4.150.1",
+          "archiveSha256": "3584c9bc739f1c03a32aaab00625528eccb5322336726e8dc57027cdc4b4f6f8",
+          "member": "LICENSE.txt"
+        },
+        {
+          "kind": "package-archive",
+          "package": "skiasharp.nativeassets.webassembly/4.150.1",
+          "archiveSha256": "53a7142cee6689d890c51d1368e9f67480e0b8bad1159e7462991642291c1374",
+          "member": "LICENSE.txt"
+        },
+        {
+          "kind": "package-archive",
+          "package": "skiasharp.nativeassets.win32/4.150.1",
+          "archiveSha256": "1e1706e633bc0824ecc9b4f65cb35eedc866b1cdb52725e9d3ff4dc90d45befa",
+          "member": "LICENSE.txt"
+        },
+        {
+          "kind": "package-archive",
+          "package": "skiasharp.views.blazor/4.150.1",
+          "archiveSha256": "5cfb06aff0f7d3db4f2990b060d8575f1bd1f53f8424da073088793b6359acda",
+          "member": "LICENSE.txt"
+        },
+        {
+          "kind": "package-archive",
+          "package": "skiasharp/4.150.1",
+          "archiveSha256": "29d6bce5a0c4102cf9d6a0f726a50f39a1b71ed86ba77f01ca7eb325615ad4a0",
+          "member": "LICENSE.txt"
+        }
+      ]
+    },
+    {
+      "path": "texts/21504c46c4c58aa64c1055bd2dcbc5f9a136b4b8c412ed3cc6740e22c5b127f5.txt",
+      "sha256": "21504c46c4c58aa64c1055bd2dcbc5f9a136b4b8c412ed3cc6740e22c5b127f5",
+      "bytes": 139775,
+      "origins": [
+        {
+          "kind": "package-archive",
+          "package": "skiasharp.nativeassets.macos/4.150.1",
+          "archiveSha256": "3584c9bc739f1c03a32aaab00625528eccb5322336726e8dc57027cdc4b4f6f8",
+          "member": "THIRD-PARTY-NOTICES.txt"
+        },
+        {
+          "kind": "package-archive",
+          "package": "skiasharp.nativeassets.webassembly/4.150.1",
+          "archiveSha256": "53a7142cee6689d890c51d1368e9f67480e0b8bad1159e7462991642291c1374",
+          "member": "THIRD-PARTY-NOTICES.txt"
+        },
+        {
+          "kind": "package-archive",
+          "package": "skiasharp.nativeassets.win32/4.150.1",
+          "archiveSha256": "1e1706e633bc0824ecc9b4f65cb35eedc866b1cdb52725e9d3ff4dc90d45befa",
+          "member": "THIRD-PARTY-NOTICES.txt"
+        }
+      ]
+    },
+    {
+      "path": "texts/a89886665765362eb77e0f8e26602c924520041d1711b2eedc136434fe4d01ab.txt",
+      "sha256": "a89886665765362eb77e0f8e26602c924520041d1711b2eedc136434fe4d01ab",
+      "bytes": 1137,
+      "origins": [
+        {
+          "kind": "package-archive",
+          "package": "system.drawing.common/10.0.9",
+          "archiveSha256": "0002aa454786fde725864d7cc526eaa565a1b8b072f48fa1cd38892dc91c8697",
+          "member": "LICENSE.TXT"
+        }
+      ]
+    },
+    {
+      "path": "texts/2ffe89f325685881e9fb3a64451632abe784db07a193a2633b241ea8d85e7a85.txt",
+      "sha256": "2ffe89f325685881e9fb3a64451632abe784db07a193a2633b241ea8d85e7a85",
+      "bytes": 2007,
+      "origins": [
+        {
+          "kind": "package-archive",
+          "package": "system.drawing.common/10.0.9",
+          "archiveSha256": "0002aa454786fde725864d7cc526eaa565a1b8b072f48fa1cd38892dc91c8697",
+          "member": "THIRD-PARTY-NOTICES.TXT"
+        }
+      ]
+    },
+    {
+      "path": "texts/19200a6a9407e592065a5a504c0eefe58adf102c9ac5aa2151bd6f257faa7a9c.txt",
+      "sha256": "19200a6a9407e592065a5a504c0eefe58adf102c9ac5aa2151bd6f257faa7a9c",
+      "bytes": 1090,
+      "origins": [
+        {
+          "kind": "beep-source",
+          "path": "LICENSE.txt",
+          "baseCommit": "19bb026ba403ff91bd1a2ce324000ddce07cd26d"
+        }
+      ]
+    },
+    {
+      "path": "texts/f62ef357d3a1c3d27edd35a6e1ba350e8a8d13499797964eeadefbf0b3b15d1f.txt",
+      "sha256": "f62ef357d3a1c3d27edd35a6e1ba350e8a8d13499797964eeadefbf0b3b15d1f",
+      "bytes": 4373,
+      "origins": [
+        {
+          "kind": "font-source",
+          "path": "Fonts/OFL.txt"
+        }
+      ]
+    }
+  ],
+  "scope": "Full original notice materials for Web restore candidates plus linked SDK/native inputs. Runtime presence is determined separately from the actual published files."
+}

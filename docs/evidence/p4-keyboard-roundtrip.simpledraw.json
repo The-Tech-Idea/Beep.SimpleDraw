@@ -1,0 +1,107 @@
+{
+  "format": "beep.simpledraw",
+  "version": 4,
+  "diagram": {
+    "schemaVersion": 3,
+    "themeName": "Light",
+    "components": [
+      {
+        "id": "18744fff-2d0e-48ef-8e32-2887d865762f",
+        "type": "Beep.Skia.Components.SketchShape",
+        "x": 641,
+        "y": 322,
+        "width": 60,
+        "height": 40,
+        "name": "Rectangle 1",
+        "propertyBag": {
+          "Kind": "Rectangle",
+          "Stroke": "#334155",
+          "Fill": "#00000000",
+          "StrokeWidth": "2",
+          "PathData": "",
+          "DisplayText": "",
+          "TextFontSize": "24",
+          "GroupId": "00000000-0000-0000-0000-000000000000",
+          "Roughness": "0",
+          "SketchSeed": "2026190247"
+        },
+        "typedPropertyBag": {},
+        "inPointIds": [],
+        "outPointIds": []
+      },
+      {
+        "id": "e88968a1-5145-4afc-8369-d95de254054f",
+        "type": "Beep.Skia.Components.SketchShape",
+        "x": 681,
+        "y": 362,
+        "width": 20,
+        "height": 20,
+        "name": "Line 2",
+        "propertyBag": {
+          "Kind": "Line",
+          "Stroke": "#334155",
+          "Fill": "#00000000",
+          "StrokeWidth": "2",
+          "PathData": "1,0;0,1",
+          "DisplayText": "",
+          "TextFontSize": "24",
+          "GroupId": "00000000-0000-0000-0000-000000000000",
+          "Roughness": "0",
+          "SketchSeed": "816383109"
+        },
+        "typedPropertyBag": {},
+        "inPointIds": [],
+        "outPointIds": []
+      },
+      {
+        "id": "7b53ccaa-980b-4cdf-839f-cf3b574fc497",
+        "type": "Beep.Skia.Components.SketchShape",
+        "x": 661,
+        "y": 362,
+        "width": 20,
+        "height": 20,
+        "name": "Freehand 3",
+        "propertyBag": {
+          "Kind": "Freehand",
+          "Stroke": "#334155",
+          "Fill": "#00000000",
+          "StrokeWidth": "2",
+          "PathData": "1,1;0,1;0,0;1,0",
+          "DisplayText": "",
+          "TextFontSize": "24",
+          "GroupId": "00000000-0000-0000-0000-000000000000",
+          "Roughness": "0",
+          "SketchSeed": "461866101"
+        },
+        "typedPropertyBag": {},
+        "inPointIds": [],
+        "outPointIds": []
+      },
+      {
+        "id": "b31e03e1-6879-4cd8-be2f-d40c7aa2ccee",
+        "type": "Beep.Skia.Components.SketchShape",
+        "x": 681,
+        "y": 362,
+        "width": 148.2556,
+        "height": 41.6,
+        "name": "Text 4",
+        "propertyBag": {
+          "Kind": "Text",
+          "Stroke": "#334155",
+          "Fill": "#00000000",
+          "StrokeWidth": "2",
+          "PathData": "",
+          "DisplayText": "Keyboard idea",
+          "TextFontSize": "24",
+          "GroupId": "00000000-0000-0000-0000-000000000000",
+          "Roughness": "0",
+          "SketchSeed": "501147228"
+        },
+        "typedPropertyBag": {},
+        "inPointIds": [],
+        "outPointIds": []
+      }
+    ],
+    "lines": []
+  }
+}

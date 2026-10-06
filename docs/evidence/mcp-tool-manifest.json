@@ -1,0 +1,1019 @@
+{
+  "tools": [
+    {
+      "name": "insert_library_entry",
+      "description": "Insert a reusable library entry at world coordinates, generating fresh object/group/port IDs and preserving internal connectors.",
+      "inputSchema": {
+        "type": "object",
+        "properties": {
+          "drawingId": {
+            "type": "string",
+            "format": "uuid"
+          },
+          "expectedRevision": {
+            "type": "integer"
+          },
+          "entryId": {
+            "type": "string",
+            "format": "uuid"
+          },
+          "x": {
+            "type": "number"
+          },
+          "y": {
+            "type": "number"
+          }
+        },
+        "required": [
+          "drawingId",
+          "expectedRevision",
+          "entryId",
+          "x",
+          "y"
+        ]
+      }
+    },
+    {
+      "name": "export_drawing",
+      "description": "Export native SimpleDraw JSON, PNG, SVG or personal-library JSON to a generated file under this workspace/artifacts. Returns absolute path and native JSON for native/library export. Open native files in SimpleDraw. Image exports use all actual Beep.Skia renderers.",
+      "inputSchema": {
+        "type": "object",
+        "properties": {
+          "drawingId": {
+            "type": "string",
+            "format": "uuid"
+          },
+          "format": {
+            "type": "string",
+            "default": "native"
+          },
+          "scale": {
+            "type": "number",
+            "default": 1
+          },
+          "background": {
+            "type": "boolean",
+            "default": true
+          }
+        },
+        "required": [
+          "drawingId"
+        ]
+      },
+      "annotations": {
+        "readOnlyHint": true
+      }
+    },
+    {
+      "name": "create_drawing",
+      "description": "Create a named empty drawing. Returns ID and revision. All mutations require the current expectedRevision returned by a previous call.",
+      "inputSchema": {
+        "type": "object",
+        "properties": {
+          "name": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "name"
+        ]
+      }
+    },
+    {
+      "name": "get_ports",
+      "description": "Read actual input/output ports on a drawing element: stable IDs, index, datatype, availability and world coordinates. Default topology is also in describe_component.",
+      "inputSchema": {
+        "type": "object",
+        "properties": {
+          "drawingId": {
+            "type": "string",
+            "format": "uuid"
+          },
+          "elementId": {
+            "type": "string",
+            "format": "uuid"
+          }
+        },
+        "required": [
+          "drawingId",
+          "elementId"
+        ]
+      },
+      "annotations": {
+        "readOnlyHint": true
+      }
+    },
+    {
+      "name": "undo",
+      "description": "Undo the latest drawing edit in this server process. History resets when another process changes this drawing or the server restarts; native files persist.",
+      "inputSchema": {
+        "type": "object",
+        "properties": {
+          "drawingId": {
+            "type": "string",
+            "format": "uuid"
+          },
+          "expectedRevision": {
+            "type": "integer"
+          }
+        },
+        "required": [
+          "drawingId",
+          "expectedRevision"
+        ]
+      }
+    },
+    {
+      "name": "duplicate_elements",
+      "description": "Duplicate selected objects with new element/group/port identities using the UI duplication contract. Supports undo.",
+      "inputSchema": {
+        "type": "object",
+        "properties": {
+          "drawingId": {
+            "type": "string",
+            "format": "uuid"
+          },
+          "expectedRevision": {
+            "type": "integer"
+          },
+          "elementIds": {
+            "type": "array",
+            "items": {
+              "type": "string",
+              "format": "uuid"
+            }
+          }
+        },
+        "required": [
+          "drawingId",
+          "expectedRevision",
+          "elementIds"
+        ]
+      }
+    },
+    {
+      "name": "set_path",
+      "description": "Replace world-coordinate points on an existing sketch Line, Arrow or Freehand, preserving its identity/style and supporting undo. All native path/bounds limits apply.",
+      "inputSchema": {
+        "type": "object",
+        "properties": {
+          "drawingId": {
+            "type": "string",
+            "format": "uuid"
+          },
+          "expectedRevision": {
+            "type": "integer"
+          },
+          "elementId": {
+            "type": "string",
+            "format": "uuid"
+          },
+          "points": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "x": {
+                  "type": "number"
+                },
+                "y": {
+                  "type": "number"
+                }
+              },
+              "required": [
+                "x",
+                "y"
+              ]
+            }
+          }
+        },
+        "required": [
+          "drawingId",
+          "expectedRevision",
+          "elementId",
+          "points"
+        ]
+      }
+    },
+    {
+      "name": "set_viewport",
+      "description": "Set viewport size, world pan and zoom, or fit=true to fit the drawing. Viewport-only changes do not modify native geometry or undo history.",
+      "inputSchema": {
+        "type": "object",
+        "properties": {
+          "drawingId": {
+            "type": "string",
+            "format": "uuid"
+          },
+          "expectedRevision": {
+            "type": "integer"
+          },
+          "width": {
+            "type": "number",
+            "default": 800
+          },
+          "height": {
+            "type": "number",
+            "default": 600
+          },
+          "zoom": {
+            "type": "number",
+            "default": 1
+          },
+          "panX": {
+            "type": "number",
+            "default": 0
+          },
+          "panY": {
+            "type": "number",
+            "default": 0
+          },
+          "fit": {
+            "type": "boolean",
+            "default": false
+          }
+        },
+        "required": [
+          "drawingId",
+          "expectedRevision"
+        ]
+      }
+    },
+    {
+      "name": "add_component",
+      "description": "Insert any embedded Beep.Skia type at world coordinates using its default bounds or supplied width/height. Returns full drawing and selected new element ID. Use describe_component then set_component_property to configure it.",
+      "inputSchema": {
+        "type": "object",
+        "properties": {
+          "drawingId": {
+            "type": "string",
+            "format": "uuid"
+          },
+          "expectedRevision": {
+            "type": "integer"
+          },
+          "type": {
+            "type": "string"
+          },
+          "x": {
+            "type": "number"
+          },
+          "y": {
+            "type": "number"
+          },
+          "width": {
+            "type": [
+              "number",
+              "null"
+            ],
+            "default": null
+          },
+          "height": {
+            "type": [
+              "number",
+              "null"
+            ],
+            "default": null
+          }
+        },
+        "required": [
+          "drawingId",
+          "expectedRevision",
+          "type",
+          "x",
+          "y"
+        ]
+      }
+    },
+    {
+      "name": "list_drawings",
+      "description": "List persistent drawings in this workspace with IDs, revisions and object/connector counts. Claude and Codex share this directory.",
+      "inputSchema": {
+        "type": "object",
+        "properties": {}
+      },
+      "annotations": {
+        "readOnlyHint": true
+      }
+    },
+    {
+      "name": "list_components",
+      "description": "Discover all 249 embedded Beep.Skia components across 16 families, plus seven sketch kinds. Returns exact type keys; paginate before selecting a component.",
+      "inputSchema": {
+        "type": "object",
+        "properties": {
+          "family": {
+            "type": [
+              "string",
+              "null"
+            ],
+            "default": null
+          },
+          "search": {
+            "type": [
+              "string",
+              "null"
+            ],
+            "default": null
+          },
+          "offset": {
+            "type": "integer",
+            "default": 0
+          },
+          "limit": {
+            "type": "integer",
+            "default": 100
+          }
+        }
+      },
+      "annotations": {
+        "readOnlyHint": true
+      }
+    },
+    {
+      "name": "edit_text",
+      "description": "Edit an existing sketch Text element with font validation, portable measured bounds and undo. Beep.Skia component labels use their serialized properties through set_component_property.",
+      "inputSchema": {
+        "type": "object",
+        "properties": {
+          "drawingId": {
+            "type": "string",
+            "format": "uuid"
+          },
+          "expectedRevision": {
+            "type": "integer"
+          },
+          "elementId": {
+            "type": "string",
+            "format": "uuid"
+          },
+          "text": {
+            "type": "string"
+          },
+          "fontSize": {
+            "type": [
+              "number",
+              "null"
+            ],
+            "default": null
+          }
+        },
+        "required": [
+          "drawingId",
+          "expectedRevision",
+          "elementId",
+          "text"
+        ]
+      }
+    },
+    {
+      "name": "add_sketch",
+      "description": "Create Rectangle, Ellipse, Diamond, Line, Arrow, Freehand or Text. Bounds and path points use world coordinates. Line/Arrow/Freehand require 2-4096 points. Text uses bundled font measurements. Colors accept #RRGGBB or #AARRGGBB.",
+      "inputSchema": {
+        "type": "object",
+        "properties": {
+          "drawingId": {
+            "type": "string",
+            "format": "uuid"
+          },
+          "expectedRevision": {
+            "type": "integer"
+          },
+          "kind": {
+            "type": "string"
+          },
+          "x": {
+            "type": "number",
+            "default": 0
+          },
+          "y": {
+            "type": "number",
+            "default": 0
+          },
+          "width": {
+            "type": "number",
+            "default": 120
+          },
+          "height": {
+            "type": "number",
+            "default": 80
+          },
+          "text": {
+            "type": "string",
+            "default": ""
+          },
+          "stroke": {
+            "type": "string",
+            "default": "#334155"
+          },
+          "fill": {
+            "type": "string",
+            "default": "#00000000"
+          },
+          "strokeWidth": {
+            "type": "number",
+            "default": 2
+          },
+          "fontSize": {
+            "type": "number",
+            "default": 24
+          },
+          "roughness": {
+            "type": "number",
+            "default": 0
+          },
+          "points": {
+            "type": [
+              "array",
+              "null"
+            ],
+            "items": {
+              "type": [
+                "object",
+                "null"
+              ],
+              "properties": {
+                "x": {
+                  "type": "number"
+                },
+                "y": {
+                  "type": "number"
+                }
+              },
+              "required": [
+                "x",
+                "y"
+              ]
+            },
+            "default": null
+          }
+        },
+        "required": [
+          "drawingId",
+          "expectedRevision",
+          "kind"
+        ]
+      }
+    },
+    {
+      "name": "connect_nodes",
+      "description": "Connect two Beep.Skia catalog elements by zero-based output/input port indices, with label and Straight/Orthogonal/Curved routing. Port identity/availability validation matches the UI. Read ports using get_ports.",
+      "inputSchema": {
+        "type": "object",
+        "properties": {
+          "drawingId": {
+            "type": "string",
+            "format": "uuid"
+          },
+          "expectedRevision": {
+            "type": "integer"
+          },
+          "sourceId": {
+            "type": "string",
+            "format": "uuid"
+          },
+          "output": {
+            "type": "integer"
+          },
+          "targetId": {
+            "type": "string",
+            "format": "uuid"
+          },
+          "input": {
+            "type": "integer"
+          },
+          "label": {
+            "type": [
+              "string",
+              "null"
+            ],
+            "default": null
+          },
+          "routing": {
+            "type": "string",
+            "default": "Straight"
+          }
+        },
+        "required": [
+          "drawingId",
+          "expectedRevision",
+          "sourceId",
+          "output",
+          "targetId",
+          "input"
+        ]
+      }
+    },
+    {
+      "name": "redo",
+      "description": "Redo the last undone drawing edit in this server process.",
+      "inputSchema": {
+        "type": "object",
+        "properties": {
+          "drawingId": {
+            "type": "string",
+            "format": "uuid"
+          },
+          "expectedRevision": {
+            "type": "integer"
+          }
+        },
+        "required": [
+          "drawingId",
+          "expectedRevision"
+        ]
+      }
+    },
+    {
+      "name": "import_library",
+      "description": "Merge native SimpleDraw library JSON into the drawing's personal library after complete validation.",
+      "inputSchema": {
+        "type": "object",
+        "properties": {
+          "drawingId": {
+            "type": "string",
+            "format": "uuid"
+          },
+          "expectedRevision": {
+            "type": "integer"
+          },
+          "libraryJson": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "drawingId",
+          "expectedRevision",
+          "libraryJson"
+        ]
+      }
+    },
+    {
+      "name": "remove_connection",
+      "description": "Remove the connector identified by its stable start/end port IDs. Supports undo through the shared drawing manager.",
+      "inputSchema": {
+        "type": "object",
+        "properties": {
+          "drawingId": {
+            "type": "string",
+            "format": "uuid"
+          },
+          "expectedRevision": {
+            "type": "integer"
+          },
+          "startPortId": {
+            "type": "string",
+            "format": "uuid"
+          },
+          "endPortId": {
+            "type": "string",
+            "format": "uuid"
+          }
+        },
+        "required": [
+          "drawingId",
+          "expectedRevision",
+          "startPortId",
+          "endPortId"
+        ]
+      },
+      "annotations": {
+        "destructiveHint": true
+      }
+    },
+    {
+      "name": "reorder_elements",
+      "description": "Bring selected elements to the front or send them to the back with undo support.",
+      "inputSchema": {
+        "type": "object",
+        "properties": {
+          "drawingId": {
+            "type": "string",
+            "format": "uuid"
+          },
+          "expectedRevision": {
+            "type": "integer"
+          },
+          "elementIds": {
+            "type": "array",
+            "items": {
+              "type": "string",
+              "format": "uuid"
+            }
+          },
+          "front": {
+            "type": "boolean",
+            "default": true
+          }
+        },
+        "required": [
+          "drawingId",
+          "expectedRevision",
+          "elementIds"
+        ]
+      }
+    },
+    {
+      "name": "resize_elements",
+      "description": "Resize the selection bounding box to world-coordinate width/height, proportionally scaling its members. Preserves text font measurements and existing catalog resize rules; supports undo.",
+      "inputSchema": {
+        "type": "object",
+        "properties": {
+          "drawingId": {
+            "type": "string",
+            "format": "uuid"
+          },
+          "expectedRevision": {
+            "type": "integer"
+          },
+          "elementIds": {
+            "type": "array",
+            "items": {
+              "type": "string",
+              "format": "uuid"
+            }
+          },
+          "width": {
+            "type": "number"
+          },
+          "height": {
+            "type": "number"
+          }
+        },
+        "required": [
+          "drawingId",
+          "expectedRevision",
+          "elementIds",
+          "width",
+          "height"
+        ]
+      }
+    },
+    {
+      "name": "move_elements",
+      "description": "Move selected element IDs by world-coordinate dx/dy, preserving ports/connections/groups. Rejects non-finite or out-of-board motion; supports undo.",
+      "inputSchema": {
+        "type": "object",
+        "properties": {
+          "drawingId": {
+            "type": "string",
+            "format": "uuid"
+          },
+          "expectedRevision": {
+            "type": "integer"
+          },
+          "elementIds": {
+            "type": "array",
+            "items": {
+              "type": "string",
+              "format": "uuid"
+            }
+          },
+          "dx": {
+            "type": "number"
+          },
+          "dy": {
+            "type": "number"
+          }
+        },
+        "required": [
+          "drawingId",
+          "expectedRevision",
+          "elementIds",
+          "dx",
+          "dy"
+        ]
+      }
+    },
+    {
+      "name": "get_drawing",
+      "description": "Read full native diagram: all element IDs, bounds, scalar and structured properties, stable input/output port IDs, connectors, revision, selection and current history/viewport.",
+      "inputSchema": {
+        "type": "object",
+        "properties": {
+          "drawingId": {
+            "type": "string",
+            "format": "uuid"
+          }
+        },
+        "required": [
+          "drawingId"
+        ]
+      },
+      "annotations": {
+        "readOnlyHint": true
+      }
+    },
+    {
+      "name": "set_style",
+      "description": "Apply stroke/fill/stroke width/sketch roughness/font size to selected sketch or catalog objects using the same style logic as the UI. Unsupported component style mappings are explicit in describe_component.",
+      "inputSchema": {
+        "type": "object",
+        "properties": {
+          "drawingId": {
+            "type": "string",
+            "format": "uuid"
+          },
+          "expectedRevision": {
+            "type": "integer"
+          },
+          "elementIds": {
+            "type": "array",
+            "items": {
+              "type": "string",
+              "format": "uuid"
+            }
+          },
+          "stroke": {
+            "type": [
+              "string",
+              "null"
+            ],
+            "default": null
+          },
+          "fill": {
+            "type": [
+              "string",
+              "null"
+            ],
+            "default": null
+          },
+          "strokeWidth": {
+            "type": [
+              "number",
+              "null"
+            ],
+            "default": null
+          },
+          "roughness": {
+            "type": [
+              "number",
+              "null"
+            ],
+            "default": null
+          },
+          "fontSize": {
+            "type": [
+              "number",
+              "null"
+            ],
+            "default": null
+          }
+        },
+        "required": [
+          "drawingId",
+          "expectedRevision",
+          "elementIds"
+        ]
+      }
+    },
+    {
+      "name": "import_drawing",
+      "description": "Create a drawing from native SimpleDraw JSON (versions 1-7), preserving identities, all typed properties and connections. Validates before saving; does not overwrite other drawings.",
+      "inputSchema": {
+        "type": "object",
+        "properties": {
+          "name": {
+            "type": "string"
+          },
+          "nativeJson": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "name",
+          "nativeJson"
+        ]
+      }
+    },
+    {
+      "name": "save_library_selection",
+      "description": "Save selected objects and their internal connectors as a reusable personal-library entry in this drawing. Uses native library size/group limits.",
+      "inputSchema": {
+        "type": "object",
+        "properties": {
+          "drawingId": {
+            "type": "string",
+            "format": "uuid"
+          },
+          "expectedRevision": {
+            "type": "integer"
+          },
+          "elementIds": {
+            "type": "array",
+            "items": {
+              "type": "string",
+              "format": "uuid"
+            }
+          },
+          "name": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "drawingId",
+          "expectedRevision",
+          "elementIds",
+          "name"
+        ]
+      }
+    },
+    {
+      "name": "remove_library_entry",
+      "description": "Remove a personal-library entry from this drawing. Existing canvas objects remain. Library removal is persisted and does not use drawing undo.",
+      "inputSchema": {
+        "type": "object",
+        "properties": {
+          "drawingId": {
+            "type": "string",
+            "format": "uuid"
+          },
+          "expectedRevision": {
+            "type": "integer"
+          },
+          "entryId": {
+            "type": "string",
+            "format": "uuid"
+          }
+        },
+        "required": [
+          "drawingId",
+          "expectedRevision",
+          "entryId"
+        ]
+      },
+      "annotations": {
+        "destructiveHint": true
+      }
+    },
+    {
+      "name": "render_drawing",
+      "description": "Return an actual PNG image of the drawing inline to Claude/Codex for visual inspection, plus a saved artifact path. Uses real Beep.Skia rendering with strict export pixel limits.",
+      "inputSchema": {
+        "type": "object",
+        "properties": {
+          "drawingId": {
+            "type": "string",
+            "format": "uuid"
+          },
+          "scale": {
+            "type": "number",
+            "default": 1
+          },
+          "background": {
+            "type": "boolean",
+            "default": true
+          }
+        },
+        "required": [
+          "drawingId"
+        ]
+      },
+      "annotations": {
+        "readOnlyHint": true
+      }
+    },
+    {
+      "name": "delete_elements",
+      "description": "Delete element IDs and associated connectors with undo support. This edits the selected drawing only.",
+      "inputSchema": {
+        "type": "object",
+        "properties": {
+          "drawingId": {
+            "type": "string",
+            "format": "uuid"
+          },
+          "expectedRevision": {
+            "type": "integer"
+          },
+          "elementIds": {
+            "type": "array",
+            "items": {
+              "type": "string",
+              "format": "uuid"
+            }
+          }
+        },
+        "required": [
+          "drawingId",
+          "expectedRevision",
+          "elementIds"
+        ]
+      },
+      "annotations": {
+        "destructiveHint": true
+      }
+    },
+    {
+      "name": "select_elements",
+      "description": "Select explicit element IDs, including grouped objects, using SimpleDraw selection semantics.",
+      "inputSchema": {
+        "type": "object",
+        "properties": {
+          "drawingId": {
+            "type": "string",
+            "format": "uuid"
+          },
+          "expectedRevision": {
+            "type": "integer"
+          },
+          "elementIds": {
+            "type": "array",
+            "items": {
+              "type": "string",
+              "format": "uuid"
+            }
+          }
+        },
+        "required": [
+          "drawingId",
+          "expectedRevision",
+          "elementIds"
+        ]
+      }
+    },
+    {
+      "name": "describe_component",
+      "description": "Get every serialized editable property of a Beep.Skia component, defaults, CLR types, JSON structure, enums and default port topology. Use the exact type returned by list_components.",
+      "inputSchema": {
+        "type": "object",
+        "properties": {
+          "type": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "type"
+        ]
+      },
+      "annotations": {
+        "readOnlyHint": true
+      }
+    },
+    {
+      "name": "group_elements",
+      "description": "Group selected objects, or ungroup them when ungroup=true, using shared selection and undo contracts.",
+      "inputSchema": {
+        "type": "object",
+        "properties": {
+          "drawingId": {
+            "type": "string",
+            "format": "uuid"
+          },
+          "expectedRevision": {
+            "type": "integer"
+          },
+          "elementIds": {
+            "type": "array",
+            "items": {
+              "type": "string",
+              "format": "uuid"
+            }
+          },
+          "ungroup": {
+            "type": "boolean",
+            "default": false
+          }
+        },
+        "required": [
+          "drawingId",
+          "expectedRevision",
+          "elementIds"
+        ]
+      }
+    },
+    {
+      "name": "set_component_property",
+      "description": "Edit any serialized Beep.Skia property with undo support. value uses invariant text for scalar properties (including enums/colors) or a JSON string for structured properties. Supports all properties returned by describe_component, including JSON-backed domain data.",
+      "inputSchema": {
+        "type": "object",
+        "properties": {
+          "drawingId": {
+            "type": "string",
+            "format": "uuid"
+          },
+          "expectedRevision": {
+            "type": "integer"
+          },
+          "elementId": {
+            "type": "string",
+            "format": "uuid"
+          },
+          "property": {
+            "type": "string"
+          },
+          "value": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "drawingId",
+          "expectedRevision",
+          "elementId",
+          "property",
+          "value"
+        ]
+      }
+    }
+  ]
+}

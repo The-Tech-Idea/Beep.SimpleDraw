@@ -1,0 +1,49 @@
+{
+  "candidate": "artifacts/default-skia-catalog-indexed",
+  "offlineVersion": "8de7c128f221df23",
+  "sourceChange": "Fixed-key dictionary replaces linear catalog membership scans; factories and document validation remain unchanged.",
+  "tests": {
+    "csharp": 542,
+    "javascript": 77
+  },
+  "beforeP95Ms": 108.70000004768372,
+  "afterP95Ms": [
+    41.299999952316284,
+    25.600000023841858
+  ],
+  "protocol": {
+    "objects": 1000,
+    "warmup": 20,
+    "measured": 120,
+    "committedEdits": 140,
+    "budgetMs": 50,
+    "profile": false,
+    "viewport": [
+      1280,
+      720
+    ],
+    "engine": "Codex in-app Chromium 154",
+    "dpr": 1
+  },
+  "invariantsVerified": [
+    "geometry restored",
+    "140 revisions/dispatches/paints per run",
+    "100 retained undo entries",
+    "six paint requests produce two dispatches and paints"
+  ],
+  "totals": {
+    "identity": 30910591,
+    "br": 8456092,
+    "gzip": 11137019
+  },
+  "zipSha256": "a92a4fb08e48bb1e47ec7634a322b2df52c1361609e022bd16e5728bcf2b42d2",
+  "scope": "Existing mixed sketch/text benchmark with default catalog open. Does not measure a board containing all catalog families, physical devices, GPU timestamps or cold network startup.",
+  "nativeDownload": "Request status observed, but benchmark download completion/file bytes were not captured; not claimed as verified.",
+  "previewUpdate": {
+    "url": "http://127.0.0.1:5243/draw/",
+    "objectsBefore": 10,
+    "objectsAfter": 10,
+    "status": "Restored from this device - your drawing is ready",
+    "scope": "Visible object-count and restoration status; exact ten-object native bytes not captured."
+  }
+}

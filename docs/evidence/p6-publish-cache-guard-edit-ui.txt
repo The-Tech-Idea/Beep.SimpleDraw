@@ -1,0 +1,5 @@
+Browser tab: 66, Title: "SimpleDraw — a little room for big ideas", URL: "http://127.0.0.1:5237/draw/".
+The following is a diff from the previous accessibility tree with ~ and + representing changed and added elements, respectively. Removed elements are summarized by ID range.
+Removed element IDs: 115
+~			87 text Saved on this device · download a file for a portable copy
+The focused UI element is 58 checkbox Description: Stroke width 4, Value: 1

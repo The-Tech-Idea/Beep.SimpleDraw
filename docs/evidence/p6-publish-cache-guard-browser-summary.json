@@ -1,0 +1,24 @@
+{
+  "decision": "Replayed failing post-AOT cache is corrected by fresh Web publish intermediates.",
+  "automated": {
+    "csharp": 188,
+    "javascript": 71,
+    "offlineAssets": 134,
+    "zipEntries": 402
+  },
+  "allPublishedFilesByteIdentical": true,
+  "browser": {
+    "origin": "http://127.0.0.1:5237/draw/",
+    "startup": true,
+    "importedObjects": 7,
+    "selectedWidthEditAndUndo": true,
+    "serverStoppedReload": true,
+    "warningErrorCount": 0
+  },
+  "native": {
+    "bytes": 5105,
+    "sha256": "02743b965d9c18a3f15fdc59031c6b1af5d71434faf8b1bfb936d73f493a5ebd",
+    "baselineEditUndoOfflineDownloadsByteIdentical": true
+  },
+  "limitation": "Captured desktop workflow and reproduced cache defect only; mixed p95 and external acceptance remain open."
+}

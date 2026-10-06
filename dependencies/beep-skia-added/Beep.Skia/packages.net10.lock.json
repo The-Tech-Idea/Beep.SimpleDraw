@@ -1,0 +1,80 @@
+{
+  "version": 1,
+  "dependencies": {
+    "net10.0": {
+      "SkiaSharp": {
+        "type": "Direct",
+        "requested": "[4.150.1, )",
+        "resolved": "4.150.1",
+        "contentHash": "5v3T8X1N62Dp+AkPO70GNBNS/NRBPGMOTiN+Prg33sZAcm/Ug3YOAH+3RTj/jxJV8NGTJs2idGpC2Qdae2mGLQ==",
+        "dependencies": {
+          "SkiaSharp.NativeAssets.Win32": "4.150.1",
+          "SkiaSharp.NativeAssets.macOS": "4.150.1"
+        }
+      },
+      "SkiaSharp.Extended": {
+        "type": "Direct",
+        "requested": "[3.0.0, )",
+        "resolved": "3.0.0",
+        "contentHash": "XEo9C8pRDQ8Kd/4UAJF4b3KBXmstuQfo2aRcczdeEwjOy3669kXQsey/fquT4b245Uvk87rfa3U+NfVJ7bOXgw==",
+        "dependencies": {
+          "SkiaSharp": "3.119.1"
+        }
+      },
+      "SkiaSharp.Svg": {
+        "type": "Direct",
+        "requested": "[1.60.0, )",
+        "resolved": "1.60.0",
+        "contentHash": "rTneyM6mt0w2xCCampFlkO3mGFIwGEJo7L2X3JOdyeMCZDQkyqv7m9kZfA89kLSErXErFnY72TZsryzqTIiT7g==",
+        "dependencies": {
+          "SkiaSharp": "1.60.0"
+        }
+      },
+      "TheTechIdea.Beep.DataManagementModels": {
+        "type": "Direct",
+        "requested": "[3.1.1, )",
+        "resolved": "3.1.1",
+        "contentHash": "fhVmUlKve4R1H5V011+TWDln/juFEYlYMQUh+8IhoOtdm4U7Vzte6kZeflhOjcuzwFGZphO7w4ri30N2SrlCPw=="
+      },
+      "TheTechIdea.Beep.Vis.Modules": {
+        "type": "Direct",
+        "requested": "[2.0.44, )",
+        "resolved": "2.0.44",
+        "contentHash": "QAAqR5G2P4fZVrLDZeQS/+ixJ7jhGU7aGSU8GVUt0SILGx2BtN8SV1Mvya1u+u37VMBKI+c2ImyKzHr4HoHQzw==",
+        "dependencies": {
+          "System.Drawing.Common": "10.0.9",
+          "TheTechIdea.Beep.DataManagementModels": "3.1.0"
+        }
+      },
+      "Microsoft.Win32.SystemEvents": {
+        "type": "Transitive",
+        "resolved": "10.0.9",
+        "contentHash": "dk5HKolAR9bBxlL4dl6Koaf0s/Q47QApog+/o341LSuvWGW6ig4q5fTsgYG0MrK//l2Slv6mygncMK/8lgXVDg=="
+      },
+      "SkiaSharp.NativeAssets.macOS": {
+        "type": "Transitive",
+        "resolved": "4.150.1",
+        "contentHash": "r755HVwaHZhyf1clWjrM2/RoOZYCzkQEmE9pu/mVsebPejWu52niNPUwtfyf112qoF0PIk6OndqVOUoITj6TwQ=="
+      },
+      "SkiaSharp.NativeAssets.Win32": {
+        "type": "Transitive",
+        "resolved": "4.150.1",
+        "contentHash": "qrLSL8OonbkMJdSH8heK0Jl39Y2xxZGdd7Ru4cyBXk2ITdx+Fu1sCFLmvCKmnMaYs//mlN/YSpSpOurEXErcQw=="
+      },
+      "System.Drawing.Common": {
+        "type": "Transitive",
+        "resolved": "10.0.9",
+        "contentHash": "ShkEj8jOhklJgrN3SoaVbCcopvqyIgVXHso2/eibQBL7IZxzJjND77UYVlViHqpwPxyQeA67IOut4b41clBkQw==",
+        "dependencies": {
+          "Microsoft.Win32.SystemEvents": "10.0.9"
+        }
+      },
+      "beep.skia.model": {
+        "type": "Project",
+        "dependencies": {
+          "SkiaSharp": "[4.150.1, )"
+        }
+      }
+    }
+  }
+}

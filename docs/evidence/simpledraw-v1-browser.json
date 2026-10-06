@@ -1,0 +1,25 @@
+{
+  "candidate": "artifacts/simpledraw-v1-final",
+  "mcpNativeImported": {
+    "objects": 6,
+    "connectors": 2
+  },
+  "textEditUndo": "Claude + Codex use Beep.Skia",
+  "reloadRestoredObjects": 6,
+  "offlineReload": true,
+  "offlineInsertObjects": 7,
+  "offlinePropertyUndo": "Card",
+  "english320": {
+    "width": 320,
+    "scrollWidth": 320
+  },
+  "arabic320": {
+    "width": 320,
+    "scrollWidth": 320,
+    "dir": "rtl"
+  },
+  "userUpdateRestoredObjects": 10,
+  "warningErrors": [],
+  "userWarningErrors": [],
+  "nativeDownloadCompletion": "not established; original download event timed out"
+}

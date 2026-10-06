@@ -1,0 +1,22 @@
+{
+  "release": "default-skia-catalog-port-stable",
+  "sourceSha256": "42d01696deb91a9e3e62c64fd374a0d372960e6cf68f04a68f643c0f01707fea",
+  "sourceFiles": 498,
+  "csharpTests": 568,
+  "javascriptTests": 77,
+  "ordinarySiblingTests": 504,
+  "offlineVersion": "248433f1f2308a04",
+  "offlineAssets": 151,
+  "inventoryBytes": {
+    "identity": 30912160,
+    "br": 8456690,
+    "gzip": 11137428
+  },
+  "zipEntries": 453,
+  "zipSha256": "75c628d3e4588261d5f2552290e4294e0eeff9d58f67477c5ce3a092f22866a5",
+  "originalDefaultsRoundtrip": true,
+  "currentDefaultsRoundtrip": true,
+  "byteExactOriginalDefaults": true,
+  "byteExactCurrentDefaults": true,
+  "scope": "Embedded Chromium release import/render/native download/local restore; no all-family throughput or external device/acceptance certification."
+}

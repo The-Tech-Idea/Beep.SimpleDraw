@@ -1,0 +1,8 @@
+{
+  "browserCandidate": "artifacts/p6-notices/publish/wwwroot",
+  "verifiedCandidate": "artifacts/p6-notices-verified/publish/wwwroot",
+  "matched": true,
+  "version": 1,
+  "files": 399,
+  "scope": "All published identity and encoded bytes compared by SHA256"
+}

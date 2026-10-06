@@ -1,0 +1,15 @@
+{
+  "client": "codex",
+  "pluginRoot": "C:\\Users\\f_ald\\.codex\\plugins\\cache\\beep-tools\\simpledraw\\1.0.0",
+  "configuredLauncher": true,
+  "serverHash": "7cf31b1db4e7c5b9c6623d2d9320de11653cb29d240a2c3e90ee5b6e47e056d6",
+  "tools": 31,
+  "components": 249,
+  "families": 16,
+  "propertySchema": true,
+  "nativeExport": true,
+  "png": true,
+  "inlineRender": true,
+  "resources": true,
+  "stdoutJsonOnly": true
+}

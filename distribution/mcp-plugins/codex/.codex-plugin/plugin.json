@@ -1,0 +1,19 @@
+{
+  "name": "simpledraw",
+  "version": "1.0.0",
+  "description": "Create and edit portable drawings with 249 embedded Beep.Skia components and 31 MCP tools.",
+  "author": { "name": "The Tech Idea" },
+  "keywords": ["drawing", "diagrams", "beep-skia", "mcp"],
+  "skills": "./skills/",
+  "mcpServers": "./.mcp.json",
+  "interface": {
+    "displayName": "Beep SimpleDraw",
+    "shortDescription": "Draw with the embedded Beep.Skia component libraries",
+    "longDescription": "Discover components and portable properties; create, connect, edit, save and render drawings through a local MCP server.",
+    "developerName": "The Tech Idea",
+    "category": "Productivity",
+    "capabilities": ["Read", "Write"],
+    "brandColor": "#0F766E",
+    "defaultPrompt": ["Create a diagram using Beep SimpleDraw and show the rendered result."]
+  }
+}

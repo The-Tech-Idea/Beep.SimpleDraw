@@ -1,0 +1,60 @@
+Skip to drawing
+b.
+simpledraw.
+On your device
+New
+Open
+Save drawing ↗
+ع
+Drawing workspace
+
+Choose a tool shortcut to focus the canvas. Enter starts a shape, arrows move its cursor, Enter finishes it. Shift increases the step. T then Enter opens text editing. Select objects in the Objects list, then V and arrows to move, or Delete to remove them. The Style panel also offers numeric resizing.
+
+V
+H
+R
+O
+D
+L
+A
+P
+T
+E
+Make it yours
+1 selected
+Stroke
+Fill
+/
+Stroke width
+Appearance
+Smooth
+Sketch
+Selection
+Duplicate
+Group
+Ungroup
+Bring to front
+Send to back
+Selection size
+Width
+Height
+Apply size
+
+Style changes can be undone. Shift-click to select more.
+
+Drag the bottom-right handle to resize; drag a line or arrow endpoint to reshape it.
+
+Objects 1000
+Workflow templates
+Connectors 0
+Library
+↶
+↷
+−
+43%
++
+⊡
+?
+Export image
+Supplied file with size 2453469 bytes exceeds the maximum of 2097152 bytes.
+1000 objects; 1 selected.

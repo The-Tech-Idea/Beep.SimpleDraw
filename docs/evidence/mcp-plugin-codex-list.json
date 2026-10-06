@@ -1,0 +1,23 @@
+{
+  "installed": [
+    {
+      "pluginId": "simpledraw@beep-tools",
+      "name": "simpledraw",
+      "marketplaceName": "beep-tools",
+      "version": "1.0.0",
+      "installed": true,
+      "enabled": true,
+      "source": {
+        "source": "local",
+        "path": "C:\\Users\\f_ald\\source\\repos\\The-Tech-Idea\\Beep.SimpleDraw\\artifacts\\simpledraw-plugins-v1\\plugins\\simpledraw-codex"
+      },
+      "marketplaceSource": {
+        "sourceType": "local",
+        "source": "\\\\?\\C:\\Users\\f_ald\\source\\repos\\The-Tech-Idea\\Beep.SimpleDraw\\artifacts\\simpledraw-plugins-v1"
+      },
+      "installPolicy": "AVAILABLE",
+      "authPolicy": "ON_INSTALL"
+    }
+  ],
+  "available": []
+}

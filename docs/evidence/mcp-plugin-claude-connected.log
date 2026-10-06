@@ -1,0 +1,9 @@
+plugin:simpledraw:simpledraw:
+  Scope: Dynamic config (from command line)
+  Status: √ Connected
+  Type: stdio
+  Command: stdio
+  Args:
+  Environment:
+    CLAUDE_PLUGIN_ROOT=[REDACTED]
+    CLAUDE_PLUGIN_DATA=[REDACTED]

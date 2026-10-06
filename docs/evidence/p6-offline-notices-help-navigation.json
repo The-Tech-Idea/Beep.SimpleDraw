@@ -1,0 +1,14 @@
+[
+  {
+    "id": "72",
+    "providerTabId": "browser-use:e2cbe4e7-43a5-4ec1-b12b-a8bcea4ac35a",
+    "title": "SimpleDraw — a little room for big ideas",
+    "url": "http://127.0.0.1:5243/draw/"
+  },
+  {
+    "id": "75",
+    "providerTabId": "61906c40-1e1c-4fa9-94d9-0450fc0a4e34",
+    "title": "SimpleDraw — software notices",
+    "url": "http://127.0.0.1:5243/draw/licenses/index.html"
+  }
+]

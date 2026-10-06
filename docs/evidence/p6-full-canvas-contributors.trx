@@ -1,0 +1,232 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TestRun id="428de6da-00a8-4ac9-bfbd-ea2a5bf43b03" name="f_ald@DEVSTATION 2026-10-06 00:42:20" runUser="DEVSTATION\f_ald" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <Times creation="2026-10-06T00:42:20.0833344+03:00" queuing="2026-10-06T00:42:20.0833348+03:00" start="2026-10-06T00:42:15.1166443+03:00" finish="2026-10-06T00:42:56.1431294+03:00" />
+  <TestSettings name="default" id="2fbaf5d3-a4bf-435a-8695-e045071e73ed">
+    <Deployment runDeploymentRoot="f_ald_DEVSTATION_2026-10-06_00_42_20" />
+  </TestSettings>
+  <Results>
+    <UnitTestResult executionId="5a75f797-2e5e-4ead-aedd-7b4930fd6ffb" testId="08ccc5c1-fd79-cf3a-c4f3-c9df33b9cc39" testName="Beep.SimpleDraw.Tests.FullCanvasContributorTrialTests.FullCanvasContributorsWithRegionalPixelCopyMustMatchFullFrame(zoom: 1.75, grid: False, isolatedOverlap: False)" computerName="DEVSTATION" duration="00:00:03.0465188" startTime="2026-10-06T00:42:56.0723115+03:00" endTime="2026-10-06T00:42:56.0723118+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="5a75f797-2e5e-4ead-aedd-7b4930fd6ffb">
+      <Output>
+        <StdOut>zoom=1.75; grid=False; isolated overlap=False; step=0; changed channels=0; omitted=80&#xD;
+zoom=1.75; grid=False; isolated overlap=False; step=1; changed channels=0; omitted=80&#xD;
+zoom=1.75; grid=False; isolated overlap=False; step=2; changed channels=0; omitted=80&#xD;
+zoom=1.75; grid=False; isolated overlap=False; step=3; changed channels=0; omitted=80&#xD;
+zoom=1.75; grid=False; isolated overlap=False; step=4; changed channels=0; omitted=80&#xD;
+zoom=1.75; grid=False; isolated overlap=False; step=5; changed channels=0; omitted=80&#xD;
+zoom=1.75; grid=False; isolated overlap=False; step=6; changed channels=0; omitted=80&#xD;
+zoom=1.75; grid=False; isolated overlap=False; step=7; changed channels=0; omitted=80</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="0de2bd21-a92a-42a5-b4d4-8b88acaa01f6" testId="c076f6da-e401-a5e5-0f62-142d84e2fdf0" testName="Beep.SimpleDraw.Tests.FullCanvasContributorTrialTests.FullCanvasContributorsWithRegionalPixelCopyMustMatchFullFrame(zoom: 1.75, grid: True, isolatedOverlap: True)" computerName="DEVSTATION" duration="00:00:03.1121683" startTime="2026-10-06T00:42:36.6323227+03:00" endTime="2026-10-06T00:42:36.6323230+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="0de2bd21-a92a-42a5-b4d4-8b88acaa01f6">
+      <Output>
+        <StdOut>zoom=1.75; grid=True; isolated overlap=True; step=0; changed channels=0; omitted=80&#xD;
+zoom=1.75; grid=True; isolated overlap=True; step=1; changed channels=0; omitted=80&#xD;
+zoom=1.75; grid=True; isolated overlap=True; step=2; changed channels=0; omitted=80&#xD;
+zoom=1.75; grid=True; isolated overlap=True; step=3; changed channels=0; omitted=80&#xD;
+zoom=1.75; grid=True; isolated overlap=True; step=4; changed channels=0; omitted=80&#xD;
+zoom=1.75; grid=True; isolated overlap=True; step=5; changed channels=0; omitted=80&#xD;
+zoom=1.75; grid=True; isolated overlap=True; step=6; changed channels=0; omitted=80&#xD;
+zoom=1.75; grid=True; isolated overlap=True; step=7; changed channels=0; omitted=80</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="b44df001-5698-4e41-9c6a-c4c9b07dd8cb" testId="6fc47ee2-f568-18ae-dee6-3ab656e838f7" testName="Beep.SimpleDraw.Tests.FullCanvasContributorTrialTests.FullCanvasContributorsWithRegionalPixelCopyMustMatchFullFrame(zoom: 1.75, grid: False, isolatedOverlap: True)" computerName="DEVSTATION" duration="00:00:03.4499883" startTime="2026-10-06T00:42:46.6648862+03:00" endTime="2026-10-06T00:42:46.6648866+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="b44df001-5698-4e41-9c6a-c4c9b07dd8cb">
+      <Output>
+        <StdOut>zoom=1.75; grid=False; isolated overlap=True; step=0; changed channels=0; omitted=80&#xD;
+zoom=1.75; grid=False; isolated overlap=True; step=1; changed channels=0; omitted=80&#xD;
+zoom=1.75; grid=False; isolated overlap=True; step=2; changed channels=0; omitted=80&#xD;
+zoom=1.75; grid=False; isolated overlap=True; step=3; changed channels=0; omitted=80&#xD;
+zoom=1.75; grid=False; isolated overlap=True; step=4; changed channels=0; omitted=80&#xD;
+zoom=1.75; grid=False; isolated overlap=True; step=5; changed channels=0; omitted=80&#xD;
+zoom=1.75; grid=False; isolated overlap=True; step=6; changed channels=0; omitted=80&#xD;
+zoom=1.75; grid=False; isolated overlap=True; step=7; changed channels=0; omitted=80</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="4e343dd3-a7b5-4410-b5d1-3ec68da12795" testId="1d5d20f3-eb90-0f16-6e2f-46008f429b02" testName="Beep.SimpleDraw.Tests.FullCanvasContributorTrialTests.FullCanvasContributorsWithRegionalPixelCopyMustMatchFullFrame(zoom: 0.409999996, grid: True, isolatedOverlap: False)" computerName="DEVSTATION" duration="00:00:04.0731648" startTime="2026-10-06T00:42:20.0417371+03:00" endTime="2026-10-06T00:42:20.0417911+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="4e343dd3-a7b5-4410-b5d1-3ec68da12795">
+      <Output>
+        <StdOut>zoom=0.41; grid=True; isolated overlap=False; step=0; changed channels=0; omitted=80&#xD;
+zoom=0.41; grid=True; isolated overlap=False; step=1; changed channels=0; omitted=80&#xD;
+zoom=0.41; grid=True; isolated overlap=False; step=2; changed channels=0; omitted=80&#xD;
+zoom=0.41; grid=True; isolated overlap=False; step=3; changed channels=0; omitted=80&#xD;
+zoom=0.41; grid=True; isolated overlap=False; step=4; changed channels=0; omitted=80&#xD;
+zoom=0.41; grid=True; isolated overlap=False; step=5; changed channels=0; omitted=80&#xD;
+zoom=0.41; grid=True; isolated overlap=False; step=6; changed channels=0; omitted=80&#xD;
+zoom=0.41; grid=True; isolated overlap=False; step=7; changed channels=0; omitted=80</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="b4e728b0-8a82-44b5-aea7-ff0b8a0401ca" testId="f36e980a-f22d-e806-10d8-56632419f7c2" testName="Beep.SimpleDraw.Tests.FullCanvasContributorTrialTests.FullCanvasContributorsWithRegionalPixelCopyMustMatchFullFrame(zoom: 0.875, grid: False, isolatedOverlap: True)" computerName="DEVSTATION" duration="00:00:03.5815285" startTime="2026-10-06T00:42:23.6221648+03:00" endTime="2026-10-06T00:42:23.6221651+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="b4e728b0-8a82-44b5-aea7-ff0b8a0401ca">
+      <Output>
+        <StdOut>zoom=0.875; grid=False; isolated overlap=True; step=0; changed channels=0; omitted=80&#xD;
+zoom=0.875; grid=False; isolated overlap=True; step=1; changed channels=0; omitted=80&#xD;
+zoom=0.875; grid=False; isolated overlap=True; step=2; changed channels=0; omitted=80&#xD;
+zoom=0.875; grid=False; isolated overlap=True; step=3; changed channels=0; omitted=80&#xD;
+zoom=0.875; grid=False; isolated overlap=True; step=4; changed channels=0; omitted=80&#xD;
+zoom=0.875; grid=False; isolated overlap=True; step=5; changed channels=0; omitted=80&#xD;
+zoom=0.875; grid=False; isolated overlap=True; step=6; changed channels=0; omitted=80&#xD;
+zoom=0.875; grid=False; isolated overlap=True; step=7; changed channels=0; omitted=80</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="e02d8498-710e-4f51-9ae2-577b26329e37" testId="e7c8e3ab-f565-3248-6b70-c1be0d6f9a63" testName="Beep.SimpleDraw.Tests.FullCanvasContributorTrialTests.FullCanvasContributorsWithRegionalPixelCopyMustMatchFullFrame(zoom: 0.409999996, grid: True, isolatedOverlap: True)" computerName="DEVSTATION" duration="00:00:03.3244159" startTime="2026-10-06T00:42:49.9896848+03:00" endTime="2026-10-06T00:42:49.9896850+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="e02d8498-710e-4f51-9ae2-577b26329e37">
+      <Output>
+        <StdOut>zoom=0.41; grid=True; isolated overlap=True; step=0; changed channels=0; omitted=80&#xD;
+zoom=0.41; grid=True; isolated overlap=True; step=1; changed channels=0; omitted=80&#xD;
+zoom=0.41; grid=True; isolated overlap=True; step=2; changed channels=0; omitted=80&#xD;
+zoom=0.41; grid=True; isolated overlap=True; step=3; changed channels=0; omitted=80&#xD;
+zoom=0.41; grid=True; isolated overlap=True; step=4; changed channels=0; omitted=80&#xD;
+zoom=0.41; grid=True; isolated overlap=True; step=5; changed channels=0; omitted=80&#xD;
+zoom=0.41; grid=True; isolated overlap=True; step=6; changed channels=0; omitted=80&#xD;
+zoom=0.41; grid=True; isolated overlap=True; step=7; changed channels=0; omitted=80</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="c7fc634d-f2a5-426d-a29a-461c5b05d506" testId="3d44f731-32d1-0dfd-0df6-d4b9df3c5052" testName="Beep.SimpleDraw.Tests.FullCanvasContributorTrialTests.FullCanvasContributorsWithRegionalPixelCopyMustMatchFullFrame(zoom: 0.409999996, grid: False, isolatedOverlap: True)" computerName="DEVSTATION" duration="00:00:03.3673364" startTime="2026-10-06T00:42:26.9895228+03:00" endTime="2026-10-06T00:42:26.9895234+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="c7fc634d-f2a5-426d-a29a-461c5b05d506">
+      <Output>
+        <StdOut>zoom=0.41; grid=False; isolated overlap=True; step=0; changed channels=0; omitted=80&#xD;
+zoom=0.41; grid=False; isolated overlap=True; step=1; changed channels=0; omitted=80&#xD;
+zoom=0.41; grid=False; isolated overlap=True; step=2; changed channels=0; omitted=80&#xD;
+zoom=0.41; grid=False; isolated overlap=True; step=3; changed channels=0; omitted=80&#xD;
+zoom=0.41; grid=False; isolated overlap=True; step=4; changed channels=0; omitted=80&#xD;
+zoom=0.41; grid=False; isolated overlap=True; step=5; changed channels=0; omitted=80&#xD;
+zoom=0.41; grid=False; isolated overlap=True; step=6; changed channels=0; omitted=80&#xD;
+zoom=0.41; grid=False; isolated overlap=True; step=7; changed channels=0; omitted=80</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="9b892805-b646-431e-aa71-79d00d2bb80b" testId="c4573228-87ce-9f83-1d6e-c51e52fcca33" testName="Beep.SimpleDraw.Tests.FullCanvasContributorTrialTests.FullCanvasContributorsWithRegionalPixelCopyMustMatchFullFrame(zoom: 0.409999996, grid: False, isolatedOverlap: False)" computerName="DEVSTATION" duration="00:00:03.1952531" startTime="2026-10-06T00:42:39.8277463+03:00" endTime="2026-10-06T00:42:39.8277466+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="9b892805-b646-431e-aa71-79d00d2bb80b">
+      <Output>
+        <StdOut>zoom=0.41; grid=False; isolated overlap=False; step=0; changed channels=0; omitted=80&#xD;
+zoom=0.41; grid=False; isolated overlap=False; step=1; changed channels=0; omitted=80&#xD;
+zoom=0.41; grid=False; isolated overlap=False; step=2; changed channels=0; omitted=80&#xD;
+zoom=0.41; grid=False; isolated overlap=False; step=3; changed channels=0; omitted=80&#xD;
+zoom=0.41; grid=False; isolated overlap=False; step=4; changed channels=0; omitted=80&#xD;
+zoom=0.41; grid=False; isolated overlap=False; step=5; changed channels=0; omitted=80&#xD;
+zoom=0.41; grid=False; isolated overlap=False; step=6; changed channels=0; omitted=80&#xD;
+zoom=0.41; grid=False; isolated overlap=False; step=7; changed channels=0; omitted=80</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="f896496e-598c-4a57-94b3-5af804cacf8c" testId="8a6b25de-480d-11a2-cae8-00f30e052167" testName="Beep.SimpleDraw.Tests.FullCanvasContributorTrialTests.FullCanvasContributorsWithRegionalPixelCopyMustMatchFullFrame(zoom: 0.875, grid: True, isolatedOverlap: True)" computerName="DEVSTATION" duration="00:00:03.3150283" startTime="2026-10-06T00:42:33.5200491+03:00" endTime="2026-10-06T00:42:33.5200494+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="f896496e-598c-4a57-94b3-5af804cacf8c">
+      <Output>
+        <StdOut>zoom=0.875; grid=True; isolated overlap=True; step=0; changed channels=0; omitted=80&#xD;
+zoom=0.875; grid=True; isolated overlap=True; step=1; changed channels=0; omitted=80&#xD;
+zoom=0.875; grid=True; isolated overlap=True; step=2; changed channels=0; omitted=80&#xD;
+zoom=0.875; grid=True; isolated overlap=True; step=3; changed channels=0; omitted=80&#xD;
+zoom=0.875; grid=True; isolated overlap=True; step=4; changed channels=0; omitted=80&#xD;
+zoom=0.875; grid=True; isolated overlap=True; step=5; changed channels=0; omitted=80&#xD;
+zoom=0.875; grid=True; isolated overlap=True; step=6; changed channels=0; omitted=80&#xD;
+zoom=0.875; grid=True; isolated overlap=True; step=7; changed channels=0; omitted=80</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="7606d89f-31c9-4991-a138-6f6cae12d46e" testId="ad3ffe12-ba0f-0945-985d-8d66f81e7677" testName="Beep.SimpleDraw.Tests.FullCanvasContributorTrialTests.FullCanvasContributorsWithRegionalPixelCopyMustMatchFullFrame(zoom: 1.75, grid: True, isolatedOverlap: False)" computerName="DEVSTATION" duration="00:00:03.0361103" startTime="2026-10-06T00:42:53.0257234+03:00" endTime="2026-10-06T00:42:53.0257236+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="7606d89f-31c9-4991-a138-6f6cae12d46e">
+      <Output>
+        <StdOut>zoom=1.75; grid=True; isolated overlap=False; step=0; changed channels=0; omitted=80&#xD;
+zoom=1.75; grid=True; isolated overlap=False; step=1; changed channels=0; omitted=80&#xD;
+zoom=1.75; grid=True; isolated overlap=False; step=2; changed channels=0; omitted=80&#xD;
+zoom=1.75; grid=True; isolated overlap=False; step=3; changed channels=0; omitted=80&#xD;
+zoom=1.75; grid=True; isolated overlap=False; step=4; changed channels=0; omitted=80&#xD;
+zoom=1.75; grid=True; isolated overlap=False; step=5; changed channels=0; omitted=80&#xD;
+zoom=1.75; grid=True; isolated overlap=False; step=6; changed channels=0; omitted=80&#xD;
+zoom=1.75; grid=True; isolated overlap=False; step=7; changed channels=0; omitted=80</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="680cf28b-020f-4cfa-9f0a-44a5cca2cfde" testId="d9f58e42-7907-512c-8665-97f72b39fc95" testName="Beep.SimpleDraw.Tests.FullCanvasContributorTrialTests.FullCanvasContributorsWithRegionalPixelCopyMustMatchFullFrame(zoom: 0.875, grid: True, isolatedOverlap: False)" computerName="DEVSTATION" duration="00:00:03.3868607" startTime="2026-10-06T00:42:43.2147293+03:00" endTime="2026-10-06T00:42:43.2147296+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="680cf28b-020f-4cfa-9f0a-44a5cca2cfde">
+      <Output>
+        <StdOut>zoom=0.875; grid=True; isolated overlap=False; step=0; changed channels=0; omitted=80&#xD;
+zoom=0.875; grid=True; isolated overlap=False; step=1; changed channels=0; omitted=80&#xD;
+zoom=0.875; grid=True; isolated overlap=False; step=2; changed channels=0; omitted=80&#xD;
+zoom=0.875; grid=True; isolated overlap=False; step=3; changed channels=0; omitted=80&#xD;
+zoom=0.875; grid=True; isolated overlap=False; step=4; changed channels=0; omitted=80&#xD;
+zoom=0.875; grid=True; isolated overlap=False; step=5; changed channels=0; omitted=80&#xD;
+zoom=0.875; grid=True; isolated overlap=False; step=6; changed channels=0; omitted=80&#xD;
+zoom=0.875; grid=True; isolated overlap=False; step=7; changed channels=0; omitted=80</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="c71c7f74-0e40-4645-82ed-140ee6e318e0" testId="876549be-dce6-1981-2628-29279b0e93d9" testName="Beep.SimpleDraw.Tests.FullCanvasContributorTrialTests.FullCanvasContributorsWithRegionalPixelCopyMustMatchFullFrame(zoom: 0.875, grid: False, isolatedOverlap: False)" computerName="DEVSTATION" duration="00:00:03.2151347" startTime="2026-10-06T00:42:30.2047166+03:00" endTime="2026-10-06T00:42:30.2047168+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="c71c7f74-0e40-4645-82ed-140ee6e318e0">
+      <Output>
+        <StdOut>zoom=0.875; grid=False; isolated overlap=False; step=0; changed channels=0; omitted=80&#xD;
+zoom=0.875; grid=False; isolated overlap=False; step=1; changed channels=0; omitted=80&#xD;
+zoom=0.875; grid=False; isolated overlap=False; step=2; changed channels=0; omitted=80&#xD;
+zoom=0.875; grid=False; isolated overlap=False; step=3; changed channels=0; omitted=80&#xD;
+zoom=0.875; grid=False; isolated overlap=False; step=4; changed channels=0; omitted=80&#xD;
+zoom=0.875; grid=False; isolated overlap=False; step=5; changed channels=0; omitted=80&#xD;
+zoom=0.875; grid=False; isolated overlap=False; step=6; changed channels=0; omitted=80&#xD;
+zoom=0.875; grid=False; isolated overlap=False; step=7; changed channels=0; omitted=80</StdOut>
+      </Output>
+    </UnitTestResult>
+  </Results>
+  <TestDefinitions>
+    <UnitTest name="Beep.SimpleDraw.Tests.FullCanvasContributorTrialTests.FullCanvasContributorsWithRegionalPixelCopyMustMatchFullFrame(zoom: 1.75, grid: True, isolatedOverlap: False)" storage="c:\users\f_ald\source\repos\the-tech-idea\beep.simpledraw\tests\beep.simpledraw.tests\bin\release\net10.0\beep.simpledraw.tests.dll" id="ad3ffe12-ba0f-0945-985d-8d66f81e7677">
+      <Execution id="7606d89f-31c9-4991-a138-6f6cae12d46e" />
+      <TestMethod codeBase="C:\Users\f_ald\source\repos\The-Tech-Idea\Beep.SimpleDraw\tests\Beep.SimpleDraw.Tests\bin\Release\net10.0\Beep.SimpleDraw.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="Beep.SimpleDraw.Tests.FullCanvasContributorTrialTests" name="FullCanvasContributorsWithRegionalPixelCopyMustMatchFullFrame" />
+    </UnitTest>
+    <UnitTest name="Beep.SimpleDraw.Tests.FullCanvasContributorTrialTests.FullCanvasContributorsWithRegionalPixelCopyMustMatchFullFrame(zoom: 1.75, grid: False, isolatedOverlap: True)" storage="c:\users\f_ald\source\repos\the-tech-idea\beep.simpledraw\tests\beep.simpledraw.tests\bin\release\net10.0\beep.simpledraw.tests.dll" id="6fc47ee2-f568-18ae-dee6-3ab656e838f7">
+      <Execution id="b44df001-5698-4e41-9c6a-c4c9b07dd8cb" />
+      <TestMethod codeBase="C:\Users\f_ald\source\repos\The-Tech-Idea\Beep.SimpleDraw\tests\Beep.SimpleDraw.Tests\bin\Release\net10.0\Beep.SimpleDraw.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="Beep.SimpleDraw.Tests.FullCanvasContributorTrialTests" name="FullCanvasContributorsWithRegionalPixelCopyMustMatchFullFrame" />
+    </UnitTest>
+    <UnitTest name="Beep.SimpleDraw.Tests.FullCanvasContributorTrialTests.FullCanvasContributorsWithRegionalPixelCopyMustMatchFullFrame(zoom: 0.409999996, grid: False, isolatedOverlap: True)" storage="c:\users\f_ald\source\repos\the-tech-idea\beep.simpledraw\tests\beep.simpledraw.tests\bin\release\net10.0\beep.simpledraw.tests.dll" id="3d44f731-32d1-0dfd-0df6-d4b9df3c5052">
+      <Execution id="c7fc634d-f2a5-426d-a29a-461c5b05d506" />
+      <TestMethod codeBase="C:\Users\f_ald\source\repos\The-Tech-Idea\Beep.SimpleDraw\tests\Beep.SimpleDraw.Tests\bin\Release\net10.0\Beep.SimpleDraw.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="Beep.SimpleDraw.Tests.FullCanvasContributorTrialTests" name="FullCanvasContributorsWithRegionalPixelCopyMustMatchFullFrame" />
+    </UnitTest>
+    <UnitTest name="Beep.SimpleDraw.Tests.FullCanvasContributorTrialTests.FullCanvasContributorsWithRegionalPixelCopyMustMatchFullFrame(zoom: 0.409999996, grid: True, isolatedOverlap: True)" storage="c:\users\f_ald\source\repos\the-tech-idea\beep.simpledraw\tests\beep.simpledraw.tests\bin\release\net10.0\beep.simpledraw.tests.dll" id="e7c8e3ab-f565-3248-6b70-c1be0d6f9a63">
+      <Execution id="e02d8498-710e-4f51-9ae2-577b26329e37" />
+      <TestMethod codeBase="C:\Users\f_ald\source\repos\The-Tech-Idea\Beep.SimpleDraw\tests\Beep.SimpleDraw.Tests\bin\Release\net10.0\Beep.SimpleDraw.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="Beep.SimpleDraw.Tests.FullCanvasContributorTrialTests" name="FullCanvasContributorsWithRegionalPixelCopyMustMatchFullFrame" />
+    </UnitTest>
+    <UnitTest name="Beep.SimpleDraw.Tests.FullCanvasContributorTrialTests.FullCanvasContributorsWithRegionalPixelCopyMustMatchFullFrame(zoom: 0.875, grid: False, isolatedOverlap: False)" storage="c:\users\f_ald\source\repos\the-tech-idea\beep.simpledraw\tests\beep.simpledraw.tests\bin\release\net10.0\beep.simpledraw.tests.dll" id="876549be-dce6-1981-2628-29279b0e93d9">
+      <Execution id="c71c7f74-0e40-4645-82ed-140ee6e318e0" />
+      <TestMethod codeBase="C:\Users\f_ald\source\repos\The-Tech-Idea\Beep.SimpleDraw\tests\Beep.SimpleDraw.Tests\bin\Release\net10.0\Beep.SimpleDraw.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="Beep.SimpleDraw.Tests.FullCanvasContributorTrialTests" name="FullCanvasContributorsWithRegionalPixelCopyMustMatchFullFrame" />
+    </UnitTest>
+    <UnitTest name="Beep.SimpleDraw.Tests.FullCanvasContributorTrialTests.FullCanvasContributorsWithRegionalPixelCopyMustMatchFullFrame(zoom: 0.409999996, grid: False, isolatedOverlap: False)" storage="c:\users\f_ald\source\repos\the-tech-idea\beep.simpledraw\tests\beep.simpledraw.tests\bin\release\net10.0\beep.simpledraw.tests.dll" id="c4573228-87ce-9f83-1d6e-c51e52fcca33">
+      <Execution id="9b892805-b646-431e-aa71-79d00d2bb80b" />
+      <TestMethod codeBase="C:\Users\f_ald\source\repos\The-Tech-Idea\Beep.SimpleDraw\tests\Beep.SimpleDraw.Tests\bin\Release\net10.0\Beep.SimpleDraw.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="Beep.SimpleDraw.Tests.FullCanvasContributorTrialTests" name="FullCanvasContributorsWithRegionalPixelCopyMustMatchFullFrame" />
+    </UnitTest>
+    <UnitTest name="Beep.SimpleDraw.Tests.FullCanvasContributorTrialTests.FullCanvasContributorsWithRegionalPixelCopyMustMatchFullFrame(zoom: 1.75, grid: True, isolatedOverlap: True)" storage="c:\users\f_ald\source\repos\the-tech-idea\beep.simpledraw\tests\beep.simpledraw.tests\bin\release\net10.0\beep.simpledraw.tests.dll" id="c076f6da-e401-a5e5-0f62-142d84e2fdf0">
+      <Execution id="0de2bd21-a92a-42a5-b4d4-8b88acaa01f6" />
+      <TestMethod codeBase="C:\Users\f_ald\source\repos\The-Tech-Idea\Beep.SimpleDraw\tests\Beep.SimpleDraw.Tests\bin\Release\net10.0\Beep.SimpleDraw.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="Beep.SimpleDraw.Tests.FullCanvasContributorTrialTests" name="FullCanvasContributorsWithRegionalPixelCopyMustMatchFullFrame" />
+    </UnitTest>
+    <UnitTest name="Beep.SimpleDraw.Tests.FullCanvasContributorTrialTests.FullCanvasContributorsWithRegionalPixelCopyMustMatchFullFrame(zoom: 0.875, grid: True, isolatedOverlap: True)" storage="c:\users\f_ald\source\repos\the-tech-idea\beep.simpledraw\tests\beep.simpledraw.tests\bin\release\net10.0\beep.simpledraw.tests.dll" id="8a6b25de-480d-11a2-cae8-00f30e052167">
+      <Execution id="f896496e-598c-4a57-94b3-5af804cacf8c" />
+      <TestMethod codeBase="C:\Users\f_ald\source\repos\The-Tech-Idea\Beep.SimpleDraw\tests\Beep.SimpleDraw.Tests\bin\Release\net10.0\Beep.SimpleDraw.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="Beep.SimpleDraw.Tests.FullCanvasContributorTrialTests" name="FullCanvasContributorsWithRegionalPixelCopyMustMatchFullFrame" />
+    </UnitTest>
+    <UnitTest name="Beep.SimpleDraw.Tests.FullCanvasContributorTrialTests.FullCanvasContributorsWithRegionalPixelCopyMustMatchFullFrame(zoom: 0.875, grid: False, isolatedOverlap: True)" storage="c:\users\f_ald\source\repos\the-tech-idea\beep.simpledraw\tests\beep.simpledraw.tests\bin\release\net10.0\beep.simpledraw.tests.dll" id="f36e980a-f22d-e806-10d8-56632419f7c2">
+      <Execution id="b4e728b0-8a82-44b5-aea7-ff0b8a0401ca" />
+      <TestMethod codeBase="C:\Users\f_ald\source\repos\The-Tech-Idea\Beep.SimpleDraw\tests\Beep.SimpleDraw.Tests\bin\Release\net10.0\Beep.SimpleDraw.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="Beep.SimpleDraw.Tests.FullCanvasContributorTrialTests" name="FullCanvasContributorsWithRegionalPixelCopyMustMatchFullFrame" />
+    </UnitTest>
+    <UnitTest name="Beep.SimpleDraw.Tests.FullCanvasContributorTrialTests.FullCanvasContributorsWithRegionalPixelCopyMustMatchFullFrame(zoom: 0.409999996, grid: True, isolatedOverlap: False)" storage="c:\users\f_ald\source\repos\the-tech-idea\beep.simpledraw\tests\beep.simpledraw.tests\bin\release\net10.0\beep.simpledraw.tests.dll" id="1d5d20f3-eb90-0f16-6e2f-46008f429b02">
+      <Execution id="4e343dd3-a7b5-4410-b5d1-3ec68da12795" />
+      <TestMethod codeBase="C:\Users\f_ald\source\repos\The-Tech-Idea\Beep.SimpleDraw\tests\Beep.SimpleDraw.Tests\bin\Release\net10.0\Beep.SimpleDraw.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="Beep.SimpleDraw.Tests.FullCanvasContributorTrialTests" name="FullCanvasContributorsWithRegionalPixelCopyMustMatchFullFrame" />
+    </UnitTest>
+    <UnitTest name="Beep.SimpleDraw.Tests.FullCanvasContributorTrialTests.FullCanvasContributorsWithRegionalPixelCopyMustMatchFullFrame(zoom: 1.75, grid: False, isolatedOverlap: False)" storage="c:\users\f_ald\source\repos\the-tech-idea\beep.simpledraw\tests\beep.simpledraw.tests\bin\release\net10.0\beep.simpledraw.tests.dll" id="08ccc5c1-fd79-cf3a-c4f3-c9df33b9cc39">
+      <Execution id="5a75f797-2e5e-4ead-aedd-7b4930fd6ffb" />
+      <TestMethod codeBase="C:\Users\f_ald\source\repos\The-Tech-Idea\Beep.SimpleDraw\tests\Beep.SimpleDraw.Tests\bin\Release\net10.0\Beep.SimpleDraw.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="Beep.SimpleDraw.Tests.FullCanvasContributorTrialTests" name="FullCanvasContributorsWithRegionalPixelCopyMustMatchFullFrame" />
+    </UnitTest>
+    <UnitTest name="Beep.SimpleDraw.Tests.FullCanvasContributorTrialTests.FullCanvasContributorsWithRegionalPixelCopyMustMatchFullFrame(zoom: 0.875, grid: True, isolatedOverlap: False)" storage="c:\users\f_ald\source\repos\the-tech-idea\beep.simpledraw\tests\beep.simpledraw.tests\bin\release\net10.0\beep.simpledraw.tests.dll" id="d9f58e42-7907-512c-8665-97f72b39fc95">
+      <Execution id="680cf28b-020f-4cfa-9f0a-44a5cca2cfde" />
+      <TestMethod codeBase="C:\Users\f_ald\source\repos\The-Tech-Idea\Beep.SimpleDraw\tests\Beep.SimpleDraw.Tests\bin\Release\net10.0\Beep.SimpleDraw.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="Beep.SimpleDraw.Tests.FullCanvasContributorTrialTests" name="FullCanvasContributorsWithRegionalPixelCopyMustMatchFullFrame" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestEntries>
+    <TestEntry testId="08ccc5c1-fd79-cf3a-c4f3-c9df33b9cc39" executionId="5a75f797-2e5e-4ead-aedd-7b4930fd6ffb" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="c076f6da-e401-a5e5-0f62-142d84e2fdf0" executionId="0de2bd21-a92a-42a5-b4d4-8b88acaa01f6" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="6fc47ee2-f568-18ae-dee6-3ab656e838f7" executionId="b44df001-5698-4e41-9c6a-c4c9b07dd8cb" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="1d5d20f3-eb90-0f16-6e2f-46008f429b02" executionId="4e343dd3-a7b5-4410-b5d1-3ec68da12795" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="f36e980a-f22d-e806-10d8-56632419f7c2" executionId="b4e728b0-8a82-44b5-aea7-ff0b8a0401ca" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="e7c8e3ab-f565-3248-6b70-c1be0d6f9a63" executionId="e02d8498-710e-4f51-9ae2-577b26329e37" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="3d44f731-32d1-0dfd-0df6-d4b9df3c5052" executionId="c7fc634d-f2a5-426d-a29a-461c5b05d506" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="c4573228-87ce-9f83-1d6e-c51e52fcca33" executionId="9b892805-b646-431e-aa71-79d00d2bb80b" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="8a6b25de-480d-11a2-cae8-00f30e052167" executionId="f896496e-598c-4a57-94b3-5af804cacf8c" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="ad3ffe12-ba0f-0945-985d-8d66f81e7677" executionId="7606d89f-31c9-4991-a138-6f6cae12d46e" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="d9f58e42-7907-512c-8665-97f72b39fc95" executionId="680cf28b-020f-4cfa-9f0a-44a5cca2cfde" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="876549be-dce6-1981-2628-29279b0e93d9" executionId="c71c7f74-0e40-4645-82ed-140ee6e318e0" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <ResultSummary outcome="Completed">
+    <Counters total="12" executed="12" passed="12" failed="0" error="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+    <Output>
+      <StdOut>[xUnit.net 00:00:00.00] xUnit.net VSTest Adapter v2.5.3.1+6b60a9e56a (64-bit .NET 10.0.12)&#xD;
+[xUnit.net 00:00:00.08]   Discovering: Beep.SimpleDraw.Tests&#xD;
+[xUnit.net 00:00:00.16]   Discovered:  Beep.SimpleDraw.Tests&#xD;
+[xUnit.net 00:00:00.16]   Starting:    Beep.SimpleDraw.Tests&#xD;
+[xUnit.net 00:00:40.32]   Finished:    Beep.SimpleDraw.Tests&#xD;
+</StdOut>
+    </Output>
+  </ResultSummary>
+</TestRun>

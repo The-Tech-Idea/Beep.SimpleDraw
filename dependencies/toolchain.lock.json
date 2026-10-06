@@ -1,0 +1,28 @@
+{
+  "version": 1,
+  "sdk": "10.0.401",
+  "node": "24.14.0",
+  "wasmManifest": "10.0.112",
+  "wasmPack": "10.0.12",
+  "emscripten": "3.1.56",
+  "emscriptenPack": "10.0.12",
+  "configuration": "Release",
+  "framework": "net10.0",
+  "nugetLockFile": "packages.net10.lock.json",
+  "packages": [
+    {
+      "id": "TheTechIdea.Beep.DataManagementModels",
+      "version": "3.1.1",
+      "sha256": "5a9ac5f7fbf9581d99a7ce871ddb36ff62f6b0b79fe6ec110dce4d75aa52f46f",
+      "repository": "https://github.com/The-Tech-Idea/BeepDM",
+      "commit": "f305eaf64037392fa4b907aa69f64f5d641c69d4"
+    },
+    {
+      "id": "TheTechIdea.Beep.Vis.Modules",
+      "version": "2.0.44",
+      "sha256": "0e2c8c5809846dca31b6fa3c07f6487165337e3e21a002d0e60124731c13e718",
+      "repository": "https://github.com/The-Tech-Idea/BeepEnterprize.winform",
+      "commit": "9b62321ff640ebcc8bb6cca1f83e675a29a92215"
+    }
+  ]
+}

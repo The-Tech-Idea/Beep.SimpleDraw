@@ -1,0 +1,1426 @@
+{
+  "version": 1,
+  "noticeInputsSha256": "6626e6ef9519a47c2bd559bc9160eed0a38aa938094544b9b8d19c7c64fe211c",
+  "bundle": {
+    "groups": 46,
+    "originalTexts": 21,
+    "files": 24
+  },
+  "payloads": [
+    {
+      "path": "_content/Beep.Skia.Blazor.Controls/skiaHost.js",
+      "bytes": 6109,
+      "sha256": "036094437536d77041cf0cc9d12c97f7d4a01f5c5fc8489ed49166917239e79b",
+      "sources": [
+        {
+          "source": "Beep.Skia Blazor host source",
+          "noticeGroups": [
+            "source:beep-skia"
+          ]
+        }
+      ]
+    },
+    {
+      "path": "_content/SkiaSharp.Views.Blazor/DpiWatcher.js",
+      "bytes": 1224,
+      "sha256": "a2437578c9671efaef347d6897a4b4fda47c5e8124ff4a73b8fc191a9eac57ed",
+      "sources": [
+        {
+          "source": "SkiaSharp.Views.Blazor/4.150.1",
+          "noticeGroups": [
+            "package:skiasharp.views.blazor/4.150.1"
+          ]
+        }
+      ]
+    },
+    {
+      "path": "_content/SkiaSharp.Views.Blazor/DpiWatcher.js.map",
+      "bytes": 1053,
+      "sha256": "cbb2fe5edc28509b5c527bd719e44b56b2e3dae2cc4e03f234a2651099c56e97",
+      "sources": [
+        {
+          "source": "SkiaSharp.Views.Blazor/4.150.1",
+          "noticeGroups": [
+            "package:skiasharp.views.blazor/4.150.1"
+          ]
+        }
+      ]
+    },
+    {
+      "path": "_content/SkiaSharp.Views.Blazor/SizeWatcher.js",
+      "bytes": 1855,
+      "sha256": "188f6f43e7cf8c116d8756266feab1733e9cea4c2038f69ba040c204cf466fc3",
+      "sources": [
+        {
+          "source": "SkiaSharp.Views.Blazor/4.150.1",
+          "noticeGroups": [
+            "package:skiasharp.views.blazor/4.150.1"
+          ]
+        }
+      ]
+    },
+    {
+      "path": "_content/SkiaSharp.Views.Blazor/SizeWatcher.js.map",
+      "bytes": 1652,
+      "sha256": "1d058a458349e94d0243a723b87899358ce7f44c81c629ef5b04f6cdcb457561",
+      "sources": [
+        {
+          "source": "SkiaSharp.Views.Blazor/4.150.1",
+          "noticeGroups": [
+            "package:skiasharp.views.blazor/4.150.1"
+          ]
+        }
+      ]
+    },
+    {
+      "path": "_content/SkiaSharp.Views.Blazor/SKHtmlCanvas.js",
+      "bytes": 7314,
+      "sha256": "26609c7c9163a5c0f64773a8a5935f7680f741cddc0b206987722a9607c667eb",
+      "sources": [
+        {
+          "source": "SkiaSharp.Views.Blazor/4.150.1",
+          "noticeGroups": [
+            "package:skiasharp.views.blazor/4.150.1"
+          ]
+        }
+      ]
+    },
+    {
+      "path": "_content/SkiaSharp.Views.Blazor/SKHtmlCanvas.js.map",
+      "bytes": 6297,
+      "sha256": "31380443069e984acf3e8152bf2f7f02f86847b41a3805644a05e1f86b398e66",
+      "sources": [
+        {
+          "source": "SkiaSharp.Views.Blazor/4.150.1",
+          "noticeGroups": [
+            "package:skiasharp.views.blazor/4.150.1"
+          ]
+        }
+      ]
+    },
+    {
+      "path": "_framework/Beep.SimpleDraw.Core.glv8dujpk6.wasm",
+      "bytes": 526101,
+      "sha256": "0cd96ef446476d7b9a2be06a24355aba0b095c438020d0796e06af94b2fc5929",
+      "sources": [
+        {
+          "source": "Beep.SimpleDraw application-owned source",
+          "noticeGroups": []
+        }
+      ]
+    },
+    {
+      "path": "_framework/Beep.SimpleDraw.Web.mqkks7a735.wasm",
+      "bytes": 145173,
+      "sha256": "02e247eaf2891b45874cd426aebee89c8140b5497eabcc2d7c748d5fe4ee914d",
+      "sources": [
+        {
+          "source": "Beep.SimpleDraw application-owned source",
+          "noticeGroups": []
+        }
+      ]
+    },
+    {
+      "path": "_framework/Beep.Skia.Blazor.Controls.vvccd6sib8.wasm",
+      "bytes": 21781,
+      "sha256": "c5ee0801d9fd3b2f8736f252a3421a864acb6877aa32b81186dbe49d03bdbe3e",
+      "sources": [
+        {
+          "source": "Beep.Skia reviewed source",
+          "noticeGroups": [
+            "source:beep-skia"
+          ]
+        }
+      ]
+    },
+    {
+      "path": "_framework/Beep.Skia.bqyn1adf09.wasm",
+      "bytes": 858389,
+      "sha256": "93a852c05a2e3b0f0d677c796f10805ad8dc72b7f9496fdfcc2c9c87c158d4bc",
+      "sources": [
+        {
+          "source": "Beep.Skia reviewed source",
+          "noticeGroups": [
+            "source:beep-skia"
+          ]
+        }
+      ]
+    },
+    {
+      "path": "_framework/Beep.Skia.FlowChart.hz8ts6pqwd.wasm",
+      "bytes": 99093,
+      "sha256": "43a91e5b8a1f6e2489c174ab2921d0bd8a3dee67e1cddb1b9d57e00eb19009af",
+      "sources": [
+        {
+          "source": "Beep.Skia reviewed source",
+          "noticeGroups": [
+            "source:beep-skia"
+          ]
+        }
+      ]
+    },
+    {
+      "path": "_framework/Beep.Skia.Model.y25937so3s.wasm",
+      "bytes": 61717,
+      "sha256": "faa0bce5870e267e16b58a80d75557292d5607dd0631b45181f5eac2b1c50764",
+      "sources": [
+        {
+          "source": "Beep.Skia reviewed source",
+          "noticeGroups": [
+            "source:beep-skia"
+          ]
+        }
+      ]
+    },
+    {
+      "path": "_framework/blazor.webassembly.w3qd1tpl0e.js",
+      "bytes": 60682,
+      "sha256": "9435ec0d81609bad85f9852fc444bb20e4c25d8a621e9537b91e3961d0ba9aae",
+      "sources": [
+        {
+          "source": "Microsoft.AspNetCore.Components.WebAssembly/10.0.12",
+          "noticeGroups": [
+            "package:microsoft.aspnetcore.components.webassembly/10.0.12"
+          ]
+        }
+      ]
+    },
+    {
+      "path": "_framework/DataManagementModels.uqs7wwlmdq.wasm",
+      "bytes": 1939221,
+      "sha256": "46fdb875ade8a8f00c6bcbfc597afdf1544150e32016f735f8b06523f166c3a6",
+      "sources": [
+        {
+          "source": "TheTechIdea.Beep.DataManagementModels/3.1.1",
+          "noticeGroups": [
+            "package:thetechidea.beep.datamanagementmodels/3.1.1"
+          ]
+        }
+      ]
+    },
+    {
+      "path": "_framework/dotnet.native.ck4myikvav.js",
+      "bytes": 390753,
+      "sha256": "6455dcfeb3a44829aa1b4d5a3ce6a25282a99a107481b84daafa3c9068037b67",
+      "sources": [
+        {
+          "source": "SDK browser runtime JavaScript",
+          "noticeGroups": [
+            "sdk:mono/10.0.12",
+            "sdk:emscripten/3.1.56"
+          ]
+        }
+      ]
+    },
+    {
+      "path": "_framework/dotnet.native.n1t6kfhvhg.wasm",
+      "bytes": 47411506,
+      "sha256": "7527f0c3b17d65bef61f0f02506b5bd5a09aacda3acd70a4d14ceab0d724a643",
+      "sources": [
+        {
+          "source": "Linked browser native runtime and conservatively covered managed AOT inputs",
+          "noticeGroups": [
+            "package:microsoft.aspnetcore.authorization/10.0.12",
+            "package:microsoft.aspnetcore.components.forms/10.0.12",
+            "package:microsoft.aspnetcore.components.web/10.0.12",
+            "package:microsoft.aspnetcore.components.webassembly/10.0.12",
+            "package:microsoft.aspnetcore.components/10.0.12",
+            "package:microsoft.aspnetcore.metadata/10.0.12",
+            "package:microsoft.extensions.configuration.abstractions/10.0.12",
+            "package:microsoft.extensions.configuration.binder/10.0.12",
+            "package:microsoft.extensions.configuration.fileextensions/10.0.12",
+            "package:microsoft.extensions.configuration.json/10.0.12",
+            "package:microsoft.extensions.configuration/10.0.12",
+            "package:microsoft.extensions.dependencyinjection.abstractions/10.0.12",
+            "package:microsoft.extensions.dependencyinjection/10.0.12",
+            "package:microsoft.extensions.diagnostics.abstractions/10.0.12",
+            "package:microsoft.extensions.diagnostics/10.0.12",
+            "package:microsoft.extensions.fileproviders.abstractions/10.0.12",
+            "package:microsoft.extensions.fileproviders.physical/10.0.12",
+            "package:microsoft.extensions.filesystemglobbing/10.0.12",
+            "package:microsoft.extensions.logging.abstractions/10.0.12",
+            "package:microsoft.extensions.logging/10.0.12",
+            "package:microsoft.extensions.options.configurationextensions/10.0.12",
+            "package:microsoft.extensions.options/10.0.12",
+            "package:microsoft.extensions.primitives/10.0.12",
+            "package:microsoft.extensions.validation/10.0.12",
+            "package:microsoft.jsinterop.webassembly/10.0.12",
+            "package:microsoft.jsinterop/10.0.12",
+            "package:microsoft.win32.systemevents/10.0.9",
+            "package:skiasharp.extended/3.0.0",
+            "package:skiasharp.nativeassets.webassembly/4.150.1",
+            "package:skiasharp.svg/1.60.0",
+            "package:skiasharp.views.blazor/4.150.1",
+            "package:skiasharp/4.150.1",
+            "package:system.drawing.common/10.0.9",
+            "package:system.formats.nrbf/10.0.12",
+            "package:thetechidea.beep.datamanagementmodels/3.1.1",
+            "package:thetechidea.beep.vis.modules/2.0.44",
+            "sdk:emscripten/3.1.56",
+            "sdk:mono/10.0.12",
+            "source:beep-skia"
+          ],
+          "scope": "All resolved managed runtime candidates and reviewed Beep/application source; no assembly/function-level inclusion claim."
+        }
+      ]
+    },
+    {
+      "path": "_framework/dotnet.runtime.v06hirbjsv.js",
+      "bytes": 198480,
+      "sha256": "41b9eaad9187b46abbc2e752d7bfc06043e91fd264a61aecc959650fa24799db",
+      "sources": [
+        {
+          "source": "SDK browser runtime JavaScript",
+          "noticeGroups": [
+            "sdk:mono/10.0.12",
+            "sdk:emscripten/3.1.56"
+          ]
+        }
+      ]
+    },
+    {
+      "path": "_framework/dotnet.u5c9jt0moy.js",
+      "bytes": 62290,
+      "sha256": "2e53c450570e07fdc39d179be9bbdfd3d9b6c9d1371e3090ef8acff1f3bad208",
+      "sources": [
+        {
+          "source": "SDK browser runtime JavaScript",
+          "noticeGroups": [
+            "sdk:mono/10.0.12",
+            "sdk:emscripten/3.1.56"
+          ]
+        }
+      ]
+    },
+    {
+      "path": "_framework/icudt_CJK.tjcz0u77k5.dat",
+      "bytes": 956416,
+      "sha256": "4992ed42745cd09930a8769bd155153fb4f7b813d2798cf1cc39e9c4fa549c79",
+      "sources": [
+        {
+          "source": "SDK ICU/Unicode globalization data",
+          "noticeGroups": [
+            "sdk:mono/10.0.12"
+          ]
+        }
+      ]
+    },
+    {
+      "path": "_framework/icudt_EFIGS.tptq2av103.dat",
+      "bytes": 550832,
+      "sha256": "f1f22d7ad618f24434c30ea8c704cb893de85e50701caba66de3f6a51178c937",
+      "sources": [
+        {
+          "source": "SDK ICU/Unicode globalization data",
+          "noticeGroups": [
+            "sdk:mono/10.0.12"
+          ]
+        }
+      ]
+    },
+    {
+      "path": "_framework/icudt_no_CJK.lfu7j35m59.dat",
+      "bytes": 1107168,
+      "sha256": "2fbb15ecd1183f7eff42bd853c278fa39709a918135d1c061eec05e50fb435fb",
+      "sources": [
+        {
+          "source": "SDK ICU/Unicode globalization data",
+          "noticeGroups": [
+            "sdk:mono/10.0.12"
+          ]
+        }
+      ]
+    },
+    {
+      "path": "_framework/Microsoft.AspNetCore.Components.gcxobzgjk6.wasm",
+      "bytes": 279317,
+      "sha256": "d0d52ba4dd61c1d244b2f3dd97780a2c69ff1b89647fb8a3297d833604330d42",
+      "sources": [
+        {
+          "source": "Microsoft.AspNetCore.Components/10.0.12",
+          "noticeGroups": [
+            "package:microsoft.aspnetcore.components/10.0.12"
+          ]
+        }
+      ]
+    },
+    {
+      "path": "_framework/Microsoft.AspNetCore.Components.Web.ls57hjvv0h.wasm",
+      "bytes": 67861,
+      "sha256": "15a6933caf9fed7213462dfa436893b81187816ea83927d46629f4120681410e",
+      "sources": [
+        {
+          "source": "Microsoft.AspNetCore.Components.Web/10.0.12",
+          "noticeGroups": [
+            "package:microsoft.aspnetcore.components.web/10.0.12"
+          ]
+        }
+      ]
+    },
+    {
+      "path": "_framework/Microsoft.AspNetCore.Components.WebAssembly.gs60ehmofv.wasm",
+      "bytes": 125205,
+      "sha256": "6034a83a8461592432813062859de3f64cc63e4b2ebc1ab064438a01185d25bf",
+      "sources": [
+        {
+          "source": "Microsoft.AspNetCore.Components.WebAssembly/10.0.12",
+          "noticeGroups": [
+            "package:microsoft.aspnetcore.components.webassembly/10.0.12"
+          ]
+        }
+      ]
+    },
+    {
+      "path": "_framework/Microsoft.Extensions.Configuration.Abstractions.7c61r60qh9.wasm",
+      "bytes": 6933,
+      "sha256": "57298c1e3949aef347dc8bcd528214bb37bc488e25c1b297d78ce0281a96aabb",
+      "sources": [
+        {
+          "source": "Microsoft.Extensions.Configuration.Abstractions/10.0.12",
+          "noticeGroups": [
+            "package:microsoft.extensions.configuration.abstractions/10.0.12"
+          ]
+        }
+      ]
+    },
+    {
+      "path": "_framework/Microsoft.Extensions.Configuration.Json.67m37tob8g.wasm",
+      "bytes": 10517,
+      "sha256": "de311701ad8ad640d1bf18082e599f3b889aac74316a5f004355311aa46962f2",
+      "sources": [
+        {
+          "source": "Microsoft.Extensions.Configuration.Json/10.0.12",
+          "noticeGroups": [
+            "package:microsoft.extensions.configuration.json/10.0.12"
+          ]
+        }
+      ]
+    },
+    {
+      "path": "_framework/Microsoft.Extensions.Configuration.tg4ht29ydd.wasm",
+      "bytes": 8981,
+      "sha256": "233a2ae424e5a086d011c3ac52967ef00247542eff7809861a221d1f0ed35c07",
+      "sources": [
+        {
+          "source": "Microsoft.Extensions.Configuration/10.0.12",
+          "noticeGroups": [
+            "package:microsoft.extensions.configuration/10.0.12"
+          ]
+        }
+      ]
+    },
+    {
+      "path": "_framework/Microsoft.Extensions.DependencyInjection.Abstractions.jgwiyutw0y.wasm",
+      "bytes": 26389,
+      "sha256": "2d21f794f245770ca248e474125f169fecbbaf61ee869a7d3d6cd7fc51c52426",
+      "sources": [
+        {
+          "source": "Microsoft.Extensions.DependencyInjection.Abstractions/10.0.12",
+          "noticeGroups": [
+            "package:microsoft.extensions.dependencyinjection.abstractions/10.0.12"
+          ]
+        }
+      ]
+    },
+    {
+      "path": "_framework/Microsoft.Extensions.DependencyInjection.esd6sux8jj.wasm",
+      "bytes": 46869,
+      "sha256": "4e6f830a265fd8bd641a6edaf2c5d09bb9b1dc638751e1d9c915b8db5384d9c1",
+      "sources": [
+        {
+          "source": "Microsoft.Extensions.DependencyInjection/10.0.12",
+          "noticeGroups": [
+            "package:microsoft.extensions.dependencyinjection/10.0.12"
+          ]
+        }
+      ]
+    },
+    {
+      "path": "_framework/Microsoft.Extensions.Logging.Abstractions.i8jibex575.wasm",
+      "bytes": 27413,
+      "sha256": "e2648f619dd7a22e12efed155c43afcd389552da7249f9e9b93ac1657de9f2c6",
+      "sources": [
+        {
+          "source": "Microsoft.Extensions.Logging.Abstractions/10.0.12",
+          "noticeGroups": [
+            "package:microsoft.extensions.logging.abstractions/10.0.12"
+          ]
+        }
+      ]
+    },
+    {
+      "path": "_framework/Microsoft.Extensions.Logging.ujdi1jub81.wasm",
+      "bytes": 17685,
+      "sha256": "1a829dc73d4d80220d4fe98d1ee888510e2c211060fb5464f7b389b1bb6a2c00",
+      "sources": [
+        {
+          "source": "Microsoft.Extensions.Logging/10.0.12",
+          "noticeGroups": [
+            "package:microsoft.extensions.logging/10.0.12"
+          ]
+        }
+      ]
+    },
+    {
+      "path": "_framework/Microsoft.Extensions.Options.i5ft9z9c9u.wasm",
+      "bytes": 17173,
+      "sha256": "f696b30951e0065a7aa202621bd19313ebe7434f6a2719478cbf984a033167ed",
+      "sources": [
+        {
+          "source": "Microsoft.Extensions.Options/10.0.12",
+          "noticeGroups": [
+            "package:microsoft.extensions.options/10.0.12"
+          ]
+        }
+      ]
+    },
+    {
+      "path": "_framework/Microsoft.Extensions.Primitives.2fuwoby8pc.wasm",
+      "bytes": 12053,
+      "sha256": "025a71f34b0a29dad790e723f4b79effab367fb1beef17b7ed2f954d15132828",
+      "sources": [
+        {
+          "source": "Microsoft.Extensions.Primitives/10.0.12",
+          "noticeGroups": [
+            "package:microsoft.extensions.primitives/10.0.12"
+          ]
+        }
+      ]
+    },
+    {
+      "path": "_framework/Microsoft.JSInterop.mlqx10y04a.wasm",
+      "bytes": 47893,
+      "sha256": "eac5cd9147553cd64d4d6f65878154e2694d92cb4bba8abb15d90c8f6f8ec722",
+      "sources": [
+        {
+          "source": "Microsoft.JSInterop/10.0.12",
+          "noticeGroups": [
+            "package:microsoft.jsinterop/10.0.12"
+          ]
+        }
+      ]
+    },
+    {
+      "path": "_framework/Microsoft.JSInterop.WebAssembly.vjcfjtelwd.wasm",
+      "bytes": 12053,
+      "sha256": "b56bb7ee3fd1a04e8fc2eeace3a89d4d521a3ee1160a401bb164b2ce02855972",
+      "sources": [
+        {
+          "source": "Microsoft.JSInterop.WebAssembly/10.0.12",
+          "noticeGroups": [
+            "package:microsoft.jsinterop.webassembly/10.0.12"
+          ]
+        }
+      ]
+    },
+    {
+      "path": "_framework/Microsoft.Win32.Primitives.wu91raepgm.wasm",
+      "bytes": 4885,
+      "sha256": "d89471a490c12f66ea22367d9a90732b2975ace9f277daa2d124c57f9c6242a6",
+      "sources": [
+        {
+          "source": "Microsoft.NETCore.App.Runtime.Mono.browser-wasm/10.0.12",
+          "noticeGroups": [
+            "sdk:mono/10.0.12"
+          ]
+        }
+      ]
+    },
+    {
+      "path": "_framework/Microsoft.Win32.Registry.yk04srqtsy.wasm",
+      "bytes": 9493,
+      "sha256": "0e5c5716c0aefb1685fb3816cd1d147c7cb693638aead90cdd6001faee4cb947",
+      "sources": [
+        {
+          "source": "Microsoft.NETCore.App.Runtime.Mono.browser-wasm/10.0.12",
+          "noticeGroups": [
+            "sdk:mono/10.0.12"
+          ]
+        }
+      ]
+    },
+    {
+      "path": "_framework/Microsoft.Win32.SystemEvents.b7jt9e90sa.wasm",
+      "bytes": 6421,
+      "sha256": "89c863a5e8151e19bf86559ae21d72db14c2809377ab985a7474744f6abebb99",
+      "sources": [
+        {
+          "source": "Microsoft.Win32.SystemEvents/10.0.9",
+          "noticeGroups": [
+            "package:microsoft.win32.systemevents/10.0.9"
+          ]
+        }
+      ]
+    },
+    {
+      "path": "_framework/netstandard.m3r926roip.wasm",
+      "bytes": 6933,
+      "sha256": "8e44833ceaff507f858fa77d788e3834c00f3337b0b4c1d74e7cff784983901c",
+      "sources": [
+        {
+          "source": "Microsoft.NETCore.App.Runtime.Mono.browser-wasm/10.0.12",
+          "noticeGroups": [
+            "sdk:mono/10.0.12"
+          ]
+        }
+      ]
+    },
+    {
+      "path": "_framework/SkiaSharp.Extended.ktb5qpf8zd.wasm",
+      "bytes": 26389,
+      "sha256": "e8e6dc1c8c0b1d66f6b36aa2325f6af95e5069a1bdc1d569eb8999fc422e4070",
+      "sources": [
+        {
+          "source": "SkiaSharp.Extended/3.0.0",
+          "noticeGroups": [
+            "package:skiasharp.extended/3.0.0"
+          ]
+        }
+      ]
+    },
+    {
+      "path": "_framework/SkiaSharp.Extended.Svg.3wdpvww9mp.wasm",
+      "bytes": 41237,
+      "sha256": "93511d8e97059db8220477c4c58c9717dca41f04d25c69a06b65b8012d0af6d6",
+      "sources": [
+        {
+          "source": "SkiaSharp.Svg/1.60.0",
+          "noticeGroups": [
+            "package:skiasharp.svg/1.60.0"
+          ]
+        }
+      ]
+    },
+    {
+      "path": "_framework/SkiaSharp.Views.Blazor.dr04k2v393.wasm",
+      "bytes": 36629,
+      "sha256": "2797943de3d4acdcbaa0ec7fdda9008f98e367691958eb91d9056bb9cd4365e0",
+      "sources": [
+        {
+          "source": "SkiaSharp.Views.Blazor/4.150.1",
+          "noticeGroups": [
+            "package:skiasharp.views.blazor/4.150.1"
+          ]
+        }
+      ]
+    },
+    {
+      "path": "_framework/SkiaSharp.vni5x3kkbx.wasm",
+      "bytes": 117013,
+      "sha256": "bbda2af0fb71b1fe58881075f6ab92eec4900f953fbe0fe1ec7c710d1a1f8f86",
+      "sources": [
+        {
+          "source": "SkiaSharp/4.150.1",
+          "noticeGroups": [
+            "package:skiasharp/4.150.1"
+          ]
+        }
+      ]
+    },
+    {
+      "path": "_framework/System.400l3mulw9.wasm",
+      "bytes": 4885,
+      "sha256": "bcf126d8aaa05eaaee1b09f3ef5f224a0983a01f089a0ee21f71733b9edbd118",
+      "sources": [
+        {
+          "source": "Microsoft.NETCore.App.Runtime.Mono.browser-wasm/10.0.12",
+          "noticeGroups": [
+            "sdk:mono/10.0.12"
+          ]
+        }
+      ]
+    },
+    {
+      "path": "_framework/System.Collections.Concurrent.mit41f5mwg.wasm",
+      "bytes": 24853,
+      "sha256": "6e7bd107d1ec0fcf16c22243bffa388d865d71f71f4bf5f55d05bea5bb78e1c6",
+      "sources": [
+        {
+          "source": "Microsoft.NETCore.App.Runtime.Mono.browser-wasm/10.0.12",
+          "noticeGroups": [
+            "sdk:mono/10.0.12"
+          ]
+        }
+      ]
+    },
+    {
+      "path": "_framework/System.Collections.Immutable.awd1ek1ugu.wasm",
+      "bytes": 59157,
+      "sha256": "9a2a1f58615a484431f37d4f40026fcb3e94312be51f276b5fd056d63730775c",
+      "sources": [
+        {
+          "source": "Microsoft.NETCore.App.Runtime.Mono.browser-wasm/10.0.12",
+          "noticeGroups": [
+            "sdk:mono/10.0.12"
+          ]
+        }
+      ]
+    },
+    {
+      "path": "_framework/System.Collections.NonGeneric.26x8zm1rmv.wasm",
+      "bytes": 14613,
+      "sha256": "ea44f3d7cb5f91f12e7fbc47eb92587ade0567337e125188d5bb8c5947692226",
+      "sources": [
+        {
+          "source": "Microsoft.NETCore.App.Runtime.Mono.browser-wasm/10.0.12",
+          "noticeGroups": [
+            "sdk:mono/10.0.12"
+          ]
+        }
+      ]
+    },
+    {
+      "path": "_framework/System.Collections.Specialized.jl47kxnsec.wasm",
+      "bytes": 13077,
+      "sha256": "073bbc4b82d9fb2c02841fd01f464e14050d78d0739eacf9ed27157759be0065",
+      "sources": [
+        {
+          "source": "Microsoft.NETCore.App.Runtime.Mono.browser-wasm/10.0.12",
+          "noticeGroups": [
+            "sdk:mono/10.0.12"
+          ]
+        }
+      ]
+    },
+    {
+      "path": "_framework/System.Collections.wi2ly0n96q.wasm",
+      "bytes": 45333,
+      "sha256": "f8ede0c68739d55cbf2eb424bd061415e8aade8c2670c75cb718d06e4eb4df10",
+      "sources": [
+        {
+          "source": "Microsoft.NETCore.App.Runtime.Mono.browser-wasm/10.0.12",
+          "noticeGroups": [
+            "sdk:mono/10.0.12"
+          ]
+        }
+      ]
+    },
+    {
+      "path": "_framework/System.ComponentModel.Annotations.x64spmdbbo.wasm",
+      "bytes": 16661,
+      "sha256": "39658acbe05823b355ddfa019550a59dbe675ab9667e44c59c8cf81c7f7f0a63",
+      "sources": [
+        {
+          "source": "Microsoft.NETCore.App.Runtime.Mono.browser-wasm/10.0.12",
+          "noticeGroups": [
+            "sdk:mono/10.0.12"
+          ]
+        }
+      ]
+    },
+    {
+      "path": "_framework/System.ComponentModel.Primitives.bwc7iv00j8.wasm",
+      "bytes": 17685,
+      "sha256": "0b6b1fa0ba5c24ce6d6a6c43dcbde65058109b833ef9fc21c869fa9434a75d23",
+      "sources": [
+        {
+          "source": "Microsoft.NETCore.App.Runtime.Mono.browser-wasm/10.0.12",
+          "noticeGroups": [
+            "sdk:mono/10.0.12"
+          ]
+        }
+      ]
+    },
+    {
+      "path": "_framework/System.ComponentModel.TypeConverter.pvm3adlowk.wasm",
+      "bytes": 137493,
+      "sha256": "9584bfabffbdcd5e67844eee358f3879126139f91a2ce95ad309051f1823d5ab",
+      "sources": [
+        {
+          "source": "Microsoft.NETCore.App.Runtime.Mono.browser-wasm/10.0.12",
+          "noticeGroups": [
+            "sdk:mono/10.0.12"
+          ]
+        }
+      ]
+    },
+    {
+      "path": "_framework/System.ComponentModel.x0awzxo67d.wasm",
+      "bytes": 5397,
+      "sha256": "3fde6ead86e60e45edf416838843bdaf91d37a0aefdff2af78590c3733e722dc",
+      "sources": [
+        {
+          "source": "Microsoft.NETCore.App.Runtime.Mono.browser-wasm/10.0.12",
+          "noticeGroups": [
+            "sdk:mono/10.0.12"
+          ]
+        }
+      ]
+    },
+    {
+      "path": "_framework/System.Console.np4jy5th45.wasm",
+      "bytes": 15125,
+      "sha256": "65bb46a7238929dedd38e0a49d7163a18c327e20985739ab961f627b5b004c12",
+      "sources": [
+        {
+          "source": "Microsoft.NETCore.App.Runtime.Mono.browser-wasm/10.0.12",
+          "noticeGroups": [
+            "sdk:mono/10.0.12"
+          ]
+        }
+      ]
+    },
+    {
+      "path": "_framework/System.Data.Common.ukwvq26tpw.wasm",
+      "bytes": 476949,
+      "sha256": "5207f98226aa5e98f6224917db81d0946091f5144880deb11b9204388ce4e21a",
+      "sources": [
+        {
+          "source": "Microsoft.NETCore.App.Runtime.Mono.browser-wasm/10.0.12",
+          "noticeGroups": [
+            "sdk:mono/10.0.12"
+          ]
+        }
+      ]
+    },
+    {
+      "path": "_framework/System.Diagnostics.DiagnosticSource.6xmaukytfs.wasm",
+      "bytes": 40213,
+      "sha256": "8aa099df120bd4803d4f6db13bdd8374461ec4a8310f67ece4ffdb34cdd8c82a",
+      "sources": [
+        {
+          "source": "Microsoft.NETCore.App.Runtime.Mono.browser-wasm/10.0.12",
+          "noticeGroups": [
+            "sdk:mono/10.0.12"
+          ]
+        }
+      ]
+    },
+    {
+      "path": "_framework/System.Diagnostics.TraceSource.z6kw9m5whi.wasm",
+      "bytes": 10005,
+      "sha256": "c5c06b3f2f65a171b3495cc7a615b9057211fafd9a6d74286494cb84e40a0d59",
+      "sources": [
+        {
+          "source": "Microsoft.NETCore.App.Runtime.Mono.browser-wasm/10.0.12",
+          "noticeGroups": [
+            "sdk:mono/10.0.12"
+          ]
+        }
+      ]
+    },
+    {
+      "path": "_framework/System.Drawing.c6tmp1gjc8.wasm",
+      "bytes": 4885,
+      "sha256": "345a572e0093b32054f802bedbb413b10431c80a1a2e8fc70d587d451bc320be",
+      "sources": [
+        {
+          "source": "Microsoft.NETCore.App.Runtime.Mono.browser-wasm/10.0.12",
+          "noticeGroups": [
+            "sdk:mono/10.0.12"
+          ]
+        }
+      ]
+    },
+    {
+      "path": "_framework/System.Drawing.Common.7m3mb5w045.wasm",
+      "bytes": 411925,
+      "sha256": "3125474326f87c37aca16c8ae2110444ef326306e712b1aeea66cd8f599aa2bc",
+      "sources": [
+        {
+          "source": "System.Drawing.Common/10.0.9",
+          "noticeGroups": [
+            "package:system.drawing.common/10.0.9"
+          ]
+        }
+      ]
+    },
+    {
+      "path": "_framework/System.Drawing.Primitives.xfb6htyxh2.wasm",
+      "bytes": 42773,
+      "sha256": "6d241c3beceee59847dc14874f5e42c1eb6c847dc7bee9a0907bb20086838d99",
+      "sources": [
+        {
+          "source": "Microsoft.NETCore.App.Runtime.Mono.browser-wasm/10.0.12",
+          "noticeGroups": [
+            "sdk:mono/10.0.12"
+          ]
+        }
+      ]
+    },
+    {
+      "path": "_framework/System.Formats.Nrbf.1c194uw4j2.wasm",
+      "bytes": 44821,
+      "sha256": "ffd49dbbd0365e97d123f10f89883007355e7fef4aa119bf5c6e063a3de5bda0",
+      "sources": [
+        {
+          "source": "System.Formats.Nrbf/10.0.12",
+          "noticeGroups": [
+            "package:system.formats.nrbf/10.0.12"
+          ]
+        }
+      ]
+    },
+    {
+      "path": "_framework/System.IO.Compression.cno3y32s8s.wasm",
+      "bytes": 112917,
+      "sha256": "78f250e5300dd205bc16ac0977b3a276ee8e1b7035435aef2451c9752e8a9ef0",
+      "sources": [
+        {
+          "source": "Microsoft.NETCore.App.Runtime.Mono.browser-wasm/10.0.12",
+          "noticeGroups": [
+            "sdk:mono/10.0.12"
+          ]
+        }
+      ]
+    },
+    {
+      "path": "_framework/System.IO.Compression.ZipFile.nsuuk3ezui.wasm",
+      "bytes": 15637,
+      "sha256": "6717a2a9c61c0bd74152988a59b8611bb4a30cfbe606c8df3a5d8a8df07ae9fd",
+      "sources": [
+        {
+          "source": "Microsoft.NETCore.App.Runtime.Mono.browser-wasm/10.0.12",
+          "noticeGroups": [
+            "sdk:mono/10.0.12"
+          ]
+        }
+      ]
+    },
+    {
+      "path": "_framework/System.IO.FileSystem.Watcher.82g9bton07.wasm",
+      "bytes": 7445,
+      "sha256": "90781233efa5f13641fe411df0acf892757e161c4d2b4b4ed51dac8a5203be41",
+      "sources": [
+        {
+          "source": "Microsoft.NETCore.App.Runtime.Mono.browser-wasm/10.0.12",
+          "noticeGroups": [
+            "sdk:mono/10.0.12"
+          ]
+        }
+      ]
+    },
+    {
+      "path": "_framework/System.IO.MemoryMappedFiles.ppy01ujboh.wasm",
+      "bytes": 25877,
+      "sha256": "bd78207910244dc73ffde4c64d97ee726c5922c3f4c0d6cf3f78179daa674ed5",
+      "sources": [
+        {
+          "source": "Microsoft.NETCore.App.Runtime.Mono.browser-wasm/10.0.12",
+          "noticeGroups": [
+            "sdk:mono/10.0.12"
+          ]
+        }
+      ]
+    },
+    {
+      "path": "_framework/System.IO.Pipelines.syhqffnboi.wasm",
+      "bytes": 5909,
+      "sha256": "8ce735e3c2ae9bebee52b83606d9cb588ec44d279630d1a289c75828c1069ab5",
+      "sources": [
+        {
+          "source": "Microsoft.NETCore.App.Runtime.Mono.browser-wasm/10.0.12",
+          "noticeGroups": [
+            "sdk:mono/10.0.12"
+          ]
+        }
+      ]
+    },
+    {
+      "path": "_framework/System.Linq.6wuw35jzhs.wasm",
+      "bytes": 146709,
+      "sha256": "666bdb81975de56f32e1411b61c821177bec9d61854c2e9b8d958c9656fd09b5",
+      "sources": [
+        {
+          "source": "Microsoft.NETCore.App.Runtime.Mono.browser-wasm/10.0.12",
+          "noticeGroups": [
+            "sdk:mono/10.0.12"
+          ]
+        }
+      ]
+    },
+    {
+      "path": "_framework/System.Linq.Expressions.k1yp827rcy.wasm",
+      "bytes": 362773,
+      "sha256": "98f8c2f0b6170ac41d180d43a26bc2efdf8a81f6499b7d3a6b465da8c695b7da",
+      "sources": [
+        {
+          "source": "Microsoft.NETCore.App.Runtime.Mono.browser-wasm/10.0.12",
+          "noticeGroups": [
+            "sdk:mono/10.0.12"
+          ]
+        }
+      ]
+    },
+    {
+      "path": "_framework/System.Linq.Queryable.ngfa5109zw.wasm",
+      "bytes": 55061,
+      "sha256": "398a0a99bcc01c06c41fd9b98cc59078e3723722f05a375bd2c86c233bdc2dd8",
+      "sources": [
+        {
+          "source": "Microsoft.NETCore.App.Runtime.Mono.browser-wasm/10.0.12",
+          "noticeGroups": [
+            "sdk:mono/10.0.12"
+          ]
+        }
+      ]
+    },
+    {
+      "path": "_framework/System.Memory.zap6gdrfaw.wasm",
+      "bytes": 14613,
+      "sha256": "65666041d5a95c78b8ea6d99c3019d5d5cad7c900cb95c0eb75b2480b11c03bc",
+      "sources": [
+        {
+          "source": "Microsoft.NETCore.App.Runtime.Mono.browser-wasm/10.0.12",
+          "noticeGroups": [
+            "sdk:mono/10.0.12"
+          ]
+        }
+      ]
+    },
+    {
+      "path": "_framework/System.Net.Http.fqlzckp5sg.wasm",
+      "bytes": 143125,
+      "sha256": "c7844dcc0debee2f3d30928ed6d1068643dc8b066c25743e3a077bd47f45c233",
+      "sources": [
+        {
+          "source": "Microsoft.NETCore.App.Runtime.Mono.browser-wasm/10.0.12",
+          "noticeGroups": [
+            "sdk:mono/10.0.12"
+          ]
+        }
+      ]
+    },
+    {
+      "path": "_framework/System.Net.Primitives.b5u59ctka3.wasm",
+      "bytes": 7445,
+      "sha256": "21afcd13ac40321fd21d32e46984ac8699eeac9529c72d7e4804eb0de11792ba",
+      "sources": [
+        {
+          "source": "Microsoft.NETCore.App.Runtime.Mono.browser-wasm/10.0.12",
+          "noticeGroups": [
+            "sdk:mono/10.0.12"
+          ]
+        }
+      ]
+    },
+    {
+      "path": "_framework/System.Numerics.Vectors.1cu6lue4lt.wasm",
+      "bytes": 4885,
+      "sha256": "efd31c106220350dab8dcf545a9def4a62ff9f7fa5b0ccb86a90fc0fc3942cbb",
+      "sources": [
+        {
+          "source": "Microsoft.NETCore.App.Runtime.Mono.browser-wasm/10.0.12",
+          "noticeGroups": [
+            "sdk:mono/10.0.12"
+          ]
+        }
+      ]
+    },
+    {
+      "path": "_framework/System.ObjectModel.pk2ai2xnlk.wasm",
+      "bytes": 13589,
+      "sha256": "776a0809009511f5e544cdb62189bfeac7b011efc86043bbf8c0efbc561f0cf4",
+      "sources": [
+        {
+          "source": "Microsoft.NETCore.App.Runtime.Mono.browser-wasm/10.0.12",
+          "noticeGroups": [
+            "sdk:mono/10.0.12"
+          ]
+        }
+      ]
+    },
+    {
+      "path": "_framework/System.Private.CoreLib.1hrk2pcxhl.wasm",
+      "bytes": 2107161,
+      "sha256": "ebf1830160192d3bcd903619de4e09fbcfc7f14aca25e54e1f1c5e91c0a24efa",
+      "sources": [
+        {
+          "source": "Microsoft.NETCore.App.Runtime.Mono.browser-wasm/10.0.12",
+          "noticeGroups": [
+            "sdk:mono/10.0.12"
+          ]
+        }
+      ]
+    },
+    {
+      "path": "_framework/System.Private.Uri.yksetfbqd9.wasm",
+      "bytes": 70933,
+      "sha256": "ce6ec5431375451fea95481b98090c9df148aebb870e188d7a9775654cd43933",
+      "sources": [
+        {
+          "source": "Microsoft.NETCore.App.Runtime.Mono.browser-wasm/10.0.12",
+          "noticeGroups": [
+            "sdk:mono/10.0.12"
+          ]
+        }
+      ]
+    },
+    {
+      "path": "_framework/System.Private.Windows.Core.mw81wovh5s.wasm",
+      "bytes": 1215765,
+      "sha256": "56939ec01209128316f6202cd2097f09d5b030c6822ec27f067aee8026b5ccdc",
+      "sources": [
+        {
+          "source": "System.Drawing.Common/10.0.9",
+          "noticeGroups": [
+            "package:system.drawing.common/10.0.9"
+          ]
+        }
+      ]
+    },
+    {
+      "path": "_framework/System.Private.Windows.GdiPlus.kgwach1lv8.wasm",
+      "bytes": 158485,
+      "sha256": "d482f9c6c0a3a2860222b606ca7d5c14d0664dfde57d53949c89849b12c2ab5d",
+      "sources": [
+        {
+          "source": "System.Drawing.Common/10.0.9",
+          "noticeGroups": [
+            "package:system.drawing.common/10.0.9"
+          ]
+        }
+      ]
+    },
+    {
+      "path": "_framework/System.Private.Xml.hqmcbs4izn.wasm",
+      "bytes": 1309461,
+      "sha256": "e766d76e523a86709bb9a1b6603dfe5e186a2ddb204754ef6f6d195f3675ea6b",
+      "sources": [
+        {
+          "source": "Microsoft.NETCore.App.Runtime.Mono.browser-wasm/10.0.12",
+          "noticeGroups": [
+            "sdk:mono/10.0.12"
+          ]
+        }
+      ]
+    },
+    {
+      "path": "_framework/System.Private.Xml.Linq.ftqimjcv7y.wasm",
+      "bytes": 42773,
+      "sha256": "43da58e20cf03dd13117fb497a223d03b1641f03c95a03c9acced1cf441f7a9b",
+      "sources": [
+        {
+          "source": "Microsoft.NETCore.App.Runtime.Mono.browser-wasm/10.0.12",
+          "noticeGroups": [
+            "sdk:mono/10.0.12"
+          ]
+        }
+      ]
+    },
+    {
+      "path": "_framework/System.Reflection.Metadata.w6bxijydn9.wasm",
+      "bytes": 89877,
+      "sha256": "e8942310efd78dbf125b61145ed716910ed0ab7aa0d0f549fdf59c39cdc78dce",
+      "sources": [
+        {
+          "source": "Microsoft.NETCore.App.Runtime.Mono.browser-wasm/10.0.12",
+          "noticeGroups": [
+            "sdk:mono/10.0.12"
+          ]
+        }
+      ]
+    },
+    {
+      "path": "_framework/System.Runtime.2ygxkqk6qd.wasm",
+      "bytes": 15637,
+      "sha256": "f62fc294fed385b0ff3e01e6d5ed6949ce20be6f70d5defe30bd4b9744d7f4c6",
+      "sources": [
+        {
+          "source": "Microsoft.NETCore.App.Runtime.Mono.browser-wasm/10.0.12",
+          "noticeGroups": [
+            "sdk:mono/10.0.12"
+          ]
+        }
+      ]
+    },
+    {
+      "path": "_framework/System.Runtime.InteropServices.JavaScript.uncpdj4m4u.wasm",
+      "bytes": 48917,
+      "sha256": "5a251b1729f2cb28146aa63d9e0c6220bede24c07e934bb33ed13da495b8dd49",
+      "sources": [
+        {
+          "source": "Microsoft.NETCore.App.Runtime.Mono.browser-wasm/10.0.12",
+          "noticeGroups": [
+            "sdk:mono/10.0.12"
+          ]
+        }
+      ]
+    },
+    {
+      "path": "_framework/System.Runtime.InteropServices.v6cqhip8im.wasm",
+      "bytes": 12053,
+      "sha256": "37890abef78cf19b749b15147301dd99a5866b54f57e4a9a9d784caaa89e6f15",
+      "sources": [
+        {
+          "source": "Microsoft.NETCore.App.Runtime.Mono.browser-wasm/10.0.12",
+          "noticeGroups": [
+            "sdk:mono/10.0.12"
+          ]
+        }
+      ]
+    },
+    {
+      "path": "_framework/System.Runtime.Numerics.jy0e4titw3.wasm",
+      "bytes": 90901,
+      "sha256": "5b74dd1a21507e043f88e2e37e8f32bae00c1fe5fc72999cadfa2ec080541a78",
+      "sources": [
+        {
+          "source": "Microsoft.NETCore.App.Runtime.Mono.browser-wasm/10.0.12",
+          "noticeGroups": [
+            "sdk:mono/10.0.12"
+          ]
+        }
+      ]
+    },
+    {
+      "path": "_framework/System.Runtime.Serialization.Formatters.ylfniem3sv.wasm",
+      "bytes": 12565,
+      "sha256": "c61841247bf8f7df4f74d2b190a065e359424aaa3dc277d14079b192ff68d0c0",
+      "sources": [
+        {
+          "source": "Microsoft.NETCore.App.Runtime.Mono.browser-wasm/10.0.12",
+          "noticeGroups": [
+            "sdk:mono/10.0.12"
+          ]
+        }
+      ]
+    },
+    {
+      "path": "_framework/System.Runtime.Serialization.Primitives.ephlcdpxnc.wasm",
+      "bytes": 5397,
+      "sha256": "1e036dfeaac03569bb6a4e098e4b0d8a7d3d25f017176cc98e9812e24223eac5",
+      "sources": [
+        {
+          "source": "Microsoft.NETCore.App.Runtime.Mono.browser-wasm/10.0.12",
+          "noticeGroups": [
+            "sdk:mono/10.0.12"
+          ]
+        }
+      ]
+    },
+    {
+      "path": "_framework/System.Security.Cryptography.qhsdsrxnt9.wasm",
+      "bytes": 38677,
+      "sha256": "7e8950a1a4e90ddb24c61b0de60935eb91dd71f0e4069f81653c69b6192631dc",
+      "sources": [
+        {
+          "source": "Microsoft.NETCore.App.Runtime.Mono.browser-wasm/10.0.12",
+          "noticeGroups": [
+            "sdk:mono/10.0.12"
+          ]
+        }
+      ]
+    },
+    {
+      "path": "_framework/System.Text.Encodings.Web.p2n7buggi3.wasm",
+      "bytes": 30485,
+      "sha256": "91934195c6326f4b4e3ee8ed7a3c0a0dacb4cf7f44c9aecb26ec952efa7b371d",
+      "sources": [
+        {
+          "source": "Microsoft.NETCore.App.Runtime.Mono.browser-wasm/10.0.12",
+          "noticeGroups": [
+            "sdk:mono/10.0.12"
+          ]
+        }
+      ]
+    },
+    {
+      "path": "_framework/System.Text.Json.lpzut4wu0q.wasm",
+      "bytes": 384277,
+      "sha256": "b7a252eaddcd1550946d2e879eecbc0a0e4ebba6e58fb52899c99cf13ce71157",
+      "sources": [
+        {
+          "source": "Microsoft.NETCore.App.Runtime.Mono.browser-wasm/10.0.12",
+          "noticeGroups": [
+            "sdk:mono/10.0.12"
+          ]
+        }
+      ]
+    },
+    {
+      "path": "_framework/System.Text.RegularExpressions.d20kstq5y4.wasm",
+      "bytes": 257813,
+      "sha256": "554d61f657996b1c1277f01a2589a8d795ade9ab0983fa329069dfd93fd727ed",
+      "sources": [
+        {
+          "source": "Microsoft.NETCore.App.Runtime.Mono.browser-wasm/10.0.12",
+          "noticeGroups": [
+            "sdk:mono/10.0.12"
+          ]
+        }
+      ]
+    },
+    {
+      "path": "_framework/System.Threading.Channels.77rxas4vbs.wasm",
+      "bytes": 6933,
+      "sha256": "f341a35921dcd6e31354f9479b7b51219d643a31e81cefc677d935ca7847296a",
+      "sources": [
+        {
+          "source": "Microsoft.NETCore.App.Runtime.Mono.browser-wasm/10.0.12",
+          "noticeGroups": [
+            "sdk:mono/10.0.12"
+          ]
+        }
+      ]
+    },
+    {
+      "path": "_framework/System.Threading.s39cbmu2v9.wasm",
+      "bytes": 12565,
+      "sha256": "181cd0fdfb5c2b56006013db55e754114dce0c3ea7d6d8d17f9d60a7897f1846",
+      "sources": [
+        {
+          "source": "Microsoft.NETCore.App.Runtime.Mono.browser-wasm/10.0.12",
+          "noticeGroups": [
+            "sdk:mono/10.0.12"
+          ]
+        }
+      ]
+    },
+    {
+      "path": "_framework/System.Threading.Tasks.Parallel.84mji8imcn.wasm",
+      "bytes": 8981,
+      "sha256": "48f75e5f625df133d6b59c19b0c98c6298c615babe0a1043019003b2b98ddee0",
+      "sources": [
+        {
+          "source": "Microsoft.NETCore.App.Runtime.Mono.browser-wasm/10.0.12",
+          "noticeGroups": [
+            "sdk:mono/10.0.12"
+          ]
+        }
+      ]
+    },
+    {
+      "path": "_framework/System.Threading.Thread.scj7rxo73q.wasm",
+      "bytes": 4885,
+      "sha256": "4443bfd7618867248cd42d2a282460d7e8ed3508ccf5bbb0ba155d515e7ea5ed",
+      "sources": [
+        {
+          "source": "Microsoft.NETCore.App.Runtime.Mono.browser-wasm/10.0.12",
+          "noticeGroups": [
+            "sdk:mono/10.0.12"
+          ]
+        }
+      ]
+    },
+    {
+      "path": "_framework/System.Xml.Linq.pzw688hdq1.wasm",
+      "bytes": 4373,
+      "sha256": "7b9b71b657b457f8e567ee656b11defa4da8db17b01e1eba015a43ae3f325e57",
+      "sources": [
+        {
+          "source": "Microsoft.NETCore.App.Runtime.Mono.browser-wasm/10.0.12",
+          "noticeGroups": [
+            "sdk:mono/10.0.12"
+          ]
+        }
+      ]
+    },
+    {
+      "path": "_framework/System.Xml.ReaderWriter.mc65z2ev7k.wasm",
+      "bytes": 4885,
+      "sha256": "9a6522e413db70dce645f7bd97cf0186342589b04a020f8ce963c68f14f01150",
+      "sources": [
+        {
+          "source": "Microsoft.NETCore.App.Runtime.Mono.browser-wasm/10.0.12",
+          "noticeGroups": [
+            "sdk:mono/10.0.12"
+          ]
+        }
+      ]
+    },
+    {
+      "path": "_framework/System.Xml.XmlSerializer.prrrwsu48y.wasm",
+      "bytes": 4885,
+      "sha256": "55b53e5e970ae959059db403e64a23ede9028c07f0cd51864a6462b7defd09d9",
+      "sources": [
+        {
+          "source": "Microsoft.NETCore.App.Runtime.Mono.browser-wasm/10.0.12",
+          "noticeGroups": [
+            "sdk:mono/10.0.12"
+          ]
+        }
+      ]
+    },
+    {
+      "path": "_framework/TheTechIdea.Beep.Vis.Modules.98c27dmr5u.wasm",
+      "bytes": 3216665,
+      "sha256": "6985c867d6de5c201295522d974b6708376ebec77838a6115680aa9116fdfebb",
+      "sources": [
+        {
+          "source": "TheTechIdea.Beep.Vis.Modules/2.0.44",
+          "noticeGroups": [
+            "package:thetechidea.beep.vis.modules/2.0.44"
+          ]
+        }
+      ]
+    },
+    {
+      "path": "fonts/Kalam-Regular.ttf",
+      "bytes": 427360,
+      "sha256": "57cecb63d4608019371954274ae1d8c397764debd5b19d4a33c1efa4dc923c0b",
+      "sources": [
+        {
+          "source": "Bundled Kalam Regular",
+          "noticeGroups": [
+            "font:kalam"
+          ]
+        }
+      ]
+    },
+    {
+      "path": "fonts/OFL.txt",
+      "bytes": 4373,
+      "sha256": "f62ef357d3a1c3d27edd35a6e1ba350e8a8d13499797964eeadefbf0b3b15d1f",
+      "sources": [
+        {
+          "source": "Bundled Kalam Regular",
+          "noticeGroups": [
+            "font:kalam"
+          ]
+        }
+      ]
+    }
+  ],
+  "usedNoticeGroups": [
+    "font:kalam",
+    "package:microsoft.aspnetcore.authorization/10.0.12",
+    "package:microsoft.aspnetcore.components.forms/10.0.12",
+    "package:microsoft.aspnetcore.components.web/10.0.12",
+    "package:microsoft.aspnetcore.components.webassembly/10.0.12",
+    "package:microsoft.aspnetcore.components/10.0.12",
+    "package:microsoft.aspnetcore.metadata/10.0.12",
+    "package:microsoft.extensions.configuration.abstractions/10.0.12",
+    "package:microsoft.extensions.configuration.binder/10.0.12",
+    "package:microsoft.extensions.configuration.fileextensions/10.0.12",
+    "package:microsoft.extensions.configuration.json/10.0.12",
+    "package:microsoft.extensions.configuration/10.0.12",
+    "package:microsoft.extensions.dependencyinjection.abstractions/10.0.12",
+    "package:microsoft.extensions.dependencyinjection/10.0.12",
+    "package:microsoft.extensions.diagnostics.abstractions/10.0.12",
+    "package:microsoft.extensions.diagnostics/10.0.12",
+    "package:microsoft.extensions.fileproviders.abstractions/10.0.12",
+    "package:microsoft.extensions.fileproviders.physical/10.0.12",
+    "package:microsoft.extensions.filesystemglobbing/10.0.12",
+    "package:microsoft.extensions.logging.abstractions/10.0.12",
+    "package:microsoft.extensions.logging/10.0.12",
+    "package:microsoft.extensions.options.configurationextensions/10.0.12",
+    "package:microsoft.extensions.options/10.0.12",
+    "package:microsoft.extensions.primitives/10.0.12",
+    "package:microsoft.extensions.validation/10.0.12",
+    "package:microsoft.jsinterop.webassembly/10.0.12",
+    "package:microsoft.jsinterop/10.0.12",
+    "package:microsoft.win32.systemevents/10.0.9",
+    "package:skiasharp.extended/3.0.0",
+    "package:skiasharp.nativeassets.webassembly/4.150.1",
+    "package:skiasharp.svg/1.60.0",
+    "package:skiasharp.views.blazor/4.150.1",
+    "package:skiasharp/4.150.1",
+    "package:system.drawing.common/10.0.9",
+    "package:system.formats.nrbf/10.0.12",
+    "package:thetechidea.beep.datamanagementmodels/3.1.1",
+    "package:thetechidea.beep.vis.modules/2.0.44",
+    "sdk:emscripten/3.1.56",
+    "sdk:mono/10.0.12",
+    "source:beep-skia"
+  ],
+  "conservativeAdditionalNoticeGroups": [
+    "package:microsoft.aspnetcore.app.internal.assets/10.0.12",
+    "package:microsoft.aspnetcore.components.analyzers/10.0.12",
+    "package:microsoft.net.illink.tasks/10.0.12",
+    "package:microsoft.net.sdk.webassembly.pack/10.0.12",
+    "package:skiasharp.nativeassets.macos/4.150.1",
+    "package:skiasharp.nativeassets.win32/4.150.1"
+  ],
+  "scope": "Actual published framework/content/font paths and SHA256, mapped to resolved NuGet runtime item names, exact SDK runtime assembly names or reviewed source. Linked native vendor notices are retained in full; no subcomponent/function-level trimming claim. Independent rights/header acceptance remains open."
+}

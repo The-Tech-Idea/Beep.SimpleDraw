@@ -1,0 +1,9 @@
+{
+  "sha256": "497282b981275edcdf0854ea31a6fd298706f31b5203911a3167378852803b3e",
+  "candidate": "artifacts/simpledraw-v1-final",
+  "completedFile": true,
+  "download": "Drawing.simpledraw (58).json",
+  "bytes": 8182,
+  "exactUpdatePreservation": true,
+  "baseline": "Drawing.simpledraw (57).json"
+}

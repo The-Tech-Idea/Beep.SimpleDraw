@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="src/Beep.SimpleDraw.Mcp/Beep.SimpleDraw.Mcp.csproj" />
+  <Project Path="tests/Beep.SimpleDraw.Mcp.Tests/Beep.SimpleDraw.Mcp.Tests.csproj" />
+</Solution>

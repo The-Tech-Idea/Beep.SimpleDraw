@@ -1,0 +1,154 @@
+{
+  "checkedAt": "2026-10-05T23:32:37.889Z",
+  "surfaces": {
+    "apps": [],
+    "browsers": [
+      {
+        "id": "2",
+        "metadata": {
+          "codexSessionId": "01a10b2e-f9a5-7902-ad7f-d0b943fe6e19"
+        },
+        "name": "Codex In-app Browser",
+        "type": "iab",
+        "tabs": [
+          {
+            "id": "4",
+            "providerTabId": "browser-use:68d7def1-cd41-4002-a46e-39e115db1a2f",
+            "title": "SimpleDraw — a little room for big ideas",
+            "url": "http://127.0.0.1:5188/"
+          },
+          {
+            "id": "6",
+            "providerTabId": "browser-use:9bcfffc9-a9d3-40d0-bfe2-09c6d63253c5",
+            "title": "SimpleDraw — a little room for big ideas",
+            "url": "http://127.0.0.1:5190/"
+          },
+          {
+            "id": "17",
+            "providerTabId": "browser-use:96ede6f7-953b-421a-85bd-2f8a4c1c1e07",
+            "title": "SimpleDraw — a little room for big ideas",
+            "url": "http://127.0.0.1:5196/"
+          },
+          {
+            "id": "23",
+            "providerTabId": "browser-use:45518826-a841-41d4-a9b7-43f3f57d7bb0",
+            "title": "SimpleDraw — a little room for big ideas",
+            "url": "http://127.0.0.1:5200/"
+          },
+          {
+            "id": "28",
+            "providerTabId": "browser-use:a4aca8cf-ff9b-4476-b1ef-98f31c76f89a",
+            "title": "SimpleDraw — a little room for big ideas",
+            "url": "http://127.0.0.1:5204/"
+          },
+          {
+            "id": "30",
+            "providerTabId": "browser-use:2a56181b-b075-4ae5-87a4-e2c47be883a3",
+            "title": "SimpleDraw — a little room for big ideas",
+            "url": "http://127.0.0.1:5206/"
+          },
+          {
+            "id": "33",
+            "providerTabId": "browser-use:36995687-f6c3-4fd8-a974-b343ffc03b26",
+            "title": "SimpleDraw — a little room for big ideas",
+            "url": "http://127.0.0.1:5209/"
+          },
+          {
+            "id": "35",
+            "providerTabId": "browser-use:0df4c2f8-dd25-4031-806a-73d050afa1bf",
+            "title": "SimpleDraw — a little room for big ideas",
+            "url": "http://127.0.0.1:5212/draw/"
+          },
+          {
+            "id": "36",
+            "providerTabId": "browser-use:052ef286-d02c-4371-b794-61288482bc64",
+            "title": "SimpleDraw — a little room for big ideas",
+            "url": "http://127.0.0.1:5213/"
+          },
+          {
+            "id": "42",
+            "providerTabId": "browser-use:89751e03-526f-45c3-a597-d386be6f4fdb",
+            "title": "SimpleDraw — a little room for big ideas",
+            "url": "http://127.0.0.1:5218/draw/"
+          },
+          {
+            "id": "44",
+            "providerTabId": "browser-use:571dc73a-38af-415b-9f21-654e10998f0e",
+            "title": "SimpleDraw — a little room for big ideas",
+            "url": "http://127.0.0.1:5220/draw/"
+          },
+          {
+            "id": "45",
+            "providerTabId": "e998c76f-43b6-4d5f-8fed-6beff2f063bd",
+            "title": "SimpleDraw — software notices",
+            "url": "http://127.0.0.1:5220/draw/licenses/index.html"
+          },
+          {
+            "id": "46",
+            "providerTabId": "browser-use:63f7912a-d2f3-4c49-aa00-009a6f27061b",
+            "title": "SimpleDraw — software notices",
+            "url": "http://127.0.0.1:5220/draw/licenses/index.html"
+          },
+          {
+            "id": "48",
+            "providerTabId": "browser-use:0d409633-f711-4b72-a11d-0ae0f4106652",
+            "title": "SimpleDraw — a little room for big ideas",
+            "url": "http://127.0.0.1:5221/draw/"
+          },
+          {
+            "id": "51",
+            "providerTabId": "browser-use:56ab5535-9436-4f2f-a236-7bc63ad63781",
+            "title": "SimpleDraw — a little room for big ideas",
+            "url": "http://127.0.0.1:5224/draw/"
+          },
+          {
+            "id": "62",
+            "providerTabId": "browser-use:b3debca9-3a1c-4b4c-aed8-b60c433aeb5d",
+            "title": "SimpleDraw — a little room for big ideas",
+            "url": "http://127.0.0.1:5233/draw/"
+          },
+          {
+            "id": "66",
+            "providerTabId": "browser-use:a3198d68-c84f-4a81-bdd4-8757da6fd034",
+            "title": "SimpleDraw — a little room for big ideas",
+            "url": "http://127.0.0.1:5237/draw/"
+          },
+          {
+            "id": "67",
+            "providerTabId": "browser-use:4bfb2ab5-0a4b-40f5-aabc-54a77332235e",
+            "title": "SimpleDraw — a little room for big ideas",
+            "url": "http://127.0.0.1:5238/draw/"
+          },
+          {
+            "id": "72",
+            "providerTabId": "browser-use:e2cbe4e7-43a5-4ec1-b12b-a8bcea4ac35a",
+            "title": "SimpleDraw — a little room for big ideas",
+            "url": "http://127.0.0.1:5243/draw/"
+          },
+          {
+            "id": "76",
+            "providerTabId": "browser-use:e1787569-a91e-41fe-a01c-c0abd6fb2d0a",
+            "title": "SimpleDraw — software notices",
+            "url": "http://127.0.0.1:5243/draw/licenses/index.html"
+          }
+        ]
+      },
+      {
+        "id": "1",
+        "metadata": {
+          "codexSessionId": "01a10b2e-f9a5-7902-ad7f-d0b943fe6e19"
+        },
+        "name": "Codex MCP Apps",
+        "type": "mcpapps",
+        "tabs": []
+      }
+    ]
+  },
+  "edgeAttempt": {
+    "result": "Browser is not available: edge"
+  },
+  "limitations": [
+    "Native apps disabled for this session",
+    "No connected Edge, Firefox, Safari, physical-device or screen-reader surface"
+  ]
+}

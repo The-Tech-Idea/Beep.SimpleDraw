@@ -1,0 +1,137 @@
+{
+  "schemaVersion": 1,
+  "date": "2026-10-05",
+  "scope": "Complete existing Beep.Skia.Tests project on Windows; no manual desktop/device certification",
+  "buildWarningsAsErrors": true,
+  "projectReferences": 19,
+  "projectClosure": 21,
+  "initial": {
+    "total": 504,
+    "executed": 504,
+    "passed": 502,
+    "failed": 2,
+    "notExecuted": 0,
+    "failures": [
+      {
+        "name": "Beep.Skia.Tests.MindMapLayoutTests.Arrange_PlacesTopicsAroundCentralAtLevelSpacing",
+        "outcome": "Failed",
+        "message": "Assert.Equal() Failure: Values are not within 0 decimal places\r\nExpected: 200 (rounded from 200)\r\nActual:   318 (rounded from 317.804962)"
+      },
+      {
+        "name": "Beep.Skia.Tests.RenderPerformanceTests.RenderLargeDiagram_ReportsFrameCostAndAllocations",
+        "outcome": "Failed",
+        "message": "drawing connection lines must allocate more than drawing nodes alone"
+      }
+    ],
+    "performance": [
+      {
+        "name": "Beep.Skia.Tests.RenderPerformanceTests.RenderLargeDiagram_ReportsFrameCostAndAllocations",
+        "outcome": "Failed",
+        "output": "nodes=200 frames=60\r\nnodes only (200 nodes, 0 lines): 3.81 ms/frame, 17.27 KB/frame\r\nnodes+lines (200 nodes, 199 lines): 6.09 ms/frame, 17.27 KB/frame"
+      }
+    ]
+  },
+  "focused": {
+    "total": 5,
+    "executed": 5,
+    "passed": 5,
+    "failed": 0,
+    "notExecuted": 0,
+    "failures": [],
+    "performance": [
+      {
+        "name": "Beep.Skia.Tests.RenderPerformanceTests.RenderLargeDiagram_ReportsFrameCostAndAllocations",
+        "outcome": "Passed",
+        "output": "nodes=200 frames=60\r\nnodes only (200 nodes, 0 lines): 5.20 ms/frame, 17.27 KB/frame\r\nnodes+lines (200 nodes, 199 lines): 8.26 ms/frame, 17.31 KB/frame"
+      }
+    ]
+  },
+  "verified": {
+    "total": 504,
+    "executed": 504,
+    "passed": 504,
+    "failed": 0,
+    "notExecuted": 0,
+    "failures": [],
+    "performance": [
+      {
+        "name": "Beep.Skia.Tests.RenderPerformanceTests.RenderLargeDiagram_ReportsFrameCostAndAllocations",
+        "outcome": "Passed",
+        "output": "nodes=200 frames=60\r\nnodes only (200 nodes, 0 lines): 5.37 ms/frame, 17.27 KB/frame\r\nnodes+lines (200 nodes, 199 lines): 7.89 ms/frame, 17.31 KB/frame"
+      }
+    ]
+  },
+  "portableSourcePin": {
+    "baseCommit": "19bb026ba403ff91bd1a2ce324000ddce07cd26d",
+    "sourceFiles": 209,
+    "sourceSha256": "b80560e6fcddb0ba973287babfe178312819b5e19de0e94b421a4c5356f46568",
+    "packages": [
+      {
+        "id": "TheTechIdea.Beep.DataManagementModels",
+        "version": "3.1.1",
+        "sha256": "5a9ac5f7fbf9581d99a7ce871ddb36ff62f6b0b79fe6ec110dce4d75aa52f46f",
+        "repository": "https://github.com/The-Tech-Idea/BeepDM",
+        "commit": "f305eaf64037392fa4b907aa69f64f5d641c69d4"
+      },
+      {
+        "id": "TheTechIdea.Beep.Vis.Modules",
+        "version": "2.0.44",
+        "sha256": "0e2c8c5809846dca31b6fa3c07f6487165337e3e21a002d0e60124731c13e718",
+        "repository": "https://github.com/The-Tech-Idea/BeepEnterprize.winform",
+        "commit": "9b62321ff640ebcc8bb6cca1f83e675a29a92215"
+      }
+    ]
+  },
+  "siblingTestInputs": [
+    {
+      "path": "Beep.Skia.Tests/RenderPerformanceTests.cs",
+      "sha256": "71097a051d45bff40e93b6b12172180820ce1455785d36781f1611559d674717"
+    },
+    {
+      "path": "Beep.Skia.Tests/MindMapLayoutTests.cs",
+      "sha256": "bd41b01ac88550bfe813a8f5c251b5c46a85fbd3d7f592a3f303a33fd9394c59"
+    },
+    {
+      "path": "Beep.Skia.Tests/Beep.Skia.Tests.csproj",
+      "sha256": "07839ab2b6f65b8d7236ac3a2146ac8c9b5a074eacb2332ee2c59566127c99d4"
+    }
+  ],
+  "evidence": [
+    {
+      "path": "p6-sibling-regression-focused.trx",
+      "bytes": 8686,
+      "sha256": "12a397ba71adce75aa20d2ea4041b12e9a6c2c5b4f9be5d9fbdbd5cbcfdc8529"
+    },
+    {
+      "path": "p6-sibling-regression-initial.trx",
+      "bytes": 711208,
+      "sha256": "47a951226a28a27625f2dc6900e313df9ef8a7235e48d2cd878c05a64db3b2f4"
+    },
+    {
+      "path": "p6-sibling-regression-restore.log",
+      "bytes": 2544,
+      "sha256": "61fa4e0e2fff5a2d2fd9f28f0972fcb580d6335b0c47387c32d33c357a39b56f"
+    },
+    {
+      "path": "p6-sibling-regression-tests.patch",
+      "bytes": 5627,
+      "sha256": "b5c9b7732df35282bbea478d732fe04a878c6dd07f1749c11963677302f0e029"
+    },
+    {
+      "path": "p6-sibling-regression-verified.log",
+      "bytes": 3542,
+      "sha256": "16bd9266ea44a6449182c2caad1ee6dec3e543ce6b849e3040f8d95d624e053b"
+    },
+    {
+      "path": "p6-sibling-regression-verified.trx",
+      "bytes": 706709,
+      "sha256": "768a74acd57ba5a273bc3002afec86fc4cf18f1be24aaba9f15579a1f5c95ae4"
+    }
+  ],
+  "appRuntimeChanged": false,
+  "limitations": [
+    "Ordinary multi-target sibling restore uses global package cache; not a new isolated-cache full sibling reproduction",
+    "Portable source pin excludes sibling test files; retained test patch is separate evidence",
+    "No manual WinForms/device/browser matrix or owner acceptance inferred"
+  ]
+}

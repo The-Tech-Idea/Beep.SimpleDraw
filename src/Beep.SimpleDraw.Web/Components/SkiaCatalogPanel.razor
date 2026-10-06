@@ -1,0 +1,81 @@
+@using Beep.SimpleDraw.Core
+@using Beep.SimpleDraw.Core.Library
+@using Beep.Skia
+@using Beep.SimpleDraw.Web.Services
+<details class="templates-panel skia-catalog" open>
+    <summary>@L("Beep.Skia libraries")</summary>
+    <div class="library-content">
+        <label>@L("Family")<select aria-label="@L("Beep.Skia family")" dir="ltr" lang="en" @bind="_family">
+            @foreach (var family in Families) { <option value="@family">@family</option> }
+        </select></label>
+        <label>@L("Search shapes")<input type="search" aria-label="@L("Search Beep.Skia shapes")" dir="auto" @bind="_search" @bind:event="oninput" /></label>
+        <p>@Filtered.Length @L("shapes") · @SkiaCatalog.Entries.Count @L("built in")</p>
+        <div class="catalog-shapes">
+            @foreach (var entry in Filtered)
+            { <button @key="entry.TypeKey" title="@entry.TypeKey" @onclick="() => Insert(entry)"><bdi lang="en">@entry.Label</bdi></button> }
+        </div>
+        @if (Filtered.Length == 0) { <p>@L("No matching shapes.")</p> }
+        @if (Selected is { } selected && !FlowchartDefinitions.Supports(selected.GetType().FullName))
+        {
+            <fieldset><legend><bdi lang="en">@SkiaCatalog.Label(selected)</bdi> @L("properties")</legend>
+                <select aria-label="@L("Component property")" dir="ltr" @bind="_property" @bind:after="ReadValue">
+                    <option value="">@L("Choose property")</option>
+                    @foreach (var key in PropertyKeys) { <option value="@key" lang="en">@key</option> }
+                </select>
+                <textarea aria-label="@L("Component property value")" dir="auto" maxlength="120000" @bind="_value" @bind:event="oninput"></textarea>
+                <button disabled="@string.IsNullOrEmpty(_property)" @onclick="Apply">@L("Apply property")</button>
+            </fieldset>
+        }
+        <p role="status">@L(_status)</p>
+        @if (_family == "FlowChart") { <button @onclick="InsertWorkflow">@L("Connected workflow")</button> }
+    </div>
+</details>
+@code {
+    [Parameter, EditorRequired] public DrawingSession Session { get; set; } = null!;
+    [Parameter] public EventCallback OnEdited { get; set; }
+    [Parameter] public bool Rtl { get; set; }
+    private string _family = "FlowChart", _search = "", _property = "", _value = "", _committedValue = "", _status = "";
+    private Guid _selectedId;
+    private string L(string text) => Rtl ? UiText.Arabic(text) : UiText.English(text);
+    private static string[] Families => SkiaCatalog.Entries.Select(e => e.Family).Distinct().ToArray();
+    private CatalogEntry[] Filtered => SkiaCatalog.Entries.Where(e => e.Family == _family && e.Label.Contains(_search,StringComparison.OrdinalIgnoreCase)).ToArray();
+    private SkiaComponent? Selected => Session.SelectedComponents.Count() == 1 && SkiaCatalog.Supports(Session.SelectedComponents.Single()) ? Session.SelectedComponents.Single() : null;
+    private string[] PropertyKeys => Selected is { } node ? SkiaCatalog.Capture(node).PropertyBag.Keys.Concat(SkiaCatalog.Capture(node).TypedPropertyBag.Keys)
+        .Where(k => k is not ("GroupId" or "InPortCount" or "OutPortCount")).Order().ToArray() : [];
+    protected override void OnParametersSet()
+    {
+        var id = Selected?.Id ?? Guid.Empty;
+        if (_selectedId != id) { _selectedId = id; _property = ""; _value = ""; _committedValue = ""; _status = ""; }
+        else if (Selected is { } node && !string.IsNullOrEmpty(_property))
+        {
+            var committed = PropertyValue(node);
+            if (committed != _committedValue) _value = _committedValue = committed;
+        }
+    }
+    private void ReadValue()
+    {
+        if (Selected is not { } node || string.IsNullOrEmpty(_property)) { _value = _committedValue = ""; return; }
+        _value = _committedValue = PropertyValue(node);
+    }
+    private string PropertyValue(SkiaComponent node)
+    {
+        var dto = SkiaCatalog.Capture(node);
+        return dto.PropertyBag.TryGetValue(_property,out var value) ? value : dto.TypedPropertyBag[_property].GetRawText();
+    }
+    private async Task Insert(CatalogEntry entry)
+    {
+        try { Session.InsertTemplate(entry.TypeKey); _status = "Component added. Undo removes it."; await OnEdited.InvokeAsync(); }
+        catch (Exception ex) when (ex is InvalidDataException or ArgumentException or InvalidOperationException) { _status = ex.Message; }
+    }
+    private async Task Apply()
+    {
+        if (Selected is not { } node) return;
+        try { Session.SetCatalogProperty(node.Id,_property,_value); ReadValue(); _status = "Property applied. Undo restores its previous value."; await OnEdited.InvokeAsync(); }
+        catch (Exception ex) when (ex is InvalidDataException or ArgumentException or InvalidOperationException) { _status = ex.Message; }
+    }
+    private async Task InsertWorkflow()
+    {
+        try { Session.InsertConnectedTemplate(); _status = "Added connected workflow."; await OnEdited.InvokeAsync(); }
+        catch (Exception ex) when (ex is InvalidDataException or ArgumentException or InvalidOperationException) { _status = ex.Message; }
+    }
+}

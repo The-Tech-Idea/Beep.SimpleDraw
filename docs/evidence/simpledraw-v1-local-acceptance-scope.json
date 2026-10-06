@@ -1,0 +1,35 @@
+{
+  "date": "2026-10-06",
+  "user_environment_reply": "local embedded chromium",
+  "delivery_status": "implementation complete for selected local environment",
+  "preview": "http://127.0.0.1:5243/draw/",
+  "archive": "artifacts\\simpledraw-v1-final\\simpledraw-static.zip",
+  "archive_sha256": "63244285a7d4183dd13e6197cbd1846e8ac9bc6430266dbc71bbe361baec01b7",
+  "current_browser": {
+    "objects": 10,
+    "embedded_catalog_types": 249,
+    "families": 16,
+    "warnings_errors": []
+  },
+  "verification": {
+    "csharp_passed": 585,
+    "javascript_passed": 79,
+    "mixed_1000_p95_ms": [
+      25.6,
+      26.2
+    ],
+    "local_startup_ms": 2032.6,
+    "offline_native_and_gallery": "verified completed downloads; see follow-through and gallery records"
+  },
+  "unverified_outside_selected_environment": [
+    "physical touch and screen readers",
+    "other browser engines and physical high DPI",
+    "public HTTPS host and OS PWA install",
+    "hosted CI",
+    "independent production signoffs"
+  ],
+  "explicitly_deferred": [
+    "public plugin directory publication",
+    "P7 live collaboration"
+  ]
+}

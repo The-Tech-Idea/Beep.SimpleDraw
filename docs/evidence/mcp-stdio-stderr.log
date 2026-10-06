@@ -1,0 +1,1826 @@
+info: ModelContextProtocol.Server.StdioServerTransport[857250842]
+      Server (stream) (Beep.SimpleDraw.Mcp) transport reading messages.
+info: Microsoft.Hosting.Lifetime[0]
+      Application started. Press Ctrl+C to shut down.
+info: Microsoft.Hosting.Lifetime[0]
+      Hosting environment: Production
+info: Microsoft.Hosting.Lifetime[0]
+      Content root path: C:\Users\f_ald\source\repos\The-Tech-Idea\Beep.SimpleDraw
+info: ModelContextProtocol.Server.McpServer[570385771]
+      Server (Beep.SimpleDraw.Mcp 1.0.0.0) method 'initialize' request handler called.
+info: ModelContextProtocol.Server.McpServer[570385771]
+      Server (Beep.SimpleDraw.Mcp 1.0.0.0), Client (SimpleDraw protocol acceptance 1.0) method 'tools/list' request handler called.
+info: ModelContextProtocol.Server.McpServer[1867955179]
+      Server (Beep.SimpleDraw.Mcp 1.0.0.0), Client (SimpleDraw protocol acceptance 1.0) method 'initialize' request handler completed in 22.9123ms.
+info: ModelContextProtocol.Server.McpServer[1867955179]
+      Server (Beep.SimpleDraw.Mcp 1.0.0.0), Client (SimpleDraw protocol acceptance 1.0) method 'tools/list' request handler completed in 8.9703ms.
+info: ModelContextProtocol.Server.McpServer[570385771]
+      Server (Beep.SimpleDraw.Mcp 1.0.0.0), Client (SimpleDraw protocol acceptance 1.0) method 'tools/call' request handler called.
+info: ModelContextProtocol.Server.McpServer[2065726448]
+      "list_components" completed. IsError = False.
+info: ModelContextProtocol.Server.McpServer[1867955179]
+      Server (Beep.SimpleDraw.Mcp 1.0.0.0), Client (SimpleDraw protocol acceptance 1.0) method 'tools/call' request handler completed in 98.0976ms.
+info: ModelContextProtocol.Server.McpServer[570385771]
+      Server (Beep.SimpleDraw.Mcp 1.0.0.0), Client (SimpleDraw protocol acceptance 1.0) method 'tools/call' request handler called.
+info: ModelContextProtocol.Server.McpServer[2065726448]
+      "list_components" completed. IsError = False.
+info: ModelContextProtocol.Server.McpServer[1867955179]
+      Server (Beep.SimpleDraw.Mcp 1.0.0.0), Client (SimpleDraw protocol acceptance 1.0) method 'tools/call' request handler completed in 3.6988ms.
+info: ModelContextProtocol.Server.McpServer[570385771]
+      Server (Beep.SimpleDraw.Mcp 1.0.0.0), Client (SimpleDraw protocol acceptance 1.0) method 'tools/call' request handler called.
+info: ModelContextProtocol.Server.McpServer[2065726448]
+      "list_components" completed. IsError = False.
+info: ModelContextProtocol.Server.McpServer[1867955179]
+      Server (Beep.SimpleDraw.Mcp 1.0.0.0), Client (SimpleDraw protocol acceptance 1.0) method 'tools/call' request handler completed in 0.8851ms.
+info: ModelContextProtocol.Server.McpServer[570385771]
+      Server (Beep.SimpleDraw.Mcp 1.0.0.0), Client (SimpleDraw protocol acceptance 1.0) method 'tools/call' request handler called.
+info: ModelContextProtocol.Server.McpServer[2065726448]
+      "list_components" completed. IsError = False.
+info: ModelContextProtocol.Server.McpServer[1867955179]
+      Server (Beep.SimpleDraw.Mcp 1.0.0.0), Client (SimpleDraw protocol acceptance 1.0) method 'tools/call' request handler completed in 0.7542ms.
+info: ModelContextProtocol.Server.McpServer[570385771]
+      Server (Beep.SimpleDraw.Mcp 1.0.0.0), Client (SimpleDraw protocol acceptance 1.0) method 'tools/call' request handler called.
+info: ModelContextProtocol.Server.McpServer[2065726448]
+      "describe_component" completed. IsError = False.
+info: ModelContextProtocol.Server.McpServer[1867955179]
+      Server (Beep.SimpleDraw.Mcp 1.0.0.0), Client (SimpleDraw protocol acceptance 1.0) method 'tools/call' request handler completed in 103.6504ms.
+info: ModelContextProtocol.Server.McpServer[570385771]
+      Server (Beep.SimpleDraw.Mcp 1.0.0.0), Client (SimpleDraw protocol acceptance 1.0) method 'tools/call' request handler called.
+info: ModelContextProtocol.Server.McpServer[2065726448]
+      "describe_component" completed. IsError = False.
+info: ModelContextProtocol.Server.McpServer[1867955179]
+      Server (Beep.SimpleDraw.Mcp 1.0.0.0), Client (SimpleDraw protocol acceptance 1.0) method 'tools/call' request handler completed in 1.5862ms.
+info: ModelContextProtocol.Server.McpServer[570385771]
+      Server (Beep.SimpleDraw.Mcp 1.0.0.0), Client (SimpleDraw protocol acceptance 1.0) method 'tools/call' request handler called.
+info: ModelContextProtocol.Server.McpServer[2065726448]
+      "describe_component" completed. IsError = False.
+info: ModelContextProtocol.Server.McpServer[1867955179]
+      Server (Beep.SimpleDraw.Mcp 1.0.0.0), Client (SimpleDraw protocol acceptance 1.0) method 'tools/call' request handler completed in 1.0366ms.
+info: ModelContextProtocol.Server.McpServer[570385771]
+      Server (Beep.SimpleDraw.Mcp 1.0.0.0), Client (SimpleDraw protocol acceptance 1.0) method 'tools/call' request handler called.
+info: ModelContextProtocol.Server.McpServer[2065726448]
+      "describe_component" completed. IsError = False.
+info: ModelContextProtocol.Server.McpServer[1867955179]
+      Server (Beep.SimpleDraw.Mcp 1.0.0.0), Client (SimpleDraw protocol acceptance 1.0) method 'tools/call' request handler completed in 0.9879ms.
+info: ModelContextProtocol.Server.McpServer[570385771]
+      Server (Beep.SimpleDraw.Mcp 1.0.0.0), Client (SimpleDraw protocol acceptance 1.0) method 'tools/call' request handler called.
+info: ModelContextProtocol.Server.McpServer[2065726448]
+      "describe_component" completed. IsError = False.
+info: ModelContextProtocol.Server.McpServer[1867955179]
+      Server (Beep.SimpleDraw.Mcp 1.0.0.0), Client (SimpleDraw protocol acceptance 1.0) method 'tools/call' request handler completed in 1.3732ms.
+info: ModelContextProtocol.Server.McpServer[570385771]
+      Server (Beep.SimpleDraw.Mcp 1.0.0.0), Client (SimpleDraw protocol acceptance 1.0) method 'tools/call' request handler called.
+info: ModelContextProtocol.Server.McpServer[2065726448]
+      "describe_component" completed. IsError = False.
+info: ModelContextProtocol.Server.McpServer[1867955179]
+      Server (Beep.SimpleDraw.Mcp 1.0.0.0), Client (SimpleDraw protocol acceptance 1.0) method 'tools/call' request handler completed in 3.3189ms.
+info: ModelContextProtocol.Server.McpServer[570385771]
+      Server (Beep.SimpleDraw.Mcp 1.0.0.0), Client (SimpleDraw protocol acceptance 1.0) method 'tools/call' request handler called.
+info: ModelContextProtocol.Server.McpServer[2065726448]
+      "describe_component" completed. IsError = False.
+info: ModelContextProtocol.Server.McpServer[1867955179]
+      Server (Beep.SimpleDraw.Mcp 1.0.0.0), Client (SimpleDraw protocol acceptance 1.0) method 'tools/call' request handler completed in 18.016ms.
+info: ModelContextProtocol.Server.McpServer[570385771]
+      Server (Beep.SimpleDraw.Mcp 1.0.0.0), Client (SimpleDraw protocol acceptance 1.0) method 'tools/call' request handler called.
+info: ModelContextProtocol.Server.McpServer[2065726448]
+      "describe_component" completed. IsError = False.
+info: ModelContextProtocol.Server.McpServer[1867955179]
+      Server (Beep.SimpleDraw.Mcp 1.0.0.0), Client (SimpleDraw protocol acceptance 1.0) method 'tools/call' request handler completed in 1.3422ms.
+info: ModelContextProtocol.Server.McpServer[570385771]
+      Server (Beep.SimpleDraw.Mcp 1.0.0.0), Client (SimpleDraw protocol acceptance 1.0) method 'tools/call' request handler called.
+info: ModelContextProtocol.Server.McpServer[2065726448]
+      "describe_component" completed. IsError = False.
+info: ModelContextProtocol.Server.McpServer[1867955179]
+      Server (Beep.SimpleDraw.Mcp 1.0.0.0), Client (SimpleDraw protocol acceptance 1.0) method 'tools/call' request handler completed in 1.2035ms.
+info: ModelContextProtocol.Server.McpServer[570385771]
+      Server (Beep.SimpleDraw.Mcp 1.0.0.0), Client (SimpleDraw protocol acceptance 1.0) method 'tools/call' request handler called.
+info: ModelContextProtocol.Server.McpServer[2065726448]
+      "describe_component" completed. IsError = False.
+info: ModelContextProtocol.Server.McpServer[1867955179]
+      Server (Beep.SimpleDraw.Mcp 1.0.0.0), Client (SimpleDraw protocol acceptance 1.0) method 'tools/call' request handler completed in 1.3192ms.
+info: ModelContextProtocol.Server.McpServer[570385771]
+      Server (Beep.SimpleDraw.Mcp 1.0.0.0), Client (SimpleDraw protocol acceptance 1.0) method 'tools/call' request handler called.
+info: ModelContextProtocol.Server.McpServer[2065726448]
+      "describe_component" completed. IsError = False.
+info: ModelContextProtocol.Server.McpServer[1867955179]
+      Server (Beep.SimpleDraw.Mcp 1.0.0.0), Client (SimpleDraw protocol acceptance 1.0) method 'tools/call' request handler completed in 1.2557ms.
+info: ModelContextProtocol.Server.McpServer[570385771]
+      Server (Beep.SimpleDraw.Mcp 1.0.0.0), Client (SimpleDraw protocol acceptance 1.0) method 'tools/call' request handler called.
+info: ModelContextProtocol.Server.McpServer[2065726448]
+      "describe_component" completed. IsError = False.
+info: ModelContextProtocol.Server.McpServer[1867955179]
+      Server (Beep.SimpleDraw.Mcp 1.0.0.0), Client (SimpleDraw protocol acceptance 1.0) method 'tools/call' request handler completed in 1.0273ms.
+info: ModelContextProtocol.Server.McpServer[570385771]
+      Server (Beep.SimpleDraw.Mcp 1.0.0.0), Client (SimpleDraw protocol acceptance 1.0) method 'tools/call' request handler called.
+info: ModelContextProtocol.Server.McpServer[2065726448]
+      "describe_component" completed. IsError = False.
+info: ModelContextProtocol.Server.McpServer[1867955179]
+      Server (Beep.SimpleDraw.Mcp 1.0.0.0), Client (SimpleDraw protocol acceptance 1.0) method 'tools/call' request handler completed in 1.3455ms.
+info: ModelContextProtocol.Server.McpServer[570385771]
+      Server (Beep.SimpleDraw.Mcp 1.0.0.0), Client (SimpleDraw protocol acceptance 1.0) method 'tools/call' request handler called.
+info: ModelContextProtocol.Server.McpServer[2065726448]
+      "describe_component" completed. IsError = False.
+info: ModelContextProtocol.Server.McpServer[1867955179]
+      Server (Beep.SimpleDraw.Mcp 1.0.0.0), Client (SimpleDraw protocol acceptance 1.0) method 'tools/call' request handler completed in 1.4138ms.
+info: ModelContextProtocol.Server.McpServer[570385771]
+      Server (Beep.SimpleDraw.Mcp 1.0.0.0), Client (SimpleDraw protocol acceptance 1.0) method 'tools/call' request handler called.
+info: ModelContextProtocol.Server.McpServer[2065726448]
+      "describe_component" completed. IsError = False.
+info: ModelContextProtocol.Server.McpServer[1867955179]
+      Server (Beep.SimpleDraw.Mcp 1.0.0.0), Client (SimpleDraw protocol acceptance 1.0) method 'tools/call' request handler completed in 1.565ms.
+info: ModelContextProtocol.Server.McpServer[570385771]
+      Server (Beep.SimpleDraw.Mcp 1.0.0.0), Client (SimpleDraw protocol acceptance 1.0) method 'tools/call' request handler called.
+info: ModelContextProtocol.Server.McpServer[2065726448]
+      "describe_component" completed. IsError = False.
+info: ModelContextProtocol.Server.McpServer[1867955179]
+      Server (Beep.SimpleDraw.Mcp 1.0.0.0), Client (SimpleDraw protocol acceptance 1.0) method 'tools/call' request handler completed in 1.5235ms.
+info: ModelContextProtocol.Server.McpServer[570385771]
+      Server (Beep.SimpleDraw.Mcp 1.0.0.0), Client (SimpleDraw protocol acceptance 1.0) method 'tools/call' request handler called.
+info: ModelContextProtocol.Server.McpServer[2065726448]
+      "describe_component" completed. IsError = False.
+info: ModelContextProtocol.Server.McpServer[1867955179]
+      Server (Beep.SimpleDraw.Mcp 1.0.0.0), Client (SimpleDraw protocol acceptance 1.0) method 'tools/call' request handler completed in 1.6615ms.
+info: ModelContextProtocol.Server.McpServer[570385771]
+      Server (Beep.SimpleDraw.Mcp 1.0.0.0), Client (SimpleDraw protocol acceptance 1.0) method 'tools/call' request handler called.
+info: ModelContextProtocol.Server.McpServer[2065726448]
+      "describe_component" completed. IsError = False.
+info: ModelContextProtocol.Server.McpServer[1867955179]
+      Server (Beep.SimpleDraw.Mcp 1.0.0.0), Client (SimpleDraw protocol acceptance 1.0) method 'tools/call' request handler completed in 1.3236ms.
+info: ModelContextProtocol.Server.McpServer[570385771]
+      Server (Beep.SimpleDraw.Mcp 1.0.0.0), Client (SimpleDraw protocol acceptance 1.0) method 'tools/call' request handler called.
+info: ModelContextProtocol.Server.McpServer[2065726448]
+      "describe_component" completed. IsError = False.
+info: ModelContextProtocol.Server.McpServer[1867955179]
+      Server (Beep.SimpleDraw.Mcp 1.0.0.0), Client (SimpleDraw protocol acceptance 1.0) method 'tools/call' request handler completed in 1.4497ms.
+info: ModelContextProtocol.Server.McpServer[570385771]
+      Server (Beep.SimpleDraw.Mcp 1.0.0.0), Client (SimpleDraw protocol acceptance 1.0) method 'tools/call' request handler called.
+info: ModelContextProtocol.Server.McpServer[2065726448]
+      "describe_component" completed. IsError = False.
+info: ModelContextProtocol.Server.McpServer[1867955179]
+      Server (Beep.SimpleDraw.Mcp 1.0.0.0), Client (SimpleDraw protocol acceptance 1.0) method 'tools/call' request handler completed in 1.3486ms.
+info: ModelContextProtocol.Server.McpServer[570385771]
+      Server (Beep.SimpleDraw.Mcp 1.0.0.0), Client (SimpleDraw protocol acceptance 1.0) method 'tools/call' request handler called.
+info: ModelContextProtocol.Server.McpServer[2065726448]
+      "describe_component" completed. IsError = False.
+info: ModelContextProtocol.Server.McpServer[1867955179]
+      Server (Beep.SimpleDraw.Mcp 1.0.0.0), Client (SimpleDraw protocol acceptance 1.0) method 'tools/call' request handler completed in 1.2627ms.
+info: ModelContextProtocol.Server.McpServer[570385771]
+      Server (Beep.SimpleDraw.Mcp 1.0.0.0), Client (SimpleDraw protocol acceptance 1.0) method 'tools/call' request handler called.
+info: ModelContextProtocol.Server.McpServer[2065726448]
+      "describe_component" completed. IsError = False.
+info: ModelContextProtocol.Server.McpServer[1867955179]
+      Server (Beep.SimpleDraw.Mcp 1.0.0.0), Client (SimpleDraw protocol acceptance 1.0) method 'tools/call' request handler completed in 1.5344ms.
+info: ModelContextProtocol.Server.McpServer[570385771]
+      Server (Beep.SimpleDraw.Mcp 1.0.0.0), Client (SimpleDraw protocol acceptance 1.0) method 'tools/call' request handler called.
+info: ModelContextProtocol.Server.McpServer[2065726448]
+      "describe_component" completed. IsError = False.
+info: ModelContextProtocol.Server.McpServer[1867955179]
+      Server (Beep.SimpleDraw.Mcp 1.0.0.0), Client (SimpleDraw protocol acceptance 1.0) method 'tools/call' request handler completed in 1.1402ms.
+info: ModelContextProtocol.Server.McpServer[570385771]
+      Server (Beep.SimpleDraw.Mcp 1.0.0.0), Client (SimpleDraw protocol acceptance 1.0) method 'tools/call' request handler called.
+info: ModelContextProtocol.Server.McpServer[2065726448]
+      "describe_component" completed. IsError = False.
+info: ModelContextProtocol.Server.McpServer[1867955179]
+      Server (Beep.SimpleDraw.Mcp 1.0.0.0), Client (SimpleDraw protocol acceptance 1.0) method 'tools/call' request handler completed in 1.6329ms.
+info: ModelContextProtocol.Server.McpServer[570385771]
+      Server (Beep.SimpleDraw.Mcp 1.0.0.0), Client (SimpleDraw protocol acceptance 1.0) method 'tools/call' request handler called.
+info: ModelContextProtocol.Server.McpServer[2065726448]
+      "describe_component" completed. IsError = False.
+info: ModelContextProtocol.Server.McpServer[1867955179]
+      Server (Beep.SimpleDraw.Mcp 1.0.0.0), Client (SimpleDraw protocol acceptance 1.0) method 'tools/call' request handler completed in 1.271ms.
+info: ModelContextProtocol.Server.McpServer[570385771]
+      Server (Beep.SimpleDraw.Mcp 1.0.0.0), Client (SimpleDraw protocol acceptance 1.0) method 'tools/call' request handler called.
+info: ModelContextProtocol.Server.McpServer[2065726448]
+      "describe_component" completed. IsError = False.
+info: ModelContextProtocol.Server.McpServer[1867955179]
+      Server (Beep.SimpleDraw.Mcp 1.0.0.0), Client (SimpleDraw protocol acceptance 1.0) method 'tools/call' request handler completed in 1.1252ms.
+info: ModelContextProtocol.Server.McpServer[570385771]
+      Server (Beep.SimpleDraw.Mcp 1.0.0.0), Client (SimpleDraw protocol acceptance 1.0) method 'tools/call' request handler called.
+info: ModelContextProtocol.Server.McpServer[2065726448]
+      "describe_component" completed. IsError = False.
+info: ModelContextProtocol.Server.McpServer[1867955179]
+      Server (Beep.SimpleDraw.Mcp 1.0.0.0), Client (SimpleDraw protocol acceptance 1.0) method 'tools/call' request handler completed in 1.1825ms.
+info: ModelContextProtocol.Server.McpServer[570385771]
+      Server (Beep.SimpleDraw.Mcp 1.0.0.0), Client (SimpleDraw protocol acceptance 1.0) method 'tools/call' request handler called.
+info: ModelContextProtocol.Server.McpServer[2065726448]
+      "describe_component" completed. IsError = False.
+info: ModelContextProtocol.Server.McpServer[1867955179]
+      Server (Beep.SimpleDraw.Mcp 1.0.0.0), Client (SimpleDraw protocol acceptance 1.0) method 'tools/call' request handler completed in 1.506ms.
+info: ModelContextProtocol.Server.McpServer[570385771]
+      Server (Beep.SimpleDraw.Mcp 1.0.0.0), Client (SimpleDraw protocol acceptance 1.0) method 'tools/call' request handler called.
+info: ModelContextProtocol.Server.McpServer[2065726448]
+      "describe_component" completed. IsError = False.
+info: ModelContextProtocol.Server.McpServer[1867955179]
+      Server (Beep.SimpleDraw.Mcp 1.0.0.0), Client (SimpleDraw protocol acceptance 1.0) method 'tools/call' request handler completed in 1.1287ms.
+info: ModelContextProtocol.Server.McpServer[570385771]
+      Server (Beep.SimpleDraw.Mcp 1.0.0.0), Client (SimpleDraw protocol acceptance 1.0) method 'tools/call' request handler called.
+info: ModelContextProtocol.Server.McpServer[2065726448]
+      "describe_component" completed. IsError = False.
+info: ModelContextProtocol.Server.McpServer[1867955179]
+      Server (Beep.SimpleDraw.Mcp 1.0.0.0), Client (SimpleDraw protocol acceptance 1.0) method 'tools/call' request handler completed in 1.1763ms.
+info: ModelContextProtocol.Server.McpServer[570385771]
+      Server (Beep.SimpleDraw.Mcp 1.0.0.0), Client (SimpleDraw protocol acceptance 1.0) method 'tools/call' request handler called.
+info: ModelContextProtocol.Server.McpServer[2065726448]
+      "describe_component" completed. IsError = False.
+info: ModelContextProtocol.Server.McpServer[1867955179]
+      Server (Beep.SimpleDraw.Mcp 1.0.0.0), Client (SimpleDraw protocol acceptance 1.0) method 'tools/call' request handler completed in 1.6635ms.
+info: ModelContextProtocol.Server.McpServer[570385771]
+      Server (Beep.SimpleDraw.Mcp 1.0.0.0), Client (SimpleDraw protocol acceptance 1.0) method 'tools/call' request handler called.
+info: ModelContextProtocol.Server.McpServer[2065726448]
+      "describe_component" completed. IsError = False.
+info: ModelContextProtocol.Server.McpServer[1867955179]
+      Server (Beep.SimpleDraw.Mcp 1.0.0.0), Client (SimpleDraw protocol acceptance 1.0) method 'tools/call' request handler completed in 1.0369ms.
+info: ModelContextProtocol.Server.McpServer[570385771]
+      Server (Beep.SimpleDraw.Mcp 1.0.0.0), Client (SimpleDraw protocol acceptance 1.0) method 'tools/call' request handler called.
+info: ModelContextProtocol.Server.McpServer[2065726448]
+      "describe_component" completed. IsError = False.
+info: ModelContextProtocol.Server.McpServer[1867955179]
+      Server (Beep.SimpleDraw.Mcp 1.0.0.0), Client (SimpleDraw protocol acceptance 1.0) method 'tools/call' request handler completed in 1.3656ms.
+info: ModelContextProtocol.Server.McpServer[570385771]
+      Server (Beep.SimpleDraw.Mcp 1.0.0.0), Client (SimpleDraw protocol acceptance 1.0) method 'tools/call' request handler called.
+info: ModelContextProtocol.Server.McpServer[2065726448]
+      "describe_component" completed. IsError = False.
+info: ModelContextProtocol.Server.McpServer[1867955179]
+      Server (Beep.SimpleDraw.Mcp 1.0.0.0), Client (SimpleDraw protocol acceptance 1.0) method 'tools/call' request handler completed in 1.063ms.
+info: ModelContextProtocol.Server.McpServer[570385771]
+      Server (Beep.SimpleDraw.Mcp 1.0.0.0), Client (SimpleDraw protocol acceptance 1.0) method 'tools/call' request handler called.
+info: ModelContextProtocol.Server.McpServer[2065726448]
+      "describe_component" completed. IsError = False.
+info: ModelContextProtocol.Server.McpServer[1867955179]
+      Server (Beep.SimpleDraw.Mcp 1.0.0.0), Client (SimpleDraw protocol acceptance 1.0) method 'tools/call' request handler completed in 1.1707ms.
+info: ModelContextProtocol.Server.McpServer[570385771]
+      Server (Beep.SimpleDraw.Mcp 1.0.0.0), Client (SimpleDraw protocol acceptance 1.0) method 'tools/call' request handler called.
+info: ModelContextProtocol.Server.McpServer[2065726448]
+      "describe_component" completed. IsError = False.
+info: ModelContextProtocol.Server.McpServer[1867955179]
+      Server (Beep.SimpleDraw.Mcp 1.0.0.0), Client (SimpleDraw protocol acceptance 1.0) method 'tools/call' request handler completed in 1.4501ms.
+info: ModelContextProtocol.Server.McpServer[570385771]
+      Server (Beep.SimpleDraw.Mcp 1.0.0.0), Client (SimpleDraw protocol acceptance 1.0) method 'tools/call' request handler called.
+info: ModelContextProtocol.Server.McpServer[2065726448]
+      "describe_component" completed. IsError = False.
+info: ModelContextProtocol.Server.McpServer[1867955179]
+      Server (Beep.SimpleDraw.Mcp 1.0.0.0), Client (SimpleDraw protocol acceptance 1.0) method 'tools/call' request handler completed in 2.4328ms.
+info: ModelContextProtocol.Server.McpServer[570385771]
+      Server (Beep.SimpleDraw.Mcp 1.0.0.0), Client (SimpleDraw protocol acceptance 1.0) method 'tools/call' request handler called.
+info: ModelContextProtocol.Server.McpServer[2065726448]
+      "describe_component" completed. IsError = False.
+info: ModelContextProtocol.Server.McpServer[1867955179]
+      Server (Beep.SimpleDraw.Mcp 1.0.0.0), Client (SimpleDraw protocol acceptance 1.0) method 'tools/call' request handler completed in 1.1766ms.
+info: ModelContextProtocol.Server.McpServer[570385771]
+      Server (Beep.SimpleDraw.Mcp 1.0.0.0), Client (SimpleDraw protocol acceptance 1.0) method 'tools/call' request handler called.
+info: ModelContextProtocol.Server.McpServer[2065726448]
+      "describe_component" completed. IsError = False.
+info: ModelContextProtocol.Server.McpServer[1867955179]
+      Server (Beep.SimpleDraw.Mcp 1.0.0.0), Client (SimpleDraw protocol acceptance 1.0) method 'tools/call' request handler completed in 1.23ms.
+info: ModelContextProtocol.Server.McpServer[570385771]
+      Server (Beep.SimpleDraw.Mcp 1.0.0.0), Client (SimpleDraw protocol acceptance 1.0) method 'tools/call' request handler called.
+info: ModelContextProtocol.Server.McpServer[2065726448]
+      "describe_component" completed. IsError = False.
+info: ModelContextProtocol.Server.McpServer[1867955179]
+      Server (Beep.SimpleDraw.Mcp 1.0.0.0), Client (SimpleDraw protocol acceptance 1.0) method 'tools/call' request handler completed in 1.2165ms.
+info: ModelContextProtocol.Server.McpServer[570385771]
+      Server (Beep.SimpleDraw.Mcp 1.0.0.0), Client (SimpleDraw protocol acceptance 1.0) method 'tools/call' request handler called.
+info: ModelContextProtocol.Server.McpServer[2065726448]
+      "describe_component" completed. IsError = False.
+info: ModelContextProtocol.Server.McpServer[1867955179]
+      Server (Beep.SimpleDraw.Mcp 1.0.0.0), Client (SimpleDraw protocol acceptance 1.0) method 'tools/call' request handler completed in 1.1775ms.
+info: ModelContextProtocol.Server.McpServer[570385771]
+      Server (Beep.SimpleDraw.Mcp 1.0.0.0), Client (SimpleDraw protocol acceptance 1.0) method 'tools/call' request handler called.
+info: ModelContextProtocol.Server.McpServer[2065726448]
+      "describe_component" completed. IsError = False.
+info: ModelContextProtocol.Server.McpServer[1867955179]
+      Server (Beep.SimpleDraw.Mcp 1.0.0.0), Client (SimpleDraw protocol acceptance 1.0) method 'tools/call' request handler completed in 1.7477ms.
+info: ModelContextProtocol.Server.McpServer[570385771]
+      Server (Beep.SimpleDraw.Mcp 1.0.0.0), Client (SimpleDraw protocol acceptance 1.0) method 'tools/call' request handler called.
+info: ModelContextProtocol.Server.McpServer[2065726448]
+      "describe_component" completed. IsError = False.
+info: ModelContextProtocol.Server.McpServer[1867955179]
+      Server (Beep.SimpleDraw.Mcp 1.0.0.0), Client (SimpleDraw protocol acceptance 1.0) method 'tools/call' request handler completed in 1.2016ms.
+info: ModelContextProtocol.Server.McpServer[570385771]
+      Server (Beep.SimpleDraw.Mcp 1.0.0.0), Client (SimpleDraw protocol acceptance 1.0) method 'tools/call' request handler called.
+info: ModelContextProtocol.Server.McpServer[2065726448]
+      "describe_component" completed. IsError = False.
+info: ModelContextProtocol.Server.McpServer[1867955179]
+      Server (Beep.SimpleDraw.Mcp 1.0.0.0), Client (SimpleDraw protocol acceptance 1.0) method 'tools/call' request handler completed in 1.0753ms.
+info: ModelContextProtocol.Server.McpServer[570385771]
+      Server (Beep.SimpleDraw.Mcp 1.0.0.0), Client (SimpleDraw protocol acceptance 1.0) method 'tools/call' request handler called.
+info: ModelContextProtocol.Server.McpServer[2065726448]
+      "describe_component" completed. IsError = False.
+info: ModelContextProtocol.Server.McpServer[1867955179]
+      Server (Beep.SimpleDraw.Mcp 1.0.0.0), Client (SimpleDraw protocol acceptance 1.0) method 'tools/call' request handler completed in 0.7947ms.
+info: ModelContextProtocol.Server.McpServer[570385771]
+      Server (Beep.SimpleDraw.Mcp 1.0.0.0), Client (SimpleDraw protocol acceptance 1.0) method 'tools/call' request handler called.
+info: ModelContextProtocol.Server.McpServer[2065726448]
+      "describe_component" completed. IsError = False.
+info: ModelContextProtocol.Server.McpServer[1867955179]
+      Server (Beep.SimpleDraw.Mcp 1.0.0.0), Client (SimpleDraw protocol acceptance 1.0) method 'tools/call' request handler completed in 0.9871ms.
+info: ModelContextProtocol.Server.McpServer[570385771]
+      Server (Beep.SimpleDraw.Mcp 1.0.0.0), Client (SimpleDraw protocol acceptance 1.0) method 'tools/call' request handler called.
+info: ModelContextProtocol.Server.McpServer[2065726448]
+      "describe_component" completed. IsError = False.
+info: ModelContextProtocol.Server.McpServer[1867955179]
+      Server (Beep.SimpleDraw.Mcp 1.0.0.0), Client (SimpleDraw protocol acceptance 1.0) method 'tools/call' request handler completed in 2.0549ms.
+info: ModelContextProtocol.Server.McpServer[570385771]
+      Server (Beep.SimpleDraw.Mcp 1.0.0.0), Client (SimpleDraw protocol acceptance 1.0) method 'tools/call' request handler called.
+info: ModelContextProtocol.Server.McpServer[2065726448]
+      "describe_component" completed. IsError = False.
+info: ModelContextProtocol.Server.McpServer[1867955179]
+      Server (Beep.SimpleDraw.Mcp 1.0.0.0), Client (SimpleDraw protocol acceptance 1.0) method 'tools/call' request handler completed in 1.8274ms.
+info: ModelContextProtocol.Server.McpServer[570385771]
+      Server (Beep.SimpleDraw.Mcp 1.0.0.0), Client (SimpleDraw protocol acceptance 1.0) method 'tools/call' request handler called.
+info: ModelContextProtocol.Server.McpServer[2065726448]
+      "describe_component" completed. IsError = False.
+info: ModelContextProtocol.Server.McpServer[1867955179]
+      Server (Beep.SimpleDraw.Mcp 1.0.0.0), Client (SimpleDraw protocol acceptance 1.0) method 'tools/call' request handler completed in 1.3312ms.
+info: ModelContextProtocol.Server.McpServer[570385771]
+      Server (Beep.SimpleDraw.Mcp 1.0.0.0), Client (SimpleDraw protocol acceptance 1.0) method 'tools/call' request handler called.
+info: ModelContextProtocol.Server.McpServer[2065726448]
+      "describe_component" completed. IsError = False.
+info: ModelContextProtocol.Server.McpServer[1867955179]
+      Server (Beep.SimpleDraw.Mcp 1.0.0.0), Client (SimpleDraw protocol acceptance 1.0) method 'tools/call' request handler completed in 1.168ms.
+info: ModelContextProtocol.Server.McpServer[570385771]
+      Server (Beep.SimpleDraw.Mcp 1.0.0.0), Client (SimpleDraw protocol acceptance 1.0) method 'tools/call' request handler called.
+info: ModelContextProtocol.Server.McpServer[2065726448]
+      "describe_component" completed. IsError = False.
+info: ModelContextProtocol.Server.McpServer[1867955179]
+      Server (Beep.SimpleDraw.Mcp 1.0.0.0), Client (SimpleDraw protocol acceptance 1.0) method 'tools/call' request handler completed in 1.3151ms.
+info: ModelContextProtocol.Server.McpServer[570385771]
+      Server (Beep.SimpleDraw.Mcp 1.0.0.0), Client (SimpleDraw protocol acceptance 1.0) method 'tools/call' request handler called.
+info: ModelContextProtocol.Server.McpServer[2065726448]
+      "describe_component" completed. IsError = False.
+info: ModelContextProtocol.Server.McpServer[1867955179]
+      Server (Beep.SimpleDraw.Mcp 1.0.0.0), Client (SimpleDraw protocol acceptance 1.0) method 'tools/call' request handler completed in 1.0733ms.
+info: ModelContextProtocol.Server.McpServer[570385771]
+      Server (Beep.SimpleDraw.Mcp 1.0.0.0), Client (SimpleDraw protocol acceptance 1.0) method 'tools/call' request handler called.
+info: ModelContextProtocol.Server.McpServer[2065726448]
+      "describe_component" completed. IsError = False.
+info: ModelContextProtocol.Server.McpServer[1867955179]
+      Server (Beep.SimpleDraw.Mcp 1.0.0.0), Client (SimpleDraw protocol acceptance 1.0) method 'tools/call' request handler completed in 1.147ms.
+info: ModelContextProtocol.Server.McpServer[570385771]
+      Server (Beep.SimpleDraw.Mcp 1.0.0.0), Client (SimpleDraw protocol acceptance 1.0) method 'tools/call' request handler called.
+info: ModelContextProtocol.Server.McpServer[2065726448]
+      "describe_component" completed. IsError = False.
+info: ModelContextProtocol.Server.McpServer[1867955179]
+      Server (Beep.SimpleDraw.Mcp 1.0.0.0), Client (SimpleDraw protocol acceptance 1.0) method 'tools/call' request handler completed in 1.0894ms.
+info: ModelContextProtocol.Server.McpServer[570385771]
+      Server (Beep.SimpleDraw.Mcp 1.0.0.0), Client (SimpleDraw protocol acceptance 1.0) method 'tools/call' request handler called.
+info: ModelContextProtocol.Server.McpServer[2065726448]
+      "describe_component" completed. IsError = False.
+info: ModelContextProtocol.Server.McpServer[1867955179]
+      Server (Beep.SimpleDraw.Mcp 1.0.0.0), Client (SimpleDraw protocol acceptance 1.0) method 'tools/call' request handler completed in 0.9884ms.
+info: ModelContextProtocol.Server.McpServer[570385771]
+      Server (Beep.SimpleDraw.Mcp 1.0.0.0), Client (SimpleDraw protocol acceptance 1.0) method 'tools/call' request handler called.
+info: ModelContextProtocol.Server.McpServer[2065726448]
+      "describe_component" completed. IsError = False.
+info: ModelContextProtocol.Server.McpServer[1867955179]
+      Server (Beep.SimpleDraw.Mcp 1.0.0.0), Client (SimpleDraw protocol acceptance 1.0) method 'tools/call' request handler completed in 1.6541ms.
+info: ModelContextProtocol.Server.McpServer[570385771]
+      Server (Beep.SimpleDraw.Mcp 1.0.0.0), Client (SimpleDraw protocol acceptance 1.0) method 'tools/call' request handler called.
+info: ModelContextProtocol.Server.McpServer[2065726448]
+      "describe_component" completed. IsError = False.
+info: ModelContextProtocol.Server.McpServer[1867955179]
+      Server (Beep.SimpleDraw.Mcp 1.0.0.0), Client (SimpleDraw protocol acceptance 1.0) method 'tools/call' request handler completed in 8.4998ms.
+info: ModelContextProtocol.Server.McpServer[570385771]
+      Server (Beep.SimpleDraw.Mcp 1.0.0.0), Client (SimpleDraw protocol acceptance 1.0) method 'tools/call' request handler called.
+info: ModelContextProtocol.Server.McpServer[2065726448]
+      "describe_component" completed. IsError = False.
+info: ModelContextProtocol.Server.McpServer[1867955179]
+      Server (Beep.SimpleDraw.Mcp 1.0.0.0), Client (SimpleDraw protocol acceptance 1.0) method 'tools/call' request handler completed in 0.8549ms.
+info: ModelContextProtocol.Server.McpServer[570385771]
+      Server (Beep.SimpleDraw.Mcp 1.0.0.0), Client (SimpleDraw protocol acceptance 1.0) method 'tools/call' request handler called.
+info: ModelContextProtocol.Server.McpServer[2065726448]
+      "describe_component" completed. IsError = False.
+info: ModelContextProtocol.Server.McpServer[1867955179]
+      Server (Beep.SimpleDraw.Mcp 1.0.0.0), Client (SimpleDraw protocol acceptance 1.0) method 'tools/call' request handler completed in 3.7496ms.
+info: ModelContextProtocol.Server.McpServer[570385771]
+      Server (Beep.SimpleDraw.Mcp 1.0.0.0), Client (SimpleDraw protocol acceptance 1.0) method 'tools/call' request handler called.
+info: ModelContextProtocol.Server.McpServer[2065726448]
+      "describe_component" completed. IsError = False.
+info: ModelContextProtocol.Server.McpServer[1867955179]
+      Server (Beep.SimpleDraw.Mcp 1.0.0.0), Client (SimpleDraw protocol acceptance 1.0) method 'tools/call' request handler completed in 1.4838ms.
+info: ModelContextProtocol.Server.McpServer[570385771]
+      Server (Beep.SimpleDraw.Mcp 1.0.0.0), Client (SimpleDraw protocol acceptance 1.0) method 'tools/call' request handler called.
+info: ModelContextProtocol.Server.McpServer[2065726448]
+      "describe_component" completed. IsError = False.
+info: ModelContextProtocol.Server.McpServer[1867955179]
+      Server (Beep.SimpleDraw.Mcp 1.0.0.0), Client (SimpleDraw protocol acceptance 1.0) method 'tools/call' request handler completed in 1.3033ms.
+info: ModelContextProtocol.Server.McpServer[570385771]
+      Server (Beep.SimpleDraw.Mcp 1.0.0.0), Client (SimpleDraw protocol acceptance 1.0) method 'tools/call' request handler called.
+info: ModelContextProtocol.Server.McpServer[2065726448]
+      "describe_component" completed. IsError = False.
+info: ModelContextProtocol.Server.McpServer[1867955179]
+      Server (Beep.SimpleDraw.Mcp 1.0.0.0), Client (SimpleDraw protocol acceptance 1.0) method 'tools/call' request handler completed in 1.2169ms.
+info: ModelContextProtocol.Server.McpServer[570385771]
+      Server (Beep.SimpleDraw.Mcp 1.0.0.0), Client (SimpleDraw protocol acceptance 1.0) method 'tools/call' request handler called.
+info: ModelContextProtocol.Server.McpServer[2065726448]
+      "describe_component" completed. IsError = False.
+info: ModelContextProtocol.Server.McpServer[1867955179]
+      Server (Beep.SimpleDraw.Mcp 1.0.0.0), Client (SimpleDraw protocol acceptance 1.0) method 'tools/call' request handler completed in 2.5475ms.
+info: ModelContextProtocol.Server.McpServer[570385771]
+      Server (Beep.SimpleDraw.Mcp 1.0.0.0), Client (SimpleDraw protocol acceptance 1.0) method 'tools/call' request handler called.
+info: ModelContextProtocol.Server.McpServer[2065726448]
+      "describe_component" completed. IsError = False.
+info: ModelContextProtocol.Server.McpServer[1867955179]
+      Server (Beep.SimpleDraw.Mcp 1.0.0.0), Client (SimpleDraw protocol acceptance 1.0) method 'tools/call' request handler completed in 1.9966ms.
+info: ModelContextProtocol.Server.McpServer[570385771]
+      Server (Beep.SimpleDraw.Mcp 1.0.0.0), Client (SimpleDraw protocol acceptance 1.0) method 'tools/call' request handler called.
+info: ModelContextProtocol.Server.McpServer[2065726448]
+      "describe_component" completed. IsError = False.
+info: ModelContextProtocol.Server.McpServer[1867955179]
+      Server (Beep.SimpleDraw.Mcp 1.0.0.0), Client (SimpleDraw protocol acceptance 1.0) method 'tools/call' request handler completed in 2.1274ms.
+info: ModelContextProtocol.Server.McpServer[570385771]
+      Server (Beep.SimpleDraw.Mcp 1.0.0.0), Client (SimpleDraw protocol acceptance 1.0) method 'tools/call' request handler called.
+info: ModelContextProtocol.Server.McpServer[2065726448]
+      "describe_component" completed. IsError = False.
+info: ModelContextProtocol.Server.McpServer[1867955179]
+      Server (Beep.SimpleDraw.Mcp 1.0.0.0), Client (SimpleDraw protocol acceptance 1.0) method 'tools/call' request handler completed in 1.3694ms.
+info: ModelContextProtocol.Server.McpServer[570385771]
+      Server (Beep.SimpleDraw.Mcp 1.0.0.0), Client (SimpleDraw protocol acceptance 1.0) method 'tools/call' request handler called.
+info: ModelContextProtocol.Server.McpServer[2065726448]
+      "describe_component" completed. IsError = False.
+info: ModelContextProtocol.Server.McpServer[1867955179]
+      Server (Beep.SimpleDraw.Mcp 1.0.0.0), Client (SimpleDraw protocol acceptance 1.0) method 'tools/call' request handler completed in 0.9804ms.
+info: ModelContextProtocol.Server.McpServer[570385771]
+      Server (Beep.SimpleDraw.Mcp 1.0.0.0), Client (SimpleDraw protocol acceptance 1.0) method 'tools/call' request handler called.
+info: ModelContextProtocol.Server.McpServer[2065726448]
+      "describe_component" completed. IsError = False.
+info: ModelContextProtocol.Server.McpServer[1867955179]
+      Server (Beep.SimpleDraw.Mcp 1.0.0.0), Client (SimpleDraw protocol acceptance 1.0) method 'tools/call' request handler completed in 1.837ms.
+info: ModelContextProtocol.Server.McpServer[570385771]
+      Server (Beep.SimpleDraw.Mcp 1.0.0.0), Client (SimpleDraw protocol acceptance 1.0) method 'tools/call' request handler called.
+info: ModelContextProtocol.Server.McpServer[2065726448]
+      "describe_component" completed. IsError = False.
+info: ModelContextProtocol.Server.McpServer[1867955179]
+      Server (Beep.SimpleDraw.Mcp 1.0.0.0), Client (SimpleDraw protocol acceptance 1.0) method 'tools/call' request handler completed in 0.9703ms.
+info: ModelContextProtocol.Server.McpServer[570385771]
+      Server (Beep.SimpleDraw.Mcp 1.0.0.0), Client (SimpleDraw protocol acceptance 1.0) method 'tools/call' request handler called.
+info: ModelContextProtocol.Server.McpServer[2065726448]
+      "describe_component" completed. IsError = False.
+info: ModelContextProtocol.Server.McpServer[1867955179]
+      Server (Beep.SimpleDraw.Mcp 1.0.0.0), Client (SimpleDraw protocol acceptance 1.0) method 'tools/call' request handler completed in 1.3415ms.
+info: ModelContextProtocol.Server.McpServer[570385771]
+      Server (Beep.SimpleDraw.Mcp 1.0.0.0), Client (SimpleDraw protocol acceptance 1.0) method 'tools/call' request handler called.
+info: ModelContextProtocol.Server.McpServer[2065726448]
+      "describe_component" completed. IsError = False.
+info: ModelContextProtocol.Server.McpServer[1867955179]
+      Server (Beep.SimpleDraw.Mcp 1.0.0.0), Client (SimpleDraw protocol acceptance 1.0) method 'tools/call' request handler completed in 1.9902ms.
+info: ModelContextProtocol.Server.McpServer[570385771]
+      Server (Beep.SimpleDraw.Mcp 1.0.0.0), Client (SimpleDraw protocol acceptance 1.0) method 'tools/call' request handler called.
+info: ModelContextProtocol.Server.McpServer[2065726448]
+      "describe_component" completed. IsError = False.
+info: ModelContextProtocol.Server.McpServer[1867955179]
+      Server (Beep.SimpleDraw.Mcp 1.0.0.0), Client (SimpleDraw protocol acceptance 1.0) method 'tools/call' request handler completed in 1.453ms.
+info: ModelContextProtocol.Server.McpServer[570385771]
+      Server (Beep.SimpleDraw.Mcp 1.0.0.0), Client (SimpleDraw protocol acceptance 1.0) method 'tools/call' request handler called.
+info: ModelContextProtocol.Server.McpServer[2065726448]
+      "describe_component" completed. IsError = False.
+info: ModelContextProtocol.Server.McpServer[1867955179]
+      Server (Beep.SimpleDraw.Mcp 1.0.0.0), Client (SimpleDraw protocol acceptance 1.0) method 'tools/call' request handler completed in 1.3103ms.
+info: ModelContextProtocol.Server.McpServer[570385771]
+      Server (Beep.SimpleDraw.Mcp 1.0.0.0), Client (SimpleDraw protocol acceptance 1.0) method 'tools/call' request handler called.
+info: ModelContextProtocol.Server.McpServer[2065726448]
+      "describe_component" completed. IsError = False.
+info: ModelContextProtocol.Server.McpServer[1867955179]
+      Server (Beep.SimpleDraw.Mcp 1.0.0.0), Client (SimpleDraw protocol acceptance 1.0) method 'tools/call' request handler completed in 3.2482ms.
+info: ModelContextProtocol.Server.McpServer[570385771]
+      Server (Beep.SimpleDraw.Mcp 1.0.0.0), Client (SimpleDraw protocol acceptance 1.0) method 'tools/call' request handler called.
+info: ModelContextProtocol.Server.McpServer[2065726448]
+      "describe_component" completed. IsError = False.
+info: ModelContextProtocol.Server.McpServer[1867955179]
+      Server (Beep.SimpleDraw.Mcp 1.0.0.0), Client (SimpleDraw protocol acceptance 1.0) method 'tools/call' request handler completed in 3.7701ms.
+info: ModelContextProtocol.Server.McpServer[570385771]
+      Server (Beep.SimpleDraw.Mcp 1.0.0.0), Client (SimpleDraw protocol acceptance 1.0) method 'tools/call' request handler called.
+info: ModelContextProtocol.Server.McpServer[2065726448]
+      "describe_component" completed. IsError = False.
+info: ModelContextProtocol.Server.McpServer[1867955179]
+      Server (Beep.SimpleDraw.Mcp 1.0.0.0), Client (SimpleDraw protocol acceptance 1.0) method 'tools/call' request handler completed in 1.9036ms.
+info: ModelContextProtocol.Server.McpServer[570385771]
+      Server (Beep.SimpleDraw.Mcp 1.0.0.0), Client (SimpleDraw protocol acceptance 1.0) method 'tools/call' request handler called.
+info: ModelContextProtocol.Server.McpServer[2065726448]
+      "describe_component" completed. IsError = False.
+info: ModelContextProtocol.Server.McpServer[1867955179]
+      Server (Beep.SimpleDraw.Mcp 1.0.0.0), Client (SimpleDraw protocol acceptance 1.0) method 'tools/call' request handler completed in 6.8423ms.
+info: ModelContextProtocol.Server.McpServer[570385771]
+      Server (Beep.SimpleDraw.Mcp 1.0.0.0), Client (SimpleDraw protocol acceptance 1.0) method 'tools/call' request handler called.
+info: ModelContextProtocol.Server.McpServer[2065726448]
+      "describe_component" completed. IsError = False.
+info: ModelContextProtocol.Server.McpServer[1867955179]
+      Server (Beep.SimpleDraw.Mcp 1.0.0.0), Client (SimpleDraw protocol acceptance 1.0) method 'tools/call' request handler completed in 1.4466ms.
+info: ModelContextProtocol.Server.McpServer[570385771]
+      Server (Beep.SimpleDraw.Mcp 1.0.0.0), Client (SimpleDraw protocol acceptance 1.0) method 'tools/call' request handler called.
+info: ModelContextProtocol.Server.McpServer[2065726448]
+      "describe_component" completed. IsError = False.
+info: ModelContextProtocol.Server.McpServer[1867955179]
+      Server (Beep.SimpleDraw.Mcp 1.0.0.0), Client (SimpleDraw protocol acceptance 1.0) method 'tools/call' request handler completed in 1.3117ms.
+info: ModelContextProtocol.Server.McpServer[570385771]
+      Server (Beep.SimpleDraw.Mcp 1.0.0.0), Client (SimpleDraw protocol acceptance 1.0) method 'tools/call' request handler called.
+info: ModelContextProtocol.Server.McpServer[2065726448]
+      "describe_component" completed. IsError = False.
+info: ModelContextProtocol.Server.McpServer[1867955179]
+      Server (Beep.SimpleDraw.Mcp 1.0.0.0), Client (SimpleDraw protocol acceptance 1.0) method 'tools/call' request handler completed in 0.9743ms.
+info: ModelContextProtocol.Server.McpServer[570385771]
+      Server (Beep.SimpleDraw.Mcp 1.0.0.0), Client (SimpleDraw protocol acceptance 1.0) method 'tools/call' request handler called.
+info: ModelContextProtocol.Server.McpServer[2065726448]
+      "describe_component" completed. IsError = False.
+info: ModelContextProtocol.Server.McpServer[1867955179]
+      Server (Beep.SimpleDraw.Mcp 1.0.0.0), Client (SimpleDraw protocol acceptance 1.0) method 'tools/call' request handler completed in 0.9505ms.
+info: ModelContextProtocol.Server.McpServer[570385771]
+      Server (Beep.SimpleDraw.Mcp 1.0.0.0), Client (SimpleDraw protocol acceptance 1.0) method 'tools/call' request handler called.
+info: ModelContextProtocol.Server.McpServer[2065726448]
+      "describe_component" completed. IsError = False.
+info: ModelContextProtocol.Server.McpServer[1867955179]
+      Server (Beep.SimpleDraw.Mcp 1.0.0.0), Client (SimpleDraw protocol acceptance 1.0) method 'tools/call' request handler completed in 1.176ms.
+info: ModelContextProtocol.Server.McpServer[570385771]
+      Server (Beep.SimpleDraw.Mcp 1.0.0.0), Client (SimpleDraw protocol acceptance 1.0) method 'tools/call' request handler called.
+info: ModelContextProtocol.Server.McpServer[2065726448]
+      "describe_component" completed. IsError = False.
+info: ModelContextProtocol.Server.McpServer[1867955179]
+      Server (Beep.SimpleDraw.Mcp 1.0.0.0), Client (SimpleDraw protocol acceptance 1.0) method 'tools/call' request handler completed in 1.007ms.
+info: ModelContextProtocol.Server.McpServer[570385771]
+      Server (Beep.SimpleDraw.Mcp 1.0.0.0), Client (SimpleDraw protocol acceptance 1.0) method 'tools/call' request handler called.
+info: ModelContextProtocol.Server.McpServer[2065726448]
+      "describe_component" completed. IsError = False.
+info: ModelContextProtocol.Server.McpServer[1867955179]
+      Server (Beep.SimpleDraw.Mcp 1.0.0.0), Client (SimpleDraw protocol acceptance 1.0) method 'tools/call' request handler completed in 1.1568ms.
+info: ModelContextProtocol.Server.McpServer[570385771]
+      Server (Beep.SimpleDraw.Mcp 1.0.0.0), Client (SimpleDraw protocol acceptance 1.0) method 'tools/call' request handler called.
+info: ModelContextProtocol.Server.McpServer[2065726448]
+      "describe_component" completed. IsError = False.
+info: ModelContextProtocol.Server.McpServer[1867955179]
+      Server (Beep.SimpleDraw.Mcp 1.0.0.0), Client (SimpleDraw protocol acceptance 1.0) method 'tools/call' request handler completed in 1.1589ms.
+info: ModelContextProtocol.Server.McpServer[570385771]
+      Server (Beep.SimpleDraw.Mcp 1.0.0.0), Client (SimpleDraw protocol acceptance 1.0) method 'tools/call' request handler called.
+info: ModelContextProtocol.Server.McpServer[2065726448]
+      "describe_component" completed. IsError = False.
+info: ModelContextProtocol.Server.McpServer[1867955179]
+      Server (Beep.SimpleDraw.Mcp 1.0.0.0), Client (SimpleDraw protocol acceptance 1.0) method 'tools/call' request handler completed in 0.9668ms.
+info: ModelContextProtocol.Server.McpServer[570385771]
+      Server (Beep.SimpleDraw.Mcp 1.0.0.0), Client (SimpleDraw protocol acceptance 1.0) method 'tools/call' request handler called.
+info: ModelContextProtocol.Server.McpServer[2065726448]
+      "describe_component" completed. IsError = False.
+info: ModelContextProtocol.Server.McpServer[1867955179]
+      Server (Beep.SimpleDraw.Mcp 1.0.0.0), Client (SimpleDraw protocol acceptance 1.0) method 'tools/call' request handler completed in 0.9806ms.
+info: ModelContextProtocol.Server.McpServer[570385771]
+      Server (Beep.SimpleDraw.Mcp 1.0.0.0), Client (SimpleDraw protocol acceptance 1.0) method 'tools/call' request handler called.
+info: ModelContextProtocol.Server.McpServer[2065726448]
+      "describe_component" completed. IsError = False.
+info: ModelContextProtocol.Server.McpServer[1867955179]
+      Server (Beep.SimpleDraw.Mcp 1.0.0.0), Client (SimpleDraw protocol acceptance 1.0) method 'tools/call' request handler completed in 7.9652ms.
+info: ModelContextProtocol.Server.McpServer[570385771]
+      Server (Beep.SimpleDraw.Mcp 1.0.0.0), Client (SimpleDraw protocol acceptance 1.0) method 'tools/call' request handler called.
+info: ModelContextProtocol.Server.McpServer[2065726448]
+      "describe_component" completed. IsError = False.
+info: ModelContextProtocol.Server.McpServer[1867955179]
+      Server (Beep.SimpleDraw.Mcp 1.0.0.0), Client (SimpleDraw protocol acceptance 1.0) method 'tools/call' request handler completed in 1.5533ms.
+info: ModelContextProtocol.Server.McpServer[570385771]
+      Server (Beep.SimpleDraw.Mcp 1.0.0.0), Client (SimpleDraw protocol acceptance 1.0) method 'tools/call' request handler called.
+info: ModelContextProtocol.Server.McpServer[2065726448]
+      "describe_component" completed. IsError = False.
+info: ModelContextProtocol.Server.McpServer[1867955179]
+      Server (Beep.SimpleDraw.Mcp 1.0.0.0), Client (SimpleDraw protocol acceptance 1.0) method 'tools/call' request handler completed in 1.2952ms.
+info: ModelContextProtocol.Server.McpServer[570385771]
+      Server (Beep.SimpleDraw.Mcp 1.0.0.0), Client (SimpleDraw protocol acceptance 1.0) method 'tools/call' request handler called.
+info: ModelContextProtocol.Server.McpServer[2065726448]
+      "describe_component" completed. IsError = False.
+info: ModelContextProtocol.Server.McpServer[1867955179]
+      Server (Beep.SimpleDraw.Mcp 1.0.0.0), Client (SimpleDraw protocol acceptance 1.0) method 'tools/call' request handler completed in 1.8222ms.
+info: ModelContextProtocol.Server.McpServer[570385771]
+      Server (Beep.SimpleDraw.Mcp 1.0.0.0), Client (SimpleDraw protocol acceptance 1.0) method 'tools/call' request handler called.
+info: ModelContextProtocol.Server.McpServer[2065726448]
+      "describe_component" completed. IsError = False.
+info: ModelContextProtocol.Server.McpServer[1867955179]
+      Server (Beep.SimpleDraw.Mcp 1.0.0.0), Client (SimpleDraw protocol acceptance 1.0) method 'tools/call' request handler completed in 1.4196ms.
+info: ModelContextProtocol.Server.McpServer[570385771]
+      Server (Beep.SimpleDraw.Mcp 1.0.0.0), Client (SimpleDraw protocol acceptance 1.0) method 'tools/call' request handler called.
+info: ModelContextProtocol.Server.McpServer[2065726448]
+      "describe_component" completed. IsError = False.
+info: ModelContextProtocol.Server.McpServer[1867955179]
+      Server (Beep.SimpleDraw.Mcp 1.0.0.0), Client (SimpleDraw protocol acceptance 1.0) method 'tools/call' request handler completed in 1.2152ms.
+info: ModelContextProtocol.Server.McpServer[570385771]
+      Server (Beep.SimpleDraw.Mcp 1.0.0.0), Client (SimpleDraw protocol acceptance 1.0) method 'tools/call' request handler called.
+info: ModelContextProtocol.Server.McpServer[2065726448]
+      "describe_component" completed. IsError = False.
+info: ModelContextProtocol.Server.McpServer[1867955179]
+      Server (Beep.SimpleDraw.Mcp 1.0.0.0), Client (SimpleDraw protocol acceptance 1.0) method 'tools/call' request handler completed in 1.0284ms.
+info: ModelContextProtocol.Server.McpServer[570385771]
+      Server (Beep.SimpleDraw.Mcp 1.0.0.0), Client (SimpleDraw protocol acceptance 1.0) method 'tools/call' request handler called.
+info: ModelContextProtocol.Server.McpServer[2065726448]
+      "describe_component" completed. IsError = False.
+info: ModelContextProtocol.Server.McpServer[1867955179]
+      Server (Beep.SimpleDraw.Mcp 1.0.0.0), Client (SimpleDraw protocol acceptance 1.0) method 'tools/call' request handler completed in 1.1362ms.
+info: ModelContextProtocol.Server.McpServer[570385771]
+      Server (Beep.SimpleDraw.Mcp 1.0.0.0), Client (SimpleDraw protocol acceptance 1.0) method 'tools/call' request handler called.
+info: ModelContextProtocol.Server.McpServer[2065726448]
+      "describe_component" completed. IsError = False.
+info: ModelContextProtocol.Server.McpServer[1867955179]
+      Server (Beep.SimpleDraw.Mcp 1.0.0.0), Client (SimpleDraw protocol acceptance 1.0) method 'tools/call' request handler completed in 1.3663ms.
+info: ModelContextProtocol.Server.McpServer[570385771]
+      Server (Beep.SimpleDraw.Mcp 1.0.0.0), Client (SimpleDraw protocol acceptance 1.0) method 'tools/call' request handler called.
+info: ModelContextProtocol.Server.McpServer[2065726448]
+      "describe_component" completed. IsError = False.
+info: ModelContextProtocol.Server.McpServer[1867955179]
+      Server (Beep.SimpleDraw.Mcp 1.0.0.0), Client (SimpleDraw protocol acceptance 1.0) method 'tools/call' request handler completed in 0.9645ms.
+info: ModelContextProtocol.Server.McpServer[570385771]
+      Server (Beep.SimpleDraw.Mcp 1.0.0.0), Client (SimpleDraw protocol acceptance 1.0) method 'tools/call' request handler called.
+info: ModelContextProtocol.Server.McpServer[2065726448]
+      "describe_component" completed. IsError = False.
+info: ModelContextProtocol.Server.McpServer[1867955179]
+      Server (Beep.SimpleDraw.Mcp 1.0.0.0), Client (SimpleDraw protocol acceptance 1.0) method 'tools/call' request handler completed in 1.2089ms.
+info: ModelContextProtocol.Server.McpServer[570385771]
+      Server (Beep.SimpleDraw.Mcp 1.0.0.0), Client (SimpleDraw protocol acceptance 1.0) method 'tools/call' request handler called.
+info: ModelContextProtocol.Server.McpServer[2065726448]
+      "describe_component" completed. IsError = False.
+info: ModelContextProtocol.Server.McpServer[1867955179]
+      Server (Beep.SimpleDraw.Mcp 1.0.0.0), Client (SimpleDraw protocol acceptance 1.0) method 'tools/call' request handler completed in 1.5326ms.
+info: ModelContextProtocol.Server.McpServer[570385771]
+      Server (Beep.SimpleDraw.Mcp 1.0.0.0), Client (SimpleDraw protocol acceptance 1.0) method 'tools/call' request handler called.
+info: ModelContextProtocol.Server.McpServer[2065726448]
+      "describe_component" completed. IsError = False.
+info: ModelContextProtocol.Server.McpServer[1867955179]
+      Server (Beep.SimpleDraw.Mcp 1.0.0.0), Client (SimpleDraw protocol acceptance 1.0) method 'tools/call' request handler completed in 2.3356ms.
+info: ModelContextProtocol.Server.McpServer[570385771]
+      Server (Beep.SimpleDraw.Mcp 1.0.0.0), Client (SimpleDraw protocol acceptance 1.0) method 'tools/call' request handler called.
+info: ModelContextProtocol.Server.McpServer[2065726448]
+      "describe_component" completed. IsError = False.
+info: ModelContextProtocol.Server.McpServer[1867955179]
+      Server (Beep.SimpleDraw.Mcp 1.0.0.0), Client (SimpleDraw protocol acceptance 1.0) method 'tools/call' request handler completed in 1.1644ms.
+info: ModelContextProtocol.Server.McpServer[570385771]
+      Server (Beep.SimpleDraw.Mcp 1.0.0.0), Client (SimpleDraw protocol acceptance 1.0) method 'tools/call' request handler called.
+info: ModelContextProtocol.Server.McpServer[2065726448]
+      "describe_component" completed. IsError = False.
+info: ModelContextProtocol.Server.McpServer[1867955179]
+      Server (Beep.SimpleDraw.Mcp 1.0.0.0), Client (SimpleDraw protocol acceptance 1.0) method 'tools/call' request handler completed in 0.8945ms.
+info: ModelContextProtocol.Server.McpServer[570385771]
+      Server (Beep.SimpleDraw.Mcp 1.0.0.0), Client (SimpleDraw protocol acceptance 1.0) method 'tools/call' request handler called.
+info: ModelContextProtocol.Server.McpServer[2065726448]
+      "describe_component" completed. IsError = False.
+info: ModelContextProtocol.Server.McpServer[1867955179]
+      Server (Beep.SimpleDraw.Mcp 1.0.0.0), Client (SimpleDraw protocol acceptance 1.0) method 'tools/call' request handler completed in 0.834ms.
+info: ModelContextProtocol.Server.McpServer[570385771]
+      Server (Beep.SimpleDraw.Mcp 1.0.0.0), Client (SimpleDraw protocol acceptance 1.0) method 'tools/call' request handler called.
+info: ModelContextProtocol.Server.McpServer[2065726448]
+      "describe_component" completed. IsError = False.
+info: ModelContextProtocol.Server.McpServer[1867955179]
+      Server (Beep.SimpleDraw.Mcp 1.0.0.0), Client (SimpleDraw protocol acceptance 1.0) method 'tools/call' request handler completed in 0.8244ms.
+info: ModelContextProtocol.Server.McpServer[570385771]
+      Server (Beep.SimpleDraw.Mcp 1.0.0.0), Client (SimpleDraw protocol acceptance 1.0) method 'tools/call' request handler called.
+info: ModelContextProtocol.Server.McpServer[2065726448]
+      "describe_component" completed. IsError = False.
+info: ModelContextProtocol.Server.McpServer[1867955179]
+      Server (Beep.SimpleDraw.Mcp 1.0.0.0), Client (SimpleDraw protocol acceptance 1.0) method 'tools/call' request handler completed in 0.8545ms.
+info: ModelContextProtocol.Server.McpServer[570385771]
+      Server (Beep.SimpleDraw.Mcp 1.0.0.0), Client (SimpleDraw protocol acceptance 1.0) method 'tools/call' request handler called.
+info: ModelContextProtocol.Server.McpServer[2065726448]
+      "describe_component" completed. IsError = False.
+info: ModelContextProtocol.Server.McpServer[1867955179]
+      Server (Beep.SimpleDraw.Mcp 1.0.0.0), Client (SimpleDraw protocol acceptance 1.0) method 'tools/call' request handler completed in 0.7597ms.
+info: ModelContextProtocol.Server.McpServer[570385771]
+      Server (Beep.SimpleDraw.Mcp 1.0.0.0), Client (SimpleDraw protocol acceptance 1.0) method 'tools/call' request handler called.
+info: ModelContextProtocol.Server.McpServer[2065726448]
+      "describe_component" completed. IsError = False.
+info: ModelContextProtocol.Server.McpServer[1867955179]
+      Server (Beep.SimpleDraw.Mcp 1.0.0.0), Client (SimpleDraw protocol acceptance 1.0) method 'tools/call' request handler completed in 0.8914ms.
+info: ModelContextProtocol.Server.McpServer[570385771]
+      Server (Beep.SimpleDraw.Mcp 1.0.0.0), Client (SimpleDraw protocol acceptance 1.0) method 'tools/call' request handler called.
+info: ModelContextProtocol.Server.McpServer[2065726448]
+      "describe_component" completed. IsError = False.
+info: ModelContextProtocol.Server.McpServer[1867955179]
+      Server (Beep.SimpleDraw.Mcp 1.0.0.0), Client (SimpleDraw protocol acceptance 1.0) method 'tools/call' request handler completed in 0.776ms.
+info: ModelContextProtocol.Server.McpServer[570385771]
+      Server (Beep.SimpleDraw.Mcp 1.0.0.0), Client (SimpleDraw protocol acceptance 1.0) method 'tools/call' request handler called.
+info: ModelContextProtocol.Server.McpServer[2065726448]
+      "describe_component" completed. IsError = False.
+info: ModelContextProtocol.Server.McpServer[1867955179]
+      Server (Beep.SimpleDraw.Mcp 1.0.0.0), Client (SimpleDraw protocol acceptance 1.0) method 'tools/call' request handler completed in 0.7645ms.
+info: ModelContextProtocol.Server.McpServer[570385771]
+      Server (Beep.SimpleDraw.Mcp 1.0.0.0), Client (SimpleDraw protocol acceptance 1.0) method 'tools/call' request handler called.
+info: ModelContextProtocol.Server.McpServer[2065726448]
+      "describe_component" completed. IsError = False.
+info: ModelContextProtocol.Server.McpServer[1867955179]
+      Server (Beep.SimpleDraw.Mcp 1.0.0.0), Client (SimpleDraw protocol acceptance 1.0) method 'tools/call' request handler completed in 0.7517ms.
+info: ModelContextProtocol.Server.McpServer[570385771]
+      Server (Beep.SimpleDraw.Mcp 1.0.0.0), Client (SimpleDraw protocol acceptance 1.0) method 'tools/call' request handler called.
+info: ModelContextProtocol.Server.McpServer[2065726448]
+      "describe_component" completed. IsError = False.
+info: ModelContextProtocol.Server.McpServer[1867955179]
+      Server (Beep.SimpleDraw.Mcp 1.0.0.0), Client (SimpleDraw protocol acceptance 1.0) method 'tools/call' request handler completed in 0.7674ms.
+info: ModelContextProtocol.Server.McpServer[570385771]
+      Server (Beep.SimpleDraw.Mcp 1.0.0.0), Client (SimpleDraw protocol acceptance 1.0) method 'tools/call' request handler called.
+info: ModelContextProtocol.Server.McpServer[2065726448]
+      "describe_component" completed. IsError = False.
+info: ModelContextProtocol.Server.McpServer[1867955179]
+      Server (Beep.SimpleDraw.Mcp 1.0.0.0), Client (SimpleDraw protocol acceptance 1.0) method 'tools/call' request handler completed in 1.429ms.
+info: ModelContextProtocol.Server.McpServer[570385771]
+      Server (Beep.SimpleDraw.Mcp 1.0.0.0), Client (SimpleDraw protocol acceptance 1.0) method 'tools/call' request handler called.
+info: ModelContextProtocol.Server.McpServer[2065726448]
+      "describe_component" completed. IsError = False.
+info: ModelContextProtocol.Server.McpServer[1867955179]
+      Server (Beep.SimpleDraw.Mcp 1.0.0.0), Client (SimpleDraw protocol acceptance 1.0) method 'tools/call' request handler completed in 1.8669ms.
+info: ModelContextProtocol.Server.McpServer[570385771]
+      Server (Beep.SimpleDraw.Mcp 1.0.0.0), Client (SimpleDraw protocol acceptance 1.0) method 'tools/call' request handler called.
+info: ModelContextProtocol.Server.McpServer[2065726448]
+      "describe_component" completed. IsError = False.
+info: ModelContextProtocol.Server.McpServer[1867955179]
+      Server (Beep.SimpleDraw.Mcp 1.0.0.0), Client (SimpleDraw protocol acceptance 1.0) method 'tools/call' request handler completed in 1.1097ms.
+info: ModelContextProtocol.Server.McpServer[570385771]
+      Server (Beep.SimpleDraw.Mcp 1.0.0.0), Client (SimpleDraw protocol acceptance 1.0) method 'tools/call' request handler called.
+info: ModelContextProtocol.Server.McpServer[2065726448]
+      "describe_component" completed. IsError = False.
+info: ModelContextProtocol.Server.McpServer[1867955179]
+      Server (Beep.SimpleDraw.Mcp 1.0.0.0), Client (SimpleDraw protocol acceptance 1.0) method 'tools/call' request handler completed in 1.0022ms.
+info: ModelContextProtocol.Server.McpServer[570385771]
+      Server (Beep.SimpleDraw.Mcp 1.0.0.0), Client (SimpleDraw protocol acceptance 1.0) method 'tools/call' request handler called.
+info: ModelContextProtocol.Server.McpServer[2065726448]
+      "describe_component" completed. IsError = False.
+info: ModelContextProtocol.Server.McpServer[1867955179]
+      Server (Beep.SimpleDraw.Mcp 1.0.0.0), Client (SimpleDraw protocol acceptance 1.0) method 'tools/call' request handler completed in 1.0225ms.
+info: ModelContextProtocol.Server.McpServer[570385771]
+      Server (Beep.SimpleDraw.Mcp 1.0.0.0), Client (SimpleDraw protocol acceptance 1.0) method 'tools/call' request handler called.
+info: ModelContextProtocol.Server.McpServer[2065726448]
+      "describe_component" completed. IsError = False.
+info: ModelContextProtocol.Server.McpServer[1867955179]
+      Server (Beep.SimpleDraw.Mcp 1.0.0.0), Client (SimpleDraw protocol acceptance 1.0) method 'tools/call' request handler completed in 0.9628ms.
+info: ModelContextProtocol.Server.McpServer[570385771]
+      Server (Beep.SimpleDraw.Mcp 1.0.0.0), Client (SimpleDraw protocol acceptance 1.0) method 'tools/call' request handler called.
+info: ModelContextProtocol.Server.McpServer[2065726448]
+      "describe_component" completed. IsError = False.
+info: ModelContextProtocol.Server.McpServer[1867955179]
+      Server (Beep.SimpleDraw.Mcp 1.0.0.0), Client (SimpleDraw protocol acceptance 1.0) method 'tools/call' request handler completed in 0.9699ms.
+info: ModelContextProtocol.Server.McpServer[570385771]
+      Server (Beep.SimpleDraw.Mcp 1.0.0.0), Client (SimpleDraw protocol acceptance 1.0) method 'tools/call' request handler called.
+info: ModelContextProtocol.Server.McpServer[2065726448]
+      "describe_component" completed. IsError = False.
+info: ModelContextProtocol.Server.McpServer[1867955179]
+      Server (Beep.SimpleDraw.Mcp 1.0.0.0), Client (SimpleDraw protocol acceptance 1.0) method 'tools/call' request handler completed in 1.0169ms.
+info: ModelContextProtocol.Server.McpServer[570385771]
+      Server (Beep.SimpleDraw.Mcp 1.0.0.0), Client (SimpleDraw protocol acceptance 1.0) method 'tools/call' request handler called.
+info: ModelContextProtocol.Server.McpServer[2065726448]
+      "describe_component" completed. IsError = False.
+info: ModelContextProtocol.Server.McpServer[1867955179]
+      Server (Beep.SimpleDraw.Mcp 1.0.0.0), Client (SimpleDraw protocol acceptance 1.0) method 'tools/call' request handler completed in 0.7867ms.
+info: ModelContextProtocol.Server.McpServer[570385771]
+      Server (Beep.SimpleDraw.Mcp 1.0.0.0), Client (SimpleDraw protocol acceptance 1.0) method 'tools/call' request handler called.
+info: ModelContextProtocol.Server.McpServer[2065726448]
+      "describe_component" completed. IsError = False.
+info: ModelContextProtocol.Server.McpServer[1867955179]
+      Server (Beep.SimpleDraw.Mcp 1.0.0.0), Client (SimpleDraw protocol acceptance 1.0) method 'tools/call' request handler completed in 1.072ms.
+info: ModelContextProtocol.Server.McpServer[570385771]
+      Server (Beep.SimpleDraw.Mcp 1.0.0.0), Client (SimpleDraw protocol acceptance 1.0) method 'tools/call' request handler called.
+info: ModelContextProtocol.Server.McpServer[2065726448]
+      "describe_component" completed. IsError = False.
+info: ModelContextProtocol.Server.McpServer[1867955179]
+      Server (Beep.SimpleDraw.Mcp 1.0.0.0), Client (SimpleDraw protocol acceptance 1.0) method 'tools/call' request handler completed in 1.9387ms.
+info: ModelContextProtocol.Server.McpServer[570385771]
+      Server (Beep.SimpleDraw.Mcp 1.0.0.0), Client (SimpleDraw protocol acceptance 1.0) method 'tools/call' request handler called.
+info: ModelContextProtocol.Server.McpServer[2065726448]
+      "describe_component" completed. IsError = False.
+info: ModelContextProtocol.Server.McpServer[1867955179]
+      Server (Beep.SimpleDraw.Mcp 1.0.0.0), Client (SimpleDraw protocol acceptance 1.0) method 'tools/call' request handler completed in 0.9274ms.
+info: ModelContextProtocol.Server.McpServer[570385771]
+      Server (Beep.SimpleDraw.Mcp 1.0.0.0), Client (SimpleDraw protocol acceptance 1.0) method 'tools/call' request handler called.
+info: ModelContextProtocol.Server.McpServer[2065726448]
+      "describe_component" completed. IsError = False.
+info: ModelContextProtocol.Server.McpServer[1867955179]
+      Server (Beep.SimpleDraw.Mcp 1.0.0.0), Client (SimpleDraw protocol acceptance 1.0) method 'tools/call' request handler completed in 0.8735ms.
+info: ModelContextProtocol.Server.McpServer[570385771]
+      Server (Beep.SimpleDraw.Mcp 1.0.0.0), Client (SimpleDraw protocol acceptance 1.0) method 'tools/call' request handler called.
+info: ModelContextProtocol.Server.McpServer[2065726448]
+      "describe_component" completed. IsError = False.
+info: ModelContextProtocol.Server.McpServer[1867955179]
+      Server (Beep.SimpleDraw.Mcp 1.0.0.0), Client (SimpleDraw protocol acceptance 1.0) method 'tools/call' request handler completed in 0.7742ms.
+info: ModelContextProtocol.Server.McpServer[570385771]
+      Server (Beep.SimpleDraw.Mcp 1.0.0.0), Client (SimpleDraw protocol acceptance 1.0) method 'tools/call' request handler called.
+info: ModelContextProtocol.Server.McpServer[2065726448]
+      "describe_component" completed. IsError = False.
+info: ModelContextProtocol.Server.McpServer[1867955179]
+      Server (Beep.SimpleDraw.Mcp 1.0.0.0), Client (SimpleDraw protocol acceptance 1.0) method 'tools/call' request handler completed in 0.7143ms.
+info: ModelContextProtocol.Server.McpServer[570385771]
+      Server (Beep.SimpleDraw.Mcp 1.0.0.0), Client (SimpleDraw protocol acceptance 1.0) method 'tools/call' request handler called.
+info: ModelContextProtocol.Server.McpServer[2065726448]
+      "describe_component" completed. IsError = False.
+info: ModelContextProtocol.Server.McpServer[1867955179]
+      Server (Beep.SimpleDraw.Mcp 1.0.0.0), Client (SimpleDraw protocol acceptance 1.0) method 'tools/call' request handler completed in 0.9406ms.
+info: ModelContextProtocol.Server.McpServer[570385771]
+      Server (Beep.SimpleDraw.Mcp 1.0.0.0), Client (SimpleDraw protocol acceptance 1.0) method 'tools/call' request handler called.
+info: ModelContextProtocol.Server.McpServer[2065726448]
+      "describe_component" completed. IsError = False.
+info: ModelContextProtocol.Server.McpServer[1867955179]
+      Server (Beep.SimpleDraw.Mcp 1.0.0.0), Client (SimpleDraw protocol acceptance 1.0) method 'tools/call' request handler completed in 0.7003ms.
+info: ModelContextProtocol.Server.McpServer[570385771]
+      Server (Beep.SimpleDraw.Mcp 1.0.0.0), Client (SimpleDraw protocol acceptance 1.0) method 'tools/call' request handler called.
+info: ModelContextProtocol.Server.McpServer[2065726448]
+      "describe_component" completed. IsError = False.
+info: ModelContextProtocol.Server.McpServer[1867955179]
+      Server (Beep.SimpleDraw.Mcp 1.0.0.0), Client (SimpleDraw protocol acceptance 1.0) method 'tools/call' request handler completed in 0.7569ms.
+info: ModelContextProtocol.Server.McpServer[570385771]
+      Server (Beep.SimpleDraw.Mcp 1.0.0.0), Client (SimpleDraw protocol acceptance 1.0) method 'tools/call' request handler called.
+info: ModelContextProtocol.Server.McpServer[2065726448]
+      "describe_component" completed. IsError = False.
+info: ModelContextProtocol.Server.McpServer[1867955179]
+      Server (Beep.SimpleDraw.Mcp 1.0.0.0), Client (SimpleDraw protocol acceptance 1.0) method 'tools/call' request handler completed in 1.0434ms.
+info: ModelContextProtocol.Server.McpServer[570385771]
+      Server (Beep.SimpleDraw.Mcp 1.0.0.0), Client (SimpleDraw protocol acceptance 1.0) method 'tools/call' request handler called.
+info: ModelContextProtocol.Server.McpServer[2065726448]
+      "describe_component" completed. IsError = False.
+info: ModelContextProtocol.Server.McpServer[1867955179]
+      Server (Beep.SimpleDraw.Mcp 1.0.0.0), Client (SimpleDraw protocol acceptance 1.0) method 'tools/call' request handler completed in 0.701ms.
+info: ModelContextProtocol.Server.McpServer[570385771]
+      Server (Beep.SimpleDraw.Mcp 1.0.0.0), Client (SimpleDraw protocol acceptance 1.0) method 'tools/call' request handler called.
+info: ModelContextProtocol.Server.McpServer[2065726448]
+      "describe_component" completed. IsError = False.
+info: ModelContextProtocol.Server.McpServer[1867955179]
+      Server (Beep.SimpleDraw.Mcp 1.0.0.0), Client (SimpleDraw protocol acceptance 1.0) method 'tools/call' request handler completed in 0.7604ms.
+info: ModelContextProtocol.Server.McpServer[570385771]
+      Server (Beep.SimpleDraw.Mcp 1.0.0.0), Client (SimpleDraw protocol acceptance 1.0) method 'tools/call' request handler called.
+info: ModelContextProtocol.Server.McpServer[2065726448]
+      "describe_component" completed. IsError = False.
+info: ModelContextProtocol.Server.McpServer[1867955179]
+      Server (Beep.SimpleDraw.Mcp 1.0.0.0), Client (SimpleDraw protocol acceptance 1.0) method 'tools/call' request handler completed in 0.6635ms.
+info: ModelContextProtocol.Server.McpServer[570385771]
+      Server (Beep.SimpleDraw.Mcp 1.0.0.0), Client (SimpleDraw protocol acceptance 1.0) method 'tools/call' request handler called.
+info: ModelContextProtocol.Server.McpServer[2065726448]
+      "describe_component" completed. IsError = False.
+info: ModelContextProtocol.Server.McpServer[1867955179]
+      Server (Beep.SimpleDraw.Mcp 1.0.0.0), Client (SimpleDraw protocol acceptance 1.0) method 'tools/call' request handler completed in 0.716ms.
+info: ModelContextProtocol.Server.McpServer[570385771]
+      Server (Beep.SimpleDraw.Mcp 1.0.0.0), Client (SimpleDraw protocol acceptance 1.0) method 'tools/call' request handler called.
+info: ModelContextProtocol.Server.McpServer[2065726448]
+      "describe_component" completed. IsError = False.
+info: ModelContextProtocol.Server.McpServer[1867955179]
+      Server (Beep.SimpleDraw.Mcp 1.0.0.0), Client (SimpleDraw protocol acceptance 1.0) method 'tools/call' request handler completed in 0.9565ms.
+info: ModelContextProtocol.Server.McpServer[570385771]
+      Server (Beep.SimpleDraw.Mcp 1.0.0.0), Client (SimpleDraw protocol acceptance 1.0) method 'tools/call' request handler called.
+info: ModelContextProtocol.Server.McpServer[2065726448]
+      "describe_component" completed. IsError = False.
+info: ModelContextProtocol.Server.McpServer[1867955179]
+      Server (Beep.SimpleDraw.Mcp 1.0.0.0), Client (SimpleDraw protocol acceptance 1.0) method 'tools/call' request handler completed in 1.0836ms.
+info: ModelContextProtocol.Server.McpServer[570385771]
+      Server (Beep.SimpleDraw.Mcp 1.0.0.0), Client (SimpleDraw protocol acceptance 1.0) method 'tools/call' request handler called.
+info: ModelContextProtocol.Server.McpServer[2065726448]
+      "describe_component" completed. IsError = False.
+info: ModelContextProtocol.Server.McpServer[1867955179]
+      Server (Beep.SimpleDraw.Mcp 1.0.0.0), Client (SimpleDraw protocol acceptance 1.0) method 'tools/call' request handler completed in 0.8297ms.
+info: ModelContextProtocol.Server.McpServer[570385771]
+      Server (Beep.SimpleDraw.Mcp 1.0.0.0), Client (SimpleDraw protocol acceptance 1.0) method 'tools/call' request handler called.
+info: ModelContextProtocol.Server.McpServer[2065726448]
+      "describe_component" completed. IsError = False.
+info: ModelContextProtocol.Server.McpServer[1867955179]
+      Server (Beep.SimpleDraw.Mcp 1.0.0.0), Client (SimpleDraw protocol acceptance 1.0) method 'tools/call' request handler completed in 0.9913ms.
+info: ModelContextProtocol.Server.McpServer[570385771]
+      Server (Beep.SimpleDraw.Mcp 1.0.0.0), Client (SimpleDraw protocol acceptance 1.0) method 'tools/call' request handler called.
+info: ModelContextProtocol.Server.McpServer[2065726448]
+      "describe_component" completed. IsError = False.
+info: ModelContextProtocol.Server.McpServer[1867955179]
+      Server (Beep.SimpleDraw.Mcp 1.0.0.0), Client (SimpleDraw protocol acceptance 1.0) method 'tools/call' request handler completed in 2.7279ms.
+info: ModelContextProtocol.Server.McpServer[570385771]
+      Server (Beep.SimpleDraw.Mcp 1.0.0.0), Client (SimpleDraw protocol acceptance 1.0) method 'tools/call' request handler called.
+info: ModelContextProtocol.Server.McpServer[2065726448]
+      "describe_component" completed. IsError = False.
+info: ModelContextProtocol.Server.McpServer[1867955179]
+      Server (Beep.SimpleDraw.Mcp 1.0.0.0), Client (SimpleDraw protocol acceptance 1.0) method 'tools/call' request handler completed in 1.2635ms.
+info: ModelContextProtocol.Server.McpServer[570385771]
+      Server (Beep.SimpleDraw.Mcp 1.0.0.0), Client (SimpleDraw protocol acceptance 1.0) method 'tools/call' request handler called.
+info: ModelContextProtocol.Server.McpServer[2065726448]
+      "describe_component" completed. IsError = False.
+info: ModelContextProtocol.Server.McpServer[1867955179]
+      Server (Beep.SimpleDraw.Mcp 1.0.0.0), Client (SimpleDraw protocol acceptance 1.0) method 'tools/call' request handler completed in 1.2517ms.
+info: ModelContextProtocol.Server.McpServer[570385771]
+      Server (Beep.SimpleDraw.Mcp 1.0.0.0), Client (SimpleDraw protocol acceptance 1.0) method 'tools/call' request handler called.
+info: ModelContextProtocol.Server.McpServer[2065726448]
+      "describe_component" completed. IsError = False.
+info: ModelContextProtocol.Server.McpServer[1867955179]
+      Server (Beep.SimpleDraw.Mcp 1.0.0.0), Client (SimpleDraw protocol acceptance 1.0) method 'tools/call' request handler completed in 1.1682ms.
+info: ModelContextProtocol.Server.McpServer[570385771]
+      Server (Beep.SimpleDraw.Mcp 1.0.0.0), Client (SimpleDraw protocol acceptance 1.0) method 'tools/call' request handler called.
+info: ModelContextProtocol.Server.McpServer[2065726448]
+      "describe_component" completed. IsError = False.
+info: ModelContextProtocol.Server.McpServer[1867955179]
+      Server (Beep.SimpleDraw.Mcp 1.0.0.0), Client (SimpleDraw protocol acceptance 1.0) method 'tools/call' request handler completed in 0.8971ms.
+info: ModelContextProtocol.Server.McpServer[570385771]
+      Server (Beep.SimpleDraw.Mcp 1.0.0.0), Client (SimpleDraw protocol acceptance 1.0) method 'tools/call' request handler called.
+info: ModelContextProtocol.Server.McpServer[2065726448]
+      "describe_component" completed. IsError = False.
+info: ModelContextProtocol.Server.McpServer[1867955179]
+      Server (Beep.SimpleDraw.Mcp 1.0.0.0), Client (SimpleDraw protocol acceptance 1.0) method 'tools/call' request handler completed in 1.2528ms.
+info: ModelContextProtocol.Server.McpServer[570385771]
+      Server (Beep.SimpleDraw.Mcp 1.0.0.0), Client (SimpleDraw protocol acceptance 1.0) method 'tools/call' request handler called.
+info: ModelContextProtocol.Server.McpServer[2065726448]
+      "describe_component" completed. IsError = False.
+info: ModelContextProtocol.Server.McpServer[1867955179]
+      Server (Beep.SimpleDraw.Mcp 1.0.0.0), Client (SimpleDraw protocol acceptance 1.0) method 'tools/call' request handler completed in 1.3395ms.
+info: ModelContextProtocol.Server.McpServer[570385771]
+      Server (Beep.SimpleDraw.Mcp 1.0.0.0), Client (SimpleDraw protocol acceptance 1.0) method 'tools/call' request handler called.
+info: ModelContextProtocol.Server.McpServer[2065726448]
+      "describe_component" completed. IsError = False.
+info: ModelContextProtocol.Server.McpServer[1867955179]
+      Server (Beep.SimpleDraw.Mcp 1.0.0.0), Client (SimpleDraw protocol acceptance 1.0) method 'tools/call' request handler completed in 1.1357ms.
+info: ModelContextProtocol.Server.McpServer[570385771]
+      Server (Beep.SimpleDraw.Mcp 1.0.0.0), Client (SimpleDraw protocol acceptance 1.0) method 'tools/call' request handler called.
+info: ModelContextProtocol.Server.McpServer[2065726448]
+      "describe_component" completed. IsError = False.
+info: ModelContextProtocol.Server.McpServer[1867955179]
+      Server (Beep.SimpleDraw.Mcp 1.0.0.0), Client (SimpleDraw protocol acceptance 1.0) method 'tools/call' request handler completed in 1.2454ms.
+info: ModelContextProtocol.Server.McpServer[570385771]
+      Server (Beep.SimpleDraw.Mcp 1.0.0.0), Client (SimpleDraw protocol acceptance 1.0) method 'tools/call' request handler called.
+info: ModelContextProtocol.Server.McpServer[2065726448]
+      "describe_component" completed. IsError = False.
+info: ModelContextProtocol.Server.McpServer[1867955179]
+      Server (Beep.SimpleDraw.Mcp 1.0.0.0), Client (SimpleDraw protocol acceptance 1.0) method 'tools/call' request handler completed in 1.6281ms.
+info: ModelContextProtocol.Server.McpServer[570385771]
+      Server (Beep.SimpleDraw.Mcp 1.0.0.0), Client (SimpleDraw protocol acceptance 1.0) method 'tools/call' request handler called.
+info: ModelContextProtocol.Server.McpServer[2065726448]
+      "describe_component" completed. IsError = False.
+info: ModelContextProtocol.Server.McpServer[1867955179]
+      Server (Beep.SimpleDraw.Mcp 1.0.0.0), Client (SimpleDraw protocol acceptance 1.0) method 'tools/call' request handler completed in 1.7932ms.
+info: ModelContextProtocol.Server.McpServer[570385771]
+      Server (Beep.SimpleDraw.Mcp 1.0.0.0), Client (SimpleDraw protocol acceptance 1.0) method 'tools/call' request handler called.
+info: ModelContextProtocol.Server.McpServer[2065726448]
+      "describe_component" completed. IsError = False.
+info: ModelContextProtocol.Server.McpServer[1867955179]
+      Server (Beep.SimpleDraw.Mcp 1.0.0.0), Client (SimpleDraw protocol acceptance 1.0) method 'tools/call' request handler completed in 1.5433ms.
+info: ModelContextProtocol.Server.McpServer[570385771]
+      Server (Beep.SimpleDraw.Mcp 1.0.0.0), Client (SimpleDraw protocol acceptance 1.0) method 'tools/call' request handler called.
+info: ModelContextProtocol.Server.McpServer[2065726448]
+      "describe_component" completed. IsError = False.
+info: ModelContextProtocol.Server.McpServer[1867955179]
+      Server (Beep.SimpleDraw.Mcp 1.0.0.0), Client (SimpleDraw protocol acceptance 1.0) method 'tools/call' request handler completed in 1.3523ms.
+info: ModelContextProtocol.Server.McpServer[570385771]
+      Server (Beep.SimpleDraw.Mcp 1.0.0.0), Client (SimpleDraw protocol acceptance 1.0) method 'tools/call' request handler called.
+info: ModelContextProtocol.Server.McpServer[2065726448]
+      "describe_component" completed. IsError = False.
+info: ModelContextProtocol.Server.McpServer[1867955179]
+      Server (Beep.SimpleDraw.Mcp 1.0.0.0), Client (SimpleDraw protocol acceptance 1.0) method 'tools/call' request handler completed in 1.393ms.
+info: ModelContextProtocol.Server.McpServer[570385771]
+      Server (Beep.SimpleDraw.Mcp 1.0.0.0), Client (SimpleDraw protocol acceptance 1.0) method 'tools/call' request handler called.
+info: ModelContextProtocol.Server.McpServer[2065726448]
+      "describe_component" completed. IsError = False.
+info: ModelContextProtocol.Server.McpServer[1867955179]
+      Server (Beep.SimpleDraw.Mcp 1.0.0.0), Client (SimpleDraw protocol acceptance 1.0) method 'tools/call' request handler completed in 1.445ms.
+info: ModelContextProtocol.Server.McpServer[570385771]
+      Server (Beep.SimpleDraw.Mcp 1.0.0.0), Client (SimpleDraw protocol acceptance 1.0) method 'tools/call' request handler called.
+info: ModelContextProtocol.Server.McpServer[2065726448]
+      "describe_component" completed. IsError = False.
+info: ModelContextProtocol.Server.McpServer[1867955179]
+      Server (Beep.SimpleDraw.Mcp 1.0.0.0), Client (SimpleDraw protocol acceptance 1.0) method 'tools/call' request handler completed in 1.6283ms.
+info: ModelContextProtocol.Server.McpServer[570385771]
+      Server (Beep.SimpleDraw.Mcp 1.0.0.0), Client (SimpleDraw protocol acceptance 1.0) method 'tools/call' request handler called.
+info: ModelContextProtocol.Server.McpServer[2065726448]
+      "describe_component" completed. IsError = False.
+info: ModelContextProtocol.Server.McpServer[1867955179]
+      Server (Beep.SimpleDraw.Mcp 1.0.0.0), Client (SimpleDraw protocol acceptance 1.0) method 'tools/call' request handler completed in 1.4908ms.
+info: ModelContextProtocol.Server.McpServer[570385771]
+      Server (Beep.SimpleDraw.Mcp 1.0.0.0), Client (SimpleDraw protocol acceptance 1.0) method 'tools/call' request handler called.
+info: ModelContextProtocol.Server.McpServer[2065726448]
+      "describe_component" completed. IsError = False.
+info: ModelContextProtocol.Server.McpServer[1867955179]
+      Server (Beep.SimpleDraw.Mcp 1.0.0.0), Client (SimpleDraw protocol acceptance 1.0) method 'tools/call' request handler completed in 3.2664ms.
+info: ModelContextProtocol.Server.McpServer[570385771]
+      Server (Beep.SimpleDraw.Mcp 1.0.0.0), Client (SimpleDraw protocol acceptance 1.0) method 'tools/call' request handler called.
+info: ModelContextProtocol.Server.McpServer[2065726448]
+      "describe_component" completed. IsError = False.
+info: ModelContextProtocol.Server.McpServer[1867955179]
+      Server (Beep.SimpleDraw.Mcp 1.0.0.0), Client (SimpleDraw protocol acceptance 1.0) method 'tools/call' request handler completed in 1.882ms.
+info: ModelContextProtocol.Server.McpServer[570385771]
+      Server (Beep.SimpleDraw.Mcp 1.0.0.0), Client (SimpleDraw protocol acceptance 1.0) method 'tools/call' request handler called.
+info: ModelContextProtocol.Server.McpServer[2065726448]
+      "describe_component" completed. IsError = False.
+info: ModelContextProtocol.Server.McpServer[1867955179]
+      Server (Beep.SimpleDraw.Mcp 1.0.0.0), Client (SimpleDraw protocol acceptance 1.0) method 'tools/call' request handler completed in 1.1336ms.
+info: ModelContextProtocol.Server.McpServer[570385771]
+      Server (Beep.SimpleDraw.Mcp 1.0.0.0), Client (SimpleDraw protocol acceptance 1.0) method 'tools/call' request handler called.
+info: ModelContextProtocol.Server.McpServer[2065726448]
+      "describe_component" completed. IsError = False.
+info: ModelContextProtocol.Server.McpServer[1867955179]
+      Server (Beep.SimpleDraw.Mcp 1.0.0.0), Client (SimpleDraw protocol acceptance 1.0) method 'tools/call' request handler completed in 1.1532ms.
+info: ModelContextProtocol.Server.McpServer[570385771]
+      Server (Beep.SimpleDraw.Mcp 1.0.0.0), Client (SimpleDraw protocol acceptance 1.0) method 'tools/call' request handler called.
+info: ModelContextProtocol.Server.McpServer[2065726448]
+      "describe_component" completed. IsError = False.
+info: ModelContextProtocol.Server.McpServer[1867955179]
+      Server (Beep.SimpleDraw.Mcp 1.0.0.0), Client (SimpleDraw protocol acceptance 1.0) method 'tools/call' request handler completed in 0.939ms.
+info: ModelContextProtocol.Server.McpServer[570385771]
+      Server (Beep.SimpleDraw.Mcp 1.0.0.0), Client (SimpleDraw protocol acceptance 1.0) method 'tools/call' request handler called.
+info: ModelContextProtocol.Server.McpServer[2065726448]
+      "describe_component" completed. IsError = False.
+info: ModelContextProtocol.Server.McpServer[1867955179]
+      Server (Beep.SimpleDraw.Mcp 1.0.0.0), Client (SimpleDraw protocol acceptance 1.0) method 'tools/call' request handler completed in 0.9079ms.
+info: ModelContextProtocol.Server.McpServer[570385771]
+      Server (Beep.SimpleDraw.Mcp 1.0.0.0), Client (SimpleDraw protocol acceptance 1.0) method 'tools/call' request handler called.
+info: ModelContextProtocol.Server.McpServer[2065726448]
+      "describe_component" completed. IsError = False.
+info: ModelContextProtocol.Server.McpServer[1867955179]
+      Server (Beep.SimpleDraw.Mcp 1.0.0.0), Client (SimpleDraw protocol acceptance 1.0) method 'tools/call' request handler completed in 1.7238ms.
+info: ModelContextProtocol.Server.McpServer[570385771]
+      Server (Beep.SimpleDraw.Mcp 1.0.0.0), Client (SimpleDraw protocol acceptance 1.0) method 'tools/call' request handler called.
+info: ModelContextProtocol.Server.McpServer[2065726448]
+      "describe_component" completed. IsError = False.
+info: ModelContextProtocol.Server.McpServer[1867955179]
+      Server (Beep.SimpleDraw.Mcp 1.0.0.0), Client (SimpleDraw protocol acceptance 1.0) method 'tools/call' request handler completed in 0.8065ms.
+info: ModelContextProtocol.Server.McpServer[570385771]
+      Server (Beep.SimpleDraw.Mcp 1.0.0.0), Client (SimpleDraw protocol acceptance 1.0) method 'tools/call' request handler called.
+info: ModelContextProtocol.Server.McpServer[2065726448]
+      "describe_component" completed. IsError = False.
+info: ModelContextProtocol.Server.McpServer[1867955179]
+      Server (Beep.SimpleDraw.Mcp 1.0.0.0), Client (SimpleDraw protocol acceptance 1.0) method 'tools/call' request handler completed in 1.254ms.
+info: ModelContextProtocol.Server.McpServer[570385771]
+      Server (Beep.SimpleDraw.Mcp 1.0.0.0), Client (SimpleDraw protocol acceptance 1.0) method 'tools/call' request handler called.
+info: ModelContextProtocol.Server.McpServer[2065726448]
+      "describe_component" completed. IsError = False.
+info: ModelContextProtocol.Server.McpServer[1867955179]
+      Server (Beep.SimpleDraw.Mcp 1.0.0.0), Client (SimpleDraw protocol acceptance 1.0) method 'tools/call' request handler completed in 1.3542ms.
+info: ModelContextProtocol.Server.McpServer[570385771]
+      Server (Beep.SimpleDraw.Mcp 1.0.0.0), Client (SimpleDraw protocol acceptance 1.0) method 'tools/call' request handler called.
+info: ModelContextProtocol.Server.McpServer[2065726448]
+      "describe_component" completed. IsError = False.
+info: ModelContextProtocol.Server.McpServer[1867955179]
+      Server (Beep.SimpleDraw.Mcp 1.0.0.0), Client (SimpleDraw protocol acceptance 1.0) method 'tools/call' request handler completed in 1.043ms.
+info: ModelContextProtocol.Server.McpServer[570385771]
+      Server (Beep.SimpleDraw.Mcp 1.0.0.0), Client (SimpleDraw protocol acceptance 1.0) method 'tools/call' request handler called.
+info: ModelContextProtocol.Server.McpServer[2065726448]
+      "describe_component" completed. IsError = False.
+info: ModelContextProtocol.Server.McpServer[1867955179]
+      Server (Beep.SimpleDraw.Mcp 1.0.0.0), Client (SimpleDraw protocol acceptance 1.0) method 'tools/call' request handler completed in 1.0963ms.
+info: ModelContextProtocol.Server.McpServer[570385771]
+      Server (Beep.SimpleDraw.Mcp 1.0.0.0), Client (SimpleDraw protocol acceptance 1.0) method 'tools/call' request handler called.
+info: ModelContextProtocol.Server.McpServer[2065726448]
+      "describe_component" completed. IsError = False.
+info: ModelContextProtocol.Server.McpServer[1867955179]
+      Server (Beep.SimpleDraw.Mcp 1.0.0.0), Client (SimpleDraw protocol acceptance 1.0) method 'tools/call' request handler completed in 1.148ms.
+info: ModelContextProtocol.Server.McpServer[570385771]
+      Server (Beep.SimpleDraw.Mcp 1.0.0.0), Client (SimpleDraw protocol acceptance 1.0) method 'tools/call' request handler called.
+info: ModelContextProtocol.Server.McpServer[2065726448]
+      "describe_component" completed. IsError = False.
+info: ModelContextProtocol.Server.McpServer[1867955179]
+      Server (Beep.SimpleDraw.Mcp 1.0.0.0), Client (SimpleDraw protocol acceptance 1.0) method 'tools/call' request handler completed in 1.4105ms.
+info: ModelContextProtocol.Server.McpServer[570385771]
+      Server (Beep.SimpleDraw.Mcp 1.0.0.0), Client (SimpleDraw protocol acceptance 1.0) method 'tools/call' request handler called.
+info: ModelContextProtocol.Server.McpServer[2065726448]
+      "describe_component" completed. IsError = False.
+info: ModelContextProtocol.Server.McpServer[1867955179]
+      Server (Beep.SimpleDraw.Mcp 1.0.0.0), Client (SimpleDraw protocol acceptance 1.0) method 'tools/call' request handler completed in 1.0734ms.
+info: ModelContextProtocol.Server.McpServer[570385771]
+      Server (Beep.SimpleDraw.Mcp 1.0.0.0), Client (SimpleDraw protocol acceptance 1.0) method 'tools/call' request handler called.
+info: ModelContextProtocol.Server.McpServer[2065726448]
+      "describe_component" completed. IsError = False.
+info: ModelContextProtocol.Server.McpServer[1867955179]
+      Server (Beep.SimpleDraw.Mcp 1.0.0.0), Client (SimpleDraw protocol acceptance 1.0) method 'tools/call' request handler completed in 1.1633ms.
+info: ModelContextProtocol.Server.McpServer[570385771]
+      Server (Beep.SimpleDraw.Mcp 1.0.0.0), Client (SimpleDraw protocol acceptance 1.0) method 'tools/call' request handler called.
+info: ModelContextProtocol.Server.McpServer[2065726448]
+      "describe_component" completed. IsError = False.
+info: ModelContextProtocol.Server.McpServer[1867955179]
+      Server (Beep.SimpleDraw.Mcp 1.0.0.0), Client (SimpleDraw protocol acceptance 1.0) method 'tools/call' request handler completed in 1.3845ms.
+info: ModelContextProtocol.Server.McpServer[570385771]
+      Server (Beep.SimpleDraw.Mcp 1.0.0.0), Client (SimpleDraw protocol acceptance 1.0) method 'tools/call' request handler called.
+info: ModelContextProtocol.Server.McpServer[2065726448]
+      "describe_component" completed. IsError = False.
+info: ModelContextProtocol.Server.McpServer[1867955179]
+      Server (Beep.SimpleDraw.Mcp 1.0.0.0), Client (SimpleDraw protocol acceptance 1.0) method 'tools/call' request handler completed in 1.2432ms.
+info: ModelContextProtocol.Server.McpServer[570385771]
+      Server (Beep.SimpleDraw.Mcp 1.0.0.0), Client (SimpleDraw protocol acceptance 1.0) method 'tools/call' request handler called.
+info: ModelContextProtocol.Server.McpServer[2065726448]
+      "describe_component" completed. IsError = False.
+info: ModelContextProtocol.Server.McpServer[1867955179]
+      Server (Beep.SimpleDraw.Mcp 1.0.0.0), Client (SimpleDraw protocol acceptance 1.0) method 'tools/call' request handler completed in 1.4174ms.
+info: ModelContextProtocol.Server.McpServer[570385771]
+      Server (Beep.SimpleDraw.Mcp 1.0.0.0), Client (SimpleDraw protocol acceptance 1.0) method 'tools/call' request handler called.
+info: ModelContextProtocol.Server.McpServer[2065726448]
+      "describe_component" completed. IsError = False.
+info: ModelContextProtocol.Server.McpServer[1867955179]
+      Server (Beep.SimpleDraw.Mcp 1.0.0.0), Client (SimpleDraw protocol acceptance 1.0) method 'tools/call' request handler completed in 1.3954ms.
+info: ModelContextProtocol.Server.McpServer[570385771]
+      Server (Beep.SimpleDraw.Mcp 1.0.0.0), Client (SimpleDraw protocol acceptance 1.0) method 'tools/call' request handler called.
+info: ModelContextProtocol.Server.McpServer[2065726448]
+      "describe_component" completed. IsError = False.
+info: ModelContextProtocol.Server.McpServer[1867955179]
+      Server (Beep.SimpleDraw.Mcp 1.0.0.0), Client (SimpleDraw protocol acceptance 1.0) method 'tools/call' request handler completed in 1.0235ms.
+info: ModelContextProtocol.Server.McpServer[570385771]
+      Server (Beep.SimpleDraw.Mcp 1.0.0.0), Client (SimpleDraw protocol acceptance 1.0) method 'tools/call' request handler called.
+info: ModelContextProtocol.Server.McpServer[2065726448]
+      "describe_component" completed. IsError = False.
+info: ModelContextProtocol.Server.McpServer[1867955179]
+      Server (Beep.SimpleDraw.Mcp 1.0.0.0), Client (SimpleDraw protocol acceptance 1.0) method 'tools/call' request handler completed in 2.1667ms.
+info: ModelContextProtocol.Server.McpServer[570385771]
+      Server (Beep.SimpleDraw.Mcp 1.0.0.0), Client (SimpleDraw protocol acceptance 1.0) method 'tools/call' request handler called.
+info: ModelContextProtocol.Server.McpServer[2065726448]
+      "describe_component" completed. IsError = False.
+info: ModelContextProtocol.Server.McpServer[1867955179]
+      Server (Beep.SimpleDraw.Mcp 1.0.0.0), Client (SimpleDraw protocol acceptance 1.0) method 'tools/call' request handler completed in 1.6976ms.
+info: ModelContextProtocol.Server.McpServer[570385771]
+      Server (Beep.SimpleDraw.Mcp 1.0.0.0), Client (SimpleDraw protocol acceptance 1.0) method 'tools/call' request handler called.
+info: ModelContextProtocol.Server.McpServer[2065726448]
+      "describe_component" completed. IsError = False.
+info: ModelContextProtocol.Server.McpServer[1867955179]
+      Server (Beep.SimpleDraw.Mcp 1.0.0.0), Client (SimpleDraw protocol acceptance 1.0) method 'tools/call' request handler completed in 1.1008ms.
+info: ModelContextProtocol.Server.McpServer[570385771]
+      Server (Beep.SimpleDraw.Mcp 1.0.0.0), Client (SimpleDraw protocol acceptance 1.0) method 'tools/call' request handler called.
+info: ModelContextProtocol.Server.McpServer[2065726448]
+      "describe_component" completed. IsError = False.
+info: ModelContextProtocol.Server.McpServer[1867955179]
+      Server (Beep.SimpleDraw.Mcp 1.0.0.0), Client (SimpleDraw protocol acceptance 1.0) method 'tools/call' request handler completed in 1.2937ms.
+info: ModelContextProtocol.Server.McpServer[570385771]
+      Server (Beep.SimpleDraw.Mcp 1.0.0.0), Client (SimpleDraw protocol acceptance 1.0) method 'tools/call' request handler called.
+info: ModelContextProtocol.Server.McpServer[2065726448]
+      "describe_component" completed. IsError = False.
+info: ModelContextProtocol.Server.McpServer[1867955179]
+      Server (Beep.SimpleDraw.Mcp 1.0.0.0), Client (SimpleDraw protocol acceptance 1.0) method 'tools/call' request handler completed in 1.1735ms.
+info: ModelContextProtocol.Server.McpServer[570385771]
+      Server (Beep.SimpleDraw.Mcp 1.0.0.0), Client (SimpleDraw protocol acceptance 1.0) method 'tools/call' request handler called.
+info: ModelContextProtocol.Server.McpServer[2065726448]
+      "describe_component" completed. IsError = False.
+info: ModelContextProtocol.Server.McpServer[1867955179]
+      Server (Beep.SimpleDraw.Mcp 1.0.0.0), Client (SimpleDraw protocol acceptance 1.0) method 'tools/call' request handler completed in 1.8788ms.
+info: ModelContextProtocol.Server.McpServer[570385771]
+      Server (Beep.SimpleDraw.Mcp 1.0.0.0), Client (SimpleDraw protocol acceptance 1.0) method 'tools/call' request handler called.
+info: ModelContextProtocol.Server.McpServer[2065726448]
+      "describe_component" completed. IsError = False.
+info: ModelContextProtocol.Server.McpServer[1867955179]
+      Server (Beep.SimpleDraw.Mcp 1.0.0.0), Client (SimpleDraw protocol acceptance 1.0) method 'tools/call' request handler completed in 1.1544ms.
+info: ModelContextProtocol.Server.McpServer[570385771]
+      Server (Beep.SimpleDraw.Mcp 1.0.0.0), Client (SimpleDraw protocol acceptance 1.0) method 'tools/call' request handler called.
+info: ModelContextProtocol.Server.McpServer[2065726448]
+      "describe_component" completed. IsError = False.
+info: ModelContextProtocol.Server.McpServer[1867955179]
+      Server (Beep.SimpleDraw.Mcp 1.0.0.0), Client (SimpleDraw protocol acceptance 1.0) method 'tools/call' request handler completed in 1.3739ms.
+info: ModelContextProtocol.Server.McpServer[570385771]
+      Server (Beep.SimpleDraw.Mcp 1.0.0.0), Client (SimpleDraw protocol acceptance 1.0) method 'tools/call' request handler called.
+info: ModelContextProtocol.Server.McpServer[2065726448]
+      "describe_component" completed. IsError = False.
+info: ModelContextProtocol.Server.McpServer[1867955179]
+      Server (Beep.SimpleDraw.Mcp 1.0.0.0), Client (SimpleDraw protocol acceptance 1.0) method 'tools/call' request handler completed in 1.1528ms.
+info: ModelContextProtocol.Server.McpServer[570385771]
+      Server (Beep.SimpleDraw.Mcp 1.0.0.0), Client (SimpleDraw protocol acceptance 1.0) method 'tools/call' request handler called.
+info: ModelContextProtocol.Server.McpServer[2065726448]
+      "describe_component" completed. IsError = False.
+info: ModelContextProtocol.Server.McpServer[1867955179]
+      Server (Beep.SimpleDraw.Mcp 1.0.0.0), Client (SimpleDraw protocol acceptance 1.0) method 'tools/call' request handler completed in 1.3565ms.
+info: ModelContextProtocol.Server.McpServer[570385771]
+      Server (Beep.SimpleDraw.Mcp 1.0.0.0), Client (SimpleDraw protocol acceptance 1.0) method 'tools/call' request handler called.
+info: ModelContextProtocol.Server.McpServer[2065726448]
+      "describe_component" completed. IsError = False.
+info: ModelContextProtocol.Server.McpServer[1867955179]
+      Server (Beep.SimpleDraw.Mcp 1.0.0.0), Client (SimpleDraw protocol acceptance 1.0) method 'tools/call' request handler completed in 1.1939ms.
+info: ModelContextProtocol.Server.McpServer[570385771]
+      Server (Beep.SimpleDraw.Mcp 1.0.0.0), Client (SimpleDraw protocol acceptance 1.0) method 'tools/call' request handler called.
+info: ModelContextProtocol.Server.McpServer[2065726448]
+      "describe_component" completed. IsError = False.
+info: ModelContextProtocol.Server.McpServer[1867955179]
+      Server (Beep.SimpleDraw.Mcp 1.0.0.0), Client (SimpleDraw protocol acceptance 1.0) method 'tools/call' request handler completed in 1.3341ms.
+info: ModelContextProtocol.Server.McpServer[570385771]
+      Server (Beep.SimpleDraw.Mcp 1.0.0.0), Client (SimpleDraw protocol acceptance 1.0) method 'tools/call' request handler called.
+info: ModelContextProtocol.Server.McpServer[2065726448]
+      "describe_component" completed. IsError = False.
+info: ModelContextProtocol.Server.McpServer[1867955179]
+      Server (Beep.SimpleDraw.Mcp 1.0.0.0), Client (SimpleDraw protocol acceptance 1.0) method 'tools/call' request handler completed in 1.5241ms.
+info: ModelContextProtocol.Server.McpServer[570385771]
+      Server (Beep.SimpleDraw.Mcp 1.0.0.0), Client (SimpleDraw protocol acceptance 1.0) method 'tools/call' request handler called.
+info: ModelContextProtocol.Server.McpServer[2065726448]
+      "describe_component" completed. IsError = False.
+info: ModelContextProtocol.Server.McpServer[1867955179]
+      Server (Beep.SimpleDraw.Mcp 1.0.0.0), Client (SimpleDraw protocol acceptance 1.0) method 'tools/call' request handler completed in 1.3161ms.
+info: ModelContextProtocol.Server.McpServer[570385771]
+      Server (Beep.SimpleDraw.Mcp 1.0.0.0), Client (SimpleDraw protocol acceptance 1.0) method 'tools/call' request handler called.
+info: ModelContextProtocol.Server.McpServer[2065726448]
+      "describe_component" completed. IsError = False.
+info: ModelContextProtocol.Server.McpServer[1867955179]
+      Server (Beep.SimpleDraw.Mcp 1.0.0.0), Client (SimpleDraw protocol acceptance 1.0) method 'tools/call' request handler completed in 1.2509ms.
+info: ModelContextProtocol.Server.McpServer[570385771]
+      Server (Beep.SimpleDraw.Mcp 1.0.0.0), Client (SimpleDraw protocol acceptance 1.0) method 'tools/call' request handler called.
+info: ModelContextProtocol.Server.McpServer[2065726448]
+      "describe_component" completed. IsError = False.
+info: ModelContextProtocol.Server.McpServer[1867955179]
+      Server (Beep.SimpleDraw.Mcp 1.0.0.0), Client (SimpleDraw protocol acceptance 1.0) method 'tools/call' request handler completed in 1.3449ms.
+info: ModelContextProtocol.Server.McpServer[570385771]
+      Server (Beep.SimpleDraw.Mcp 1.0.0.0), Client (SimpleDraw protocol acceptance 1.0) method 'tools/call' request handler called.
+info: ModelContextProtocol.Server.McpServer[2065726448]
+      "describe_component" completed. IsError = False.
+info: ModelContextProtocol.Server.McpServer[1867955179]
+      Server (Beep.SimpleDraw.Mcp 1.0.0.0), Client (SimpleDraw protocol acceptance 1.0) method 'tools/call' request handler completed in 1.8867ms.
+info: ModelContextProtocol.Server.McpServer[570385771]
+      Server (Beep.SimpleDraw.Mcp 1.0.0.0), Client (SimpleDraw protocol acceptance 1.0) method 'tools/call' request handler called.
+info: ModelContextProtocol.Server.McpServer[2065726448]
+      "describe_component" completed. IsError = False.
+info: ModelContextProtocol.Server.McpServer[1867955179]
+      Server (Beep.SimpleDraw.Mcp 1.0.0.0), Client (SimpleDraw protocol acceptance 1.0) method 'tools/call' request handler completed in 1.329ms.
+info: ModelContextProtocol.Server.McpServer[570385771]
+      Server (Beep.SimpleDraw.Mcp 1.0.0.0), Client (SimpleDraw protocol acceptance 1.0) method 'tools/call' request handler called.
+info: ModelContextProtocol.Server.McpServer[2065726448]
+      "describe_component" completed. IsError = False.
+info: ModelContextProtocol.Server.McpServer[1867955179]
+      Server (Beep.SimpleDraw.Mcp 1.0.0.0), Client (SimpleDraw protocol acceptance 1.0) method 'tools/call' request handler completed in 2.3865ms.
+info: ModelContextProtocol.Server.McpServer[570385771]
+      Server (Beep.SimpleDraw.Mcp 1.0.0.0), Client (SimpleDraw protocol acceptance 1.0) method 'tools/call' request handler called.
+info: ModelContextProtocol.Server.McpServer[2065726448]
+      "describe_component" completed. IsError = False.
+info: ModelContextProtocol.Server.McpServer[1867955179]
+      Server (Beep.SimpleDraw.Mcp 1.0.0.0), Client (SimpleDraw protocol acceptance 1.0) method 'tools/call' request handler completed in 1.5228ms.
+info: ModelContextProtocol.Server.McpServer[570385771]
+      Server (Beep.SimpleDraw.Mcp 1.0.0.0), Client (SimpleDraw protocol acceptance 1.0) method 'tools/call' request handler called.
+info: ModelContextProtocol.Server.McpServer[2065726448]
+      "describe_component" completed. IsError = False.
+info: ModelContextProtocol.Server.McpServer[1867955179]
+      Server (Beep.SimpleDraw.Mcp 1.0.0.0), Client (SimpleDraw protocol acceptance 1.0) method 'tools/call' request handler completed in 1.195ms.
+info: ModelContextProtocol.Server.McpServer[570385771]
+      Server (Beep.SimpleDraw.Mcp 1.0.0.0), Client (SimpleDraw protocol acceptance 1.0) method 'tools/call' request handler called.
+info: ModelContextProtocol.Server.McpServer[2065726448]
+      "describe_component" completed. IsError = False.
+info: ModelContextProtocol.Server.McpServer[1867955179]
+      Server (Beep.SimpleDraw.Mcp 1.0.0.0), Client (SimpleDraw protocol acceptance 1.0) method 'tools/call' request handler completed in 1.1506ms.
+info: ModelContextProtocol.Server.McpServer[570385771]
+      Server (Beep.SimpleDraw.Mcp 1.0.0.0), Client (SimpleDraw protocol acceptance 1.0) method 'tools/call' request handler called.
+info: ModelContextProtocol.Server.McpServer[2065726448]
+      "describe_component" completed. IsError = False.
+info: ModelContextProtocol.Server.McpServer[1867955179]
+      Server (Beep.SimpleDraw.Mcp 1.0.0.0), Client (SimpleDraw protocol acceptance 1.0) method 'tools/call' request handler completed in 1.6977ms.
+info: ModelContextProtocol.Server.McpServer[570385771]
+      Server (Beep.SimpleDraw.Mcp 1.0.0.0), Client (SimpleDraw protocol acceptance 1.0) method 'tools/call' request handler called.
+info: ModelContextProtocol.Server.McpServer[2065726448]
+      "describe_component" completed. IsError = False.
+info: ModelContextProtocol.Server.McpServer[1867955179]
+      Server (Beep.SimpleDraw.Mcp 1.0.0.0), Client (SimpleDraw protocol acceptance 1.0) method 'tools/call' request handler completed in 2.7136ms.
+info: ModelContextProtocol.Server.McpServer[570385771]
+      Server (Beep.SimpleDraw.Mcp 1.0.0.0), Client (SimpleDraw protocol acceptance 1.0) method 'tools/call' request handler called.
+info: ModelContextProtocol.Server.McpServer[2065726448]
+      "describe_component" completed. IsError = False.
+info: ModelContextProtocol.Server.McpServer[1867955179]
+      Server (Beep.SimpleDraw.Mcp 1.0.0.0), Client (SimpleDraw protocol acceptance 1.0) method 'tools/call' request handler completed in 1.2312ms.
+info: ModelContextProtocol.Server.McpServer[570385771]
+      Server (Beep.SimpleDraw.Mcp 1.0.0.0), Client (SimpleDraw protocol acceptance 1.0) method 'tools/call' request handler called.
+info: ModelContextProtocol.Server.McpServer[2065726448]
+      "describe_component" completed. IsError = False.
+info: ModelContextProtocol.Server.McpServer[1867955179]
+      Server (Beep.SimpleDraw.Mcp 1.0.0.0), Client (SimpleDraw protocol acceptance 1.0) method 'tools/call' request handler completed in 1.1829ms.
+info: ModelContextProtocol.Server.McpServer[570385771]
+      Server (Beep.SimpleDraw.Mcp 1.0.0.0), Client (SimpleDraw protocol acceptance 1.0) method 'tools/call' request handler called.
+info: ModelContextProtocol.Server.McpServer[2065726448]
+      "describe_component" completed. IsError = False.
+info: ModelContextProtocol.Server.McpServer[1867955179]
+      Server (Beep.SimpleDraw.Mcp 1.0.0.0), Client (SimpleDraw protocol acceptance 1.0) method 'tools/call' request handler completed in 1.1141ms.
+info: ModelContextProtocol.Server.McpServer[570385771]
+      Server (Beep.SimpleDraw.Mcp 1.0.0.0), Client (SimpleDraw protocol acceptance 1.0) method 'tools/call' request handler called.
+info: ModelContextProtocol.Server.McpServer[2065726448]
+      "describe_component" completed. IsError = False.
+info: ModelContextProtocol.Server.McpServer[1867955179]
+      Server (Beep.SimpleDraw.Mcp 1.0.0.0), Client (SimpleDraw protocol acceptance 1.0) method 'tools/call' request handler completed in 1.2769ms.
+info: ModelContextProtocol.Server.McpServer[570385771]
+      Server (Beep.SimpleDraw.Mcp 1.0.0.0), Client (SimpleDraw protocol acceptance 1.0) method 'tools/call' request handler called.
+info: ModelContextProtocol.Server.McpServer[2065726448]
+      "describe_component" completed. IsError = False.
+info: ModelContextProtocol.Server.McpServer[1867955179]
+      Server (Beep.SimpleDraw.Mcp 1.0.0.0), Client (SimpleDraw protocol acceptance 1.0) method 'tools/call' request handler completed in 1.2002ms.
+info: ModelContextProtocol.Server.McpServer[570385771]
+      Server (Beep.SimpleDraw.Mcp 1.0.0.0), Client (SimpleDraw protocol acceptance 1.0) method 'tools/call' request handler called.
+info: ModelContextProtocol.Server.McpServer[2065726448]
+      "describe_component" completed. IsError = False.
+info: ModelContextProtocol.Server.McpServer[1867955179]
+      Server (Beep.SimpleDraw.Mcp 1.0.0.0), Client (SimpleDraw protocol acceptance 1.0) method 'tools/call' request handler completed in 0.9761ms.
+info: ModelContextProtocol.Server.McpServer[570385771]
+      Server (Beep.SimpleDraw.Mcp 1.0.0.0), Client (SimpleDraw protocol acceptance 1.0) method 'tools/call' request handler called.
+info: ModelContextProtocol.Server.McpServer[2065726448]
+      "describe_component" completed. IsError = False.
+info: ModelContextProtocol.Server.McpServer[1867955179]
+      Server (Beep.SimpleDraw.Mcp 1.0.0.0), Client (SimpleDraw protocol acceptance 1.0) method 'tools/call' request handler completed in 1.0803ms.
+info: ModelContextProtocol.Server.McpServer[570385771]
+      Server (Beep.SimpleDraw.Mcp 1.0.0.0), Client (SimpleDraw protocol acceptance 1.0) method 'tools/call' request handler called.
+info: ModelContextProtocol.Server.McpServer[2065726448]
+      "describe_component" completed. IsError = False.
+info: ModelContextProtocol.Server.McpServer[1867955179]
+      Server (Beep.SimpleDraw.Mcp 1.0.0.0), Client (SimpleDraw protocol acceptance 1.0) method 'tools/call' request handler completed in 2.418ms.
+info: ModelContextProtocol.Server.McpServer[570385771]
+      Server (Beep.SimpleDraw.Mcp 1.0.0.0), Client (SimpleDraw protocol acceptance 1.0) method 'tools/call' request handler called.
+info: ModelContextProtocol.Server.McpServer[2065726448]
+      "describe_component" completed. IsError = False.
+info: ModelContextProtocol.Server.McpServer[1867955179]
+      Server (Beep.SimpleDraw.Mcp 1.0.0.0), Client (SimpleDraw protocol acceptance 1.0) method 'tools/call' request handler completed in 1.3532ms.
+info: ModelContextProtocol.Server.McpServer[570385771]
+      Server (Beep.SimpleDraw.Mcp 1.0.0.0), Client (SimpleDraw protocol acceptance 1.0) method 'tools/call' request handler called.
+info: ModelContextProtocol.Server.McpServer[2065726448]
+      "describe_component" completed. IsError = False.
+info: ModelContextProtocol.Server.McpServer[1867955179]
+      Server (Beep.SimpleDraw.Mcp 1.0.0.0), Client (SimpleDraw protocol acceptance 1.0) method 'tools/call' request handler completed in 1.0933ms.
+info: ModelContextProtocol.Server.McpServer[570385771]
+      Server (Beep.SimpleDraw.Mcp 1.0.0.0), Client (SimpleDraw protocol acceptance 1.0) method 'tools/call' request handler called.
+info: ModelContextProtocol.Server.McpServer[2065726448]
+      "describe_component" completed. IsError = False.
+info: ModelContextProtocol.Server.McpServer[1867955179]
+      Server (Beep.SimpleDraw.Mcp 1.0.0.0), Client (SimpleDraw protocol acceptance 1.0) method 'tools/call' request handler completed in 3.2286ms.
+info: ModelContextProtocol.Server.McpServer[570385771]
+      Server (Beep.SimpleDraw.Mcp 1.0.0.0), Client (SimpleDraw protocol acceptance 1.0) method 'tools/call' request handler called.
+info: ModelContextProtocol.Server.McpServer[2065726448]
+      "describe_component" completed. IsError = False.
+info: ModelContextProtocol.Server.McpServer[1867955179]
+      Server (Beep.SimpleDraw.Mcp 1.0.0.0), Client (SimpleDraw protocol acceptance 1.0) method 'tools/call' request handler completed in 1.2057ms.
+info: ModelContextProtocol.Server.McpServer[570385771]
+      Server (Beep.SimpleDraw.Mcp 1.0.0.0), Client (SimpleDraw protocol acceptance 1.0) method 'tools/call' request handler called.
+info: ModelContextProtocol.Server.McpServer[2065726448]
+      "describe_component" completed. IsError = False.
+info: ModelContextProtocol.Server.McpServer[1867955179]
+      Server (Beep.SimpleDraw.Mcp 1.0.0.0), Client (SimpleDraw protocol acceptance 1.0) method 'tools/call' request handler completed in 1.0195ms.
+info: ModelContextProtocol.Server.McpServer[570385771]
+      Server (Beep.SimpleDraw.Mcp 1.0.0.0), Client (SimpleDraw protocol acceptance 1.0) method 'tools/call' request handler called.
+info: ModelContextProtocol.Server.McpServer[2065726448]
+      "describe_component" completed. IsError = False.
+info: ModelContextProtocol.Server.McpServer[1867955179]
+      Server (Beep.SimpleDraw.Mcp 1.0.0.0), Client (SimpleDraw protocol acceptance 1.0) method 'tools/call' request handler completed in 1.2201ms.
+info: ModelContextProtocol.Server.McpServer[570385771]
+      Server (Beep.SimpleDraw.Mcp 1.0.0.0), Client (SimpleDraw protocol acceptance 1.0) method 'tools/call' request handler called.
+info: ModelContextProtocol.Server.McpServer[2065726448]
+      "describe_component" completed. IsError = False.
+info: ModelContextProtocol.Server.McpServer[1867955179]
+      Server (Beep.SimpleDraw.Mcp 1.0.0.0), Client (SimpleDraw protocol acceptance 1.0) method 'tools/call' request handler completed in 1.1683ms.
+info: ModelContextProtocol.Server.McpServer[570385771]
+      Server (Beep.SimpleDraw.Mcp 1.0.0.0), Client (SimpleDraw protocol acceptance 1.0) method 'tools/call' request handler called.
+info: ModelContextProtocol.Server.McpServer[2065726448]
+      "describe_component" completed. IsError = False.
+info: ModelContextProtocol.Server.McpServer[1867955179]
+      Server (Beep.SimpleDraw.Mcp 1.0.0.0), Client (SimpleDraw protocol acceptance 1.0) method 'tools/call' request handler completed in 1.2202ms.
+info: ModelContextProtocol.Server.McpServer[570385771]
+      Server (Beep.SimpleDraw.Mcp 1.0.0.0), Client (SimpleDraw protocol acceptance 1.0) method 'tools/call' request handler called.
+info: ModelContextProtocol.Server.McpServer[2065726448]
+      "describe_component" completed. IsError = False.
+info: ModelContextProtocol.Server.McpServer[1867955179]
+      Server (Beep.SimpleDraw.Mcp 1.0.0.0), Client (SimpleDraw protocol acceptance 1.0) method 'tools/call' request handler completed in 2.2098ms.
+info: ModelContextProtocol.Server.McpServer[570385771]
+      Server (Beep.SimpleDraw.Mcp 1.0.0.0), Client (SimpleDraw protocol acceptance 1.0) method 'tools/call' request handler called.
+info: ModelContextProtocol.Server.McpServer[2065726448]
+      "describe_component" completed. IsError = False.
+info: ModelContextProtocol.Server.McpServer[1867955179]
+      Server (Beep.SimpleDraw.Mcp 1.0.0.0), Client (SimpleDraw protocol acceptance 1.0) method 'tools/call' request handler completed in 1.2206ms.
+info: ModelContextProtocol.Server.McpServer[570385771]
+      Server (Beep.SimpleDraw.Mcp 1.0.0.0), Client (SimpleDraw protocol acceptance 1.0) method 'tools/call' request handler called.
+info: ModelContextProtocol.Server.McpServer[2065726448]
+      "describe_component" completed. IsError = False.
+info: ModelContextProtocol.Server.McpServer[1867955179]
+      Server (Beep.SimpleDraw.Mcp 1.0.0.0), Client (SimpleDraw protocol acceptance 1.0) method 'tools/call' request handler completed in 0.993ms.
+info: ModelContextProtocol.Server.McpServer[570385771]
+      Server (Beep.SimpleDraw.Mcp 1.0.0.0), Client (SimpleDraw protocol acceptance 1.0) method 'tools/call' request handler called.
+info: ModelContextProtocol.Server.McpServer[2065726448]
+      "describe_component" completed. IsError = False.
+info: ModelContextProtocol.Server.McpServer[1867955179]
+      Server (Beep.SimpleDraw.Mcp 1.0.0.0), Client (SimpleDraw protocol acceptance 1.0) method 'tools/call' request handler completed in 1.104ms.
+info: ModelContextProtocol.Server.McpServer[570385771]
+      Server (Beep.SimpleDraw.Mcp 1.0.0.0), Client (SimpleDraw protocol acceptance 1.0) method 'tools/call' request handler called.
+info: ModelContextProtocol.Server.McpServer[2065726448]
+      "describe_component" completed. IsError = False.
+info: ModelContextProtocol.Server.McpServer[1867955179]
+      Server (Beep.SimpleDraw.Mcp 1.0.0.0), Client (SimpleDraw protocol acceptance 1.0) method 'tools/call' request handler completed in 1.0821ms.
+info: ModelContextProtocol.Server.McpServer[570385771]
+      Server (Beep.SimpleDraw.Mcp 1.0.0.0), Client (SimpleDraw protocol acceptance 1.0) method 'tools/call' request handler called.
+info: ModelContextProtocol.Server.McpServer[2065726448]
+      "describe_component" completed. IsError = False.
+info: ModelContextProtocol.Server.McpServer[1867955179]
+      Server (Beep.SimpleDraw.Mcp 1.0.0.0), Client (SimpleDraw protocol acceptance 1.0) method 'tools/call' request handler completed in 1.0268ms.
+info: ModelContextProtocol.Server.McpServer[570385771]
+      Server (Beep.SimpleDraw.Mcp 1.0.0.0), Client (SimpleDraw protocol acceptance 1.0) method 'tools/call' request handler called.
+info: ModelContextProtocol.Server.McpServer[2065726448]
+      "describe_component" completed. IsError = False.
+info: ModelContextProtocol.Server.McpServer[1867955179]
+      Server (Beep.SimpleDraw.Mcp 1.0.0.0), Client (SimpleDraw protocol acceptance 1.0) method 'tools/call' request handler completed in 1.0968ms.
+info: ModelContextProtocol.Server.McpServer[570385771]
+      Server (Beep.SimpleDraw.Mcp 1.0.0.0), Client (SimpleDraw protocol acceptance 1.0) method 'tools/call' request handler called.
+info: ModelContextProtocol.Server.McpServer[2065726448]
+      "describe_component" completed. IsError = False.
+info: ModelContextProtocol.Server.McpServer[1867955179]
+      Server (Beep.SimpleDraw.Mcp 1.0.0.0), Client (SimpleDraw protocol acceptance 1.0) method 'tools/call' request handler completed in 1.1792ms.
+info: ModelContextProtocol.Server.McpServer[570385771]
+      Server (Beep.SimpleDraw.Mcp 1.0.0.0), Client (SimpleDraw protocol acceptance 1.0) method 'tools/call' request handler called.
+info: ModelContextProtocol.Server.McpServer[2065726448]
+      "describe_component" completed. IsError = False.
+info: ModelContextProtocol.Server.McpServer[1867955179]
+      Server (Beep.SimpleDraw.Mcp 1.0.0.0), Client (SimpleDraw protocol acceptance 1.0) method 'tools/call' request handler completed in 2.6438ms.
+info: ModelContextProtocol.Server.McpServer[570385771]
+      Server (Beep.SimpleDraw.Mcp 1.0.0.0), Client (SimpleDraw protocol acceptance 1.0) method 'tools/call' request handler called.
+info: ModelContextProtocol.Server.McpServer[2065726448]
+      "describe_component" completed. IsError = False.
+info: ModelContextProtocol.Server.McpServer[1867955179]
+      Server (Beep.SimpleDraw.Mcp 1.0.0.0), Client (SimpleDraw protocol acceptance 1.0) method 'tools/call' request handler completed in 1.248ms.
+info: ModelContextProtocol.Server.McpServer[570385771]
+      Server (Beep.SimpleDraw.Mcp 1.0.0.0), Client (SimpleDraw protocol acceptance 1.0) method 'tools/call' request handler called.
+info: ModelContextProtocol.Server.McpServer[2065726448]
+      "describe_component" completed. IsError = False.
+info: ModelContextProtocol.Server.McpServer[1867955179]
+      Server (Beep.SimpleDraw.Mcp 1.0.0.0), Client (SimpleDraw protocol acceptance 1.0) method 'tools/call' request handler completed in 1.5068ms.
+info: ModelContextProtocol.Server.McpServer[570385771]
+      Server (Beep.SimpleDraw.Mcp 1.0.0.0), Client (SimpleDraw protocol acceptance 1.0) method 'tools/call' request handler called.
+info: ModelContextProtocol.Server.McpServer[2065726448]
+      "describe_component" completed. IsError = False.
+info: ModelContextProtocol.Server.McpServer[1867955179]
+      Server (Beep.SimpleDraw.Mcp 1.0.0.0), Client (SimpleDraw protocol acceptance 1.0) method 'tools/call' request handler completed in 1.0824ms.
+info: ModelContextProtocol.Server.McpServer[570385771]
+      Server (Beep.SimpleDraw.Mcp 1.0.0.0), Client (SimpleDraw protocol acceptance 1.0) method 'tools/call' request handler called.
+info: ModelContextProtocol.Server.McpServer[2065726448]
+      "describe_component" completed. IsError = False.
+info: ModelContextProtocol.Server.McpServer[1867955179]
+      Server (Beep.SimpleDraw.Mcp 1.0.0.0), Client (SimpleDraw protocol acceptance 1.0) method 'tools/call' request handler completed in 6.6224ms.
+info: ModelContextProtocol.Server.McpServer[570385771]
+      Server (Beep.SimpleDraw.Mcp 1.0.0.0), Client (SimpleDraw protocol acceptance 1.0) method 'tools/call' request handler called.
+info: ModelContextProtocol.Server.McpServer[2065726448]
+      "describe_component" completed. IsError = False.
+info: ModelContextProtocol.Server.McpServer[1867955179]
+      Server (Beep.SimpleDraw.Mcp 1.0.0.0), Client (SimpleDraw protocol acceptance 1.0) method 'tools/call' request handler completed in 1.0248ms.
+info: ModelContextProtocol.Server.McpServer[570385771]
+      Server (Beep.SimpleDraw.Mcp 1.0.0.0), Client (SimpleDraw protocol acceptance 1.0) method 'tools/call' request handler called.
+info: ModelContextProtocol.Server.McpServer[2065726448]
+      "describe_component" completed. IsError = False.
+info: ModelContextProtocol.Server.McpServer[1867955179]
+      Server (Beep.SimpleDraw.Mcp 1.0.0.0), Client (SimpleDraw protocol acceptance 1.0) method 'tools/call' request handler completed in 0.9436ms.
+info: ModelContextProtocol.Server.McpServer[570385771]
+      Server (Beep.SimpleDraw.Mcp 1.0.0.0), Client (SimpleDraw protocol acceptance 1.0) method 'tools/call' request handler called.
+info: ModelContextProtocol.Server.McpServer[2065726448]
+      "describe_component" completed. IsError = False.
+info: ModelContextProtocol.Server.McpServer[1867955179]
+      Server (Beep.SimpleDraw.Mcp 1.0.0.0), Client (SimpleDraw protocol acceptance 1.0) method 'tools/call' request handler completed in 1.0531ms.
+info: ModelContextProtocol.Server.McpServer[570385771]
+      Server (Beep.SimpleDraw.Mcp 1.0.0.0), Client (SimpleDraw protocol acceptance 1.0) method 'tools/call' request handler called.
+info: ModelContextProtocol.Server.McpServer[2065726448]
+      "describe_component" completed. IsError = False.
+info: ModelContextProtocol.Server.McpServer[1867955179]
+      Server (Beep.SimpleDraw.Mcp 1.0.0.0), Client (SimpleDraw protocol acceptance 1.0) method 'tools/call' request handler completed in 0.9962ms.
+info: ModelContextProtocol.Server.McpServer[570385771]
+      Server (Beep.SimpleDraw.Mcp 1.0.0.0), Client (SimpleDraw protocol acceptance 1.0) method 'tools/call' request handler called.
+info: ModelContextProtocol.Server.McpServer[2065726448]
+      "describe_component" completed. IsError = False.
+info: ModelContextProtocol.Server.McpServer[1867955179]
+      Server (Beep.SimpleDraw.Mcp 1.0.0.0), Client (SimpleDraw protocol acceptance 1.0) method 'tools/call' request handler completed in 1.1692ms.
+info: ModelContextProtocol.Server.McpServer[570385771]
+      Server (Beep.SimpleDraw.Mcp 1.0.0.0), Client (SimpleDraw protocol acceptance 1.0) method 'tools/call' request handler called.
+info: ModelContextProtocol.Server.McpServer[2065726448]
+      "describe_component" completed. IsError = False.
+info: ModelContextProtocol.Server.McpServer[1867955179]
+      Server (Beep.SimpleDraw.Mcp 1.0.0.0), Client (SimpleDraw protocol acceptance 1.0) method 'tools/call' request handler completed in 1.0581ms.
+info: ModelContextProtocol.Server.McpServer[570385771]
+      Server (Beep.SimpleDraw.Mcp 1.0.0.0), Client (SimpleDraw protocol acceptance 1.0) method 'tools/call' request handler called.
+info: ModelContextProtocol.Server.McpServer[2065726448]
+      "describe_component" completed. IsError = False.
+info: ModelContextProtocol.Server.McpServer[1867955179]
+      Server (Beep.SimpleDraw.Mcp 1.0.0.0), Client (SimpleDraw protocol acceptance 1.0) method 'tools/call' request handler completed in 0.9402ms.
+info: ModelContextProtocol.Server.McpServer[570385771]
+      Server (Beep.SimpleDraw.Mcp 1.0.0.0), Client (SimpleDraw protocol acceptance 1.0) method 'tools/call' request handler called.
+info: ModelContextProtocol.Server.McpServer[2065726448]
+      "describe_component" completed. IsError = False.
+info: ModelContextProtocol.Server.McpServer[1867955179]
+      Server (Beep.SimpleDraw.Mcp 1.0.0.0), Client (SimpleDraw protocol acceptance 1.0) method 'tools/call' request handler completed in 1.1232ms.
+info: ModelContextProtocol.Server.McpServer[570385771]
+      Server (Beep.SimpleDraw.Mcp 1.0.0.0), Client (SimpleDraw protocol acceptance 1.0) method 'tools/call' request handler called.
+info: ModelContextProtocol.Server.McpServer[2065726448]
+      "describe_component" completed. IsError = False.
+info: ModelContextProtocol.Server.McpServer[1867955179]
+      Server (Beep.SimpleDraw.Mcp 1.0.0.0), Client (SimpleDraw protocol acceptance 1.0) method 'tools/call' request handler completed in 1.2864ms.
+info: ModelContextProtocol.Server.McpServer[570385771]
+      Server (Beep.SimpleDraw.Mcp 1.0.0.0), Client (SimpleDraw protocol acceptance 1.0) method 'tools/call' request handler called.
+info: ModelContextProtocol.Server.McpServer[2065726448]
+      "describe_component" completed. IsError = False.
+info: ModelContextProtocol.Server.McpServer[1867955179]
+      Server (Beep.SimpleDraw.Mcp 1.0.0.0), Client (SimpleDraw protocol acceptance 1.0) method 'tools/call' request handler completed in 1.1463ms.
+info: ModelContextProtocol.Server.McpServer[570385771]
+      Server (Beep.SimpleDraw.Mcp 1.0.0.0), Client (SimpleDraw protocol acceptance 1.0) method 'tools/call' request handler called.
+info: ModelContextProtocol.Server.McpServer[2065726448]
+      "describe_component" completed. IsError = False.
+info: ModelContextProtocol.Server.McpServer[1867955179]
+      Server (Beep.SimpleDraw.Mcp 1.0.0.0), Client (SimpleDraw protocol acceptance 1.0) method 'tools/call' request handler completed in 1.5279ms.
+info: ModelContextProtocol.Server.McpServer[570385771]
+      Server (Beep.SimpleDraw.Mcp 1.0.0.0), Client (SimpleDraw protocol acceptance 1.0) method 'tools/call' request handler called.
+info: ModelContextProtocol.Server.McpServer[2065726448]
+      "describe_component" completed. IsError = False.
+info: ModelContextProtocol.Server.McpServer[1867955179]
+      Server (Beep.SimpleDraw.Mcp 1.0.0.0), Client (SimpleDraw protocol acceptance 1.0) method 'tools/call' request handler completed in 1.1456ms.
+info: ModelContextProtocol.Server.McpServer[570385771]
+      Server (Beep.SimpleDraw.Mcp 1.0.0.0), Client (SimpleDraw protocol acceptance 1.0) method 'tools/call' request handler called.
+info: ModelContextProtocol.Server.McpServer[2065726448]
+      "describe_component" completed. IsError = False.
+info: ModelContextProtocol.Server.McpServer[1867955179]
+      Server (Beep.SimpleDraw.Mcp 1.0.0.0), Client (SimpleDraw protocol acceptance 1.0) method 'tools/call' request handler completed in 1.0933ms.
+info: ModelContextProtocol.Server.McpServer[570385771]
+      Server (Beep.SimpleDraw.Mcp 1.0.0.0), Client (SimpleDraw protocol acceptance 1.0) method 'tools/call' request handler called.
+info: ModelContextProtocol.Server.McpServer[2065726448]
+      "describe_component" completed. IsError = False.
+info: ModelContextProtocol.Server.McpServer[1867955179]
+      Server (Beep.SimpleDraw.Mcp 1.0.0.0), Client (SimpleDraw protocol acceptance 1.0) method 'tools/call' request handler completed in 1.1978ms.
+info: ModelContextProtocol.Server.McpServer[570385771]
+      Server (Beep.SimpleDraw.Mcp 1.0.0.0), Client (SimpleDraw protocol acceptance 1.0) method 'tools/call' request handler called.
+info: ModelContextProtocol.Server.McpServer[2065726448]
+      "describe_component" completed. IsError = False.
+info: ModelContextProtocol.Server.McpServer[1867955179]
+      Server (Beep.SimpleDraw.Mcp 1.0.0.0), Client (SimpleDraw protocol acceptance 1.0) method 'tools/call' request handler completed in 1.4517ms.
+info: ModelContextProtocol.Server.McpServer[570385771]
+      Server (Beep.SimpleDraw.Mcp 1.0.0.0), Client (SimpleDraw protocol acceptance 1.0) method 'tools/call' request handler called.
+info: ModelContextProtocol.Server.McpServer[2065726448]
+      "describe_component" completed. IsError = False.
+info: ModelContextProtocol.Server.McpServer[1867955179]
+      Server (Beep.SimpleDraw.Mcp 1.0.0.0), Client (SimpleDraw protocol acceptance 1.0) method 'tools/call' request handler completed in 1.235ms.
+info: ModelContextProtocol.Server.McpServer[570385771]
+      Server (Beep.SimpleDraw.Mcp 1.0.0.0), Client (SimpleDraw protocol acceptance 1.0) method 'tools/call' request handler called.
+info: ModelContextProtocol.Server.McpServer[2065726448]
+      "describe_component" completed. IsError = False.
+info: ModelContextProtocol.Server.McpServer[1867955179]
+      Server (Beep.SimpleDraw.Mcp 1.0.0.0), Client (SimpleDraw protocol acceptance 1.0) method 'tools/call' request handler completed in 1.2785ms.
+info: ModelContextProtocol.Server.McpServer[570385771]
+      Server (Beep.SimpleDraw.Mcp 1.0.0.0), Client (SimpleDraw protocol acceptance 1.0) method 'tools/call' request handler called.
+info: ModelContextProtocol.Server.McpServer[2065726448]
+      "describe_component" completed. IsError = False.
+info: ModelContextProtocol.Server.McpServer[1867955179]
+      Server (Beep.SimpleDraw.Mcp 1.0.0.0), Client (SimpleDraw protocol acceptance 1.0) method 'tools/call' request handler completed in 1.3762ms.
+info: ModelContextProtocol.Server.McpServer[570385771]
+      Server (Beep.SimpleDraw.Mcp 1.0.0.0), Client (SimpleDraw protocol acceptance 1.0) method 'tools/call' request handler called.
+info: ModelContextProtocol.Server.McpServer[2065726448]
+      "describe_component" completed. IsError = False.
+info: ModelContextProtocol.Server.McpServer[1867955179]
+      Server (Beep.SimpleDraw.Mcp 1.0.0.0), Client (SimpleDraw protocol acceptance 1.0) method 'tools/call' request handler completed in 1.0444ms.
+info: ModelContextProtocol.Server.McpServer[570385771]
+      Server (Beep.SimpleDraw.Mcp 1.0.0.0), Client (SimpleDraw protocol acceptance 1.0) method 'tools/call' request handler called.
+info: ModelContextProtocol.Server.McpServer[2065726448]
+      "describe_component" completed. IsError = False.
+info: ModelContextProtocol.Server.McpServer[1867955179]
+      Server (Beep.SimpleDraw.Mcp 1.0.0.0), Client (SimpleDraw protocol acceptance 1.0) method 'tools/call' request handler completed in 4.9045ms.
+info: ModelContextProtocol.Server.McpServer[570385771]
+      Server (Beep.SimpleDraw.Mcp 1.0.0.0), Client (SimpleDraw protocol acceptance 1.0) method 'tools/call' request handler called.
+info: ModelContextProtocol.Server.McpServer[2065726448]
+      "create_drawing" completed. IsError = False.
+info: ModelContextProtocol.Server.McpServer[1867955179]
+      Server (Beep.SimpleDraw.Mcp 1.0.0.0), Client (SimpleDraw protocol acceptance 1.0) method 'tools/call' request handler completed in 56.1042ms.
+info: ModelContextProtocol.Server.McpServer[570385771]
+      Server (Beep.SimpleDraw.Mcp 1.0.0.0), Client (SimpleDraw protocol acceptance 1.0) method 'tools/call' request handler called.
+info: ModelContextProtocol.Server.McpServer[2065726448]
+      "add_component" completed. IsError = False.
+info: ModelContextProtocol.Server.McpServer[1867955179]
+      Server (Beep.SimpleDraw.Mcp 1.0.0.0), Client (SimpleDraw protocol acceptance 1.0) method 'tools/call' request handler completed in 50.9057ms.
+info: ModelContextProtocol.Server.McpServer[570385771]
+      Server (Beep.SimpleDraw.Mcp 1.0.0.0), Client (SimpleDraw protocol acceptance 1.0) method 'tools/call' request handler called.
+info: ModelContextProtocol.Server.McpServer[2065726448]
+      "set_component_property" completed. IsError = False.
+info: ModelContextProtocol.Server.McpServer[1867955179]
+      Server (Beep.SimpleDraw.Mcp 1.0.0.0), Client (SimpleDraw protocol acceptance 1.0) method 'tools/call' request handler completed in 8.6129ms.
+info: ModelContextProtocol.Server.McpServer[570385771]
+      Server (Beep.SimpleDraw.Mcp 1.0.0.0), Client (SimpleDraw protocol acceptance 1.0) method 'tools/call' request handler called.
+info: ModelContextProtocol.Server.McpServer[2065726448]
+      "add_component" completed. IsError = False.
+info: ModelContextProtocol.Server.McpServer[1867955179]
+      Server (Beep.SimpleDraw.Mcp 1.0.0.0), Client (SimpleDraw protocol acceptance 1.0) method 'tools/call' request handler completed in 5.8874ms.
+info: ModelContextProtocol.Server.McpServer[570385771]
+      Server (Beep.SimpleDraw.Mcp 1.0.0.0), Client (SimpleDraw protocol acceptance 1.0) method 'tools/call' request handler called.
+info: ModelContextProtocol.Server.McpServer[2065726448]
+      "set_component_property" completed. IsError = False.
+info: ModelContextProtocol.Server.McpServer[1867955179]
+      Server (Beep.SimpleDraw.Mcp 1.0.0.0), Client (SimpleDraw protocol acceptance 1.0) method 'tools/call' request handler completed in 4.7163ms.
+info: ModelContextProtocol.Server.McpServer[570385771]
+      Server (Beep.SimpleDraw.Mcp 1.0.0.0), Client (SimpleDraw protocol acceptance 1.0) method 'tools/call' request handler called.
+info: ModelContextProtocol.Server.McpServer[2065726448]
+      "connect_nodes" completed. IsError = False.
+info: ModelContextProtocol.Server.McpServer[1867955179]
+      Server (Beep.SimpleDraw.Mcp 1.0.0.0), Client (SimpleDraw protocol acceptance 1.0) method 'tools/call' request handler completed in 33.6533ms.
+info: ModelContextProtocol.Server.McpServer[570385771]
+      Server (Beep.SimpleDraw.Mcp 1.0.0.0), Client (SimpleDraw protocol acceptance 1.0) method 'tools/call' request handler called.
+info: ModelContextProtocol.Server.McpServer[2065726448]
+      "get_ports" completed. IsError = False.
+info: ModelContextProtocol.Server.McpServer[1867955179]
+      Server (Beep.SimpleDraw.Mcp 1.0.0.0), Client (SimpleDraw protocol acceptance 1.0) method 'tools/call' request handler completed in 5.978ms.
+info: ModelContextProtocol.Server.McpServer[570385771]
+      Server (Beep.SimpleDraw.Mcp 1.0.0.0), Client (SimpleDraw protocol acceptance 1.0) method 'tools/call' request handler called.
+info: ModelContextProtocol.Server.McpServer[2065726448]
+      "add_sketch" completed. IsError = False.
+info: ModelContextProtocol.Server.McpServer[1867955179]
+      Server (Beep.SimpleDraw.Mcp 1.0.0.0), Client (SimpleDraw protocol acceptance 1.0) method 'tools/call' request handler completed in 13.4778ms.
+info: ModelContextProtocol.Server.McpServer[570385771]
+      Server (Beep.SimpleDraw.Mcp 1.0.0.0), Client (SimpleDraw protocol acceptance 1.0) method 'tools/call' request handler called.
+info: ModelContextProtocol.Server.McpServer[2065726448]
+      "edit_text" completed. IsError = False.
+info: ModelContextProtocol.Server.McpServer[1867955179]
+      Server (Beep.SimpleDraw.Mcp 1.0.0.0), Client (SimpleDraw protocol acceptance 1.0) method 'tools/call' request handler completed in 14.3809ms.
+info: ModelContextProtocol.Server.McpServer[570385771]
+      Server (Beep.SimpleDraw.Mcp 1.0.0.0), Client (SimpleDraw protocol acceptance 1.0) method 'tools/call' request handler called.
+info: ModelContextProtocol.Server.McpServer[2065726448]
+      "add_sketch" completed. IsError = False.
+info: ModelContextProtocol.Server.McpServer[1867955179]
+      Server (Beep.SimpleDraw.Mcp 1.0.0.0), Client (SimpleDraw protocol acceptance 1.0) method 'tools/call' request handler completed in 16.9889ms.
+info: ModelContextProtocol.Server.McpServer[570385771]
+      Server (Beep.SimpleDraw.Mcp 1.0.0.0), Client (SimpleDraw protocol acceptance 1.0) method 'tools/call' request handler called.
+info: ModelContextProtocol.Server.McpServer[2065726448]
+      "set_path" completed. IsError = False.
+info: ModelContextProtocol.Server.McpServer[1867955179]
+      Server (Beep.SimpleDraw.Mcp 1.0.0.0), Client (SimpleDraw protocol acceptance 1.0) method 'tools/call' request handler completed in 6.7747ms.
+info: ModelContextProtocol.Server.McpServer[570385771]
+      Server (Beep.SimpleDraw.Mcp 1.0.0.0), Client (SimpleDraw protocol acceptance 1.0) method 'tools/call' request handler called.
+info: ModelContextProtocol.Server.McpServer[2065726448]
+      "set_style" completed. IsError = False.
+info: ModelContextProtocol.Server.McpServer[1867955179]
+      Server (Beep.SimpleDraw.Mcp 1.0.0.0), Client (SimpleDraw protocol acceptance 1.0) method 'tools/call' request handler completed in 9.9295ms.
+info: ModelContextProtocol.Server.McpServer[570385771]
+      Server (Beep.SimpleDraw.Mcp 1.0.0.0), Client (SimpleDraw protocol acceptance 1.0) method 'tools/call' request handler called.
+info: ModelContextProtocol.Server.McpServer[2065726448]
+      "move_elements" completed. IsError = False.
+info: ModelContextProtocol.Server.McpServer[1867955179]
+      Server (Beep.SimpleDraw.Mcp 1.0.0.0), Client (SimpleDraw protocol acceptance 1.0) method 'tools/call' request handler completed in 8.0247ms.
+info: ModelContextProtocol.Server.McpServer[570385771]
+      Server (Beep.SimpleDraw.Mcp 1.0.0.0), Client (SimpleDraw protocol acceptance 1.0) method 'tools/call' request handler called.
+info: ModelContextProtocol.Server.McpServer[2065726448]
+      "resize_elements" completed. IsError = False.
+info: ModelContextProtocol.Server.McpServer[1867955179]
+      Server (Beep.SimpleDraw.Mcp 1.0.0.0), Client (SimpleDraw protocol acceptance 1.0) method 'tools/call' request handler completed in 11.8552ms.
+info: ModelContextProtocol.Server.McpServer[570385771]
+      Server (Beep.SimpleDraw.Mcp 1.0.0.0), Client (SimpleDraw protocol acceptance 1.0) method 'tools/call' request handler called.
+info: ModelContextProtocol.Server.McpServer[2065726448]
+      "group_elements" completed. IsError = False.
+info: ModelContextProtocol.Server.McpServer[1867955179]
+      Server (Beep.SimpleDraw.Mcp 1.0.0.0), Client (SimpleDraw protocol acceptance 1.0) method 'tools/call' request handler completed in 7.5219ms.
+info: ModelContextProtocol.Server.McpServer[570385771]
+      Server (Beep.SimpleDraw.Mcp 1.0.0.0), Client (SimpleDraw protocol acceptance 1.0) method 'tools/call' request handler called.
+info: ModelContextProtocol.Server.McpServer[2065726448]
+      "reorder_elements" completed. IsError = False.
+info: ModelContextProtocol.Server.McpServer[1867955179]
+      Server (Beep.SimpleDraw.Mcp 1.0.0.0), Client (SimpleDraw protocol acceptance 1.0) method 'tools/call' request handler completed in 7.5488ms.
+info: ModelContextProtocol.Server.McpServer[570385771]
+      Server (Beep.SimpleDraw.Mcp 1.0.0.0), Client (SimpleDraw protocol acceptance 1.0) method 'tools/call' request handler called.
+info: ModelContextProtocol.Server.McpServer[2065726448]
+      "save_library_selection" completed. IsError = False.
+info: ModelContextProtocol.Server.McpServer[1867955179]
+      Server (Beep.SimpleDraw.Mcp 1.0.0.0), Client (SimpleDraw protocol acceptance 1.0) method 'tools/call' request handler completed in 12.1053ms.
+info: ModelContextProtocol.Server.McpServer[570385771]
+      Server (Beep.SimpleDraw.Mcp 1.0.0.0), Client (SimpleDraw protocol acceptance 1.0) method 'tools/call' request handler called.
+info: ModelContextProtocol.Server.McpServer[2065726448]
+      "insert_library_entry" completed. IsError = False.
+info: ModelContextProtocol.Server.McpServer[1867955179]
+      Server (Beep.SimpleDraw.Mcp 1.0.0.0), Client (SimpleDraw protocol acceptance 1.0) method 'tools/call' request handler completed in 9.9816ms.
+info: ModelContextProtocol.Server.McpServer[570385771]
+      Server (Beep.SimpleDraw.Mcp 1.0.0.0), Client (SimpleDraw protocol acceptance 1.0) method 'tools/call' request handler called.
+info: ModelContextProtocol.Server.McpServer[2065726448]
+      "undo" completed. IsError = False.
+info: ModelContextProtocol.Server.McpServer[1867955179]
+      Server (Beep.SimpleDraw.Mcp 1.0.0.0), Client (SimpleDraw protocol acceptance 1.0) method 'tools/call' request handler completed in 9.2607ms.
+info: ModelContextProtocol.Server.McpServer[570385771]
+      Server (Beep.SimpleDraw.Mcp 1.0.0.0), Client (SimpleDraw protocol acceptance 1.0) method 'tools/call' request handler called.
+info: ModelContextProtocol.Server.McpServer[2065726448]
+      "redo" completed. IsError = False.
+info: ModelContextProtocol.Server.McpServer[1867955179]
+      Server (Beep.SimpleDraw.Mcp 1.0.0.0), Client (SimpleDraw protocol acceptance 1.0) method 'tools/call' request handler completed in 8.2417ms.
+info: ModelContextProtocol.Server.McpServer[570385771]
+      Server (Beep.SimpleDraw.Mcp 1.0.0.0), Client (SimpleDraw protocol acceptance 1.0) method 'tools/call' request handler called.
+info: ModelContextProtocol.Server.McpServer[2065726448]
+      "select_elements" completed. IsError = False.
+info: ModelContextProtocol.Server.McpServer[1867955179]
+      Server (Beep.SimpleDraw.Mcp 1.0.0.0), Client (SimpleDraw protocol acceptance 1.0) method 'tools/call' request handler completed in 6.9768ms.
+info: ModelContextProtocol.Server.McpServer[570385771]
+      Server (Beep.SimpleDraw.Mcp 1.0.0.0), Client (SimpleDraw protocol acceptance 1.0) method 'tools/call' request handler called.
+info: ModelContextProtocol.Server.McpServer[2065726448]
+      "remove_connection" completed. IsError = False.
+info: ModelContextProtocol.Server.McpServer[1867955179]
+      Server (Beep.SimpleDraw.Mcp 1.0.0.0), Client (SimpleDraw protocol acceptance 1.0) method 'tools/call' request handler completed in 6.8474ms.
+info: ModelContextProtocol.Server.McpServer[570385771]
+      Server (Beep.SimpleDraw.Mcp 1.0.0.0), Client (SimpleDraw protocol acceptance 1.0) method 'tools/call' request handler called.
+info: ModelContextProtocol.Server.McpServer[2065726448]
+      "undo" completed. IsError = False.
+info: ModelContextProtocol.Server.McpServer[1867955179]
+      Server (Beep.SimpleDraw.Mcp 1.0.0.0), Client (SimpleDraw protocol acceptance 1.0) method 'tools/call' request handler completed in 7.8788ms.
+info: ModelContextProtocol.Server.McpServer[570385771]
+      Server (Beep.SimpleDraw.Mcp 1.0.0.0), Client (SimpleDraw protocol acceptance 1.0) method 'tools/call' request handler called.
+info: ModelContextProtocol.Server.McpServer[2065726448]
+      "duplicate_elements" completed. IsError = False.
+info: ModelContextProtocol.Server.McpServer[1867955179]
+      Server (Beep.SimpleDraw.Mcp 1.0.0.0), Client (SimpleDraw protocol acceptance 1.0) method 'tools/call' request handler completed in 9.5859ms.
+info: ModelContextProtocol.Server.McpServer[570385771]
+      Server (Beep.SimpleDraw.Mcp 1.0.0.0), Client (SimpleDraw protocol acceptance 1.0) method 'tools/call' request handler called.
+info: ModelContextProtocol.Server.McpServer[2065726448]
+      "delete_elements" completed. IsError = False.
+info: ModelContextProtocol.Server.McpServer[1867955179]
+      Server (Beep.SimpleDraw.Mcp 1.0.0.0), Client (SimpleDraw protocol acceptance 1.0) method 'tools/call' request handler completed in 7.582ms.
+info: ModelContextProtocol.Server.McpServer[570385771]
+      Server (Beep.SimpleDraw.Mcp 1.0.0.0), Client (SimpleDraw protocol acceptance 1.0) method 'tools/call' request handler called.
+info: ModelContextProtocol.Server.McpServer[2065726448]
+      "export_drawing" completed. IsError = False.
+info: ModelContextProtocol.Server.McpServer[1867955179]
+      Server (Beep.SimpleDraw.Mcp 1.0.0.0), Client (SimpleDraw protocol acceptance 1.0) method 'tools/call' request handler completed in 9.1479ms.
+info: ModelContextProtocol.Server.McpServer[570385771]
+      Server (Beep.SimpleDraw.Mcp 1.0.0.0), Client (SimpleDraw protocol acceptance 1.0) method 'tools/call' request handler called.
+info: ModelContextProtocol.Server.McpServer[2065726448]
+      "import_library" completed. IsError = False.
+info: ModelContextProtocol.Server.McpServer[1867955179]
+      Server (Beep.SimpleDraw.Mcp 1.0.0.0), Client (SimpleDraw protocol acceptance 1.0) method 'tools/call' request handler completed in 13.0621ms.
+info: ModelContextProtocol.Server.McpServer[570385771]
+      Server (Beep.SimpleDraw.Mcp 1.0.0.0), Client (SimpleDraw protocol acceptance 1.0) method 'tools/call' request handler called.
+info: ModelContextProtocol.Server.McpServer[2065726448]
+      "remove_library_entry" completed. IsError = False.
+info: ModelContextProtocol.Server.McpServer[1867955179]
+      Server (Beep.SimpleDraw.Mcp 1.0.0.0), Client (SimpleDraw protocol acceptance 1.0) method 'tools/call' request handler completed in 8.1313ms.
+info: ModelContextProtocol.Server.McpServer[570385771]
+      Server (Beep.SimpleDraw.Mcp 1.0.0.0), Client (SimpleDraw protocol acceptance 1.0) method 'tools/call' request handler called.
+info: ModelContextProtocol.Server.McpServer[2065726448]
+      "list_drawings" completed. IsError = False.
+info: ModelContextProtocol.Server.McpServer[1867955179]
+      Server (Beep.SimpleDraw.Mcp 1.0.0.0), Client (SimpleDraw protocol acceptance 1.0) method 'tools/call' request handler completed in 5.0933ms.
+info: ModelContextProtocol.Server.McpServer[570385771]
+      Server (Beep.SimpleDraw.Mcp 1.0.0.0), Client (SimpleDraw protocol acceptance 1.0) method 'tools/call' request handler called.
+info: ModelContextProtocol.Server.McpServer[2065726448]
+      "export_drawing" completed. IsError = False.
+info: ModelContextProtocol.Server.McpServer[1867955179]
+      Server (Beep.SimpleDraw.Mcp 1.0.0.0), Client (SimpleDraw protocol acceptance 1.0) method 'tools/call' request handler completed in 4.506ms.
+info: ModelContextProtocol.Server.McpServer[570385771]
+      Server (Beep.SimpleDraw.Mcp 1.0.0.0), Client (SimpleDraw protocol acceptance 1.0) method 'tools/call' request handler called.
+info: ModelContextProtocol.Server.McpServer[2065726448]
+      "set_viewport" completed. IsError = False.
+info: ModelContextProtocol.Server.McpServer[1867955179]
+      Server (Beep.SimpleDraw.Mcp 1.0.0.0), Client (SimpleDraw protocol acceptance 1.0) method 'tools/call' request handler completed in 7.7039ms.
+info: ModelContextProtocol.Server.McpServer[570385771]
+      Server (Beep.SimpleDraw.Mcp 1.0.0.0), Client (SimpleDraw protocol acceptance 1.0) method 'tools/call' request handler called.
+info: ModelContextProtocol.Server.McpServer[2065726448]
+      "export_drawing" completed. IsError = False.
+info: ModelContextProtocol.Server.McpServer[1867955179]
+      Server (Beep.SimpleDraw.Mcp 1.0.0.0), Client (SimpleDraw protocol acceptance 1.0) method 'tools/call' request handler completed in 4.7663ms.
+info: ModelContextProtocol.Server.McpServer[570385771]
+      Server (Beep.SimpleDraw.Mcp 1.0.0.0), Client (SimpleDraw protocol acceptance 1.0) method 'tools/call' request handler called.
+fail: ModelContextProtocol.Server.McpServer[1433779783]
+      "add_sketch" threw an unhandled exception.
+      ModelContextProtocol.McpException: Revision conflict: expected 1, current 27. Read the drawing and retry.
+         at Beep.SimpleDraw.Mcp.SimpleDrawTools.Result(Func`1 action) in C:\Users\f_ald\source\repos\The-Tech-Idea\Beep.SimpleDraw\src\Beep.SimpleDraw.Mcp\SimpleDrawTools.cs:line 25
+         at Beep.SimpleDraw.Mcp.SimpleDrawTools.Change(Guid drawingId, Int64 expectedRevision, Action`1 action) in C:\Users\f_ald\source\repos\The-Tech-Idea\Beep.SimpleDraw\src\Beep.SimpleDraw.Mcp\SimpleDrawTools.cs:line 27
+         at Beep.SimpleDraw.Mcp.SimpleDrawTools.AddSketch(Guid drawingId, Int64 expectedRevision, String kind, Single x, Single y, Single width, Single height, String text, String stroke, String fill, Single strokeWidth, Single fontSize, Single roughness, DrawingPoint[] points) in C:\Users\f_ald\source\repos\The-Tech-Idea\Beep.SimpleDraw\src\Beep.SimpleDraw.Mcp\SimpleDrawTools.cs:line 56
+         at InvokeStub_SimpleDrawTools.AddSketch(Object, Span`1)
+         at System.Reflection.MethodBaseInvoker.InvokeWithManyArgs(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+         at System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+         at Microsoft.Extensions.AI.AIFunctionFactory.ReflectionInvoke(MethodInfo method, Object target, Object[] arguments)
+         at Microsoft.Extensions.AI.AIFunctionFactory.ReflectionAIFunction.InvokeCoreAsync(AIFunctionArguments arguments, CancellationToken cancellationToken)
+         at Microsoft.Extensions.AI.AIFunctionFactory.ReflectionAIFunction.InvokeCoreAsync(AIFunctionArguments arguments, CancellationToken cancellationToken)
+         at ModelContextProtocol.Server.AIFunctionMcpServerTool.InvokeAsync(RequestContext`1 request, CancellationToken cancellationToken)
+         at ModelContextProtocol.Server.McpServerImpl.<>c__DisplayClass51_1.<<ConfigureTools>b__4>d.MoveNext()
+      --- End of stack trace from previous location ---
+         at ModelContextProtocol.Server.McpServerImpl.<>c__DisplayClass51_2.<<ConfigureTools>b__5>d.MoveNext()
+info: ModelContextProtocol.Server.McpServer[1867955179]
+      Server (Beep.SimpleDraw.Mcp 1.0.0.0), Client (SimpleDraw protocol acceptance 1.0) method 'tools/call' request handler completed in 17.5957ms.
+info: ModelContextProtocol.Server.McpServer[570385771]
+      Server (Beep.SimpleDraw.Mcp 1.0.0.0), Client (SimpleDraw protocol acceptance 1.0) method 'tools/call' request handler called.
+fail: ModelContextProtocol.Server.McpServer[1433779783]
+      "set_component_property" threw an unhandled exception.
+      ModelContextProtocol.McpException: Unsupported workflow property.
+         at Beep.SimpleDraw.Mcp.SimpleDrawTools.Result(Func`1 action) in C:\Users\f_ald\source\repos\The-Tech-Idea\Beep.SimpleDraw\src\Beep.SimpleDraw.Mcp\SimpleDrawTools.cs:line 25
+         at Beep.SimpleDraw.Mcp.SimpleDrawTools.Change(Guid drawingId, Int64 expectedRevision, Action`1 action) in C:\Users\f_ald\source\repos\The-Tech-Idea\Beep.SimpleDraw\src\Beep.SimpleDraw.Mcp\SimpleDrawTools.cs:line 27
+         at Beep.SimpleDraw.Mcp.SimpleDrawTools.SetComponentProperty(Guid drawingId, Int64 expectedRevision, Guid elementId, String property, String value) in C:\Users\f_ald\source\repos\The-Tech-Idea\Beep.SimpleDraw\src\Beep.SimpleDraw.Mcp\SimpleDrawTools.cs:line 66
+         at InvokeStub_SimpleDrawTools.SetComponentProperty(Object, Span`1)
+         at System.Reflection.MethodBaseInvoker.InvokeWithManyArgs(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+         at System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+         at Microsoft.Extensions.AI.AIFunctionFactory.ReflectionInvoke(MethodInfo method, Object target, Object[] arguments)
+         at Microsoft.Extensions.AI.AIFunctionFactory.ReflectionAIFunction.InvokeCoreAsync(AIFunctionArguments arguments, CancellationToken cancellationToken)
+         at Microsoft.Extensions.AI.AIFunctionFactory.ReflectionAIFunction.InvokeCoreAsync(AIFunctionArguments arguments, CancellationToken cancellationToken)
+         at ModelContextProtocol.Server.AIFunctionMcpServerTool.InvokeAsync(RequestContext`1 request, CancellationToken cancellationToken)
+         at ModelContextProtocol.Server.McpServerImpl.<>c__DisplayClass51_1.<<ConfigureTools>b__4>d.MoveNext()
+      --- End of stack trace from previous location ---
+         at ModelContextProtocol.Server.McpServerImpl.<>c__DisplayClass51_2.<<ConfigureTools>b__5>d.MoveNext()
+info: ModelContextProtocol.Server.McpServer[1867955179]
+      Server (Beep.SimpleDraw.Mcp 1.0.0.0), Client (SimpleDraw protocol acceptance 1.0) method 'tools/call' request handler completed in 3.2712ms.
+info: ModelContextProtocol.Server.McpServer[570385771]
+      Server (Beep.SimpleDraw.Mcp 1.0.0.0), Client (SimpleDraw protocol acceptance 1.0) method 'tools/call' request handler called.
+info: ModelContextProtocol.Server.McpServer[2065726448]
+      "export_drawing" completed. IsError = False.
+info: ModelContextProtocol.Server.McpServer[1867955179]
+      Server (Beep.SimpleDraw.Mcp 1.0.0.0), Client (SimpleDraw protocol acceptance 1.0) method 'tools/call' request handler completed in 4.6596ms.
+info: ModelContextProtocol.Server.McpServer[570385771]
+      Server (Beep.SimpleDraw.Mcp 1.0.0.0), Client (SimpleDraw protocol acceptance 1.0) method 'tools/call' request handler called.
+info: ModelContextProtocol.Server.McpServer[2065726448]
+      "import_drawing" completed. IsError = False.
+info: ModelContextProtocol.Server.McpServer[1867955179]
+      Server (Beep.SimpleDraw.Mcp 1.0.0.0), Client (SimpleDraw protocol acceptance 1.0) method 'tools/call' request handler completed in 5.0086ms.
+info: ModelContextProtocol.Server.McpServer[570385771]
+      Server (Beep.SimpleDraw.Mcp 1.0.0.0), Client (SimpleDraw protocol acceptance 1.0) method 'tools/call' request handler called.
+info: ModelContextProtocol.Server.McpServer[2065726448]
+      "export_drawing" completed. IsError = False.
+info: ModelContextProtocol.Server.McpServer[1867955179]
+      Server (Beep.SimpleDraw.Mcp 1.0.0.0), Client (SimpleDraw protocol acceptance 1.0) method 'tools/call' request handler completed in 4.7822ms.
+info: ModelContextProtocol.Server.McpServer[570385771]
+      Server (Beep.SimpleDraw.Mcp 1.0.0.0), Client (SimpleDraw protocol acceptance 1.0) method 'tools/call' request handler called.
+info: ModelContextProtocol.Server.McpServer[2065726448]
+      "get_drawing" completed. IsError = False.
+info: ModelContextProtocol.Server.McpServer[1867955179]
+      Server (Beep.SimpleDraw.Mcp 1.0.0.0), Client (SimpleDraw protocol acceptance 1.0) method 'tools/call' request handler completed in 2.9838ms.
+info: ModelContextProtocol.Server.McpServer[570385771]
+      Server (Beep.SimpleDraw.Mcp 1.0.0.0), Client (SimpleDraw protocol acceptance 1.0) method 'tools/call' request handler called.
+info: ModelContextProtocol.Server.McpServer[2065726448]
+      "export_drawing" completed. IsError = False.
+info: ModelContextProtocol.Server.McpServer[1867955179]
+      Server (Beep.SimpleDraw.Mcp 1.0.0.0), Client (SimpleDraw protocol acceptance 1.0) method 'tools/call' request handler completed in 55.4649ms.
+info: ModelContextProtocol.Server.McpServer[570385771]
+      Server (Beep.SimpleDraw.Mcp 1.0.0.0), Client (SimpleDraw protocol acceptance 1.0) method 'tools/call' request handler called.
+info: ModelContextProtocol.Server.McpServer[2065726448]
+      "export_drawing" completed. IsError = False.
+info: ModelContextProtocol.Server.McpServer[1867955179]
+      Server (Beep.SimpleDraw.Mcp 1.0.0.0), Client (SimpleDraw protocol acceptance 1.0) method 'tools/call' request handler completed in 11.0041ms.
+info: ModelContextProtocol.Server.McpServer[570385771]
+      Server (Beep.SimpleDraw.Mcp 1.0.0.0), Client (SimpleDraw protocol acceptance 1.0) method 'tools/call' request handler called.
+info: ModelContextProtocol.Server.McpServer[2065726448]
+      "render_drawing" completed. IsError = False.
+info: ModelContextProtocol.Server.McpServer[1867955179]
+      Server (Beep.SimpleDraw.Mcp 1.0.0.0), Client (SimpleDraw protocol acceptance 1.0) method 'tools/call' request handler completed in 24.7977ms.
+info: ModelContextProtocol.Server.McpServer[570385771]
+      Server (Beep.SimpleDraw.Mcp 1.0.0.0), Client (SimpleDraw protocol acceptance 1.0) method 'resources/list' request handler called.
+info: ModelContextProtocol.Server.McpServer[1867955179]
+      Server (Beep.SimpleDraw.Mcp 1.0.0.0), Client (SimpleDraw protocol acceptance 1.0) method 'resources/list' request handler completed in 2.8505ms.
+info: ModelContextProtocol.Server.McpServer[570385771]
+      Server (Beep.SimpleDraw.Mcp 1.0.0.0), Client (SimpleDraw protocol acceptance 1.0) method 'resources/read' request handler called.
+info: ModelContextProtocol.Server.McpServer[2070680514]
+      ReadResource "simpledraw://drawings/48f5302a-8556-4c35-82c6-85da4a566390" completed.
+info: ModelContextProtocol.Server.McpServer[1867955179]
+      Server (Beep.SimpleDraw.Mcp 1.0.0.0), Client (SimpleDraw protocol acceptance 1.0) method 'resources/read' request handler completed in 32.944ms.
+info: ModelContextProtocol.Server.StdioServerTransport[1221292038]
+      Server (stream) (Beep.SimpleDraw.Mcp) transport completed reading messages.
+info: Microsoft.Hosting.Lifetime[0]
+      Application is shutting down...
+info: ModelContextProtocol.Server.StdioServerTransport[1375634372]
+      Server (stream) (Beep.SimpleDraw.Mcp) shutting down.
+info: ModelContextProtocol.Server.StdioServerTransport[1256455528]
+      Server (stream) (Beep.SimpleDraw.Mcp) shut down.

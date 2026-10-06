@@ -1,0 +1,92 @@
+Browser tab: 62, Title: "SimpleDraw — a little room for big ideas", URL: "http://127.0.0.1:5233/draw/".
+0 AXWebArea SimpleDraw — a little room for big ideas, URL: 127.0.0.1:5233/draw/
+	1 container app
+		2 link Description: Skip to drawing, Value: 127.0.0.1:5233/draw/#drawing-workspace
+		3 container
+			4 link Description: SimpleDraw home, Value: 127.0.0.1:5233/draw/
+			133 text On your device
+			6 button New, Help: New drawing
+			7 text Open
+			8 button Description: Open a SimpleDraw file, ID: open-file
+			9 button Save drawing, Help: Save editable file (Ctrl+S)
+			10 button Change interface language
+		11 container Description: Drawing workspace, ID: drawing-workspace
+			12 heading Drawing workspace, Value: 1
+				13 text Drawing workspace
+			14 text Choose a tool shortcut to focus the canvas. Enter starts a shape, arrows move its cursor, Enter finishes it. Shift increases the step. T then Enter opens text editing. Select objects in the Objects list, then V and arrows to move, or Delete to remove them. The Style panel also offers numeric resizing.
+			15 container Drawing canvas
+			16 container Drawing tools
+				17 checkbox Description: Select, Help: Select (V), Value: 1
+					18 text V
+				19 checkbox Description: Hand, Help: Hand (H), Value: 0
+					20 text H
+				21 checkbox Description: Rectangle, Help: Rectangle (R), Value: 0
+					22 text R
+				23 checkbox Description: Ellipse, Help: Ellipse (O), Value: 0
+					24 text O
+				25 checkbox Description: Diamond, Help: Diamond (D), Value: 0
+					26 text D
+				27 checkbox Description: Line, Help: Line (L), Value: 0
+					28 text L
+				29 checkbox Description: Arrow, Help: Arrow (A), Value: 0
+					30 text A
+				31 checkbox Description: Pen, Help: Pen (P), Value: 0
+					32 text P
+				33 checkbox Description: Text, Help: Text (T), Value: 0
+					34 text T
+				35 checkbox Description: Eraser, Help: Eraser (E), Value: 0
+					36 text E
+				37 button (disabled) Description: Delete selected, Help: Delete selected (Delete)
+			91 container Description: Shape style, ID: shape-style
+				93 text Make it yours Next shape
+				94 container Stroke
+					95 text Stroke
+					96 checkbox Description: Stroke Slate, Value: 1
+					97 checkbox Description: Stroke Violet, Value: 0
+					98 checkbox Description: Stroke Coral, Value: 0
+					99 checkbox Description: Stroke Green, Value: 0
+					100 checkbox Description: Stroke Blue, Value: 0
+				101 container Fill
+					102 text Fill
+					103 checkbox Description: Fill None, Value: 1
+					104 checkbox Description: Fill Lavender, Value: 0
+					105 checkbox Description: Fill Peach, Value: 0
+					106 checkbox Description: Fill Mint, Value: 0
+					107 checkbox Description: Fill Sky, Value: 0
+				108 container Stroke width
+					109 text Stroke width
+					110 checkbox Description: Stroke width 1, Value: 0
+					111 checkbox Description: Stroke width 2, Value: 0
+					112 checkbox Description: Stroke width 4, Value: 1
+				113 container Appearance
+					114 text Appearance
+					115 checkbox Smooth, Value: 1
+					116 checkbox Sketch, Value: 0
+				134 text Pick a tool, then drag on the canvas.
+			64 container
+				65 button (collapsed) Objects 7, Secondary Actions: Expand
+					66 text Objects
+					67 text 7
+				68 button (collapsed) Workflow templates, Secondary Actions: Expand
+					69 text Workflow templates
+				70 button (collapsed) Connectors 0, Secondary Actions: Expand
+					71 text Connectors
+					72 text 0
+				73 button (collapsed) Description: Library, Secondary Actions: Expand
+					74 text Library
+			75 container
+				76 container History
+					77 button (disabled) Description: Undo, Help: Undo (Ctrl+Z)
+					78 button (disabled) Description: Redo, Help: Redo (Ctrl+Shift+Z)
+				79 container Viewport
+					80 button Zoom out
+					81 button Reset viewport
+					82 button Zoom in
+					83 button Fit drawing
+			84 button Keyboard shortcuts
+			85 button (collapsed) Export image, Secondary Actions: Expand
+				86 text Export image
+			87 text Saved on this device · download a file for a portable copy
+			89 text 7 objects; 0 selected.
+
+The focused UI element is 83 button Fit drawing

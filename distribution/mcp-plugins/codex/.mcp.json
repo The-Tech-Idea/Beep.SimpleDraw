@@ -1,0 +1,9 @@
+{
+  "mcpServers": {
+    "simpledraw": {
+      "command": "dotnet",
+      "args": ["server/Beep.SimpleDraw.Mcp.dll"],
+      "cwd": "."
+    }
+  }
+}

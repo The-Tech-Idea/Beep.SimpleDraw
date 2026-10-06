@@ -1,0 +1,19 @@
+{
+  "recordedUtc": "2026-10-06T04:48:35.2400000Z",
+  "goalStatus": "active",
+  "resumedResourceAudit": 1,
+  "candidate": "artifacts/p6-offline-notices-release",
+  "preview": "http://127.0.0.1:5243/draw/",
+  "previewSession": 59448,
+  "appSourceFilesVerified": 65,
+  "changedAppSourceFiles": [],
+  "zipSha256": "ca509250d46aca58fb23e1a401508c4e2800b03c21801bc00a993aff5e45af10",
+  "siblingSourceSha256": "4f280f9375360e373833f1a97ccb98cf5159f484b767444dba20610c200d7993",
+  "siblingInputs": 210,
+  "restoredObjects": 7,
+  "browserWarningsErrors": [],
+  "axEvidence": "p6-resumed-preview.ax.txt",
+  "screenshot": "p6-resumed-preview.png",
+  "scope": "Preview process recovery and source/artifact integrity; no new build, test run, timing run, device certification or acceptance",
+  "externalResources": "Unchanged: embedded Chromium/app panel only; no supplied physical devices, screen readers, intended HTTPS host, hosted CI remote or independent reviewer results"
+}

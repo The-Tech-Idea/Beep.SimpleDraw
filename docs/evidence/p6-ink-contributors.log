@@ -1,0 +1,10 @@
+  Beep.Skia.Model -> C:\Users\f_ald\source\repos\The-Tech-Idea\Beep.Skia\Beep.Skia.Model\bin\Release\net10.0\Beep.Skia.Model.dll
+  Beep.Skia -> C:\Users\f_ald\source\repos\The-Tech-Idea\Beep.Skia\Beep.Skia\bin\Release\net10.0\Beep.Skia.dll
+  Beep.Skia.FlowChart -> C:\Users\f_ald\source\repos\The-Tech-Idea\Beep.Skia\Beep.Skia.FlowChart\bin\Release\net10.0\Beep.Skia.FlowChart.dll
+  Beep.SimpleDraw.Core -> C:\Users\f_ald\source\repos\The-Tech-Idea\Beep.SimpleDraw\src\Beep.SimpleDraw.Core\bin\Release\net10.0\Beep.SimpleDraw.Core.dll
+  Beep.SimpleDraw.Tests -> C:\Users\f_ald\source\repos\The-Tech-Idea\Beep.SimpleDraw\tests\Beep.SimpleDraw.Tests\bin\Release\net10.0\Beep.SimpleDraw.Tests.dll
+Test run for C:\Users\f_ald\source\repos\The-Tech-Idea\Beep.SimpleDraw\tests\Beep.SimpleDraw.Tests\bin\Release\net10.0\Beep.SimpleDraw.Tests.dll (.NETCoreApp,Version=v10.0)
+A total of 1 test files matched the specified pattern.
+Results File: C:\Users\f_ald\source\repos\The-Tech-Idea\Beep.SimpleDraw\artifacts\p6-full-canvas-contributors\tests\ink-contributors.trx
+
+Passed!  - Failed:     0, Passed:    12, Skipped:     0, Total:    12, Duration: 40 s - Beep.SimpleDraw.Tests.dll (net10.0)

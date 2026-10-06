@@ -1,0 +1,6 @@
+{
+  "baseline": "artifacts/p6-render-dispatch/publish/wwwroot",
+  "candidate": "artifacts/p6-network-profile/publish/wwwroot",
+  "files": 402,
+  "changed": []
+}

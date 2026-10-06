@@ -1,0 +1,50 @@
+@using Beep.Skia
+@using Beep.Skia.Components
+@using Beep.SimpleDraw.Core
+@using Beep.SimpleDraw.Web.Services
+<details class="objects-panel">
+    <summary>@L("Objects") <span>@_rows.Length</span></summary>
+    <div class="object-items" role="group" aria-label="@L("Drawing objects")">
+        @if (_rows.Length == 0) { <p>@L("Your shapes will appear here.")</p> }
+        @for (int i = 0; i < _rows.Length; i++)
+        {
+            var row = _rows[i];
+            var name = _nameCounts[row.Name] > 1 ? $"{row.Name} ({i + 1})" : row.Name;
+            <button @key="row.Item.Id" aria-pressed="@(row.Selected ? "true" : "false")" aria-label="@Label(row, name)"
+                @onclick="(MouseEventArgs e) => OnSelect.InvokeAsync(new Selection(row.Item, e.ShiftKey))">@name</button>
+        }
+    </div>
+</details>
+@code {
+    [Parameter, EditorRequired] public DrawingSession Session { get; set; } = null!;
+    [Parameter] public bool Rtl { get; set; }
+    [Parameter] public EventCallback<Selection> OnSelect { get; set; }
+    public readonly record struct Selection(SkiaComponent Component, bool Additive);
+    private readonly record struct Row(SkiaComponent Item, string Name, bool Selected, Guid Group, SketchShapeKind? Kind);
+    private Row[] _rows = [];
+    private Dictionary<string, int> _nameCounts = new(StringComparer.Ordinal);
+    private bool _changed, _renderedRtl;
+    protected override void OnParametersSet()
+    {
+        var objects = Session.Manager.GetComponents();
+        _changed = _rows.Length != objects.Count || _renderedRtl != Rtl;
+        // Compare only content displayed here. Position/style changes repaint the shared
+        // canvas and inspector, while these HTML buttons retain their current identity.
+        for (int i = 0; !_changed && i < objects.Count; i++)
+        {
+            var item = objects[i]; var row = _rows[i];
+            _changed = !ReferenceEquals(row.Item, item) || row.Name != (item.Name ?? "") || row.Selected != item.IsSelected
+                || row.Group != item.GroupId || row.Kind != (item is SketchShape shape ? shape.Kind : null);
+        }
+        if (!_changed) return;
+        _rows = objects.Select(item => new Row(item, item.Name ?? "", item.IsSelected, item.GroupId,
+            item is SketchShape shape ? shape.Kind : null)).ToArray();
+        _nameCounts = new(StringComparer.Ordinal);
+        foreach (var row in _rows) _nameCounts[row.Name] = _nameCounts.GetValueOrDefault(row.Name) + 1;
+    }
+    protected override bool ShouldRender() => _changed;
+    protected override void OnAfterRender(bool firstRender) { _renderedRtl = Rtl; _changed = false; }
+    private string L(string value) => Rtl ? UiText.Arabic(value) : UiText.English(value);
+    private string Label(Row row, string name) => name + (row.Kind is { } kind ? $", {L(kind.ToString())}" : "")
+        + (row.Group == Guid.Empty ? "" : $", {L("grouped")}");
+}

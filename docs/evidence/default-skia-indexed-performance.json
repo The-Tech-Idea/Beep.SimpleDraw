@@ -1,0 +1,980 @@
+{
+  "method": "normal Home editor / shared SKCanvasView; JS command start to second animation frame after its real paint callback",
+  "environment": {
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36",
+    "viewport": [
+      1280,
+      720
+    ],
+    "pixelRatio": 1,
+    "cores": 16,
+    "visibility": "visible"
+  },
+  "startup": {
+    "usableMs": 4157.399999976158,
+    "navigationType": "reload",
+    "serviceWorkerStartMs": 840.0999999046326,
+    "navigationTransferBytes": 0
+  },
+  "runs": [
+    {
+      "objects": 1000,
+      "warmup": 20,
+      "edit": "alternating ArrowRight/ArrowLeft through Home.Shortcut; one selected object",
+      "committedEdits": 140,
+      "initial": {
+        "objects": 1000,
+        "selected": 1,
+        "x": 30,
+        "y": 30,
+        "undoCount": 0,
+        "maxHistoryDepth": 100,
+        "revision": 147,
+        "invalidationDispatches": 4,
+        "paints": 4
+      },
+      "final": {
+        "objects": 1000,
+        "selected": 1,
+        "x": 30,
+        "y": 30,
+        "undoCount": 100,
+        "maxHistoryDepth": 100,
+        "revision": 287,
+        "invalidationDispatches": 144,
+        "paints": 144
+      },
+      "samples": 120,
+      "medianMs": 25.100000023841858,
+      "p95Ms": 41.299999952316284,
+      "maxMs": 58.09999990463257,
+      "rawMs": [
+        25.100000023841858,
+        24.899999976158142,
+        33.60000002384186,
+        25.199999928474426,
+        33.39999997615814,
+        25.200000047683716,
+        24.699999928474426,
+        27.899999976158142,
+        24.899999976158142,
+        25,
+        41.40000009536743,
+        25.100000023841858,
+        25,
+        25.199999928474426,
+        25,
+        25,
+        24.90000009536743,
+        25.40000009536743,
+        25.199999928474426,
+        25.100000023841858,
+        24.899999976158142,
+        24.899999976158142,
+        24.899999976158142,
+        24.899999976158142,
+        25.100000023841858,
+        25.199999928474426,
+        25.100000023841858,
+        25.199999928474426,
+        24.800000071525574,
+        25.100000023841858,
+        25.100000023841858,
+        25.199999928474426,
+        24.699999928474426,
+        25.200000047683716,
+        24.799999952316284,
+        25.100000023841858,
+        24.899999976158142,
+        25.100000023841858,
+        24.899999976158142,
+        24.90000009536743,
+        24.700000047683716,
+        25,
+        24.700000047683716,
+        25,
+        24.899999976158142,
+        25.100000023841858,
+        25,
+        25.200000047683716,
+        31.799999952316284,
+        24.90000009536743,
+        25,
+        25,
+        24.699999928474426,
+        24.799999952316284,
+        25.100000023841858,
+        25.199999928474426,
+        24.799999952316284,
+        25.299999952316284,
+        24.5,
+        25,
+        24.899999976158142,
+        24.90000009536743,
+        25.100000023841858,
+        25,
+        24.800000071525574,
+        25.100000023841858,
+        24.5,
+        33.200000047683716,
+        25,
+        25,
+        24.799999952316284,
+        24.90000009536743,
+        25.299999952316284,
+        25.100000023841858,
+        24.90000009536743,
+        24.899999976158142,
+        25.299999952316284,
+        25.100000023841858,
+        25.100000023841858,
+        30.799999952316284,
+        25.200000047683716,
+        30.899999976158142,
+        25.5,
+        24.899999976158142,
+        33.39999997615814,
+        25.100000023841858,
+        25.399999976158142,
+        24.90000009536743,
+        25.299999952316284,
+        24.800000071525574,
+        25.40000009536743,
+        26.300000071525574,
+        33,
+        38.39999997615814,
+        32.699999928474426,
+        35.40000009536743,
+        41.60000002384186,
+        33.39999997615814,
+        41.700000047683716,
+        34,
+        33,
+        31.899999976158142,
+        41.60000002384186,
+        32.90000009536743,
+        41.89999997615814,
+        32.299999952316284,
+        41.299999952316284,
+        58.09999990463257,
+        25.300000071525574,
+        25,
+        24,
+        32.200000047683716,
+        24.800000071525574,
+        25.699999928474426,
+        32.200000047683716,
+        25,
+        25.600000023841858,
+        25.09999990463257,
+        25.300000071525574,
+        33.60000002384186
+      ],
+      "budgetMs": 50,
+      "budgetPassed": true,
+      "profile": null
+    }
+  ],
+  "schedulingChecks": [],
+  "resources": [
+    {
+      "url": "http://127.0.0.1:5245/draw/_framework/dotnet.o0ft2jbxui.js",
+      "initiator": "link",
+      "transferBytes": 0,
+      "encodedBytes": 65664,
+      "durationMs": 8.100000023841858
+    },
+    {
+      "url": "http://127.0.0.1:5245/draw/css/app.css",
+      "initiator": "link",
+      "transferBytes": 0,
+      "encodedBytes": 19250,
+      "durationMs": 6.799999952316284
+    },
+    {
+      "url": "http://127.0.0.1:5245/draw/_framework/blazor.webassembly.w3qd1tpl0e.js",
+      "initiator": "script",
+      "transferBytes": 0,
+      "encodedBytes": 60682,
+      "durationMs": 12.5
+    },
+    {
+      "url": "http://127.0.0.1:5245/draw/_framework/dotnet.runtime.v06hirbjsv.js",
+      "initiator": "script",
+      "transferBytes": 0,
+      "encodedBytes": 198480,
+      "durationMs": 5.099999904632568
+    },
+    {
+      "url": "http://127.0.0.1:5245/draw/_framework/dotnet.native.g6316so0gk.js",
+      "initiator": "script",
+      "transferBytes": 0,
+      "encodedBytes": 365669,
+      "durationMs": 5.200000047683716
+    },
+    {
+      "url": "http://127.0.0.1:5245/draw/_framework/dotnet.native.wxt0mh8wgz.wasm",
+      "initiator": "fetch",
+      "transferBytes": 0,
+      "encodedBytes": 8968352,
+      "durationMs": 267.5
+    },
+    {
+      "url": "http://127.0.0.1:5245/draw/_framework/System.Runtime.InteropServices.JavaScript.jog1645w0h.wasm",
+      "initiator": "fetch",
+      "transferBytes": 0,
+      "encodedBytes": 48917,
+      "durationMs": 35.5
+    },
+    {
+      "url": "http://127.0.0.1:5245/draw/_framework/System.Private.CoreLib.tfsq74pyv0.wasm",
+      "initiator": "fetch",
+      "transferBytes": 0,
+      "encodedBytes": 2110745,
+      "durationMs": 104.80000007152557
+    },
+    {
+      "url": "http://127.0.0.1:5245/draw/_framework/Microsoft.AspNetCore.Components.3265jnxia3.wasm",
+      "initiator": "fetch",
+      "transferBytes": 0,
+      "encodedBytes": 279829,
+      "durationMs": 36
+    },
+    {
+      "url": "http://127.0.0.1:5245/draw/_framework/Microsoft.AspNetCore.Components.Web.09iz93sip9.wasm",
+      "initiator": "fetch",
+      "transferBytes": 0,
+      "encodedBytes": 67861,
+      "durationMs": 36.5
+    },
+    {
+      "url": "http://127.0.0.1:5245/draw/_framework/Microsoft.AspNetCore.Components.WebAssembly.ragegh0e9y.wasm",
+      "initiator": "fetch",
+      "transferBytes": 0,
+      "encodedBytes": 125205,
+      "durationMs": 37
+    },
+    {
+      "url": "http://127.0.0.1:5245/draw/_framework/Microsoft.Extensions.Configuration.47mkb8d5uo.wasm",
+      "initiator": "fetch",
+      "transferBytes": 0,
+      "encodedBytes": 8981,
+      "durationMs": 41.299999952316284
+    },
+    {
+      "url": "http://127.0.0.1:5245/draw/_framework/Microsoft.Extensions.Configuration.Abstractions.488ris6j7m.wasm",
+      "initiator": "fetch",
+      "transferBytes": 0,
+      "encodedBytes": 6933,
+      "durationMs": 38.299999952316284
+    },
+    {
+      "url": "http://127.0.0.1:5245/draw/_framework/Microsoft.Extensions.Configuration.Json.tsl8t8fg2u.wasm",
+      "initiator": "fetch",
+      "transferBytes": 0,
+      "encodedBytes": 10517,
+      "durationMs": 44.60000002384186
+    },
+    {
+      "url": "http://127.0.0.1:5245/draw/_framework/Microsoft.Extensions.DependencyInjection.cum1owb24o.wasm",
+      "initiator": "fetch",
+      "transferBytes": 0,
+      "encodedBytes": 46869,
+      "durationMs": 46.5
+    },
+    {
+      "url": "http://127.0.0.1:5245/draw/_framework/Microsoft.Extensions.DependencyInjection.Abstractions.pqrrmxycx0.wasm",
+      "initiator": "fetch",
+      "transferBytes": 0,
+      "encodedBytes": 26389,
+      "durationMs": 48.299999952316284
+    },
+    {
+      "url": "http://127.0.0.1:5245/draw/_framework/Microsoft.Extensions.Logging.3lly2ppfku.wasm",
+      "initiator": "fetch",
+      "transferBytes": 0,
+      "encodedBytes": 17685,
+      "durationMs": 48.699999928474426
+    },
+    {
+      "url": "http://127.0.0.1:5245/draw/_framework/Microsoft.Extensions.Logging.Abstractions.wus9o45czp.wasm",
+      "initiator": "fetch",
+      "transferBytes": 0,
+      "encodedBytes": 27413,
+      "durationMs": 48.800000071525574
+    },
+    {
+      "url": "http://127.0.0.1:5245/draw/_framework/Microsoft.Extensions.Options.1y8ng0246k.wasm",
+      "initiator": "fetch",
+      "transferBytes": 0,
+      "encodedBytes": 17173,
+      "durationMs": 48.800000071525574
+    },
+    {
+      "url": "http://127.0.0.1:5245/draw/_framework/Microsoft.Extensions.Primitives.53666huos5.wasm",
+      "initiator": "fetch",
+      "transferBytes": 0,
+      "encodedBytes": 12053,
+      "durationMs": 47
+    },
+    {
+      "url": "http://127.0.0.1:5245/draw/_framework/Microsoft.JSInterop.tvq5nb9bbt.wasm",
+      "initiator": "fetch",
+      "transferBytes": 0,
+      "encodedBytes": 47893,
+      "durationMs": 48.89999997615814
+    },
+    {
+      "url": "http://127.0.0.1:5245/draw/_framework/Microsoft.JSInterop.WebAssembly.vjcfjtelwd.wasm",
+      "initiator": "fetch",
+      "transferBytes": 0,
+      "encodedBytes": 12053,
+      "durationMs": 48.89999997615814
+    },
+    {
+      "url": "http://127.0.0.1:5245/draw/_framework/Microsoft.Win32.SystemEvents.73ucxjho04.wasm",
+      "initiator": "fetch",
+      "transferBytes": 0,
+      "encodedBytes": 6421,
+      "durationMs": 48.89999997615814
+    },
+    {
+      "url": "http://127.0.0.1:5245/draw/_framework/SkiaSharp.Extended.5g4mizj06x.wasm",
+      "initiator": "fetch",
+      "transferBytes": 0,
+      "encodedBytes": 26389,
+      "durationMs": 49.299999952316284
+    },
+    {
+      "url": "http://127.0.0.1:5245/draw/_framework/SkiaSharp.qm14rzoi8b.wasm",
+      "initiator": "fetch",
+      "transferBytes": 0,
+      "encodedBytes": 119573,
+      "durationMs": 59
+    },
+    {
+      "url": "http://127.0.0.1:5245/draw/_framework/SkiaSharp.Extended.Svg.4esbsglfjw.wasm",
+      "initiator": "fetch",
+      "transferBytes": 0,
+      "encodedBytes": 41237,
+      "durationMs": 58.299999952316284
+    },
+    {
+      "url": "http://127.0.0.1:5245/draw/_framework/SkiaSharp.Views.Blazor.4qtswq4wro.wasm",
+      "initiator": "fetch",
+      "transferBytes": 0,
+      "encodedBytes": 36629,
+      "durationMs": 58.5
+    },
+    {
+      "url": "http://127.0.0.1:5245/draw/_framework/System.Drawing.Common.cz7d9vsh8j.wasm",
+      "initiator": "fetch",
+      "transferBytes": 0,
+      "encodedBytes": 411925,
+      "durationMs": 58.200000047683716
+    },
+    {
+      "url": "http://127.0.0.1:5245/draw/_framework/System.Private.Windows.Core.w8l5xfaqg4.wasm",
+      "initiator": "fetch",
+      "transferBytes": 0,
+      "encodedBytes": 1215765,
+      "durationMs": 54.799999952316284
+    },
+    {
+      "url": "http://127.0.0.1:5245/draw/_framework/System.Private.Windows.GdiPlus.a0hk0q7ic1.wasm",
+      "initiator": "fetch",
+      "transferBytes": 0,
+      "encodedBytes": 158485,
+      "durationMs": 56.199999928474426
+    },
+    {
+      "url": "http://127.0.0.1:5245/draw/_framework/DataManagementModels.eljkerj9bp.wasm",
+      "initiator": "fetch",
+      "transferBytes": 0,
+      "encodedBytes": 1939221,
+      "durationMs": 58.200000047683716
+    },
+    {
+      "url": "http://127.0.0.1:5245/draw/_framework/TheTechIdea.Beep.Vis.Modules.1n1z6z3xp6.wasm",
+      "initiator": "fetch",
+      "transferBytes": 0,
+      "encodedBytes": 3216665,
+      "durationMs": 130.89999997615814
+    },
+    {
+      "url": "http://127.0.0.1:5245/draw/_framework/Microsoft.Win32.Primitives.wu91raepgm.wasm",
+      "initiator": "fetch",
+      "transferBytes": 0,
+      "encodedBytes": 4885,
+      "durationMs": 57.700000047683716
+    },
+    {
+      "url": "http://127.0.0.1:5245/draw/_framework/Microsoft.Win32.Registry.yk04srqtsy.wasm",
+      "initiator": "fetch",
+      "transferBytes": 0,
+      "encodedBytes": 9493,
+      "durationMs": 57.5
+    },
+    {
+      "url": "http://127.0.0.1:5245/draw/_framework/System.Collections.Concurrent.52sfzi86pv.wasm",
+      "initiator": "fetch",
+      "transferBytes": 0,
+      "encodedBytes": 24853,
+      "durationMs": 57.300000071525574
+    },
+    {
+      "url": "http://127.0.0.1:5245/draw/_framework/System.Collections.Immutable.bqcazazrt4.wasm",
+      "initiator": "fetch",
+      "transferBytes": 0,
+      "encodedBytes": 59157,
+      "durationMs": 57.39999997615814
+    },
+    {
+      "url": "http://127.0.0.1:5245/draw/_framework/System.Collections.NonGeneric.198axa57td.wasm",
+      "initiator": "fetch",
+      "transferBytes": 0,
+      "encodedBytes": 14613,
+      "durationMs": 58.5
+    },
+    {
+      "url": "http://127.0.0.1:5245/draw/_framework/System.Collections.Specialized.s2rlxujcgd.wasm",
+      "initiator": "fetch",
+      "transferBytes": 0,
+      "encodedBytes": 13077,
+      "durationMs": 58.5
+    },
+    {
+      "url": "http://127.0.0.1:5245/draw/_framework/System.Collections.fyowkcokli.wasm",
+      "initiator": "fetch",
+      "transferBytes": 0,
+      "encodedBytes": 47893,
+      "durationMs": 57.200000047683716
+    },
+    {
+      "url": "http://127.0.0.1:5245/draw/_framework/System.ComponentModel.Annotations.enoc94cj3z.wasm",
+      "initiator": "fetch",
+      "transferBytes": 0,
+      "encodedBytes": 16661,
+      "durationMs": 58.5
+    },
+    {
+      "url": "http://127.0.0.1:5245/draw/_framework/System.ComponentModel.TypeConverter.hxqv314vpz.wasm",
+      "initiator": "fetch",
+      "transferBytes": 0,
+      "encodedBytes": 137493,
+      "durationMs": 58.700000047683716
+    },
+    {
+      "url": "http://127.0.0.1:5245/draw/_framework/System.ComponentModel.Primitives.9200wwg3ux.wasm",
+      "initiator": "fetch",
+      "transferBytes": 0,
+      "encodedBytes": 17685,
+      "durationMs": 59.200000047683716
+    },
+    {
+      "url": "http://127.0.0.1:5245/draw/_framework/System.ComponentModel.45rmmzpa95.wasm",
+      "initiator": "fetch",
+      "transferBytes": 0,
+      "encodedBytes": 5397,
+      "durationMs": 59.09999990463257
+    },
+    {
+      "url": "http://127.0.0.1:5245/draw/_framework/System.Console.h2qrter277.wasm",
+      "initiator": "fetch",
+      "transferBytes": 0,
+      "encodedBytes": 15125,
+      "durationMs": 59.199999928474426
+    },
+    {
+      "url": "http://127.0.0.1:5245/draw/_framework/System.Data.Common.imo53o0pro.wasm",
+      "initiator": "fetch",
+      "transferBytes": 0,
+      "encodedBytes": 476949,
+      "durationMs": 75.30000007152557
+    },
+    {
+      "url": "http://127.0.0.1:5245/draw/_framework/System.Diagnostics.DiagnosticSource.aqcwe03tkn.wasm",
+      "initiator": "fetch",
+      "transferBytes": 0,
+      "encodedBytes": 40213,
+      "durationMs": 59.10000002384186
+    },
+    {
+      "url": "http://127.0.0.1:5245/draw/_framework/System.Diagnostics.TraceSource.ppkrvxt9ym.wasm",
+      "initiator": "fetch",
+      "transferBytes": 0,
+      "encodedBytes": 10005,
+      "durationMs": 64.5
+    },
+    {
+      "url": "http://127.0.0.1:5245/draw/_framework/System.Drawing.Primitives.oanepbogra.wasm",
+      "initiator": "fetch",
+      "transferBytes": 0,
+      "encodedBytes": 42773,
+      "durationMs": 60.39999997615814
+    },
+    {
+      "url": "http://127.0.0.1:5245/draw/_framework/System.Drawing.c6tmp1gjc8.wasm",
+      "initiator": "fetch",
+      "transferBytes": 0,
+      "encodedBytes": 4885,
+      "durationMs": 64.60000002384186
+    },
+    {
+      "url": "http://127.0.0.1:5245/draw/_framework/System.IO.Compression.ZipFile.prfjhz34rm.wasm",
+      "initiator": "fetch",
+      "transferBytes": 0,
+      "encodedBytes": 15637,
+      "durationMs": 74.39999997615814
+    },
+    {
+      "url": "http://127.0.0.1:5245/draw/_framework/System.IO.Compression.s2z2b5mwd2.wasm",
+      "initiator": "fetch",
+      "transferBytes": 0,
+      "encodedBytes": 112917,
+      "durationMs": 74.10000002384186
+    },
+    {
+      "url": "http://127.0.0.1:5245/draw/_framework/System.IO.FileSystem.Watcher.fs4ilpn4iv.wasm",
+      "initiator": "fetch",
+      "transferBytes": 0,
+      "encodedBytes": 7445,
+      "durationMs": 66.60000002384186
+    },
+    {
+      "url": "http://127.0.0.1:5245/draw/_framework/System.IO.MemoryMappedFiles.0net1hglt5.wasm",
+      "initiator": "fetch",
+      "transferBytes": 0,
+      "encodedBytes": 25877,
+      "durationMs": 67.70000004768372
+    },
+    {
+      "url": "http://127.0.0.1:5245/draw/_framework/System.IO.Pipelines.px0vglstfo.wasm",
+      "initiator": "fetch",
+      "transferBytes": 0,
+      "encodedBytes": 5909,
+      "durationMs": 73.79999995231628
+    },
+    {
+      "url": "http://127.0.0.1:5245/draw/_framework/System.Linq.Expressions.ea6p24xns2.wasm",
+      "initiator": "fetch",
+      "transferBytes": 0,
+      "encodedBytes": 362773,
+      "durationMs": 74.39999997615814
+    },
+    {
+      "url": "http://127.0.0.1:5245/draw/_framework/System.Linq.Queryable.jiu5ydl2zr.wasm",
+      "initiator": "fetch",
+      "transferBytes": 0,
+      "encodedBytes": 55061,
+      "durationMs": 73.70000004768372
+    },
+    {
+      "url": "http://127.0.0.1:5245/draw/_framework/System.Linq.ffq6qfgsx8.wasm",
+      "initiator": "fetch",
+      "transferBytes": 0,
+      "encodedBytes": 148245,
+      "durationMs": 73.60000002384186
+    },
+    {
+      "url": "http://127.0.0.1:5245/draw/_framework/System.Memory.wl8e8lzi6i.wasm",
+      "initiator": "fetch",
+      "transferBytes": 0,
+      "encodedBytes": 14613,
+      "durationMs": 73.60000002384186
+    },
+    {
+      "url": "http://127.0.0.1:5245/draw/_framework/System.Net.Http.1lx9m2o89s.wasm",
+      "initiator": "fetch",
+      "transferBytes": 0,
+      "encodedBytes": 143637,
+      "durationMs": 73.5
+    },
+    {
+      "url": "http://127.0.0.1:5245/draw/_framework/System.Net.Primitives.llz1zzlk2t.wasm",
+      "initiator": "fetch",
+      "transferBytes": 0,
+      "encodedBytes": 7445,
+      "durationMs": 71.80000007152557
+    },
+    {
+      "url": "http://127.0.0.1:5245/draw/_framework/System.Numerics.Vectors.1cu6lue4lt.wasm",
+      "initiator": "fetch",
+      "transferBytes": 0,
+      "encodedBytes": 4885,
+      "durationMs": 71.19999992847443
+    },
+    {
+      "url": "http://127.0.0.1:5245/draw/_framework/System.ObjectModel.5q4fr82gxm.wasm",
+      "initiator": "fetch",
+      "transferBytes": 0,
+      "encodedBytes": 13589,
+      "durationMs": 70.5
+    },
+    {
+      "url": "http://127.0.0.1:5245/draw/_framework/System.Private.Uri.guf3cnkx8m.wasm",
+      "initiator": "fetch",
+      "transferBytes": 0,
+      "encodedBytes": 70933,
+      "durationMs": 70.10000002384186
+    },
+    {
+      "url": "http://127.0.0.1:5245/draw/_framework/System.Private.Xml.Linq.qnq2bj5q19.wasm",
+      "initiator": "fetch",
+      "transferBytes": 0,
+      "encodedBytes": 43285,
+      "durationMs": 70
+    },
+    {
+      "url": "http://127.0.0.1:5245/draw/_framework/System.Private.Xml.b22apr7dda.wasm",
+      "initiator": "fetch",
+      "transferBytes": 0,
+      "encodedBytes": 1309461,
+      "durationMs": 89.19999992847443
+    },
+    {
+      "url": "http://127.0.0.1:5245/draw/_framework/System.Reflection.Metadata.j88qdk9ql5.wasm",
+      "initiator": "fetch",
+      "transferBytes": 0,
+      "encodedBytes": 88853,
+      "durationMs": 66.60000002384186
+    },
+    {
+      "url": "http://127.0.0.1:5245/draw/_framework/System.Runtime.InteropServices.rh9hbz139s.wasm",
+      "initiator": "fetch",
+      "transferBytes": 0,
+      "encodedBytes": 12053,
+      "durationMs": 64.20000004768372
+    },
+    {
+      "url": "http://127.0.0.1:5245/draw/_framework/System.Runtime.Numerics.qjhtssyjme.wasm",
+      "initiator": "fetch",
+      "transferBytes": 0,
+      "encodedBytes": 90901,
+      "durationMs": 63.299999952316284
+    },
+    {
+      "url": "http://127.0.0.1:5245/draw/_framework/System.Runtime.Serialization.Formatters.a2beb1z8r4.wasm",
+      "initiator": "fetch",
+      "transferBytes": 0,
+      "encodedBytes": 12565,
+      "durationMs": 63.39999997615814
+    },
+    {
+      "url": "http://127.0.0.1:5245/draw/_framework/System.Runtime.Serialization.Primitives.n0i9kszdfq.wasm",
+      "initiator": "fetch",
+      "transferBytes": 0,
+      "encodedBytes": 5397,
+      "durationMs": 63.10000002384186
+    },
+    {
+      "url": "http://127.0.0.1:5245/draw/_framework/System.Runtime.xqjf4pznb2.wasm",
+      "initiator": "fetch",
+      "transferBytes": 0,
+      "encodedBytes": 15637,
+      "durationMs": 63.199999928474426
+    },
+    {
+      "url": "http://127.0.0.1:5245/draw/_framework/System.Security.Cryptography.xm6v4iqcim.wasm",
+      "initiator": "fetch",
+      "transferBytes": 0,
+      "encodedBytes": 38677,
+      "durationMs": 71.70000004768372
+    },
+    {
+      "url": "http://127.0.0.1:5245/draw/_framework/System.Text.Encodings.Web.zmqv2qq7w9.wasm",
+      "initiator": "fetch",
+      "transferBytes": 0,
+      "encodedBytes": 30485,
+      "durationMs": 71.70000004768372
+    },
+    {
+      "url": "http://127.0.0.1:5245/draw/_framework/System.Text.Json.qd1jvaajsn.wasm",
+      "initiator": "fetch",
+      "transferBytes": 0,
+      "encodedBytes": 385301,
+      "durationMs": 82.30000007152557
+    },
+    {
+      "url": "http://127.0.0.1:5245/draw/_framework/System.Text.RegularExpressions.onctltu4j4.wasm",
+      "initiator": "fetch",
+      "transferBytes": 0,
+      "encodedBytes": 258837,
+      "durationMs": 82
+    },
+    {
+      "url": "http://127.0.0.1:5245/draw/_framework/System.Threading.Channels.77rxas4vbs.wasm",
+      "initiator": "fetch",
+      "transferBytes": 0,
+      "encodedBytes": 6933,
+      "durationMs": 71.39999997615814
+    },
+    {
+      "url": "http://127.0.0.1:5245/draw/_framework/System.Threading.Tasks.Parallel.gbu5f4udck.wasm",
+      "initiator": "fetch",
+      "transferBytes": 0,
+      "encodedBytes": 8981,
+      "durationMs": 71.39999997615814
+    },
+    {
+      "url": "http://127.0.0.1:5245/draw/_framework/System.Threading.Thread.scj7rxo73q.wasm",
+      "initiator": "fetch",
+      "transferBytes": 0,
+      "encodedBytes": 4885,
+      "durationMs": 71.20000004768372
+    },
+    {
+      "url": "http://127.0.0.1:5245/draw/_framework/System.Threading.y4dyyb31ld.wasm",
+      "initiator": "fetch",
+      "transferBytes": 0,
+      "encodedBytes": 12565,
+      "durationMs": 71.20000004768372
+    },
+    {
+      "url": "http://127.0.0.1:5245/draw/_framework/System.Xml.Linq.pzw688hdq1.wasm",
+      "initiator": "fetch",
+      "transferBytes": 0,
+      "encodedBytes": 4373,
+      "durationMs": 76
+    },
+    {
+      "url": "http://127.0.0.1:5245/draw/_framework/System.Xml.ReaderWriter.ty3j01dwhd.wasm",
+      "initiator": "fetch",
+      "transferBytes": 0,
+      "encodedBytes": 4885,
+      "durationMs": 77.79999995231628
+    },
+    {
+      "url": "http://127.0.0.1:5245/draw/_framework/System.Xml.XDocument.9thj06ag29.wasm",
+      "initiator": "fetch",
+      "transferBytes": 0,
+      "encodedBytes": 4885,
+      "durationMs": 78.69999992847443
+    },
+    {
+      "url": "http://127.0.0.1:5245/draw/_framework/System.Xml.XmlSerializer.prrrwsu48y.wasm",
+      "initiator": "fetch",
+      "transferBytes": 0,
+      "encodedBytes": 4885,
+      "durationMs": 79.20000004768372
+    },
+    {
+      "url": "http://127.0.0.1:5245/draw/_framework/System.400l3mulw9.wasm",
+      "initiator": "fetch",
+      "transferBytes": 0,
+      "encodedBytes": 4885,
+      "durationMs": 77.79999995231628
+    },
+    {
+      "url": "http://127.0.0.1:5245/draw/_framework/netstandard.m3r926roip.wasm",
+      "initiator": "fetch",
+      "transferBytes": 0,
+      "encodedBytes": 6933,
+      "durationMs": 79.5
+    },
+    {
+      "url": "http://127.0.0.1:5245/draw/_framework/Beep.SimpleDraw.Core.8on0qv7idg.wasm",
+      "initiator": "fetch",
+      "transferBytes": 0,
+      "encodedBytes": 579861,
+      "durationMs": 79.29999995231628
+    },
+    {
+      "url": "http://127.0.0.1:5245/draw/_framework/Beep.Ski.Quantitative.udchs9vxqa.wasm",
+      "initiator": "fetch",
+      "transferBytes": 0,
+      "encodedBytes": 49429,
+      "durationMs": 78.30000007152557
+    },
+    {
+      "url": "http://127.0.0.1:5245/draw/_framework/Beep.Skia.Blazor.Controls.mbzs7mmg75.wasm",
+      "initiator": "fetch",
+      "transferBytes": 0,
+      "encodedBytes": 22293,
+      "durationMs": 78.10000002384186
+    },
+    {
+      "url": "http://127.0.0.1:5245/draw/_framework/Beep.Skia.Business.fhi5bqtqux.wasm",
+      "initiator": "fetch",
+      "transferBytes": 0,
+      "encodedBytes": 98069,
+      "durationMs": 77.69999992847443
+    },
+    {
+      "url": "http://127.0.0.1:5245/draw/_framework/Beep.Skia.Cloud.4omp0yrx95.wasm",
+      "initiator": "fetch",
+      "transferBytes": 0,
+      "encodedBytes": 35093,
+      "durationMs": 77.10000002384186
+    },
+    {
+      "url": "http://127.0.0.1:5245/draw/_framework/Beep.Skia.DFD.fslmsa77ky.wasm",
+      "initiator": "fetch",
+      "transferBytes": 0,
+      "encodedBytes": 30997,
+      "durationMs": 76
+    },
+    {
+      "url": "http://127.0.0.1:5245/draw/_framework/Beep.Skia.h3l7iabcbw.wasm",
+      "initiator": "fetch",
+      "transferBytes": 0,
+      "encodedBytes": 876309,
+      "durationMs": 75.39999997615814
+    },
+    {
+      "url": "http://127.0.0.1:5245/draw/_framework/Beep.Skia.ECAD.xzhqg9pt24.wasm",
+      "initiator": "fetch",
+      "transferBytes": 0,
+      "encodedBytes": 64277,
+      "durationMs": 75.10000002384186
+    },
+    {
+      "url": "http://127.0.0.1:5245/draw/_framework/Beep.Skia.ERD.bg2vjnbigy.wasm",
+      "initiator": "fetch",
+      "transferBytes": 0,
+      "encodedBytes": 65301,
+      "durationMs": 75
+    },
+    {
+      "url": "http://127.0.0.1:5245/draw/_framework/Beep.Skia.ETL.p5kvtpfu2u.wasm",
+      "initiator": "fetch",
+      "transferBytes": 0,
+      "encodedBytes": 107285,
+      "durationMs": 74.90000009536743
+    },
+    {
+      "url": "http://127.0.0.1:5245/draw/_framework/Beep.Skia.FlowChart.utdnfb1eeh.wasm",
+      "initiator": "fetch",
+      "transferBytes": 0,
+      "encodedBytes": 99093,
+      "durationMs": 75
+    },
+    {
+      "url": "http://127.0.0.1:5245/draw/_framework/Beep.Skia.MindMap.4rwt1x6mk9.wasm",
+      "initiator": "fetch",
+      "transferBytes": 0,
+      "encodedBytes": 28949,
+      "durationMs": 74.89999997615814
+    },
+    {
+      "url": "http://127.0.0.1:5245/draw/_framework/Beep.Skia.ML.yq1nzh9q9q.wasm",
+      "initiator": "fetch",
+      "transferBytes": 0,
+      "encodedBytes": 60693,
+      "durationMs": 74.89999997615814
+    },
+    {
+      "url": "http://127.0.0.1:5245/draw/_framework/Beep.Skia.Model.vtz37uagoa.wasm",
+      "initiator": "fetch",
+      "transferBytes": 0,
+      "encodedBytes": 62229,
+      "durationMs": 74.89999997615814
+    },
+    {
+      "url": "http://127.0.0.1:5245/draw/_framework/Beep.Skia.Network.qa1jndtanj.wasm",
+      "initiator": "fetch",
+      "transferBytes": 0,
+      "encodedBytes": 91413,
+      "durationMs": 74.89999997615814
+    },
+    {
+      "url": "http://127.0.0.1:5245/draw/_framework/Beep.Skia.PM.96uleq1luv.wasm",
+      "initiator": "fetch",
+      "transferBytes": 0,
+      "encodedBytes": 59669,
+      "durationMs": 74.79999995231628
+    },
+    {
+      "url": "http://127.0.0.1:5245/draw/_framework/Beep.Skia.Security.7yubmzz85e.wasm",
+      "initiator": "fetch",
+      "transferBytes": 0,
+      "encodedBytes": 49941,
+      "durationMs": 74.60000002384186
+    },
+    {
+      "url": "http://127.0.0.1:5245/draw/_framework/Beep.Skia.StateMachine.10q2nm629e.wasm",
+      "initiator": "fetch",
+      "transferBytes": 0,
+      "encodedBytes": 32533,
+      "durationMs": 74
+    },
+    {
+      "url": "http://127.0.0.1:5245/draw/_framework/Beep.Skia.UML.t28lxu6d5j.wasm",
+      "initiator": "fetch",
+      "transferBytes": 0,
+      "encodedBytes": 71957,
+      "durationMs": 72.60000002384186
+    },
+    {
+      "url": "http://127.0.0.1:5245/draw/_framework/Beep.Skia.WellLogs.kv3xtzfqwp.wasm",
+      "initiator": "fetch",
+      "transferBytes": 0,
+      "encodedBytes": 43285,
+      "durationMs": 71.80000007152557
+    },
+    {
+      "url": "http://127.0.0.1:5245/draw/_framework/Beep.SimpleDraw.Web.h1u60o6c3i.wasm",
+      "initiator": "fetch",
+      "transferBytes": 0,
+      "encodedBytes": 150805,
+      "durationMs": 71.5
+    },
+    {
+      "url": "http://127.0.0.1:5245/draw/_framework/icudt_EFIGS.tptq2av103.dat",
+      "initiator": "fetch",
+      "transferBytes": 0,
+      "encodedBytes": 550832,
+      "durationMs": 70.40000009536743
+    },
+    {
+      "url": "http://127.0.0.1:5245/draw/js/app.js",
+      "initiator": "script",
+      "transferBytes": 0,
+      "encodedBytes": 5728,
+      "durationMs": 3.600000023841858
+    },
+    {
+      "url": "http://127.0.0.1:5245/draw/_content/Beep.Skia.Blazor.Controls/skiaHost.js",
+      "initiator": "script",
+      "transferBytes": 0,
+      "encodedBytes": 6109,
+      "durationMs": 3.600000023841858
+    },
+    {
+      "url": "http://127.0.0.1:5245/draw/_content/SkiaSharp.Views.Blazor/SKHtmlCanvas.js",
+      "initiator": "script",
+      "transferBytes": 0,
+      "encodedBytes": 7314,
+      "durationMs": 3.600000023841858
+    },
+    {
+      "url": "http://127.0.0.1:5245/draw/js/performance.js",
+      "initiator": "script",
+      "transferBytes": 0,
+      "encodedBytes": 9271,
+      "durationMs": 6.900000095367432
+    },
+    {
+      "url": "http://127.0.0.1:5245/draw/_content/SkiaSharp.Views.Blazor/SizeWatcher.js",
+      "initiator": "script",
+      "transferBytes": 0,
+      "encodedBytes": 1855,
+      "durationMs": 4
+    },
+    {
+      "url": "http://127.0.0.1:5245/draw/js/documents.js",
+      "initiator": "script",
+      "transferBytes": 0,
+      "encodedBytes": 7039,
+      "durationMs": 3
+    },
+    {
+      "url": "http://127.0.0.1:5245/draw/_content/SkiaSharp.Views.Blazor/DpiWatcher.js",
+      "initiator": "script",
+      "transferBytes": 0,
+      "encodedBytes": 1224,
+      "durationMs": 3.5
+    }
+  ],
+  "error": null
+}

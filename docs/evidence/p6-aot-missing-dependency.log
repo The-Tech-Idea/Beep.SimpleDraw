@@ -1,0 +1,58 @@
+  Beep.Skia.Model -> C:\Users\f_ald\source\repos\The-Tech-Idea\Beep.Skia\Beep.Skia.Model\bin\Release\net10.0\Beep.Skia.Model.dll
+  Beep.Skia -> C:\Users\f_ald\source\repos\The-Tech-Idea\Beep.Skia\Beep.Skia\bin\Release\net10.0\Beep.Skia.dll
+  Beep.Skia.FlowChart -> C:\Users\f_ald\source\repos\The-Tech-Idea\Beep.Skia\Beep.Skia.FlowChart\bin\Release\net10.0\Beep.Skia.FlowChart.dll
+  Beep.SimpleDraw.Core -> C:\Users\f_ald\source\repos\The-Tech-Idea\Beep.SimpleDraw\src\Beep.SimpleDraw.Core\bin\Release\net10.0\Beep.SimpleDraw.Core.dll
+  Beep.Skia.Blazor.Controls -> C:\Users\f_ald\source\repos\The-Tech-Idea\Beep.Skia\Beep.Skia.Blazor.Controls\bin\Release\net10.0\Beep.Skia.Blazor.Controls.dll
+  Beep.SimpleDraw.Web -> C:\Users\f_ald\source\repos\The-Tech-Idea\Beep.SimpleDraw\src\Beep.SimpleDraw.Web\bin\Release\net10.0\Beep.SimpleDraw.Web.dll
+  Beep.SimpleDraw.Web (Blazor output) -> C:\Users\f_ald\source\repos\The-Tech-Idea\Beep.SimpleDraw\src\Beep.SimpleDraw.Web\bin\Release\net10.0\wwwroot
+  Optimizing assemblies for size may change the behavior of the app. Be sure to test after publishing. See: https://aka.ms/dotnet-illink
+  Optimizing assemblies for size. This process might take a while.
+  Beep.Skia.Model -> C:\Users\f_ald\source\repos\The-Tech-Idea\Beep.Skia\Beep.Skia.Model\bin\Release\net10.0\Beep.Skia.Model.dll
+  Beep.Skia -> C:\Users\f_ald\source\repos\The-Tech-Idea\Beep.Skia\Beep.Skia\bin\Release\net10.0\Beep.Skia.dll
+  Beep.Skia.FlowChart -> C:\Users\f_ald\source\repos\The-Tech-Idea\Beep.Skia\Beep.Skia.FlowChart\bin\Release\net10.0\Beep.Skia.FlowChart.dll
+  Beep.SimpleDraw.Core -> C:\Users\f_ald\source\repos\The-Tech-Idea\Beep.SimpleDraw\src\Beep.SimpleDraw.Core\bin\Release\net10.0\Beep.SimpleDraw.Core.dll
+  Beep.Skia.Blazor.Controls -> C:\Users\f_ald\source\repos\The-Tech-Idea\Beep.Skia\Beep.Skia.Blazor.Controls\bin\Release\net10.0\Beep.Skia.Blazor.Controls.dll
+  Optimizing assemblies for size may change the behavior of the app. Be sure to test after publishing. See: https://aka.ms/dotnet-illink
+  AOT'ing 85 assemblies
+  [1/84] Microsoft.Win32.SystemEvents.dll -> Microsoft.Win32.SystemEvents.dll.bc
+  [2/84] Microsoft.Extensions.Options.dll -> Microsoft.Extensions.Options.dll.bc
+  [3/84] Microsoft.Extensions.Configuration.Json.dll -> Microsoft.Extensions.Configuration.Json.dll.bc
+  [4/84] Microsoft.Extensions.Logging.dll -> Microsoft.Extensions.Logging.dll.bc
+  [5/84] Microsoft.Extensions.Configuration.dll -> Microsoft.Extensions.Configuration.dll.bc
+  [6/84] Microsoft.Extensions.Primitives.dll -> Microsoft.Extensions.Primitives.dll.bc
+  [7/84] Microsoft.Extensions.DependencyInjection.Abstractions.dll -> Microsoft.Extensions.DependencyInjection.Abstractions.dll.bc
+  [8/84] Microsoft.Extensions.Configuration.Abstractions.dll -> Microsoft.Extensions.Configuration.Abstractions.dll.bc
+  [9/84] SkiaSharp.Extended.dll -> SkiaSharp.Extended.dll.bc
+  [System.Private.Windows.Core.dll] Exec (with response file contents expanded) in C:\Users\f_ald\source\repos\The-Tech-Idea\Beep.SimpleDraw\src\Beep.SimpleDraw.Web\obj\Release\net10.0\wasm\for-publish\aot-in: MONO_PATH=C:\Users\f_ald\source\repos\The-Tech-Idea\Beep.SimpleDraw\src\Beep.SimpleDraw.Web\obj\Release\net10.0\wasm\for-publish\aot-in;C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Runtime.Mono.browser-wasm\10.0.12\runtimes\browser-wasm\native\;C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Runtime.Mono.browser-wasm\10.0.12\runtimes\browser-wasm\lib\net10.0 MONO_ENV_OPTIONS= C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Runtime.AOT.win-x64.Cross.browser-wasm\10.0.12\Sdk\..\tools\mono-aot-cross.exe --wasm-exceptions --debug --llvm "--aot=no-opt,static,direct-icalls,deterministic,mattr=simd,nodebug,llvm-path=C:\Program Files\dotnet\packs\Microsoft.NET.Runtime.Emscripten.3.1.56.Sdk.win-x64\10.0.12\tools\bin\,static,dwarfdebug,dedup-skip,trimming-eligible-methods-outfile=C:\Users\f_ald\source\repos\The-Tech-Idea\Beep.SimpleDraw\src\Beep.SimpleDraw.Web\obj\Release\net10.0\wasm\for-publish\tokens\System_Private_Windows_Core_dll_compiled_methods.txt,llvmonly,interp,asmonly,llvm-outfile=C:\Users\f_ald\source\repos\The-Tech-Idea\Beep.SimpleDraw\src\Beep.SimpleDraw.Web\obj\Release\net10.0\wasm\for-publish\System.Private.Windows.Core.dll.bc.tmp,temp-path=C:\Users\f_ald\source\repos\The-Tech-Idea\Beep.SimpleDraw\src\Beep.SimpleDraw.Web\obj\Release\net10.0\wasm\for-publish\System.Private.Windows.Core.dll.tmp" "System.Private.Windows.Core.dll"
+  
+C:\Program Files\dotnet\packs\Microsoft.NET.Runtime.WebAssembly.Sdk\10.0.12\Sdk\WasmApp.Common.targets(672,5): error : Precompiling failed for C:\Users\f_ald\source\repos\The-Tech-Idea\Beep.SimpleDraw\src\Beep.SimpleDraw.Web\obj\Release\net10.0\wasm\for-publish\aot-in\System.Private.Windows.Core.dll with exit code 1. [C:\Users\f_ald\source\repos\The-Tech-Idea\Beep.SimpleDraw\src\Beep.SimpleDraw.Web\Beep.SimpleDraw.Web.csproj]
+C:\Program Files\dotnet\packs\Microsoft.NET.Runtime.WebAssembly.Sdk\10.0.12\Sdk\WasmApp.Common.targets(672,5): error : Failed to load method 0x6000afa from 'C:\Users\f_ald\source\repos\The-Tech-Idea\Beep.SimpleDraw\src\Beep.SimpleDraw.Web\obj\Release\net10.0\wasm\for-publish\aot-in\System.Private.Windows.Core.dll' due to Could not load file or assembly 'System.Formats.Nrbf, Version=10.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51' or one of its dependencies.. [C:\Users\f_ald\source\repos\The-Tech-Idea\Beep.SimpleDraw\src\Beep.SimpleDraw.Web\Beep.SimpleDraw.Web.csproj]
+C:\Program Files\dotnet\packs\Microsoft.NET.Runtime.WebAssembly.Sdk\10.0.12\Sdk\WasmApp.Common.targets(672,5): error : Run with MONO_LOG_LEVEL=debug for more information. [C:\Users\f_ald\source\repos\The-Tech-Idea\Beep.SimpleDraw\src\Beep.SimpleDraw.Web\Beep.SimpleDraw.Web.csproj]
+C:\Program Files\dotnet\packs\Microsoft.NET.Runtime.WebAssembly.Sdk\10.0.12\Sdk\WasmApp.Common.targets(672,5): error : AOT of image C:\Users\f_ald\source\repos\The-Tech-Idea\Beep.SimpleDraw\src\Beep.SimpleDraw.Web\obj\Release\net10.0\wasm\for-publish\aot-in\System.Private.Windows.Core.dll failed. [C:\Users\f_ald\source\repos\The-Tech-Idea\Beep.SimpleDraw\src\Beep.SimpleDraw.Web\Beep.SimpleDraw.Web.csproj]
+C:\Program Files\dotnet\packs\Microsoft.NET.Runtime.WebAssembly.Sdk\10.0.12\Sdk\WasmApp.Common.targets(672,5): error : Mono Ahead of Time compiler - compiling assembly C:\Users\f_ald\source\repos\The-Tech-Idea\Beep.SimpleDraw\src\Beep.SimpleDraw.Web\obj\Release\net10.0\wasm\for-publish\aot-in\System.Private.Windows.Core.dll [C:\Users\f_ald\source\repos\The-Tech-Idea\Beep.SimpleDraw\src\Beep.SimpleDraw.Web\Beep.SimpleDraw.Web.csproj]
+  [10/84] Microsoft.JSInterop.dll -> Microsoft.JSInterop.dll.bc
+  [11/84] SkiaSharp.Extended.Svg.dll -> SkiaSharp.Extended.Svg.dll.bc
+  [12/84] Microsoft.Extensions.DependencyInjection.dll -> Microsoft.Extensions.DependencyInjection.dll.bc
+  [13/84] Microsoft.Extensions.Logging.Abstractions.dll -> Microsoft.Extensions.Logging.Abstractions.dll.bc
+  [14/84] Microsoft.AspNetCore.Components.Web.dll -> Microsoft.AspNetCore.Components.Web.dll.bc
+  [15/84] SkiaSharp.Views.Blazor.dll -> SkiaSharp.Views.Blazor.dll.bc
+  [16/84] Microsoft.Win32.Registry.dll -> Microsoft.Win32.Registry.dll.bc
+  [17/84] Microsoft.Win32.Primitives.dll -> Microsoft.Win32.Primitives.dll.bc
+  [18/84] Beep.Skia.Blazor.Controls.dll -> Beep.Skia.Blazor.Controls.dll.bc
+  [19/84] SkiaSharp.dll -> SkiaSharp.dll.bc
+  [20/84] System.Private.Windows.GdiPlus.dll -> System.Private.Windows.GdiPlus.dll.bc
+  [21/84] Beep.Skia.Model.dll -> Beep.Skia.Model.dll.bc
+  [22/84] Microsoft.AspNetCore.Components.WebAssembly.dll -> Microsoft.AspNetCore.Components.WebAssembly.dll.bc
+  [23/84] System.Collections.Concurrent.dll -> System.Collections.Concurrent.dll.bc
+  [24/84] Beep.SimpleDraw.Core.dll -> Beep.SimpleDraw.Core.dll.bc
+  [25/84] System.Collections.NonGeneric.dll -> System.Collections.NonGeneric.dll.bc
+  [26/84] Beep.Skia.FlowChart.dll -> Beep.Skia.FlowChart.dll.bc
+  [27/84] System.Collections.Immutable.dll -> System.Collections.Immutable.dll.bc
+  [28/84] Beep.SimpleDraw.Web.dll -> Beep.SimpleDraw.Web.dll.bc
+  [29/84] System.Drawing.Common.dll -> System.Drawing.Common.dll.bc
+  [30/84] System.Collections.Specialized.dll -> System.Collections.Specialized.dll.bc
+  [31/84] Microsoft.AspNetCore.Components.dll -> Microsoft.AspNetCore.Components.dll.bc
+  [32/84] System.Collections.dll -> System.Collections.dll.bc
+  [33/84] Beep.Skia.dll -> Beep.Skia.dll.bc
+  [34/84] DataManagementModels.dll -> DataManagementModels.dll.bc
+  [35/84] TheTechIdea.Beep.Vis.Modules.dll -> TheTechIdea.Beep.Vis.Modules.dll.bc

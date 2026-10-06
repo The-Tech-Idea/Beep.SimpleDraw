@@ -1,0 +1,69 @@
+@using Beep.Skia
+@using Beep.Skia.Model
+@using Beep.SimpleDraw.Core
+@using Beep.SimpleDraw.Core.Library
+@using Beep.SimpleDraw.Web.Services
+<details class="templates-panel">
+    <summary @ref="_summary">@L("Connectors") <span>@Session.Manager.GetLines().Count</span></summary>
+    <div class="library-content">
+        <p class="library-note">@L("Connect workflow nodes. Each port accepts one connector.")</p>
+        <label>@L("From node")<select aria-label="@L("From node")" @bind="_source" @bind:after="SourceChanged">
+            <option value="@Guid.Empty">@L("Choose a node")</option>
+            @foreach (var node in Nodes) { <option value="@node.Id">@NodeName(node)</option> }
+        </select></label>
+        <label>@L("Output port")<select aria-label="@L("Output port")" @bind="_output" disabled="@(Source is null)">
+            @if (Source is not null) { for (int i = 0; i < Source.OutConnectionPoints.Count; i++)
+                { <option value="@i" disabled="@(!Source.OutConnectionPoints[i].IsAvailable)">@(i + 1) · @L(Source.OutConnectionPoints[i].IsAvailable ? "Available" : "Connected")</option> } }
+        </select></label>
+        <label>@L("To node")<select aria-label="@L("To node")" @bind="_target" @bind:after="TargetChanged">
+            <option value="@Guid.Empty">@L("Choose a node")</option>
+            @foreach (var node in Nodes) { <option value="@node.Id">@NodeName(node)</option> }
+        </select></label>
+        <label>@L("Input port")<select aria-label="@L("Input port")" @bind="_input" disabled="@(Target is null)">
+            @if (Target is not null) { for (int i = 0; i < Target.InConnectionPoints.Count; i++)
+                { <option value="@i" disabled="@(!Target.InConnectionPoints[i].IsAvailable)">@(i + 1) · @L(Target.InConnectionPoints[i].IsAvailable ? "Available" : "Connected")</option> } }
+        </select></label>
+        <label>@L("Connector label")<input maxlength="128" @bind="_label" @bind:event="oninput" /></label>
+        <label>@L("Route")<select aria-label="@L("Route")" @bind="_routing">
+            <option value="@LineRoutingMode.Straight">@L("Straight")</option><option value="@LineRoutingMode.Orthogonal">@L("Elbow")</option><option value="@LineRoutingMode.Curved">@L("Curve")</option>
+        </select></label>
+        <button disabled="@(!CanConnect)" @onclick="Connect">@L("Connect nodes")</button>
+        <p class="library-note">@L("Connector strokes use 2 px. Labels use the bundled 14 px font.")</p>
+        <div role="group" aria-label="@L("Drawing connectors")" class="library-entries">
+            @foreach (var line in Session.Manager.GetLines())
+            { <div @key="line" class="library-entry"><strong>@LineName(line)</strong><button aria-label="@($"{L("Remove connector")} {LineName(line)}")" @onclick="() => Remove(line)">@L("Remove connector")</button></div> }
+        </div>
+        <p role="status">@_status</p>
+    </div>
+</details>
+@code {
+    [Parameter, EditorRequired] public DrawingSession Session { get; set; } = null!;
+    [Parameter] public EventCallback OnEdited { get; set; }
+    [Parameter] public bool Rtl { get; set; }
+    private Guid _source, _target;
+    private int _output, _input;
+    private string _label = "", _status = "";
+    private LineRoutingMode _routing;
+    private ElementReference _summary;
+    private string L(string text) => Rtl ? UiText.Arabic(text) : UiText.English(text);
+    private SkiaComponent[] Nodes => Session.Manager.GetComponents().Where(SkiaCatalog.Supports).ToArray();
+    private SkiaComponent? Source => Nodes.FirstOrDefault(n => n.Id == _source);
+    private SkiaComponent? Target => Nodes.FirstOrDefault(n => n.Id == _target);
+    private bool CanConnect => Source is { } source && Target is { } target && source != target
+        && _output >= 0 && _output < source.OutConnectionPoints.Count && _input >= 0 && _input < target.InConnectionPoints.Count
+        && source.OutConnectionPoints[_output].IsAvailable && target.InConnectionPoints[_input].IsAvailable;
+    private string NodeName(SkiaComponent node) => $"{Array.IndexOf(Nodes, node) + 1} · {SkiaCatalog.Label(node)}";
+    private string LineName(IConnectionLine line) => $"{NodeName((SkiaComponent)line.Start.Component)} → {NodeName((SkiaComponent)line.End.Component)}{(string.IsNullOrEmpty(line.Label3) ? "" : " · " + line.Label3)}";
+    private void SourceChanged() { _output = Source is null ? 0 : Math.Max(0, Source.OutConnectionPoints.ToList().FindIndex(p => p.IsAvailable)); _status = ""; }
+    private void TargetChanged() { _input = Target is null ? 0 : Math.Max(0, Target.InConnectionPoints.ToList().FindIndex(p => p.IsAvailable)); _status = ""; }
+    private async Task Connect()
+    {
+        try { Session.Connect(_source, _output, _target, _input, _label, _routing); _status = L("Connector added. Undo restores the previous board."); await OnEdited.InvokeAsync(); }
+        catch (Exception ex) when (ex is InvalidDataException or InvalidOperationException or ArgumentException) { _status = ex.Message; }
+    }
+    private async Task Remove(IConnectionLine line)
+    {
+        try { Session.RemoveConnection(line); _status = L("Connector removed. Undo brings it back."); await OnEdited.InvokeAsync(); await _summary.FocusAsync(); }
+        catch (Exception ex) when (ex is InvalidDataException or InvalidOperationException) { _status = ex.Message; }
+    }
+}

@@ -1,0 +1,49 @@
+{
+  "format": "beep.simpledraw",
+  "version": 7,
+  "diagram": {
+    "schemaVersion": 3,
+    "themeName": "Light",
+    "components": [
+      {
+        "id": "7860fbcb-082b-436c-9657-e15bb00f891a",
+        "type": "Beep.Skia.UML.UMLClass",
+        "x": 565,
+        "y": 282,
+        "width": 150,
+        "height": 125,
+        "name": "UMLClass",
+        "propertyBag": {
+          "DisplayText": "Customer",
+          "TextPosition": "Inside",
+          "TextFontSize": "12",
+          "TextColor": "#ff000000",
+          "ShowDisplayText": "False",
+          "Stereotype": "",
+          "BackgroundColor": "#ffffffff",
+          "BorderColor": "#ff000000",
+          "BorderThickness": "1",
+          "ClassName": "Customer",
+          "IsAbstract": "False",
+          "AttributesText": "\u002Battribute1: string\n-attribute2: int",
+          "OperationsText": "\u002Boperation1(): void\n-operation2(param: string): bool",
+          "GroupId": "00000000-0000-0000-0000-000000000000"
+        },
+        "typedPropertyBag": {},
+        "inPointIds": [
+          "275f2167-0d71-4557-afc5-754fd71c1eb9",
+          "ca614ed0-d4a9-45dc-9f8e-2c69f0756c31",
+          "575a6f23-0df4-48c0-8e2b-891c1e0bbae0",
+          "7d4e9260-5f60-4022-9409-d4aa97a67eb2"
+        ],
+        "outPointIds": [
+          "275f2167-0d71-4557-afc5-754fd71c1eb9",
+          "ca614ed0-d4a9-45dc-9f8e-2c69f0756c31",
+          "575a6f23-0df4-48c0-8e2b-891c1e0bbae0",
+          "7d4e9260-5f60-4022-9409-d4aa97a67eb2"
+        ]
+      }
+    ],
+    "lines": []
+  }
+}

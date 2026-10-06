@@ -1,0 +1,74 @@
+[
+  {
+    "background": "rgba(0, 0, 0, 0)",
+    "border": "rgb(51, 65, 85)",
+    "borderWidth": "0px",
+    "foreground": "rgb(51, 65, 85)",
+    "label": "Drawing canvas",
+    "outline": "rgb(109, 40, 217)",
+    "outlineOffset": "-4px",
+    "outlineStyle": "solid",
+    "outlineWidth": "3px",
+    "pressed": null
+  },
+  {
+    "background": "rgb(248, 248, 245)",
+    "border": "rgba(0, 0, 0, 0)",
+    "borderWidth": "1px",
+    "foreground": "rgb(51, 65, 85)",
+    "label": "Stroke width 1",
+    "outline": "rgb(51, 65, 85)",
+    "outlineOffset": "0px",
+    "outlineStyle": "none",
+    "outlineWidth": "3px",
+    "pressed": "false"
+  },
+  {
+    "background": "rgb(240, 235, 255)",
+    "border": "rgb(109, 40, 217)",
+    "borderWidth": "2px",
+    "foreground": "rgb(51, 65, 85)",
+    "label": "Stroke width 2",
+    "outline": "rgb(51, 65, 85)",
+    "outlineOffset": "0px",
+    "outlineStyle": "none",
+    "outlineWidth": "3px",
+    "pressed": "true"
+  },
+  {
+    "background": "rgb(248, 248, 245)",
+    "border": "rgba(0, 0, 0, 0)",
+    "borderWidth": "1px",
+    "foreground": "rgb(51, 65, 85)",
+    "label": "Stroke width 4",
+    "outline": "rgb(51, 65, 85)",
+    "outlineOffset": "0px",
+    "outlineStyle": "none",
+    "outlineWidth": "3px",
+    "pressed": "false"
+  },
+  {
+    "background": "rgb(255, 255, 255)",
+    "border": "rgb(100, 116, 139)",
+    "borderWidth": "1px",
+    "foreground": "rgb(0, 0, 0)",
+    "label": "Width",
+    "outline": "rgb(0, 0, 0)",
+    "outlineOffset": "0px",
+    "outlineStyle": "none",
+    "outlineWidth": "3px",
+    "pressed": null
+  },
+  {
+    "background": "rgb(255, 255, 255)",
+    "border": "rgb(100, 116, 139)",
+    "borderWidth": "1px",
+    "foreground": "rgb(0, 0, 0)",
+    "label": "Height",
+    "outline": "rgb(0, 0, 0)",
+    "outlineOffset": "0px",
+    "outlineStyle": "none",
+    "outlineWidth": "3px",
+    "pressed": null
+  }
+]

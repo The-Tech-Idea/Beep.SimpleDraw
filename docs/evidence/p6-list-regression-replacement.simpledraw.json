@@ -1,0 +1,179 @@
+{
+  "format": "beep.simpledraw",
+  "version": 6,
+  "diagram": {
+    "schemaVersion": 3,
+    "themeName": "Light",
+    "components": [
+      {
+        "id": "53dafe8f-813a-4c80-9dea-d0e68dcf4e6b",
+        "type": "Beep.Skia.Components.SketchShape",
+        "x": 500,
+        "y": 154,
+        "width": 189.9435,
+        "height": 75.2,
+        "name": "Shared label",
+        "propertyBag": {
+          "Kind": "Text",
+          "Stroke": "#334155",
+          "Fill": "#00000000",
+          "StrokeWidth": "2",
+          "PathData": "",
+          "DisplayText": "Sketch a thought.\nMake it yours.",
+          "TextFontSize": "24",
+          "GroupId": "d236f978-06a3-4330-bd27-3490ed130cee",
+          "Roughness": "0",
+          "SketchSeed": "314858149"
+        },
+        "typedPropertyBag": {},
+        "inPointIds": [],
+        "outPointIds": []
+      },
+      {
+        "id": "eae41f59-b1f4-4f3e-9b4b-2f72b2bf121c",
+        "type": "Beep.Skia.Components.SketchShape",
+        "x": 840,
+        "y": 154,
+        "width": 270,
+        "height": 170,
+        "name": "Shared label",
+        "propertyBag": {
+          "Kind": "Rectangle",
+          "Stroke": "#7c3aed",
+          "Fill": "#ede9fe",
+          "StrokeWidth": "2",
+          "PathData": "",
+          "DisplayText": "",
+          "TextFontSize": "24",
+          "GroupId": "d236f978-06a3-4330-bd27-3490ed130cee",
+          "Roughness": "1.5",
+          "SketchSeed": "1273453188"
+        },
+        "typedPropertyBag": {},
+        "inPointIds": [],
+        "outPointIds": []
+      },
+      {
+        "id": "5d7c575e-3129-4611-b4b5-d38b6bb1742b",
+        "type": "Beep.Skia.Components.SketchShape",
+        "x": 380,
+        "y": 314,
+        "width": 200,
+        "height": 90,
+        "name": "Ellipse 3",
+        "propertyBag": {
+          "Kind": "Ellipse",
+          "Stroke": "#237d67",
+          "Fill": "#dceee6",
+          "StrokeWidth": "2",
+          "PathData": "",
+          "DisplayText": "",
+          "TextFontSize": "24",
+          "GroupId": "00000000-0000-0000-0000-000000000000",
+          "Roughness": "1.5",
+          "SketchSeed": "1003119272"
+        },
+        "typedPropertyBag": {},
+        "inPointIds": [],
+        "outPointIds": []
+      },
+      {
+        "id": "3ee4f26f-dfc8-4bc8-bd7f-8322c4f38a52",
+        "type": "Beep.Skia.Components.SketchShape",
+        "x": 720,
+        "y": 374,
+        "width": 200,
+        "height": 120,
+        "name": "Diamond 4",
+        "propertyBag": {
+          "Kind": "Diamond",
+          "Stroke": "#e06b56",
+          "Fill": "#fee5dc",
+          "StrokeWidth": "2",
+          "PathData": "",
+          "DisplayText": "",
+          "TextFontSize": "24",
+          "GroupId": "00000000-0000-0000-0000-000000000000",
+          "Roughness": "1.5",
+          "SketchSeed": "86352350"
+        },
+        "typedPropertyBag": {},
+        "inPointIds": [],
+        "outPointIds": []
+      },
+      {
+        "id": "cf0eb68c-9a88-40f7-8ab9-e98abfa64ca1",
+        "type": "Beep.Skia.Components.SketchShape",
+        "x": 550,
+        "y": 264,
+        "width": 210,
+        "height": 0.01,
+        "name": "Line 5",
+        "propertyBag": {
+          "Kind": "Line",
+          "Stroke": "#2875bc",
+          "Fill": "#fee5dc",
+          "StrokeWidth": "2",
+          "PathData": "0,0;1,0",
+          "DisplayText": "",
+          "TextFontSize": "24",
+          "GroupId": "00000000-0000-0000-0000-000000000000",
+          "Roughness": "1.5",
+          "SketchSeed": "610022193"
+        },
+        "typedPropertyBag": {},
+        "inPointIds": [],
+        "outPointIds": []
+      },
+      {
+        "id": "d2f9c255-d299-4556-8685-ca9e31c6a226",
+        "type": "Beep.Skia.Components.SketchShape",
+        "x": 580,
+        "y": 354,
+        "width": 140,
+        "height": 70,
+        "name": "Arrow 6",
+        "propertyBag": {
+          "Kind": "Arrow",
+          "Stroke": "#334155",
+          "Fill": "#fee5dc",
+          "StrokeWidth": "2",
+          "PathData": "0,0;1,1",
+          "DisplayText": "",
+          "TextFontSize": "24",
+          "GroupId": "00000000-0000-0000-0000-000000000000",
+          "Roughness": "1.5",
+          "SketchSeed": "801592187"
+        },
+        "typedPropertyBag": {},
+        "inPointIds": [],
+        "outPointIds": []
+      },
+      {
+        "id": "a099bb64-90cb-4089-bdf5-718773693f0b",
+        "type": "Beep.Skia.Components.SketchShape",
+        "x": 400,
+        "y": 484,
+        "width": 140,
+        "height": 50,
+        "name": "Freehand 7",
+        "propertyBag": {
+          "Kind": "Freehand",
+          "Stroke": "#e06b56",
+          "Fill": "#fee5dc",
+          "StrokeWidth": "2",
+          "PathData": "0,0;0.12857144,0.12;0.25,0.26;0.37857142,0.38;0.5,0.5;0.62857145,0.62;0.75,0.76;0.87857145,0.88;1,1",
+          "DisplayText": "",
+          "TextFontSize": "24",
+          "GroupId": "00000000-0000-0000-0000-000000000000",
+          "Roughness": "1.5",
+          "SketchSeed": "1818146657"
+        },
+        "typedPropertyBag": {},
+        "inPointIds": [],
+        "outPointIds": []
+      }
+    ],
+    "lines": []
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "date": "2026-10-05",
+  "runtime": "artifacts/p6-network-profile/publish/wwwroot",
+  "offlineVersion": "19e9a4459b614eef",
+  "origins": [
+    "http://127.0.0.1:5229",
+    "http://127.0.0.1:5230"
+  ],
+  "interaction": "Actual CUA controls and native downloads; visible test-owned storage readouts; no hidden browser state injection.",
+  "quotaFill": "Quota filled with 5239624 test characters.",
+  "checks": {
+    "malformedRawPreserved": true,
+    "malformedDownloadExact": true,
+    "drawingCanEditDuringLibraryRecovery": true,
+    "quotaKeepsPendingEntries": true,
+    "quotaPreservesSuccessfulBytes": true,
+    "pendingDownloadEqualsRetriedSave": true,
+    "retryRevision": 2,
+    "reloadRestoresBothEntries": true,
+    "drawingBytesUnchanged": true,
+    "futurePayloadDownloadExact": true,
+    "futurePayloadExplicitReplacement": true,
+    "browserWarningsAndErrors": 0
+  },
+  "limits": [
+    "IAB Chromium desktop only; physical devices and other engines remain open.",
+    "Fault controls live outside /draw/ and are absent from the published runtime.",
+    "Independent acceptance and full sibling regression are not implied."
+  ],
+  "hashes": {
+    "p5-library-corrupt-stored.txt": "04ce7450c32ed2c27be531b82a568fbe150aa45dadb32afc32baf4066a63496c",
+    "p5-library-corrupt-ui.png": "2db876071072a0ff0d18f3a33744cad3b65fc3c3b7d71b43cdde8f1aad92cabc",
+    "p5-library-corrupt-ui.txt": "124a1116f867243fe560a5ed223b7a08cd77e48e3a6d73cbf49a0a21b774f2e4",
+    "p5-library-drawing-after-quota.json": "216d131d65a090520437f4101e991efa8df282e48527a5e802bc8668ac83e3c3",
+    "p5-library-drawing-baseline.json": "216d131d65a090520437f4101e991efa8df282e48527a5e802bc8668ac83e3c3",
+    "p5-library-future-payload-retained.json": "df3ec830447e1881a87e8e32a015df8e68fbec9223426576b79eb806b7e716ef",
+    "p5-library-future-payload-stored.json": "df3ec830447e1881a87e8e32a015df8e68fbec9223426576b79eb806b7e716ef",
+    "p5-library-future-payload-ui.txt": "3df11d363178913ea7550e1c27c4fec536b5d8ef7ae621a277a0a452c03f452b",
+    "p5-library-future-recovery-download.txt": "df3ec830447e1881a87e8e32a015df8e68fbec9223426576b79eb806b7e716ef",
+    "p5-library-future-replaced-stored.json": "491866ce034b6b287d68ce8ea1d3a485f43196f4657999727991d8684a12f92f",
+    "p5-library-future-replaced-ui.txt": "521b437ebda5e3a4a2366c6af6b302f6dd8bf97cd535b6b610902fb2cb6e3e1b",
+    "p5-library-quota-baseline.json": "e7d7b9392203c3798b521047abdcd7bdeef60be04cad8ec8ce3de9fb8d770641",
+    "p5-library-quota-failed-stored.json": "e7d7b9392203c3798b521047abdcd7bdeef60be04cad8ec8ce3de9fb8d770641",
+    "p5-library-quota-failure.png": "41d0b853637654d2ce711635f1656c6d1971a5eebdb2843f8f4eed6b8ace1b22",
+    "p5-library-quota-failure.txt": "82a33fbf32bda5f4e80f42a8769e2f15d78bf7450650d92552a47dc7838470ce",
+    "p5-library-quota-fill.txt": "8496bdbb38bd36b827b484400d8147b3cdbf6b0d33c55f4cea370339e9e6ccf4",
+    "p5-library-quota-pending-download.json": "e2c977495dfac42137eb283b0722764e6e809d6e9e7f0a67bb138e2fc6cb8bf7",
+    "p5-library-quota-reloaded.png": "bac57da7771b3ebfd270ad31361904df4baf3ee7295f7c3368e0d6095b0ab73d",
+    "p5-library-quota-reloaded.txt": "f02cf3e9f18e80cdc5e8ac673095a01bf192a47649e88158af285982dd591d15",
+    "p5-library-quota-restored-entries.png": "90b963590b9532d4d4421447f6d559a4d20985c4f2b6e796a80a31c87b9a3b8e",
+    "p5-library-quota-retried-stored.json": "ef504b97c051f13c9f4aea4d83c28e01ba48567a8b80d0a09b82de1696e1e748",
+    "p5-library-recovery-browser-logs.json": "a1d2c0c39ef86bf8de72ac209a1e33c6b5d74cb38cd9436adeef2837cc5199dc",
+    "p5-library-recovery-bytes.txt": "04ce7450c32ed2c27be531b82a568fbe150aa45dadb32afc32baf4066a63496c",
+    "p5-library-recovery-javascript-tests.log": "1136324e7f5d7cb97ae9e26d5608ebc5aaba794879a50941342bf4a68e9159b8"
+  }
+}

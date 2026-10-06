@@ -1,0 +1,62 @@
+{
+  "format": "beep.simpledraw",
+  "version": 1,
+  "diagram": {
+    "schemaVersion": 2,
+    "themeName": "Light",
+    "components": [
+      {
+        "type": "Beep.Skia.Components.SketchShape",
+        "x": 445,
+        "y": 209,
+        "width": 210,
+        "height": 130,
+        "name": "Rectangle 1",
+        "propertyBag": {
+          "Kind": "Rectangle",
+          "Stroke": "#334155",
+          "Fill": "#ede9fe",
+          "StrokeWidth": "2"
+        },
+        "typedPropertyBag": {},
+        "inPointIds": [],
+        "outPointIds": []
+      },
+      {
+        "type": "Beep.Skia.Components.SketchShape",
+        "x": 770,
+        "y": 184,
+        "width": 200,
+        "height": 130,
+        "name": "Ellipse 2",
+        "propertyBag": {
+          "Kind": "Ellipse",
+          "Stroke": "#237d67",
+          "Fill": "#dceee6",
+          "StrokeWidth": "2"
+        },
+        "typedPropertyBag": {},
+        "inPointIds": [],
+        "outPointIds": []
+      },
+      {
+        "type": "Beep.Skia.Components.SketchShape",
+        "x": 595,
+        "y": 364,
+        "width": 200,
+        "height": 140,
+        "name": "Diamond 3",
+        "propertyBag": {
+          "Kind": "Diamond",
+          "Stroke": "#e06b56",
+          "Fill": "#fee5dc",
+          "StrokeWidth": "2"
+        },
+        "typedPropertyBag": {},
+        "inPointIds": [],
+        "outPointIds": []
+      }
+    ],
+    "lines": []
+  }
+}

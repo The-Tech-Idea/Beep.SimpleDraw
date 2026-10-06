@@ -1,0 +1,69 @@
+{
+  "source": "docs/evidence/default-skia-gallery-source.simpledraw.json",
+  "saved": "docs/evidence/default-skia-gallery-before-fix.simpledraw.json",
+  "equal": false,
+  "sourceCount": 249,
+  "savedCount": 249,
+  "differences": [
+    {
+      "path": "/diagram/components/79/outPointIds/length",
+      "source": 2,
+      "saved": 1
+    },
+    {
+      "path": "/diagram/components/79/propertyBag/OutPortCount",
+      "source": "2",
+      "saved": "1"
+    },
+    {
+      "path": "/diagram/components/87/inPointIds/length",
+      "source": 0,
+      "saved": 1
+    },
+    {
+      "path": "/diagram/components/87/propertyBag/InPortCount",
+      "source": "0",
+      "saved": "1"
+    },
+    {
+      "path": "/diagram/components/90/inPointIds/length",
+      "source": 1,
+      "saved": 0
+    },
+    {
+      "path": "/diagram/components/90/outPointIds/length",
+      "source": 1,
+      "saved": 0
+    },
+    {
+      "path": "/diagram/components/90/propertyBag/InPortCount",
+      "source": "1",
+      "saved": "0"
+    },
+    {
+      "path": "/diagram/components/90/propertyBag/OutPortCount",
+      "source": "1",
+      "saved": "0"
+    },
+    {
+      "path": "/diagram/components/95/inPointIds/length",
+      "source": 1,
+      "saved": 0
+    },
+    {
+      "path": "/diagram/components/95/outPointIds/length",
+      "source": 1,
+      "saved": 0
+    },
+    {
+      "path": "/diagram/components/95/propertyBag/InPortCount",
+      "source": "1",
+      "saved": "0"
+    },
+    {
+      "path": "/diagram/components/95/propertyBag/OutPortCount",
+      "source": "1",
+      "saved": "0"
+    }
+  ]
+}

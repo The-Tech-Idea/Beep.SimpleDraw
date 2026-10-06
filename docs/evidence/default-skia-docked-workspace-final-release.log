@@ -1,0 +1,226 @@
+{"baseCommit":"19bb026ba403ff91bd1a2ce324000ddce07cd26d","sourceFiles":498,"sourceSha256":"e9f5faabe9dac9aee4d8fa38def10d5fddd98a74b3b0bf47e2ef2cef78618c9f","packages":[{"id":"TheTechIdea.Beep.DataManagementModels","version":"3.1.1","sha256":"5a9ac5f7fbf9581d99a7ce871ddb36ff62f6b0b79fe6ec110dce4d75aa52f46f","repository":"https://github.com/The-Tech-Idea/BeepDM","commit":"f305eaf64037392fa4b907aa69f64f5d641c69d4"},{"id":"TheTechIdea.Beep.Vis.Modules","version":"2.0.44","sha256":"0e2c8c5809846dca31b6fa3c07f6487165337e3e21a002d0e60124731c13e718","repository":"https://github.com/The-Tech-Idea/BeepEnterprize.winform","commit":"9b62321ff640ebcc8bb6cca1f83e675a29a92215"}]}
+{"groups":45,"originalTexts":21,"files":24}
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+{
+  "sdk": "10.0.401",
+  "node": "24.14.0",
+  "wasmManifest": "10.0.112",
+  "wasmPack": "10.0.12",
+  "emscripten": "3.1.56",
+  "emscriptenPack": "10.0.12",
+  "configuration": "Release",
+  "framework": "net10.0",
+  "nugetLockFile": "packages.net10.lock.json",
+  "runAOTCompilation": "",
+  "stripILAfterAOT": "true",
+  "nativeSkiaVerified": true,
+  "nativeSkia": "SkiaSharp.NativeAssets.WebAssembly/4.150.1; Emscripten 3.1.56; st,simd"
+}
+{"verifiedArchives":56}
+Verified 1106 extracted package payload files against pinned archives.
+  Beep.Skia.Model -> C:\Users\f_ald\source\repos\The-Tech-Idea\Beep.Skia\Beep.Skia.Model\bin\Release\net10.0\Beep.Skia.Model.dll
+  Beep.Skia -> C:\Users\f_ald\source\repos\The-Tech-Idea\Beep.Skia\Beep.Skia\bin\Release\net10.0\Beep.Skia.dll
+  Beep.Skia.FlowChart -> C:\Users\f_ald\source\repos\The-Tech-Idea\Beep.Skia\Beep.Skia.FlowChart\bin\Release\net10.0\Beep.Skia.FlowChart.dll
+  Beep.Skia.ECAD -> C:\Users\f_ald\source\repos\The-Tech-Idea\Beep.Skia\Beep.Skia.ECAD\bin\Release\net10.0\Beep.Skia.ECAD.dll
+  Beep.Skia.ETL -> C:\Users\f_ald\source\repos\The-Tech-Idea\Beep.Skia\Beep.Skia.ETL\bin\Release\net10.0\Beep.Skia.ETL.dll
+  Beep.Skia.Security -> C:\Users\f_ald\source\repos\The-Tech-Idea\Beep.Skia\Beep.Skia.Security\bin\Release\net10.0\Beep.Skia.Security.dll
+  Beep.Skia.WellLogs -> C:\Users\f_ald\source\repos\The-Tech-Idea\Beep.Skia\Beep.Skia.WellLogs\bin\Release\net10.0\Beep.Skia.WellLogs.dll
+  Beep.Skia.ML -> C:\Users\f_ald\source\repos\The-Tech-Idea\Beep.Skia\Beep.Skia.ML\bin\Release\net10.0\Beep.Skia.ML.dll
+  Beep.Ski.Quantitative -> C:\Users\f_ald\source\repos\The-Tech-Idea\Beep.Skia\Beep.Ski.Quantitative\bin\Release\net10.0\Beep.Ski.Quantitative.dll
+  Beep.Skia.Business -> C:\Users\f_ald\source\repos\The-Tech-Idea\Beep.Skia\Beep.Skia.Business\bin\Release\net10.0\Beep.Skia.Business.dll
+  Beep.Skia.DFD -> C:\Users\f_ald\source\repos\The-Tech-Idea\Beep.Skia\Beep.Skia.DFD\bin\Release\net10.0\Beep.Skia.DFD.dll
+  Beep.Skia.Cloud -> C:\Users\f_ald\source\repos\The-Tech-Idea\Beep.Skia\Beep.Skia.Cloud\bin\Release\net10.0\Beep.Skia.Cloud.dll
+  Beep.Skia.MindMap -> C:\Users\f_ald\source\repos\The-Tech-Idea\Beep.Skia\Beep.Skia.MindMap\bin\Release\net10.0\Beep.Skia.MindMap.dll
+  Beep.Skia.Network -> C:\Users\f_ald\source\repos\The-Tech-Idea\Beep.Skia\Beep.Skia.Network\bin\Release\net10.0\Beep.Skia.Network.dll
+  Beep.Skia.StateMachine -> C:\Users\f_ald\source\repos\The-Tech-Idea\Beep.Skia\Beep.Skia.StateMachine\bin\Release\net10.0\Beep.Skia.StateMachine.dll
+  Beep.Skia.PM -> C:\Users\f_ald\source\repos\The-Tech-Idea\Beep.Skia\Beep.Skia.PM\bin\Release\net10.0\Beep.Skia.PM.dll
+  Beep.Skia.ERD -> C:\Users\f_ald\source\repos\The-Tech-Idea\Beep.Skia\Beep.Skia.ERD\bin\Release\net10.0\Beep.Skia.ERD.dll
+  Beep.Skia.Blazor.Controls -> C:\Users\f_ald\source\repos\The-Tech-Idea\Beep.Skia\Beep.Skia.Blazor.Controls\bin\Release\net10.0\Beep.Skia.Blazor.Controls.dll
+  Beep.Skia.UML -> C:\Users\f_ald\source\repos\The-Tech-Idea\Beep.Skia\Beep.Skia.UML\bin\Release\net10.0\Beep.Skia.UML.dll
+  Beep.SimpleDraw.Core -> C:\Users\f_ald\source\repos\The-Tech-Idea\Beep.SimpleDraw\src\Beep.SimpleDraw.Core\bin\Release\net10.0\Beep.SimpleDraw.Core.dll
+  Beep.SimpleDraw.Tests -> C:\Users\f_ald\source\repos\The-Tech-Idea\Beep.SimpleDraw\tests\Beep.SimpleDraw.Tests\bin\Release\net10.0\Beep.SimpleDraw.Tests.dll
+  Beep.SimpleDraw.Web -> C:\Users\f_ald\source\repos\The-Tech-Idea\Beep.SimpleDraw\src\Beep.SimpleDraw.Web\bin\Release\net10.0\Beep.SimpleDraw.Web.dll
+  Beep.SimpleDraw.Web (Blazor output) -> C:\Users\f_ald\source\repos\The-Tech-Idea\Beep.SimpleDraw\src\Beep.SimpleDraw.Web\bin\Release\net10.0\wwwroot
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:15.87
+Test run for C:\Users\f_ald\source\repos\The-Tech-Idea\Beep.SimpleDraw\tests\Beep.SimpleDraw.Tests\bin\Release\net10.0\Beep.SimpleDraw.Tests.dll (.NETCoreApp,Version=v10.0)
+A total of 1 test files matched the specified pattern.
+Results File: C:\Users\f_ald\source\repos\The-Tech-Idea\Beep.SimpleDraw\artifacts\default-skia-docked-workspace-final\tests\tests.trx
+
+Passed!  - Failed:     0, Passed:   585, Skipped:     0, Total:   585, Duration: 14 s - Beep.SimpleDraw.Tests.dll (net10.0)
+✔ CSS coordinates and queued down/move/up preserve pointer order (23.4562ms)
+✔ secondary pointers do not steal the primary gesture (5.9903ms)
+✔ lost capture and window blur cancel once (2.445ms)
+✔ detach removes browser and global listeners (1.0221ms)
+✔ wheel direction and modifiers are passed without DPR multiplication (2.675ms)
+✔ trackpad horizontal scrolling and Command zoom reach the same host contract (1.8476ms)
+✔ line and page wheel units normalize to CSS pixels on both axes (2.6017ms)
+✔ coalesced pen samples preserve order in bounded interop batches (8.6922ms)
+✔ double click reaches the host without changing pointer capture (6.5021ms)
+✔ two touches cancel the preview and promote to anchored pinch; remaining finger never draws (4.5616ms)
+✔ pen metadata is clamped and incidental palm touch cannot change an active pen stroke (5.782ms)
+✔ orientation and observed CSS size cancel previews once and remove observer on detach (6.4597ms)
+✔ only one writer; closing releases ownership and restores its latest successful revision (15.2996ms)
+✔ quota failure preserves the last successful bytes and allows retry (2.0432ms)
+✔ corrupt and future records preserve original bytes until an explicit recovery replacement (4.4256ms)
+✔ compare-before-write and external notifications block silent replacement (1.3831ms)
+✔ unavailable coordination cannot claim a local save (1.0295ms)
+✔ invalid revisions and oversized records never change stored bytes (18.2969ms)
+✔ document/library channels isolate keys, locks, guards, notifications and disposal (7.5499ms)
+✔ modal wraps forward/reverse Tab, redirects outside focus, and restores invoker (7.4724ms)
+✔ modal handles only its own close/commit commands and preserves IME composition (11.0711ms)
+✔ native inputs and buttons keep typing/arrows/Enter; canvas alone receives draw/move commands (3.9554ms)
+✔ removed invoker returns to canvas and help cannot commit text (7.1827ms)
+✔ aggregate bandwidth reservations share one clock and do not accumulate idle burst credit (3.1342ms)
+✔ invalid or incomplete network profiles cannot silently choose a faster rate (3.3743ms)
+✔ real concurrent responses preserve bytes and share the aggregate limit; HEAD has no body (684.0667ms)
+✔ aborting a delayed response releases its wait without sending body bytes (2.0426ms)
+✔ notice download preserves original bytes through the shared download helper, including BOM/CRLF/Unicode (102.0317ms)
+✔ missing notice file reports failure without downloading an HTML error and permits retry (4.785ms)
+✔ offline cache/read failures are visible and never create a partial download (1.9581ms)
+✔ repeat activation while the cached file is being read produces only one download (2.2473ms)
+✔ original notice bundle preserves full native/runtime/font texts and rejects changed or missing distributed text (514.9922ms)
+✔ notice capture refuses changed original material and a changed build-input lock (236.2341ms)
+✔ actual published sources map packages, SDK, linked native inputs and source-owned modules distinctly (337.0799ms)
+✔ new assemblies and unresolved notice groups cannot acquire attribution by a System prefix or package name (1.0277ms)
+✔ native AOT candidate coverage refuses a managed dependency without full notices (0.6672ms)
+✔ full notices must be installed offline with their exact integrity hashes (357.5972ms)
+✔ the licensed font and its original license cannot silently change in the shipped artifact (243.8785ms)
+✔ offline notice downloads require the exact handler and shared byte-download helper (490.1512ms)
+✔ timing summaries require executed finite samples and use nearest-rank p95 (2.8408ms)
+✔ fixture identities/groups are independent and 5000 remains an explicit refusal case (275.597ms)
+✔ an executed edit run respects retained history capacity and refuses missing edits/geometry drift (1.4358ms)
+✔ queued presentation callbacks from a disposed editor cannot report a new editor startup (4.641ms)
+✔ ordinary edit driver retains presentation samples with profiling false (29.4215ms)
+✔ ordinary edit driver retains presentation samples with profiling true (13.2256ms)
+✔ CPU phase evidence refuses missing scopes, impossible totals and mismatched draw attempts (1.3627ms)
+✔ profiled edit refuses absent CPU paint evidence rather than inventing a timing (4.3938ms)
+✔ scheduling driver waits for the second real paint and verifies two dispatches without edits (4.6101ms)
+✔ scheduling driver refuses redundant host dispatches and editor changes (5.4096ms)
+✔ disposing between scheduling paints rejects the unfinished check (1.3857ms)
+▶ reviewed inputs refuse drift without changing an existing checkout
+  ✔ complete copied input matches all pinned source hashes (194.8526ms)
+  ✔ source mutation is refused and preserved for its owner (170.3618ms)
+  ✔ unexpected source is refused and never cleaned (133.8165ms)
+  ✔ owner archive replacement is refused (11.3287ms)
+  ✔ tracked patch and newly added source copies are independently pinned (140.2501ms)
+✔ reviewed inputs refuse drift without changing an existing checkout (2252.9413ms)
+✔ base paths are canonical, scope-safe and slash terminated (8.3853ms)
+✔ subpath finalization updates only the entry hash and all its encodings; CSP hashes inline scripts (301.7397ms)
+✔ SDK generated worker encoding is regenerated from final PublishedContent (159.9553ms)
+✔ Windows CRLF import maps get parsed-content CSP hashes and a new canonical entry version (155.3735ms)
+✔ changed payload cannot be repaired by finalization or packaged under a new hash (71.0588ms)
+✔ stale gzip, orphan encodings and duplicate offline URLs are rejected (109.9665ms)
+✔ missing font and traversal URLs are rejected before reading outside publish (92.0172ms)
+✔ external entry resources and incorrect import integrity cannot pass a valid offline hash (115.9711ms)
+✔ whole artifact compressed inventory enforces the 25 MiB release gate (174.7551ms)
+✔ renderer stress requires actual 5000 edits/paints and reports no product budget (41.6257ms)
+✔ stress refuses an ordinary product count or hidden tab before reporting success (3.011ms)
+✔ closing a pending stress paint cancels measurement and old frames cannot resolve a new harness (2.3267ms)
+✔ root and subpath install use integrity-scoped absolute requests including bundled font (90.5829ms)
+✔ activation cleans only this app scope, leaving other installed apps intact (4.547ms)
+✔ update cannot activate while another editor is open (2.9468ms)
+✔ offline navigation stays in app scope and uses cached index (4.9645ms)
+▶ verified static host enforces scope, MIME, compression, cache and CSP
+  ✔ Brotli native payload uses WASM MIME, immutable fingerprint cache and the measured CSP (36.5009ms)
+  ✔ gzip preference and q=0 are honored; unfingerprinted CSS revalidates (13.3771ms)
+  ✔ HEAD supplies identity metadata with no body and no content encoding (7.382ms)
+  ✔ root redirect and scoped SPA fallback do not expose outside paths (17.6202ms)
+  ✔ missing assets, encoded separators, traversal and write methods are rejected (22.408ms)
+  ✔ worker and manifest always revalidate; mismatched hosting evidence refuses startup (39.515ms)
+✔ verified static host enforces scope, MIME, compression, cache and CSP (4349.2701ms)
+ℹ tests 79
+ℹ suites 0
+ℹ pass 79
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 5022.1349
+  Determining projects to restore...
+  Restored C:\Users\f_ald\source\repos\The-Tech-Idea\Beep.SimpleDraw\src\Beep.SimpleDraw.Web\Beep.SimpleDraw.Web.csproj (in 2.46 sec).
+  20 of 21 projects are up-to-date for restore.
+{
+  "sdk": "10.0.401",
+  "node": "24.14.0",
+  "wasmManifest": "10.0.112",
+  "wasmPack": "10.0.12",
+  "emscripten": "3.1.56",
+  "emscriptenPack": "10.0.12",
+  "configuration": "Release",
+  "framework": "net10.0",
+  "nugetLockFile": "packages.net10.lock.json",
+  "runAOTCompilation": "",
+  "stripILAfterAOT": "true",
+  "nativeSkiaVerified": true,
+  "nativeSkia": "SkiaSharp.NativeAssets.WebAssembly/4.150.1; Emscripten 3.1.56; st,simd"
+}
+  Beep.Skia.Model -> C:\Users\f_ald\source\repos\The-Tech-Idea\Beep.Skia\Beep.Skia.Model\bin\Release\net10.0\Beep.Skia.Model.dll
+  Beep.Skia -> C:\Users\f_ald\source\repos\The-Tech-Idea\Beep.Skia\Beep.Skia\bin\Release\net10.0\Beep.Skia.dll
+  Beep.Skia.ETL -> C:\Users\f_ald\source\repos\The-Tech-Idea\Beep.Skia\Beep.Skia.ETL\bin\Release\net10.0\Beep.Skia.ETL.dll
+  Beep.Skia.PM -> C:\Users\f_ald\source\repos\The-Tech-Idea\Beep.Skia\Beep.Skia.PM\bin\Release\net10.0\Beep.Skia.PM.dll
+  Beep.Skia.Cloud -> C:\Users\f_ald\source\repos\The-Tech-Idea\Beep.Skia\Beep.Skia.Cloud\bin\Release\net10.0\Beep.Skia.Cloud.dll
+  Beep.Skia.ECAD -> C:\Users\f_ald\source\repos\The-Tech-Idea\Beep.Skia\Beep.Skia.ECAD\bin\Release\net10.0\Beep.Skia.ECAD.dll
+  Beep.Skia.Business -> C:\Users\f_ald\source\repos\The-Tech-Idea\Beep.Skia\Beep.Skia.Business\bin\Release\net10.0\Beep.Skia.Business.dll
+  Beep.Skia.FlowChart -> C:\Users\f_ald\source\repos\The-Tech-Idea\Beep.Skia\Beep.Skia.FlowChart\bin\Release\net10.0\Beep.Skia.FlowChart.dll
+  Beep.Skia.Network -> C:\Users\f_ald\source\repos\The-Tech-Idea\Beep.Skia\Beep.Skia.Network\bin\Release\net10.0\Beep.Skia.Network.dll
+  Beep.Skia.ML -> C:\Users\f_ald\source\repos\The-Tech-Idea\Beep.Skia\Beep.Skia.ML\bin\Release\net10.0\Beep.Skia.ML.dll
+  Beep.Skia.ERD -> C:\Users\f_ald\source\repos\The-Tech-Idea\Beep.Skia\Beep.Skia.ERD\bin\Release\net10.0\Beep.Skia.ERD.dll
+  Beep.Skia.MindMap -> C:\Users\f_ald\source\repos\The-Tech-Idea\Beep.Skia\Beep.Skia.MindMap\bin\Release\net10.0\Beep.Skia.MindMap.dll
+  Beep.Skia.DFD -> C:\Users\f_ald\source\repos\The-Tech-Idea\Beep.Skia\Beep.Skia.DFD\bin\Release\net10.0\Beep.Skia.DFD.dll
+  Beep.Skia.UML -> C:\Users\f_ald\source\repos\The-Tech-Idea\Beep.Skia\Beep.Skia.UML\bin\Release\net10.0\Beep.Skia.UML.dll
+  Beep.Skia.WellLogs -> C:\Users\f_ald\source\repos\The-Tech-Idea\Beep.Skia\Beep.Skia.WellLogs\bin\Release\net10.0\Beep.Skia.WellLogs.dll
+  Beep.Skia.StateMachine -> C:\Users\f_ald\source\repos\The-Tech-Idea\Beep.Skia\Beep.Skia.StateMachine\bin\Release\net10.0\Beep.Skia.StateMachine.dll
+  Beep.Skia.Security -> C:\Users\f_ald\source\repos\The-Tech-Idea\Beep.Skia\Beep.Skia.Security\bin\Release\net10.0\Beep.Skia.Security.dll
+  Beep.Ski.Quantitative -> C:\Users\f_ald\source\repos\The-Tech-Idea\Beep.Skia\Beep.Ski.Quantitative\bin\Release\net10.0\Beep.Ski.Quantitative.dll
+  Beep.SimpleDraw.Core -> C:\Users\f_ald\source\repos\The-Tech-Idea\Beep.SimpleDraw\src\Beep.SimpleDraw.Core\bin\Release\net10.0\Beep.SimpleDraw.Core.dll
+  Beep.Skia.Blazor.Controls -> C:\Users\f_ald\source\repos\The-Tech-Idea\Beep.Skia\Beep.Skia.Blazor.Controls\bin\Release\net10.0\Beep.Skia.Blazor.Controls.dll
+  Beep.SimpleDraw.Web -> C:\Users\f_ald\source\repos\The-Tech-Idea\Beep.SimpleDraw\src\Beep.SimpleDraw.Web\bin\Release\net10.0\Beep.SimpleDraw.Web.dll
+  Beep.SimpleDraw.Web (Blazor output) -> C:\Users\f_ald\source\repos\The-Tech-Idea\Beep.SimpleDraw\src\Beep.SimpleDraw.Web\bin\Release\net10.0\wwwroot
+  Optimizing assemblies for size may change the behavior of the app. Be sure to test after publishing. See: https://aka.ms/dotnet-illink
+  Optimizing assemblies for size. This process might take a while.
+  Beep.Skia.Model -> C:\Users\f_ald\source\repos\The-Tech-Idea\Beep.Skia\Beep.Skia.Model\bin\Release\net10.0\Beep.Skia.Model.dll
+  Beep.Skia -> C:\Users\f_ald\source\repos\The-Tech-Idea\Beep.Skia\Beep.Skia\bin\Release\net10.0\Beep.Skia.dll
+  Beep.Skia.Security -> C:\Users\f_ald\source\repos\The-Tech-Idea\Beep.Skia\Beep.Skia.Security\bin\Release\net10.0\Beep.Skia.Security.dll
+  Beep.Skia.PM -> C:\Users\f_ald\source\repos\The-Tech-Idea\Beep.Skia\Beep.Skia.PM\bin\Release\net10.0\Beep.Skia.PM.dll
+  Beep.Skia.ECAD -> C:\Users\f_ald\source\repos\The-Tech-Idea\Beep.Skia\Beep.Skia.ECAD\bin\Release\net10.0\Beep.Skia.ECAD.dll
+  Beep.Skia.MindMap -> C:\Users\f_ald\source\repos\The-Tech-Idea\Beep.Skia\Beep.Skia.MindMap\bin\Release\net10.0\Beep.Skia.MindMap.dll
+  Beep.Skia.Network -> C:\Users\f_ald\source\repos\The-Tech-Idea\Beep.Skia\Beep.Skia.Network\bin\Release\net10.0\Beep.Skia.Network.dll
+  Beep.Skia.StateMachine -> C:\Users\f_ald\source\repos\The-Tech-Idea\Beep.Skia\Beep.Skia.StateMachine\bin\Release\net10.0\Beep.Skia.StateMachine.dll
+  Beep.Skia.DFD -> C:\Users\f_ald\source\repos\The-Tech-Idea\Beep.Skia\Beep.Skia.DFD\bin\Release\net10.0\Beep.Skia.DFD.dll
+  Beep.Skia.ERD -> C:\Users\f_ald\source\repos\The-Tech-Idea\Beep.Skia\Beep.Skia.ERD\bin\Release\net10.0\Beep.Skia.ERD.dll
+  Beep.Ski.Quantitative -> C:\Users\f_ald\source\repos\The-Tech-Idea\Beep.Skia\Beep.Ski.Quantitative\bin\Release\net10.0\Beep.Ski.Quantitative.dll
+  Beep.Skia.ML -> C:\Users\f_ald\source\repos\The-Tech-Idea\Beep.Skia\Beep.Skia.ML\bin\Release\net10.0\Beep.Skia.ML.dll
+  Beep.Skia.Business -> C:\Users\f_ald\source\repos\The-Tech-Idea\Beep.Skia\Beep.Skia.Business\bin\Release\net10.0\Beep.Skia.Business.dll
+  Beep.Skia.Cloud -> C:\Users\f_ald\source\repos\The-Tech-Idea\Beep.Skia\Beep.Skia.Cloud\bin\Release\net10.0\Beep.Skia.Cloud.dll
+  Beep.Skia.ETL -> C:\Users\f_ald\source\repos\The-Tech-Idea\Beep.Skia\Beep.Skia.ETL\bin\Release\net10.0\Beep.Skia.ETL.dll
+  Beep.Skia.FlowChart -> C:\Users\f_ald\source\repos\The-Tech-Idea\Beep.Skia\Beep.Skia.FlowChart\bin\Release\net10.0\Beep.Skia.FlowChart.dll
+  Beep.Skia.WellLogs -> C:\Users\f_ald\source\repos\The-Tech-Idea\Beep.Skia\Beep.Skia.WellLogs\bin\Release\net10.0\Beep.Skia.WellLogs.dll
+  Beep.Skia.UML -> C:\Users\f_ald\source\repos\The-Tech-Idea\Beep.Skia\Beep.Skia.UML\bin\Release\net10.0\Beep.Skia.UML.dll
+  Beep.SimpleDraw.Core -> C:\Users\f_ald\source\repos\The-Tech-Idea\Beep.SimpleDraw\src\Beep.SimpleDraw.Core\bin\Release\net10.0\Beep.SimpleDraw.Core.dll
+  Beep.Skia.Blazor.Controls -> C:\Users\f_ald\source\repos\The-Tech-Idea\Beep.Skia\Beep.Skia.Blazor.Controls\bin\Release\net10.0\Beep.Skia.Blazor.Controls.dll
+  Optimizing assemblies for size may change the behavior of the app. Be sure to test after publishing. See: https://aka.ms/dotnet-illink
+  Compiling native assets with C:\Program Files\dotnet\packs\Microsoft.NET.Runtime.Emscripten.3.1.56.Sdk.win-x64\10.0.12\Sdk\..\tools\emscripten\emcc with -Oz. This may take a while ...
+  [1/4] corebindings.c -> corebindings.o [took 3.64s]
+  [2/4] driver.c -> driver.o [took 3.71s]
+  [3/4] runtime.c -> runtime.o [took 3.77s]
+  [4/4] pinvoke.c -> pinvoke.o [took 4.16s]
+  Linking for initial memory $(WasmInitialHeapSize)=33554432 bytes. Set this msbuild property to change the value.
+  Linking with emcc with -O2. This may take a while ...
+   "C:\Program Files\dotnet\packs\Microsoft.NET.Runtime.Emscripten.3.1.56.Sdk.win-x64\10.0.12\tools\bin\clang.exe" --version
+   "C:\Program Files\dotnet\packs\Microsoft.NET.Runtime.Emscripten.3.1.56.Node.win-x64\10.0.12\tools\bin\node.exe" "C:\Program Files\dotnet\packs\Microsoft.NET.Runtime.Emscripten.3.1.56.Sdk.win-x64\10.0.12\tools\emscripten\src\compiler.mjs" C:\Users\f_ald\AppData\Local\Temp\tmpmq4t5pm7.json --symbols-only
+   "C:\Program Files\dotnet\packs\Microsoft.NET.Runtime.Emscripten.3.1.56.Sdk.win-x64\10.0.12\tools\bin\wasm-ld.exe" -o C:\Users\f_ald\source\repos\The-Tech-Idea\Beep.SimpleDraw\src\Beep.SimpleDraw.Web\obj\Release\net10.0\wasm\for-publish\dotnet.native.wasm C:\Users\f_ald\source\repos\The-Tech-Idea\Beep.SimpleDraw\src\Beep.SimpleDraw.Web\obj\Release\net10.0\wasm\for-publish\pinvoke.o C:\Users\f_ald\source\repos\The-Tech-Idea\Beep.SimpleDraw\src\Beep.SimpleDraw.Web\obj\Release\net10.0\wasm\for-publish\driver.o C:\Users\f_ald\source\repos\The-Tech-Idea\Beep.SimpleDraw\src\Beep.SimpleDraw.Web\obj\Release\net10.0\wasm\for-publish\corebindings.o C:\Users\f_ald\source\repos\The-Tech-Idea\Beep.SimpleDraw\src\Beep.SimpleDraw.Web\obj\Release\net10.0\wasm\for-publish\runtime.o "C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Runtime.Mono.browser-wasm\10.0.12\runtimes\browser-wasm\native\libbrotlicommon.a" "C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Runtime.Mono.browser-wasm\10.0.12\runtimes\browser-wasm\native\libbrotlidec.a" "C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Runtime.Mono.browser-wasm\10.0.12\runtimes\browser-wasm\native\libbrotlienc.a" "C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Runtime.Mono.browser-wasm\10.0.12\runtimes\browser-wasm\native\libicudata.a" "C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Runtime.Mono.browser-wasm\10.0.12\runtimes\browser-wasm\native\libicui18n.a" "C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Runtime.Mono.browser-wasm\10.0.12\runtimes\browser-wasm\native\libicuuc.a" "C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Runtime.Mono.browser-wasm\10.0.12\runtimes\browser-wasm\native\libmono-component-debugger-stub-static.a" "C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Runtime.Mono.browser-wasm\10.0.12\runtimes\browser-wasm\native\libmono-component-diagnostics_tracing-stub-static.a" "C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Runtime.Mono.browser-wasm\10.0.12\runtimes\browser-wasm\native\libmono-component-hot_reload-stub-static.a" "C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Runtime.Mono.browser-wasm\10.0.12\runtimes\browser-wasm\native\libmono-component-marshal-ilgen-static.a" "C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Runtime.Mono.browser-wasm\10.0.12\runtimes\browser-wasm\native\libmono-ee-interp.a" "C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Runtime.Mono.browser-wasm\10.0.12\runtimes\browser-wasm\native\libmono-icall-table.a" "C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Runtime.Mono.browser-wasm\10.0.12\runtimes\browser-wasm\native\libmono-profiler-aot.a" "C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Runtime.Mono.browser-wasm\10.0.12\runtimes\browser-wasm\native\libmono-profiler-browser.a" "C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Runtime.Mono.browser-wasm\10.0.12\runtimes\browser-wasm\native\libmono-profiler-log.a" "C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Runtime.Mono.browser-wasm\10.0.12\runtimes\browser-wasm\native\libmono-wasm-eh-wasm.a" "C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Runtime.Mono.browser-wasm\10.0.12\runtimes\browser-wasm\native\libmono-wasm-simd.a" "C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Runtime.Mono.browser-wasm\10.0.12\runtimes\browser-wasm\native\libmonosgen-2.0.a" "C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Runtime.Mono.browser-wasm\10.0.12\runtimes\browser-wasm\native\libSystem.Globalization.Native.a" "C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Runtime.Mono.browser-wasm\10.0.12\runtimes\browser-wasm\native\libSystem.IO.Compression.Native.a" "C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Runtime.Mono.browser-wasm\10.0.12\runtimes\browser-wasm\native\libSystem.Native.a" "C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Runtime.Mono.browser-wasm\10.0.12\runtimes\browser-wasm\native\libz.a" "C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Runtime.Mono.browser-wasm\10.0.12\runtimes\browser-wasm\native\wasm-bundled-timezones.a" C:\Users\f_ald\source\repos\The-Tech-Idea\Beep.SimpleDraw\artifacts\packages\skiasharp.nativeassets.webassembly\4.150.1\buildTransitive\netstandard1.0\libSkiaSharp.a\3.1.56\st,simd\libSkiaSharp.a "-LC:\Program Files\dotnet\packs\Microsoft.NET.Runtime.Emscripten.3.1.56.Cache.win-x64\10.0.12\tools\emscripten\cache\sysroot\lib\wasm32-emscripten" -lGL-webgl2-getprocaddr -lal -lhtml5 -lbulkmemory -lstubs -lc -ldlmalloc -lcompiler_rt-wasm-sjlj -lc++-except -lc++abi-except -lunwind-except -lsockets -mllvm -combiner-global-alias-analysis=false -mllvm -wasm-enable-sjlj -mllvm -disable-lsr -mllvm -wasm-enable-eh -mllvm -exception-model=wasm C:\Users\f_ald\AppData\Local\Temp\tmpnkvi7lr7libemscripten_js_symbols.so --export=free --export=htons --export=malloc --export=sbrk --export=memalign --export=posix_memalign --export=memset --export=ntohs --export=stackAlloc --export=stackRestore --export=stackSave --export=fmod --export=atan2 --export=fma --export=pow --export=fmodf --export=atan2f --export=fmaf --export=powf --export=asin --export=asinh --export=acos --export=acosh --export=atan --export=atanh --export=cbrt --export=cos --export=cosh --export=exp --export=log --export=log2 --export=log10 --export=sin --export=sinh --export=tan --export=tanh --export=asinf --export=asinhf --export=acosf --export=acoshf --export=atanf --export=atanhf --export=cbrtf --export=cosf --export=coshf --export=expf --export=logf --export=log2f --export=log10f --export=sinf --export=sinhf --export=tanf --export=tanhf --export=__cpp_exception --export=stackAlloc --export=__funcs_on_exit --export=__trap --export=__wasm_call_ctors --export=stackSave --export=stackRestore --export-if-defined=__start_em_asm --export-if-defined=__stop_em_asm --export-if-defined=__start_em_lib_deps --export-if-defined=__stop_em_lib_deps --export-if-defined=__start_em_js --export-if-defined=__stop_em_js --export-if-defined=fflush --export-table --growable-table -z stack-size=5242880 --max-memory=2147483648 --initial-memory=33554432 --no-entry --table-base=1 --global-base=1024
+   "C:\Program Files\dotnet\packs\Microsoft.NET.Runtime.Emscripten.3.1.56.Sdk.win-x64\10.0.12\tools\bin\llvm-objcopy.exe" C:\Users\f_ald\source\repos\The-Tech-Idea\Beep.SimpleDraw\src\Beep.SimpleDraw.Web\obj\Release\net10.0\wasm\for-publish\dotnet.native.wasm C:\Users\f_ald\source\repos\The-Tech-Idea\Beep.SimpleDraw\src\Beep.SimpleDraw.Web\obj\Release\net10.0\wasm\for-publish\dotnet.native.wasm --remove-section=producers
+   "C:\Program Files\dotnet\packs\Microsoft.NET.Runtime.Emscripten.3.1.56.Node.win-x64\10.0.12\tools\bin\node.exe" "C:\Program Files\dotnet\packs\Microsoft.NET.Runtime.Emscripten.3.1.56.Sdk.win-x64\10.0.12\tools\emscripten\src\compiler.mjs" C:\Users\f_ald\AppData\Local\Temp\tmpy2ch11p2.json
+   "C:\Program Files\dotnet\packs\Microsoft.NET.Runtime.Emscripten.3.1.56.Sdk.win-x64\10.0.12\tools\bin\wasm-opt" --strip-target-features --post-emscripten -O2 --low-memory-unused --zero-filled-memory --pass-arg=directize-initial-contents-immutable C:\Users\f_ald\source\repos\The-Tech-Idea\Beep.SimpleDraw\src\Beep.SimpleDraw.Web\obj\Release\net10.0\wasm\for-publish\dotnet.native.wasm -o C:\Users\f_ald\source\repos\The-Tech-Idea\Beep.SimpleDraw\src\Beep.SimpleDraw.Web\obj\Release\net10.0\wasm\for-publish\dotnet.native.wasm -g --mvp-features --enable-bulk-memory --enable-exception-handling --enable-multivalue --enable-mutable-globals --enable-reference-types --enable-sign-ext --enable-simd
+  Beep.SimpleDraw.Web -> C:\Users\f_ald\source\repos\The-Tech-Idea\Beep.SimpleDraw\artifacts\default-skia-docked-workspace-final\publish\
+{"basePath":"/draw/","offlineVersion":"a334fb7fd7a43084","offlineAssets":151,"totals":{"identity":30914103,"br":8457115,"gzip":11138088},"budget":{"compressedInventoryLimit":26214400,"passed":true,"scope":"Whole wwwroot inventory using .br when present, identity otherwise. Not an observed cold network transfer."}}
+{"runtimePayloads":117,"usedNoticeGroups":39,"bundle":{"groups":45,"originalTexts":21,"files":24}}
+{"packages":56,"sourceFiles":498,"basePath":"/draw/"}
+Verified all 453 ZIP payload entries against wwwroot.
+Verified static release: C:\Users\f_ald\source\repos\The-Tech-Idea\Beep.SimpleDraw\artifacts\default-skia-docked-workspace-final

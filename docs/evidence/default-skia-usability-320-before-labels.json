@@ -1,0 +1,118 @@
+[
+  {
+    "family": "FlowChart",
+    "count": 36,
+    "overflow": [],
+    "scroll": 108,
+    "width": 108
+  },
+  {
+    "family": "UML",
+    "count": 19,
+    "overflow": [],
+    "scroll": 108,
+    "width": 108
+  },
+  {
+    "family": "ERD",
+    "count": 3,
+    "overflow": [],
+    "scroll": 123,
+    "width": 123
+  },
+  {
+    "family": "MindMap",
+    "count": 4,
+    "overflow": [],
+    "scroll": 123,
+    "width": 123
+  },
+  {
+    "family": "Network",
+    "count": 11,
+    "overflow": [],
+    "scroll": 108,
+    "width": 108
+  },
+  {
+    "family": "Business",
+    "count": 26,
+    "overflow": [],
+    "scroll": 108,
+    "width": 108
+  },
+  {
+    "family": "Cloud",
+    "count": 22,
+    "overflow": [],
+    "scroll": 108,
+    "width": 108
+  },
+  {
+    "family": "DFD",
+    "count": 17,
+    "overflow": [],
+    "scroll": 108,
+    "width": 108
+  },
+  {
+    "family": "ECAD",
+    "count": 17,
+    "overflow": [
+      "ECADMicrocontroller Node"
+    ],
+    "scroll": 120,
+    "width": 108
+  },
+  {
+    "family": "ETL",
+    "count": 21,
+    "overflow": [],
+    "scroll": 108,
+    "width": 108
+  },
+  {
+    "family": "ML",
+    "count": 18,
+    "overflow": [
+      "MLHyperparameter Tuning Node"
+    ],
+    "scroll": 112,
+    "width": 108
+  },
+  {
+    "family": "PM",
+    "count": 13,
+    "overflow": [],
+    "scroll": 108,
+    "width": 108
+  },
+  {
+    "family": "Security",
+    "count": 9,
+    "overflow": [],
+    "scroll": 108,
+    "width": 108
+  },
+  {
+    "family": "StateMachine",
+    "count": 8,
+    "overflow": [],
+    "scroll": 108,
+    "width": 108
+  },
+  {
+    "family": "Quantitative",
+    "count": 24,
+    "overflow": [],
+    "scroll": 108,
+    "width": 108
+  },
+  {
+    "family": "WellLogs",
+    "count": 1,
+    "overflow": [],
+    "scroll": 123,
+    "width": 123
+  }
+]

@@ -1,0 +1,18 @@
+version: 2
+updates:
+  - package-ecosystem: github-actions
+    directory: /
+    schedule:
+      interval: weekly
+    open-pull-requests-limit: 5
+  - package-ecosystem: nuget
+    directories:
+      - /src/Beep.SimpleDraw.Core
+      - /src/Beep.SimpleDraw.Web
+      - /tests/Beep.SimpleDraw.Tests
+    schedule:
+      interval: weekly
+    open-pull-requests-limit: 5
+    ignore:
+      - dependency-name: TheTechIdea.Beep.DataManagementModels
+      - dependency-name: TheTechIdea.Beep.Vis.Modules

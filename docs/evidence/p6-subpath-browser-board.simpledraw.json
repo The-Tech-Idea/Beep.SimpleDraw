@@ -1,0 +1,171 @@
+{
+  "format": "beep.simpledraw",
+  "version": 6,
+  "diagram": {
+    "schemaVersion": 3,
+    "themeName": "Light",
+    "components": [
+      {
+        "id": "cb72d165-e64c-4557-968c-a2b1b4bcf805",
+        "type": "Beep.Skia.Flowchart.ProcessNode",
+        "x": 310,
+        "y": 287,
+        "width": 160,
+        "height": 70,
+        "name": "Flowchart Process",
+        "propertyBag": {
+          "InPortCount": "2",
+          "OutPortCount": "2",
+          "CustomFillColor": "",
+          "CustomStrokeColor": "",
+          "CustomTextColor": "",
+          "Label": "Prepare",
+          "ShowTopBottomPorts": "False",
+          "NodeStrokeWidth": "2",
+          "LabelFontSize": "14",
+          "GroupId": "d9f12ba3-a987-454d-8933-70d5b17e9a4e"
+        },
+        "typedPropertyBag": {},
+        "inPointIds": [
+          "60e10b12-990c-4fd4-90d3-aa6a642773f8",
+          "9f7a2073-869f-490b-8143-974fa237e5ec"
+        ],
+        "outPointIds": [
+          "e325f63e-4fcc-4d18-b65d-474f44266f5b",
+          "e4f816cf-8416-42c3-9ddb-daef05fed9e9"
+        ]
+      },
+      {
+        "id": "6b367c5c-4fac-4073-9b62-2bdcc3a32653",
+        "type": "Beep.Skia.Flowchart.DecisionNode",
+        "x": 560,
+        "y": 277,
+        "width": 140,
+        "height": 100,
+        "name": "Flowchart Decision",
+        "propertyBag": {
+          "InPortCount": "1",
+          "OutPortCount": "2",
+          "CustomFillColor": "",
+          "CustomStrokeColor": "",
+          "CustomTextColor": "",
+          "Label": "Ready?",
+          "ShowTopBottomPorts": "False",
+          "NodeStrokeWidth": "2",
+          "LabelFontSize": "14",
+          "GroupId": "d9f12ba3-a987-454d-8933-70d5b17e9a4e"
+        },
+        "typedPropertyBag": {},
+        "inPointIds": [
+          "ef217be8-63d4-490e-9cca-08e107a72b52"
+        ],
+        "outPointIds": [
+          "2fd0fc7c-af49-4418-a76c-8ab0d4881339",
+          "97f5c6f7-f0d1-4906-b5ca-8ff31e3d9ffc"
+        ]
+      },
+      {
+        "id": "b5a6ff62-4c0c-4d81-b9e7-37abfb17d098",
+        "type": "Beep.Skia.Flowchart.StartEndNode",
+        "x": 810,
+        "y": 287,
+        "width": 140,
+        "height": 56,
+        "name": "Flowchart Terminator",
+        "propertyBag": {
+          "InPortCount": "1",
+          "OutPortCount": "1",
+          "CustomFillColor": "",
+          "CustomStrokeColor": "",
+          "CustomTextColor": "",
+          "Label": "Finish",
+          "ShowTopBottomPorts": "False",
+          "NodeStrokeWidth": "2",
+          "LabelFontSize": "14",
+          "GroupId": "d9f12ba3-a987-454d-8933-70d5b17e9a4e"
+        },
+        "typedPropertyBag": {},
+        "inPointIds": [
+          "7167db0d-5c02-4c86-8744-7c44ed582a69"
+        ],
+        "outPointIds": [
+          "780854bb-200d-412c-9cec-2ee7ff448416"
+        ]
+      }
+    ],
+    "lines": [
+      {
+        "startPointId": "e325f63e-4fcc-4d18-b65d-474f44266f5b",
+        "endPointId": "ef217be8-63d4-490e-9cca-08e107a72b52",
+        "startComponentIndex": -1,
+        "endComponentIndex": -1,
+        "showStartArrow": false,
+        "showEndArrow": true,
+        "label1": null,
+        "label2": null,
+        "label3": null,
+        "dataTypeLabel": "",
+        "guardCondition": null,
+        "transitionAction": null,
+        "triggerEvent": null,
+        "lineColor": 4281549141,
+        "routingMode": 0,
+        "flowDirection": 0,
+        "label1Placement": 0,
+        "label2Placement": 0,
+        "label3Placement": 2,
+        "dataLabelPlacement": 1,
+        "arrowSize": 10,
+        "dashPattern": null,
+        "showStatusIndicator": false,
+        "status": 0,
+        "statusColor": 4285098345,
+        "isAnimated": false,
+        "isDataFlowAnimated": false,
+        "dataFlowSpeed": 100,
+        "dataFlowParticleSize": 4,
+        "dataFlowColor": 4278190335,
+        "startMultiplicity": 0,
+        "endMultiplicity": 0,
+        "schemaJson": null,
+        "expectedSchemaJson": null
+      },
+      {
+        "startPointId": "2fd0fc7c-af49-4418-a76c-8ab0d4881339",
+        "endPointId": "7167db0d-5c02-4c86-8744-7c44ed582a69",
+        "startComponentIndex": -1,
+        "endComponentIndex": -1,
+        "showStartArrow": false,
+        "showEndArrow": true,
+        "label1": null,
+        "label2": null,
+        "label3": "Yes",
+        "dataTypeLabel": "",
+        "guardCondition": null,
+        "transitionAction": null,
+        "triggerEvent": null,
+        "lineColor": 4281549141,
+        "routingMode": 0,
+        "flowDirection": 0,
+        "label1Placement": 0,
+        "label2Placement": 0,
+        "label3Placement": 2,
+        "dataLabelPlacement": 1,
+        "arrowSize": 10,
+        "dashPattern": null,
+        "showStatusIndicator": false,
+        "status": 0,
+        "statusColor": 4285098345,
+        "isAnimated": false,
+        "isDataFlowAnimated": false,
+        "dataFlowSpeed": 100,
+        "dataFlowParticleSize": 4,
+        "dataFlowColor": 4278190335,
+        "startMultiplicity": 0,
+        "endMultiplicity": 0,
+        "schemaJson": null,
+        "expectedSchemaJson": null
+      }
+    ]
+  }
+}

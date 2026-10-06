@@ -1,0 +1,38 @@
+  Beep.Skia.Model -> C:\Users\f_ald\source\repos\The-Tech-Idea\Beep.Skia\Beep.Skia.Model\bin\Release\net10.0\Beep.Skia.Model.dll
+  Beep.Skia -> C:\Users\f_ald\source\repos\The-Tech-Idea\Beep.Skia\Beep.Skia\bin\Release\net10.0\Beep.Skia.dll
+  Beep.Skia.UML -> C:\Users\f_ald\source\repos\The-Tech-Idea\Beep.Skia\Beep.Skia.UML\bin\Release\net10.0\Beep.Skia.UML.dll
+  Beep.Skia.StateMachine -> C:\Users\f_ald\source\repos\The-Tech-Idea\Beep.Skia\Beep.Skia.StateMachine\bin\Release\net10.0\Beep.Skia.StateMachine.dll
+  Beep.Ski.Quantitative -> C:\Users\f_ald\source\repos\The-Tech-Idea\Beep.Skia\Beep.Ski.Quantitative\bin\Release\net10.0\Beep.Ski.Quantitative.dll
+  Beep.Skia.DFD -> C:\Users\f_ald\source\repos\The-Tech-Idea\Beep.Skia\Beep.Skia.DFD\bin\Release\net10.0\Beep.Skia.DFD.dll
+  Beep.Skia.FlowChart -> C:\Users\f_ald\source\repos\The-Tech-Idea\Beep.Skia\Beep.Skia.FlowChart\bin\Release\net10.0\Beep.Skia.FlowChart.dll
+  Beep.Skia.Cloud -> C:\Users\f_ald\source\repos\The-Tech-Idea\Beep.Skia\Beep.Skia.Cloud\bin\Release\net10.0\Beep.Skia.Cloud.dll
+  Beep.Skia.Network -> C:\Users\f_ald\source\repos\The-Tech-Idea\Beep.Skia\Beep.Skia.Network\bin\Release\net10.0\Beep.Skia.Network.dll
+  Beep.Skia.Security -> C:\Users\f_ald\source\repos\The-Tech-Idea\Beep.Skia\Beep.Skia.Security\bin\Release\net10.0\Beep.Skia.Security.dll
+  Beep.Skia.MindMap -> C:\Users\f_ald\source\repos\The-Tech-Idea\Beep.Skia\Beep.Skia.MindMap\bin\Release\net10.0\Beep.Skia.MindMap.dll
+  Beep.Skia.ML -> C:\Users\f_ald\source\repos\The-Tech-Idea\Beep.Skia\Beep.Skia.ML\bin\Release\net10.0\Beep.Skia.ML.dll
+  Beep.Skia.ERD -> C:\Users\f_ald\source\repos\The-Tech-Idea\Beep.Skia\Beep.Skia.ERD\bin\Release\net10.0\Beep.Skia.ERD.dll
+  Beep.Skia.ECAD -> C:\Users\f_ald\source\repos\The-Tech-Idea\Beep.Skia\Beep.Skia.ECAD\bin\Release\net10.0\Beep.Skia.ECAD.dll
+  Beep.Skia.WellLogs -> C:\Users\f_ald\source\repos\The-Tech-Idea\Beep.Skia\Beep.Skia.WellLogs\bin\Release\net10.0\Beep.Skia.WellLogs.dll
+  Beep.Skia.ETL -> C:\Users\f_ald\source\repos\The-Tech-Idea\Beep.Skia\Beep.Skia.ETL\bin\Release\net10.0\Beep.Skia.ETL.dll
+  Beep.Skia.PM -> C:\Users\f_ald\source\repos\The-Tech-Idea\Beep.Skia\Beep.Skia.PM\bin\Release\net10.0\Beep.Skia.PM.dll
+  Beep.Skia.Business -> C:\Users\f_ald\source\repos\The-Tech-Idea\Beep.Skia\Beep.Skia.Business\bin\Release\net10.0\Beep.Skia.Business.dll
+  Beep.SimpleDraw.Core -> C:\Users\f_ald\source\repos\The-Tech-Idea\Beep.SimpleDraw\src\Beep.SimpleDraw.Core\bin\Release\net10.0\Beep.SimpleDraw.Core.dll
+  Beep.SimpleDraw.Tests -> C:\Users\f_ald\source\repos\The-Tech-Idea\Beep.SimpleDraw\tests\Beep.SimpleDraw.Tests\bin\Release\net10.0\Beep.SimpleDraw.Tests.dll
+Test run for C:\Users\f_ald\source\repos\The-Tech-Idea\Beep.SimpleDraw\tests\Beep.SimpleDraw.Tests\bin\Release\net10.0\Beep.SimpleDraw.Tests.dll (.NETCoreApp,Version=v10.0)
+A total of 1 test files matched the specified pattern.
+[xUnit.net 00:00:02.10]     Beep.SimpleDraw.Tests.ConnectorIntegrationTests.ActualBrowserConnectedFilesPreserveBranchesCopiesAndPortableExportBounds [FAIL]
+  Failed Beep.SimpleDraw.Tests.ConnectorIntegrationTests.ActualBrowserConnectedFilesPreserveBranchesCopiesAndPortableExportBounds [11 ms]
+  Error Message:
+   Assert.Equal() Failure: Strings differ
+                                   ↓ (pos 46)
+Expected: ···"draw",\n  "version": 6,\n  "diagram": {\n   "···
+Actual:   ···"draw",\n  "version": 7,\n  "diagram": {\n   "···
+                                   ↑ (pos 46)
+  Stack Trace:
+     at Beep.SimpleDraw.Tests.ConnectorIntegrationTests.ActualBrowserConnectedFilesPreserveBranchesCopiesAndPortableExportBounds() in C:\Users\f_ald\source\repos\The-Tech-Idea\Beep.SimpleDraw\tests\Beep.SimpleDraw.Tests\ConnectorIntegrationTests.cs:line 21
+   at System.Reflection.MethodBaseInvoker.InterpretedInvoke_Method(Object obj, IntPtr* args)
+   at System.Reflection.MethodBaseInvoker.InvokeWithNoArgs(Object obj, BindingFlags invokeAttr)
+WARNING: Overwriting results file: C:\Users\f_ald\source\repos\The-Tech-Idea\Beep.SimpleDraw\docs\evidence\default-skia.trx
+Results File: C:\Users\f_ald\source\repos\The-Tech-Idea\Beep.SimpleDraw\docs\evidence\default-skia.trx
+
+Failed!  - Failed:     1, Passed:   539, Skipped:     0, Total:   540, Duration: 12 s - Beep.SimpleDraw.Tests.dll (net10.0)

@@ -1,0 +1,71 @@
+{
+  "scrollWidth": 320,
+  "selectedWidth": {
+    "border": "rgb(109, 40, 217)",
+    "borderWidth": "2px"
+  },
+  "styleRect": {
+    "height": 316,
+    "width": 224,
+    "x": 12,
+    "y": 238
+  },
+  "tools": [
+    {
+      "height": 44,
+      "label": "Select",
+      "width": 44
+    },
+    {
+      "height": 44,
+      "label": "Hand",
+      "width": 44
+    },
+    {
+      "height": 44,
+      "label": "Rectangle",
+      "width": 44
+    },
+    {
+      "height": 44,
+      "label": "Ellipse",
+      "width": 44
+    },
+    {
+      "height": 44,
+      "label": "Diamond",
+      "width": 44
+    },
+    {
+      "height": 44,
+      "label": "Line",
+      "width": 44
+    },
+    {
+      "height": 44,
+      "label": "Arrow",
+      "width": 44
+    },
+    {
+      "height": 44,
+      "label": "Pen",
+      "width": 44
+    },
+    {
+      "height": 44,
+      "label": "Text",
+      "width": 44
+    },
+    {
+      "height": 44,
+      "label": "Eraser",
+      "width": 44
+    },
+    {
+      "height": 44,
+      "label": "Delete selected",
+      "width": 44
+    }
+  ],
+  "width": 320
+}

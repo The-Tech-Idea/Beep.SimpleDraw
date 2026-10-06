@@ -1,0 +1,10 @@
+{
+  "method": "Every physical published wwwroot file compared by SHA256, including identity and compressed bytes",
+  "roots": [
+    "artifacts/p6-performance-leaves/publish/wwwroot",
+    "artifacts/p6-performance-verified/publish/wwwroot"
+  ],
+  "comparedFiles": 327,
+  "changed": [],
+  "payloadEqual": true
+}

@@ -1,0 +1,15 @@
+{
+  "sdk": "10.0.401",
+  "node": "24.14.0",
+  "wasmManifest": "10.0.112",
+  "wasmPack": "10.0.12",
+  "emscripten": "3.1.56",
+  "emscriptenPack": "10.0.12",
+  "configuration": "Release",
+  "framework": "net10.0",
+  "nugetLockFile": "packages.net10.lock.json",
+  "runAOTCompilation": "",
+  "stripILAfterAOT": "true",
+  "nativeSkiaVerified": true,
+  "nativeSkia": "SkiaSharp.NativeAssets.WebAssembly/4.150.1; Emscripten 3.1.56; st,simd"
+}

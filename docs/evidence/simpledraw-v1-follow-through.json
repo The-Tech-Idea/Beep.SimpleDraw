@@ -1,0 +1,21 @@
+{
+  "objects": 1000,
+  "files": [
+    "Drawing.simpledraw (59).json",
+    "Drawing.simpledraw (60).json",
+    "Drawing.simpledraw (61).json"
+  ],
+  "version": 7,
+  "committedEditsPerRun": 140,
+  "repeatedEditingNativeExact": true,
+  "samplesPerRun": 120,
+  "budgetMs": 50,
+  "sha256": "f8659bdc2b97d11797e01235830d44a9bb278faf412f4b2237805eac2b6179cd",
+  "candidate": "artifacts/simpledraw-v1-final",
+  "offlineReloadAndNativeExportExact": true,
+  "p95Ms": [
+    25.600000023841858,
+    26.199999928474426
+  ],
+  "bytes": 714792
+}

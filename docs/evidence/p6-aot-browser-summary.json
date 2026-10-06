@@ -1,0 +1,39 @@
+{
+  "decision": "AOT rejected and its production flag/package reverted: both measured p95 runs exceed 50 ms.",
+  "baseline": [
+    {
+      "medianMs": 48.60000002384186,
+      "p95Ms": 50.5,
+      "maxMs": 68,
+      "budgetPassed": false
+    }
+  ],
+  "aot": [
+    {
+      "medianMs": 48.700000047683716,
+      "p95Ms": 50.59999990463257,
+      "maxMs": 51.700000047683716,
+      "budgetPassed": false
+    },
+    {
+      "medianMs": 48.699999928474426,
+      "p95Ms": 50.60000002384186,
+      "maxMs": 60.5,
+      "budgetPassed": false
+    }
+  ],
+  "nativeRoundtrip": {
+    "byteIdentical": true,
+    "bytes": 714792,
+    "sha256": "6f23948d6a7a4d386962f1c44a5781b24da4d1a1be790d93423e7190f7a59343"
+  },
+  "candidate": {
+    "offlineVersion": "7e72b91b309ca7b5",
+    "brotliBytes": 13945104
+  },
+  "limitations": [
+    "Desktop IAB Chromium only; no physical-device or other-engine claim.",
+    "Local navigation startup is not a shaped-network or cold-process measurement.",
+    "AOT/native correctness and green build gates do not establish editing performance."
+  ]
+}

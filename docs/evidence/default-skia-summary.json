@@ -1,0 +1,46 @@
+{
+  "date": "2026-10-06",
+  "candidate": "artifacts/default-skia-catalog-final-v2",
+  "preview": "http://127.0.0.1:5243/draw/",
+  "catalog": {
+    "families": 16,
+    "auditedComponents": 250,
+    "standaloneFactories": 249,
+    "excludedEdge": "NetworkLink"
+  },
+  "tests": {
+    "appCsharpPassed": 542,
+    "javascriptPassed": 77,
+    "ordinaryBeepSkiaPassed": 504
+  },
+  "source": {
+    "files": 498,
+    "sha256": "313d956c5a87cbc6fc8016335a80c77616462f3be12faf2db033136d4c85d777"
+  },
+  "browser": {
+    "engine": "Codex in-app Chromium",
+    "umlClassName": "Customer",
+    "nativeVersion": 7,
+    "propertyEditUndoRedo": true,
+    "nativeFileReopened": true,
+    "stoppedServerPort": 5245,
+    "listenersWhenStopped": 0,
+    "offlineReloadRestoredObjects": 1,
+    "offlineERDInsertionObjects": 2,
+    "originalPreviewUpdateRestoredObjects": 7,
+    "originalDiagramPreservedExceptEnvelopeVersion": true
+  },
+  "packaging": {
+    "archives": 56,
+    "offlineAssets": 151,
+    "zipEntries": 453,
+    "runtimePayloadMappings": 117,
+    "brotliInventoryBytes": 8456214,
+    "offlineVersion": "b900747fc2ad94c9"
+  },
+  "limitations": [
+    "All 249 entries covered by managed contract/export tests; browser smoke covers UML and ERD, not all combinations.",
+    "New catalog performance and physical device/screen-reader/other-engine certification not measured.",
+    "Public-host/hosted-CI and independent acceptance remain separate release prerequisites."
+  ]
+}

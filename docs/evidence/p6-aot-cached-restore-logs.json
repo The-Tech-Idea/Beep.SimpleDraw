@@ -1,0 +1,8 @@
+[
+  {
+    "level": "error",
+    "message": "[MONO] * Assertion: should not be reached at /__w/1/s/src/runtime/src/mono/mono/mini/interp/interp.c:4135\n\nError\n    at Mc (http://127.0.0.1:5236/draw/_framework/dotnet.runtime.v06hirbjsv.js:3:172284)\n    at http://127.0.0.1:5236/draw/_framework/dotnet.native.zqbyjfrqja.wasm:wasm-function[28676]:0x751a9f\n    at http://127.0.0.1:5236/draw/_framework/dotnet.native.zqbyjfrqja.wasm:wasm-function[1094]:0x4affb\n    at http://127.0.0.1:5236/draw/_framework/dotnet.native.zqbyjfrqja.wasm:wasm-function[999]:0x492a0\n    at http://127.0.0.1:5236/draw/_framework/dotnet.native.zqbyjfrqja.wasm:wasm-function[1003]:0x493c8\n    at http://127.0.0.1:5236/draw/_framework/dotnet.native.zqbyjfrqja.wasm:wasm-function[1006]:0x49431\n    at http://127.0.0.1:5236/draw/_framework/dotnet.native.zqbyjfrqja.wasm:wasm-function[258]:0x143b3\n    at http://127.0.0.1:5236/draw/_framework/dotnet.native.zqbyjfrqja.wasm:wasm-function[308]:0x225ad\n    at http://127.0.0.1:5236/draw/_framework/dotnet.native.zqbyjfrqja.wasm:wasm-function[4448]:0xe864c\n    at http://127.0.0.1:5236/draw/_framework/dotnet.native.zqbyjfrqja.wasm:wasm-function[3368]:0xb83db",
+    "timestamp": "2026-10-05T20:47:05.095Z",
+    "url": "http://127.0.0.1:5236/draw/_framework/dotnet.runtime.v06hirbjsv.js"
+  }
+]

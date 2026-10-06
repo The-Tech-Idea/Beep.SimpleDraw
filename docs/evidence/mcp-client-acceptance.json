@@ -1,0 +1,52 @@
+{
+  "timestampUtc": "2026-10-06T07:37:25.586192+00:00",
+  "release": "C:\\Users\\f_ald\\source\\repos\\The-Tech-Idea\\Beep.SimpleDraw\\artifacts\\mcp-local-v1-final",
+  "workspace": "C:\\Users\\f_ald\\source\\repos\\The-Tech-Idea\\Beep.SimpleDraw\\workspace\\mcp",
+  "serverName": "simpledraw",
+  "sdk": "ModelContextProtocol.AspNetCore 1.4.1",
+  "codex": {
+    "registered": true,
+    "enabled": true,
+    "interactiveModelSession": false
+  },
+  "claudeCode": {
+    "registered": true,
+    "health": "Connected",
+    "interactiveModelSession": false
+  },
+  "claudeDesktop": {
+    "snippet": "C:\\Users\\f_ald\\source\\repos\\The-Tech-Idea\\Beep.SimpleDraw\\docs\\mcp\\claude-desktop.json",
+    "installedConfiguration": false
+  },
+  "stdio": {
+    "protocolVersion": "2025-06-18",
+    "tools": 31,
+    "components": 249,
+    "families": 16,
+    "componentSchemas": 249,
+    "calls": 292,
+    "drawingId": "48f5302a-8556-4c35-82c6-85da4a566390",
+    "revision": 27,
+    "native": "C:\\Users\\f_ald\\source\\repos\\The-Tech-Idea\\Beep.SimpleDraw\\docs\\evidence\\mcp-final-workspace\\artifacts\\48f5302a-8556-4c35-82c6-85da4a566390-r27-48896da782f667ee.simpledraw.json",
+    "png": "C:\\Users\\f_ald\\source\\repos\\The-Tech-Idea\\Beep.SimpleDraw\\docs\\evidence\\mcp-final-workspace\\artifacts\\48f5302a-8556-4c35-82c6-85da4a566390-r27-8bcc61113f03ccb3.png",
+    "svg": "C:\\Users\\f_ald\\source\\repos\\The-Tech-Idea\\Beep.SimpleDraw\\docs\\evidence\\mcp-final-workspace\\artifacts\\48f5302a-8556-4c35-82c6-85da4a566390-r27-76486d279bcd6d69.svg",
+    "inlinePng": true,
+    "resources": true,
+    "staleRevisionRejected": true,
+    "stdoutJsonOnly": true
+  },
+  "http": {
+    "endpoint": "http://127.0.0.1:5256/mcp",
+    "protocolVersion": "2025-06-18",
+    "tools": 31,
+    "catalogTotal": 249,
+    "foreignOriginRejected": 403,
+    "foreignHostRejected": 403,
+    "malformedJsonRejected": 400
+  },
+  "platformVerified": "Windows .NET 10",
+  "tests": {
+    "mcp": 255,
+    "core": 585
+  }
+}

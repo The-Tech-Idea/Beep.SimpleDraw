@@ -1,0 +1,9 @@
+simpledraw:
+  Scope: User config (available in all your projects)
+  Status: √ Connected
+  Type: stdio
+  Command: dotnet
+  Args: C:\Users\f_ald\source\repos\The-Tech-Idea\Beep.SimpleDraw\artifacts\mcp-local-v1-final\Beep.SimpleDraw.Mcp.dll --workspace C:\Users\f_ald\source\repos\The-Tech-Idea\Beep.SimpleDraw\workspace\mcp
+  Environment:
+
+To remove this server, run: claude mcp remove simpledraw -s user

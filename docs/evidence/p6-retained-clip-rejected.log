@@ -1,0 +1,170 @@
+  Beep.Skia.Model -> C:\Users\f_ald\source\repos\The-Tech-Idea\Beep.Skia\Beep.Skia.Model\bin\Release\net10.0\Beep.Skia.Model.dll
+  Beep.Skia -> C:\Users\f_ald\source\repos\The-Tech-Idea\Beep.Skia\Beep.Skia\bin\Release\net10.0\Beep.Skia.dll
+  Beep.Skia.FlowChart -> C:\Users\f_ald\source\repos\The-Tech-Idea\Beep.Skia\Beep.Skia.FlowChart\bin\Release\net10.0\Beep.Skia.FlowChart.dll
+  Beep.SimpleDraw.Core -> C:\Users\f_ald\source\repos\The-Tech-Idea\Beep.SimpleDraw\src\Beep.SimpleDraw.Core\bin\Release\net10.0\Beep.SimpleDraw.Core.dll
+  Beep.SimpleDraw.Tests -> C:\Users\f_ald\source\repos\The-Tech-Idea\Beep.SimpleDraw\tests\Beep.SimpleDraw.Tests\bin\Release\net10.0\Beep.SimpleDraw.Tests.dll
+Test run for C:\Users\f_ald\source\repos\The-Tech-Idea\Beep.SimpleDraw\tests\Beep.SimpleDraw.Tests\bin\Release\net10.0\Beep.SimpleDraw.Tests.dll (.NETCoreApp,Version=v10.0)
+A total of 1 test files matched the specified pattern.
+[xUnit.net 00:00:00.50]     Beep.SimpleDraw.Tests.RetainedClipTrialTests.RecreatedSurfaceWithRetainedPixelsMustMatchFullFrame(zoom: 1.75, grid: False, isolatedOverlap: False) [FAIL]
+[xUnit.net 00:00:00.56]     Beep.SimpleDraw.Tests.RetainedClipTrialTests.RecreatedSurfaceWithRetainedPixelsMustMatchFullFrame(zoom: 1.75, grid: True, isolatedOverlap: False) [FAIL]
+[xUnit.net 00:00:00.63]     Beep.SimpleDraw.Tests.RetainedClipTrialTests.RecreatedSurfaceWithRetainedPixelsMustMatchFullFrame(zoom: 0.875, grid: True, isolatedOverlap: False) [FAIL]
+[xUnit.net 00:00:00.71]     Beep.SimpleDraw.Tests.RetainedClipTrialTests.RecreatedSurfaceWithRetainedPixelsMustMatchFullFrame(zoom: 0.875, grid: True, isolatedOverlap: True) [FAIL]
+  Failed Beep.SimpleDraw.Tests.RetainedClipTrialTests.RecreatedSurfaceWithRetainedPixelsMustMatchFullFrame(zoom: 1.75, grid: False, isolatedOverlap: False) [276 ms]
+  Error Message:
+   Assert.Equal() Failure: Collections differ
+                          ↓ (pos 221336)
+Expected: [···, 217, 255, 227, 220, 212, ···]
+Actual:   [···, 217, 255, 231, 225, 217, ···]
+                          ↑ (pos 221336)
+  Stack Trace:
+     at Beep.SimpleDraw.Tests.RetainedClipTrialTests.RecreatedSurfaceWithRetainedPixelsMustMatchFullFrame(Single zoom, Boolean grid, Boolean isolatedOverlap) in C:\Users\f_ald\source\repos\The-Tech-Idea\Beep.SimpleDraw\tests\Beep.SimpleDraw.Tests\RetainedClipTrialTests.cs:line 60
+   at System.Reflection.MethodBaseInvoker.InterpretedInvoke_Method(Object obj, IntPtr* args)
+   at System.Reflection.MethodBaseInvoker.InvokeDirectByRefWithFewArgs(Object obj, Span`1 copyOfArgs, BindingFlags invokeAttr)
+  Standard Output Messages:
+ zoom=1.75; grid=False; isolated overlap=False; step=0; changed channels=782; max=25; device bounds=198,110..349,319
+
+
+  Failed Beep.SimpleDraw.Tests.RetainedClipTrialTests.RecreatedSurfaceWithRetainedPixelsMustMatchFullFrame(zoom: 1.75, grid: True, isolatedOverlap: False) [64 ms]
+  Error Message:
+   Assert.Equal() Failure: Collections differ
+                          ↓ (pos 30188)
+Expected: [···, 217, 255, 224, 224, 224, ···]
+Actual:   [···, 217, 255, 231, 225, 217, ···]
+                          ↑ (pos 30188)
+  Stack Trace:
+     at Beep.SimpleDraw.Tests.RetainedClipTrialTests.RecreatedSurfaceWithRetainedPixelsMustMatchFullFrame(Single zoom, Boolean grid, Boolean isolatedOverlap) in C:\Users\f_ald\source\repos\The-Tech-Idea\Beep.SimpleDraw\tests\Beep.SimpleDraw.Tests\RetainedClipTrialTests.cs:line 60
+   at InvokeStub_RetainedClipTrialTests.RecreatedSurfaceWithRetainedPixelsMustMatchFullFrame(Object, Span`1)
+   at System.Reflection.MethodBaseInvoker.InvokeWithFewArgs(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+  Standard Output Messages:
+ zoom=1.75; grid=True; isolated overlap=False; step=0; changed channels=3023; max=25; device bounds=15,15..349,319
+
+
+  Failed Beep.SimpleDraw.Tests.RetainedClipTrialTests.RecreatedSurfaceWithRetainedPixelsMustMatchFullFrame(zoom: 0.875, grid: True, isolatedOverlap: False) [73 ms]
+  Error Message:
+   Assert.Equal() Failure: Collections differ
+                          ↓ (pos 30116)
+Expected: [···, 217, 255, 224, 224, 224, ···]
+Actual:   [···, 217, 255, 231, 225, 217, ···]
+                          ↑ (pos 30116)
+  Stack Trace:
+     at Beep.SimpleDraw.Tests.RetainedClipTrialTests.RecreatedSurfaceWithRetainedPixelsMustMatchFullFrame(Single zoom, Boolean grid, Boolean isolatedOverlap) in C:\Users\f_ald\source\repos\The-Tech-Idea\Beep.SimpleDraw\tests\Beep.SimpleDraw.Tests\RetainedClipTrialTests.cs:line 60
+   at InvokeStub_RetainedClipTrialTests.RecreatedSurfaceWithRetainedPixelsMustMatchFullFrame(Object, Span`1)
+   at System.Reflection.MethodBaseInvoker.InvokeWithFewArgs(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+  Standard Output Messages:
+ zoom=0.875; grid=True; isolated overlap=False; step=0; changed channels=1502; max=15; device bounds=15,15..349,304
+
+
+  Failed Beep.SimpleDraw.Tests.RetainedClipTrialTests.RecreatedSurfaceWithRetainedPixelsMustMatchFullFrame(zoom: 0.875, grid: True, isolatedOverlap: True) [71 ms]
+  Error Message:
+   Assert.Equal() Failure: Collections differ
+                          ↓ (pos 30116)
+Expected: [···, 217, 255, 224, 224, 224, ···]
+Actual:   [···, 217, 255, 231, 225, 217, ···]
+                          ↑ (pos 30116)
+  Stack Trace:
+     at Beep.SimpleDraw.Tests.RetainedClipTrialTests.RecreatedSurfaceWithRetainedPixelsMustMatchFullFrame(Single zoom, Boolean grid, Boolean isolatedOverlap) in C:\Users\f_ald\source\repos\The-Tech-Idea\Beep.SimpleDraw\tests\Beep.SimpleDraw.Tests\RetainedClipTrialTests.cs:line 60
+   at InvokeStub_RetainedClipTrialTests.RecreatedSurfaceWithRetainedPixelsMustMatchFullFrame(Object, Span`1)
+   at System.Reflection.MethodBaseInvoker.InvokeWithFewArgs(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+  Standard Output Messages:
+ zoom=0.875; grid=True; isolated overlap=True; step=0; changed channels=1502; max=15; device bounds=15,15..349,304
+
+
+[xUnit.net 00:00:04.15]     Beep.SimpleDraw.Tests.RetainedClipTrialTests.RecreatedSurfaceWithRetainedPixelsMustMatchFullFrame(zoom: 0.409999996, grid: True, isolatedOverlap: True) [FAIL]
+[xUnit.net 00:00:04.21]     Beep.SimpleDraw.Tests.RetainedClipTrialTests.RecreatedSurfaceWithRetainedPixelsMustMatchFullFrame(zoom: 0.875, grid: False, isolatedOverlap: True) [FAIL]
+[xUnit.net 00:00:04.23]     Beep.SimpleDraw.Tests.RetainedClipTrialTests.RecreatedSurfaceWithRetainedPixelsMustMatchFullFrame(zoom: 1.75, grid: True, isolatedOverlap: True) [FAIL]
+  Failed Beep.SimpleDraw.Tests.RetainedClipTrialTests.RecreatedSurfaceWithRetainedPixelsMustMatchFullFrame(zoom: 0.409999996, grid: True, isolatedOverlap: True) [39 ms]
+  Error Message:
+   Assert.Equal() Failure: Collections differ
+                          ↓ (pos 30060)
+Expected: [···, 224, 255, 224, 224, 224, ···]
+Actual:   [···, 224, 255, 231, 225, 217, ···]
+                          ↑ (pos 30060)
+  Stack Trace:
+     at Beep.SimpleDraw.Tests.RetainedClipTrialTests.RecreatedSurfaceWithRetainedPixelsMustMatchFullFrame(Single zoom, Boolean grid, Boolean isolatedOverlap) in C:\Users\f_ald\source\repos\The-Tech-Idea\Beep.SimpleDraw\tests\Beep.SimpleDraw.Tests\RetainedClipTrialTests.cs:line 60
+   at InvokeStub_RetainedClipTrialTests.RecreatedSurfaceWithRetainedPixelsMustMatchFullFrame(Object, Span`1)
+   at System.Reflection.MethodBaseInvoker.InvokeWithFewArgs(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+  Standard Output Messages:
+ zoom=0.41; grid=True; isolated overlap=True; step=0; changed channels=2832; max=7; device bounds=15,15..349,319
+
+
+  Failed Beep.SimpleDraw.Tests.RetainedClipTrialTests.RecreatedSurfaceWithRetainedPixelsMustMatchFullFrame(zoom: 0.875, grid: False, isolatedOverlap: True) [53 ms]
+  Error Message:
+   Assert.Equal() Failure: Collections differ
+                          ↓ (pos 67396)
+Expected: [···, 217, 255, 160, 147, 136, ···]
+Actual:   [···, 217, 255, 158, 145, 134, ···]
+                          ↑ (pos 67396)
+  Stack Trace:
+     at Beep.SimpleDraw.Tests.RetainedClipTrialTests.RecreatedSurfaceWithRetainedPixelsMustMatchFullFrame(Single zoom, Boolean grid, Boolean isolatedOverlap) in C:\Users\f_ald\source\repos\The-Tech-Idea\Beep.SimpleDraw\tests\Beep.SimpleDraw.Tests\RetainedClipTrialTests.cs:line 60
+   at InvokeStub_RetainedClipTrialTests.RecreatedSurfaceWithRetainedPixelsMustMatchFullFrame(Object, Span`1)
+   at System.Reflection.MethodBaseInvoker.InvokeWithFewArgs(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+  Standard Output Messages:
+ zoom=0.875; grid=False; isolated overlap=True; step=0; changed channels=272; max=15; device bounds=348,33..349,258
+
+
+  Failed Beep.SimpleDraw.Tests.RetainedClipTrialTests.RecreatedSurfaceWithRetainedPixelsMustMatchFullFrame(zoom: 1.75, grid: True, isolatedOverlap: True) [28 ms]
+  Error Message:
+   Assert.Equal() Failure: Collections differ
+                          ↓ (pos 30188)
+Expected: [···, 217, 255, 224, 224, 224, ···]
+Actual:   [···, 217, 255, 231, 225, 217, ···]
+                          ↑ (pos 30188)
+  Stack Trace:
+     at Beep.SimpleDraw.Tests.RetainedClipTrialTests.RecreatedSurfaceWithRetainedPixelsMustMatchFullFrame(Single zoom, Boolean grid, Boolean isolatedOverlap) in C:\Users\f_ald\source\repos\The-Tech-Idea\Beep.SimpleDraw\tests\Beep.SimpleDraw.Tests\RetainedClipTrialTests.cs:line 60
+   at InvokeStub_RetainedClipTrialTests.RecreatedSurfaceWithRetainedPixelsMustMatchFullFrame(Object, Span`1)
+   at System.Reflection.MethodBaseInvoker.InvokeWithFewArgs(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+  Standard Output Messages:
+ zoom=1.75; grid=True; isolated overlap=True; step=0; changed channels=2822; max=18; device bounds=15,15..349,319
+
+
+[xUnit.net 00:00:07.38]     Beep.SimpleDraw.Tests.RetainedClipTrialTests.RecreatedSurfaceWithRetainedPixelsMustMatchFullFrame(zoom: 0.409999996, grid: True, isolatedOverlap: False) [FAIL]
+[xUnit.net 00:00:07.45]     Beep.SimpleDraw.Tests.RetainedClipTrialTests.RecreatedSurfaceWithRetainedPixelsMustMatchFullFrame(zoom: 0.875, grid: False, isolatedOverlap: False) [FAIL]
+[xUnit.net 00:00:07.58]     Beep.SimpleDraw.Tests.RetainedClipTrialTests.RecreatedSurfaceWithRetainedPixelsMustMatchFullFrame(zoom: 1.75, grid: False, isolatedOverlap: True) [FAIL]
+  Failed Beep.SimpleDraw.Tests.RetainedClipTrialTests.RecreatedSurfaceWithRetainedPixelsMustMatchFullFrame(zoom: 0.409999996, grid: True, isolatedOverlap: False) [41 ms]
+  Error Message:
+   Assert.Equal() Failure: Collections differ
+                          ↓ (pos 30060)
+Expected: [···, 224, 255, 224, 224, 224, ···]
+Actual:   [···, 224, 255, 231, 225, 217, ···]
+                          ↑ (pos 30060)
+  Stack Trace:
+     at Beep.SimpleDraw.Tests.RetainedClipTrialTests.RecreatedSurfaceWithRetainedPixelsMustMatchFullFrame(Single zoom, Boolean grid, Boolean isolatedOverlap) in C:\Users\f_ald\source\repos\The-Tech-Idea\Beep.SimpleDraw\tests\Beep.SimpleDraw.Tests\RetainedClipTrialTests.cs:line 60
+   at InvokeStub_RetainedClipTrialTests.RecreatedSurfaceWithRetainedPixelsMustMatchFullFrame(Object, Span`1)
+   at System.Reflection.MethodBaseInvoker.InvokeWithFewArgs(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+  Standard Output Messages:
+ zoom=0.41; grid=True; isolated overlap=False; step=0; changed channels=2832; max=7; device bounds=15,15..349,319
+
+
+  Failed Beep.SimpleDraw.Tests.RetainedClipTrialTests.RecreatedSurfaceWithRetainedPixelsMustMatchFullFrame(zoom: 0.875, grid: False, isolatedOverlap: False) [65 ms]
+  Error Message:
+   Assert.Equal() Failure: Collections differ
+                          ↓ (pos 67396)
+Expected: [···, 217, 255, 160, 147, 136, ···]
+Actual:   [···, 217, 255, 158, 145, 134, ···]
+                          ↑ (pos 67396)
+  Stack Trace:
+     at Beep.SimpleDraw.Tests.RetainedClipTrialTests.RecreatedSurfaceWithRetainedPixelsMustMatchFullFrame(Single zoom, Boolean grid, Boolean isolatedOverlap) in C:\Users\f_ald\source\repos\The-Tech-Idea\Beep.SimpleDraw\tests\Beep.SimpleDraw.Tests\RetainedClipTrialTests.cs:line 60
+   at InvokeStub_RetainedClipTrialTests.RecreatedSurfaceWithRetainedPixelsMustMatchFullFrame(Object, Span`1)
+   at System.Reflection.MethodBaseInvoker.InvokeWithFewArgs(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+  Standard Output Messages:
+ zoom=0.875; grid=False; isolated overlap=False; step=0; changed channels=272; max=15; device bounds=348,33..349,258
+
+
+  Failed Beep.SimpleDraw.Tests.RetainedClipTrialTests.RecreatedSurfaceWithRetainedPixelsMustMatchFullFrame(zoom: 1.75, grid: False, isolatedOverlap: True) [128 ms]
+  Error Message:
+   Assert.Equal() Failure: Collections differ
+                          ↓ (pos 225317)
+Expected: [···, 255, 180, 170, 159, 255, ···]
+Actual:   [···, 255, 180, 169, 159, 255, ···]
+                          ↑ (pos 225317)
+  Stack Trace:
+     at Beep.SimpleDraw.Tests.RetainedClipTrialTests.RecreatedSurfaceWithRetainedPixelsMustMatchFullFrame(Single zoom, Boolean grid, Boolean isolatedOverlap) in C:\Users\f_ald\source\repos\The-Tech-Idea\Beep.SimpleDraw\tests\Beep.SimpleDraw.Tests\RetainedClipTrialTests.cs:line 60
+   at InvokeStub_RetainedClipTrialTests.RecreatedSurfaceWithRetainedPixelsMustMatchFullFrame(Object, Span`1)
+   at System.Reflection.MethodBaseInvoker.InvokeWithFewArgs(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+  Standard Output Messages:
+ zoom=1.75; grid=False; isolated overlap=True; step=0; changed channels=587; max=18; device bounds=198,112..349,319
+
+
+Results File: C:\Users\f_ald\source\repos\The-Tech-Idea\Beep.SimpleDraw\artifacts\p6-retained-clip-trial\tests\retained-clip-controls.trx
+
+Failed!  - Failed:    10, Passed:     2, Skipped:     0, Total:    12, Duration: 7 s - Beep.SimpleDraw.Tests.dll (net10.0)

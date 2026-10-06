@@ -1,0 +1,185 @@
+@using Beep.SimpleDraw.Core
+@using Beep.SimpleDraw.Core.Documents
+@using Beep.SimpleDraw.Core.Library
+@using Beep.SimpleDraw.Web.Services
+@using SkiaSharp
+@implements IAsyncDisposable
+@inject IJSRuntime JS
+
+<details class="library-panel">
+    <summary @ref="_summary" aria-label="@(_initialized ? $"{L("Library")} {_library.Entries.Count}" : L("Library"))" @onclick="Initialize">@L("Library") @if (_initialized) { <span>@_library.Entries.Count</span> }</summary>
+    <div class="library-content">
+        @if (!_initialized) { <p role="status">@L("Opening local library…")</p> }
+        else
+        {
+            <p class="library-note">@L("Saved selections stay separate from your drawing.")</p>
+            @if (_readOnly) { <p class="library-note">@L("Library changes are read-only. Insert or download entries, retry the writer, or edit a file-only library.")</p> }
+            @if (_fileOnly) { <p class="library-note">@L("File-only library · download to keep changes")</p> }
+            <label>@L("Entry name") <input maxlength="80" disabled="@(_readOnly || _saving)" @bind="_name" @bind:event="oninput" /></label>
+            <button disabled="@(_saving || _readOnly || !Session.SelectedComponents.Any())" @onclick="SaveSelection">@L("Save selection")</button>
+            <div class="library-files">
+                <button @onclick="Export">@L("Download library")</button>
+                <label class="file-button">@L("Import library")<InputFile class="hidden-file" OnChange="Import" disabled="@(_saving || _readOnly)" accept=".json,.simpledraw-library" aria-label="@L("Import library file")" /></label>
+            </div>
+            @if (_readOnly)
+            {
+                <button @onclick="FileOnly">@L("Edit file-only library")</button><button @onclick="Retry">@L("Retry library writer")</button>
+                @if (_recoveryRaw is not null)
+                { <button @onclick="RecoveryDownload">@L("Download library recovery bytes")</button> }
+                @if (_recovery)
+                { <button @onclick="ReplaceUnreadable">@L("Start new local library")</button> }
+            }
+            @if (_local.Pending && !_fileOnly && !_readOnly) { <button @onclick="Persist">@L("Retry library save")</button> }
+            @if (_removed is not null && !_readOnly) { <button @ref="_undoRemoval" disabled="@_saving" @onclick="UndoRemove">@L("Undo library removal")</button> }
+            <div role="group" aria-label="@L("Library entries")" class="library-entries">
+                @foreach (var entry in _library.Entries)
+                {
+                    <div @key="entry.Id" class="library-entry"><strong>@EntryName(entry)</strong><div>
+                        <button aria-label="@($"{L("Insert")} {EntryName(entry)}")" @onclick="() => Insert(entry.Id)">@L("Insert")</button>
+                        <button disabled="@(_saving || _readOnly)" aria-label="@($"{L("Remove")} {EntryName(entry)}")" @onclick="() => Remove(entry.Id)">@L("Remove")</button>
+                    </div></div>
+                }
+                @if (_library.Entries.Count == 0) { <p>@L("Your saved selections will appear here.")</p> }
+            </div>
+            <p role="status" aria-live="polite" class="@(_error ? "library-message error" : "library-message")">@L(_message)</p>
+        }
+    </div>
+</details>
+
+@code {
+    [Parameter, EditorRequired] public DrawingSession Session { get; set; } = default!;
+    [Parameter] public EventCallback OnEdited { get; set; }
+    [Parameter] public bool Rtl { get; set; }
+    private string L(string value) => Rtl ? UiText.Arabic(value) : UiText.English(value);
+    private SketchLibrary _library = new();
+    private readonly AutosaveState _local = new();
+    private LibraryEntry? _removed;
+    private int _removedIndex;
+    private ElementReference _summary, _undoRemoval;
+    private bool _focusSummary, _focusUndo;
+    private string EntryName(LibraryEntry entry) => _library.Entries.Count(e=>e.Name==entry.Name)>1
+        ? $"{entry.Name} ({_library.Entries.ToList().IndexOf(entry)+1})" : entry.Name;
+    protected override async Task OnAfterRenderAsync(bool firstRender)
+    {
+        if (_focusUndo && _removed is not null && !_readOnly) await _undoRemoval.FocusAsync();
+        else if (_focusSummary) await _summary.FocusAsync();
+        _focusUndo = _focusSummary = false;
+    }
+    private BrowserDocumentStore? _store;
+    private IJSObjectReference? _module;
+    private DotNetObjectReference<LibraryPanel>? _reference;
+    private bool _initialized, _opening, _readOnly, _fileOnly, _recovery, _portableDirty, _saving, _error;
+    private string? _recoveryRaw;
+    private string _name = "", _message = "";
+    private async Task Initialize()
+    {
+        if (_initialized || _opening) return;
+        _opening = true;
+        try
+        {
+            _module = await JS.InvokeAsync<IJSObjectReference>("import", "./js/app.js");
+            _store = new(JS,library:true); _reference = DotNetObjectReference.Create(this);
+            Restore(await _store.ConnectAsync(_reference)); _initialized = true;
+        }
+        catch (JSException ex) { _readOnly = _error = _initialized = true; _message = ex.Message; }
+        finally { _opening = false; }
+    }
+    private void Restore(StoreResult result)
+    {
+        _readOnly = result.Status is not ("loaded" or "empty"); _fileOnly = false;
+        _recovery = result.Status == "recovery"; _recoveryRaw = result.Raw;
+        try
+        {
+            if (result.Document is not null) _library = SketchLibrary.Parse(result.Document);
+            else if (!_readOnly) _library = new();
+            if (!_readOnly) { _local.Restore(result.Revision); _portableDirty = false; _removed = null; }
+            _error = _readOnly; _message = result.Error ?? "Library ready · changes save on this device";
+        }
+        catch (InvalidDataException ex) { _readOnly = _recovery = _error = true; _message = ex.Message; }
+    }
+    [JSInvokable] public Task LibraryChanged(StoreResult result)
+    { _readOnly = _error = _focusSummary = true; _message = result.Error ?? "Library saving is paused."; return InvokeAsync(StateHasChanged); }
+    private async Task Mutate(Action action)
+    {
+        if (_readOnly || _saving) return;
+        try { action(); _portableDirty = true; _local.Changed(); await Persist(); }
+        catch (Exception ex) when (ex is InvalidDataException or InvalidOperationException or ArgumentException)
+        { _error = true; _message = ex.Message; }
+        finally { _focusSummary = true; }
+    }
+    private Task SaveSelection() => Mutate(() =>
+    {
+        if (Session.HasGesture || Session.HasTextEdit) throw new InvalidOperationException("Finish or cancel the current edit before saving a library selection.");
+        _library.SaveSelection(Session.Manager, _name); _name = "";
+    });
+    private async Task Remove(Guid id)
+    {
+        await Mutate(() => { _removedIndex = _library.Entries.ToList().FindIndex(e=>e.Id==id); _removed = _library.Remove(id); });
+        _focusUndo = _removed is not null && !_readOnly;
+    }
+    private Task UndoRemove() => Mutate(() => { if (_removed is not null) { _library.Add(_removed,Math.Min(_removedIndex,_library.Entries.Count)); _removed = null; } });
+    private async Task Persist()
+    {
+        if (_store is null || _readOnly || _saving) return;
+        _saving = true;
+        try
+        {
+            await _store.GuardAsync(_portableDirty);
+            if (_fileOnly) { _error = false; _message = "File-only library · download to keep changes"; return; }
+            var revision = _local.Revision;
+            var result = await _store.SaveAsync(_library.Serialize(),revision);
+            if (result.Status == "saved") { _local.Acknowledge(revision); _error = false; _message = "Library saved on this device"; await _store.GuardAsync(false); }
+            else { _local.Failed(result.Error!); _error = true; _message = result.Error!; if (result.Status is "conflict" or "recovery") _readOnly = true; }
+        }
+        catch (Exception ex) when (ex is JSException or InvalidDataException) { _error = true; _message = ex.Message; }
+        finally { _saving = false; }
+    }
+    private async Task Insert(Guid id)
+    {
+        try
+        {
+            var diagram = _library.Find(id).ToDiagram();
+            var center = Session.ScreenToWorld(new(Session.ViewportSize.Width/2,Session.ViewportSize.Height/2));
+            var width = diagram.Components.Max(c=>c.X+c.Width); var height = diagram.Components.Max(c=>c.Y+c.Height);
+            Session.InsertDiagram(diagram,center-new SKPoint(width/2,height/2));
+            _error = false; _message = "Inserted selection · one undo removes the copy"; await OnEdited.InvokeAsync();
+        }
+        catch (Exception ex) when (ex is InvalidDataException or InvalidOperationException or ArgumentException) { _error = true; _message = ex.Message; }
+    }
+    private async Task Export()
+    {
+        if (_module is null) return;
+        try { await _module.InvokeVoidAsync("download","Library.simpledraw-library.json",_library.Serialize()); _portableDirty = false; if (_store is not null) await _store.GuardAsync(false); _error = false; _message = "Library download started"; }
+        catch (Exception ex) when (ex is JSException or InvalidDataException) { _error = true; _message = ex.Message; }
+    }
+    private async Task Import(InputFileChangeEventArgs args)
+    {
+        if (_readOnly) return;
+        try
+        {
+            using var stream = args.File.OpenReadStream(SketchLibrary.MaxBytes); using var reader = new StreamReader(stream);
+            var json = await reader.ReadToEndAsync(); await Mutate(()=>_library.Import(json));
+        }
+        catch (Exception ex) when (ex is IOException or InvalidDataException) { _error = true; _message = ex.Message; }
+    }
+    private async Task Retry()
+    {
+        if (_portableDirty) { _message = "Download pending library edits before reloading its local writer."; _error = true; return; }
+        if (_store is not null) Restore(await _store.RetryAsync());
+    }
+    private void FileOnly() { _readOnly = _recovery = _error = false; _fileOnly = _focusSummary = true; _message = "File-only library · download to keep changes"; }
+    private async Task RecoveryDownload() { if (_module is not null && _recoveryRaw is not null) await _module.InvokeVoidAsync("download","Library-recovery.txt",_recoveryRaw,"text/plain"); }
+    private async Task ReplaceUnreadable()
+    {
+        if (_store is null || !_recovery || _portableDirty) return;
+        var empty = new SketchLibrary();
+        var result = await _store.SaveAsync(empty.Serialize(),0,true);
+        if (result.Status == "saved") { _library = empty; _local.Restore(0); _removed = null; _recovery = _readOnly = _error = false; _message = "New local library saved"; }
+        else { _error = true; _message = result.Error!; }
+    }
+    public async ValueTask DisposeAsync()
+    {
+        if (_store is not null) await _store.DisposeAsync();
+        if (_module is not null) await _module.DisposeAsync(); _reference?.Dispose();
+    }
+}

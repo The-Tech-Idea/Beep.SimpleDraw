@@ -1,0 +1,202 @@
+  Beep.Skia.Model -> C:\Users\f_ald\source\repos\The-Tech-Idea\Beep.Skia\Beep.Skia.Model\bin\Release\net10.0\Beep.Skia.Model.dll
+  Beep.Skia -> C:\Users\f_ald\source\repos\The-Tech-Idea\Beep.Skia\Beep.Skia\bin\Release\net10.0\Beep.Skia.dll
+  Beep.Skia.FlowChart -> C:\Users\f_ald\source\repos\The-Tech-Idea\Beep.Skia\Beep.Skia.FlowChart\bin\Release\net10.0\Beep.Skia.FlowChart.dll
+  Beep.SimpleDraw.Core -> C:\Users\f_ald\source\repos\The-Tech-Idea\Beep.SimpleDraw\src\Beep.SimpleDraw.Core\bin\Release\net10.0\Beep.SimpleDraw.Core.dll
+  Beep.Skia.Blazor.Controls -> C:\Users\f_ald\source\repos\The-Tech-Idea\Beep.Skia\Beep.Skia.Blazor.Controls\bin\Release\net10.0\Beep.Skia.Blazor.Controls.dll
+  Beep.SimpleDraw.Web -> C:\Users\f_ald\source\repos\The-Tech-Idea\Beep.SimpleDraw\src\Beep.SimpleDraw.Web\bin\Release\net10.0\Beep.SimpleDraw.Web.dll
+  Beep.SimpleDraw.Web (Blazor output) -> C:\Users\f_ald\source\repos\The-Tech-Idea\Beep.SimpleDraw\src\Beep.SimpleDraw.Web\bin\Release\net10.0\wwwroot
+  Optimizing assemblies for size may change the behavior of the app. Be sure to test after publishing. See: https://aka.ms/dotnet-illink
+  Optimizing assemblies for size. This process might take a while.
+  Beep.Skia.Model -> C:\Users\f_ald\source\repos\The-Tech-Idea\Beep.Skia\Beep.Skia.Model\bin\Release\net10.0\Beep.Skia.Model.dll
+  Beep.Skia -> C:\Users\f_ald\source\repos\The-Tech-Idea\Beep.Skia\Beep.Skia\bin\Release\net10.0\Beep.Skia.dll
+  Beep.Skia.FlowChart -> C:\Users\f_ald\source\repos\The-Tech-Idea\Beep.Skia\Beep.Skia.FlowChart\bin\Release\net10.0\Beep.Skia.FlowChart.dll
+  Beep.SimpleDraw.Core -> C:\Users\f_ald\source\repos\The-Tech-Idea\Beep.SimpleDraw\src\Beep.SimpleDraw.Core\bin\Release\net10.0\Beep.SimpleDraw.Core.dll
+  Beep.Skia.Blazor.Controls -> C:\Users\f_ald\source\repos\The-Tech-Idea\Beep.Skia\Beep.Skia.Blazor.Controls\bin\Release\net10.0\Beep.Skia.Blazor.Controls.dll
+  Optimizing assemblies for size may change the behavior of the app. Be sure to test after publishing. See: https://aka.ms/dotnet-illink
+  AOT'ing 86 assemblies
+  [1/85] Microsoft.Extensions.Configuration.Json.dll -> Microsoft.Extensions.Configuration.Json.dll.bc
+  [2/85] Microsoft.Win32.SystemEvents.dll -> Microsoft.Win32.SystemEvents.dll.bc
+  [3/85] Microsoft.Extensions.Logging.Abstractions.dll -> Microsoft.Extensions.Logging.Abstractions.dll.bc
+  [4/85] Microsoft.Extensions.Primitives.dll -> Microsoft.Extensions.Primitives.dll.bc
+  [5/85] Microsoft.Extensions.Logging.dll -> Microsoft.Extensions.Logging.dll.bc
+  [6/85] Microsoft.Extensions.Configuration.Abstractions.dll -> Microsoft.Extensions.Configuration.Abstractions.dll.bc
+  [7/85] Microsoft.Extensions.Configuration.dll -> Microsoft.Extensions.Configuration.dll.bc
+  [8/85] Microsoft.Extensions.Options.dll -> Microsoft.Extensions.Options.dll.bc
+  [9/85] SkiaSharp.Extended.dll -> SkiaSharp.Extended.dll.bc
+  [10/85] Microsoft.Extensions.DependencyInjection.Abstractions.dll -> Microsoft.Extensions.DependencyInjection.Abstractions.dll.bc
+  [11/85] Microsoft.AspNetCore.Components.Web.dll -> Microsoft.AspNetCore.Components.Web.dll.bc
+  [12/85] SkiaSharp.Extended.Svg.dll -> SkiaSharp.Extended.Svg.dll.bc
+  [13/85] Microsoft.Extensions.DependencyInjection.dll -> Microsoft.Extensions.DependencyInjection.dll.bc
+  [14/85] Microsoft.JSInterop.dll -> Microsoft.JSInterop.dll.bc
+  [15/85] SkiaSharp.dll -> SkiaSharp.dll.bc
+  [16/85] SkiaSharp.Views.Blazor.dll -> SkiaSharp.Views.Blazor.dll.bc
+  [17/85] System.Formats.Nrbf.dll -> System.Formats.Nrbf.dll.bc
+  [18/85] Beep.Skia.Model.dll -> Beep.Skia.Model.dll.bc
+  [19/85] Beep.Skia.Blazor.Controls.dll -> Beep.Skia.Blazor.Controls.dll.bc
+  [20/85] System.Private.Windows.GdiPlus.dll -> System.Private.Windows.GdiPlus.dll.bc
+  [21/85] Beep.SimpleDraw.Core.dll -> Beep.SimpleDraw.Core.dll.bc
+  [22/85] Microsoft.AspNetCore.Components.WebAssembly.dll -> Microsoft.AspNetCore.Components.WebAssembly.dll.bc
+  [23/85] Microsoft.Win32.Registry.dll -> Microsoft.Win32.Registry.dll.bc
+  [24/85] System.Collections.Specialized.dll -> System.Collections.Specialized.dll.bc
+  [25/85] Beep.Skia.FlowChart.dll -> Beep.Skia.FlowChart.dll.bc
+  [26/85] Microsoft.Win32.Primitives.dll -> Microsoft.Win32.Primitives.dll.bc
+  [27/85] System.Collections.NonGeneric.dll -> System.Collections.NonGeneric.dll.bc
+  [28/85] System.Collections.Concurrent.dll -> System.Collections.Concurrent.dll.bc
+  [29/85] System.ComponentModel.Annotations.dll -> System.ComponentModel.Annotations.dll.bc
+  [30/85] System.Drawing.Common.dll -> System.Drawing.Common.dll.bc
+  [31/85] Beep.SimpleDraw.Web.dll -> Beep.SimpleDraw.Web.dll.bc
+  [32/85] System.ComponentModel.Primitives.dll -> System.ComponentModel.Primitives.dll.bc
+  [33/85] System.Collections.dll -> System.Collections.dll.bc
+  [34/85] System.ComponentModel.dll -> System.ComponentModel.dll.bc
+  [35/85] System.Drawing.dll -> System.Drawing.dll.bc
+  [36/85] System.Console.dll -> System.Console.dll.bc
+  [37/85] System.Collections.Immutable.dll -> System.Collections.Immutable.dll.bc
+  [38/85] System.Diagnostics.TraceSource.dll -> System.Diagnostics.TraceSource.dll.bc
+  [39/85] System.IO.Compression.ZipFile.dll -> System.IO.Compression.ZipFile.dll.bc
+  [40/85] Microsoft.AspNetCore.Components.dll -> Microsoft.AspNetCore.Components.dll.bc
+  [41/85] System.Drawing.Primitives.dll -> System.Drawing.Primitives.dll.bc
+  [42/85] System.Diagnostics.DiagnosticSource.dll -> System.Diagnostics.DiagnosticSource.dll.bc
+  [43/85] System.IO.Pipelines.dll -> System.IO.Pipelines.dll.bc
+  [44/85] System.IO.FileSystem.Watcher.dll -> System.IO.FileSystem.Watcher.dll.bc
+  [45/85] System.Memory.dll -> System.Memory.dll.bc
+  [46/85] System.ComponentModel.TypeConverter.dll -> System.ComponentModel.TypeConverter.dll.bc
+  [47/85] System.IO.MemoryMappedFiles.dll -> System.IO.MemoryMappedFiles.dll.bc
+  [48/85] System.Net.Primitives.dll -> System.Net.Primitives.dll.bc
+  [49/85] System.Private.Windows.Core.dll -> System.Private.Windows.Core.dll.bc
+  [50/85] System.Numerics.Vectors.dll -> System.Numerics.Vectors.dll.bc
+  [51/85] System.IO.Compression.dll -> System.IO.Compression.dll.bc
+  [52/85] System.Linq.Queryable.dll -> System.Linq.Queryable.dll.bc
+  [53/85] System.ObjectModel.dll -> System.ObjectModel.dll.bc
+  [54/85] System.Private.Xml.Linq.dll -> System.Private.Xml.Linq.dll.bc
+  [55/85] System.Runtime.Serialization.Formatters.dll -> System.Runtime.Serialization.Formatters.dll.bc
+  [56/85] System.Runtime.InteropServices.dll -> System.Runtime.InteropServices.dll.bc
+  [57/85] System.Net.Http.dll -> System.Net.Http.dll.bc
+  [58/85] System.Runtime.InteropServices.JavaScript.dll -> System.Runtime.InteropServices.JavaScript.dll.bc
+  [59/85] System.Private.Uri.dll -> System.Private.Uri.dll.bc
+  [60/85] System.Runtime.Serialization.Primitives.dll -> System.Runtime.Serialization.Primitives.dll.bc
+  [61/85] System.Reflection.Metadata.dll -> System.Reflection.Metadata.dll.bc
+  [62/85] System.Runtime.dll -> System.Runtime.dll.bc
+  [63/85] System.Threading.Channels.dll -> System.Threading.Channels.dll.bc
+  [64/85] System.Text.Encodings.Web.dll -> System.Text.Encodings.Web.dll.bc
+  [65/85] System.Security.Cryptography.dll -> System.Security.Cryptography.dll.bc
+  [66/85] System.Threading.Thread.dll -> System.Threading.Thread.dll.bc
+  [67/85] System.Runtime.Numerics.dll -> System.Runtime.Numerics.dll.bc
+  [68/85] System.Threading.Tasks.Parallel.dll -> System.Threading.Tasks.Parallel.dll.bc
+  [69/85] System.Threading.dll -> System.Threading.dll.bc
+  [70/85] System.Xml.Linq.dll -> System.Xml.Linq.dll.bc
+  [71/85] System.Xml.XmlSerializer.dll -> System.Xml.XmlSerializer.dll.bc
+  [72/85] System.Xml.ReaderWriter.dll -> System.Xml.ReaderWriter.dll.bc
+  [73/85] netstandard.dll -> netstandard.dll.bc
+  [74/85] System.dll -> System.dll.bc
+  [75/85] System.Linq.dll -> System.Linq.dll.bc
+  [76/85] System.Linq.Expressions.dll -> System.Linq.Expressions.dll.bc
+  [77/85] System.Data.Common.dll -> System.Data.Common.dll.bc
+  [78/85] System.Text.RegularExpressions.dll -> System.Text.RegularExpressions.dll.bc
+  [79/85] Beep.Skia.dll -> Beep.Skia.dll.bc
+  [80/85] System.Text.Json.dll -> System.Text.Json.dll.bc
+  [81/85] DataManagementModels.dll -> DataManagementModels.dll.bc
+  [82/85] System.Private.Xml.dll -> System.Private.Xml.dll.bc
+  [83/85] TheTechIdea.Beep.Vis.Modules.dll -> TheTechIdea.Beep.Vis.Modules.dll.bc
+  [84/85] System.Private.CoreLib.dll -> System.Private.CoreLib.dll.bc
+  [85/85] aot-instances.dll -> aot-instances.dll.bc
+  IL stripping assemblies
+  Compiling assembly bitcode files with -O2 ...
+  [1/85] Microsoft.Extensions.Configuration.Abstractions.dll.bc -> Microsoft.Extensions.Configuration.Abstractions.dll.o [took 4.69s]
+  [2/85] Microsoft.Extensions.Configuration.Json.dll.bc -> Microsoft.Extensions.Configuration.Json.dll.o [took 4.70s]
+  [3/85] Microsoft.Extensions.Primitives.dll.bc -> Microsoft.Extensions.Primitives.dll.o [took 4.89s]
+  [4/85] Microsoft.Extensions.Options.dll.bc -> Microsoft.Extensions.Options.dll.o [took 5.07s]
+  [5/85] Microsoft.Extensions.Logging.dll.bc -> Microsoft.Extensions.Logging.dll.o [took 5.35s]
+  [6/85] Microsoft.Extensions.DependencyInjection.Abstractions.dll.bc -> Microsoft.Extensions.DependencyInjection.Abstractions.dll.o [took 5.55s]
+  [7/85] Microsoft.Win32.SystemEvents.dll.bc -> Microsoft.Win32.SystemEvents.dll.o [took 6.38s]
+  [8/85] Microsoft.Extensions.Configuration.dll.bc -> Microsoft.Extensions.Configuration.dll.o [took 6.89s]
+  [9/85] SkiaSharp.Extended.dll.bc -> SkiaSharp.Extended.dll.o [took 6.89s]
+  [10/85] Microsoft.Extensions.Logging.Abstractions.dll.bc -> Microsoft.Extensions.Logging.Abstractions.dll.o [took 6.89s]
+  [11/85] Microsoft.AspNetCore.Components.Web.dll.bc -> Microsoft.AspNetCore.Components.Web.dll.o [took 6.99s]
+  [12/85] Microsoft.JSInterop.dll.bc -> Microsoft.JSInterop.dll.o [took 7.29s]
+  [13/85] SkiaSharp.Extended.Svg.dll.bc -> SkiaSharp.Extended.Svg.dll.o [took 2.98s]
+  [14/85] Microsoft.Extensions.DependencyInjection.dll.bc -> Microsoft.Extensions.DependencyInjection.dll.o [took 8.40s]
+  [15/85] SkiaSharp.Views.Blazor.dll.bc -> SkiaSharp.Views.Blazor.dll.o [took 5.12s]
+  [16/85] Beep.Skia.Blazor.Controls.dll.bc -> Beep.Skia.Blazor.Controls.dll.o [took 4.21s]
+  [17/85] System.Formats.Nrbf.dll.bc -> System.Formats.Nrbf.dll.o [took 5.81s]
+  [18/85] SkiaSharp.dll.bc -> SkiaSharp.dll.o [took 12.71s]
+  [19/85] Microsoft.AspNetCore.Components.WebAssembly.dll.bc -> Microsoft.AspNetCore.Components.WebAssembly.dll.o [took 12.74s]
+  [20/85] Beep.Skia.Model.dll.bc -> Beep.Skia.Model.dll.o [took 5.43s]
+  [21/85] Microsoft.Win32.Primitives.dll.bc -> Microsoft.Win32.Primitives.dll.o [took 4.83s]
+  [22/85] Microsoft.Win32.Registry.dll.bc -> Microsoft.Win32.Registry.dll.o [took 4.83s]
+  [23/85] System.Private.Windows.GdiPlus.dll.bc -> System.Private.Windows.GdiPlus.dll.o [took 9.44s]
+  [24/85] System.Collections.NonGeneric.dll.bc -> System.Collections.NonGeneric.dll.o [took 4.57s]
+  [25/85] Beep.SimpleDraw.Core.dll.bc -> Beep.SimpleDraw.Core.dll.o [took 10.32s]
+  [26/85] System.Collections.Specialized.dll.bc -> System.Collections.Specialized.dll.o [took 3.82s]
+  [27/85] System.Collections.Concurrent.dll.bc -> System.Collections.Concurrent.dll.o [took 7.16s]
+  [28/85] System.Console.dll.bc -> System.Console.dll.o [took 2.56s]
+  [30/85] System.ComponentModel.Primitives.dll.bc -> System.ComponentModel.Primitives.dll.o [took 3.53s]
+  [29/85] System.ComponentModel.dll.bc -> System.ComponentModel.dll.o [took 2.57s]
+  [31/85] Beep.Skia.FlowChart.dll.bc -> Beep.Skia.FlowChart.dll.o [took 11.83s]
+  [32/85] System.ComponentModel.Annotations.dll.bc -> System.ComponentModel.Annotations.dll.o [took 3.54s]
+  [33/85] System.Collections.Immutable.dll.bc -> System.Collections.Immutable.dll.o [took 9.59s]
+  [34/85] System.Collections.dll.bc -> System.Collections.dll.o [took 6.21s]
+  [35/85] Beep.SimpleDraw.Web.dll.bc -> Beep.SimpleDraw.Web.dll.o [took 15.19s]
+  [36/85] System.Diagnostics.DiagnosticSource.dll.bc -> System.Diagnostics.DiagnosticSource.dll.o [took 5.12s]
+  [37/85] Microsoft.AspNetCore.Components.dll.bc -> Microsoft.AspNetCore.Components.dll.o [took 25.45s]
+  [38/85] System.Drawing.Common.dll.bc -> System.Drawing.Common.dll.o [took 18.86s]
+  [39/85] System.Drawing.dll.bc -> System.Drawing.dll.o [took 6.63s]
+  [40/85] System.Diagnostics.TraceSource.dll.bc -> System.Diagnostics.TraceSource.dll.o [took 6.63s]
+  [41/85] System.Drawing.Primitives.dll.bc -> System.Drawing.Primitives.dll.o [took 6.63s]
+  [42/85] System.IO.Compression.ZipFile.dll.bc -> System.IO.Compression.ZipFile.dll.o [took 8.04s]
+  [43/85] System.IO.FileSystem.Watcher.dll.bc -> System.IO.FileSystem.Watcher.dll.o [took 2.94s]
+  [44/85] System.ComponentModel.TypeConverter.dll.bc -> System.ComponentModel.TypeConverter.dll.o [took 10.63s]
+  [45/85] System.IO.Pipelines.dll.bc -> System.IO.Pipelines.dll.o [took 6.78s]
+  [46/85] System.Numerics.Vectors.dll.bc -> System.Numerics.Vectors.dll.o [took 5.36s]
+  [47/85] System.IO.MemoryMappedFiles.dll.bc -> System.IO.MemoryMappedFiles.dll.o [took 6.78s]
+  [48/85] System.Memory.dll.bc -> System.Memory.dll.o [took 5.36s]
+  [49/85] System.Linq.Queryable.dll.bc -> System.Linq.Queryable.dll.o [took 6.78s]
+  [50/85] System.IO.Compression.dll.bc -> System.IO.Compression.dll.o [took 11.00s]
+  [51/85] System.ObjectModel.dll.bc -> System.ObjectModel.dll.o [took 6.73s]
+  [52/85] System.Runtime.InteropServices.dll.bc -> System.Runtime.InteropServices.dll.o [took 6.72s]
+  [53/85] System.Net.Primitives.dll.bc -> System.Net.Primitives.dll.o [took 12.09s]
+  [54/85] System.Private.Xml.Linq.dll.bc -> System.Private.Xml.Linq.dll.o [took 6.73s]
+  [55/85] System.Runtime.InteropServices.JavaScript.dll.bc -> System.Runtime.InteropServices.JavaScript.dll.o [took 6.73s]
+  [56/85] System.Private.Uri.dll.bc -> System.Private.Uri.dll.o [took 6.73s]
+  [57/85] System.Net.Http.dll.bc -> System.Net.Http.dll.o [took 12.10s]
+  [58/85] System.Private.Windows.Core.dll.bc -> System.Private.Windows.Core.dll.o [took 33.14s]
+  [59/85] System.Reflection.Metadata.dll.bc -> System.Reflection.Metadata.dll.o [took 14.40s]
+  [60/85] System.Runtime.dll.bc -> System.Runtime.dll.o [took 7.67s]
+  [61/85] System.Runtime.Serialization.Formatters.dll.bc -> System.Runtime.Serialization.Formatters.dll.o [took 7.68s]
+  [62/85] System.Text.Encodings.Web.dll.bc -> System.Text.Encodings.Web.dll.o [took 7.67s]
+  [63/85] System.Security.Cryptography.dll.bc -> System.Security.Cryptography.dll.o [took 7.67s]
+  [64/85] System.Runtime.Numerics.dll.bc -> System.Runtime.Numerics.dll.o [took 7.68s]
+  [65/85] System.Linq.dll.bc -> System.Linq.dll.o [took 19.78s]
+  [66/85] System.Runtime.Serialization.Primitives.dll.bc -> System.Runtime.Serialization.Primitives.dll.o [took 7.68s]
+  [67/85] System.Threading.Channels.dll.bc -> System.Threading.Channels.dll.o [took 7.90s]
+  [68/85] System.Xml.Linq.dll.bc -> System.Xml.Linq.dll.o [took 7.89s]
+  [69/85] System.Xml.ReaderWriter.dll.bc -> System.Xml.ReaderWriter.dll.o [took 7.89s]
+  [70/85] System.Threading.Thread.dll.bc -> System.Threading.Thread.dll.o [took 7.90s]
+  [71/85] System.Threading.Tasks.Parallel.dll.bc -> System.Threading.Tasks.Parallel.dll.o [took 7.90s]
+  [72/85] System.Threading.dll.bc -> System.Threading.dll.o [took 7.89s]
+  [73/85] System.dll.bc -> System.dll.o [took 7.89s]
+  [74/85] System.Xml.XmlSerializer.dll.bc -> System.Xml.XmlSerializer.dll.o [took 7.89s]
+  [75/85] System.Linq.Expressions.dll.bc -> System.Linq.Expressions.dll.o [took 30.01s]
+  [76/85] System.Text.RegularExpressions.dll.bc -> System.Text.RegularExpressions.dll.o [took 17.75s]
+  [77/85] netstandard.dll.bc -> netstandard.dll.o [took 5.29s]
+  [78/85] Beep.Skia.dll.bc -> Beep.Skia.dll.o [took 54.63s]
+  [79/85] System.Data.Common.dll.bc -> System.Data.Common.dll.o [took 43.26s]
+  [80/85] System.Text.Json.dll.bc -> System.Text.Json.dll.o [took 24.93s]
+  [81/85] DataManagementModels.dll.bc -> DataManagementModels.dll.o [took 65.26s]
+  [82/85] System.Private.Xml.dll.bc -> System.Private.Xml.dll.o [took 81.49s]
+  [83/85] TheTechIdea.Beep.Vis.Modules.dll.bc -> TheTechIdea.Beep.Vis.Modules.dll.o [took 119.57s]
+  [84/85] System.Private.CoreLib.dll.bc -> System.Private.CoreLib.dll.o [took 88.74s]
+  [85/85] aot-instances.dll.bc -> aot-instances.dll.o [took 158.72s]
+  Compiling native assets with C:\Program Files\dotnet\packs\Microsoft.NET.Runtime.Emscripten.3.1.56.Sdk.win-x64\10.0.12\Sdk\..\tools\emscripten\emcc with -Oz. This may take a while ...
+  [1/4] corebindings.c -> corebindings.o [took 4.09s]
+  [2/4] driver.c -> driver.o [took 4.40s]
+  [3/4] runtime.c -> runtime.o [took 4.44s]
+  [4/4] pinvoke.c -> pinvoke.o [took 4.60s]
+  Linking for initial memory $(WasmInitialHeapSize)=33554432 bytes. Set this msbuild property to change the value.
+  Linking with emcc with -O2. This may take a while ...
+   "C:\Program Files\dotnet\packs\Microsoft.NET.Runtime.Emscripten.3.1.56.Sdk.win-x64\10.0.12\tools\bin\clang.exe" --version
+   "C:\Program Files\dotnet\packs\Microsoft.NET.Runtime.Emscripten.3.1.56.Node.win-x64\10.0.12\tools\bin\node.exe" "C:\Program Files\dotnet\packs\Microsoft.NET.Runtime.Emscripten.3.1.56.Sdk.win-x64\10.0.12\tools\emscripten\src\compiler.mjs" C:\Users\f_ald\AppData\Local\Temp\tmpyj5jintk.json --symbols-only
+   "C:\Program Files\dotnet\packs\Microsoft.NET.Runtime.Emscripten.3.1.56.Sdk.win-x64\10.0.12\tools\bin\wasm-ld.exe" @C:\Users\f_ald\AppData\Local\Temp\emscripten_74natr5w.rsp.utf-8
+   "C:\Program Files\dotnet\packs\Microsoft.NET.Runtime.Emscripten.3.1.56.Sdk.win-x64\10.0.12\tools\bin\llvm-objcopy.exe" C:\Users\f_ald\source\repos\The-Tech-Idea\Beep.SimpleDraw\src\Beep.SimpleDraw.Web\obj\Release\net10.0\wasm\for-publish\dotnet.native.wasm C:\Users\f_ald\source\repos\The-Tech-Idea\Beep.SimpleDraw\src\Beep.SimpleDraw.Web\obj\Release\net10.0\wasm\for-publish\dotnet.native.wasm --remove-section=producers
+   "C:\Program Files\dotnet\packs\Microsoft.NET.Runtime.Emscripten.3.1.56.Node.win-x64\10.0.12\tools\bin\node.exe" "C:\Program Files\dotnet\packs\Microsoft.NET.Runtime.Emscripten.3.1.56.Sdk.win-x64\10.0.12\tools\emscripten\src\compiler.mjs" C:\Users\f_ald\AppData\Local\Temp\tmpdupuhynd.json
+   "C:\Program Files\dotnet\packs\Microsoft.NET.Runtime.Emscripten.3.1.56.Sdk.win-x64\10.0.12\tools\bin\wasm-opt" --strip-target-features --post-emscripten -O2 --low-memory-unused --zero-filled-memory --pass-arg=directize-initial-contents-immutable C:\Users\f_ald\source\repos\The-Tech-Idea\Beep.SimpleDraw\src\Beep.SimpleDraw.Web\obj\Release\net10.0\wasm\for-publish\dotnet.native.wasm -o C:\Users\f_ald\source\repos\The-Tech-Idea\Beep.SimpleDraw\src\Beep.SimpleDraw.Web\obj\Release\net10.0\wasm\for-publish\dotnet.native.wasm -g --mvp-features --enable-bulk-memory --enable-exception-handling --enable-multivalue --enable-mutable-globals --enable-reference-types --enable-sign-ext --enable-simd
+  Beep.SimpleDraw.Web -> C:\Users\f_ald\source\repos\The-Tech-Idea\Beep.SimpleDraw\artifacts\p6-aot-nrbf\publish\

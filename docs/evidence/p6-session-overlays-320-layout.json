@@ -1,0 +1,73 @@
+{
+  "canvas": [
+    {
+      "cssHeight": 656,
+      "cssWidth": 320,
+      "height": 656,
+      "width": 320
+    }
+  ],
+  "documentWidth": 320,
+  "tools": [
+    {
+      "height": 44,
+      "name": "Select",
+      "width": 44
+    },
+    {
+      "height": 44,
+      "name": "Hand",
+      "width": 44
+    },
+    {
+      "height": 44,
+      "name": "Rectangle",
+      "width": 44
+    },
+    {
+      "height": 44,
+      "name": "Ellipse",
+      "width": 44
+    },
+    {
+      "height": 44,
+      "name": "Diamond",
+      "width": 44
+    },
+    {
+      "height": 44,
+      "name": "Line",
+      "width": 44
+    },
+    {
+      "height": 44,
+      "name": "Arrow",
+      "width": 44
+    },
+    {
+      "height": 44,
+      "name": "Pen",
+      "width": 44
+    },
+    {
+      "height": 44,
+      "name": "Text",
+      "width": 44
+    },
+    {
+      "height": 44,
+      "name": "Eraser",
+      "width": 44
+    },
+    {
+      "height": 44,
+      "name": "Delete selected",
+      "width": 44
+    }
+  ],
+  "viewport": {
+    "height": 720,
+    "pixelRatio": 1,
+    "width": 320
+  }
+}

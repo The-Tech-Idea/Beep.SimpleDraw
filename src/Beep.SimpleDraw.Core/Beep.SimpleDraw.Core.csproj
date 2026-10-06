@@ -1,0 +1,23 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup><TargetFramework>net10.0</TargetFramework></PropertyGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Fonts/Kalam-Regular.ttf" />
+    <ProjectReference Include="../../../Beep.Skia/Beep.Skia/Beep.Skia.csproj" AdditionalProperties="GeneratePackageOnBuild=false;SkipMinVer=true;BeepSkiaLocalBuildCopies=false" />
+    <ProjectReference Include="../../../Beep.Skia/Beep.Skia.FlowChart/Beep.Skia.FlowChart.csproj" AdditionalProperties="GeneratePackageOnBuild=false;SkipMinVer=true;BeepSkiaLocalBuildCopies=false" />
+    <ProjectReference Include="../../../Beep.Skia/Beep.Skia.UML/Beep.Skia.UML.csproj" AdditionalProperties="GeneratePackageOnBuild=false;SkipMinVer=true;BeepSkiaLocalBuildCopies=false" />
+    <ProjectReference Include="../../../Beep.Skia/Beep.Skia.ERD/Beep.Skia.ERD.csproj" AdditionalProperties="GeneratePackageOnBuild=false;SkipMinVer=true;BeepSkiaLocalBuildCopies=false" />
+    <ProjectReference Include="../../../Beep.Skia/Beep.Skia.MindMap/Beep.Skia.MindMap.csproj" AdditionalProperties="GeneratePackageOnBuild=false;SkipMinVer=true;BeepSkiaLocalBuildCopies=false" />
+    <ProjectReference Include="../../../Beep.Skia/Beep.Skia.Network/Beep.Skia.Network.csproj" AdditionalProperties="GeneratePackageOnBuild=false;SkipMinVer=true;BeepSkiaLocalBuildCopies=false" />
+    <ProjectReference Include="../../../Beep.Skia/Beep.Skia.Business/Beep.Skia.Business.csproj" AdditionalProperties="GeneratePackageOnBuild=false;SkipMinVer=true;BeepSkiaLocalBuildCopies=false" />
+    <ProjectReference Include="../../../Beep.Skia/Beep.Skia.Cloud/Beep.Skia.Cloud.csproj" AdditionalProperties="GeneratePackageOnBuild=false;SkipMinVer=true;BeepSkiaLocalBuildCopies=false" />
+    <ProjectReference Include="../../../Beep.Skia/Beep.Skia.DFD/Beep.Skia.DFD.csproj" AdditionalProperties="GeneratePackageOnBuild=false;SkipMinVer=true;BeepSkiaLocalBuildCopies=false" />
+    <ProjectReference Include="../../../Beep.Skia/Beep.Skia.ECAD/Beep.Skia.ECAD.csproj" AdditionalProperties="GeneratePackageOnBuild=false;SkipMinVer=true;BeepSkiaLocalBuildCopies=false" />
+    <ProjectReference Include="../../../Beep.Skia/Beep.Skia.ETL/Beep.Skia.ETL.csproj" AdditionalProperties="GeneratePackageOnBuild=false;SkipMinVer=true;BeepSkiaLocalBuildCopies=false" />
+    <ProjectReference Include="../../../Beep.Skia/Beep.Skia.ML/Beep.Skia.ML.csproj" AdditionalProperties="GeneratePackageOnBuild=false;SkipMinVer=true;BeepSkiaLocalBuildCopies=false" />
+    <ProjectReference Include="../../../Beep.Skia/Beep.Skia.PM/Beep.Skia.PM.csproj" AdditionalProperties="GeneratePackageOnBuild=false;SkipMinVer=true;BeepSkiaLocalBuildCopies=false" />
+    <ProjectReference Include="../../../Beep.Skia/Beep.Skia.Security/Beep.Skia.Security.csproj" AdditionalProperties="GeneratePackageOnBuild=false;SkipMinVer=true;BeepSkiaLocalBuildCopies=false" />
+    <ProjectReference Include="../../../Beep.Skia/Beep.Skia.StateMachine/Beep.Skia.StateMachine.csproj" AdditionalProperties="GeneratePackageOnBuild=false;SkipMinVer=true;BeepSkiaLocalBuildCopies=false" />
+    <ProjectReference Include="../../../Beep.Skia/Beep.Ski.Quantitative/Beep.Ski.Quantitative.csproj" AdditionalProperties="GeneratePackageOnBuild=false;SkipMinVer=true;BeepSkiaLocalBuildCopies=false" />
+    <ProjectReference Include="../../../Beep.Skia/Beep.Skia.WellLogs/Beep.Skia.WellLogs.csproj" AdditionalProperties="GeneratePackageOnBuild=false;SkipMinVer=true;BeepSkiaLocalBuildCopies=false" />
+  </ItemGroup>
+</Project>

@@ -1,0 +1,62 @@
+info: ModelContextProtocol.Server.StdioServerTransport[857250842]
+      Server (stream) (Beep.SimpleDraw.Mcp) transport reading messages.
+info: Microsoft.Hosting.Lifetime[0]
+      Application started. Press Ctrl+C to shut down.
+info: Microsoft.Hosting.Lifetime[0]
+      Hosting environment: Production
+info: Microsoft.Hosting.Lifetime[0]
+      Content root path: C:\Users\f_ald\AppData\Local\Temp\SimpleDraw plugin portable 9b3b52a613d649608d818cf9a4fe8332\plugins\simpledraw-codex
+info: ModelContextProtocol.Server.McpServer[570385771]
+      Server (Beep.SimpleDraw.Mcp 1.0.0.0) method 'initialize' request handler called.
+info: ModelContextProtocol.Server.McpServer[570385771]
+      Server (Beep.SimpleDraw.Mcp 1.0.0.0), Client (Plugin package acceptance 1.0) method 'tools/list' request handler called.
+info: ModelContextProtocol.Server.McpServer[1867955179]
+      Server (Beep.SimpleDraw.Mcp 1.0.0.0), Client (Plugin package acceptance 1.0) method 'initialize' request handler completed in 23.8135ms.
+info: ModelContextProtocol.Server.McpServer[1867955179]
+      Server (Beep.SimpleDraw.Mcp 1.0.0.0), Client (Plugin package acceptance 1.0) method 'tools/list' request handler completed in 8.3296ms.
+info: ModelContextProtocol.Server.McpServer[570385771]
+      Server (Beep.SimpleDraw.Mcp 1.0.0.0), Client (Plugin package acceptance 1.0) method 'tools/call' request handler called.
+info: ModelContextProtocol.Server.McpServer[2065726448]
+      "list_components" completed. IsError = False.
+info: ModelContextProtocol.Server.McpServer[1867955179]
+      Server (Beep.SimpleDraw.Mcp 1.0.0.0), Client (Plugin package acceptance 1.0) method 'tools/call' request handler completed in 104.062ms.
+info: ModelContextProtocol.Server.McpServer[570385771]
+      Server (Beep.SimpleDraw.Mcp 1.0.0.0), Client (Plugin package acceptance 1.0) method 'tools/call' request handler called.
+info: ModelContextProtocol.Server.McpServer[2065726448]
+      "describe_component" completed. IsError = False.
+info: ModelContextProtocol.Server.McpServer[1867955179]
+      Server (Beep.SimpleDraw.Mcp 1.0.0.0), Client (Plugin package acceptance 1.0) method 'tools/call' request handler completed in 115.802ms.
+info: ModelContextProtocol.Server.McpServer[570385771]
+      Server (Beep.SimpleDraw.Mcp 1.0.0.0), Client (Plugin package acceptance 1.0) method 'tools/call' request handler called.
+info: ModelContextProtocol.Server.McpServer[2065726448]
+      "create_drawing" completed. IsError = False.
+info: ModelContextProtocol.Server.McpServer[1867955179]
+      Server (Beep.SimpleDraw.Mcp 1.0.0.0), Client (Plugin package acceptance 1.0) method 'tools/call' request handler completed in 58.6806ms.
+info: ModelContextProtocol.Server.McpServer[570385771]
+      Server (Beep.SimpleDraw.Mcp 1.0.0.0), Client (Plugin package acceptance 1.0) method 'tools/call' request handler called.
+info: ModelContextProtocol.Server.McpServer[2065726448]
+      "add_component" completed. IsError = False.
+info: ModelContextProtocol.Server.McpServer[1867955179]
+      Server (Beep.SimpleDraw.Mcp 1.0.0.0), Client (Plugin package acceptance 1.0) method 'tools/call' request handler completed in 53.1942ms.
+info: ModelContextProtocol.Server.McpServer[570385771]
+      Server (Beep.SimpleDraw.Mcp 1.0.0.0), Client (Plugin package acceptance 1.0) method 'tools/call' request handler called.
+info: ModelContextProtocol.Server.McpServer[2065726448]
+      "export_drawing" completed. IsError = False.
+info: ModelContextProtocol.Server.McpServer[1867955179]
+      Server (Beep.SimpleDraw.Mcp 1.0.0.0), Client (Plugin package acceptance 1.0) method 'tools/call' request handler completed in 13.2297ms.
+info: ModelContextProtocol.Server.McpServer[570385771]
+      Server (Beep.SimpleDraw.Mcp 1.0.0.0), Client (Plugin package acceptance 1.0) method 'tools/call' request handler called.
+info: ModelContextProtocol.Server.McpServer[2065726448]
+      "export_drawing" completed. IsError = False.
+info: ModelContextProtocol.Server.McpServer[1867955179]
+      Server (Beep.SimpleDraw.Mcp 1.0.0.0), Client (Plugin package acceptance 1.0) method 'tools/call' request handler completed in 32.2773ms.
+info: ModelContextProtocol.Server.McpServer[570385771]
+      Server (Beep.SimpleDraw.Mcp 1.0.0.0), Client (Plugin package acceptance 1.0) method 'tools/call' request handler called.
+info: ModelContextProtocol.Server.McpServer[2065726448]
+      "render_drawing" completed. IsError = False.
+info: ModelContextProtocol.Server.McpServer[1867955179]
+      Server (Beep.SimpleDraw.Mcp 1.0.0.0), Client (Plugin package acceptance 1.0) method 'tools/call' request handler completed in 10.5625ms.
+info: ModelContextProtocol.Server.McpServer[570385771]
+      Server (Beep.SimpleDraw.Mcp 1.0.0.0), Client (Plugin package acceptance 1.0) method 'resources/list' request handler called.
+info: ModelContextProtocol.Server.McpServer[1867955179]
+      Server (Beep.SimpleDraw.Mcp 1.0.0.0), Client (Plugin package acceptance 1.0) method 'resources/list' request handler completed in 2.3757ms.

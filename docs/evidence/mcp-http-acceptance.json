@@ -1,0 +1,9 @@
+{
+  "endpoint": "http://127.0.0.1:5256/mcp",
+  "protocolVersion": "2025-06-18",
+  "tools": 31,
+  "catalogTotal": 249,
+  "foreignOriginRejected": 403,
+  "foreignHostRejected": 403,
+  "malformedJsonRejected": 400
+}

@@ -1,0 +1,28 @@
+  Beep.Skia.Model -> C:\Users\f_ald\source\repos\The-Tech-Idea\Beep.Skia\Beep.Skia.Model\bin\Release\net10.0\Beep.Skia.Model.dll
+  Beep.Skia -> C:\Users\f_ald\source\repos\The-Tech-Idea\Beep.Skia\Beep.Skia\bin\Release\net10.0\Beep.Skia.dll
+  Beep.Skia.FlowChart -> C:\Users\f_ald\source\repos\The-Tech-Idea\Beep.Skia\Beep.Skia.FlowChart\bin\Release\net10.0\Beep.Skia.FlowChart.dll
+  Beep.Skia.WellLogs -> C:\Users\f_ald\source\repos\The-Tech-Idea\Beep.Skia\Beep.Skia.WellLogs\bin\Debug\net10.0\Beep.Skia.WellLogs.dll
+  Beep.Skia.UML -> C:\Users\f_ald\source\repos\The-Tech-Idea\Beep.Skia\Beep.Skia.UML\bin\Debug\net10.0\Beep.Skia.UML.dll
+  Beep.Skia.MindMap -> C:\Users\f_ald\source\repos\The-Tech-Idea\Beep.Skia\Beep.Skia.MindMap\bin\Debug\net10.0\Beep.Skia.MindMap.dll
+  Beep.Skia.StateMachine -> C:\Users\f_ald\source\repos\The-Tech-Idea\Beep.Skia\Beep.Skia.StateMachine\bin\Debug\net10.0\Beep.Skia.StateMachine.dll
+  Beep.Skia.PM -> C:\Users\f_ald\source\repos\The-Tech-Idea\Beep.Skia\Beep.Skia.PM\bin\Debug\net10.0\Beep.Skia.PM.dll
+  Beep.Skia.Network -> C:\Users\f_ald\source\repos\The-Tech-Idea\Beep.Skia\Beep.Skia.Network\bin\Debug\net10.0\Beep.Skia.Network.dll
+  Beep.Skia.ERD -> C:\Users\f_ald\source\repos\The-Tech-Idea\Beep.Skia\Beep.Skia.ERD\bin\Debug\net10.0\Beep.Skia.ERD.dll
+  Beep.Skia.Blazor.Controls -> C:\Users\f_ald\source\repos\The-Tech-Idea\Beep.Skia\Beep.Skia.Blazor.Controls\bin\Release\net10.0\Beep.Skia.Blazor.Controls.dll
+  Beep.Skia.Cloud -> C:\Users\f_ald\source\repos\The-Tech-Idea\Beep.Skia\Beep.Skia.Cloud\bin\Debug\net10.0\Beep.Skia.Cloud.dll
+  Beep.Skia.Business -> C:\Users\f_ald\source\repos\The-Tech-Idea\Beep.Skia\Beep.Skia.Business\bin\Debug\net10.0\Beep.Skia.Business.dll
+  Beep.Skia.DFD -> C:\Users\f_ald\source\repos\The-Tech-Idea\Beep.Skia\Beep.Skia.DFD\bin\Debug\net10.0\Beep.Skia.DFD.dll
+  Beep.Skia.ECAD -> C:\Users\f_ald\source\repos\The-Tech-Idea\Beep.Skia\Beep.Skia.ECAD\bin\Debug\net10.0\Beep.Skia.ECAD.dll
+  Beep.Skia.Security -> C:\Users\f_ald\source\repos\The-Tech-Idea\Beep.Skia\Beep.Skia.Security\bin\Debug\net10.0\Beep.Skia.Security.dll
+  Beep.Skia.ML -> C:\Users\f_ald\source\repos\The-Tech-Idea\Beep.Skia\Beep.Skia.ML\bin\Debug\net10.0\Beep.Skia.ML.dll
+  Beep.Skia.ETL -> C:\Users\f_ald\source\repos\The-Tech-Idea\Beep.Skia\Beep.Skia.ETL\bin\Debug\net10.0\Beep.Skia.ETL.dll
+  Beep.Ski.Quantitative -> C:\Users\f_ald\source\repos\The-Tech-Idea\Beep.Skia\Beep.Ski.Quantitative\bin\Debug\net10.0\Beep.Ski.Quantitative.dll
+C:\Users\f_ald\source\repos\The-Tech-Idea\Beep.SimpleDraw\src\Beep.SimpleDraw.Core\Library\SkiaCatalog.cs(97,14): error CS1061: 'SkiaComponent' does not contain a definition for 'InvalidateVisual' and no accessible extension method 'InvalidateVisual' accepting a first argument of type 'SkiaComponent' could be found (are you missing a using directive or an assembly reference?) [C:\Users\f_ald\source\repos\The-Tech-Idea\Beep.SimpleDraw\src\Beep.SimpleDraw.Core\Beep.SimpleDraw.Core.csproj]
+
+Build FAILED.
+
+C:\Users\f_ald\source\repos\The-Tech-Idea\Beep.SimpleDraw\src\Beep.SimpleDraw.Core\Library\SkiaCatalog.cs(97,14): error CS1061: 'SkiaComponent' does not contain a definition for 'InvalidateVisual' and no accessible extension method 'InvalidateVisual' accepting a first argument of type 'SkiaComponent' could be found (are you missing a using directive or an assembly reference?) [C:\Users\f_ald\source\repos\The-Tech-Idea\Beep.SimpleDraw\src\Beep.SimpleDraw.Core\Beep.SimpleDraw.Core.csproj]
+    0 Warning(s)
+    1 Error(s)
+
+Time Elapsed 00:00:15.48

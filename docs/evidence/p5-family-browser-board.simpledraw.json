@@ -1,0 +1,185 @@
+{
+  "format": "beep.simpledraw",
+  "version": 5,
+  "diagram": {
+    "schemaVersion": 3,
+    "themeName": "Light",
+    "components": [
+      {
+        "id": "0f9b78ac-14a7-4e29-8ebc-791aba7d76e3",
+        "type": "Beep.Skia.Flowchart.ProcessNode",
+        "x": 340,
+        "y": 287,
+        "width": 180,
+        "height": 90,
+        "name": "Flowchart Process",
+        "propertyBag": {
+          "InPortCount": "2",
+          "OutPortCount": "2",
+          "CustomFillColor": "#ffdceee6",
+          "CustomStrokeColor": "#ff2875bc",
+          "CustomTextColor": "",
+          "Label": "Prepare idea",
+          "ShowTopBottomPorts": "False",
+          "NodeStrokeWidth": "2",
+          "LabelFontSize": "24",
+          "GroupId": "c7b46b96-7512-4554-bf67-5881c6e86061"
+        },
+        "typedPropertyBag": {},
+        "inPointIds": [
+          "53b25291-f923-4dc0-b0ec-dde693a8c4cd",
+          "bc79a69e-813f-4759-95db-e0d7ed892452"
+        ],
+        "outPointIds": [
+          "9ee6694b-5929-425b-90f9-5e1324c898dc",
+          "95571349-02ba-4e6f-87f7-136d7bc39866"
+        ]
+      },
+      {
+        "id": "adb9a2da-2560-4bd8-ae5c-2dd95c3fbb59",
+        "type": "Beep.Skia.Flowchart.DecisionNode",
+        "x": 570,
+        "y": 272,
+        "width": 140,
+        "height": 100,
+        "name": "Flowchart Decision",
+        "propertyBag": {
+          "InPortCount": "1",
+          "OutPortCount": "2",
+          "CustomFillColor": "",
+          "CustomStrokeColor": "",
+          "CustomTextColor": "",
+          "Label": "Ready?",
+          "ShowTopBottomPorts": "False",
+          "NodeStrokeWidth": "2",
+          "LabelFontSize": "14",
+          "GroupId": "c7b46b96-7512-4554-bf67-5881c6e86061"
+        },
+        "typedPropertyBag": {},
+        "inPointIds": [
+          "52a28b2a-52a2-4953-8056-992566d0e7ac"
+        ],
+        "outPointIds": [
+          "ece5d12a-af91-4139-90a9-59346ce96d97",
+          "cb84afa9-2a0b-450e-961f-3395e05fcc1a"
+        ]
+      },
+      {
+        "id": "0bf31af7-84fd-45fb-b0ad-c6f456095348",
+        "type": "Beep.Skia.Flowchart.StartEndNode",
+        "x": 790,
+        "y": 294,
+        "width": 140,
+        "height": 56,
+        "name": "Flowchart Terminator",
+        "propertyBag": {
+          "InPortCount": "1",
+          "OutPortCount": "1",
+          "CustomFillColor": "",
+          "CustomStrokeColor": "",
+          "CustomTextColor": "",
+          "Label": "Finish",
+          "ShowTopBottomPorts": "False",
+          "NodeStrokeWidth": "2",
+          "LabelFontSize": "14",
+          "GroupId": "c7b46b96-7512-4554-bf67-5881c6e86061"
+        },
+        "typedPropertyBag": {},
+        "inPointIds": [
+          "1ab29698-1b61-4ce8-9bcb-4617d9fb32c2"
+        ],
+        "outPointIds": [
+          "03f744c2-e67d-4609-81e6-6bf90fd08e89"
+        ]
+      },
+      {
+        "id": "cac2e7a6-5f11-4261-a6fa-8248212ac2dc",
+        "type": "Beep.Skia.Flowchart.ProcessNode",
+        "x": 345,
+        "y": 442.5,
+        "width": 180,
+        "height": 90,
+        "name": "Flowchart Process",
+        "propertyBag": {
+          "InPortCount": "2",
+          "OutPortCount": "2",
+          "CustomFillColor": "#ffdceee6",
+          "CustomStrokeColor": "#ff2875bc",
+          "CustomTextColor": "",
+          "Label": "Prepare idea",
+          "ShowTopBottomPorts": "False",
+          "NodeStrokeWidth": "2",
+          "LabelFontSize": "24",
+          "GroupId": "59d0dbe2-99c2-47b6-b359-a30c79ea4c27"
+        },
+        "typedPropertyBag": {},
+        "inPointIds": [
+          "dbdff3bf-25d2-475e-8367-4325a681b088",
+          "dff4265b-a348-4068-97bb-c6a00fd146f4"
+        ],
+        "outPointIds": [
+          "69a110df-8934-4fbb-a5d3-224cd9865400",
+          "d9ab13e2-a8c6-452f-9781-93450664b05f"
+        ]
+      },
+      {
+        "id": "654be9e0-4492-406e-9612-df65fa5f93d5",
+        "type": "Beep.Skia.Flowchart.DecisionNode",
+        "x": 575,
+        "y": 427.5,
+        "width": 140,
+        "height": 100,
+        "name": "Flowchart Decision",
+        "propertyBag": {
+          "InPortCount": "1",
+          "OutPortCount": "2",
+          "CustomFillColor": "",
+          "CustomStrokeColor": "",
+          "CustomTextColor": "",
+          "Label": "Ready?",
+          "ShowTopBottomPorts": "False",
+          "NodeStrokeWidth": "2",
+          "LabelFontSize": "14",
+          "GroupId": "59d0dbe2-99c2-47b6-b359-a30c79ea4c27"
+        },
+        "typedPropertyBag": {},
+        "inPointIds": [
+          "83d86f1b-87a3-4f40-b7bf-a4eaee0564df"
+        ],
+        "outPointIds": [
+          "6ae229cf-83cb-4290-a88b-13482115f50d",
+          "73d66bbf-52ea-4b0c-b25d-1896e9a8dfe0"
+        ]
+      },
+      {
+        "id": "037fb627-880d-42ec-bd07-085d2b3dc47f",
+        "type": "Beep.Skia.Flowchart.StartEndNode",
+        "x": 795,
+        "y": 449.5,
+        "width": 140,
+        "height": 56,
+        "name": "Flowchart Terminator",
+        "propertyBag": {
+          "InPortCount": "1",
+          "OutPortCount": "1",
+          "CustomFillColor": "",
+          "CustomStrokeColor": "",
+          "CustomTextColor": "",
+          "Label": "Finish",
+          "ShowTopBottomPorts": "False",
+          "NodeStrokeWidth": "2",
+          "LabelFontSize": "14",
+          "GroupId": "59d0dbe2-99c2-47b6-b359-a30c79ea4c27"
+        },
+        "typedPropertyBag": {},
+        "inPointIds": [
+          "f74d33b5-d0b6-4df6-88fa-10a66e257e14"
+        ],
+        "outPointIds": [
+          "f93266aa-c59c-4ade-a4f0-080fc84a62c7"
+        ]
+      }
+    ],
+    "lines": []
+  }
+}

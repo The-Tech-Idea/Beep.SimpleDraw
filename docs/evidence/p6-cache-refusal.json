@@ -1,0 +1,5 @@
+{
+  "archiveReplacement": "refused",
+  "extractedPayloadChange": "refused",
+  "scope": "Owned copied package cache; original build cache was read only."
+}

@@ -1,0 +1,146 @@
+  Beep.Skia.Model -> C:\Users\f_ald\source\repos\The-Tech-Idea\Beep.Skia\Beep.Skia.Model\bin\Release\net10.0\Beep.Skia.Model.dll
+  Beep.Skia -> C:\Users\f_ald\source\repos\The-Tech-Idea\Beep.Skia\Beep.Skia\bin\Release\net10.0\Beep.Skia.dll
+  Beep.Skia.FlowChart -> C:\Users\f_ald\source\repos\The-Tech-Idea\Beep.Skia\Beep.Skia.FlowChart\bin\Release\net10.0\Beep.Skia.FlowChart.dll
+  Beep.Skia.ML -> C:\Users\f_ald\source\repos\The-Tech-Idea\Beep.Skia\Beep.Skia.ML\bin\Release\net10.0\Beep.Skia.ML.dll
+  Beep.Ski.Quantitative -> C:\Users\f_ald\source\repos\The-Tech-Idea\Beep.Skia\Beep.Ski.Quantitative\bin\Release\net10.0\Beep.Ski.Quantitative.dll
+  Beep.Skia.StateMachine -> C:\Users\f_ald\source\repos\The-Tech-Idea\Beep.Skia\Beep.Skia.StateMachine\bin\Release\net10.0\Beep.Skia.StateMachine.dll
+  Beep.Skia.ETL -> C:\Users\f_ald\source\repos\The-Tech-Idea\Beep.Skia\Beep.Skia.ETL\bin\Release\net10.0\Beep.Skia.ETL.dll
+  Beep.Skia.Security -> C:\Users\f_ald\source\repos\The-Tech-Idea\Beep.Skia\Beep.Skia.Security\bin\Release\net10.0\Beep.Skia.Security.dll
+  Beep.Skia.Cloud -> C:\Users\f_ald\source\repos\The-Tech-Idea\Beep.Skia\Beep.Skia.Cloud\bin\Release\net10.0\Beep.Skia.Cloud.dll
+  Beep.Skia.UML -> C:\Users\f_ald\source\repos\The-Tech-Idea\Beep.Skia\Beep.Skia.UML\bin\Release\net10.0\Beep.Skia.UML.dll
+  Beep.Skia.ECAD -> C:\Users\f_ald\source\repos\The-Tech-Idea\Beep.Skia\Beep.Skia.ECAD\bin\Release\net10.0\Beep.Skia.ECAD.dll
+  Beep.Skia.Business -> C:\Users\f_ald\source\repos\The-Tech-Idea\Beep.Skia\Beep.Skia.Business\bin\Release\net10.0\Beep.Skia.Business.dll
+  Beep.Skia.ERD -> C:\Users\f_ald\source\repos\The-Tech-Idea\Beep.Skia\Beep.Skia.ERD\bin\Release\net10.0\Beep.Skia.ERD.dll
+  Beep.Skia.DFD -> C:\Users\f_ald\source\repos\The-Tech-Idea\Beep.Skia\Beep.Skia.DFD\bin\Release\net10.0\Beep.Skia.DFD.dll
+  Beep.Skia.WellLogs -> C:\Users\f_ald\source\repos\The-Tech-Idea\Beep.Skia\Beep.Skia.WellLogs\bin\Release\net10.0\Beep.Skia.WellLogs.dll
+  Beep.Skia.Network -> C:\Users\f_ald\source\repos\The-Tech-Idea\Beep.Skia\Beep.Skia.Network\bin\Release\net10.0\Beep.Skia.Network.dll
+  Beep.Skia.MindMap -> C:\Users\f_ald\source\repos\The-Tech-Idea\Beep.Skia\Beep.Skia.MindMap\bin\Release\net10.0\Beep.Skia.MindMap.dll
+  Beep.Skia.PM -> C:\Users\f_ald\source\repos\The-Tech-Idea\Beep.Skia\Beep.Skia.PM\bin\Release\net10.0\Beep.Skia.PM.dll
+  Beep.SimpleDraw.Core -> C:\Users\f_ald\source\repos\The-Tech-Idea\Beep.SimpleDraw\src\Beep.SimpleDraw.Core\bin\Release\net10.0\Beep.SimpleDraw.Core.dll
+  Beep.SimpleDraw.Tests -> C:\Users\f_ald\source\repos\The-Tech-Idea\Beep.SimpleDraw\tests\Beep.SimpleDraw.Tests\bin\Release\net10.0\Beep.SimpleDraw.Tests.dll
+Test run for C:\Users\f_ald\source\repos\The-Tech-Idea\Beep.SimpleDraw\tests\Beep.SimpleDraw.Tests\bin\Release\net10.0\Beep.SimpleDraw.Tests.dll (.NETCoreApp,Version=v10.0)
+A total of 1 test files matched the specified pattern.
+[xUnit.net 00:00:02.90]     Beep.SimpleDraw.Tests.SkiaCatalogTests.EveryCatalogComponentSurvivesNativeLibraryHistoryAndRaster(type: "Beep.Skia.UML.UMLDataSourceNode") [FAIL]
+  Failed Beep.SimpleDraw.Tests.SkiaCatalogTests.EveryCatalogComponentSurvivesNativeLibraryHistoryAndRaster(type: "Beep.Skia.UML.UMLDataSourceNode") [33 ms]
+  Error Message:
+   Assert.Equal() Failure: Collections differ
+                       ↓ (pos 52)
+Expected: [···, 0, 22, 253, 73, 68, ···]
+Actual:   [···, 0, 22, 106, 73, 68, ···]
+                       ↑ (pos 52)
+  Stack Trace:
+     at Beep.SimpleDraw.Tests.SkiaCatalogTests.EveryCatalogComponentSurvivesNativeLibraryHistoryAndRaster(String type) in C:\Users\f_ald\source\repos\The-Tech-Idea\Beep.SimpleDraw\tests\Beep.SimpleDraw.Tests\SkiaCatalogTests.cs:line 31
+   at InvokeStub_SkiaCatalogTests.EveryCatalogComponentSurvivesNativeLibraryHistoryAndRaster(Object, Span`1)
+   at System.Reflection.MethodBaseInvoker.InvokeWithOneArg(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+[xUnit.net 00:00:03.23]     Beep.SimpleDraw.Tests.SkiaCatalogTests.EveryCatalogComponentSurvivesNativeLibraryHistoryAndRaster(type: "Beep.Skia.UML.UMLLifeline") [FAIL]
+  Failed Beep.SimpleDraw.Tests.SkiaCatalogTests.EveryCatalogComponentSurvivesNativeLibraryHistoryAndRaster(type: "Beep.Skia.UML.UMLLifeline") [18 ms]
+  Error Message:
+   Assert.Equal() Failure: Collections differ
+                       ↓ (pos 52)
+Expected: [···, 0, 16, 180, 73, 68, ···]
+Actual:   [···, 0, 16, 63, 73, 68, ···]
+                       ↑ (pos 52)
+  Stack Trace:
+     at Beep.SimpleDraw.Tests.SkiaCatalogTests.EveryCatalogComponentSurvivesNativeLibraryHistoryAndRaster(String type) in C:\Users\f_ald\source\repos\The-Tech-Idea\Beep.SimpleDraw\tests\Beep.SimpleDraw.Tests\SkiaCatalogTests.cs:line 31
+   at InvokeStub_SkiaCatalogTests.EveryCatalogComponentSurvivesNativeLibraryHistoryAndRaster(Object, Span`1)
+   at System.Reflection.MethodBaseInvoker.InvokeWithOneArg(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+[xUnit.net 00:00:04.99]     Beep.SimpleDraw.Tests.SkiaCatalogTests.EveryCatalogComponentSurvivesNativeLibraryHistoryAndRaster(type: "Beep.Skia.UML.UMLActionNode") [FAIL]
+[xUnit.net 00:00:05.09]     Beep.SimpleDraw.Tests.SkiaCatalogTests.EveryCatalogComponentSurvivesNativeLibraryHistoryAndRaster(type: "Beep.Skia.UML.UMLOutputNode") [FAIL]
+  Failed Beep.SimpleDraw.Tests.SkiaCatalogTests.EveryCatalogComponentSurvivesNativeLibraryHistoryAndRaster(type: "Beep.Skia.UML.UMLActionNode") [16 ms]
+  Error Message:
+   Assert.Equal() Failure: Collections differ
+                      ↓ (pos 52)
+Expected: [···, 0, 5, 179, 73, 68, ···]
+Actual:   [···, 0, 5, 109, 73, 68, ···]
+                      ↑ (pos 52)
+  Stack Trace:
+     at Beep.SimpleDraw.Tests.SkiaCatalogTests.EveryCatalogComponentSurvivesNativeLibraryHistoryAndRaster(String type) in C:\Users\f_ald\source\repos\The-Tech-Idea\Beep.SimpleDraw\tests\Beep.SimpleDraw.Tests\SkiaCatalogTests.cs:line 31
+   at InvokeStub_SkiaCatalogTests.EveryCatalogComponentSurvivesNativeLibraryHistoryAndRaster(Object, Span`1)
+   at System.Reflection.MethodBaseInvoker.InvokeWithOneArg(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+  Failed Beep.SimpleDraw.Tests.SkiaCatalogTests.EveryCatalogComponentSurvivesNativeLibraryHistoryAndRaster(type: "Beep.Skia.UML.UMLOutputNode") [15 ms]
+  Error Message:
+   Assert.Equal() Failure: Collections differ
+                      ↓ (pos 52)
+Expected: [···, 0, 9, 125, 73, 68, ···]
+Actual:   [···, 0, 9, 1, 73, 68, ···]
+                      ↑ (pos 52)
+  Stack Trace:
+     at Beep.SimpleDraw.Tests.SkiaCatalogTests.EveryCatalogComponentSurvivesNativeLibraryHistoryAndRaster(String type) in C:\Users\f_ald\source\repos\The-Tech-Idea\Beep.SimpleDraw\tests\Beep.SimpleDraw.Tests\SkiaCatalogTests.cs:line 31
+   at InvokeStub_SkiaCatalogTests.EveryCatalogComponentSurvivesNativeLibraryHistoryAndRaster(Object, Span`1)
+   at System.Reflection.MethodBaseInvoker.InvokeWithOneArg(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+[xUnit.net 00:00:05.49]     Beep.SimpleDraw.Tests.SkiaCatalogTests.EveryCatalogComponentSurvivesNativeLibraryHistoryAndRaster(type: "Beep.Skia.UML.UMLInterface") [FAIL]
+  Failed Beep.SimpleDraw.Tests.SkiaCatalogTests.EveryCatalogComponentSurvivesNativeLibraryHistoryAndRaster(type: "Beep.Skia.UML.UMLInterface") [18 ms]
+  Error Message:
+   Assert.Equal() Failure: Collections differ
+                          ↓ (pos 61)
+Expected: [···, 237, 157, 125, 92, 206, ···]
+Actual:   [···, 237, 157, 121, 88, 85, ···]
+                          ↑ (pos 61)
+  Stack Trace:
+     at Beep.SimpleDraw.Tests.SkiaCatalogTests.EveryCatalogComponentSurvivesNativeLibraryHistoryAndRaster(String type) in C:\Users\f_ald\source\repos\The-Tech-Idea\Beep.SimpleDraw\tests\Beep.SimpleDraw.Tests\SkiaCatalogTests.cs:line 31
+   at InvokeStub_SkiaCatalogTests.EveryCatalogComponentSurvivesNativeLibraryHistoryAndRaster(Object, Span`1)
+   at System.Reflection.MethodBaseInvoker.InvokeWithOneArg(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+[xUnit.net 00:00:06.12]     Beep.SimpleDraw.Tests.SkiaCatalogTests.EveryCatalogComponentSurvivesNativeLibraryHistoryAndRaster(type: "Beep.Skia.UML.UMLActor") [FAIL]
+  Failed Beep.SimpleDraw.Tests.SkiaCatalogTests.EveryCatalogComponentSurvivesNativeLibraryHistoryAndRaster(type: "Beep.Skia.UML.UMLActor") [14 ms]
+  Error Message:
+   Assert.Equal() Failure: Collections differ
+                       ↓ (pos 52)
+Expected: [···, 0, 19, 167, 73, 68, ···]
+Actual:   [···, 0, 19, 42, 73, 68, ···]
+                       ↑ (pos 52)
+  Stack Trace:
+     at Beep.SimpleDraw.Tests.SkiaCatalogTests.EveryCatalogComponentSurvivesNativeLibraryHistoryAndRaster(String type) in C:\Users\f_ald\source\repos\The-Tech-Idea\Beep.SimpleDraw\tests\Beep.SimpleDraw.Tests\SkiaCatalogTests.cs:line 31
+   at InvokeStub_SkiaCatalogTests.EveryCatalogComponentSurvivesNativeLibraryHistoryAndRaster(Object, Span`1)
+   at System.Reflection.MethodBaseInvoker.InvokeWithOneArg(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+[xUnit.net 00:00:06.51]     Beep.SimpleDraw.Tests.SkiaCatalogTests.EveryCatalogComponentSurvivesNativeLibraryHistoryAndRaster(type: "Beep.Skia.UML.UMLTransformNode") [FAIL]
+  Failed Beep.SimpleDraw.Tests.SkiaCatalogTests.EveryCatalogComponentSurvivesNativeLibraryHistoryAndRaster(type: "Beep.Skia.UML.UMLTransformNode") [17 ms]
+  Error Message:
+   Assert.Equal() Failure: Collections differ
+                      ↓ (pos 51)
+Expected: [···, 0, 0, 2, 16, 73, ···]
+Actual:   [···, 0, 0, 1, 217, 73, ···]
+                      ↑ (pos 51)
+  Stack Trace:
+     at Beep.SimpleDraw.Tests.SkiaCatalogTests.EveryCatalogComponentSurvivesNativeLibraryHistoryAndRaster(String type) in C:\Users\f_ald\source\repos\The-Tech-Idea\Beep.SimpleDraw\tests\Beep.SimpleDraw.Tests\SkiaCatalogTests.cs:line 31
+   at InvokeStub_SkiaCatalogTests.EveryCatalogComponentSurvivesNativeLibraryHistoryAndRaster(Object, Span`1)
+   at System.Reflection.MethodBaseInvoker.InvokeWithOneArg(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+[xUnit.net 00:00:06.70]     Beep.SimpleDraw.Tests.SkiaCatalogTests.EveryCatalogComponentSurvivesNativeLibraryHistoryAndRaster(type: "Beep.Skia.UML.UMLClass") [FAIL]
+  Failed Beep.SimpleDraw.Tests.SkiaCatalogTests.EveryCatalogComponentSurvivesNativeLibraryHistoryAndRaster(type: "Beep.Skia.UML.UMLClass") [30 ms]
+  Error Message:
+   Assert.Equal() Failure: Collections differ
+                      ↓ (pos 51)
+Expected: [···, 0, 0, 31, 114, 73, ···]
+Actual:   [···, 0, 0, 32, 0, 73, ···]
+                      ↑ (pos 51)
+  Stack Trace:
+     at Beep.SimpleDraw.Tests.SkiaCatalogTests.EveryCatalogComponentSurvivesNativeLibraryHistoryAndRaster(String type) in C:\Users\f_ald\source\repos\The-Tech-Idea\Beep.SimpleDraw\tests\Beep.SimpleDraw.Tests\SkiaCatalogTests.cs:line 31
+   at InvokeStub_SkiaCatalogTests.EveryCatalogComponentSurvivesNativeLibraryHistoryAndRaster(Object, Span`1)
+   at System.Reflection.MethodBaseInvoker.InvokeWithOneArg(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+[xUnit.net 00:00:08.17]     Beep.SimpleDraw.Tests.SkiaCatalogTests.EveryCatalogComponentSurvivesNativeLibraryHistoryAndRaster(type: "Beep.Skia.UML.UMLTriggerNode") [FAIL]
+  Failed Beep.SimpleDraw.Tests.SkiaCatalogTests.EveryCatalogComponentSurvivesNativeLibraryHistoryAndRaster(type: "Beep.Skia.UML.UMLTriggerNode") [14 ms]
+  Error Message:
+   Assert.Equal() Failure: Collections differ
+                      ↓ (pos 51)
+Expected: [···, 0, 0, 7, 100, 73, ···]
+Actual:   [···, 0, 0, 6, 255, 73, ···]
+                      ↑ (pos 51)
+  Stack Trace:
+     at Beep.SimpleDraw.Tests.SkiaCatalogTests.EveryCatalogComponentSurvivesNativeLibraryHistoryAndRaster(String type) in C:\Users\f_ald\source\repos\The-Tech-Idea\Beep.SimpleDraw\tests\Beep.SimpleDraw.Tests\SkiaCatalogTests.cs:line 31
+   at InvokeStub_SkiaCatalogTests.EveryCatalogComponentSurvivesNativeLibraryHistoryAndRaster(Object, Span`1)
+   at System.Reflection.MethodBaseInvoker.InvokeWithOneArg(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+[xUnit.net 00:00:08.67]     Beep.SimpleDraw.Tests.SkiaCatalogTests.EveryCatalogComponentSurvivesNativeLibraryHistoryAndRaster(type: "Beep.Skia.UML.UMLConditionNode") [FAIL]
+  Failed Beep.SimpleDraw.Tests.SkiaCatalogTests.EveryCatalogComponentSurvivesNativeLibraryHistoryAndRaster(type: "Beep.Skia.UML.UMLConditionNode") [14 ms]
+  Error Message:
+   Assert.Equal() Failure: Collections differ
+                      ↓ (pos 51)
+Expected: [···, 0, 0, 2, 16, 73, ···]
+Actual:   [···, 0, 0, 1, 217, 73, ···]
+                      ↑ (pos 51)
+  Stack Trace:
+     at Beep.SimpleDraw.Tests.SkiaCatalogTests.EveryCatalogComponentSurvivesNativeLibraryHistoryAndRaster(String type) in C:\Users\f_ald\source\repos\The-Tech-Idea\Beep.SimpleDraw\tests\Beep.SimpleDraw.Tests\SkiaCatalogTests.cs:line 31
+   at InvokeStub_SkiaCatalogTests.EveryCatalogComponentSurvivesNativeLibraryHistoryAndRaster(Object, Span`1)
+   at System.Reflection.MethodBaseInvoker.InvokeWithOneArg(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+WARNING: Overwriting results file: C:\Users\f_ald\source\repos\The-Tech-Idea\Beep.SimpleDraw\docs\evidence\default-skia-catalog.trx
+Results File: C:\Users\f_ald\source\repos\The-Tech-Idea\Beep.SimpleDraw\docs\evidence\default-skia-catalog.trx
+
+Failed!  - Failed:    10, Passed:   241, Skipped:     0, Total:   251, Duration: 8 s - Beep.SimpleDraw.Tests.dll (net10.0)

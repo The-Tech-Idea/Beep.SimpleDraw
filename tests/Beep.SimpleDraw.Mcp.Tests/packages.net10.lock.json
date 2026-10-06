@@ -1,0 +1,456 @@
+{
+  "version": 1,
+  "dependencies": {
+    "net10.0": {
+      "Microsoft.NET.Test.Sdk": {
+        "type": "Direct",
+        "requested": "[17.9.0, )",
+        "resolved": "17.9.0",
+        "contentHash": "7GUNAUbJYn644jzwLm5BD3a2p9C1dmP8Hr6fDPDxgItQk9hBs1Svdxzz07KQ/UphMSmgza9AbijBJGmw5D658A==",
+        "dependencies": {
+          "Microsoft.CodeCoverage": "17.9.0",
+          "Microsoft.TestPlatform.TestHost": "17.9.0"
+        }
+      },
+      "xunit": {
+        "type": "Direct",
+        "requested": "[2.5.3, )",
+        "resolved": "2.5.3",
+        "contentHash": "VxYDiWSwrLxOJ3UEN+ZPrBybB0SFShQ1E6PjT65VdoKCJhorgerFznThjSwawRH/WAip73YnucDVsE8WRj/8KQ==",
+        "dependencies": {
+          "xunit.analyzers": "1.4.0",
+          "xunit.assert": "2.5.3",
+          "xunit.core": "[2.5.3]"
+        }
+      },
+      "xunit.runner.visualstudio": {
+        "type": "Direct",
+        "requested": "[2.5.3, )",
+        "resolved": "2.5.3",
+        "contentHash": "HFFL6O+QLEOfs555SqHii48ovVa4CqGYanY+B32BjLpPptdE+wEJmCFNXlLHdEOD5LYeayb9EroaUpydGpcybg=="
+      },
+      "Microsoft.CodeCoverage": {
+        "type": "Transitive",
+        "resolved": "17.9.0",
+        "contentHash": "RGD37ZSrratfScYXm7M0HjvxMxZyWZL4jm+XgMZbkIY1UPgjUpbNA/t+WTGj/rC/0Hm9A3IrH3ywbKZkOCnoZA=="
+      },
+      "Microsoft.Extensions.AI.Abstractions": {
+        "type": "Transitive",
+        "resolved": "10.5.2",
+        "contentHash": "Ei+YWV9Ybnps7pR1dgjlG29gelXEwZkhLVAcWmKe6HvXS6LNBYgSdWiY3Hk9OZXYtK34rv/NtLWBQYQGOBQYPQ=="
+      },
+      "Microsoft.Extensions.Caching.Abstractions": {
+        "type": "Transitive",
+        "resolved": "10.0.7",
+        "contentHash": "pUDgQKEqNUFlerDIFRg7zzoDVRPEWIG7nR40h8Gzg8RXza4Ry0lWZ7u91bmwu3iUDCxw3Dv6TLHVFoAgY0gy7Q==",
+        "dependencies": {
+          "Microsoft.Extensions.Primitives": "10.0.7"
+        }
+      },
+      "Microsoft.Extensions.Configuration.Abstractions": {
+        "type": "Transitive",
+        "resolved": "10.0.7",
+        "contentHash": "t56nEgvECcyLPojZIUFWJknQQDAbgfTf9J+QMYJE1YYvVgz69vN6B/AKL8Grvj3Lcnp8kTpNqwmwFhb3YLJmtQ==",
+        "dependencies": {
+          "Microsoft.Extensions.Primitives": "10.0.7"
+        }
+      },
+      "Microsoft.Extensions.DependencyInjection.Abstractions": {
+        "type": "Transitive",
+        "resolved": "10.0.7",
+        "contentHash": "Z6mfFEaFcwCfSboxJwOLfu7/31npCY9q70WUamHW/vRQhDvBKOT4Vf9YkZj5J6hLvJpb0oDEYfHunQZj0xxvKw=="
+      },
+      "Microsoft.Extensions.Diagnostics.Abstractions": {
+        "type": "Transitive",
+        "resolved": "10.0.7",
+        "contentHash": "uJ9JP677y+uy+C0vtaSfi7XXgFAdz8DhU3M9lwwIXDfQKcyQ0yxM9DVYa0NXDtdVTYA2eBUtVFZ8LY0GCdeE/w==",
+        "dependencies": {
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "10.0.7",
+          "Microsoft.Extensions.Options": "10.0.7"
+        }
+      },
+      "Microsoft.Extensions.FileProviders.Abstractions": {
+        "type": "Transitive",
+        "resolved": "10.0.7",
+        "contentHash": "teioDgVpi8L186wUfrXQV1YuBt6lCSPmFZiMZo53+FZxHFjOV+f4GXo4LXgJ273Mku9//AdXWVjk9J7eJP6inw==",
+        "dependencies": {
+          "Microsoft.Extensions.Primitives": "10.0.7"
+        }
+      },
+      "Microsoft.Extensions.Hosting.Abstractions": {
+        "type": "Transitive",
+        "resolved": "10.0.7",
+        "contentHash": "5s8d6qC6EA8UOI4wR/+zlsq7SXttJMRb9d7zvVZ7+bE3CQEfVtC9ITUDCommm87R1zzj6WJBbCnztuIJXnP3DA==",
+        "dependencies": {
+          "Microsoft.Extensions.Configuration.Abstractions": "10.0.7",
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "10.0.7",
+          "Microsoft.Extensions.Diagnostics.Abstractions": "10.0.7",
+          "Microsoft.Extensions.FileProviders.Abstractions": "10.0.7",
+          "Microsoft.Extensions.Logging.Abstractions": "10.0.7"
+        }
+      },
+      "Microsoft.Extensions.Logging.Abstractions": {
+        "type": "Transitive",
+        "resolved": "10.0.7",
+        "contentHash": "tIEcQ2gvERrH2KiCjdsVcHGhXt9lIsuDStfOIeZWr7/fP8IXhGiYfx0/80PNI7WPO2IYuFtlZLSlnTS8+/Mchw==",
+        "dependencies": {
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "10.0.7"
+        }
+      },
+      "Microsoft.Extensions.Options": {
+        "type": "Transitive",
+        "resolved": "10.0.7",
+        "contentHash": "00SHUGTh2jSMvIr6x9Xwd2nE+B5/qFCO/9hDwUDhJsjYRDlADmaBZ7tqehXzBDsfjHSXJzuRHJzPYPPjphBQ7Q==",
+        "dependencies": {
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "10.0.7",
+          "Microsoft.Extensions.Primitives": "10.0.7"
+        }
+      },
+      "Microsoft.Extensions.Primitives": {
+        "type": "Transitive",
+        "resolved": "10.0.7",
+        "contentHash": "D5M0Jr551iTgwkZMN9rm0pSkgNLj5quUWQUmQPMZh7k/bnvZTnXRGfE2KuvXf1EEjt/ofD9yw9IumpgdP9QCnw=="
+      },
+      "Microsoft.NETCore.Platforms": {
+        "type": "Transitive",
+        "resolved": "1.1.0",
+        "contentHash": "kz0PEW2lhqygehI/d6XsPCQzD7ff7gUJaVGPVETX611eadGsA3A877GdSlU0LRVMCTH/+P3o2iDTak+S08V2+A=="
+      },
+      "Microsoft.TestPlatform.ObjectModel": {
+        "type": "Transitive",
+        "resolved": "17.9.0",
+        "contentHash": "1ilw/8vgmjLyKU+2SKXKXaOqpYFJCQfGqGz+x0cosl981VzjrY74Sv6qAJv+neZMZ9ZMxF3ArN6kotaQ4uvEBw=="
+      },
+      "Microsoft.TestPlatform.TestHost": {
+        "type": "Transitive",
+        "resolved": "17.9.0",
+        "contentHash": "Spmg7Wx49Ya3SxBjyeAR+nQpjMTKZwTwpZ7KyeOTIqI/WHNPnBU4HUvl5kuHPQAwGWqMy4FGZja1HvEwvoaDiA==",
+        "dependencies": {
+          "Microsoft.TestPlatform.ObjectModel": "17.9.0",
+          "Newtonsoft.Json": "13.0.1"
+        }
+      },
+      "Microsoft.Win32.SystemEvents": {
+        "type": "Transitive",
+        "resolved": "10.0.9",
+        "contentHash": "dk5HKolAR9bBxlL4dl6Koaf0s/Q47QApog+/o341LSuvWGW6ig4q5fTsgYG0MrK//l2Slv6mygncMK/8lgXVDg=="
+      },
+      "ModelContextProtocol": {
+        "type": "Transitive",
+        "resolved": "1.4.1",
+        "contentHash": "mP5hvBpoWe5EbWBqHWD09A4Dy6Pq+/vV2dumOV4uegCZcg+yqf8q8wrxtuZ3EQyXEJn9jzsnoiI/qyfJAihlZQ==",
+        "dependencies": {
+          "Microsoft.Extensions.Caching.Abstractions": "10.0.7",
+          "Microsoft.Extensions.Hosting.Abstractions": "10.0.7",
+          "ModelContextProtocol.Core": "1.4.1"
+        }
+      },
+      "ModelContextProtocol.AspNetCore": {
+        "type": "Transitive",
+        "resolved": "1.4.1",
+        "contentHash": "AoI+00fRxb0GAMMabMUgpV5QhNoa/F7I9oiVGHfJKtBZ4g/DEyoDdTS9Rp/m4e3MnXhhvSBeu2wTafhesdf52w==",
+        "dependencies": {
+          "ModelContextProtocol": "1.4.1"
+        }
+      },
+      "ModelContextProtocol.Core": {
+        "type": "Transitive",
+        "resolved": "1.4.1",
+        "contentHash": "G/hOBZkJsvF3MSy0sOvXdxca5uRe2Sb4xk7xRuTWNZI45khVBjOLo6nSzGilctIICavNVxbxUF908fLYI9RxkQ==",
+        "dependencies": {
+          "Microsoft.Extensions.AI.Abstractions": "10.5.2",
+          "Microsoft.Extensions.Logging.Abstractions": "10.0.7"
+        }
+      },
+      "NETStandard.Library": {
+        "type": "Transitive",
+        "resolved": "1.6.1",
+        "contentHash": "WcSp3+vP+yHNgS8EV5J7pZ9IRpeDuARBPN28by8zqff1wJQXm26PVU8L3/fYLBJVU7BtDyqNVWq2KlCVvSSR4A==",
+        "dependencies": {
+          "Microsoft.NETCore.Platforms": "1.1.0"
+        }
+      },
+      "Newtonsoft.Json": {
+        "type": "Transitive",
+        "resolved": "13.0.1",
+        "contentHash": "ppPFpBcvxdsfUonNcvITKqLl3bqxWbDCZIzDWHzjpdAHRFfZe0Dw9HmA0+za13IdyrgJwpkDTDA9fHaxOrt20A=="
+      },
+      "SkiaSharp": {
+        "type": "Transitive",
+        "resolved": "4.150.1",
+        "contentHash": "5v3T8X1N62Dp+AkPO70GNBNS/NRBPGMOTiN+Prg33sZAcm/Ug3YOAH+3RTj/jxJV8NGTJs2idGpC2Qdae2mGLQ==",
+        "dependencies": {
+          "SkiaSharp.NativeAssets.Win32": "4.150.1",
+          "SkiaSharp.NativeAssets.macOS": "4.150.1"
+        }
+      },
+      "SkiaSharp.Extended": {
+        "type": "Transitive",
+        "resolved": "3.0.0",
+        "contentHash": "XEo9C8pRDQ8Kd/4UAJF4b3KBXmstuQfo2aRcczdeEwjOy3669kXQsey/fquT4b245Uvk87rfa3U+NfVJ7bOXgw==",
+        "dependencies": {
+          "SkiaSharp": "3.119.1"
+        }
+      },
+      "SkiaSharp.NativeAssets.macOS": {
+        "type": "Transitive",
+        "resolved": "4.150.1",
+        "contentHash": "r755HVwaHZhyf1clWjrM2/RoOZYCzkQEmE9pu/mVsebPejWu52niNPUwtfyf112qoF0PIk6OndqVOUoITj6TwQ=="
+      },
+      "SkiaSharp.NativeAssets.Win32": {
+        "type": "Transitive",
+        "resolved": "4.150.1",
+        "contentHash": "qrLSL8OonbkMJdSH8heK0Jl39Y2xxZGdd7Ru4cyBXk2ITdx+Fu1sCFLmvCKmnMaYs//mlN/YSpSpOurEXErcQw=="
+      },
+      "SkiaSharp.Svg": {
+        "type": "Transitive",
+        "resolved": "1.60.0",
+        "contentHash": "rTneyM6mt0w2xCCampFlkO3mGFIwGEJo7L2X3JOdyeMCZDQkyqv7m9kZfA89kLSErXErFnY72TZsryzqTIiT7g==",
+        "dependencies": {
+          "SkiaSharp": "1.60.0"
+        }
+      },
+      "System.Drawing.Common": {
+        "type": "Transitive",
+        "resolved": "10.0.9",
+        "contentHash": "ShkEj8jOhklJgrN3SoaVbCcopvqyIgVXHso2/eibQBL7IZxzJjND77UYVlViHqpwPxyQeA67IOut4b41clBkQw==",
+        "dependencies": {
+          "Microsoft.Win32.SystemEvents": "10.0.9"
+        }
+      },
+      "TheTechIdea.Beep.DataManagementModels": {
+        "type": "Transitive",
+        "resolved": "3.1.1",
+        "contentHash": "fhVmUlKve4R1H5V011+TWDln/juFEYlYMQUh+8IhoOtdm4U7Vzte6kZeflhOjcuzwFGZphO7w4ri30N2SrlCPw=="
+      },
+      "TheTechIdea.Beep.Vis.Modules": {
+        "type": "Transitive",
+        "resolved": "2.0.44",
+        "contentHash": "QAAqR5G2P4fZVrLDZeQS/+ixJ7jhGU7aGSU8GVUt0SILGx2BtN8SV1Mvya1u+u37VMBKI+c2ImyKzHr4HoHQzw==",
+        "dependencies": {
+          "System.Drawing.Common": "10.0.9",
+          "TheTechIdea.Beep.DataManagementModels": "3.1.0"
+        }
+      },
+      "xunit.abstractions": {
+        "type": "Transitive",
+        "resolved": "2.0.3",
+        "contentHash": "pot1I4YOxlWjIb5jmwvvQNbTrZ3lJQ+jUGkGjWE3hEFM0l5gOnBWS+H3qsex68s5cO52g+44vpGzhAt+42vwKg=="
+      },
+      "xunit.analyzers": {
+        "type": "Transitive",
+        "resolved": "1.4.0",
+        "contentHash": "7ljnTJfFjz5zK+Jf0h2dd2QOSO6UmFizXsojv/x4QX7TU5vEgtKZPk9RvpkiuUqg2bddtNZufBoKQalsi7djfA=="
+      },
+      "xunit.assert": {
+        "type": "Transitive",
+        "resolved": "2.5.3",
+        "contentHash": "MK3HiBckO3vdxEdUxXZyyRPsBNPsC/nz6y1gj/UZIZkjMnsVQyZPU8yxS/3cjTchYcqskt/nqUOS5wmD8JezdQ==",
+        "dependencies": {
+          "NETStandard.Library": "1.6.1"
+        }
+      },
+      "xunit.core": {
+        "type": "Transitive",
+        "resolved": "2.5.3",
+        "contentHash": "FE8yEEUkoMLd6kOHDXm/QYfX/dYzwc0c+Q4MQon6VGRwFuy6UVGwK/CFA5LEea+ZBEmcco7AEl2q78VjsA0j/w==",
+        "dependencies": {
+          "xunit.extensibility.core": "[2.5.3]",
+          "xunit.extensibility.execution": "[2.5.3]"
+        }
+      },
+      "xunit.extensibility.core": {
+        "type": "Transitive",
+        "resolved": "2.5.3",
+        "contentHash": "IjAQlPeZWXP89pl1EuOG9991GH1qgAL0rQfkmX2UV+PDenbYb7oBnQopL9ujE6YaXxgaQazp7lFjsDyyxD6Mtw==",
+        "dependencies": {
+          "NETStandard.Library": "1.6.1",
+          "xunit.abstractions": "2.0.3"
+        }
+      },
+      "xunit.extensibility.execution": {
+        "type": "Transitive",
+        "resolved": "2.5.3",
+        "contentHash": "w9eGCHl+gJj1GzZSf0VTzYPp/gv4fiUDkr+yR7/Wv9/ucO2CHltGg2TnyySLFjzekkjuxVJZUE+tZyDNzryJFw==",
+        "dependencies": {
+          "NETStandard.Library": "1.6.1",
+          "xunit.extensibility.core": "[2.5.3]"
+        }
+      },
+      "beep.simpledraw.core": {
+        "type": "Project",
+        "dependencies": {
+          "Beep.Ski.Quantitative": "[1.0.0, )",
+          "Beep.Skia": "[1.0.0, )",
+          "Beep.Skia.Business": "[1.0.0, )",
+          "Beep.Skia.Cloud": "[1.0.0, )",
+          "Beep.Skia.DFD": "[1.0.0, )",
+          "Beep.Skia.ECAD": "[1.0.0, )",
+          "Beep.Skia.ERD": "[1.0.0, )",
+          "Beep.Skia.ETL": "[1.0.0, )",
+          "Beep.Skia.FlowChart": "[1.0.0, )",
+          "Beep.Skia.ML": "[1.0.0, )",
+          "Beep.Skia.MindMap": "[1.0.0, )",
+          "Beep.Skia.Network": "[1.0.0, )",
+          "Beep.Skia.PM": "[1.0.0, )",
+          "Beep.Skia.Security": "[1.0.0, )",
+          "Beep.Skia.StateMachine": "[1.0.0, )",
+          "Beep.Skia.UML": "[1.0.0, )",
+          "Beep.Skia.WellLogs": "[1.0.0, )"
+        }
+      },
+      "beep.simpledraw.mcp": {
+        "type": "Project",
+        "dependencies": {
+          "Beep.SimpleDraw.Core": "[1.0.0, )",
+          "ModelContextProtocol.AspNetCore": "[1.4.1, )"
+        }
+      },
+      "beep.ski.quantitative": {
+        "type": "Project",
+        "dependencies": {
+          "Beep.Skia": "[1.0.0, )",
+          "Beep.Skia.Model": "[1.0.0, )",
+          "SkiaSharp": "[4.150.1, )",
+          "TheTechIdea.Beep.DataManagementModels": "[3.1.1, )"
+        }
+      },
+      "beep.skia": {
+        "type": "Project",
+        "dependencies": {
+          "Beep.Skia.Model": "[1.0.0, )",
+          "SkiaSharp": "[4.150.1, )",
+          "SkiaSharp.Extended": "[3.0.0, )",
+          "SkiaSharp.Svg": "[1.60.0, )",
+          "TheTechIdea.Beep.DataManagementModels": "[3.1.1, )",
+          "TheTechIdea.Beep.Vis.Modules": "[2.0.44, )"
+        }
+      },
+      "beep.skia.business": {
+        "type": "Project",
+        "dependencies": {
+          "Beep.Skia": "[1.0.0, )",
+          "Beep.Skia.Model": "[1.0.0, )",
+          "SkiaSharp": "[4.150.1, )",
+          "TheTechIdea.Beep.DataManagementModels": "[3.1.1, )"
+        }
+      },
+      "beep.skia.cloud": {
+        "type": "Project",
+        "dependencies": {
+          "Beep.Skia": "[1.0.0, )",
+          "Beep.Skia.Model": "[1.0.0, )"
+        }
+      },
+      "beep.skia.dfd": {
+        "type": "Project",
+        "dependencies": {
+          "Beep.Skia": "[1.0.0, )",
+          "Beep.Skia.Model": "[1.0.0, )"
+        }
+      },
+      "beep.skia.ecad": {
+        "type": "Project",
+        "dependencies": {
+          "Beep.Skia": "[1.0.0, )",
+          "Beep.Skia.Model": "[1.0.0, )"
+        }
+      },
+      "beep.skia.erd": {
+        "type": "Project",
+        "dependencies": {
+          "Beep.Skia": "[1.0.0, )",
+          "Beep.Skia.Model": "[1.0.0, )",
+          "SkiaSharp": "[4.150.1, )"
+        }
+      },
+      "beep.skia.etl": {
+        "type": "Project",
+        "dependencies": {
+          "Beep.Skia": "[1.0.0, )",
+          "Beep.Skia.Model": "[1.0.0, )",
+          "SkiaSharp": "[4.150.1, )",
+          "TheTechIdea.Beep.DataManagementModels": "[3.1.1, )"
+        }
+      },
+      "beep.skia.flowchart": {
+        "type": "Project",
+        "dependencies": {
+          "Beep.Skia": "[1.0.0, )",
+          "Beep.Skia.Model": "[1.0.0, )",
+          "SkiaSharp": "[4.150.1, )"
+        }
+      },
+      "beep.skia.mindmap": {
+        "type": "Project",
+        "dependencies": {
+          "Beep.Skia": "[1.0.0, )",
+          "Beep.Skia.Model": "[1.0.0, )",
+          "SkiaSharp": "[4.150.1, )"
+        }
+      },
+      "beep.skia.ml": {
+        "type": "Project",
+        "dependencies": {
+          "Beep.Skia": "[1.0.0, )",
+          "Beep.Skia.Model": "[1.0.0, )"
+        }
+      },
+      "beep.skia.model": {
+        "type": "Project",
+        "dependencies": {
+          "SkiaSharp": "[4.150.1, )"
+        }
+      },
+      "beep.skia.network": {
+        "type": "Project",
+        "dependencies": {
+          "Beep.Skia": "[1.0.0, )",
+          "Beep.Skia.Model": "[1.0.0, )",
+          "SkiaSharp": "[4.150.1, )",
+          "TheTechIdea.Beep.DataManagementModels": "[3.1.1, )"
+        }
+      },
+      "beep.skia.pm": {
+        "type": "Project",
+        "dependencies": {
+          "Beep.Skia": "[1.0.0, )",
+          "Beep.Skia.Model": "[1.0.0, )"
+        }
+      },
+      "beep.skia.security": {
+        "type": "Project",
+        "dependencies": {
+          "Beep.Skia": "[1.0.0, )",
+          "Beep.Skia.Model": "[1.0.0, )"
+        }
+      },
+      "beep.skia.statemachine": {
+        "type": "Project",
+        "dependencies": {
+          "Beep.Skia": "[1.0.0, )",
+          "Beep.Skia.Model": "[1.0.0, )",
+          "SkiaSharp": "[4.150.1, )"
+        }
+      },
+      "beep.skia.uml": {
+        "type": "Project",
+        "dependencies": {
+          "Beep.Skia": "[1.0.0, )",
+          "Beep.Skia.Model": "[1.0.0, )",
+          "SkiaSharp": "[4.150.1, )",
+          "TheTechIdea.Beep.DataManagementModels": "[3.1.1, )"
+        }
+      },
+      "beep.skia.welllogs": {
+        "type": "Project",
+        "dependencies": {
+          "Beep.Skia": "[1.0.0, )",
+          "Beep.Skia.Model": "[1.0.0, )",
+          "SkiaSharp": "[4.150.1, )",
+          "TheTechIdea.Beep.DataManagementModels": "[3.1.1, )"
+        }
+      }
+    }
+  }
+}

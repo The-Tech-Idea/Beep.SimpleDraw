@@ -1,0 +1,58 @@
+[
+  {
+    "name": "100-rectangles.simpledraw.json",
+    "objects": 100,
+    "mixed": false,
+    "bytes": 44480,
+    "sha256": "6f924542bcef6e601a5d5696d9966e1a70f889555e768638219ba574e38042c6",
+    "scope": "normal product board"
+  },
+  {
+    "name": "100-mixed.simpledraw.json",
+    "objects": 100,
+    "mixed": true,
+    "bytes": 45910,
+    "sha256": "c7f9a916448634d1f4a50deb762ef6eb525a6e2f8cf7fe88d9e682c4dc620c01",
+    "scope": "normal product board"
+  },
+  {
+    "name": "1000-rectangles.simpledraw.json",
+    "objects": 1000,
+    "mixed": false,
+    "bytes": 446686,
+    "sha256": "4dfa4b4c177f05fee4c2671b8d99a10f5de355f79bb1f5bc449410f5e4ec0748",
+    "scope": "normal product board"
+  },
+  {
+    "name": "1000-mixed.simpledraw.json",
+    "objects": 1000,
+    "mixed": true,
+    "bytes": 461747,
+    "sha256": "a5fb3319517f8a66d58f3cd3d3712b0d5a01d33c520abe7ff513ca9ad8aecae8",
+    "scope": "normal product board"
+  },
+  {
+    "name": "2000-rectangles.simpledraw.json",
+    "objects": 2000,
+    "mixed": false,
+    "bytes": 863542,
+    "sha256": "359f187ab42c55c808b1d3387e0505c2844cd2ad5b91370b7f9325b3d1d27a27",
+    "scope": "normal product board"
+  },
+  {
+    "name": "2000-mixed.simpledraw.json",
+    "objects": 2000,
+    "mixed": true,
+    "bytes": 896622,
+    "sha256": "32dd238ee8ee173795baf4bec0754b98ad7723e6241a73bda45eb54c7db179de",
+    "scope": "normal product board"
+  },
+  {
+    "name": "5000-rectangles.simpledraw.json",
+    "objects": 5000,
+    "mixed": false,
+    "bytes": 2453469,
+    "sha256": "50d448f6faf130af8cf688e704cbe667e920ef2832e776dbb19e47952ebfd533",
+    "scope": "native refusal fixture; shared-renderer stress is separate"
+  }
+]

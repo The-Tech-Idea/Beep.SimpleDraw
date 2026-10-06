@@ -1,0 +1,439 @@
+{
+  "candidate": "p6-after-aot",
+  "comparison": "p4-contrast-final",
+  "changed": [
+    {
+      "path": "index.html",
+      "change": "changed",
+      "beforeBytes": 2781,
+      "afterBytes": 2781
+    },
+    {
+      "path": "index.html.br",
+      "change": "changed",
+      "beforeBytes": 874,
+      "afterBytes": 873
+    },
+    {
+      "path": "index.html.gz",
+      "change": "changed",
+      "beforeBytes": 1094,
+      "afterBytes": 1094
+    },
+    {
+      "path": "service-worker-assets.js",
+      "change": "changed",
+      "beforeBytes": 20197,
+      "afterBytes": 20197
+    },
+    {
+      "path": "service-worker-assets.js.br",
+      "change": "changed",
+      "beforeBytes": 7186,
+      "afterBytes": 7196
+    },
+    {
+      "path": "service-worker-assets.js.gz",
+      "change": "changed",
+      "beforeBytes": 7811,
+      "afterBytes": 7821
+    },
+    {
+      "path": "service-worker.js",
+      "change": "changed",
+      "beforeBytes": 3516,
+      "afterBytes": 3516
+    },
+    {
+      "path": "service-worker.js.br",
+      "change": "changed",
+      "beforeBytes": 1164,
+      "afterBytes": 1164
+    },
+    {
+      "path": "service-worker.js.gz",
+      "change": "changed",
+      "beforeBytes": 1409,
+      "afterBytes": 1408
+    },
+    {
+      "path": "_framework/Beep.SimpleDraw.Core.glv8dujpk6.wasm",
+      "change": "added",
+      "bytes": 526101
+    },
+    {
+      "path": "_framework/Beep.SimpleDraw.Core.glv8dujpk6.wasm.br",
+      "change": "added",
+      "bytes": 189278
+    },
+    {
+      "path": "_framework/Beep.SimpleDraw.Core.glv8dujpk6.wasm.gz",
+      "change": "added",
+      "bytes": 227774
+    },
+    {
+      "path": "_framework/Beep.Skia.Blazor.Controls.vvccd6sib8.wasm",
+      "change": "added",
+      "bytes": 21781
+    },
+    {
+      "path": "_framework/Beep.Skia.Blazor.Controls.vvccd6sib8.wasm.br",
+      "change": "added",
+      "bytes": 8005
+    },
+    {
+      "path": "_framework/Beep.Skia.Blazor.Controls.vvccd6sib8.wasm.gz",
+      "change": "added",
+      "bytes": 9335
+    },
+    {
+      "path": "_framework/Beep.Skia.bqyn1adf09.wasm",
+      "change": "added",
+      "bytes": 858389
+    },
+    {
+      "path": "_framework/Beep.Skia.bqyn1adf09.wasm.br",
+      "change": "added",
+      "bytes": 210325
+    },
+    {
+      "path": "_framework/Beep.Skia.bqyn1adf09.wasm.gz",
+      "change": "added",
+      "bytes": 263407
+    },
+    {
+      "path": "_framework/Beep.Skia.FlowChart.hz8ts6pqwd.wasm",
+      "change": "added",
+      "bytes": 99093
+    },
+    {
+      "path": "_framework/Beep.Skia.FlowChart.hz8ts6pqwd.wasm.br",
+      "change": "added",
+      "bytes": 21322
+    },
+    {
+      "path": "_framework/Beep.Skia.FlowChart.hz8ts6pqwd.wasm.gz",
+      "change": "added",
+      "bytes": 25797
+    },
+    {
+      "path": "_framework/Beep.Skia.Model.y25937so3s.wasm",
+      "change": "added",
+      "bytes": 61717
+    },
+    {
+      "path": "_framework/Beep.Skia.Model.y25937so3s.wasm.br",
+      "change": "added",
+      "bytes": 17987
+    },
+    {
+      "path": "_framework/Beep.Skia.Model.y25937so3s.wasm.gz",
+      "change": "added",
+      "bytes": 23201
+    },
+    {
+      "path": "_framework/DataManagementModels.uqs7wwlmdq.wasm",
+      "change": "added",
+      "bytes": 1939221
+    },
+    {
+      "path": "_framework/DataManagementModels.uqs7wwlmdq.wasm.br",
+      "change": "added",
+      "bytes": 383256
+    },
+    {
+      "path": "_framework/DataManagementModels.uqs7wwlmdq.wasm.gz",
+      "change": "added",
+      "bytes": 535590
+    },
+    {
+      "path": "_framework/dotnet.7yr5rkd14z.js",
+      "change": "added",
+      "bytes": 62064
+    },
+    {
+      "path": "_framework/dotnet.7yr5rkd14z.js.br",
+      "change": "added",
+      "bytes": 15968
+    },
+    {
+      "path": "_framework/dotnet.7yr5rkd14z.js.gz",
+      "change": "added",
+      "bytes": 18278
+    },
+    {
+      "path": "_framework/SkiaSharp.Extended.ktb5qpf8zd.wasm",
+      "change": "added",
+      "bytes": 26389
+    },
+    {
+      "path": "_framework/SkiaSharp.Extended.ktb5qpf8zd.wasm.br",
+      "change": "added",
+      "bytes": 8174
+    },
+    {
+      "path": "_framework/SkiaSharp.Extended.ktb5qpf8zd.wasm.gz",
+      "change": "added",
+      "bytes": 9475
+    },
+    {
+      "path": "_framework/SkiaSharp.Extended.Svg.3wdpvww9mp.wasm",
+      "change": "added",
+      "bytes": 41237
+    },
+    {
+      "path": "_framework/SkiaSharp.Extended.Svg.3wdpvww9mp.wasm.br",
+      "change": "added",
+      "bytes": 13395
+    },
+    {
+      "path": "_framework/SkiaSharp.Extended.Svg.3wdpvww9mp.wasm.gz",
+      "change": "added",
+      "bytes": 15369
+    },
+    {
+      "path": "_framework/SkiaSharp.Views.Blazor.dr04k2v393.wasm",
+      "change": "added",
+      "bytes": 36629
+    },
+    {
+      "path": "_framework/SkiaSharp.Views.Blazor.dr04k2v393.wasm.br",
+      "change": "added",
+      "bytes": 11938
+    },
+    {
+      "path": "_framework/SkiaSharp.Views.Blazor.dr04k2v393.wasm.gz",
+      "change": "added",
+      "bytes": 14104
+    },
+    {
+      "path": "_framework/System.Drawing.Common.7m3mb5w045.wasm",
+      "change": "added",
+      "bytes": 411925
+    },
+    {
+      "path": "_framework/System.Drawing.Common.7m3mb5w045.wasm.br",
+      "change": "added",
+      "bytes": 111035
+    },
+    {
+      "path": "_framework/System.Drawing.Common.7m3mb5w045.wasm.gz",
+      "change": "added",
+      "bytes": 140546
+    },
+    {
+      "path": "_framework/System.Private.Windows.Core.mw81wovh5s.wasm",
+      "change": "added",
+      "bytes": 1215765
+    },
+    {
+      "path": "_framework/System.Private.Windows.Core.mw81wovh5s.wasm.br",
+      "change": "added",
+      "bytes": 268542
+    },
+    {
+      "path": "_framework/System.Private.Windows.Core.mw81wovh5s.wasm.gz",
+      "change": "added",
+      "bytes": 364076
+    },
+    {
+      "path": "_framework/System.Private.Windows.GdiPlus.kgwach1lv8.wasm",
+      "change": "added",
+      "bytes": 158485
+    },
+    {
+      "path": "_framework/System.Private.Windows.GdiPlus.kgwach1lv8.wasm.br",
+      "change": "added",
+      "bytes": 38472
+    },
+    {
+      "path": "_framework/System.Private.Windows.GdiPlus.kgwach1lv8.wasm.gz",
+      "change": "added",
+      "bytes": 50652
+    },
+    {
+      "path": "_framework/TheTechIdea.Beep.Vis.Modules.98c27dmr5u.wasm",
+      "change": "added",
+      "bytes": 3216665
+    },
+    {
+      "path": "_framework/TheTechIdea.Beep.Vis.Modules.98c27dmr5u.wasm.br",
+      "change": "added",
+      "bytes": 277543
+    },
+    {
+      "path": "_framework/TheTechIdea.Beep.Vis.Modules.98c27dmr5u.wasm.gz",
+      "change": "added",
+      "bytes": 599779
+    },
+    {
+      "path": "_framework/Beep.SimpleDraw.Core.gfx87hqu1k.wasm",
+      "change": "removed"
+    },
+    {
+      "path": "_framework/Beep.SimpleDraw.Core.gfx87hqu1k.wasm.br",
+      "change": "removed"
+    },
+    {
+      "path": "_framework/Beep.SimpleDraw.Core.gfx87hqu1k.wasm.gz",
+      "change": "removed"
+    },
+    {
+      "path": "_framework/Beep.Skia.Blazor.Controls.xrqrv105j9.wasm",
+      "change": "removed"
+    },
+    {
+      "path": "_framework/Beep.Skia.Blazor.Controls.xrqrv105j9.wasm.br",
+      "change": "removed"
+    },
+    {
+      "path": "_framework/Beep.Skia.Blazor.Controls.xrqrv105j9.wasm.gz",
+      "change": "removed"
+    },
+    {
+      "path": "_framework/Beep.Skia.cuyn7fix26.wasm",
+      "change": "removed"
+    },
+    {
+      "path": "_framework/Beep.Skia.cuyn7fix26.wasm.br",
+      "change": "removed"
+    },
+    {
+      "path": "_framework/Beep.Skia.cuyn7fix26.wasm.gz",
+      "change": "removed"
+    },
+    {
+      "path": "_framework/Beep.Skia.FlowChart.xpxuvmwxb7.wasm",
+      "change": "removed"
+    },
+    {
+      "path": "_framework/Beep.Skia.FlowChart.xpxuvmwxb7.wasm.br",
+      "change": "removed"
+    },
+    {
+      "path": "_framework/Beep.Skia.FlowChart.xpxuvmwxb7.wasm.gz",
+      "change": "removed"
+    },
+    {
+      "path": "_framework/Beep.Skia.Model.qgffoxg3bl.wasm",
+      "change": "removed"
+    },
+    {
+      "path": "_framework/Beep.Skia.Model.qgffoxg3bl.wasm.br",
+      "change": "removed"
+    },
+    {
+      "path": "_framework/Beep.Skia.Model.qgffoxg3bl.wasm.gz",
+      "change": "removed"
+    },
+    {
+      "path": "_framework/DataManagementModels.eljkerj9bp.wasm",
+      "change": "removed"
+    },
+    {
+      "path": "_framework/DataManagementModels.eljkerj9bp.wasm.br",
+      "change": "removed"
+    },
+    {
+      "path": "_framework/DataManagementModels.eljkerj9bp.wasm.gz",
+      "change": "removed"
+    },
+    {
+      "path": "_framework/dotnet.oe1jn2n21j.js",
+      "change": "removed"
+    },
+    {
+      "path": "_framework/dotnet.oe1jn2n21j.js.br",
+      "change": "removed"
+    },
+    {
+      "path": "_framework/dotnet.oe1jn2n21j.js.gz",
+      "change": "removed"
+    },
+    {
+      "path": "_framework/SkiaSharp.Extended.5g4mizj06x.wasm",
+      "change": "removed"
+    },
+    {
+      "path": "_framework/SkiaSharp.Extended.5g4mizj06x.wasm.br",
+      "change": "removed"
+    },
+    {
+      "path": "_framework/SkiaSharp.Extended.5g4mizj06x.wasm.gz",
+      "change": "removed"
+    },
+    {
+      "path": "_framework/SkiaSharp.Extended.Svg.4esbsglfjw.wasm",
+      "change": "removed"
+    },
+    {
+      "path": "_framework/SkiaSharp.Extended.Svg.4esbsglfjw.wasm.br",
+      "change": "removed"
+    },
+    {
+      "path": "_framework/SkiaSharp.Extended.Svg.4esbsglfjw.wasm.gz",
+      "change": "removed"
+    },
+    {
+      "path": "_framework/SkiaSharp.Views.Blazor.4qtswq4wro.wasm",
+      "change": "removed"
+    },
+    {
+      "path": "_framework/SkiaSharp.Views.Blazor.4qtswq4wro.wasm.br",
+      "change": "removed"
+    },
+    {
+      "path": "_framework/SkiaSharp.Views.Blazor.4qtswq4wro.wasm.gz",
+      "change": "removed"
+    },
+    {
+      "path": "_framework/System.Drawing.Common.cz7d9vsh8j.wasm",
+      "change": "removed"
+    },
+    {
+      "path": "_framework/System.Drawing.Common.cz7d9vsh8j.wasm.br",
+      "change": "removed"
+    },
+    {
+      "path": "_framework/System.Drawing.Common.cz7d9vsh8j.wasm.gz",
+      "change": "removed"
+    },
+    {
+      "path": "_framework/System.Private.Windows.Core.w8l5xfaqg4.wasm",
+      "change": "removed"
+    },
+    {
+      "path": "_framework/System.Private.Windows.Core.w8l5xfaqg4.wasm.br",
+      "change": "removed"
+    },
+    {
+      "path": "_framework/System.Private.Windows.Core.w8l5xfaqg4.wasm.gz",
+      "change": "removed"
+    },
+    {
+      "path": "_framework/System.Private.Windows.GdiPlus.a0hk0q7ic1.wasm",
+      "change": "removed"
+    },
+    {
+      "path": "_framework/System.Private.Windows.GdiPlus.a0hk0q7ic1.wasm.br",
+      "change": "removed"
+    },
+    {
+      "path": "_framework/System.Private.Windows.GdiPlus.a0hk0q7ic1.wasm.gz",
+      "change": "removed"
+    },
+    {
+      "path": "_framework/TheTechIdea.Beep.Vis.Modules.1n1z6z3xp6.wasm",
+      "change": "removed"
+    },
+    {
+      "path": "_framework/TheTechIdea.Beep.Vis.Modules.1n1z6z3xp6.wasm.br",
+      "change": "removed"
+    },
+    {
+      "path": "_framework/TheTechIdea.Beep.Vis.Modules.1n1z6z3xp6.wasm.gz",
+      "change": "removed"
+    }
+  ],
+  "count": 93
+}

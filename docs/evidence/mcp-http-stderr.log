@@ -1,0 +1,70 @@
+info: Microsoft.Hosting.Lifetime[14]
+      Now listening on: http://127.0.0.1:5256
+info: Microsoft.Hosting.Lifetime[0]
+      Application started. Press Ctrl+C to shut down.
+info: Microsoft.Hosting.Lifetime[0]
+      Hosting environment: Production
+info: Microsoft.Hosting.Lifetime[0]
+      Content root path: C:\Users\f_ald\source\repos\The-Tech-Idea\Beep.SimpleDraw
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/1.1 GET http://127.0.0.1:5256/mcp - - -
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[0]
+      Executing endpoint '405 HTTP Method Not Supported'
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[1]
+      Executed endpoint '405 HTTP Method Not Supported'
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/1.1 GET http://127.0.0.1:5256/mcp - 405 0 - 27.3765ms
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/1.1 POST http://127.0.0.1:5256/mcp - application/json 171
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[0]
+      Executing endpoint 'MCP Streamable HTTP | HTTP: POST /mcp/'
+info: ModelContextProtocol.Server.McpServer[570385771]
+      Server (Beep.SimpleDraw.Mcp 1.0.0.0) method 'initialize' request handler called.
+info: ModelContextProtocol.Server.McpServer[1867955179]
+      Server (Beep.SimpleDraw.Mcp 1.0.0.0), Client (SimpleDraw HTTP acceptance 1) method 'initialize' request handler completed in 18.9707ms.
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[1]
+      Executed endpoint 'MCP Streamable HTTP | HTTP: POST /mcp/'
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/1.1 POST http://127.0.0.1:5256/mcp - 200 - text/event-stream 203.3360ms
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/1.1 POST http://127.0.0.1:5256/mcp - application/json 58
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[0]
+      Executing endpoint 'MCP Streamable HTTP | HTTP: POST /mcp/'
+info: ModelContextProtocol.Server.McpServer[570385771]
+      Server (Beep.SimpleDraw.Mcp 1.0.0.0) method 'tools/list' request handler called.
+info: ModelContextProtocol.Server.McpServer[1867955179]
+      Server (Beep.SimpleDraw.Mcp 1.0.0.0) method 'tools/list' request handler completed in 7.1107ms.
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[1]
+      Executed endpoint 'MCP Streamable HTTP | HTTP: POST /mcp/'
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/1.1 POST http://127.0.0.1:5256/mcp - 200 - text/event-stream 9.9098ms
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/1.1 POST http://127.0.0.1:5256/mcp - application/json 109
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[0]
+      Executing endpoint 'MCP Streamable HTTP | HTTP: POST /mcp/'
+info: ModelContextProtocol.Server.McpServer[570385771]
+      Server (Beep.SimpleDraw.Mcp 1.0.0.0) method 'tools/call' request handler called.
+info: ModelContextProtocol.Server.McpServer[2065726448]
+      "list_components" completed. IsError = False.
+info: ModelContextProtocol.Server.McpServer[1867955179]
+      Server (Beep.SimpleDraw.Mcp 1.0.0.0) method 'tools/call' request handler completed in 95.0275ms.
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[1]
+      Executed endpoint 'MCP Streamable HTTP | HTTP: POST /mcp/'
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/1.1 POST http://127.0.0.1:5256/mcp - 200 - text/event-stream 95.9194ms
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/1.1 POST http://127.0.0.1:5256/mcp - application/json 60
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/1.1 POST http://127.0.0.1:5256/mcp - 403 0 - 0.2092ms
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/1.1 POST http://unrelated.example/mcp - application/json 2
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/1.1 POST http://unrelated.example/mcp - 403 0 - 0.0743ms
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/1.1 POST http://127.0.0.1:5256/mcp - application/json 2
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[0]
+      Executing endpoint 'MCP Streamable HTTP | HTTP: POST /mcp/'
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[1]
+      Executed endpoint 'MCP Streamable HTTP | HTTP: POST /mcp/'
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/1.1 POST http://127.0.0.1:5256/mcp - 400 - - 2.1691ms

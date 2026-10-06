@@ -1,0 +1,5 @@
+Test run for C:\Users\f_ald\source\repos\The-Tech-Idea\Beep.SimpleDraw\tests\Beep.SimpleDraw.Tests\bin\Release\net10.0\Beep.SimpleDraw.Tests.dll (.NETCoreApp,Version=v10.0)
+A total of 1 test files matched the specified pattern.
+Results File: C:\Users\f_ald\source\repos\The-Tech-Idea\Beep.SimpleDraw\artifacts\p6-offline-notices-release\tests\tests.trx
+
+Passed!  - Failed:     0, Passed:   289, Skipped:     0, Total:   289, Duration: 8 s - Beep.SimpleDraw.Tests.dll (net10.0)

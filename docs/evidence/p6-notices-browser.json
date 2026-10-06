@@ -1,0 +1,21 @@
+{
+  "candidate": "artifacts/p6-notices/publish/wwwroot",
+  "base": "/draw/",
+  "port": 5220,
+  "noticeSections": 45,
+  "englishLink": {
+    "href": "licenses/index.html",
+    "target": "_blank",
+    "rel": "noopener"
+  },
+  "arabicLink": "إشعارات البرامج (تفتح في علامة تبويب جديدة)",
+  "newTabLaunch": "IAB click focused link; did not expose new tab. Observed URL opened directly.",
+  "stoppedServer": {
+    "indexReload": true,
+    "originalMonoLicense": true,
+    "aggregateRead": true,
+    "actualRectangleRestored": true
+  },
+  "downloadCompletion": "Unverified: no event within 8 seconds or matching Downloads file.",
+  "noticePageLogs": []
+}

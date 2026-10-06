@@ -1,0 +1,53 @@
+{"baseCommit":"19bb026ba403ff91bd1a2ce324000ddce07cd26d","sourceFiles":498,"sourceSha256":"313d956c5a87cbc6fc8016335a80c77616462f3be12faf2db033136d4c85d777","packages":[{"id":"TheTechIdea.Beep.DataManagementModels","version":"3.1.1","sha256":"5a9ac5f7fbf9581d99a7ce871ddb36ff62f6b0b79fe6ec110dce4d75aa52f46f","repository":"https://github.com/The-Tech-Idea/BeepDM","commit":"f305eaf64037392fa4b907aa69f64f5d641c69d4"},{"id":"TheTechIdea.Beep.Vis.Modules","version":"2.0.44","sha256":"0e2c8c5809846dca31b6fa3c07f6487165337e3e21a002d0e60124731c13e718","repository":"https://github.com/The-Tech-Idea/BeepEnterprize.winform","commit":"9b62321ff640ebcc8bb6cca1f83e675a29a92215"}]}
+{"groups":45,"originalTexts":21,"files":24}
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+{
+  "sdk": "10.0.401",
+  "node": "24.14.0",
+  "wasmManifest": "10.0.112",
+  "wasmPack": "10.0.12",
+  "emscripten": "3.1.56",
+  "emscriptenPack": "10.0.12",
+  "configuration": "Release",
+  "framework": "net10.0",
+  "nugetLockFile": "packages.net10.lock.json",
+  "runAOTCompilation": "",
+  "stripILAfterAOT": "true",
+  "nativeSkiaVerified": true,
+  "nativeSkia": "SkiaSharp.NativeAssets.WebAssembly/4.150.1; Emscripten 3.1.56; st,simd"
+}
+{"verifiedArchives":56}
+Verified 1106 extracted package payload files against pinned archives.
+  Beep.Skia.Model -> C:\Users\f_ald\source\repos\The-Tech-Idea\Beep.Skia\Beep.Skia.Model\bin\Release\net10.0\Beep.Skia.Model.dll
+  Beep.Skia -> C:\Users\f_ald\source\repos\The-Tech-Idea\Beep.Skia\Beep.Skia\bin\Release\net10.0\Beep.Skia.dll
+  Beep.Skia.MindMap -> C:\Users\f_ald\source\repos\The-Tech-Idea\Beep.Skia\Beep.Skia.MindMap\bin\Release\net10.0\Beep.Skia.MindMap.dll
+  Beep.Skia.ETL -> C:\Users\f_ald\source\repos\The-Tech-Idea\Beep.Skia\Beep.Skia.ETL\bin\Release\net10.0\Beep.Skia.ETL.dll
+  Beep.Skia.ECAD -> C:\Users\f_ald\source\repos\The-Tech-Idea\Beep.Skia\Beep.Skia.ECAD\bin\Release\net10.0\Beep.Skia.ECAD.dll
+  Beep.Skia.Cloud -> C:\Users\f_ald\source\repos\The-Tech-Idea\Beep.Skia\Beep.Skia.Cloud\bin\Release\net10.0\Beep.Skia.Cloud.dll
+  Beep.Skia.PM -> C:\Users\f_ald\source\repos\The-Tech-Idea\Beep.Skia\Beep.Skia.PM\bin\Release\net10.0\Beep.Skia.PM.dll
+  Beep.Skia.StateMachine -> C:\Users\f_ald\source\repos\The-Tech-Idea\Beep.Skia\Beep.Skia.StateMachine\bin\Release\net10.0\Beep.Skia.StateMachine.dll
+  Beep.Skia.Security -> C:\Users\f_ald\source\repos\The-Tech-Idea\Beep.Skia\Beep.Skia.Security\bin\Release\net10.0\Beep.Skia.Security.dll
+  Beep.Ski.Quantitative -> C:\Users\f_ald\source\repos\The-Tech-Idea\Beep.Skia\Beep.Ski.Quantitative\bin\Release\net10.0\Beep.Ski.Quantitative.dll
+  Beep.Skia.Network -> C:\Users\f_ald\source\repos\The-Tech-Idea\Beep.Skia\Beep.Skia.Network\bin\Release\net10.0\Beep.Skia.Network.dll
+  Beep.Skia.Blazor.Controls -> C:\Users\f_ald\source\repos\The-Tech-Idea\Beep.Skia\Beep.Skia.Blazor.Controls\bin\Release\net10.0\Beep.Skia.Blazor.Controls.dll
+  Beep.Skia.UML -> C:\Users\f_ald\source\repos\The-Tech-Idea\Beep.Skia\Beep.Skia.UML\bin\Release\net10.0\Beep.Skia.UML.dll
+  Beep.Skia.WellLogs -> C:\Users\f_ald\source\repos\The-Tech-Idea\Beep.Skia\Beep.Skia.WellLogs\bin\Release\net10.0\Beep.Skia.WellLogs.dll
+  Beep.Skia.FlowChart -> C:\Users\f_ald\source\repos\The-Tech-Idea\Beep.Skia\Beep.Skia.FlowChart\bin\Release\net10.0\Beep.Skia.FlowChart.dll
+  Beep.Skia.ML -> C:\Users\f_ald\source\repos\The-Tech-Idea\Beep.Skia\Beep.Skia.ML\bin\Release\net10.0\Beep.Skia.ML.dll
+  Beep.Skia.DFD -> C:\Users\f_ald\source\repos\The-Tech-Idea\Beep.Skia\Beep.Skia.DFD\bin\Release\net10.0\Beep.Skia.DFD.dll
+  Beep.Skia.ERD -> C:\Users\f_ald\source\repos\The-Tech-Idea\Beep.Skia\Beep.Skia.ERD\bin\Release\net10.0\Beep.Skia.ERD.dll
+  Beep.Skia.Business -> C:\Users\f_ald\source\repos\The-Tech-Idea\Beep.Skia\Beep.Skia.Business\bin\Release\net10.0\Beep.Skia.Business.dll
+  Beep.SimpleDraw.Core -> C:\Users\f_ald\source\repos\The-Tech-Idea\Beep.SimpleDraw\src\Beep.SimpleDraw.Core\bin\Release\net10.0\Beep.SimpleDraw.Core.dll
+  Beep.SimpleDraw.Tests -> C:\Users\f_ald\source\repos\The-Tech-Idea\Beep.SimpleDraw\tests\Beep.SimpleDraw.Tests\bin\Release\net10.0\Beep.SimpleDraw.Tests.dll
+C:\Users\f_ald\source\repos\The-Tech-Idea\Beep.SimpleDraw\src\Beep.SimpleDraw.Web\Pages\Home.razor(285,41): error CS0246: The type or namespace name 'SkiaComponent' could not be found (are you missing a using directive or an assembly reference?) [C:\Users\f_ald\source\repos\The-Tech-Idea\Beep.SimpleDraw\src\Beep.SimpleDraw.Web\Beep.SimpleDraw.Web.csproj]
+C:\Users\f_ald\source\repos\The-Tech-Idea\Beep.SimpleDraw\src\Beep.SimpleDraw.Web\Pages\Home.razor(299,40): error CS0246: The type or namespace name 'SkiaComponent' could not be found (are you missing a using directive or an assembly reference?) [C:\Users\f_ald\source\repos\The-Tech-Idea\Beep.SimpleDraw\src\Beep.SimpleDraw.Web\Beep.SimpleDraw.Web.csproj]
+
+Build FAILED.
+
+C:\Users\f_ald\source\repos\The-Tech-Idea\Beep.SimpleDraw\src\Beep.SimpleDraw.Web\Pages\Home.razor(285,41): error CS0246: The type or namespace name 'SkiaComponent' could not be found (are you missing a using directive or an assembly reference?) [C:\Users\f_ald\source\repos\The-Tech-Idea\Beep.SimpleDraw\src\Beep.SimpleDraw.Web\Beep.SimpleDraw.Web.csproj]
+C:\Users\f_ald\source\repos\The-Tech-Idea\Beep.SimpleDraw\src\Beep.SimpleDraw.Web\Pages\Home.razor(299,40): error CS0246: The type or namespace name 'SkiaComponent' could not be found (are you missing a using directive or an assembly reference?) [C:\Users\f_ald\source\repos\The-Tech-Idea\Beep.SimpleDraw\src\Beep.SimpleDraw.Web\Beep.SimpleDraw.Web.csproj]
+    0 Warning(s)
+    2 Error(s)
+
+Time Elapsed 00:00:06.27

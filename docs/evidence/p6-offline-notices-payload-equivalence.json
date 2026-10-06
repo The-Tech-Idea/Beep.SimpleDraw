@@ -1,0 +1,69 @@
+{
+  "previous": "p6-session-overlays-release",
+  "current": "p6-offline-notices-release",
+  "previousFiles": 402,
+  "currentFiles": 405,
+  "unchanged": 393,
+  "changes": [
+    {
+      "path": "js/notices.js",
+      "before": null,
+      "after": "2db2a30bcd07410f43e2ebc020d924192f104a0ed91bb89e78b1c5a709ec9915"
+    },
+    {
+      "path": "js/notices.js.br",
+      "before": null,
+      "after": "50183aeb3bc3c60533da0bb59f418395e03a465c2c443896fb916769cd98eabe"
+    },
+    {
+      "path": "js/notices.js.gz",
+      "before": null,
+      "after": "af95410b3be8fa9b60e49883f10a7d6754abed76bc84e33900b12f289f74f43a"
+    },
+    {
+      "path": "licenses/index.html",
+      "before": "dcb441dec7aa040dac9a2019ea574acc074d5ffad426b3c65b7ba4cb3098a999",
+      "after": "c72017b5e73b8ae940f392cce08d9f419995188159aba5913bc9b07e3e2d5152"
+    },
+    {
+      "path": "licenses/index.html.br",
+      "before": "439aea7dd09fc4fa3ea901bbc4f8903b8be90c2f8935e928bf636a029442b3de",
+      "after": "e3094dac3d425ed63becef67541fc8459f34c3f893f7ed998d818041a40a7c7d"
+    },
+    {
+      "path": "licenses/index.html.gz",
+      "before": "8fa25c3eb1a47a8ac769ef114f48caa78e431c85eddde6ecee49de68eb638e98",
+      "after": "e2bc0e3fe25dcd5589979b78fe52c237d71ec5b8040f80645ffb612ddf105bea"
+    },
+    {
+      "path": "service-worker-assets.js",
+      "before": "f6e28460f7b864ad3e44ed367bd4f0be9fa5d6a0cac28dbc4bedfc58a7b13e00",
+      "after": "80c86449aa5d1cd2257d0663cbbefcfadeb1026a84f600e7b4175b576974c219"
+    },
+    {
+      "path": "service-worker-assets.js.br",
+      "before": "e358659725e39d511bdfa6e4298756e67bac48ae441944de72eb4c26e5e59e9a",
+      "after": "d9952c6cb4ddde2c21649bf8069c7eae350ab0e86c38d29c93fa1de1018c5f9c"
+    },
+    {
+      "path": "service-worker-assets.js.gz",
+      "before": "9edbaac7bfb18841c632bccc1ea4ee38e850a06f005c352234483f3c4f6e9f90",
+      "after": "bfcac586d843f62b31a635ef19722a51ae55e3aa7889e4272f9b63ad2846504a"
+    },
+    {
+      "path": "service-worker.js",
+      "before": "85d3259e1f502078537fe3a676a3dc32381b953e276087077dfcf07c8d6d9a28",
+      "after": "717f4948e09230b16755350beecfd8fe9888e78c54ad964b7c0edd6e88439fab"
+    },
+    {
+      "path": "service-worker.js.br",
+      "before": "cee25d5a5d2b5cfbaffd9f3907ef3600c6c39d81f84031f846f83fdff808ed48",
+      "after": "3dc5fb5ca4908aac829ebb7ff2ddc615742c0643a97dbe63896e39cc8746ace8"
+    },
+    {
+      "path": "service-worker.js.gz",
+      "before": "0956b6313e02db38f8921a34df2e893b955c5c369a96ee34c85630f6f4d78ede",
+      "after": "60a3c73a81e7b169cc0a852586f5519837d11c165112d3f7a10140886efa5e9a"
+    }
+  ]
+}

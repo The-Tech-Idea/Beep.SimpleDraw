@@ -1,0 +1,91 @@
+- link "Skip to drawing":
+  - /url: "#drawing-workspace"
+- banner:
+  - link "SimpleDraw home":
+    - /url: ./
+    - generic: b.
+    - generic: simpledraw.
+  - generic: On your device
+  - button "New"
+  - text: Open
+  - button "Open a SimpleDraw file"
+  - button "Save drawing": Save drawing ↗
+  - button "Change interface language": ع
+- main "Drawing workspace":
+  - heading "Drawing workspace" [level=1]
+  - paragraph: Choose a tool shortcut to focus the canvas. Enter starts a shape, arrows move its cursor, Enter finishes it. Shift increases the step. T then Enter opens text editing. Select objects in the Objects list, then V and arrows to move, or Delete to remove them. The Style panel also offers numeric resizing.
+  - region "Drawing canvas" [active]
+  - navigation "Drawing tools":
+    - button "Select" [pressed]:
+      - generic: V
+    - button "Hand":
+      - generic: H
+    - button "Rectangle":
+      - generic: R
+    - button "Ellipse":
+      - generic: O
+    - button "Diamond":
+      - generic: D
+    - button "Line":
+      - generic: L
+    - button "Arrow":
+      - generic: A
+    - button "Pen":
+      - generic: P
+    - button "Text":
+      - generic: T
+    - button "Eraser":
+      - generic: E
+    - button "Delete selected" [disabled]:
+  - complementary "Shape style":
+    - text: Make it yours
+    - generic: Next shape
+    - group "Stroke":
+      - generic: Stroke
+      - button "Stroke Slate" [pressed]
+      - button "Stroke Violet"
+      - button "Stroke Coral"
+      - button "Stroke Green"
+      - button "Stroke Blue"
+    - group "Fill":
+      - generic: Fill
+      - button "Fill None" [pressed]: /
+      - button "Fill Lavender"
+      - button "Fill Peach"
+      - button "Fill Mint"
+      - button "Fill Sky"
+    - group "Stroke width":
+      - generic: Stroke width
+      - button "Stroke width 1"
+      - button "Stroke width 2" [pressed]
+      - button "Stroke width 4"
+    - group "Appearance":
+      - generic: Appearance
+      - button "Smooth" [pressed]
+      - button "Sketch"
+    - paragraph: Pick a tool, then drag on the canvas.
+  - generic "Objects 7"
+  - generic "Workflow templates"
+  - generic "Connectors 0"
+  - option "Choose a node" [selected]
+  - option "Choose a node" [selected]
+  - option "Straight" [selected]
+  - option "Elbow"
+  - option "Curve"
+  - generic "Library"
+  - generic "History":
+    - button "Undo" [disabled]: ↶
+    - button "Redo" [disabled]: ↷
+  - generic "Viewport":
+    - button "Zoom out": −
+    - button "Reset viewport": 100%
+    - button "Zoom in": +
+    - button "Fit drawing": ⊡
+  - button "Keyboard shortcuts": "?"
+  - generic "Export image"
+  - option "0.5×"
+  - option "1×" [selected]
+  - option "2×"
+  - option "4×"
+  - status: Restored from this device · your drawing is ready
+  - status: 7 objects; 0 selected.

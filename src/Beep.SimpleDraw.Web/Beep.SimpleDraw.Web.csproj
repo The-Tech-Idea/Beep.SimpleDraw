@@ -1,0 +1,28 @@
+<Project Sdk="Microsoft.NET.Sdk.BlazorWebAssembly">
+
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <OverrideHtmlAssetPlaceholders>true</OverrideHtmlAssetPlaceholders>
+    <ServiceWorkerAssetsManifest>service-worker-assets.js</ServiceWorkerAssetsManifest>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Components.WebAssembly" Version="10.0.12" />
+    <PackageReference Include="Microsoft.AspNetCore.Components.WebAssembly.DevServer" Version="10.0.12" PrivateAssets="all" Condition="'$(Configuration)' == 'Debug'" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="../Beep.SimpleDraw.Core/Beep.SimpleDraw.Core.csproj" />
+    <ProjectReference Include="../../../Beep.Skia/Beep.Skia.Blazor.Controls/Beep.Skia.Blazor.Controls.csproj" AdditionalProperties="GeneratePackageOnBuild=false;SkipMinVer=true;BeepSkiaLocalBuildCopies=false" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Remove="packages.net10.lock.json" />
+    <Content Include="../Beep.SimpleDraw.Core/Fonts/Kalam-Regular.ttf" Link="wwwroot/fonts/Kalam-Regular.ttf" CopyToOutputDirectory="PreserveNewest" CopyToPublishDirectory="PreserveNewest" />
+    <Content Include="../Beep.SimpleDraw.Core/Fonts/OFL.txt" Link="wwwroot/fonts/OFL.txt" CopyToOutputDirectory="PreserveNewest" CopyToPublishDirectory="PreserveNewest" />
+    <ServiceWorker Include="wwwroot\service-worker.js" PublishedContent="wwwroot\service-worker.published.js" />
+  </ItemGroup>
+
+</Project>
