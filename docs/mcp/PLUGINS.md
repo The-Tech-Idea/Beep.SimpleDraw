@@ -1,14 +1,27 @@
-# Installable SimpleDraw plugins
+# Beep SimpleDraw local plugins
 
-The distribution contains two native host packages backed by the same tested server and compiled Beep.Skia libraries. Neither needs a SimpleDraw or Beep.Skia source checkout. Both expose 31 MCP tools, 249 components across 16 families, portable property schemas, native files, PNG/SVG export and reusable libraries.
+SimpleDraw lets Codex and Claude Code create, edit, connect, save and render
+drawings on your computer. This Windows x64 package includes the local MCP
+server, 69 tools, 249 Beep.Skia components across 16 families, property schemas,
+native drawing files, PNG/SVG export and the SimpleDraw workflow skill.
+Publisher: The Tech Idea. Price: free, with no payments or purchases.
 
-## Install
+## Installation
 
-Download and extract `simpledraw-plugins-v1.zip` to a permanent directory. Run these commands from the extracted directory, which contains `.agents/`, `.claude-plugin/` and `plugins/`.
+Install the .NET 10 ASP.NET Core Runtime or SDK. `dotnet --list-runtimes` must
+show both `Microsoft.NETCore.App 10.x` and `Microsoft.AspNetCore.App 10.x`.
+The ordinary .NET Runtime alone is insufficient. This package contains Windows
+x64 native libraries; other operating systems and architectures are not covered.
 
-Install the .NET 10 SDK or .NET 10 ASP.NET Core Runtime first. `dotnet --list-runtimes` must include both `Microsoft.NETCore.App 10.x` and `Microsoft.AspNetCore.App 10.x`. The ordinary .NET Runtime alone is insufficient. No Node.js or PowerShell runtime is required by the plugin server. Native Skia dependencies must be available on the host; operating systems other than the tested Windows host require their own acceptance.
+Download the versioned marketplace ZIP from the
+[project's releases](https://github.com/The-Tech-Idea/Beep.SimpleDraw/releases),
+check its SHA-256 against the digest supplied with that release, and extract it
+to a permanent folder. A digest checks integrity; it does not establish publisher
+identity. A prepared local ZIP does not mean a release has been uploaded.
 
-### Codex CLI / local desktop client
+Run from the extracted **marketplace root**, containing `.agents/`,
+`.claude-plugin/` and `plugins/` (two folders above this README when reading it
+inside an individual plugin):
 
 ```sh
 codex plugin marketplace add .
@@ -16,38 +29,73 @@ codex plugin add simpledraw@beep-tools
 codex plugin list
 ```
 
-### Claude Code
+For Claude Code:
 
 ```sh
 claude plugin marketplace add .
 claude plugin install simpledraw@beep-tools --scope user
 claude plugin list
-claude plugin details simpledraw
 ```
 
-Start a new session after installation. Ask: "Use SimpleDraw to create a connected workflow with Beep.Skia components, render it, and export the native drawing." The included `simpledraw` skill guides discovery, property editing and revision-safe changes; in Claude Code it is `/simpledraw:simpledraw`.
+Keep the extracted marketplace folder. Start a new agent session and ask:
+"Use SimpleDraw to create a connected workflow, render it, and export its native
+drawing." In Claude Code, the included skill is `/simpledraw:simpledraw`.
+If your client does not support plugin marketplaces, update the client using its
+normal update process. No client update is performed by this package.
 
-Keep the extracted marketplace directory for updates. This is an installable local marketplace archive, not a public directory listing. A publisher can host this entire directory in a Git repository later and users can register its actual repository URL instead of `.`. No repository or public marketplace publication is implied by this package.
+## Link to a browser drawing
 
-## What is included
+Ask your local agent to link a drawing using the SimpleDraw tools. Enter its
+eight-digit code in **Link an agent** on
+[SimpleDraw](https://draw.thetechidea.app) within five minutes. The browser must
+be on the same computer. Allow the site's local-network permission when prompted.
+Once paired, document changes can pass between the browser and local MCP server
+using revision checks. Unlinked drawings can be exchanged as native files.
+The website URL is an allowed pairing origin, not a hosted MCP endpoint.
 
-`plugins/simpledraw-codex` uses the supported Codex manifest and relative MCP working directory. `plugins/simpledraw-claude` uses the Claude Code manifest and `${CLAUDE_PLUGIN_ROOT}` in its MCP arguments. Each includes its own copy of the same compiled server, native runtime assets, all Beep.Skia assemblies, discovery manifests and workflow skill. Host configuration differs; the drawing implementation is shared.
+The supplied server uses native document version 23. Local protocol acceptance
+includes version-20 migration, Arabic tables and refusal of future versions and
+stale revisions. This does not establish compatibility with a particular deployed
+browser build. If linking reports an unsupported SimpleDraw file version, check
+both the deployed website version and the installed plugin binary.
 
-Both clients default to the same local application data workspace, `Beep.SimpleDraw/mcp`. This is outside the plugin cache and survives plugin updates/uninstall. All mutations require the current document revision. Tool output and native artifacts are the integration surface; an open browser canvas is not live-synchronized. Every portable property is editable; other writable CLR properties are labeled runtime-only. Claude Desktop is not a Claude Code plugin host; its separate MCP configuration remains in README.md.
+## Local data and permissions
 
-`manifest.json` records SHA256 for every distributed file except itself. `simpledraw-plugins-v1.zip.sha256` authenticates the archive against the publisher-provided digest. A digest verifies integrity, not publisher identity. The package script refuses to overwrite an existing release.
+The default drawing workspace is `Beep.SimpleDraw/mcp` under the operating
+system's local application-data directory, outside the plugin cache. The two
+clients can use the same workspace. Drawings and exported files persist after
+plugin uninstall; manage them yourself. Pairing binds a local browser session to
+a drawing. Do not put secrets into drawing text. Content returned to your agent
+is processed under that agent provider's settings and terms. This plugin does not
+require IdentityServer registration or a hosted drawing account.
 
-## Remove
+## Package and licence
+
+The original SimpleDraw code is Apache-2.0; see `LICENSE.txt` and `NOTICE.txt`.
+Dependencies retain their own licences and original notices under `notices/`.
+The notice audit identifies the exact package archives and payload files checked;
+it does not claim complete legal review. The upstream Beep.Skia MIT notice still
+has copyright-holder/year placeholders, which remain an owner review item.
+
+The root `manifest.json` records every distributed file's SHA-256 except itself.
+Debug symbols, unrelated settings and non-Windows native binaries are excluded.
+The package builder refuses to overwrite an existing release.
+
+This is a local marketplace package for supported local clients. It is not a
+Claude Desktop MCPB extension or a hosted connector for Claude chat/ChatGPT.
+Official directory approval and publication are separate. Anthropic's current
+official plugin checklist limits individual files to under 5 MiB; the native
+Skia DLL in this local bundle exceeds that limit and needs a compliant delivery
+approach before official submission.
+
+## Removal and support
 
 ```sh
 codex plugin remove simpledraw@beep-tools
 claude plugin uninstall simpledraw@beep-tools --scope user
 ```
 
-If you previously installed the standalone server as `simpledraw`, remove that own entry after installing the plugin to avoid duplicate tools: `codex mcp remove simpledraw` and `claude mcp remove simpledraw --scope user`. Leave unrelated servers intact.
-
-## Build a distribution
-
-Publish and verify the server using `scripts/publish-mcp.ps1`, then run `scripts/package-mcp-plugins.ps1 -ServerRelease <published-directory> -Output <new-directory>`. The builder validates the payload's tool/component counts and hashes the copied package. It preserves existing server releases. Local engineering evidence and client installation results are in `docs/evidence/mcp-plugin-*`; interactive model sessions and other OS acceptance remain separate gates.
-
-Formats and installation follow [OpenAI plugin packaging](https://developers.openai.com/plugins/build/plugins), [Codex MCP plugin path resolution](https://github.com/openai/codex/blob/main/codex-rs/codex-mcp/src/plugin_config.rs), [Claude plugin reference](https://code.claude.com/docs/en/plugins-reference) and [Claude marketplaces](https://code.claude.com/docs/en/plugin-marketplaces).
+Uninstalling does not erase your drawings. For setup problems, report the client
+version, plugin version, operating system and redacted error at the
+[project repository](https://github.com/The-Tech-Idea/Beep.SimpleDraw). Do not
+include credentials, pairing codes or private drawings in a public report.

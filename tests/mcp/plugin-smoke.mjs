@@ -35,7 +35,15 @@ const data=async(name,args)=>JSON.parse((await call(name,args)).content.find(c=>
 try {
     await request('initialize',{protocolVersion:'2025-06-18',capabilities:{},clientInfo:{name:'Plugin package acceptance',version:'1.0'}});
     child.stdin.write(JSON.stringify({jsonrpc:'2.0',method:'notifications/initialized'})+'\n');
-    assert.equal((await request('tools/list')).tools.length,31);
+    const expectedTools=JSON.parse(await fs.readFile(new URL('../../distribution/mcp-plugins/shared/tools.json',import.meta.url),'utf8')).tools;
+    const listed=(await request('tools/list')).tools;assert.deepEqual(listed.map(t=>t.name).sort(),expectedTools);
+    for(const tool of listed) {
+        for(const hint of ['readOnlyHint','destructiveHint','openWorldHint']) assert.equal(typeof tool.annotations?.[hint],'boolean',`${tool.name}: ${hint}`);
+        assert.ok(tool.annotations.title?.length,`${tool.name}: human-readable title`);
+        assert.equal(tool.annotations.openWorldHint,false);
+        if(tool.annotations.readOnlyHint) assert.equal(tool.annotations.destructiveHint,false);
+    }
+    for(const name of ['export_drawing','render_drawing']) assert.equal(listed.find(t=>t.name===name).annotations.readOnlyHint,false,'File creation is a write');
     const catalog=await data('list_components');assert.equal(catalog.total,249);assert.equal(catalog.families.length,16);
     const schema=await data('describe_component',{type:'Beep.Skia.Flowchart.ProcessNode'});assert.ok(schema.properties.length);
     let board=await data('create_drawing',{name:`${client} installed plugin acceptance`});
@@ -46,7 +54,7 @@ try {
     const rendered=await call('render_drawing',{drawingId:board.id});assert.ok(rendered.content.some(c=>c.type==='image'));
     const resources=await request('resources/list');assert.ok(resources.resources.length);
     assert.equal(badLine,undefined);
-    const record={client,pluginRoot:root,configuredLauncher:true,serverHash,tools:31,components:249,families:16,propertySchema:true,nativeExport:true,png:true,inlineRender:true,resources:true,stdoutJsonOnly:true};
+    const record={client,pluginRoot:root,configuredLauncher:true,serverHash,tools:expectedTools.length,explicitAnnotations:true,toolTitles:true,components:249,families:16,propertySchema:true,nativeExport:true,png:true,inlineRender:true,resources:true,stdoutJsonOnly:true};
     await fs.writeFile(path.join(work,'acceptance.json'),JSON.stringify(record,null,2));
     console.log(JSON.stringify(record));
 } finally {child.kill();await fs.writeFile(path.join(work,'stderr.log'),stderr);}

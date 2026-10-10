@@ -2,7 +2,7 @@
   "mcpServers": {
     "simpledraw": {
       "command": "dotnet",
-      "args": ["${CLAUDE_PLUGIN_ROOT}/server/Beep.SimpleDraw.Mcp.dll"]
+      "args": ["${CLAUDE_PLUGIN_ROOT}/server/Beep.SimpleDraw.Mcp.dll", "--link-origin", "https://draw.thetechidea.app"]
     }
   }
 }

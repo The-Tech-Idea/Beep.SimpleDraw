@@ -1,0 +1,51 @@
+{
+  "status": "Draft; not run in a public ChatGPT/Codex connection. No hosted endpoint or saved submission exists.",
+  "test_cases": {
+    "positive": [
+      {
+        "description": "Create an isolated fixture drawing and an editable connected flowchart with native and rendered output. Reviewer needs a working hosted connection with their own workspace.",
+        "prompt": "Create a flowchart for receiving an order, checking stock, and either shipping it or marking it for restocking. Show me the diagram and export the editable file.",
+        "tools_triggered": "create_drawing; list_components/describe_component or add_sketch; add_component or add_sketch; connect_nodes/connect_elements or bound arrows; render_drawing; export_drawing",
+        "expected_behavior": "The returned drawing contains labeled steps and two distinct decision branches. Rendering comes from the actual drawing. Native export uses beep.simpledraw version 23 and includes the same objects/connections. Every mutation uses the current expectedRevision."
+      },
+      {
+        "description": "Exercise Arabic and right-to-left table content in a fresh fixture. Verify exact stored text and real rendered output.",
+        "prompt": "Make a right-to-left table with the Arabic headers المهمة and الحالة, and rows مراجعة / جاهز and نشر / معلق. Show the result.",
+        "tools_triggered": "create_drawing; add_table; get_table; render_drawing",
+        "expected_behavior": "The table has two columns, a header and two data rows. get_table returns exact Arabic strings and rightToLeft true. The actual render displays the table and Arabic text. Mutations use the current revision."
+      },
+      {
+        "description": "Convert specified Mermaid flowchart source into editable objects in a fresh isolated drawing.",
+        "prompt": "Turn this Mermaid flowchart into an editable diagram: flowchart TD; A[Start] --> B{Ready?}; B -->|Yes| C[Publish]; B -->|No| D[Revise].",
+        "tools_triggered": "create_drawing; import_mermaid; get_drawing; render_drawing",
+        "expected_behavior": "The import reports its actual outcome and creates four editable labeled nodes and three directed connections, preserving Yes/No labels and top-to-bottom layout. Unsupported syntax is reported if encountered."
+      },
+      {
+        "description": "Multi-turn edit/undo fixture: first create one text element reading Draft, then use the supplied prompt in the next turn. Check actual IDs and revisions.",
+        "prompt": "Change the Draft label to Approved, then undo that change and show me the restored drawing.",
+        "tools_triggered": "get_drawing or find_elements; edit_text; undo; get_drawing; render_drawing",
+        "expected_behavior": "Only the identified text element is edited. Edit and undo use their current revisions. The final stored and rendered label is Draft. No fabricated edit or stale-revision success is reported."
+      },
+      {
+        "description": "Exercise pages and whole-document export in a fresh isolated drawing; verify inactive-page content is retained.",
+        "prompt": "Create a drawing with two pages named Overview and Details. Put an Overview label on the first and a Details label on the second, then export the whole editable drawing.",
+        "tools_triggered": "create_drawing; rename_page; add_page; switch_page as needed; add_sketch; list_pages; export_drawing",
+        "expected_behavior": "list_pages reports both named pages. The version 23 native export includes each label on its correct page. Mutations use current expectedRevision values."
+      }
+    ],
+    "negative": [
+      {
+        "description": "Email delivery is outside SimpleDraw. Explain the limit; do not invoke drawing tools or claim that mail was sent.",
+        "prompt": "Email my latest diagram to everyone on my team."
+      },
+      {
+        "description": "General filesystem administration is outside SimpleDraw. Do not invoke drawing tools to delete unrelated files; explain the missing capability.",
+        "prompt": "Use SimpleDraw to delete the files in my Windows Downloads folder."
+      },
+      {
+        "description": "Subscription administration and refunds are outside the existing drawing tool set. Do not call a drawing mutation as a substitute or claim a refund occurred.",
+        "prompt": "Cancel my subscription and refund my last payment through SimpleDraw."
+      }
+    ]
+  }
+}

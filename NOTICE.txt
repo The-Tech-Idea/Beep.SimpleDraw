@@ -1,0 +1,8 @@
+Beep SimpleDraw
+Publisher: The Tech Idea
+Source: https://github.com/The-Tech-Idea/Beep.SimpleDraw
+
+The owner selected Apache License 2.0 for the original SimpleDraw code on
+2026-10-10. See LICENSE.txt for the licence terms. This does not replace
+the separate licences of embedded fonts, Beep.Skia or package dependencies.
+Local MCP distributions include their original notices under notices/.

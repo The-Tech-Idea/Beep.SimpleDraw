@@ -1,7 +1,9 @@
 {
   "name": "simpledraw",
-  "version": "1.0.0",
-  "description": "Create and edit portable drawings with 249 embedded Beep.Skia components and 31 MCP tools.",
+  "version": "1.0.1",
+  "license": "Apache-2.0",
+  "repository": "https://github.com/The-Tech-Idea/Beep.SimpleDraw",
+  "description": "Create and edit portable drawings with 249 embedded Beep.Skia components and MCP tools for discovery, editing, arranging and export.",
   "author": { "name": "The Tech Idea" },
   "keywords": ["drawing", "diagrams", "beep-skia", "mcp"]
 }

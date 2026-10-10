@@ -20,13 +20,15 @@ The published app is static and needs no database or application server. Serve i
 
 The consolidated candidate is `artifacts/simpledraw-v1-final`, built for `/draw/`. [Final delivery](docs/FINAL_DELIVERY.md) records package hashes and browser verification. The [release checklist](docs/RELEASE_CHECKLIST.md) separates local engineering verification from physical-device, production-host and independent acceptance.
 
-The authoritative [master tracker](plans/enhancements/MASTER_TRACKER.md), [SDD](docs/SDD.md) and [RACI](docs/RACI.md) retain stage scope and historical evidence. Optional live collaboration and public plugin directory publication remain deferred.
+The authoritative [master tracker](plans/enhancements/MASTER_TRACKER.md), [SDD](docs/SDD.md) and [RACI](docs/RACI.md) retain stage scope and historical evidence. The plugin draft release is separate from public directory approval.
 
 ## Codex and Claude Code plugins
 
-The installable archive is `artifacts/simpledraw-plugins-v1.zip`. Each host package bundles the same compiled server, Beep.Skia libraries, **31 MCP tools**, property schemas and a workflow skill. Both are installed locally as `simpledraw@beep-tools`.
+The prepared Windows x64 draft asset is `simpledraw-plugins-1.0.1-2026-10-10-r2.zip`, with its matching SHA-256 file. The asset contains the accepted local native-version-23 MCP server, 69 tools, 249 Beep.Skia components, standard/dark icons, Apache-2.0 terms for SimpleDraw and original dependency notices. Both packages install as `simpledraw@beep-tools`.
 
-Follow [plugin installation](docs/mcp/PLUGINS.md) for other users. The server needs the .NET 10 SDK or ASP.NET Core Runtime. [MCP documentation](docs/mcp/README.md) covers standalone/Claude Desktop setup and the property contract. Browser exchange uses native files, without live synchronization. Public directory submission is deferred at the user's request.
+Follow [plugin installation](docs/mcp/PLUGINS.md). The package needs the .NET 10 SDK or ASP.NET Core Runtime and supports PC-local browser pairing without IdentityServer registration. [Release handoff](docs/mcp/GITHUB_RELEASE_1.0.1.md) records the asset digest and remaining directory gates; [focused acceptance](docs/evidence/mcp-plugin-release-1.0.1-2026-10-10.md) records both clients' installation and rendering checks.
+
+This release-preparation branch contains the packaging, client metadata and review materials. The asset was built and tested from the owner's newer local version-23 working snapshot. The older drawing-engine source on this branch is not the complete source snapshot for that asset, so building this branch does not reproduce the 69-tool binary. Engine and identity changes remain outside this scoped commit. Download/install the asset only after its draft is reviewed and published; the source repository itself is not a directly installable marketplace.
 
 ## Build and preview
 

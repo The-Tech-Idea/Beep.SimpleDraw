@@ -5,6 +5,8 @@ import path from 'node:path';
 import assert from 'node:assert/strict';
 const dll=path.resolve(process.argv[2]??'src/Beep.SimpleDraw.Mcp/bin/Release/net10.0/Beep.SimpleDraw.Mcp.dll');
 const root=path.resolve(process.argv[3]??'docs/evidence/mcp-stdio-workspace');
+const evidence=path.resolve(process.argv[4]??'docs/evidence');
+await fs.mkdir(evidence,{recursive:true});
 const child=spawn('dotnet',[dll,'--workspace',root],{stdio:['pipe','pipe','pipe']});
 let stderr='';child.stderr.on('data',b=>stderr+=b);let sequence=0;const pending=new Map();let invalidLine;
 readline.createInterface({input:child.stdout}).on('line',line=>{try {const response=JSON.parse(line);if(response.id!==undefined){const task=pending.get(response.id);pending.delete(response.id);task?.resolve(response);}}catch(e){invalidLine=line;}});
@@ -15,12 +17,12 @@ const data=async(name,args)=>JSON.parse((await call(name,args)).content.find(c=>
 try {
     const init=await request('initialize',{protocolVersion:'2025-06-18',capabilities:{},clientInfo:{name:'SimpleDraw protocol acceptance',version:'1.0'}});
     child.stdin.write(JSON.stringify({jsonrpc:'2.0',method:'notifications/initialized'})+'\n');
-    const tools=await request('tools/list');assert.equal(tools.tools.length,31);
-    await fs.writeFile('docs/evidence/mcp-tool-manifest.json',JSON.stringify(tools,null,2));
+    const tools=await request('tools/list');assert.deepEqual(tools.tools.map(t=>t.name).sort(),JSON.parse(await fs.readFile(new URL('../../distribution/mcp-plugins/shared/tools.json',import.meta.url),'utf8')).tools);
+    await fs.writeFile(path.join(evidence,'mcp-tool-manifest.json'),JSON.stringify(tools,null,2));
     const first=await data('list_components',{});assert.equal(first.total,249);assert.equal(first.families.length,16);
     const entries=[];for(let offset=0;offset<249;offset+=100) entries.push(...(await data('list_components',{offset})).components);
     const schemas=[];for(const entry of entries) {const schema=await data('describe_component',{type:entry.type});assert.equal(schema.type,entry.type);assert.ok(schema.properties.length>0);schemas.push(schema);}
-    await fs.writeFile('docs/evidence/mcp-component-schemas.json',JSON.stringify(schemas,null,2));
+    await fs.writeFile(path.join(evidence,'mcp-component-schemas.json'),JSON.stringify(schemas,null,2));
     let board=await data('create_drawing',{name:'Claude and Codex MCP acceptance'});const id=board.id;
     const mutate=async(name,args={})=>{board=await data(name,{drawingId:id,expectedRevision:board.revision,...args});return board;};
     await mutate('add_component',{type:'Beep.Skia.Flowchart.ProcessNode',x:0,y:0});const source=board.selection[0];
@@ -67,6 +69,6 @@ try {
     const resources=await request('resources/list');assert.ok(resources.resources.some(r=>r.uri==='simpledraw://guide'));
     const read=await request('resources/read',{uri:`simpledraw://drawings/${id}`});assert.equal(read.contents[0].text,native.nativeJson);
     assert.equal(invalidLine,undefined,'stdout must contain only JSON-RPC');
-    const evidence={protocolVersion:init.protocolVersion,tools:tools.tools.length,components:entries.length,families:first.families.length,componentSchemas:schemas.length,calls,drawingId:id,revision:board.revision,native:native.path,png:png.path,svg:svg.path,inlinePng:true,resources:true,staleRevisionRejected:true,stdoutJsonOnly:true};
-    await fs.writeFile('docs/evidence/mcp-stdio-acceptance.json',JSON.stringify(evidence,null,2));console.log(JSON.stringify(evidence));
-} finally {child.stdin.end();const exited=new Promise(r=>child.once('exit',r));await Promise.race([exited,new Promise(r=>setTimeout(r,3000))]);if(child.exitCode===null)child.kill();await fs.writeFile('docs/evidence/mcp-stdio-stderr.log',stderr);}
+    const record={protocolVersion:init.protocolVersion,tools:tools.tools.length,components:entries.length,families:first.families.length,componentSchemas:schemas.length,calls,drawingId:id,revision:board.revision,native:native.path,png:png.path,svg:svg.path,inlinePng:true,resources:true,staleRevisionRejected:true,stdoutJsonOnly:true};
+    await fs.writeFile(path.join(evidence,'mcp-stdio-acceptance.json'),JSON.stringify(record,null,2));console.log(JSON.stringify(record));
+} finally {child.stdin.end();const exited=new Promise(r=>child.once('exit',r));await Promise.race([exited,new Promise(r=>setTimeout(r,3000))]);if(child.exitCode===null)child.kill();await fs.writeFile(path.join(evidence,'mcp-stdio-stderr.log'),stderr);}
