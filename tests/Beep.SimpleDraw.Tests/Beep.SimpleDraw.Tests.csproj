@@ -20,7 +20,7 @@
     <Content Include="../../docs/evidence/p5-connected-browser-library.json" Link="Fixtures/connected-library.json" CopyToOutputDirectory="PreserveNewest" />
     <Content Include="../../docs/evidence/p5-connected-browser-export.svg" Link="Fixtures/connected.svg" CopyToOutputDirectory="PreserveNewest" />
     <Content Include="../../docs/evidence/p5-connected-browser-export.png" Link="Fixtures/connected.png" CopyToOutputDirectory="PreserveNewest" />
-    <PackageReference Include="Microsoft.NET.Test.Sdk" Version="17.9.0" />
+    <PackageReference Include="Microsoft.NET.Test.Sdk" Version="18.11.0" />
     <PackageReference Include="xunit" Version="2.5.3" />
     <PackageReference Include="xunit.runner.visualstudio" Version="2.5.3" />
     <ProjectReference Include="../../src/Beep.SimpleDraw.Core/Beep.SimpleDraw.Core.csproj" />
